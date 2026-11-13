@@ -12,6 +12,7 @@ Started 2026-11-13. This file is the hand-over point for any device, agent or se
 - **Images.** Research and use images, preferably ones licensed for commercial apps. A missing matching photo is not a reason to drop a stop: look for a photo, a historical drawing, a plate or other illustration. The owner may add her own photos, but only where nothing usable exists online.
 - **Supporting content.** A glossary, timelines and temple plans, plus explanations of the kings and gods.
 - **Preservation.** Keep logs and details in GitHub so the work can be resumed from another device, agent or incognito session.
+- **Local only (2026-11-14).** The owner is keeping the project in the local repository for now. Commit locally; do not push.
 
 ## Writing rules for each stop
 
@@ -43,7 +44,8 @@ Caution goes in one plain sentence, and only where it changes what the reader sh
 
 ## Working constraints found 2026-11-13
 
-- The agent shells in this setup cannot reach github.com or Wikimedia. The agent commits locally and the owner pushes, until GitHub access is granted to the agent.
+- The agent shells in this setup cannot reach github.com or Wikimedia. Work is committed to the local repository only (owner decision, 2026-11-14).
+- Line endings: `.gitattributes` sets `* text=auto`, so Windows CRLF working copies no longer show as modified.
 - Images are downloaded through the browser on the owner's computer and then moved into `assets/photos/` with checksums.
 
 ## Status
