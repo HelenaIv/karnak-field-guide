@@ -24,5 +24,16 @@
     "sety-ii-shrine",
     "taharqo-kiosk",
     "ramesses-iii-temple"
+  ],
+  "sources": [
+    "digital-karnak-first-pylon",
+    "dk-great-court",
+    "dk-second-pylon",
+    "hypostyle-project-architecture",
+    "dk-third-pylon",
+    "dk-fourth-pylon",
+    "dk-hatshepsut-obelisks",
+    "dk-central-bark-shrine",
+    "digital-karnak-akhmenu"
   ]
 }

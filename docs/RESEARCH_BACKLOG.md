@@ -36,3 +36,20 @@
 ## Explicitly deferred
 
 GPS, audio, AI-based translation and automatically inferred wall positions.
+
+## 2026-11-13 progress and remaining depth
+
+- [x] Repository audit and detailed architecture.
+- [x] Seed coverage expanded to 18 monuments; 16 ruler and 5 broad period index records. These are not full biographies or phase catalogues.
+- [x] Claim-level evidence labels, 11 typed relationships and cross-reference validation.
+- [x] Close-reading lesson, three added Hypostyle details and one sign-reading research dossier.
+- [x] Acquire and preserve three CC BY-SA 4.0 original context photographs with provenance.
+- [x] Record recovered owner requirements and technology plan, plus recovery and work logs.
+- [ ] Inspect exact epigraphic plates for life sign, raised/sunk pair, cartouches and bark scene; no verified translation yet.
+- [ ] Obtain matched, commercially reusable detail images and a licensed site plan.
+- [ ] Develop original schematic animations, with reduced-motion alternatives.
+- [ ] Expand primary-source verification and coverage of southern axis, Ptah, Mut, Montu, Aten and later phases.
+- [ ] English editorial/expert review, then Ukrainian translation with independent review.
+- [ ] Owner decisions: audience, monetisation and design; choose frontend only after clarifying relevant needs.
+- [ ] Set up WordPress/JetEngine when owner supplies site; implement reviewed-content export and atomic offline pack downloads.
+- [ ] Real-device offline testing and later store preparation.

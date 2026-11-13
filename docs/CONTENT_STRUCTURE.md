@@ -45,3 +45,7 @@ Use lowercase ASCII slugs: `hypostyle-hall`, `hypostyle-central-columns`. Never 
 ## App architecture recommendation (not yet implemented)
 
 Store editorial data as versioned JSON/Markdown in git, validate with a schema before build, compile into a static offline content bundle, and make media optional/lazy-loaded for storage. The v1 app should support bookmarking and search locally without accounts. Avoid external services that break offline reading.
+
+## Current additive architecture
+
+See `RESEARCH_ARCHITECTURE.md` for the version-2 claim, people/period, inscription and relationship contracts; `DETAIL_ENTRY_STANDARD.md` for the core close-reading experience; and `TECHNOLOGY_ARCHITECTURE.md` for the WordPress/JetEngine export and offline app proposal. The earlier static bundle recommendation remains useful as a distribution format, while WordPress/JetEngine is the confirmed authoring backend. No frontend framework has been selected.

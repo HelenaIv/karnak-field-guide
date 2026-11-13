@@ -6,6 +6,14 @@ A scholarly, site-specific digital field guide to the Karnak temple complex at L
 
 **Research and content foundation (in progress).** This repository does **not** yet contain an application. Content is original editorial synthesis based on the sources credited in `content/sources.json`; it is not a peer-reviewed epigraphic edition.
 
+## Confirmed direction
+
+WordPress + JetEngine backend, with a separate app; English first and Ukrainian planned. Text, images and selected animations, without audio. Downloadable content for offline use, with future Google Play and Apple App Store distribution in mind. No WordPress site or frontend implementation exists yet. Framework and packaging choices remain proposals.
+
+**Resume after a lost chat:** read [docs/RECOVERY.md](docs/RECOVERY.md). Confirmed requirements are in [docs/PROJECT_REQUIREMENTS.md](docs/PROJECT_REQUIREMENTS.md); implementation proposal in [docs/TECHNOLOGY_ARCHITECTURE.md](docs/TECHNOLOGY_ARCHITECTURE.md).
+
+The core product is **close observation and explanation**, not a generic monument walk. See [docs/DETAIL_ENTRY_STANDARD.md](docs/DETAIL_ENTRY_STANDARD.md).
+
 ## Scope of v1
 
 - Responsive mobile, tablet, and desktop web experience
@@ -26,6 +34,12 @@ A scholarly, site-specific digital field guide to the Karnak temple complex at L
 - `content/details/` — individual scenes, carvings and visual features
 - `content/lessons/` — location-linked reading guides
 - `content/routes/` — editorial suggested walks (not live directions)
+
+Additional research data: `content/people/`, `content/periods/`, `content/themes/`, `content/inscriptions/` and `content/relationships.json`. Rights-cleared research photos and credits are in `assets/`; provenance in `content/media.json` and `research/media-provenance/`. Daily work logs are in `docs/logs/`.
+
+## Validation
+
+Run `python scripts/validate_content.py` and `git diff --check` before commits. No additional dependencies required. Validation checks data integrity, not historical accuracy.
 
 ## Reading this repository
 

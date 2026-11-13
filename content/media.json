@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "retrieved": "2026-11-13",
+  "media": [
+    {
+      "id": "great-court-ramesses-temple",
+      "path": "assets/photos/great-court-ramesses-temple.jpg",
+      "title": "Templo de Karnak, Luxor, Egipto, 2022-04-03, DD 142.jpg",
+      "creator": "Diego Delso",
+      "creatorUrl": "https://delso.photo",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_142.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Templo_de_Karnak%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_142.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercialReuse": "Permitted under the recorded licence, subject to attribution, ShareAlike for adaptations and no additional restrictions.",
+      "attribution": "Diego Delso, delso.photo, CC BY-SA 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Legible credit next to each image, with links to source, creator and licence; offline credits must retain these URLs.",
+      "changes": "None; downloaded original bytes.",
+      "retrieved": "2026-11-13",
+      "sha256": "efc323dd348e4c8af238e4083fa4433b0c6ad0cd53f8fa4637b2c8a9b17a6062",
+      "bytes": 11336940,
+      "placeIds": [
+        "great-court",
+        "ramesses-iii-temple"
+      ],
+      "caption": "Great Court view toward Ramesses III’s temple",
+      "alt": "A court view showing columns and a small temple gateway.",
+      "identificationStatus": "Broad architectural subject visually inspected; no scene numbers or sign readings established.",
+      "provenanceSnapshot": "research/media-provenance/great-court-ramesses-temple.json",
+      "distributionStatus": "Research asset; retain open licence and accessible source copy when packaging for app stores.",
+      "offlineDerivativeStatus": "Original master preserved; smaller distribution derivatives still to be generated and tracked."
+    },
+    {
+      "id": "hypostyle-central-nave",
+      "path": "assets/photos/hypostyle-central-nave.jpg",
+      "title": "Templo de Karnak, Luxor, Egipto, 2022-04-03, DD 147.jpg",
+      "creator": "Diego Delso",
+      "creatorUrl": "https://delso.photo",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_147.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Templo_de_Karnak%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercialReuse": "Permitted under the recorded licence, subject to attribution, ShareAlike for adaptations and no additional restrictions.",
+      "attribution": "Diego Delso, delso.photo, CC BY-SA 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Legible credit next to each image, with links to source, creator and licence; offline credits must retain these URLs.",
+      "changes": "None; downloaded original bytes.",
+      "retrieved": "2026-11-13",
+      "sha256": "99e3b3218ce5a8d9c51a23bdf15b9104eecc9e681bb6827c311b0f5d0767fff8",
+      "bytes": 10693680,
+      "placeIds": [
+        "hypostyle-hall"
+      ],
+      "caption": "Great Hypostyle Hall central nave",
+      "alt": "Tall columns with open papyrus capitals and surviving overhead beams frame an aisle.",
+      "identificationStatus": "Broad architectural subject visually inspected; no scene numbers or sign readings established.",
+      "provenanceSnapshot": "research/media-provenance/hypostyle-central-nave.json",
+      "distributionStatus": "Research asset; retain open licence and accessible source copy when packaging for app stores.",
+      "offlineDerivativeStatus": "Original master preserved; smaller distribution derivatives still to be generated and tracked."
+    },
+    {
+      "id": "hypostyle-column-inscriptions",
+      "path": "assets/photos/hypostyle-column-inscriptions.jpg",
+      "title": "Templo de Karnak, Luxor, Egipto, 2022-04-03, DD 168.jpg",
+      "creator": "Diego Delso",
+      "creatorUrl": "https://delso.photo",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_168.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Templo_de_Karnak%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_168.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercialReuse": "Permitted under the recorded licence, subject to attribution, ShareAlike for adaptations and no additional restrictions.",
+      "attribution": "Diego Delso, delso.photo, CC BY-SA 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Legible credit next to each image, with links to source, creator and licence; offline credits must retain these URLs.",
+      "changes": "None; downloaded original bytes.",
+      "retrieved": "2026-11-13",
+      "sha256": "63e70e00f2e91604e6b9b295f60530a85437c5ce5fdd1fc4cc15267904fb25b6",
+      "bytes": 8722130,
+      "placeIds": [
+        "hypostyle-hall"
+      ],
+      "caption": "Great Hypostyle Hall column inscriptions",
+      "alt": "Carved figures and bands of hieroglyphs cover columns beneath stone beams.",
+      "identificationStatus": "Broad architectural subject visually inspected; no scene numbers or sign readings established.",
+      "provenanceSnapshot": "research/media-provenance/hypostyle-column-inscriptions.json",
+      "distributionStatus": "Research asset; retain open licence and accessible source copy when packaging for app stores.",
+      "offlineDerivativeStatus": "Original master preserved; smaller distribution derivatives still to be generated and tracked."
+    }
+  ]
+}

@@ -74,5 +74,12 @@
     "hypostyle-sety-life-sign"
   ],
   "relationshipRegistry": "content/relationships.json",
-  "researchArchitecture": "docs/RESEARCH_ARCHITECTURE.md"
+  "researchArchitecture": "docs/RESEARCH_ARCHITECTURE.md",
+  "availableLanguages": [
+    "en"
+  ],
+  "plannedLanguages": [
+    "uk"
+  ],
+  "mediaRegistry": "content/media.json"
 }
