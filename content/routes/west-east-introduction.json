@@ -1,0 +1,17 @@
+{
+  "id": "west-east-introduction",
+  "type": "route",
+  "title": "Architecture through time: west to east",
+  "status": "needs_field_check",
+  "description": "An initial sequence following the western entry toward the temple's eastern extension. This is an interpretive order, not a complete pedestrian map.",
+  "placeIds": [
+    "first-pylon",
+    "hypostyle-hall",
+    "akhmenu"
+  ],
+  "note": "Major intervening stops (Great Court, Second and Third Pylons, obelisks, sanctuary) must be documented before this becomes a visitor-ready itinerary.",
+  "accessWarnings": [
+    "Do not rely on this record for actual navigational access.",
+    "Routes and available access can change."
+  ]
+}
