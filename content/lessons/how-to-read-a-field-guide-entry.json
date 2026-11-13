@@ -1,0 +1,47 @@
+{
+  "id": "how-to-read-a-field-guide-entry",
+  "type": "lesson",
+  "title": "How to look at a temple wall",
+  "status": "source_checked",
+  "level": "beginner",
+  "linkedPlaces": [
+    "hypostyle-hall"
+  ],
+  "topics": [
+    "observation",
+    "epigraphy",
+    "relief-technique",
+    "historical-phases"
+  ],
+  "steps": [
+    {
+      "title": "Locate the stone",
+      "body": "First identify the correct wall, face, column or doorway; a similar motif may occur elsewhere."
+    },
+    {
+      "title": "Separate image from inscription",
+      "body": "Describe the depicted figures and actions before attempting to translate text."
+    },
+    {
+      "title": "Notice carving technique",
+      "body": "Look at whether forms stand proud of the background or are cut into the stone; repairs and later recarving complicate the evidence."
+    },
+    {
+      "title": "Identify a royal name cautiously",
+      "body": "A cartouche outlines a royal name, but a name can be reused or re-cut. A specific text requires a published reading."
+    },
+    {
+      "title": "Compare a documented edition",
+      "body": "Use wall labels and numbered plates in a scholarly epigraphic edition; never infer ancient text solely from a modern summary."
+    }
+  ],
+  "sources": [
+    "oip-142",
+    "hypostyle-project-2011",
+    "digital-karnak-architecture"
+  ],
+  "caveats": [
+    "This introduction is observational, not a lesson claiming to teach verified hieroglyph readings.",
+    "A later lesson will demonstrate actual signs only once photo, edition and transliteration have been aligned."
+  ]
+}
