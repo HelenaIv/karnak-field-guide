@@ -1,0 +1,19 @@
+{
+  "id": "hatshepsut",
+  "type": "person",
+  "title": "Hatshepsut",
+  "aliases": [],
+  "status": "source_checked",
+  "periodId": "new-kingdom",
+  "placeIds": [
+    "hatshepsut-obelisks",
+    "red-chapel",
+    "central-bark-shrine"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-central-bark-shrine",
+    "dk-hatshepsut-obelisks",
+    "dk-red-chapel"
+  ]
+}

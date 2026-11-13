@@ -1,0 +1,15 @@
+{
+  "id": "ptolemy-viii",
+  "type": "person",
+  "title": "Ptolemy VIII",
+  "aliases": [],
+  "status": "source_checked",
+  "periodId": "macedonian-ptolemaic",
+  "placeIds": [
+    "opet-temple"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-opet-temple"
+  ]
+}

@@ -6,12 +6,23 @@
   "description": "An initial sequence following the western entry toward the temple's eastern extension. This is an interpretive order, not a complete pedestrian map.",
   "placeIds": [
     "first-pylon",
+    "great-court",
+    "second-pylon",
     "hypostyle-hall",
+    "third-pylon",
+    "fourth-pylon",
+    "hatshepsut-obelisks",
+    "central-bark-shrine",
     "akhmenu"
   ],
-  "note": "Major intervening stops (Great Court, Second and Third Pylons, obelisks, sanctuary) must be documented before this becomes a visitor-ready itinerary.",
+  "note": "Interpretive sequence with intervening spaces, turns and access unverified; not a walking navigation graph.",
   "accessWarnings": [
     "Do not rely on this record for actual navigational access.",
     "Routes and available access can change."
+  ],
+  "optionalPlaceIds": [
+    "sety-ii-shrine",
+    "taharqo-kiosk",
+    "ramesses-iii-temple"
   ]
 }

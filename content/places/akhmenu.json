@@ -33,5 +33,11 @@
   "details": [],
   "sources": [
     "digital-karnak-akhmenu"
+  ],
+  "personIds": [
+    "thutmose-iii"
+  ],
+  "periodIds": [
+    "new-kingdom"
   ]
 }

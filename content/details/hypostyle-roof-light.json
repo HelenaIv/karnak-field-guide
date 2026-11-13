@@ -1,0 +1,51 @@
+{
+  "id": "hypostyle-roof-light",
+  "type": "detail",
+  "placeId": "hypostyle-hall",
+  "title": "The missing roof changes what you see",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "position": "Central nave and adjacent clerestory remains.",
+  "question": "Why make the middle columns taller?",
+  "observation": "The height difference leaves space for stone-grilled windows.",
+  "explanation": "Roof slabs rested on architraves; the clerestory admitted light above the lower side roofs. The present open sky is not the ancient lighting arrangement.",
+  "lookFor": [
+    "Trace the load path: capital, abacus, architrave, former roof slabs.",
+    "Identify the window level rather than assuming the gaps are ordinary doorways."
+  ],
+  "claims": [
+    {
+      "id": "roof-load",
+      "text": "Columns supported architraves and roof slabs.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "memphis-roof",
+          "locator": "The Clerestory and Roof"
+        }
+      ]
+    },
+    {
+      "id": "roof-light",
+      "text": "The raised nave created room for grilled clerestory windows; the roofed hall admitted much less light than today.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "memphis-roof",
+          "locator": "The Clerestory and Roof"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "memphis-roof"
+  ],
+  "uncertainties": [
+    "No numerical reconstruction of ancient light levels is available here.",
+    "Do not infer exact intended symbolism from engineering alone."
+  ]
+}

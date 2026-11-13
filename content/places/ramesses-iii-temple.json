@@ -1,0 +1,67 @@
+{
+  "id": "ramesses-iii-temple",
+  "type": "place",
+  "title": "Ramesses III’s bark temple",
+  "area": "western-entrance",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Ramesses III built a festival bark station with three divine bark chambers.",
+  "orientation": "South of the Second Pylon, incorporated into the later Great Court.",
+  "personIds": [
+    "ramesses-iii",
+    "shoshenq-i"
+  ],
+  "periodIds": [
+    "new-kingdom",
+    "third-intermediate"
+  ],
+  "architecture": [
+    "A small pylon leads to a statue-lined court, vestibule and hypostyle hall."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "ramesses-iii-temple-location",
+      "text": "South of the Second Pylon, incorporated into the later Great Court.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-ramesses-iii-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "ramesses-iii-temple-fabric",
+      "text": "Ramesses III built a festival bark station with three divine bark chambers. A small pylon leads to a statue-lined court, vestibule and hypostyle hall.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-ramesses-iii-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "ramesses-iii-temple-1",
+      "text": "The temple stands perpendicular to the main east–west processional route; its chambers served Amun, Mut and Khonsu.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-ramesses-iii-temple",
+          "locator": "Introduction; Phases of Construction: Ramesses III"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-ramesses-iii-temple"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "bubastite-portal",
+  "type": "place",
+  "title": "Bubastite Portal",
+  "area": "western-entrance",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Shoshenq I’s exterior reliefs proclaim victories in Syro-Palestine.",
+  "orientation": "Between Ramesses III’s temple and the Second Pylon, off the Great Court.",
+  "personIds": [
+    "shoshenq-i"
+  ],
+  "periodIds": [
+    "third-intermediate"
+  ],
+  "architecture": [
+    "Captive figures with name-rings form a topographical list."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "bubastite-portal-location",
+      "text": "Between Ramesses III’s temple and the Second Pylon, off the Great Court.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-bubastite-portal",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "bubastite-portal-fabric",
+      "text": "Shoshenq I’s exterior reliefs proclaim victories in Syro-Palestine. Captive figures with name-rings form a topographical list.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-bubastite-portal",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "bubastite-portal-1",
+      "text": "The list is a royal representation of defeated places or peoples, not a neutral modern itinerary. Individual identifications need the epigraphic edition.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-bubastite-portal",
+          "locator": "Phases of Construction: Shoshenq I"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-bubastite-portal"
+  ]
+}

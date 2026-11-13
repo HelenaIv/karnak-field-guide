@@ -1,0 +1,15 @@
+{
+  "id": "horemheb",
+  "type": "person",
+  "title": "Horemheb",
+  "aliases": [],
+  "status": "source_checked",
+  "periodId": "new-kingdom",
+  "placeIds": [
+    "second-pylon"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-second-pylon"
+  ]
+}

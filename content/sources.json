@@ -96,6 +96,266 @@
       "url": "https://isac.uchicago.edu/research/publications/oip/oip-142-great-hypostyle-hall-temple-amun-karnak",
       "kind": "epigraphic edition",
       "note": "Authoritative wall- and plate-organized translation, commentary and documentation; individual passages must be checked before quotation."
+    },
+    {
+      "id": "dk-great-court",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Shoshenq I Court",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/shoshenq-i-court/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-taharqo-kiosk",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Taharqo Kiosk",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/taharqo-kiosk/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-sety-ii-shrine",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Sety II Shrine",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/sety-ii-shrine/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-ramesses-iii-temple",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Ramesses III Temple",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/ramesses-iii-temple/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-central-bark-shrine",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Central Bark Shrine",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/central-bark-shrine/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-hatshepsut-obelisks",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Obelisks of Wadjet Hall",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/obelisks-of-wadjet-hall/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-sacred-lake",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Sacred Lake",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/sacred-lake/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-white-chapel",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "White Chapel",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/white-chapel/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-red-chapel",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Red Chapel",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/red-chapel/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-khonsu-temple",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Khonsu Temple",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/khonsu-temple/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-opet-temple",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Opet Temple",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/opet-temple/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-bubastite-portal",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Bubastite Portal",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/bubastite-portal/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-second-pylon",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "2nd Pylon",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/2nd-pylon/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-third-pylon",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "3rd Pylon",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/3rd-pylon/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-fourth-pylon",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "4th Pylon and Enclosure",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/4th-pylon-and-enclosure/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-13",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "memphis-interior",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "Interior Wall Scenes",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/interior_scenes.php",
+      "kind": "specialist project interpretation",
+      "accessed": "2026-11-13",
+      "consultation": "Web text and captions; precise epigraphic plates still require review.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "memphis-scene-structure",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "Structure of Ritual Scenes",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/reliefs_inscriptions/structure-ritual-scenes.php",
+      "kind": "specialist project interpretation",
+      "accessed": "2026-11-13",
+      "consultation": "Web text and captions; precise epigraphic plates still require review.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "memphis-scene-sequence",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "Ritual Scenes and their Sequence",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/reliefs_inscriptions/ritual-scenes.php",
+      "kind": "specialist project interpretation",
+      "accessed": "2026-11-13",
+      "consultation": "Web text and captions; precise epigraphic plates still require review.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "memphis-roof",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "Clerestory and Roof",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/clerestory_roof.php",
+      "kind": "specialist project interpretation",
+      "accessed": "2026-11-13",
+      "consultation": "Web text and captions; precise epigraphic plates still require review.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "memphis-marginal",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "Marginal Decoration, Graffiti and Popular Religious Practices",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/reliefs_inscriptions/marginal-decoration.php",
+      "kind": "specialist project interpretation",
+      "accessed": "2026-11-13",
+      "consultation": "Web text and captions; precise epigraphic plates still require review.",
+      "rights": "Reference only; media reuse not cleared."
     }
   ]
 }

@@ -1,0 +1,76 @@
+{
+  "id": "taharqo-kiosk",
+  "type": "place",
+  "title": "Taharqo’s kiosk",
+  "area": "western-entrance",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "The freestanding kiosk had ten open-papyrus columns in two rows.",
+  "orientation": "Within the Great Court.",
+  "personIds": [
+    "taharqo"
+  ],
+  "periodIds": [
+    "third-intermediate"
+  ],
+  "architecture": [
+    "One column survives complete in the source documentation."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "taharqo-kiosk-location",
+      "text": "Within the Great Court.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-taharqo-kiosk",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "taharqo-kiosk-fabric",
+      "text": "The freestanding kiosk had ten open-papyrus columns in two rows. One column survives complete in the source documentation.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-taharqo-kiosk",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "taharqo-kiosk-1",
+      "text": "Its large span suggests an unroofed structure; a solar renewal ceremony has been proposed as its function.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-taharqo-kiosk",
+          "locator": "Introduction; Phases of Construction: Taharqo"
+        }
+      ]
+    },
+    {
+      "id": "taharqo-kiosk-2",
+      "text": "An earlier wooden kiosk and an older calcite bark support have been proposed from excavation evidence.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-taharqo-kiosk",
+          "locator": "Phases of Construction: Taharqo"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-taharqo-kiosk"
+  ]
+}

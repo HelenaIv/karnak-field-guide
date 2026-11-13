@@ -1,0 +1,78 @@
+{
+  "id": "third-pylon",
+  "type": "place",
+  "title": "Third Pylon",
+  "area": "western-interior",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Amenhotep III constructed this pylon using dismantled earlier monuments in its foundations and fill.",
+  "orientation": "At the eastern end of the Hypostyle Hall, west of the Fourth Pylon.",
+  "personIds": [
+    "amenhotep-iii",
+    "akhenaten",
+    "sety-i"
+  ],
+  "periodIds": [
+    "new-kingdom"
+  ],
+  "architecture": [
+    "Later incorporation into Sety I’s hall changed the appearance of its western façade."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "third-pylon-location",
+      "text": "At the eastern end of the Hypostyle Hall, west of the Fourth Pylon.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-third-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "third-pylon-fabric",
+      "text": "Amenhotep III constructed this pylon using dismantled earlier monuments in its foundations and fill. Later incorporation into Sety I’s hall changed the appearance of its western façade.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-third-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "third-pylon-1",
+      "text": "The decoration includes Amenhotep III’s jubilee and the sacred bark on a journey to Luxor.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-third-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "third-pylon-2",
+      "text": "A planned colonnade before the pylon is a scholarly proposal; the reason for moving the entrance eastward is unknown.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-third-pylon",
+          "locator": "Phases of Construction: Amenhotep III"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-third-pylon"
+  ]
+}

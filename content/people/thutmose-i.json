@@ -1,0 +1,15 @@
+{
+  "id": "thutmose-i",
+  "type": "person",
+  "title": "Thutmose I",
+  "aliases": [],
+  "status": "source_checked",
+  "periodId": "new-kingdom",
+  "placeIds": [
+    "fourth-pylon"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-fourth-pylon"
+  ]
+}

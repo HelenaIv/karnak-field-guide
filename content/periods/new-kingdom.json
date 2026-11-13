@@ -1,0 +1,39 @@
+{
+  "id": "new-kingdom",
+  "type": "period",
+  "title": "New Kingdom",
+  "status": "source_checked",
+  "approximateRange": "ca. mid-second millennium to late second millennium BCE",
+  "datingNote": "Editorial orientation only; boundaries and reign dates vary. Exact regnal dates are deliberately not harmonised.",
+  "personIds": [
+    "thutmose-i",
+    "hatshepsut",
+    "thutmose-iii",
+    "amenhotep-iii",
+    "akhenaten",
+    "horemheb",
+    "sety-i",
+    "ramesses-ii",
+    "sety-ii",
+    "ramesses-iii"
+  ],
+  "sources": [
+    "digital-karnak-akhmenu",
+    "digital-karnak-hypostyle",
+    "dk-central-bark-shrine",
+    "dk-fourth-pylon",
+    "dk-hatshepsut-obelisks",
+    "dk-khonsu-temple",
+    "dk-ramesses-iii-temple",
+    "dk-red-chapel",
+    "dk-sacred-lake",
+    "dk-second-pylon",
+    "dk-sety-ii-shrine",
+    "dk-third-pylon",
+    "dk-white-chapel",
+    "hypostyle-project-2011",
+    "hypostyle-project-architecture",
+    "hypostyle-project-columns",
+    "oip-142"
+  ]
+}

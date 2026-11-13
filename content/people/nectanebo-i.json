@@ -1,0 +1,18 @@
+{
+  "id": "nectanebo-i",
+  "type": "person",
+  "title": "Nectanebo I",
+  "aliases": [],
+  "status": "source_checked",
+  "periodId": "late-period",
+  "placeIds": [
+    "first-pylon",
+    "great-court"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "digital-karnak-architecture",
+    "digital-karnak-first-pylon",
+    "dk-great-court"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "hypostyle-sety-life-sign",
+  "type": "inscription",
+  "title": "Why is a king holding the life sign?",
+  "placeId": "hypostyle-hall",
+  "status": "needs_epigraphic_review",
+  "surface": "South interior wall, scene of Ramesses II purifying a statue of Sety I; register and exact position pending edition match.",
+  "researchQuestion": "How does a small held object distinguish a deceased, deified king from an ordinary royal participant?",
+  "claims": [
+    {
+      "id": "life-sign",
+      "text": "The project caption identifies Sety I’s held ankh as an indicator of divine status in this scene.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Interior Wall Scenes: final caption Ramesses II purifies a statue of his deified father Sety I"
+        }
+      ]
+    }
+  ],
+  "editionTarget": {
+    "sourceId": "oip-142",
+    "locator": "South Wall, West Wing (published plate range 42–53); project image filename suggests plate 48, not yet independently checked."
+  },
+  "translationStatus": "withheld_pending_edition_check",
+  "transliteration": null,
+  "translation": null,
+  "sources": [
+    "memphis-interior",
+    "oip-142"
+  ],
+  "nextChecks": [
+    "Inspect the published plate and commentary together.",
+    "Confirm wall, register, scene number and statue identity.",
+    "Verify sign identification against the actual image before adding a sign drawing or reading.",
+    "Clear image rights and field-check visitor viewpoint."
+  ]
+}

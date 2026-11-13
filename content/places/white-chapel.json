@@ -1,0 +1,89 @@
+{
+  "id": "white-chapel",
+  "type": "place",
+  "title": "White Chapel of Senusret I",
+  "area": "open-air-museum",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "This limestone chapel preserves Senusret I’s jubilee decoration.",
+  "orientation": "Reconstructed in the Open Air Museum; its ancient original location is disputed.",
+  "personIds": [
+    "senusret-i",
+    "amenhotep-iii"
+  ],
+  "periodIds": [
+    "middle-kingdom",
+    "new-kingdom"
+  ],
+  "architecture": [
+    "Four internal pillars are surrounded by twelve outer pillars."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "white-chapel-location",
+      "text": "Reconstructed in the Open Air Museum; its ancient original location is disputed.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "white-chapel-fabric",
+      "text": "This limestone chapel preserves Senusret I’s jubilee decoration. Four internal pillars are surrounded by twelve outer pillars.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "white-chapel-1",
+      "text": "Personified regions and their measurements occur on the base; this is a promising precisely located reading lesson.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "white-chapel-2",
+      "text": "An initial festival-kiosk function followed by conversion to a bark shrine is proposed.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Phases of Construction: Senusret I"
+        }
+      ]
+    },
+    {
+      "id": "white-chapel-3",
+      "text": "Amenhotep III reused the dismantled blocks in the Third Pylon.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Destruction: Amenhotep III"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-white-chapel"
+  ]
+}

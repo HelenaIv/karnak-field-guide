@@ -1,0 +1,39 @@
+{
+  "id": "hypostyle-painted-details",
+  "type": "detail",
+  "placeId": "hypostyle-hall",
+  "title": "What carving alone cannot tell you",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "position": "North interior wall, bark reliefs illustrated by the project; exact panel pending.",
+  "question": "Why can a photograph of bare stone lose information?",
+  "observation": "The project identifies fans beside a sacred bark rendered in paint.",
+  "explanation": "Some details were supplied in colour rather than carved. Loss of pigment changes how complete a scene looks.",
+  "lookFor": [
+    "Use the published bark close-up to distinguish surviving paint from modeled stone."
+  ],
+  "claims": [
+    {
+      "id": "paint-fans",
+      "text": "Fans beside a bark were supplied in paint; some colour survives in the project illustration.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Interior Wall Scenes: caption Detailed view from one of the bark procession scenes"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "memphis-interior"
+  ],
+  "uncertainties": [
+    "Precise scene and plate must be matched before claiming an on-site viewing position.",
+    "No image reproduction rights have been cleared."
+  ]
+}

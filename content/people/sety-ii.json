@@ -1,0 +1,17 @@
+{
+  "id": "sety-ii",
+  "type": "person",
+  "title": "Sety II",
+  "aliases": [
+    "Seti II"
+  ],
+  "status": "source_checked",
+  "periodId": "new-kingdom",
+  "placeIds": [
+    "sety-ii-shrine"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-sety-ii-shrine"
+  ]
+}

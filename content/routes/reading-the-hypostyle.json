@@ -1,0 +1,29 @@
+{
+  "id": "reading-the-hypostyle",
+  "type": "route",
+  "title": "One hall, many ways to read stone",
+  "status": "needs_field_check",
+  "description": "A close-observation study sequence within one monument, not a timed highlights walk.",
+  "placeIds": [
+    "hypostyle-hall"
+  ],
+  "detailIds": [
+    "hypostyle-central-columns",
+    "hypostyle-roof-light",
+    "hypostyle-relief-techniques",
+    "hypostyle-painted-details",
+    "hypostyle-later-cartouches"
+  ],
+  "lessonIds": [
+    "reading-a-ritual-scene"
+  ],
+  "accessWarnings": [
+    "Exact demonstration panels and safe standing positions must be checked before turning this study sequence into on-site instructions."
+  ],
+  "sources": [
+    "hypostyle-project-architecture",
+    "memphis-roof",
+    "memphis-interior",
+    "memphis-marginal"
+  ]
+}

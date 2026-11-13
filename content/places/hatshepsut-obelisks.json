@@ -1,0 +1,77 @@
+{
+  "id": "hatshepsut-obelisks",
+  "type": "place",
+  "title": "Hatshepsut’s Wadjet Hall obelisks",
+  "area": "central-temple",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Hatshepsut erected rose-granite obelisks associated with her jubilee.",
+  "orientation": "Originally a pair within the Wadjet Hall; the northern obelisk remains standing.",
+  "personIds": [
+    "hatshepsut",
+    "thutmose-iii"
+  ],
+  "periodIds": [
+    "new-kingdom"
+  ],
+  "architecture": [
+    "The pair must be distinguished from other obelisk pairs at Karnak."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "hatshepsut-obelisks-location",
+      "text": "Originally a pair within the Wadjet Hall; the northern obelisk remains standing.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-hatshepsut-obelisks",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "hatshepsut-obelisks-fabric",
+      "text": "Hatshepsut erected rose-granite obelisks associated with her jubilee. The pair must be distinguished from other obelisk pairs at Karnak.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-hatshepsut-obelisks",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "hatshepsut-obelisks-1",
+      "text": "The obelisk texts refer to the jubilee of regnal year 16. No translation is supplied here.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-hatshepsut-obelisks",
+          "locator": "Phases of Construction: Hatshepsut"
+        }
+      ]
+    },
+    {
+      "id": "hatshepsut-obelisks-2",
+      "text": "Enclosure of the bases is traditionally assigned to Thutmose III, but a revised chronology proposes Hatshepsut herself. Do not present concealment from personal hatred as fact.",
+      "certainty": "disputed",
+      "citations": [
+        {
+          "sourceId": "dk-hatshepsut-obelisks",
+          "locator": "Phases of Construction: Thutmose III"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-hatshepsut-obelisks"
+  ]
+}

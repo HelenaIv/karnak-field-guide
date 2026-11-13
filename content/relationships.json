@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "scope": "Archaeological and interpretive relationships, never walkability guarantees. Museum chapel reuse edges refer to ancient blocks, not modern museum placement.",
+  "relationships": [
+    {
+      "id": "great-court-contains-taharqo-kiosk",
+      "from": "great-court",
+      "predicate": "contains",
+      "to": "taharqo-kiosk",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-taharqo-kiosk",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "great-court-contains-sety-ii-shrine",
+      "from": "great-court",
+      "predicate": "contains",
+      "to": "sety-ii-shrine",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-great-court",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "great-court-contains-ramesses-iii-temple",
+      "from": "great-court",
+      "predicate": "contains",
+      "to": "ramesses-iii-temple",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-great-court",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "second-pylon-west_of-hypostyle-hall",
+      "from": "second-pylon",
+      "predicate": "west_of",
+      "to": "hypostyle-hall",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-second-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "hypostyle-hall-west_of-third-pylon",
+      "from": "hypostyle-hall",
+      "predicate": "west_of",
+      "to": "third-pylon",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Architectural Design of the Hall"
+        }
+      ]
+    },
+    {
+      "id": "third-pylon-west_of-fourth-pylon",
+      "from": "third-pylon",
+      "predicate": "west_of",
+      "to": "fourth-pylon",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-third-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "red-chapel-replaced_by-central-bark-shrine",
+      "from": "red-chapel",
+      "predicate": "replaced_by",
+      "to": "central-bark-shrine",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-central-bark-shrine",
+          "locator": "Phases of Construction: Thutmose III"
+        }
+      ]
+    },
+    {
+      "id": "white-chapel-blocks_reused_in-third-pylon",
+      "from": "white-chapel",
+      "predicate": "blocks_reused_in",
+      "to": "third-pylon",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Destruction: Amenhotep III"
+        }
+      ]
+    },
+    {
+      "id": "red-chapel-blocks_reused_in-third-pylon",
+      "from": "red-chapel",
+      "predicate": "blocks_reused_in",
+      "to": "third-pylon",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Destruction: Thutmose III"
+        }
+      ]
+    },
+    {
+      "id": "opet-temple-west_of-khonsu-temple",
+      "from": "opet-temple",
+      "predicate": "west_of",
+      "to": "khonsu-temple",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-opet-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "opet-temple-ritually_related-khonsu-temple",
+      "from": "opet-temple",
+      "predicate": "ritually_related",
+      "to": "khonsu-temple",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-opet-temple",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ]
+}

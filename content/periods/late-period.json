@@ -1,0 +1,16 @@
+{
+  "id": "late-period",
+  "type": "period",
+  "title": "Late Period",
+  "status": "source_checked",
+  "approximateRange": "ca. 7th–4th centuries BCE",
+  "datingNote": "Editorial orientation only; boundaries and reign dates vary. Exact regnal dates are deliberately not harmonised.",
+  "personIds": [
+    "nectanebo-i"
+  ],
+  "sources": [
+    "digital-karnak-architecture",
+    "digital-karnak-first-pylon",
+    "dk-great-court"
+  ]
+}

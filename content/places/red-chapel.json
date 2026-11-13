@@ -1,0 +1,78 @@
+{
+  "id": "red-chapel",
+  "type": "place",
+  "title": "Red Chapel of Hatshepsut",
+  "area": "open-air-museum",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Hatshepsut’s red-quartzite bark chapel provided a resting place for Amun’s portable sacred bark.",
+  "orientation": "Reconstructed in the Open Air Museum, separate from its ancient sanctuary setting.",
+  "personIds": [
+    "hatshepsut",
+    "thutmose-iii",
+    "amenhotep-iii"
+  ],
+  "periodIds": [
+    "new-kingdom"
+  ],
+  "architecture": [
+    "A vestibule and sanctuary form its two-room plan."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "red-chapel-location",
+      "text": "Reconstructed in the Open Air Museum, separate from its ancient sanctuary setting.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "red-chapel-fabric",
+      "text": "Hatshepsut’s red-quartzite bark chapel provided a resting place for Amun’s portable sacred bark. A vestibule and sanctuary form its two-room plan.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "red-chapel-1",
+      "text": "Exterior scenes include obelisk erection and the Opet and Beautiful Feast of the Valley processions.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "red-chapel-2",
+      "text": "Thutmose III first completed decoration and later dismantled the chapel; Amenhotep III subsequently reused blocks in the Third Pylon foundations. These are separate interventions.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Destruction: Thutmose III"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-red-chapel"
+  ]
+}

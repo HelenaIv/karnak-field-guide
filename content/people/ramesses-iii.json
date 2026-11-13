@@ -1,0 +1,17 @@
+{
+  "id": "ramesses-iii",
+  "type": "person",
+  "title": "Ramesses III",
+  "aliases": [],
+  "status": "source_checked",
+  "periodId": "new-kingdom",
+  "placeIds": [
+    "ramesses-iii-temple",
+    "khonsu-temple"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-khonsu-temple",
+    "dk-ramesses-iii-temple"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "shoshenq-i",
+  "type": "person",
+  "title": "Shoshenq I",
+  "aliases": [
+    "Sheshonq I"
+  ],
+  "status": "source_checked",
+  "periodId": "third-intermediate",
+  "placeIds": [
+    "great-court",
+    "bubastite-portal"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-bubastite-portal",
+    "dk-great-court"
+  ]
+}

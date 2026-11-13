@@ -1,0 +1,17 @@
+{
+  "id": "philip-iii",
+  "type": "person",
+  "title": "Philip III Arrhidaeus",
+  "aliases": [
+    "Philip Arrhidaeus"
+  ],
+  "status": "source_checked",
+  "periodId": "macedonian-ptolemaic",
+  "placeIds": [
+    "central-bark-shrine"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-central-bark-shrine"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "second-pylon",
+  "type": "place",
+  "title": "Second Pylon",
+  "area": "western-interior",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Horemheb extended the temple westward with this gateway.",
+  "orientation": "East of the Great Court, forming the western boundary of the Hypostyle Hall.",
+  "personIds": [
+    "horemheb"
+  ],
+  "periodIds": [
+    "new-kingdom"
+  ],
+  "architecture": [
+    "Its role changed from external entrance to boundary of the later columned hall."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "second-pylon-location",
+      "text": "East of the Great Court, forming the western boundary of the Hypostyle Hall.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-second-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "second-pylon-fabric",
+      "text": "Horemheb extended the temple westward with this gateway. Its role changed from external entrance to boundary of the later columned hall.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-second-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "second-pylon-1",
+      "text": "Ramesses I replaced Horemheb’s cartouches; a name on a gateway therefore need not identify its original builder.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-second-pylon",
+          "locator": "Phases of Construction: Horemheb"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-second-pylon"
+  ]
+}

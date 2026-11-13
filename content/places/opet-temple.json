@@ -1,0 +1,76 @@
+{
+  "id": "opet-temple",
+  "type": "place",
+  "title": "Temple of Opet",
+  "area": "southwestern-temples",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "The temple includes an elevated sanctuary and crypts associated with Osiris.",
+  "orientation": "West of Khonsu’s temple in the southwest Amun precinct.",
+  "personIds": [
+    "ptolemy-viii"
+  ],
+  "periodIds": [
+    "macedonian-ptolemaic"
+  ],
+  "architecture": [
+    "Its small hall has Hathor-headed columns."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "opet-temple-location",
+      "text": "West of Khonsu’s temple in the southwest Amun precinct.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-opet-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "opet-temple-fabric",
+      "text": "The temple includes an elevated sanctuary and crypts associated with Osiris. Its small hall has Hathor-headed columns.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-opet-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "opet-temple-1",
+      "text": "A rear shrine opposite a Khonsu temple doorway suggests a ritual relationship; it does not demonstrate a currently usable passage.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-opet-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "opet-temple-2",
+      "text": "Digital Karnak’s phase account explicitly warns that the modeled sequence is simplified. Consult newer architectural publications before assigning the whole building to one ruler.",
+      "certainty": "unknown",
+      "citations": [
+        {
+          "sourceId": "dk-opet-temple",
+          "locator": "About the reconstruction model of Ptolemy III"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-opet-temple"
+  ]
+}

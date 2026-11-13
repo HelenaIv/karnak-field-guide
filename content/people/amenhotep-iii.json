@@ -1,0 +1,19 @@
+{
+  "id": "amenhotep-iii",
+  "type": "person",
+  "title": "Amenhotep III",
+  "aliases": [],
+  "status": "source_checked",
+  "periodId": "new-kingdom",
+  "placeIds": [
+    "third-pylon",
+    "white-chapel",
+    "red-chapel"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-red-chapel",
+    "dk-third-pylon",
+    "dk-white-chapel"
+  ]
+}

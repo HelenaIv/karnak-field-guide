@@ -1,0 +1,21 @@
+{
+  "id": "ramesses-ii",
+  "type": "person",
+  "title": "Ramesses II",
+  "aliases": [
+    "Ramses II"
+  ],
+  "status": "source_checked",
+  "periodId": "new-kingdom",
+  "placeIds": [
+    "hypostyle-hall"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "digital-karnak-hypostyle",
+    "hypostyle-project-2011",
+    "hypostyle-project-architecture",
+    "hypostyle-project-columns",
+    "oip-142"
+  ]
+}

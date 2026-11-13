@@ -1,25 +1,78 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-11-13",
   "site": "Karnak Temple Complex",
   "contentLanguage": "en",
   "placeIds": [
+    "akhmenu",
+    "bubastite-portal",
+    "central-bark-shrine",
     "first-pylon",
+    "fourth-pylon",
+    "great-court",
+    "hatshepsut-obelisks",
     "hypostyle-hall",
-    "akhmenu"
+    "khonsu-temple",
+    "opet-temple",
+    "ramesses-iii-temple",
+    "red-chapel",
+    "sacred-lake",
+    "second-pylon",
+    "sety-ii-shrine",
+    "taharqo-kiosk",
+    "third-pylon",
+    "white-chapel"
   ],
   "detailIds": [
     "first-pylon-construction-ramps",
     "hypostyle-central-columns",
-    "hypostyle-relief-techniques"
+    "hypostyle-later-cartouches",
+    "hypostyle-painted-details",
+    "hypostyle-relief-techniques",
+    "hypostyle-roof-light"
   ],
   "lessonIds": [
-    "how-to-read-a-field-guide-entry"
+    "how-to-read-a-field-guide-entry",
+    "reading-a-ritual-scene"
   ],
   "routeIds": [
+    "reading-the-hypostyle",
     "west-east-introduction"
   ],
   "sourceRegistry": "content/sources.json",
   "editorialStandards": "docs/EDITORIAL_STANDARDS.md",
-  "notes": "Research seed content; not a public-ready guide."
+  "notes": "Research seed content; not a public-ready guide.",
+  "personIds": [
+    "akhenaten",
+    "amenhotep-iii",
+    "hatshepsut",
+    "horemheb",
+    "nectanebo-i",
+    "philip-iii",
+    "ptolemy-viii",
+    "ramesses-ii",
+    "ramesses-iii",
+    "senusret-i",
+    "sety-i",
+    "sety-ii",
+    "shoshenq-i",
+    "taharqo",
+    "thutmose-i",
+    "thutmose-iii"
+  ],
+  "periodIds": [
+    "late-period",
+    "macedonian-ptolemaic",
+    "middle-kingdom",
+    "new-kingdom",
+    "third-intermediate"
+  ],
+  "themeIds": [
+    "barks-and-processions"
+  ],
+  "inscriptionIds": [
+    "hypostyle-sety-life-sign"
+  ],
+  "relationshipRegistry": "content/relationships.json",
+  "researchArchitecture": "docs/RESEARCH_ARCHITECTURE.md"
 }

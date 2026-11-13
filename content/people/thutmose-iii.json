@@ -1,0 +1,19 @@
+{
+  "id": "thutmose-iii",
+  "type": "person",
+  "title": "Thutmose III",
+  "aliases": [],
+  "status": "source_checked",
+  "periodId": "new-kingdom",
+  "placeIds": [
+    "akhmenu",
+    "central-bark-shrine",
+    "sacred-lake"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "digital-karnak-akhmenu",
+    "dk-central-bark-shrine",
+    "dk-sacred-lake"
+  ]
+}

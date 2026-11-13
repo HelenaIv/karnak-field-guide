@@ -1,0 +1,44 @@
+{
+  "id": "barks-and-processions",
+  "type": "theme",
+  "title": "Why are there boat shrines inside a temple?",
+  "status": "source_checked",
+  "placeIds": [
+    "sety-ii-shrine",
+    "ramesses-iii-temple",
+    "central-bark-shrine",
+    "red-chapel",
+    "sacred-lake"
+  ],
+  "claims": [
+    {
+      "id": "bark-rest",
+      "text": "A sacred bark could be a portable ritual boat resting within a chapel, not a vessel floating on water inside that room.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Phases of Construction: Hatshepsut"
+        }
+      ]
+    },
+    {
+      "id": "bark-stations",
+      "text": "Bark stations along processional routes accommodated divine images during festival journeys.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-ramesses-iii-temple",
+          "locator": "Phases of Construction: Ramesses III"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "dk-red-chapel",
+    "dk-ramesses-iii-temple"
+  ],
+  "limits": [
+    "Do not equate every modern visitor route with a documented ancient procession."
+  ]
+}

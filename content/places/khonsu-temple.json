@@ -1,0 +1,78 @@
+{
+  "id": "khonsu-temple",
+  "type": "place",
+  "title": "Temple of Khonsu",
+  "area": "southwestern-temples",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "The surviving temple was begun under Ramesses III for Khonsu, child of Amun and Mut.",
+  "orientation": "Southwest of the Amun precinct, with its principal axis facing south.",
+  "personIds": [
+    "ramesses-iii",
+    "taharqo"
+  ],
+  "periodIds": [
+    "new-kingdom",
+    "third-intermediate"
+  ],
+  "architecture": [
+    "A court and columned hall lead toward distinct statue and bark accommodation."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "khonsu-temple-location",
+      "text": "Southwest of the Amun precinct, with its principal axis facing south.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-khonsu-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "khonsu-temple-fabric",
+      "text": "The surviving temple was begun under Ramesses III for Khonsu, child of Amun and Mut. A court and columned hall lead toward distinct statue and bark accommodation.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-khonsu-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "khonsu-temple-1",
+      "text": "Scholars differ on whether later royal inscriptions identify new construction phases or decoration of an already completed building.",
+      "certainty": "disputed",
+      "citations": [
+        {
+          "sourceId": "dk-khonsu-temple",
+          "locator": "Phases of Construction (paragraph following Ramesses III attribution)"
+        }
+      ]
+    },
+    {
+      "id": "khonsu-temple-2",
+      "text": "Reused Amenhotep III blocks do not by themselves prove an earlier Khonsu temple on this exact site.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-khonsu-temple",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-khonsu-temple"
+  ]
+}

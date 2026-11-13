@@ -1,0 +1,16 @@
+{
+  "id": "macedonian-ptolemaic",
+  "type": "period",
+  "title": "Macedonian and Ptolemaic periods",
+  "status": "source_checked",
+  "approximateRange": "late 4th–1st centuries BCE",
+  "datingNote": "Editorial orientation only; boundaries and reign dates vary. Exact regnal dates are deliberately not harmonised.",
+  "personIds": [
+    "philip-iii",
+    "ptolemy-viii"
+  ],
+  "sources": [
+    "dk-central-bark-shrine",
+    "dk-opet-temple"
+  ]
+}

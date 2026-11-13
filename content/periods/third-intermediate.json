@@ -1,0 +1,19 @@
+{
+  "id": "third-intermediate",
+  "type": "period",
+  "title": "Third Intermediate Period",
+  "status": "source_checked",
+  "approximateRange": "ca. 11th–7th centuries BCE; includes Kushite Dynasty 25 here",
+  "datingNote": "Editorial orientation only; boundaries and reign dates vary. Exact regnal dates are deliberately not harmonised.",
+  "personIds": [
+    "shoshenq-i",
+    "taharqo"
+  ],
+  "sources": [
+    "dk-bubastite-portal",
+    "dk-great-court",
+    "dk-khonsu-temple",
+    "dk-sacred-lake",
+    "dk-taharqo-kiosk"
+  ]
+}

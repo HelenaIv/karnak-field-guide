@@ -39,7 +39,10 @@
   ],
   "details": [
     "hypostyle-central-columns",
-    "hypostyle-relief-techniques"
+    "hypostyle-later-cartouches",
+    "hypostyle-painted-details",
+    "hypostyle-relief-techniques",
+    "hypostyle-roof-light"
   ],
   "sources": [
     "digital-karnak-hypostyle",
@@ -47,5 +50,12 @@
     "hypostyle-project-columns",
     "hypostyle-project-2011",
     "oip-142"
+  ],
+  "personIds": [
+    "sety-i",
+    "ramesses-ii"
+  ],
+  "periodIds": [
+    "new-kingdom"
   ]
 }

@@ -35,5 +35,11 @@
   "sources": [
     "digital-karnak-first-pylon",
     "digital-karnak-architecture"
+  ],
+  "personIds": [
+    "nectanebo-i"
+  ],
+  "periodIds": [
+    "late-period"
   ]
 }

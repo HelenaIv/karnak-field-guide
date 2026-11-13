@@ -1,0 +1,14 @@
+{
+  "id": "middle-kingdom",
+  "type": "period",
+  "title": "Middle Kingdom",
+  "status": "source_checked",
+  "approximateRange": "ca. early second millennium BCE",
+  "datingNote": "Editorial orientation only; boundaries and reign dates vary. Exact regnal dates are deliberately not harmonised.",
+  "personIds": [
+    "senusret-i"
+  ],
+  "sources": [
+    "dk-white-chapel"
+  ]
+}

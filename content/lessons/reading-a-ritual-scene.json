@@ -1,0 +1,58 @@
+{
+  "id": "reading-a-ritual-scene",
+  "type": "lesson",
+  "title": "Read a scene before trying to translate it",
+  "status": "source_checked",
+  "placeIds": [
+    "hypostyle-hall"
+  ],
+  "steps": [
+    "Find a single scene boundary and its register (horizontal tier).",
+    "Identify the king, the deity facing him, and the action or offered object.",
+    "Separate royal names above the king, the action label between figures, and divine names/speeches near the gods.",
+    "Check neighbouring scenes for a relationship; do not assume an entire wall is one chronological story."
+  ],
+  "claims": [
+    {
+      "id": "scene-layout",
+      "text": "Royal identity, ritual action labels and divine speech occupy distinguishable parts of the scene.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "memphis-scene-structure",
+          "locator": "Structure of Ritual Scenes: paragraphs on upper texts, label text and divine speeches"
+        }
+      ]
+    },
+    {
+      "id": "scene-direction",
+      "text": "The king normally faces inward and deities outward in the project’s description; this is scene composition, not a universal text-reading rule.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "memphis-scene-structure",
+          "locator": "Structure of Ritual Scenes: opening paragraph"
+        }
+      ]
+    },
+    {
+      "id": "scene-registers",
+      "text": "Scenes occupy registers; individual scenes can be complete ritual acts, although small groups can form connected sequences.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "memphis-scene-sequence",
+          "locator": "Ritual Scenes and Their Sequence"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "memphis-scene-structure",
+    "memphis-scene-sequence"
+  ],
+  "limits": [
+    "General visual literacy lesson, not a translation of any specific inscription.",
+    "A sign-direction and phonetic-reading exercise needs a verified panel, facsimile and edition."
+  ]
+}

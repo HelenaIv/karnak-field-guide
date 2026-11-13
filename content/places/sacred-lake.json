@@ -1,0 +1,78 @@
+{
+  "id": "sacred-lake",
+  "type": "place",
+  "title": "Sacred Lake",
+  "area": "southern-ancillary",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Thutmose III records digging a sacred lake; the existing lake has a later history too.",
+  "orientation": "South of the Middle Kingdom court.",
+  "personIds": [
+    "thutmose-iii",
+    "taharqo"
+  ],
+  "periodIds": [
+    "new-kingdom",
+    "third-intermediate"
+  ],
+  "architecture": [
+    "Administrative, storage and ritual structures occupied its surroundings."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "sacred-lake-location",
+      "text": "South of the Middle Kingdom court.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-sacred-lake",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "sacred-lake-fabric",
+      "text": "Thutmose III records digging a sacred lake; the existing lake has a later history too. Administrative, storage and ritual structures occupied its surroundings.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-sacred-lake",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "sacred-lake-1",
+      "text": "Digital Karnak reports festival bark flotillas and sacred geese; these functions should not be reduced to a single explanation.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-sacred-lake",
+          "locator": "Phases of Construction: Thutmose III"
+        }
+      ]
+    },
+    {
+      "id": "sacred-lake-2",
+      "text": "An earlier lake is possible; the extent of Taharqo’s modifications remains unknown.",
+      "certainty": "unknown",
+      "citations": [
+        {
+          "sourceId": "dk-sacred-lake",
+          "locator": "Phases of Construction: Thutmose III"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-sacred-lake"
+  ]
+}

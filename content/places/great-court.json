@@ -1,0 +1,78 @@
+{
+  "id": "great-court",
+  "type": "place",
+  "title": "Great Court (Shoshenq I Court)",
+  "area": "western-entrance",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Shoshenq I enclosed an area containing the older Sety II shrine and part of Ramesses III’s temple.",
+  "orientation": "Between the First and Second Pylons.",
+  "personIds": [
+    "shoshenq-i",
+    "nectanebo-i"
+  ],
+  "periodIds": [
+    "third-intermediate",
+    "late-period"
+  ],
+  "architecture": [
+    "Papyrus-bud colonnades line the north and south sides."
+  ],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "great-court-location",
+      "text": "Between the First and Second Pylons.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-great-court",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "great-court-fabric",
+      "text": "Shoshenq I enclosed an area containing the older Sety II shrine and part of Ramesses III’s temple. Papyrus-bud colonnades line the north and south sides.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-great-court",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "great-court-1",
+      "text": "Nectanebo I removed the western wall for the First Pylon; ramp construction disrupted western parts of the colonnades.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-great-court",
+          "locator": "Phases of Construction: Nectanebo I"
+        }
+      ]
+    },
+    {
+      "id": "great-court-2",
+      "text": "The proposed form of Shoshenq’s lost western gateway is a reconstruction, not an intact surviving entrance.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-great-court",
+          "locator": "About the reconstruction model of Shoshenq I"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Present access, exact viewpoints and condition have not been field-verified."
+  ],
+  "sources": [
+    "dk-great-court"
+  ]
+}

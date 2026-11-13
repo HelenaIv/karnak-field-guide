@@ -1,0 +1,21 @@
+{
+  "id": "taharqo",
+  "type": "person",
+  "title": "Taharqo",
+  "aliases": [
+    "Taharqa"
+  ],
+  "status": "source_checked",
+  "periodId": "third-intermediate",
+  "placeIds": [
+    "taharqo-kiosk",
+    "khonsu-temple",
+    "sacred-lake"
+  ],
+  "scope": "Index of interventions, not a biography; linked places distinguish construction from reuse and later decoration.",
+  "sources": [
+    "dk-khonsu-temple",
+    "dk-sacred-lake",
+    "dk-taharqo-kiosk"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "hypostyle-later-cartouches",
+  "type": "detail",
+  "placeId": "hypostyle-hall",
+  "title": "A royal name need not name the builder",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "position": "Columns throughout the hall; exact examples require numbered-column matching.",
+  "question": "Why are there so many repeated royal ovals?",
+  "observation": "Later rulers inserted inscriptions into older decoration.",
+  "explanation": "The project distinguishes additions in blank space from replacements of earlier names. Those are different acts, not a single story of erasure.",
+  "lookFor": [
+    "Compare the placement of name bands with the surrounding ritual scenes.",
+    "Ask whether a name is added, recut or part of the original scene."
+  ],
+  "claims": [
+    {
+      "id": "names-later",
+      "text": "Ramesses IV added repeated name bands; some of his cartouches were subsequently changed for Ramesses VI.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "memphis-marginal",
+          "locator": "Marginal Decoration: paragraphs on Ramesses IV and Ramesses VI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "memphis-marginal"
+  ],
+  "uncertainties": [
+    "Do not assign a specific cartouche to a king from depth or size alone.",
+    "Match an edition and photograph before transcription."
+  ]
+}
