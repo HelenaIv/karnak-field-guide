@@ -1,0 +1,505 @@
+{
+  "updated": "2026-11-13",
+  "definition": "Coverage, not completion. A chapter, a place record and a verified inscription are different deliverables. No record is yet declared publication ready.",
+  "places": [
+    {
+      "placeId": "akhmenu",
+      "title": "Akhmenu (Festival Hall of Thutmose III)",
+      "area": "eastern-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [
+        "akhmenu-beyond-the-forest"
+      ],
+      "detailIds": [
+        "akhmenu-botanical-images",
+        "akhmenu-tent-columns"
+      ],
+      "mediaIds": [
+        "botanical-4663305f",
+        "botanical-c3cda919",
+        "botanical-4453a61f",
+        "akhmenu-71604540"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "amenhotep-i-calcite",
+      "title": "Calcite chapel of Amenhotep I",
+      "area": "open-air-museum",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "aten-temples",
+      "title": "Eastern Aten temples and talatat",
+      "area": "eastern-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "bab-el-amara",
+      "title": "Bab el-Amara gateway",
+      "area": "southwestern-temples",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "bubastite-portal",
+      "title": "Bubastite Portal",
+      "area": "western-entrance",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "central-bark-shrine",
+      "title": "Central bark shrine (Philip III Arrhidaeus)",
+      "area": "central-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "contra-temple",
+      "title": "Eastern Contra Temple",
+      "area": "eastern-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "eighth-pylon",
+      "title": "Eighth Pylon",
+      "area": "southern-axis",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "fifth-pylon",
+      "title": "Fifth Pylon and court",
+      "area": "central-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "first-pylon",
+      "title": "First Pylon",
+      "area": "western-entrance",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [
+        "first-pylon-construction-ramps"
+      ],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "fourth-pylon",
+      "title": "Fourth Pylon and enclosure",
+      "area": "central-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "great-court",
+      "title": "Great Court (Shoshenq I Court)",
+      "area": "western-entrance",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [
+        "great-court-ramesses-temple"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "hakoris-chapel",
+      "title": "Chapel of Hakoris",
+      "area": "western-entrance",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [
+        "hakoris-bark-turn"
+      ],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "hatshepsut-obelisks",
+      "title": "Hatshepsut’s Wadjet Hall obelisks",
+      "area": "central-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [
+        "obelisks-38133c4d",
+        "obelisks-a4f28e2d",
+        "obelisks-b6f0e688",
+        "obelisks-3babd6b1",
+        "obelisks-2ef82a18"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "hypostyle-hall",
+      "title": "Great Hypostyle Hall",
+      "area": "western-interior",
+      "researchStatus": "source_checked",
+      "chapterIds": [
+        "raised-sunk-recut",
+        "a-roof-you-can-no-longer-see"
+      ],
+      "detailIds": [
+        "hypostyle-central-columns",
+        "hypostyle-later-cartouches",
+        "hypostyle-painted-details",
+        "hypostyle-relief-techniques",
+        "hypostyle-roof-light"
+      ],
+      "mediaIds": [
+        "hypostyle-central-nave",
+        "hypostyle-column-inscriptions",
+        "hypostyle-reliefs-9b5700a9",
+        "hypostyle-reliefs-5c1c875e",
+        "hypostyle-reliefs-d061daef",
+        "hypostyle-051cdedf",
+        "hypostyle-9883874f",
+        "hypostyle-a20dc2dd",
+        "hypostyle-7f1badd2"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "khonsu-temple",
+      "title": "Temple of Khonsu",
+      "area": "southwestern-temples",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [
+        "khonsu-temple-65f92660",
+        "khonsu-temple-c6805308"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "middle-kingdom-court",
+      "title": "Middle Kingdom temple core",
+      "area": "central-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "mut-precinct",
+      "title": "Precinct of Mut",
+      "area": "mut-precinct",
+      "researchStatus": "source_checked",
+      "chapterIds": [
+        "mut-landscape"
+      ],
+      "detailIds": [
+        "mut-occupation-layers"
+      ],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "ninth-pylon",
+      "title": "Ninth Pylon",
+      "area": "southern-axis",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [
+        "ninth-pylon-hidden-talatat"
+      ],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "opet-temple",
+      "title": "Temple of Opet",
+      "area": "southwestern-temples",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "osiris-catacombs",
+      "title": "Osiris catacombs",
+      "area": "northeastern-osiris",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "ptah-temple",
+      "title": "Temple of Ptah",
+      "area": "northern-temples",
+      "researchStatus": "needs_source_check",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [
+        "ptah-temple-13193789"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "ramesses-iii-temple",
+      "title": "Ramesses III’s bark temple",
+      "area": "western-entrance",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [
+        "great-court-ramesses-temple"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "red-chapel",
+      "title": "Red Chapel of Hatshepsut",
+      "area": "open-air-museum",
+      "researchStatus": "source_checked",
+      "chapterIds": [
+        "read-a-wall"
+      ],
+      "detailIds": [
+        "red-chapel-reassembled"
+      ],
+      "mediaIds": [
+        "red-chapel-bb773f84",
+        "red-chapel-6eb0c3eb",
+        "red-chapel-237864cd",
+        "red-chapel-4c041022",
+        "red-chapel-4ddbf411",
+        "red-chapel-fbad0306"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "sacred-lake",
+      "title": "Sacred Lake",
+      "area": "southern-ancillary",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "second-pylon",
+      "title": "Second Pylon",
+      "area": "western-interior",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "sety-ii-shrine",
+      "title": "Sety II’s triple bark shrine",
+      "area": "western-entrance",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "seventh-pylon",
+      "title": "Seventh Pylon and Cachette Court",
+      "area": "southern-axis",
+      "researchStatus": "source_checked",
+      "chapterIds": [
+        "the-southern-axis"
+      ],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "sixth-pylon",
+      "title": "Sixth Pylon and court",
+      "area": "central-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "taharqo-kiosk",
+      "title": "Taharqo’s kiosk",
+      "area": "western-entrance",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "tenth-pylon",
+      "title": "Tenth Pylon",
+      "area": "southern-axis",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "third-pylon",
+      "title": "Third Pylon",
+      "area": "western-interior",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "thutmose-iv-peristyle",
+      "title": "Painted peristyle of Thutmose IV",
+      "area": "open-air-museum",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "wadjet-hall",
+      "title": "Wadjet Hall",
+      "area": "central-temple",
+      "researchStatus": "source_checked",
+      "chapterIds": [],
+      "detailIds": [
+        "wadjet-wood-and-stone"
+      ],
+      "mediaIds": [],
+      "imageGap": true,
+      "fieldChecked": false,
+      "publicationReady": false
+    },
+    {
+      "placeId": "white-chapel",
+      "title": "White Chapel of Senusret I",
+      "area": "open-air-museum",
+      "researchStatus": "source_checked",
+      "chapterIds": [
+        "chapels-with-second-lives"
+      ],
+      "detailIds": [
+        "white-chapel-nome-base"
+      ],
+      "mediaIds": [
+        "white-chapel-788a32e2",
+        "white-chapel-02310340",
+        "white-chapel-afc1fa2e",
+        "white-chapel-8939adfa",
+        "white-chapel-7455bba4"
+      ],
+      "imageGap": false,
+      "fieldChecked": false,
+      "publicationReady": false
+    }
+  ]
+}

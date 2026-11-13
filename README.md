@@ -50,3 +50,7 @@ See `docs/EDITORIAL_STANDARDS.md` before adding inscriptions or translations.
 ## Core research partners and published sources
 
 Digital Karnak (UCLA / UC Santa Cruz), the Karnak Great Hypostyle Hall Project (University of Memphis / UQAM), the CFEETK–CNRS Projet Karnak, and University of Chicago's *The Great Hypostyle Hall* (OIP 142). Detailed URLs and references are in `content/sources.json`.
+
+## Private editorial review
+
+[Open the review website](https://karnak-field-guide-review.inventivefluke33.chatgpt.site). Publication is private; owner authentication may be required. The draft has seven reading chapters and selected illustrated areas, not complete monument/photo coverage. See `research/coverage.json` for explicit gaps and `docs/logs/2026-11-13.md` for validation and publication details.

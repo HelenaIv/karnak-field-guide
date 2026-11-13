@@ -31,3 +31,11 @@ The private review Site identity is in `.openai/hosting.json`. Publishing and ve
 Run `python scripts/validate_content.py`, `python scripts/build_review_site.py`, `node --check web/app.js`, `node scripts/check_review_site.cjs` and `git diff --check`. The build needs Pillow, already available in this environment. The validator checks record inventory, IDs, status/certainty labels, references, claim citations, reciprocal detail ownership, research text withholding and media file hashes. It does not prove historical truth or visitor access.
 
 Commit coherent completed stages, push main (or the active agreed branch), and compare local HEAD to the remote ref. Write logs before pushing, including limitations. Git is the durable project record; chat is not. Keep raw confidential material and credentials out of logs. GitHub cannot preserve conversation turns or work that was never recorded and pushed.
+
+## Private review website
+
+Published: https://karnak-field-guide-review.inventivefluke33.chatgpt.site
+
+Site appgprj_6af75e7bc41481919c50a44465c967a3; deployment appgdep_6af7633c70388191bbca9a6f43671a42 reported succeeded. Published source commit 4627d12945704b623cebff2530b374b3016f4e1c in the Sites source repository is a snapshot of owner GitHub commit 4e22fcb701dbe8ea7db9e979af9e73a7025ec072. Subsequent owner-repository commits may update logs without changing the live website. Never substitute GitHub and Sites commit IDs when publishing.
+
+`research/coverage.json` reports per-place chapters/details/media gaps. At this checkpoint, 26 of 35 place records lack a matched acquired image; the illustrated chapters are concentrated in selected areas. This is a review draft, not an illustrated-complete guide.
