@@ -1,0 +1,27 @@
+{
+  "id": "hypostyle-relief-techniques",
+  "type": "detail",
+  "placeId": "hypostyle-hall",
+  "title": "Raised relief, sunk relief, and recutting",
+  "category": "relief-technique",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Northern and southern wings of the Great Hypostyle Hall; specific demonstration panels to be selected from the scholarly plates.",
+  "observation": "Sety I's northern decorative programme predominantly uses raised relief; Ramesses II's southern programme predominantly uses sunk relief. Some earlier carvings and royal names were reworked.",
+  "interpretation": "Differences in technique and modifications expose separate episodes of decoration and royal appropriation; they are not a universal one-to-one dating tool.",
+  "lookFor": [
+    "An outline that projects above the surrounding stone versus a recessed carved outline.",
+    "Possible traces of altered sign edges; do not identify specific usurpations without a plate-level reference."
+  ],
+  "sources": [
+    "digital-karnak-hypostyle",
+    "hypostyle-project-2011",
+    "oip-142"
+  ],
+  "uncertainties": [
+    "A precise matching pair of publicly viewable panels still needs to be established.",
+    "No specific hieroglyphic transcription has yet been checked for inclusion."
+  ]
+}
