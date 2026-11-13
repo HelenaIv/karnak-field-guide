@@ -1,0 +1,51 @@
+{
+  "id": "hypostyle-hall",
+  "type": "place",
+  "title": "Great Hypostyle Hall",
+  "area": "western-interior",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "summary": "An immense columned hall built between the Second and Third Pylons, with unusually rich evidence of changing decoration and royal interventions.",
+  "orientation": "On the main east–west axis, east of the Second Pylon and west of the Third Pylon.",
+  "periods": [
+    {
+      "ruler": "Sety I",
+      "date": "Late 13th century BCE",
+      "role": "Major construction and raised-relief decoration of the northern wing."
+    },
+    {
+      "ruler": "Ramesses II",
+      "date": "13th century BCE",
+      "role": "Completed much of the southern decoration, largely in sunk relief; altered selected earlier inscriptions."
+    }
+  ],
+  "architecture": [
+    "134 sandstone columns in all.",
+    "Twelve taller open-papyrus-capital columns mark the central nave.",
+    "122 shorter closed-bud papyrus columns occupy the flanking wings.",
+    "The higher central nave allowed clerestory lighting above the lower flanking roof levels."
+  ],
+  "lookFor": [
+    "Contrast open and closed papyrus capitals.",
+    "Compare northern raised relief with southern sunk relief; note that later reworking complicates simple attribution.",
+    "Look for royal names and traces of re-cutting rather than assuming every cartouche is original to its surrounding relief."
+  ],
+  "interpretation": "The hall can be read both as a ritual architectural space and as a layered historical document recording construction, succession and later interventions.",
+  "caveats": [
+    "Not every individual relief can be securely attributed by technique alone.",
+    "Precise standing positions, condition and current access are not yet field-verified."
+  ],
+  "details": [
+    "hypostyle-central-columns",
+    "hypostyle-relief-techniques"
+  ],
+  "sources": [
+    "digital-karnak-hypostyle",
+    "hypostyle-project-architecture",
+    "hypostyle-project-columns",
+    "hypostyle-project-2011",
+    "oip-142"
+  ]
+}
