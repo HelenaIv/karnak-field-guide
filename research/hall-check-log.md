@@ -84,3 +84,16 @@ Font: Noto Sans Egyptian Hieroglyphs, SIL Open Font License 1.1, bundled in `ass
 | Column decoration diagrams | Original schematics from the Memphis descriptions of the great and smaller columns; simplified, not a survey | checked against text |
 
 Duplicate avoided: “Alig cartouches karnak.jpg” is the same file as `hypostyle-reliefs-5c1c875e`; the existing record is used.
+
+## #universe — Temple as a model of the world (2026-11-14)
+
+| Claim | Source | Status |
+|---|---|---|
+| Temples were gods' houses and replicas of the universe at creation | memphis-model-universe | checked |
+| Nun = ocean of nothingness; Atum asleep in it; woke and raised the mound of the First Event | memphis-model-universe | checked |
+| Shu (air) + Tefnut (moisture), then Geb (earth) + Nut (sky), then every part of nature with its god | memphis-model-universe | checked |
+| Sanctuary = primeval hill; floor rises, ceilings lower, darker inward; one light shaft on the cult statue | memphis-model-universe | checked |
+| Only a few priests and the king entered the holy of holies | memphis-model-universe | checked |
+| Hypostyle = papyrus thicket at the swampy edge of the mound | memphis-model-universe | checked |
+| Pylon mirrors the akhet "horizon" sign, sun between two hills | wikipedia-pylon (Wilkinson 2005: 195) | checked (secondary) |
+| Karnak grew by additions in front; Hall built between two existing pylons | digital-karnak-architecture, digital-karnak-hypostyle, stop 1 | checked; "further east = older, holier" marked as interpretation |

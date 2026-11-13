@@ -1199,6 +1199,30 @@
       "kind": "reference summary",
       "consultation": "Infobox royal names, hieroglyph spelling (WikiHiero markup) and reign read 2026-11-14.",
       "accessed": "2026-11-14"
+    },
+    {
+      "id": "memphis-model-universe",
+      "title": "A Model of the Universe",
+      "url": "https://www.memphis.edu/hypostyle/meaning_function/model-universe.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-14: temple as replica of creation; Nun, Atum, mound of the First Event, Shu/Tefnut, Geb/Nut; rising floor, lowering ceilings, darkening rooms; light shaft on the cult statue; restricted access; hypostyle as papyrus thicket. Retold in our own words; the page's drawing was not copied (our drawings are new schematics).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-pylon",
+      "title": "Pylon (architecture)",
+      "url": "https://en.wikipedia.org/wiki/Pylon_(architecture)",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "encyclopedia (secondary)",
+      "consultation": "Read 2026-11-14: pylon mirrors the akhet (horizon) hieroglyph, two hills between which the sun rose and set; cites T. Wilkinson, Thames & Hudson Dictionary of Ancient Egypt (2005), p. 195.",
+      "accessed": "2026-11-14"
     }
   ]
 }

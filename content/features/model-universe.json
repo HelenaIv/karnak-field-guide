@@ -1,0 +1,119 @@
+{
+  "id": "model-universe",
+  "type": "feature",
+  "status": "draft-checked",
+  "title": "The temple as a model of the world",
+  "eyebrow": "Why the temple looks the way it does",
+  "dek": "An Egyptian temple was a house for a god. It was also a model of the world at the moment it was created. Once you know the story, the gateways, the column forest and the dark rooms at the back start to make sense.",
+  "creation": {
+    "heading": "The story the building retells",
+    "intro": "Egyptian priests told several creation stories. The one that explains temple design best goes like this. Step through it.",
+    "steps": [
+      {
+        "label": "Nothing but water",
+        "text": "Before anything existed there was only [[nun]]: a dark, endless ocean of nothingness. No land, no sky, no light."
+      },
+      {
+        "label": "The sleeping creator",
+        "text": "The creator, the sun god [[atum]], drifted asleep in this water for longer than anyone could count."
+      },
+      {
+        "label": "The first land",
+        "text": "Atum woke up and made a small island rise out of the water. This was the [[primeval-mound]], the first dry ground, the site of the very first event. Standing on it, he began to create everything else."
+      },
+      {
+        "label": "Air and moisture",
+        "text": "His first children were [[shu]], the air, and [[tefnut]], moisture."
+      },
+      {
+        "label": "Earth and sky",
+        "text": "Their children were [[geb]], the earth, and [[nut]], the sky. More generations followed until every part of nature existed, each with its own god in charge."
+      }
+    ],
+    "citations": [
+      { "sourceId": "memphis-model-universe", "locator": "Creation from Nun; Atum; the mound of the First Event; Shu, Tefnut, Geb and Nut" }
+    ]
+  },
+  "temple": {
+    "heading": "Walk into the past",
+    "intro": "A temple rebuilt that first moment in stone. The holy rooms at the back stood for the mound. Everything in front of them was the world around it. Walk from the gate to the sanctuary and three things change at once.",
+    "steps": [
+      {
+        "zone": "pylon",
+        "label": "The gateway",
+        "text": "Two massive towers with a door between them: the [[pylon]]. Its shape echoes the hieroglyph [[akhet]], “horizon”: two hills with the sun appearing between them. You enter the god’s world through the horizon."
+      },
+      {
+        "zone": "court",
+        "label": "The open court",
+        "text": "No roof at all. Full sunlight, and the floor is at its lowest point. This is the present-day, ordinary world, as far from the first moment as you can be inside the walls."
+      },
+      {
+        "zone": "hall",
+        "label": "The hypostyle hall",
+        "text": "A roof again, carried on columns shaped like papyrus plants. Light comes only through the high stone window grilles of the [[clerestory]]. In the model, this [[hypostyle]] hall is the papyrus thicket that grew in the swampy ground at the edge of the first mound. The floor has risen a little; the ceiling has come down."
+      },
+      {
+        "zone": "sanctuary",
+        "label": "The holy of holies",
+        "text": "The [[holy-of-holies]]: small, enclosed and almost dark. The floor is at its highest, the ceiling at its lowest. A single small shaft of light fell on the god’s [[cult-statue]]. This room stood for the mound itself, the place where creation began. Only the king and a few priests ever went in."
+      }
+    ],
+    "summary": "So, walking inward, you climb, the ceiling comes down and the light fades. You are walking backwards in time, from the bright everyday world to the dark, wet first moment, when the god stood on dry land for the first time.",
+    "citations": [
+      { "sourceId": "memphis-model-universe", "locator": "Temples as replicas of the early universe; rising floor, lowering ceiling, decreasing light; restricted access; hypostyle as papyrus thicket" },
+      { "sourceId": "wikipedia-pylon", "locator": "Egyptian architecture: pylon and the akhet hieroglyph (citing Wilkinson 2005, p. 195)" }
+    ]
+  },
+  "here": {
+    "heading": "Where you are standing: in the marsh",
+    "text": [
+      "In the Great Hypostyle Hall you are inside the papyrus thicket. That is why the columns are stone plants: shaft for stalk, capital for the flower head. The twelve tall columns of the central aisle end in open flowers; the 122 lower ones end in closed buds.",
+      "Imagine the Hall with its roof on. The ruin is bright today because most of the roof has fallen. Originally it was dim, with light falling from the clerestory grilles over the central aisle and fading into shade among the side columns: a marsh at dusk, between the sunlit court behind you and the dark sanctuary ahead."
+    ],
+    "look": [
+      { "text": "The papyrus capitals: open flowers in the centre, closed buds at the sides.", "stop": "columns" },
+      { "text": "The surviving stone window grilles high above the central aisle.", "stop": "roof" },
+      { "text": "The gateway at the east end of the central aisle. The holy rooms of the temple lie further east, beyond it.", "stop": "entrance" }
+    ],
+    "figures": [
+      { "mediaId": "hypostyle-a20dc2dd", "caption": "Stone papyrus: the open capitals of the central aisle. In the temple’s model of the world this hall is the marsh at the edge of the first mound." },
+      { "mediaId": "hypostyle-central-nave", "caption": "Looking east along the central aisle, the direction of the sanctuary. With the roof in place this space was dim, lit from the high windows above." }
+    ],
+    "citations": [
+      { "sourceId": "memphis-model-universe", "locator": "Hypostyle hall as papyrus thicket at the edge of the primeval mound" },
+      { "sourceId": "hypostyle-project-architecture", "locator": "Column count, heights and capitals" },
+      { "sourceId": "memphis-roof", "locator": "Clerestory windows and light" }
+    ]
+  },
+  "more": [
+    {
+      "heading": "Who saw all this?",
+      "text": "Very few people. The dim, closed rooms at the back were meant to carry whoever entered back to the beginning of time, and that privilege was limited to the king and a small number of priests. Most Egyptians never saw the inside of the sanctuary. When they did come close to the god, it was usually at festivals, when the god’s statue was carried out in its portable boat shrine (a [[bark]]).",
+      "citations": [
+        { "sourceId": "memphis-model-universe", "locator": "Restricted access to the holy of holies" },
+        { "sourceId": "memphis-festivals", "locator": "Festivals and processions" }
+      ]
+    },
+    {
+      "heading": "The gateway as horizon",
+      "text": "The hieroglyph [[akhet]] shows the sun sitting between two hills: the horizon, where the sun rises and sets. A [[pylon]], with its two sloping towers and the door between them, repeats that outline at the size of a building. So the gate is more than a wall to keep people out. It marks the edge of the world, the place where the sun is reborn each morning.",
+      "citations": [
+        { "sourceId": "wikipedia-pylon", "locator": "Egyptian architecture: pylon and the akhet hieroglyph (citing Wilkinson 2005, p. 195)" }
+      ]
+    },
+    {
+      "heading": "Karnak is not a textbook temple",
+      "text": "The drawings on this page show the general pattern. Karnak grew over many centuries: later kings added new gateways, courts and halls in front of the older parts. The Great Hypostyle Hall itself was built in the space between two gateways that already stood. So here the sequence of gate, court, hall and sanctuary is repeated and stretched, and you should not expect a neat step up or down at every doorway. The idea still holds: the further east you go along the main axis, the closer you get to the oldest and holiest part of the temple.",
+      "certainty": "interpretation",
+      "citations": [
+        { "sourceId": "digital-karnak-architecture", "locator": "Growth of the Amun temple along its axes" },
+        { "sourceId": "digital-karnak-hypostyle", "locator": "Hypostyle Hall between the Second and Third Pylons" }
+      ]
+    }
+  ],
+  "drawingNote": "Original schematic drawings for this guide. They explain the idea and are not measured plans or sections of Karnak or of any one temple.",
+  "citations": [
+    { "sourceId": "memphis-model-universe", "locator": "A Model of the Universe" }
+  ]
+}

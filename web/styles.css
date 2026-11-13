@@ -99,3 +99,28 @@ a.term{border-bottom:1px dotted var(--gold);color:inherit;text-decoration:none!i
 @media(max-width:720px){.col-wrap{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.col-svg .layer{transition:none}}
 .practice .ann-wrap{display:inline-block;position:relative;max-width:100%}.practice .ann-wrap img{width:auto;max-width:100%;max-height:640px;display:block;object-fit:fill;background:none}
+/* Temple as model of the world */
+.mu h2{margin:46px 0 18px}.mu-block{border-top:1px solid var(--line);padding:22px 0;max-width:1180px}
+.mu-wrap{display:grid;grid-template-columns:minmax(0,640px) minmax(0,1fr);gap:34px;align-items:start}
+.mu-svg svg{width:100%;height:auto;display:block;background:#f6efdc;border:1px solid var(--line)}
+.mu-intro{font:15px/1.7 Arial,sans-serif;color:var(--muted)}.mu-note{min-height:150px}
+.mu-block .col-steps button{text-align:left;background:var(--white);border:1px solid var(--line);padding:9px 14px;font-size:13px}.mu-block .col-steps button.on{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.mu-nav{display:flex;gap:10px}.mu-nav button{background:none;border:1px solid var(--ink);padding:8px 16px;font-size:12px}.mu-nav button:disabled{opacity:.35;cursor:default}
+.mu-l{opacity:0;transition:opacity .7s}.mu-l.on{opacity:1}
+.mu-wave{fill:none;stroke:#4f7b80;stroke-width:1.6;opacity:.75}
+.mu-cap{font:italic 22px Georgia,serif;fill:#f3e6c4;text-anchor:middle}.mu-cap.dark{fill:#273a30}.mu-sub{font:12px Arial,sans-serif;fill:#c9d6cf;text-anchor:middle;letter-spacing:1px}
+.mu-z{font:italic 22px Georgia,serif;fill:#c9b27c}.mu-z.small{font-size:16px}
+.mu-stone{fill:#b9a37a;stroke:#8d784f;stroke-width:1}.mu-ground{fill:#d6c6a2;stroke:#8d784f}.mu-col{fill:#c8b083;stroke:#8d784f}.mu-col.faint{opacity:.55}.mu-cap-shape{fill:#bfa16d;stroke:#6f5d3a}
+.mu-level{fill:none;stroke:#b58a4d;stroke-width:2;stroke-dasharray:5 4}
+.mu-lab{font:bold 10px Arial,sans-serif;letter-spacing:1.6px;fill:#3e4a3c;text-anchor:middle}
+.mu-mini{font:11px Arial,sans-serif;fill:#5b6658;text-anchor:middle}.mu-mini.light{fill:#e9dfcc}.mu-mini.gold{fill:#b58a4d}
+.mu-pwall{fill:#efe6d0;stroke:#8d784f;stroke-width:1.5}.mu-pwall.dark{fill:#4a5249}.mu-pcol{fill:#bfa16d;stroke:#6f5d3a;stroke-width:.8}
+.mu-hl{fill:#b58a4d18;stroke:#b58a4d;stroke-width:2.5;opacity:0;transition:opacity .5s;pointer-events:none}.mu-hl.on{opacity:1}
+.mu-glyph{font:110px 'KarnakHiero',serif;fill:#273a30;text-anchor:middle}
+.mu-summary{font:19px/1.8 Georgia,serif;color:#414a40;max-width:820px;border-left:2px solid var(--gold);padding-left:18px}
+.mu-here{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,520px);gap:40px;border-top:1px solid var(--line);margin-top:30px}
+.mu-here p{font:18px/1.8 Georgia,serif;color:#414a40}.mu-here h3{font-size:22px;margin:20px 0 12px}.mu-stop{font-size:12px;border-bottom:1px solid var(--gold);margin-left:6px}
+.mu-more{max-width:820px;margin:30px 0}.mu-more details{border-top:1px solid var(--line);padding:14px 0}.mu-more summary{cursor:pointer;font:22px Georgia,serif}.mu-more p{font:17px/1.75 Georgia,serif;color:#414a40;margin-top:12px}
+.mu-akhet svg{width:100%;max-width:520px;height:auto;background:#f6efdc;border:1px solid var(--line)}
+.mu-teaser{display:block;margin-top:24px;padding:18px 20px;border:1px solid var(--gold);background:#f3ead6;max-width:560px}.mu-teaser .eyebrow{margin-bottom:8px}.mu-teaser b{display:block;font:normal 24px Georgia,serif;margin-bottom:6px}.mu-teaser span:last-child{font-size:13px;color:var(--muted)}.mu-teaser:hover{background:#efe1c2}
+@media(max-width:900px){.mu-wrap,.mu-here{grid-template-columns:1fr}.mu-note{min-height:0}.mu-block .col-steps{flex-direction:row;flex-wrap:wrap;gap:6px}.mu-block .col-steps button{padding:7px 10px;font-size:12px}}

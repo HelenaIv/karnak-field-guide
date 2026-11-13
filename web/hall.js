@@ -160,9 +160,10 @@ function hallOverview() {
   const zones = Object.keys(ZONES).map(z => { const list = g.stops.filter(s => s.zone === z); return list.length ? `<h3 class="zone-head">${ZONES[z]}</h3><ol class="stop-list">${list.map(s => `<li value="${s.number}"><a href="#hall/${esc(s.id)}"><b>${esc(s.title)}</b><span>${esc(s.location)}</span></a></li>`).join('')}</ol>` : ''; }).join('');
   const c = g.completion || {};
   const lst = (t, a) => a?.length ? `<div><strong>${t}</strong><ul>${a.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : '';
-  return `<div class="page-head"><span class="eyebrow">Guided study · ${g.stops.length} stops</span><h1>${esc(g.title)}</h1><p>${esc(g.scope)}. Choose a numbered stop on the plan or start at stop 1. Each stop tells you where to stand, what to look at, and what the evidence says.</p><p class="notice-inline">${esc(g.accessNote)}</p><a class="primary" href="#hall/${esc(g.stops[0].id)}">Start at stop 1 <span>→</span></a></div>
+  return `<div class="page-head"><span class="eyebrow">Guided study · ${g.stops.length} stops</span><h1>${esc(g.title)}</h1><p>${esc(g.scope)}. Choose a numbered stop on the plan or start at stop 1. Each stop tells you where to stand, what to look at, and what the evidence says.</p><p class="notice-inline">${esc(g.accessNote)}</p><a class="primary" href="#hall/${esc(g.stops[0].id)}">Start at stop 1 <span>→</span></a>${universeTeaser()}</div>
   <section class="section hall-overview" style="padding-top:10px"><div>${hallPlan(g, null)}${sourceNote(g.planCitations || [])}</div><div>${zones}<details class="notice"><summary>What is ready and what is still open</summary><div class="completion">${lst('Ready to review', c.readyExamples)}${lst('Still open', c.open)}${lst('Not implemented', c.notImplemented)}</div></details></div></section>`;
 }
+const MU_STOPS = ['entrance', 'columns', 'roof'];
 function hallStopV2(g, s, prev, next, nav, plan) {
   const figs = (s.figures || []).map(hallFigure).join('');
   const allCites = [...(s.story || []), s.lookCloser, s.readIt, ...(s.more || [])].filter(Boolean).flatMap(x => x.citations || []);
@@ -173,6 +174,7 @@ function hallStopV2(g, s, prev, next, nav, plan) {
   <section><h2>What to look at</h2><ol class="look">${s.look.map(t => `<li>${fmt(t)}</li>`).join('')}</ol></section>
   ${figs}
   <section><h2>What it is and why it is here</h2>${s.story.map(b => `<p>${fmt(b.text)}</p>`).join('')}</section>
+  ${MU_STOPS.includes(s.id) ? universeTeaser() : ''}
   ${s.diagram ? hallDiagram(s.diagram) : ''}
   ${s.lookCloser ? `<section class="callout"><h2>Look closer: ${esc(s.lookCloser.heading)}</h2><p>${fmt(s.lookCloser.text)}</p></section>` : ''}
   ${s.readIt ? `<section class="callout read-it"><h2>Read it yourself: ${esc(s.readIt.heading)}</h2><p>${fmt(s.readIt.text)}</p><p class="links"><a href="#read/signs">More signs to learn →</a><a href="#read/names">Royal names →</a></p></section>` : ''}
@@ -195,6 +197,7 @@ function hallStop(id) {
   <section><h2>Look for</h2><ol class="look">${s.look.map(t => `<li>${esc(t)}</li>`).join('')}</ol></section>
   ${figs}${hallDiagram(s.diagram)}
   ${s.blocks.map(b => `<section><h2>${esc(b.heading)}</h2><p>${esc(b.text)}</p><span class="certainty c-${esc(b.certainty)}">${esc(CERTAINTY_LABEL[b.certainty] || b.certainty)}</span>${sourceNote(b.citations || [])}</section>`).join('')}
+  ${MU_STOPS.includes(s.id) ? universeTeaser() : ''}
   <details class="source-note"><summary>All sources for this stop</summary>${(s.citations || []).map(c => { const so = sources[c.sourceId]; return `<p><a href="${esc(so?.url || '#')}" target="_blank" rel="noopener">${esc(so?.title || c.sourceId)}</a> — ${esc(c.locator)}</p>`; }).join('')}</details>
   <div class="transition"><strong>${next ? 'On to the next stop' : 'End of the study'}</strong><p>${esc(s.transition)}</p></div>${nav}</article></div>`;
 }

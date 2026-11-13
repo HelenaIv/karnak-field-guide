@@ -7,22 +7,30 @@
     {
       "id": "hypostyle",
       "term": "Hypostyle hall",
-      "definition": "A hall whose roof is held up by rows of columns. The word is Greek for “resting on pillars”. In Egyptian temples it usually stands between the open court and the inner rooms.",
+      "definition": "A hall whose roof is held up by rows of columns. The word is Greek for “resting on pillars”. In Egyptian temples it usually stands between the open court and the inner rooms. In the temple’s model of creation it stood for the papyrus marsh at the edge of the [[primeval-mound]].",
       "citations": [
         {
           "sourceId": "digital-karnak-architecture",
           "locator": "Hypostyle hall"
+        },
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "Hypostyle hall as papyrus thicket"
         }
       ]
     },
     {
       "id": "pylon",
       "term": "Pylon",
-      "definition": "A monumental temple gateway made of two massive towers with a doorway between them. Karnak’s pylons are numbered in the order a modern visitor meets them, not the order they were built.",
+      "definition": "A monumental temple gateway made of two massive towers with a doorway between them. Karnak’s pylons are numbered in the order a modern visitor meets them, not the order they were built. Its outline echoes the hieroglyph [[akhet]], “horizon”: the sun between two hills.",
       "citations": [
         {
           "sourceId": "hypostyle-project-architecture",
           "locator": "Pylons and their modern numbering"
+        },
+        {
+          "sourceId": "wikipedia-pylon",
+          "locator": "Egyptian architecture: pylon and the akhet hieroglyph"
         }
       ]
     },
@@ -203,6 +211,116 @@
         {
           "sourceId": "memphis-sacred-barks",
           "locator": "Barks of the Theban Triad"
+        }
+      ]
+    },
+    {
+      "id": "nun",
+      "term": "Nun",
+      "definition": "The dark, endless water that existed before anything else, in Egyptian belief: an ocean of nothingness. The world rose out of it.",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "atum",
+      "term": "Atum",
+      "definition": "A creator god, a form of the sun god. In the creation story behind temple design he floated asleep in [[nun]], woke, raised the first land and made everything else.",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "primeval-mound",
+      "term": "Primeval mound",
+      "definition": "The first dry land, which rose out of [[nun]] at the very first moment of creation. The creator stood on it to make the world. A temple’s innermost sanctuary stood for this mound.",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "shu",
+      "term": "Shu",
+      "definition": "God of the air. With [[tefnut]], the first child of [[atum]]. Father of [[geb]] and [[nut]].",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "tefnut",
+      "term": "Tefnut",
+      "definition": "Goddess of moisture. With [[shu]], the first child of [[atum]]. Mother of [[geb]] and [[nut]].",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "geb",
+      "term": "Geb",
+      "definition": "God of the earth, child of [[shu]] and [[tefnut]].",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "nut",
+      "term": "Nut",
+      "definition": "Goddess of the sky, child of [[shu]] and [[tefnut]].",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "holy-of-holies",
+      "term": "Holy of holies",
+      "definition": "The innermost room of a temple, where the god’s statue stood. Small, nearly dark, with the highest floor and the lowest ceiling in the building. It stood for the [[primeval-mound]]. Only the king and a few priests went in.",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "cult-statue",
+      "term": "Cult statue",
+      "definition": "The statue of the god kept in the sanctuary, the focus of the temple’s daily rituals. In the temple’s model of creation, a single small light shaft fell on it in the dark.",
+      "citations": [
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "A Model of the Universe"
+        }
+      ]
+    },
+    {
+      "id": "akhet",
+      "term": "Akhet",
+      "definition": "Egyptian for “horizon”. The hieroglyph shows the sun between two hills, the place where it rises and sets. The two towers of a [[pylon]] echo this sign.",
+      "citations": [
+        {
+          "sourceId": "wikipedia-pylon",
+          "locator": "Egyptian architecture: pylon and the akhet hieroglyph"
         }
       ]
     }

@@ -163,6 +163,22 @@ def validate():
                 for a in f.get('annotations', []):
                     check(0 <= a.get('x', -1) <= 100 and 0 <= a.get('y', -1) <= 100 and bool(a.get('label')), f'{owner}: invalid annotation')
             stop_count += 1
+    feature_count = 0
+    for fpath in sorted((ROOT / 'content/features').glob('*.json')) if (ROOT / 'content/features').exists() else []:
+        fd = load(fpath); fo = 'feature/' + str(fd.get('id'))
+        check(fd.get('id') == fpath.stem and fd.get('type') == 'feature', f'{fpath}: invalid feature ID or type')
+        def walk(x, owner=fo):
+            if isinstance(x, dict):
+                if 'citations' in x: citations(x['citations'], owner)
+                if 'mediaId' in x: check(x['mediaId'] in media_ids, f'{owner}: unknown media {x["mediaId"]}')
+                if 'stop' in x: check(x['stop'] in {s.get('id') for g in [load(p) for p in guides] for s in g.get('stops', [])}, f'{owner}: unknown stop {x["stop"]}')
+                if 'certainty' in x: check(x['certainty'] in CERTAINTY, f'{owner}: invalid certainty')
+                for v in x.values(): walk(v, owner)
+            elif isinstance(x, list):
+                for v in x: walk(v, owner)
+            elif isinstance(x, str):
+                term_refs(x, owner)
+        walk(fd); feature_count += 1
     reading_dir = ROOT / 'content/reading'
     stop_ids = {s.get('id') for g in [load(p) for p in guides] for s in g.get('stops', [])}
     reading_count = 0
@@ -206,7 +222,7 @@ def validate():
     if errors:
         print('\n'.join(errors), file=sys.stderr)
         return 1
-    print(f'Validated {len(records)} records, {len(guides)} guide ({stop_count} stops), {reading_count} reading items, {len(sources)} sources and {len(graph)} relationships; references and media checksums passed.')
+    print(f'Validated {len(records)} records, {len(guides)} guide ({stop_count} stops), {reading_count} reading items, {feature_count} feature pages, {len(sources)} sources and {len(graph)} relationships; references and media checksums passed.')
     return 0
 
 if __name__ == '__main__':
