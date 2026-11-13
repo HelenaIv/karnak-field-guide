@@ -1,0 +1,24 @@
+{
+  "id": "first-pylon-construction-ramps",
+  "type": "detail",
+  "placeId": "first-pylon",
+  "title": "The unfinished gateway and construction ramps",
+  "category": "construction-traces",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Inner side of the first pylon, facing the Great Court; exact viewer position unverified.",
+  "observation": "Remains of mudbrick ramps survive in association with the unfinished pylon.",
+  "interpretation": "These traces provide evidence for construction methods, rather than a finished decorative programme.",
+  "lookFor": [
+    "Mudbrick rather than dressed stone.",
+    "The relationship between ramp remains and the pylon mass."
+  ],
+  "sources": [
+    "digital-karnak-first-pylon"
+  ],
+  "uncertainties": [
+    "Whether these traces are accessible or readily distinguishable to visitors today."
+  ]
+}
