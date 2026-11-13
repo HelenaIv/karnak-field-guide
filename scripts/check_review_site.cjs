@@ -8,10 +8,10 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'dist/data.json'),'utf8'));
 const elements = new Map();
 function element(key){if(!elements.has(key))elements.set(key,{innerHTML:'',textContent:'',style:{},hidden:true,value:'',addEventListener(){},focus(){},setAttribute(){},classList:{toggle(){return true}},showModal(){},close(){}});return elements.get(key);}
 const context={console,Set,JSON,String,Object,Array,clearTimeout,setTimeout,location:{hash:''},localStorage:{getItem(){return '[]'},setItem(){}},document:{querySelector:element,querySelectorAll(){return []},addEventListener(){},getElementById(){return {scrollIntoView(){}}}},window:{scrollTo(){},addEventListener(){}},fetch:async()=>({ok:true,json:async()=>data})};
-vm.createContext(context);for(const f of ['web/hall.js','web/app.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),context);
+vm.createContext(context);for(const f of ['web/hall.js','web/read.js','web/app.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),context);
 setImmediate(()=>{
  let checked=0;
- for(const route of ['', '#learn','#explore','#gallery','#saved','#about','#credits','#search/paint','#search/cartouche','#hall','#glossary','#glossary/ankh',...(data.guides||[]).flatMap(g=>g.stops.map(s=>'#hall/'+s.id)),...data.chapters.map(x=>'#entry/'+x.id),...data.places.map(x=>'#entry/'+x.id),...data.details.map(x=>'#entry/'+x.id),...data.lessons.map(x=>'#entry/'+x.id)]){
+ for(const route of ['', '#learn','#explore','#gallery','#saved','#about','#credits','#search/paint','#search/cartouche','#hall','#glossary','#glossary/ankh','#read','#read/signs','#read/names','#read/phrases','#read/scene','#read/practice','#read/practice/scene-b92',...data.reading.signs.signs.map(s=>'#read/sign/'+s.id),...(data.guides||[]).flatMap(g=>g.stops.map(s=>'#hall/'+s.id)),...data.chapters.map(x=>'#entry/'+x.id),...data.places.map(x=>'#entry/'+x.id),...data.details.map(x=>'#entry/'+x.id),...data.lessons.map(x=>'#entry/'+x.id)]){
   context.location.hash=route;vm.runInContext('route()',context);const html=element('#main').innerHTML;
   if(!html || /undefined|\[object Object\]/.test(html))throw new Error('Invalid rendered route: '+route);
   checked++;

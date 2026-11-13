@@ -1,0 +1,307 @@
+{
+  "id": "phrases",
+  "language": "en",
+  "updated": "2026-11-14",
+  "status": "needs_source_check",
+  "intro": "Temple texts are built from a small number of set phrases. Counts are from the published translations of the Hall’s interior wall reliefs (OIP 142), so they show what you will meet most often.",
+  "phrases": [
+    {
+      "id": "words-spoken",
+      "glyphs": [
+        "I10",
+        "D46",
+        "S43"
+      ],
+      "text": "Words spoken by …",
+      "translit": "djed medu in",
+      "meaning": "The opening of every speech.",
+      "tells": "Someone is talking. The name after it tells you who: usually a god speaking to the king.",
+      "where": "In front of gods in ritual scenes; more than 100 times in the published wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “Words spoken by”"
+        }
+      ]
+    },
+    {
+      "id": "given-life",
+      "glyphs": [
+        "X8",
+        "S34"
+      ],
+      "text": "Given life",
+      "translit": "di ankh",
+      "meaning": "The king has been given life by the gods.",
+      "tells": "It follows the king’s names. Often extended: “given life like Re”.",
+      "where": "After royal names everywhere; more than 300 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “given life”"
+        }
+      ]
+    },
+    {
+      "id": "like-re",
+      "glyphs": [
+        "W19",
+        "N5"
+      ],
+      "text": "Like Re",
+      "translit": "mi Ra",
+      "meaning": "As the sun god is, forever.",
+      "tells": "Ends many blessings: the king will live, rule or appear “like Re”, every day and forever.",
+      "where": "The most common closing phrase: over 500 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “like Re”"
+        }
+      ]
+    },
+    {
+      "id": "i-have-given",
+      "glyphs": [
+        "X8",
+        "N35",
+        "N35",
+        "V31"
+      ],
+      "text": "I have given to you …",
+      "translit": "di.n(.i) n.k",
+      "meaning": "A god’s promise to the king.",
+      "tells": "What follows is the gift: life, dominion, millions of years, all lands under your sandals. The god gives because the king has served him.",
+      "where": "In gods’ speeches; over 400 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “(I) have given (to you)”"
+        }
+      ]
+    },
+    {
+      "id": "life-stability-dominion",
+      "glyphs": [
+        "S34",
+        "R11",
+        "S40"
+      ],
+      "text": "Life, stability and dominion",
+      "translit": "ankh djed was",
+      "meaning": "The three gifts gods most often give.",
+      "tells": "Look for the three signs in a row, often in a column of signs behind the king or in the god’s hand.",
+      "where": "About 200 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “life, stability, and dominion”"
+        }
+      ]
+    },
+    {
+      "id": "lord-two-lands",
+      "glyphs": [
+        "V30",
+        "N16",
+        "N16"
+      ],
+      "text": "Lord of the Two Lands",
+      "translit": "neb tawy",
+      "meaning": "Ruler of Upper and Lower Egypt.",
+      "tells": "A title that comes just before a royal name.",
+      "where": "About 300 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “lord of the Two Lands”"
+        }
+      ]
+    },
+    {
+      "id": "lord-appearances",
+      "glyphs": [
+        "V30",
+        "N28"
+      ],
+      "text": "Lord of appearances",
+      "translit": "neb khau",
+      "meaning": "Lord of crowns; the one who appears in glory.",
+      "tells": "Usually stands before the birth name.",
+      "where": "About 160 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “lord of appearances”"
+        }
+      ]
+    },
+    {
+      "id": "good-god",
+      "glyphs": [
+        "R8",
+        "F35"
+      ],
+      "text": "The good god",
+      "translit": "netjer nefer",
+      "meaning": "A way of referring to the living king.",
+      "tells": "Tells you the king is meant, not one of the gods in the scene.",
+      "where": "Before royal names throughout the Hall.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "“the good god” before royal names"
+        }
+      ]
+    },
+    {
+      "id": "dual-king",
+      "glyphs": [
+        "M23",
+        "X1",
+        "L2",
+        "X1"
+      ],
+      "text": "King of Upper and Lower Egypt",
+      "translit": "nesu-bity",
+      "meaning": "Literally “he of the sedge and the bee”.",
+      "tells": "The throne-name cartouche comes next.",
+      "where": "Before the first cartouche of every pair.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "“dual king” before throne names"
+        }
+      ]
+    },
+    {
+      "id": "son-of-re",
+      "glyphs": [
+        "G39",
+        "N5"
+      ],
+      "text": "Son of Re",
+      "translit": "sa Ra",
+      "meaning": "The king as the sun god’s son.",
+      "tells": "The birth-name cartouche comes next.",
+      "where": "Before the second cartouche of every pair; see the painted beam.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "“son of Re” before birth names"
+        }
+      ]
+    },
+    {
+      "id": "beloved-amun",
+      "glyphs": [
+        "M17",
+        "Y5",
+        "N35",
+        "U7"
+      ],
+      "text": "Beloved of Amun",
+      "translit": "mery Amun",
+      "meaning": "Loved by Amun, the god of Karnak.",
+      "tells": "Often part of a royal name itself (Ramesses-meryamun). The Amun group comes first out of respect.",
+      "where": "In royal names and epithets.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "“beloved of Amun” in the translations"
+        }
+      ]
+    },
+    {
+      "id": "lord-heaven",
+      "glyphs": [
+        "V30",
+        "Q3",
+        "X1",
+        "N1"
+      ],
+      "text": "Lord of heaven",
+      "translit": "neb pet",
+      "meaning": "A title of gods such as Amun-Re.",
+      "tells": "Tells you the figure is a god.",
+      "where": "About 140 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “lord of heaven”"
+        }
+      ]
+    },
+    {
+      "id": "mighty-bull",
+      "glyphs": [
+        "E1",
+        "D40"
+      ],
+      "text": "Mighty bull",
+      "translit": "ka nakht",
+      "meaning": "The opening of the king’s Horus name.",
+      "tells": "You are reading the king’s Horus name, usually inside a palace-front frame (serekh).",
+      "where": "About 60 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “mighty bull”"
+        }
+      ]
+    },
+    {
+      "id": "millions-years",
+      "glyphs": [
+        "C11",
+        "M4"
+      ],
+      "text": "Millions of years",
+      "translit": "heh m renput",
+      "meaning": "An endless reign.",
+      "tells": "Gods promise the king a reign without end.",
+      "where": "In gods’ speeches and on year staves (scene B93, beside stop 6).",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 49 (B93), p. 99"
+        }
+      ]
+    },
+    {
+      "id": "jubilees",
+      "glyphs": [
+        "O23"
+      ],
+      "text": "Jubilees",
+      "translit": "heb-sed",
+      "meaning": "The festival that renewed the king.",
+      "tells": "Gods promise “millions of jubilees”: many renewals of the king’s power.",
+      "where": "On year staves and in speeches.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 49 (B93), p. 99"
+        }
+      ]
+    },
+    {
+      "id": "true-of-voice",
+      "glyphs": [
+        "Aa11",
+        "P8"
+      ],
+      "text": "True of voice",
+      "translit": "maa-kheru",
+      "meaning": "Justified: said of someone who has died and passed judgement.",
+      "tells": "The person named is dead. Sety I is called “true of voice” at stop 6.",
+      "where": "After names of deceased kings, such as Sety I in scene B92.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98"
+        }
+      ]
+    }
+  ]
+}

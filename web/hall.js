@@ -175,7 +175,7 @@ function hallStopV2(g, s, prev, next, nav, plan) {
   <section><h2>What it is and why it is here</h2>${s.story.map(b => `<p>${fmt(b.text)}</p>`).join('')}</section>
   ${s.diagram ? hallDiagram(s.diagram) : ''}
   ${s.lookCloser ? `<section class="callout"><h2>Look closer: ${esc(s.lookCloser.heading)}</h2><p>${fmt(s.lookCloser.text)}</p></section>` : ''}
-  ${s.readIt ? `<section class="callout read-it"><h2>Read it yourself: ${esc(s.readIt.heading)}</h2><p>${fmt(s.readIt.text)}</p></section>` : ''}
+  ${s.readIt ? `<section class="callout read-it"><h2>Read it yourself: ${esc(s.readIt.heading)}</h2><p>${fmt(s.readIt.text)}</p><p class="links"><a href="#read/signs">More signs to learn →</a><a href="#read/names">Royal names →</a></p></section>` : ''}
   ${(s.more || []).length ? `<section class="more"><h2>More</h2>${s.more.map(m => `<details><summary>${esc(m.heading)}</summary>${m.mediaId ? simpleFigure(m.mediaId) : ''}<p>${fmt(m.text)}</p></details>`).join('')}</section>` : ''}
   <details class="sources"><summary>Sources for this stop</summary><ul>${citeList(allCites)}</ul></details>
   <div class="transition"><strong>${next ? 'Next' : 'End of the study'}</strong><p>${fmt(s.transition)}</p></div>${nav}</article></div>`;

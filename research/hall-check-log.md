@@ -48,3 +48,24 @@ Primary check: OIP 142 part 2 (Brand, Feleg, Murnane), Plate 48, p. 98, read in 
 
 - Field check of viewing positions and current access.
 - Specialist read-through of the "Read it yourself" sign explanation.
+
+## Read the walls (checked 2026-11-14)
+
+Files: `content/reading/` (signs, names, phrases, scene rules, practice).
+
+| What | How it was checked | Status |
+|---|---|---|
+| 47 signs: Gardiner code, Unicode character, meaning, sound value | Every code matched against the Wikipedia Gardiner sign list (anchor rows with code, code point and meaning); characters generated from Unicode names, not typed by hand | checked |
+| Phrase frequencies (“like Re” 500+, “I have given” 400+, “given life” 300+, “lord of the Two Lands” ~300, “life, stability and dominion” ~200, “lord of appearances” ~160, “lord of heaven” ~140, “words spoken by” 100+, “mighty bull” ~60) | Counted in the full text of OIP 142 part 2 translations; counts include notes and are approximate | checked (approximate) |
+| Kings with names in the Hall: Ramesses I, Sety I, Ramesses II, Ramesses III, Ramesses IV, Ramesses VI, Herihor; Horemheb and Amenhotep III on the pylons | OIP 142 translations (RI, SI, RII, Herihor); Memphis Great Columns, Smaller Columns and Marginal Decoration pages (RIII, RIV, RVI, Herihor); Memphis Architecture (pylons) | checked |
+| Throne and birth names | Wikipedia infoboxes (citing Clayton 1994, Leprohon 2013), UCL Digital Egypt (RIII), Wikidata and pharaoh.se/Beckerath (RIV) | checked |
+| Ramesses II early vs final names; year 2 change; recutting in the south half | Memphis, Interior Wall Scenes | checked |
+| Rekhyt birds on neb baskets at the small-column bases | Memphis, Smaller Columns | checked |
+| Ramesses IV’s large cartouches on central column bases, later usurped by Ramesses VI | Memphis, Great Columns; Digital Karnak | checked |
+| Printed spellings shown in cartouches (Menmaatre; Usermaatre-setepenre) | Read from the Hall photographs (B92; column photo) and matched to Wikipedia hieroglyph codes | checked |
+| Photo outlines for signs | Positions set by eye on the photographs and checked in screenshots | checked |
+| Reign dates | Memphis pages where given (Ramesses I, Amenhotep III, Horemheb, Ramesses IV, VI); Digital Karnak (Sety I, Ramesses II); UCL/Wikipedia (Ramesses III). Dating systems differ by a few years | checked (approximate) |
+
+Open: specialist read-through of sign explanations; more photo examples for signs without one (was, djed, rekhyt, Ramesses IV/VI cartouches); a printed spelling for each king once matched to a Hall photograph.
+
+Font: Noto Sans Egyptian Hieroglyphs, SIL Open Font License 1.1, bundled in `assets/fonts/` with its licence for offline use.

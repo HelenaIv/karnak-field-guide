@@ -1,0 +1,85 @@
+{
+  "id": "practice",
+  "language": "en",
+  "updated": "2026-11-14",
+  "status": "needs_source_check",
+  "items": [
+    {
+      "id": "whose-name",
+      "title": "Whose name is on this column?",
+      "mediaId": "hall-study-97f47532",
+      "steps": [
+        {
+          "x": 29,
+          "y": 52,
+          "label": "1",
+          "text": "Sun disk: Re. A god’s name, so it comes first."
+        },
+        {
+          "x": 41,
+          "y": 50,
+          "label": "2",
+          "text": "Canine head on a staff: user, “strong”."
+        },
+        {
+          "x": 50,
+          "y": 50,
+          "label": "3",
+          "text": "Seated goddess with a feather: Maat. She holds an ankh."
+        },
+        {
+          "x": 61,
+          "y": 48,
+          "label": "4",
+          "text": "Adze: setep, “chosen”, with water (n) below it."
+        },
+        {
+          "x": 71,
+          "y": 48,
+          "label": "5",
+          "text": "Sun disk again: Re. Setep-en-Re, “chosen of Re”."
+        }
+      ],
+      "answer": "Usermaatre-setepenre: “Strong is the Maat of Re, chosen of Re”. This is the throne name of Ramesses II.",
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Ramesses II’s final throne name"
+        }
+      ]
+    },
+    {
+      "id": "scene-b92",
+      "title": "Find three things in scene B92",
+      "mediaId": "hall-study-fc2a1d41",
+      "steps": [
+        {
+          "x": 77,
+          "y": 68,
+          "label": "1",
+          "text": "The ankh in Sety’s hand: life. Holding it marks him as divine."
+        },
+        {
+          "x": 22,
+          "y": 7,
+          "label": "2",
+          "text": "The vulture over Ramesses: a goddess protecting the king."
+        },
+        {
+          "x": 43,
+          "y": 79,
+          "label": "3",
+          "text": "Sun disk, Maat and game board: Menmaatre, Sety I’s throne name."
+        }
+      ],
+      "answer": "Ramesses II purifies the statue of his father, Sety I, who is already a god.",
+      "stop": "four-jars",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98"
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ OUT=ROOT/'dist'
 OUT.mkdir(exist_ok=True)
 def read(path):
  return json.loads(Path(path).read_text(encoding='utf-8'))
-for name in ['index.html','app.js','hall.js','styles.css']:
+for name in ['index.html','app.js','hall.js','read.js','styles.css']:
  shutil.copyfile(ROOT/'web'/name,OUT/name)
 content={}
 for kind in ['chapters','places','details','lessons','guides']:
@@ -21,6 +21,29 @@ for kind in ['chapters','places','details','lessons','guides']:
 content['sources']=read(ROOT/'content/sources.json')['sources']
 content['media']=read(ROOT/'content/media.json')['media']
 content['glossary']=read(ROOT/'content/glossary.json')
+import re, unicodedata
+def glyph(code):
+ m=re.fullmatch(r'([A-Za-z]+)(\d+)([A-Za-z]?)',code)
+ name='EGYPTIAN HIEROGLYPH '+(m.group(1)+m.group(2).zfill(3)+m.group(3)).upper()
+ return unicodedata.lookup(name)
+gmap={}
+def conv(codes):
+ out=[]
+ for c in codes:
+  gmap[c]=glyph(c); out.append(gmap[c])
+ return out
+rd={k:read(ROOT/'content/reading'/(k+'.json')) for k in ['signs','names','phrases','scene','practice']}
+for s in rd['signs']['signs']: s['glyphs']=conv(s['code'].split('-'))
+for p in rd['phrases']['phrases']: p['glyphs']=conv(p['glyphs'])
+for k in rd['names']['kings']:
+ for part in ('throne','birth'):
+  if k[part].get('glyphs'): k[part]['glyphs']=conv(k[part]['glyphs'])
+conv(['M23','X1','L2','G39','N5'])
+rd['glyphMap']=gmap
+content['reading']=rd
+fontsrc=ROOT/'assets/fonts'
+if fontsrc.exists():
+ shutil.copytree(fontsrc,OUT/'fonts',dirs_exist_ok=True)
 (OUT/'assets').mkdir(exist_ok=True)
 for m in content['media']:
  source=ROOT/m['path'];target=(OUT/'assets'/source.name).with_suffix('.jpg')
@@ -28,6 +51,7 @@ for m in content['media']:
   with Image.open(source) as im:
    im=im.convert('RGB');im.thumbnail((1600,1600));im.save(target,quality=88,optimize=True)
  m['webPath']='assets/'+target.name
+ with Image.open(target) as im2: m['width'],m['height']=im2.size
  m['changes'] += ' Review-site copy proportionally resized to at most 1600px and JPEG recompressed; no editorial crop. Card layouts may crop the display; enlarge for the full image.'
 payload=json.dumps(content,ensure_ascii=False)
 (OUT/'data.json').write_text(payload+'\n',encoding='utf-8')

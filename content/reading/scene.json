@@ -1,0 +1,115 @@
+{
+  "id": "scene-rules",
+  "language": "en",
+  "updated": "2026-11-14",
+  "status": "needs_source_check",
+  "rules": [
+    {
+      "id": "facing",
+      "title": "Signs face the beginning",
+      "text": "People, animals and birds in a line of text all face the same way: towards the start. If the birds look left, start reading at the left. In a column, read from the top down.",
+      "citations": [
+        {
+          "sourceId": "ucl-art-script",
+          "locator": "Direction of writing"
+        }
+      ]
+    },
+    {
+      "id": "belongs",
+      "title": "Text belongs to the figure it faces",
+      "text": "The column of signs in front of a figure is that figure’s name and speech, and the signs face the same way the figure does. A scene with a king and a god usually has two sets of text, one for each.",
+      "citations": [
+        {
+          "sourceId": "memphis-reliefs-overview",
+          "locator": "Scenes and caption texts"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Layout of label, king’s and god’s texts in the translations"
+        }
+      ]
+    },
+    {
+      "id": "action",
+      "title": "Look for the action label",
+      "text": "A short label, often between the figures, names what is happening: “offering incense”, “purifying four times”. Read it first; it tells you the subject of the scene.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98: label"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-fc2a1d41",
+        "x": 30,
+        "y": 52,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "id": "exchange",
+      "title": "Every scene is an exchange",
+      "text": "The king gives something to a god: incense, water, bread, flowers, Maat. The god answers with gifts for the king: life, stability, dominion, years of reign. Read the god’s speech to find out what the king gets.",
+      "citations": [
+        {
+          "sourceId": "memphis-scene-types",
+          "locator": "Varieties of ritual scenes"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Gods’ speeches: “I have given to you …”"
+        }
+      ]
+    },
+    {
+      "id": "registers",
+      "title": "Read one register at a time",
+      "text": "Walls are divided into horizontal rows of scenes (registers), most walls with four or five. Each framed scene is complete in itself. Short sequences can tell a story, but most neighbouring scenes are not “what happened next”.",
+      "citations": [
+        {
+          "sourceId": "memphis-reliefs-overview",
+          "locator": "Registers and scene cells"
+        },
+        {
+          "sourceId": "memphis-scene-types",
+          "locator": "Scenes stand alone"
+        }
+      ]
+    },
+    {
+      "id": "god-first",
+      "title": "Gods’ names jump the queue",
+      "text": "Out of respect, a god’s name is written before words it actually follows. That is why Re’s sun disk sits at the top of royal names, and why the Amun group comes before the hoe in “beloved of Amun”.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Notes on honorific transposition of divine names"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "title": "Size shows importance",
+      "text": "Gods and kings are big, and helpers and enemies are small. Size is about rank, not the real size of people.",
+      "citations": [
+        {
+          "sourceId": "hall-sety-wars",
+          "locator": "Scale in the battle scenes"
+        }
+      ]
+    },
+    {
+      "id": "rings",
+      "title": "Not every oval is a cartouche",
+      "text": "On the outer battle walls, rows of bound captives sit on oval rings with notched edges. Those rings hold the names of foreign places, not kings. A royal cartouche is smooth and closed with a straight bar.",
+      "citations": [
+        {
+          "sourceId": "hall-ramesses-wars",
+          "locator": "Captives and name rings on the south wall"
+        }
+      ]
+    }
+  ]
+}

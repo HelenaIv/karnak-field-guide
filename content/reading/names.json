@@ -1,0 +1,341 @@
+{
+  "id": "royal-names",
+  "language": "en",
+  "updated": "2026-11-14",
+  "status": "needs_source_check",
+  "intro": "Every king had five names. Two of them are written in cartouches: the throne name, taken at the coronation, and the birth name. The throne name follows “King of Upper and Lower Egypt” (sedge and bee); the birth name follows “Son of Re” (duck and sun disk). Inside, the god’s name is written first out of respect.",
+  "kings": [
+    {
+      "id": "ramesses-i",
+      "name": "Ramesses I",
+      "reign": "c. 1295–1294 BC",
+      "dynasty": "19th Dynasty (founder)",
+      "role": "Father of Sety I, founder of the family. He reigned for only a short time; Sety honoured him in scenes on the west wall of the Hall, and his names appear in their texts.",
+      "throne": {
+        "name": "Menpehtyre",
+        "meaning": "Enduring is the strength of Re",
+        "look": "Sun disk and game board, like Sety I’s name, but with leopard heads (pehty, “strength”) instead of Maat."
+      },
+      "birth": {
+        "name": "Ramessu",
+        "meaning": "Re is the one who bore him",
+        "look": "Sun disk, three fox skins and folded cloth: the basic “Ramesses” spelling."
+      },
+      "spot": "Look in scenes where Sety I honours a deceased king on the west wall.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Translations naming MENPEHTYRE RAMESSU"
+        },
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Sety I honoured Ramesses I on the west wall"
+        },
+        {
+          "sourceId": "wikipedia-ramesses-i",
+          "locator": "Prenomen and nomen with sign codes"
+        }
+      ]
+    },
+    {
+      "id": "sety-i",
+      "name": "Sety I",
+      "reign": "c. 1294–1279 BC",
+      "dynasty": "19th Dynasty",
+      "role": "Builder of the Hall. All his carving inside it is in raised relief, mostly in the north half and on the clerestory. He died before the decoration was finished.",
+      "throne": {
+        "name": "Menmaatre",
+        "meaning": "Enduring is the Maat of Re",
+        "glyphs": [
+          "N5",
+          "C10",
+          "Y5"
+        ],
+        "glyphsNote": "As written at stop 6: sun disk, seated Maat, game board.",
+        "look": "A short, compact group: sun disk on top, seated Maat, game board at the bottom."
+      },
+      "birth": {
+        "name": "Sety-merenptah",
+        "meaning": "He of Seth, beloved of Ptah",
+        "look": "The name includes a small seated figure of the god Seth. It is often followed by “beloved of Ptah” or, in some texts, “beloved of Amun” (Sety-merenamun)."
+      },
+      "spot": "His Menmaatre is the easiest royal name in the Hall to recognise. Try it at stop 6, marker 6.",
+      "photo": {
+        "mediaId": "hall-study-fc2a1d41",
+        "x": 39,
+        "y": 74,
+        "w": 13,
+        "h": 12
+      },
+      "stops": [
+        "four-jars"
+      ],
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98; names of Sety I in the translations"
+        },
+        {
+          "sourceId": "digital-karnak-hypostyle",
+          "locator": "Dates and decoration of Sety I"
+        },
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Sety I’s raised relief"
+        },
+        {
+          "sourceId": "wikipedia-seti-i",
+          "locator": "Prenomen and nomen with sign codes"
+        }
+      ]
+    },
+    {
+      "id": "ramesses-ii",
+      "name": "Ramesses II",
+      "reign": "c. 1279–1213 BC",
+      "dynasty": "19th Dynasty",
+      "role": "Sety’s son. He finished the Hall, converted the south half to sunk relief, and put his names on the central columns and almost everywhere else, sometimes over his father’s.",
+      "throne": {
+        "name": "Usermaatre-setepenre",
+        "meaning": "Strong is the Maat of Re, chosen of Re",
+        "glyphs": [
+          "N5",
+          "F12",
+          "C10",
+          "U21",
+          "N35",
+          "N5"
+        ],
+        "glyphsNote": "As carved on the column in the photo: sun disk, user, Maat holding an ankh, adze, water, sun disk.",
+        "look": "Sun disk, the canine head on a staff (user), Maat, then the adze (setep) with water (n) and a second sun disk."
+      },
+      "birth": {
+        "name": "Ramesses-meryamun",
+        "meaning": "Re is the one who bore him, beloved of Amun",
+        "look": "Sun disk, three fox skins, folded cloths, plus the Amun group and the hoe (beloved)."
+      },
+      "early": "In his first year his names were shorter: Usermaatre alone, and Ramessu-meryamun. He settled on the final forms in his second year and had earlier cartouches in the south half recut.",
+      "spot": "User + Maat + adze = Ramesses II. You will see it on the twelve central columns and on most of the south wall.",
+      "photo": {
+        "mediaId": "hall-study-97f47532",
+        "x": 20,
+        "y": 34,
+        "w": 58,
+        "h": 36
+      },
+      "stops": [
+        "four-jars",
+        "names"
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Early and final cartouches; conversion to sunk relief"
+        },
+        {
+          "sourceId": "digital-karnak-hypostyle",
+          "locator": "Central columns; dates"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Names of Ramesses II in the translations"
+        },
+        {
+          "sourceId": "wikipedia-ramesses-ii",
+          "locator": "Prenomen and nomen with sign codes"
+        }
+      ]
+    },
+    {
+      "id": "ramesses-iii",
+      "name": "Ramesses III",
+      "reign": "c. 1186–1155 BC",
+      "dynasty": "20th Dynasty",
+      "role": "Added inscriptions in a few places in the Hall, and built a small shrine against the outside of the north wall for visitors who came to pray to the Theban triad.",
+      "throne": {
+        "name": "Usermaatre-meryamun",
+        "meaning": "Strong is the Maat of Re, beloved of Amun",
+        "look": "Starts like Ramesses II’s name, but ends with the Amun group and hoe (beloved of Amun) instead of the adze and sun disk."
+      },
+      "birth": {
+        "name": "Ramesses-heqaiunu",
+        "meaning": "Re is the one who bore him, ruler of Heliopolis",
+        "look": "The Ramesses spelling followed by the crook (ruler)."
+      },
+      "spot": "If you see Usermaatre without the adze, check whether it is Ramesses III.",
+      "citations": [
+        {
+          "sourceId": "ucl-ramesses-iii",
+          "locator": "Prenomen and nomen"
+        },
+        {
+          "sourceId": "memphis-marginal",
+          "locator": "Ramesses III shrine on the north wall"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Ramesses III marginal inscriptions"
+        },
+        {
+          "sourceId": "wikipedia-ramesses-iii",
+          "locator": "Prenomen and nomen with sign codes"
+        }
+      ]
+    },
+    {
+      "id": "ramesses-iv",
+      "name": "Ramesses IV",
+      "reign": "c. 1155–1149 BC",
+      "dynasty": "20th Dynasty",
+      "role": "Filled most of the 134 columns with friezes of his cartouches and extra scenes: his names appear thousands of times. He also put huge cartouches and Horus names at the bases of the central columns.",
+      "throne": {
+        "name": "Usermaatre-setepenamun, later Heqamaatre-setepenamun",
+        "meaning": "Strong is the Maat of Re, chosen of Amun; later: Re is the ruler of Maat, chosen of Amun",
+        "look": "Look for the crook (heqa) next to Maat, and for “chosen of Amun”: the adze with the Amun group instead of a sun disk."
+      },
+      "birth": {
+        "name": "Ramesses-heqamaat-meryamun",
+        "meaning": "Re is the one who bore him, ruler of Maat, beloved of Amun",
+        "look": "The Ramesses spelling with the crook and Maat."
+      },
+      "spot": "Rows of identical small cartouches on the column shafts are usually his. He changed the spelling of his name and recut some of them.",
+      "citations": [
+        {
+          "sourceId": "memphis-marginal",
+          "locator": "Ramesses IV’s cartouches on most columns"
+        },
+        {
+          "sourceId": "hypostyle-project-columns",
+          "locator": "Large cartouches at the base of the great columns"
+        },
+        {
+          "sourceId": "wikidata-ramesses-iv",
+          "locator": "Throne names"
+        }
+      ]
+    },
+    {
+      "id": "ramesses-vi",
+      "name": "Ramesses VI",
+      "reign": "c. 1145–1137 BC",
+      "dynasty": "20th Dynasty",
+      "role": "Took over some of Ramesses IV’s big cartouches at the bases of the central columns by carving his own names over them. Plaster hid the earlier names; where it has fallen, several names overlap.",
+      "throne": {
+        "name": "Nebmaatre-meryamun",
+        "meaning": "Re is the lord of Maat, beloved of Amun",
+        "look": "The basket (neb) next to Maat and the sun disk, with the Amun group and hoe."
+      },
+      "birth": {
+        "name": "Ramesses-Amunherkhepeshef-netjerheqaiunu",
+        "meaning": "Re is the one who bore him, Amun is his strength, god and ruler of Heliopolis",
+        "look": "A long birth name; look for the Ramesses spelling at the start."
+      },
+      "spot": "At the bases of the central columns, a cartouche with a confusing jumble of signs may hold two or three kings’ names at once.",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-columns",
+          "locator": "Ramesses VI usurped Ramesses IV’s cartouches"
+        },
+        {
+          "sourceId": "wikipedia-ramesses-vi",
+          "locator": "Prenomen"
+        }
+      ]
+    },
+    {
+      "id": "herihor",
+      "name": "Herihor",
+      "reign": "c. 1080 BC",
+      "dynasty": "End of the 20th Dynasty",
+      "role": "High Priest of Amun at Karnak who took royal titles in the temple. He added bands of text low down on walls and columns, connecting himself with Sety I and Ramesses II.",
+      "throne": {
+        "name": "First Priest of Amun",
+        "meaning": "His title as High Priest of Amun, written inside a cartouche",
+        "look": "A cartouche that holds a priest’s title (the flag “god” and the Amun group) instead of a normal throne name."
+      },
+      "birth": {
+        "name": "Siamun-Herihor",
+        "meaning": "Son of Amun, Horus is raised up",
+        "look": "The Amun group and the falcon of Horus."
+      },
+      "spot": "Low bands of text at the bottom of the walls; many are worn or lost.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Bandeau text of Herihor, translation"
+        },
+        {
+          "sourceId": "memphis-marginal",
+          "locator": "Herihor’s marginal inscriptions"
+        },
+        {
+          "sourceId": "wikipedia-herihor",
+          "locator": "Prenomen and nomen with sign codes"
+        }
+      ]
+    },
+    {
+      "id": "horemheb",
+      "name": "Horemheb",
+      "reign": "c. 1321–1293 BC",
+      "dynasty": "18th Dynasty (last king)",
+      "role": "Built the Second Pylon, the gateway you walk through into the Hall.",
+      "throne": {
+        "name": "Djeserkheperure-setepenre",
+        "meaning": "Holy are the forms of Re, chosen of Re",
+        "look": "Look for the scarab beetle (kheper) with three plural strokes."
+      },
+      "birth": {
+        "name": "Horemheb-meryamun",
+        "meaning": "Horus is in festival, beloved of Amun",
+        "look": "The falcon (Horus) with the festival sign."
+      },
+      "spot": "On the Second Pylon gateway at the west end of the Hall.",
+      "stops": [
+        "entrance"
+      ],
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Horemheb built the Second Pylon"
+        },
+        {
+          "sourceId": "wikipedia-horemheb",
+          "locator": "Royal names"
+        }
+      ]
+    },
+    {
+      "id": "amenhotep-iii",
+      "name": "Amenhotep III",
+      "reign": "c. 1390–1352 BC",
+      "dynasty": "18th Dynasty",
+      "role": "Built the Third Pylon, the eastern end of the Hall, two generations before the Hall itself.",
+      "throne": {
+        "name": "Nebmaatre",
+        "meaning": "The lord of Maat is Re",
+        "look": "Sun disk, Maat and the basket (neb). The same three signs begin Ramesses VI’s name, so check what follows."
+      },
+      "birth": {
+        "name": "Amenhotep-heqawaset",
+        "meaning": "Amun is satisfied, ruler of Thebes",
+        "look": "The Amun group with the offering table (hetep)."
+      },
+      "spot": "On the Third Pylon at the east end of the Hall.",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Amenhotep III built the Third Pylon"
+        },
+        {
+          "sourceId": "memphis-royal-barks",
+          "locator": "Reign dates of Amenhotep III"
+        },
+        {
+          "sourceId": "wikipedia-amenhotep-iii",
+          "locator": "Royal names"
+        }
+      ]
+    }
+  ]
+}

@@ -163,10 +163,50 @@ def validate():
                 for a in f.get('annotations', []):
                     check(0 <= a.get('x', -1) <= 100 and 0 <= a.get('y', -1) <= 100 and bool(a.get('label')), f'{owner}: invalid annotation')
             stop_count += 1
+    reading_dir = ROOT / 'content/reading'
+    stop_ids = {s.get('id') for g in [load(p) for p in guides] for s in g.get('stops', [])}
+    reading_count = 0
+    if reading_dir.exists():
+        def media_ref(x, owner):
+            if x.get('photo'):
+                ph = x['photo']
+                check(ph.get('mediaId') in media_ids, f'{owner}: unknown photo media')
+                check(all(0 <= ph.get(k, -1) <= 100 for k in ('x', 'y', 'w', 'h')), f'{owner}: crop outside 0-100')
+        def stop_ref(ids, owner):
+            for i in ids or []:
+                check(i in stop_ids or i == 'names', f'{owner}: unknown stop {i}')
+        sg = load(reading_dir / 'signs.json')
+        groups = {g['id'] for g in sg.get('groups', [])}
+        sign_ids = [x.get('id') for x in sg.get('signs', [])]
+        check(len(sign_ids) == len(set(sign_ids)), 'Duplicate sign IDs')
+        for x in sg.get('signs', []):
+            o = 'sign/' + str(x.get('id'))
+            for f in ('code', 'name', 'group', 'reading', 'meaning', 'why', 'where'):
+                check(bool(x.get(f)), f'{o}: missing {f}')
+            check(x.get('group') in groups, f'{o}: unknown group')
+            check(all(re.fullmatch(r'[A-Za-z]+\d+[A-Za-z]?', c) for c in x.get('code', '').split('-')), f'{o}: bad Gardiner code')
+            citations(x.get('citations', []), o); media_ref(x, o); stop_ref(x.get('stops'), o)
+            reading_count += 1
+        for k in load(reading_dir / 'names.json').get('kings', []):
+            o = 'king/' + str(k.get('id'))
+            for f in ('name', 'reign', 'role', 'throne', 'birth', 'spot'):
+                check(bool(k.get(f)), f'{o}: missing {f}')
+            citations(k.get('citations', []), o); media_ref(k, o); stop_ref(k.get('stops'), o)
+            reading_count += 1
+        for p_ in load(reading_dir / 'phrases.json').get('phrases', []):
+            o = 'phrase/' + str(p_.get('id'))
+            check(bool(p_.get('glyphs')) and bool(p_.get('text')), f'{o}: incomplete')
+            citations(p_.get('citations', []), o); reading_count += 1
+        for r_ in load(reading_dir / 'scene.json').get('rules', []):
+            citations(r_.get('citations', []), 'rule/' + str(r_.get('id'))); media_ref(r_, 'rule/' + str(r_.get('id'))); reading_count += 1
+        for it in load(reading_dir / 'practice.json').get('items', []):
+            o = 'practice/' + str(it.get('id'))
+            check(it.get('mediaId') in media_ids, f'{o}: unknown media')
+            citations(it.get('citations', []), o); stop_ref([it['stop']] if it.get('stop') else [], o); reading_count += 1
     if errors:
         print('\n'.join(errors), file=sys.stderr)
         return 1
-    print(f'Validated {len(records)} records, {len(guides)} guide ({stop_count} stops), {len(sources)} sources and {len(graph)} relationships; references and media checksums passed.')
+    print(f'Validated {len(records)} records, {len(guides)} guide ({stop_count} stops), {reading_count} reading items, {len(sources)} sources and {len(graph)} relationships; references and media checksums passed.')
     return 0
 
 if __name__ == '__main__':

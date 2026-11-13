@@ -827,6 +827,186 @@
       "kind": "specialist archaeological project",
       "consultation": "Read 2026-11-13: registers (most walls have four or five), ritual scene types including offering Maat, exterior battle scenes.",
       "accessed": "2026-11-13"
+    },
+    {
+      "id": "memphis-small-columns",
+      "title": "The Smaller Columns",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/smallercolumns.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-14: rekhyt birds on neb signs at column bases; Ramesses IV and VI additions; last additions 1080–1072 BCE.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "memphis-royal-barks",
+      "title": "The Royal Bark",
+      "url": "https://memphis.edu/hypostyle/meaning_function/royal-barks.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-14: royal bark; dates of Amenhotep III.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "memphis-scene-types",
+      "title": "Varieties of Ritual Scenes",
+      "url": "https://www.memphis.edu/hypostyle/reliefs_inscriptions/varieties-ritual-scenes.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-14: main categories of ritual scenes; gods’ benefactions to the king.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wiki-gardiner",
+      "title": "List of Egyptian hieroglyphs (Gardiner’s sign list)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Egyptian_hieroglyphs",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Read 2026-11-14: Gardiner codes, Unicode code points and meanings for all 56 signs used in Read the walls matched.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikidata-ramesses-iv",
+      "title": "Ramesses IV (Q1532)",
+      "url": "https://www.wikidata.org/wiki/Q1532",
+      "authors": [
+        "Wikidata contributors"
+      ],
+      "publisher": "Wikidata",
+      "kind": "reference database",
+      "consultation": "Throne names Usermaatre-setepenamun and Heqamaatre-setepenamun with sign codes.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "pharaoh-se-ramesses-iv",
+      "title": "Ramesses IV",
+      "url": "https://pharaoh.se/pharaoh/Ramesses-IV",
+      "authors": [
+        "pharaoh.se"
+      ],
+      "publisher": "pharaoh.se",
+      "kind": "reference summary",
+      "consultation": "Birth name Ramessu-heqamaat-meryamun, citing Beckerath, Handbuch der ägyptischen Königsnamen (1999).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "ucl-ramesses-iii",
+      "title": "Ramesses III",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt//chronology/ramsesiii.html",
+      "authors": [
+        "Digital Egypt for Universities"
+      ],
+      "publisher": "UCL, Digital Egypt for Universities",
+      "kind": "university teaching resource",
+      "consultation": "Prenomen Usermaatre-meryamun, nomen Ramesses Heqaiunu.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-ramesses-vi",
+      "title": "Ramesses VI",
+      "url": "https://en.wikipedia.org/wiki/Ramesses_VI",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Infobox royal names and hieroglyph codes read 2026-11-14 (article source citing Clayton 1994 and Leprohon 2013).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-horemheb",
+      "title": "Horemheb",
+      "url": "https://en.wikipedia.org/wiki/Horemheb",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Infobox royal names and hieroglyph codes read 2026-11-14 (article source citing Clayton 1994 and Leprohon 2013).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-amenhotep-iii",
+      "title": "Amenhotep III",
+      "url": "https://en.wikipedia.org/wiki/Amenhotep_III",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Infobox royal names and hieroglyph codes read 2026-11-14 (article source citing Clayton 1994 and Leprohon 2013).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-ramesses-i",
+      "title": "Ramesses I",
+      "url": "https://en.wikipedia.org/wiki/Ramesses_I",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Infobox royal names and hieroglyph codes read 2026-11-14 (article source citing Clayton 1994 and Leprohon 2013).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-seti-i",
+      "title": "Seti I",
+      "url": "https://en.wikipedia.org/wiki/Seti_I",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Infobox royal names and hieroglyph codes read 2026-11-14 (article source citing Clayton 1994 and Leprohon 2013).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-ramesses-ii",
+      "title": "Ramesses II",
+      "url": "https://en.wikipedia.org/wiki/Ramesses_II",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Infobox royal names and hieroglyph codes read 2026-11-14 (article source citing Clayton 1994 and Leprohon 2013).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-ramesses-iii",
+      "title": "Ramesses III",
+      "url": "https://en.wikipedia.org/wiki/Ramesses_III",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Infobox royal names and hieroglyph codes read 2026-11-14 (article source citing Clayton 1994 and Leprohon 2013).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-herihor",
+      "title": "Herihor",
+      "url": "https://en.wikipedia.org/wiki/Herihor",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "reference summary",
+      "consultation": "Infobox royal names and hieroglyph codes read 2026-11-14 (article source citing Clayton 1994 and Leprohon 2013).",
+      "accessed": "2026-11-14"
     }
   ]
 }

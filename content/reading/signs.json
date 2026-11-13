@@ -1,0 +1,958 @@
+{
+  "id": "signs",
+  "language": "en",
+  "updated": "2026-11-14",
+  "status": "needs_source_check",
+  "groups": [
+    {
+      "id": "gifts",
+      "title": "What the gods give",
+      "intro": "These signs are the gifts in almost every scene: gods hold them out to the king, and the king asks for them. Learn these first."
+    },
+    {
+      "id": "gods",
+      "title": "Names of gods",
+      "intro": "A god’s name is often written beside or above the figure. These few groups cover most of the Hall."
+    },
+    {
+      "id": "titles",
+      "title": "The king’s titles",
+      "intro": "Small groups of signs that stand in front of the royal names. They tell you a name is coming, and which one."
+    },
+    {
+      "id": "names",
+      "title": "Signs inside royal names",
+      "intro": "The building blocks of the cartouches in the Hall. With these you can tell the kings apart."
+    },
+    {
+      "id": "speech",
+      "title": "Speech and small words",
+      "intro": "Signs that turn a scene into dialogue: “words spoken”, “I have given”, “you”, “he”. Many are used only for their sound."
+    },
+    {
+      "id": "protection",
+      "title": "Protection, people and enemies",
+      "intro": "Signs for the powers that guard the king, for Egypt’s people, and for its enemies."
+    },
+    {
+      "id": "time",
+      "title": "Time and eternity",
+      "intro": "Kings asked the gods for endless time. These signs count it."
+    }
+  ],
+  "signs": [
+    {
+      "id": "ankh",
+      "code": "S34",
+      "name": "Ankh",
+      "group": "gifts",
+      "reading": "ankh",
+      "meaning": "life; to live",
+      "why": "Gods hold it out to the king, often right up to his nose, giving him the breath of life. In texts it follows the king’s names: “given life”. A king holding one, like Sety I on the south wall, is shown as divine.",
+      "where": "Everywhere. In the published wall texts of the Hall, “given life” occurs more than 300 times.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "memphis-interior",
+          "locator": "The ankh marks Sety I as divine"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “given life” in the translations"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-fc2a1d41",
+        "x": 74,
+        "y": 65,
+        "w": 6,
+        "h": 6
+      },
+      "stops": [
+        "four-jars"
+      ]
+    },
+    {
+      "id": "was",
+      "code": "S40",
+      "name": "Was sceptre",
+      "group": "gifts",
+      "reading": "was",
+      "meaning": "dominion, power",
+      "why": "A staff with an animal head at the top and a forked foot. Gods carry it as a sign of their power, and grant “dominion” to the king.",
+      "where": "In gods’ hands in the ritual scenes, and in the phrase “life, stability and dominion”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "djed",
+      "code": "R11",
+      "name": "Djed pillar",
+      "group": "gifts",
+      "reading": "djed",
+      "meaning": "stability, endurance",
+      "why": "A pillar with four bars across the top, linked with Osiris. Granting “stability” means the king’s rule will last.",
+      "where": "In the phrase “life, stability and dominion”, which appears around 200 times in the wall texts.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “life, stability, and dominion”"
+        }
+      ]
+    },
+    {
+      "id": "give",
+      "code": "X8",
+      "name": "Cone of bread (“give”)",
+      "group": "gifts",
+      "reading": "di",
+      "meaning": "to give",
+      "why": "A pointed loaf used to write the verb “to give”. It is the first sign of “given life” and of every god’s promise “I have given to you…”.",
+      "where": "After almost every royal name and in every god’s speech.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "hotep",
+      "code": "R4",
+      "name": "Offering table",
+      "group": "gifts",
+      "reading": "hetep",
+      "meaning": "offering; to be satisfied, at peace",
+      "why": "A mat with a loaf of bread on it. It means both “offering” and “peace”: a god who receives offerings is satisfied.",
+      "where": "In offering scenes and in phrases like “in peace”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "re",
+      "code": "N5",
+      "name": "Sun disk",
+      "group": "gods",
+      "reading": "ra",
+      "meaning": "Re, the sun god; also “sun”, “day”",
+      "why": "The sun god’s name, and part of almost every royal name in the Hall. Because it is a god’s name, it is written first in a cartouche even when it is spoken last.",
+      "where": "In every cartouche of Sety I and Ramesses II. On the column photo it opens the name Usermaatre-setepenre.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-97f47532",
+        "x": 23,
+        "y": 43,
+        "w": 12,
+        "h": 18
+      },
+      "stops": [
+        "names",
+        "four-jars"
+      ]
+    },
+    {
+      "id": "amun",
+      "code": "M17-Y5-N35",
+      "name": "Amun group",
+      "group": "gods",
+      "reading": "imn",
+      "meaning": "Amun, “the hidden one”",
+      "why": "Three signs spelling Amun’s name by sound: a reed leaf (i), a game board (mn) and a ripple of water (n). Karnak is Amun’s temple, so this group is everywhere, often inside royal names as “beloved of Amun”.",
+      "where": "In the birth names Ramesses-meryamun and Sety-merenamun, and over figures of Amun-Re.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "netjer",
+      "code": "R8",
+      "name": "Flag on a pole",
+      "group": "gods",
+      "reading": "netjer",
+      "meaning": "god",
+      "why": "A cloth flag on a pole, like the flagpoles that once stood in front of temple pylons. It writes the word “god”.",
+      "where": "In “the good god” before royal names, and in “lord of the gods”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "maat",
+      "code": "C10",
+      "name": "Seated Maat",
+      "group": "gods",
+      "reading": "maat",
+      "meaning": "Maat: truth, justice, right order",
+      "why": "A seated goddess with an ostrich feather on her head. Keeping Maat was the king’s first duty, and many royal names contain her.",
+      "where": "In the throne names of Sety I (Menmaatre) and Ramesses II (Usermaatre). On the column photo she holds an ankh.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-97f47532",
+        "x": 50,
+        "y": 35,
+        "w": 7,
+        "h": 30
+      },
+      "stops": [
+        "four-jars",
+        "names"
+      ]
+    },
+    {
+      "id": "feather",
+      "code": "H6",
+      "name": "Ostrich feather",
+      "group": "gods",
+      "reading": "maat (also shu)",
+      "meaning": "the feather of Maat",
+      "why": "The feather alone can write Maat’s name. Maat wears one on her head; Amun’s crown has two tall plumes.",
+      "where": "In names and on figures of Maat.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "horus",
+      "code": "G5",
+      "name": "Falcon",
+      "group": "gods",
+      "reading": "hor",
+      "meaning": "Horus, god of kingship",
+      "why": "The living king was Horus on earth. A falcon on a palace front (the serekh) introduces the king’s Horus name.",
+      "where": "Before the king’s Horus name (“Horus: mighty bull…”) and as the god Horus, who purifies the king.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "vulture",
+      "code": "G14",
+      "name": "Vulture",
+      "group": "gods",
+      "reading": "mut",
+      "meaning": "“mother”; the goddess Mut",
+      "why": "The vulture writes “mother” and the name of Mut, Amun’s wife. A vulture with spread wings over the king is a protecting goddess.",
+      "where": "Above the king in many scenes, like the one flying over Ramesses II at stop 6.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-fc2a1d41",
+        "x": 5,
+        "y": 3,
+        "w": 29,
+        "h": 8
+      },
+      "stops": [
+        "four-jars"
+      ]
+    },
+    {
+      "id": "osiris",
+      "code": "Q1-D4",
+      "name": "Throne seat and eye",
+      "group": "gods",
+      "reading": "wsir",
+      "meaning": "Osiris",
+      "why": "A throne seat and an eye write the name of Osiris, god of the dead. A dead king is called “Osiris King …”.",
+      "where": "In the texts around Sety I’s statue at stop 6 (“Osiris King Menmaatre”).",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98"
+        }
+      ],
+      "stops": [
+        "four-jars"
+      ]
+    },
+    {
+      "id": "nswt",
+      "code": "M23",
+      "name": "Sedge plant",
+      "group": "titles",
+      "reading": "nesu",
+      "meaning": "king (of Upper Egypt)",
+      "why": "The sedge plant of the south. With the bee it makes the title “King of Upper and Lower Egypt”, which always comes just before the throne name.",
+      "where": "In front of the first cartouche of a pair.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "bity",
+      "code": "L2",
+      "name": "Bee",
+      "group": "titles",
+      "reading": "bity",
+      "meaning": "king (of Lower Egypt)",
+      "why": "The bee of the north. Sedge and bee together, each with a small loaf (t) under it, read nesu-bity.",
+      "where": "In front of the throne name, next to the sedge plant.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "sa",
+      "code": "G39",
+      "name": "Pintail duck",
+      "group": "titles",
+      "reading": "sa",
+      "meaning": "son",
+      "why": "A duck that writes “son”. Duck plus sun disk reads “son of Re”, the title in front of the king’s birth name.",
+      "where": "Before the second cartouche. On the painted beam, two ducks with sun disks introduce Sety I’s name.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "“son of Re” before the birth name"
+        }
+      ],
+      "photo": {
+        "mediaId": "hypostyle-reliefs-5c1c875e",
+        "x": 13,
+        "y": 34,
+        "w": 15,
+        "h": 18
+      },
+      "stops": [
+        "names"
+      ]
+    },
+    {
+      "id": "neb",
+      "code": "V30",
+      "name": "Basket",
+      "group": "titles",
+      "reading": "neb",
+      "meaning": "lord; all, every",
+      "why": "A plain basket. On its own it reads “lord”; after a word it means “all”. It appears in “lord of the Two Lands” and “all life”.",
+      "where": "In front of royal names, and under the rekhyt birds at the column bases.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "tawy",
+      "code": "N16",
+      "name": "Strip of land",
+      "group": "titles",
+      "reading": "ta",
+      "meaning": "land; written twice: “the Two Lands”",
+      "why": "A strip of earth with grains of sand. Written twice it means “the Two Lands”: Upper and Lower Egypt.",
+      "where": "In “lord of the Two Lands”, one of the most common titles in the Hall (about 300 times in the wall texts).",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “lord of the Two Lands”"
+        }
+      ]
+    },
+    {
+      "id": "kha",
+      "code": "N28",
+      "name": "Hill with rising sun",
+      "group": "titles",
+      "reading": "kha",
+      "meaning": "to appear in glory; appearance",
+      "why": "The sun rising over a hill. “Lord of appearances” stands before the birth name: the king appears like the sun.",
+      "where": "In “lord of appearances” before the second cartouche.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "nefer",
+      "code": "F35",
+      "name": "Heart and windpipe",
+      "group": "titles",
+      "reading": "nefer",
+      "meaning": "good, beautiful",
+      "why": "A heart with the windpipe. “The good god” (netjer nefer) is a standard way to refer to the living king.",
+      "where": "Before royal names: “the good god Menmaatre”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "cartouche",
+      "code": "V10",
+      "name": "Cartouche",
+      "group": "titles",
+      "reading": "shenu",
+      "meaning": "royal name ring",
+      "why": "A loop of rope tied at one end, stretched into an oval. It encloses a king’s throne name and birth name.",
+      "where": "On every wall and column. Ramesses IV’s alone appear thousands of times.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "memphis-marginal",
+          "locator": "Ramesses IV’s cartouches repeated thousands of times"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-97f47532",
+        "x": 20,
+        "y": 34,
+        "w": 58,
+        "h": 36
+      },
+      "stops": [
+        "names"
+      ]
+    },
+    {
+      "id": "serekh",
+      "code": "O33",
+      "name": "Palace front (serekh)",
+      "group": "titles",
+      "reading": "serekh",
+      "meaning": "frame for the Horus name",
+      "why": "A palace façade with a falcon on top. It frames the king’s Horus name, the oldest of his five names.",
+      "where": "Ramesses IV added large Horus names at the bases of the central columns.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "hypostyle-project-columns",
+          "locator": "Ramesses IV’s cartouches and Horus names on the great columns"
+        }
+      ]
+    },
+    {
+      "id": "user",
+      "code": "F12",
+      "name": "Head of a canine on a staff",
+      "group": "names",
+      "reading": "user",
+      "meaning": "strong, powerful",
+      "why": "The head and neck of a dog-like animal. It opens the throne name Usermaatre, used by Ramesses II, Ramesses III and, early on, Ramesses IV.",
+      "where": "On the column photo, just after the sun disk.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-97f47532",
+        "x": 37,
+        "y": 36,
+        "w": 7,
+        "h": 29
+      },
+      "stops": [
+        "names"
+      ]
+    },
+    {
+      "id": "men",
+      "code": "Y5",
+      "name": "Game board",
+      "group": "names",
+      "reading": "men",
+      "meaning": "enduring, firm",
+      "why": "A senet game board with its pieces on top, used for the sound men. It is the “Men” in Sety I’s Menmaatre and in Amun’s name.",
+      "where": "Low in Sety I’s cartouche at stop 6 (marker 6).",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-fc2a1d41",
+        "x": 39,
+        "y": 74,
+        "w": 13,
+        "h": 12
+      },
+      "stops": [
+        "four-jars"
+      ]
+    },
+    {
+      "id": "setep",
+      "code": "U21",
+      "name": "Adze",
+      "group": "names",
+      "reading": "setep",
+      "meaning": "chosen",
+      "why": "A carpenter’s adze. “Setep-en-Re” means “chosen of Re”: Ramesses II’s final throne name ends with it.",
+      "where": "Near the end of Usermaatre-setepenre on the column photo.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ],
+      "photo": {
+        "mediaId": "hall-study-97f47532",
+        "x": 58,
+        "y": 39,
+        "w": 7,
+        "h": 19
+      },
+      "stops": [
+        "names"
+      ]
+    },
+    {
+      "id": "mer",
+      "code": "U7",
+      "name": "Hoe",
+      "group": "names",
+      "reading": "mer",
+      "meaning": "to love; beloved",
+      "why": "A hoe used for the sound mer. “Mery-Amun”, “beloved of Amun”, is part of the birth names of Ramesses II and the throne names of Ramesses III and VI.",
+      "where": "Inside cartouches, next to the Amun group.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "mes",
+      "code": "F31",
+      "name": "Three fox skins",
+      "group": "names",
+      "reading": "mes",
+      "meaning": "to be born; to give birth",
+      "why": "Three animal skins tied together. With the sun disk it spells Ra-mes-su: “Re is the one who bore him”. It is how you recognise any Ramesses.",
+      "where": "In the birth names of Ramesses I to VI.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "code": "S29",
+      "name": "Folded cloth",
+      "group": "names",
+      "reading": "s",
+      "meaning": "the sound s",
+      "why": "A folded cloth used for the sound s. It follows the fox skins in the name Ramesses.",
+      "where": "After the fox skins in Ramesses’ name.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "heqa",
+      "code": "S38",
+      "name": "Crook",
+      "group": "names",
+      "reading": "heqa",
+      "meaning": "ruler; to rule",
+      "why": "The shepherd’s crook carried by kings. Ramesses IV’s later throne name, Heqamaatre (“Re is the ruler of Maat”), uses it instead of user.",
+      "where": "In Ramesses IV’s cartouches on the columns.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "wikidata-ramesses-iv",
+          "locator": "Throne names of Ramesses IV"
+        }
+      ]
+    },
+    {
+      "id": "kheper",
+      "code": "L1",
+      "name": "Scarab beetle",
+      "group": "names",
+      "reading": "kheper",
+      "meaning": "to come into being",
+      "why": "The dung beetle, linked with the rising sun. It appears in throne names such as Horemheb’s Djeserkheperure.",
+      "where": "In Horemheb’s names on the Second Pylon gateway.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "djed-speak",
+      "code": "I10",
+      "name": "Cobra (sound dj)",
+      "group": "speech",
+      "reading": "dj",
+      "meaning": "the sound dj; first sign of “to speak”",
+      "why": "A cobra used for its sound. With a hand and a staff it writes djed medu, “words spoken”, which opens every speech.",
+      "where": "At the start of almost every god’s speech.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "medu",
+      "code": "S43",
+      "name": "Staff",
+      "group": "speech",
+      "reading": "medu",
+      "meaning": "words, speech",
+      "why": "A walking staff that writes “words”. Look for it near the start of a text column in front of a god.",
+      "where": "In “words spoken by …” (more than 100 times in the wall texts).",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Frequency of “Words spoken by”"
+        }
+      ]
+    },
+    {
+      "id": "n",
+      "code": "N35",
+      "name": "Ripple of water",
+      "group": "speech",
+      "reading": "n",
+      "meaning": "the sound n; “to, for, of”",
+      "why": "A line of water used for the sound n. It also means “to” or “of”: “I have given to you”, “chosen of Re”.",
+      "where": "Everywhere, including under the adze in setepenre.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "k",
+      "code": "V31",
+      "name": "Basket with handle",
+      "group": "speech",
+      "reading": "k",
+      "meaning": "“you, your” (to a man)",
+      "why": "A basket with a handle, for the sound k. Added to a word it means “you”: the god is speaking to the king.",
+      "where": "At the end of “I have given to you”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "code": "I9",
+      "name": "Horned viper",
+      "group": "speech",
+      "reading": "f",
+      "meaning": "“he, his”",
+      "why": "A horned viper, for the sound f. Added to a word it means “he” or “his”.",
+      "where": "In phrases like “his father”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "code": "G17",
+      "name": "Owl",
+      "group": "speech",
+      "reading": "m",
+      "meaning": "the sound m; “in, as”",
+      "why": "An owl seen face-on, for the sound m. As a word it means “in” or “as”.",
+      "where": "Very common in running texts.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "r",
+      "code": "D21",
+      "name": "Mouth",
+      "group": "speech",
+      "reading": "r",
+      "meaning": "the sound r; “to, at”",
+      "why": "A mouth, for the sound r.",
+      "where": "Very common in running texts.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "t",
+      "code": "X1",
+      "name": "Small loaf",
+      "group": "speech",
+      "reading": "t",
+      "meaning": "the sound t; marks a feminine word",
+      "why": "A small half-round loaf for the sound t. It sits under the sedge and the bee in nesu-bity.",
+      "where": "Under many signs, including in the king’s title.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "seated-man",
+      "code": "A1",
+      "name": "Seated man",
+      "group": "speech",
+      "reading": "(i)",
+      "meaning": "“I, me”; marks a word about a man",
+      "why": "A seated man. After a verb in a speech it can mean “I”; at the end of a word it shows the word is about a person.",
+      "where": "At the end of words for people and in some speeches.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "uraeus",
+      "code": "I12",
+      "name": "Rearing cobra (uraeus)",
+      "group": "protection",
+      "reading": "iaret",
+      "meaning": "the royal cobra",
+      "why": "The cobra rearing on the king’s brow, believed to spit fire at his enemies. As a sign it stands for the goddess who protects him.",
+      "where": "On royal crowns, and in the friezes of cobras near the tops of the great columns.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "hypostyle-project-columns",
+          "locator": "Frieze of cartouches and cobras"
+        }
+      ]
+    },
+    {
+      "id": "wedjat",
+      "code": "D10",
+      "name": "Eye of Horus",
+      "group": "protection",
+      "reading": "wedjat",
+      "meaning": "the healed eye; protection",
+      "why": "The eye of Horus with falcon markings, a sign of healing and protection.",
+      "where": "In ritual scenes and on amulets.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "shen",
+      "code": "V9",
+      "name": "Shen ring",
+      "group": "protection",
+      "reading": "shen",
+      "meaning": "encircling; eternity, protection",
+      "why": "A loop of rope with no beginning or end. Vultures and falcons often hold one in their claws over the king. The cartouche is a stretched shen ring.",
+      "where": "In the claws of vultures over the king.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "rekhyt",
+      "code": "G23",
+      "name": "Lapwing (rekhyt)",
+      "group": "protection",
+      "reading": "rekhyt",
+      "meaning": "the common people",
+      "why": "A lapwing with its wings pinned. At the bases of the small columns, rekhyt birds sit on baskets (“all”) and raise their arms to Ramesses II’s names: all the people worship the king. It told visitors they were allowed in this part of the temple, even if they could not read.",
+      "where": "At the bases of many of the 122 smaller columns.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "memphis-small-columns",
+          "locator": "Rekhyt birds on neb signs at the column bases"
+        }
+      ]
+    },
+    {
+      "id": "bow",
+      "code": "T10",
+      "name": "Bow",
+      "group": "protection",
+      "reading": "pedjet",
+      "meaning": "bow; foreign enemies",
+      "why": "A bow. The “Nine Bows” are Egypt’s traditional enemies. Bound captives appear under the king’s feet and on the outer battle walls.",
+      "where": "On the outer walls and in triumph scenes.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "heh",
+      "code": "C11",
+      "name": "God Heh with raised arms",
+      "group": "time",
+      "reading": "heh",
+      "meaning": "a million; “millions of years”",
+      "why": "A kneeling god holding up his arms. He stands for an uncountable number: “millions of years” of reign.",
+      "where": "On the year staves in the scene next to stop 6 (B93).",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 49 (B93), p. 99: year staves with ḥḥ.w “millions”"
+        }
+      ],
+      "stops": [
+        "four-jars"
+      ]
+    },
+    {
+      "id": "renpet",
+      "code": "M4",
+      "name": "Palm rib",
+      "group": "time",
+      "reading": "renpet",
+      "meaning": "year",
+      "why": "A palm rib with notches: the tally stick for counting years. Gods hold long notched staves to write down the king’s years of reign.",
+      "where": "In the year-staves scene next to stop 6 (B93).",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 49 (B93), p. 99: year staves"
+        }
+      ],
+      "stops": [
+        "four-jars"
+      ]
+    },
+    {
+      "id": "hebsed",
+      "code": "O23",
+      "name": "Jubilee pavilion",
+      "group": "time",
+      "reading": "heb-sed",
+      "meaning": "the royal jubilee",
+      "why": "A double pavilion with two thrones, used for the jubilee festival that renewed a king’s power. Gods promise the king “millions of jubilees”.",
+      "where": "On the year staves and in gods’ speeches.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 49 (B93), p. 99: jubilees"
+        }
+      ]
+    }
+  ]
+}
