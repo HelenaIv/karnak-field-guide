@@ -141,9 +141,8 @@ function universePage() {
     <div class="mu-karnak"><h2>${esc(k.heading)}</h2><div class="mu-prose">${k.text.map(p => `<p>${fmt(p)}</p>`).join('')}</div>
     <div class="mu-aerial">${hallFigure(k.figure)}</div>
     <div class="mu-parts">${k.parts.map(part).join('')}</div>
-    <p class="mu-summary">${fmt(k.closing)}</p>${sourcesBlock(k.citations)}</div>
+    ${sourcesBlock(k.citations)}</div>
     <p class="micro">${esc(f.drawingNote)}</p>
-    <p><a class="primary" href="#hall">Back to the Hall guide <span>→</span></a></p>
   </section>`;
 }
 
