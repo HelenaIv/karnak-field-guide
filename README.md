@@ -4,11 +4,11 @@ A scholarly, site-specific digital field guide to the Karnak temple complex at L
 
 ## Project stage
 
-**Research and content foundation (in progress).** This repository does **not** yet contain an application. Content is original editorial synthesis based on the sources credited in `content/sources.json`; it is not a peer-reviewed epigraphic edition.
+**Research, content and editorial review website (in progress).** The draft website is in `web/`; WordPress integration and native applications are not implemented. Content is original editorial synthesis based on the sources credited in `content/sources.json`; it is not a peer-reviewed epigraphic edition.
 
 ## Confirmed direction
 
-WordPress + JetEngine backend, with a separate app; English first and Ukrainian planned. Text, images and selected animations, without audio. Downloadable content for offline use, with future Google Play and Apple App Store distribution in mind. No WordPress site or frontend implementation exists yet. Framework and packaging choices remain proposals.
+WordPress + JetEngine backend, with a separate app; English first and Ukrainian planned. Text, images and selected animations, without audio. Downloadable content for offline use, with future Google Play and Apple App Store distribution in mind. No WordPress site or native app exists yet; the review website currently reads repository JSON. Framework and packaging choices remain proposals.
 
 **Resume after a lost chat:** read [docs/RECOVERY.md](docs/RECOVERY.md). Confirmed requirements are in [docs/PROJECT_REQUIREMENTS.md](docs/PROJECT_REQUIREMENTS.md); implementation proposal in [docs/TECHNOLOGY_ARCHITECTURE.md](docs/TECHNOLOGY_ARCHITECTURE.md).
 
@@ -39,7 +39,7 @@ Additional research data: `content/people/`, `content/periods/`, `content/themes
 
 ## Validation
 
-Run `python scripts/validate_content.py` and `git diff --check` before commits. No additional dependencies required. Validation checks data integrity, not historical accuracy.
+Run `python scripts/validate_content.py` and `git diff --check` before commits. Content validation uses the standard library. Build the review website with `python scripts/build_review_site.py` (Pillow required), then run `node scripts/check_review_site.cjs`. Serve the generated `dist/` with a static server; do not open `web/index.html` directly because its generated data file is in `dist/`. Checks validate data integrity and rendering, not historical accuracy or real browser layout.
 
 ## Reading this repository
 

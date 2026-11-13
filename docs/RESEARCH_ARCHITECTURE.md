@@ -53,3 +53,7 @@ Controlled predicates: `contains`, `west_of`, `north_of`, `replaced_by`, `blocks
 ## Visitor presentation
 
 Each stop should answer: Where am I? What survives? Who changed it? What should I inspect? What did it mean? What is uncertain? What connects to this place? Show citations beside claims and a visible evidence label for interpretations. Provide optional depth rather than a single long historical essay. Avoid modern folklore presented as ancient practice and promises about access or opening hours.
+
+## Reading chapters added
+
+`content/chapters/` contains developed English narratives with placeId, heroMediaId (nullable where an honest image gap remains), topics, sections with paragraph text and source locators, relatedDetailIds and separate review status. They are distinct from concise place records. The review website consumes the same source data; no CMS-specific numeric identity is introduced.

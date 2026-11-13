@@ -39,3 +39,7 @@ Recovered and confirmed by the owner on 2026-11-13. This file replaces dependenc
 ## Existing repository scope, not new owner confirmations
 
 The previous README excludes GPS, automated translation of hieroglyphs and accounts for v1. Retain these boundaries unless the owner requests a change. Ukrainian language translation is distinct from automated hieroglyph translation.
+
+## Subsequent confirmed direction
+
+The owner explicitly rejected the small seed as insufficient and requested proper, detailed, illustrated content using the best sources. Starting a website draft to review structure/content before app development is authorised. WordPress remains the eventual backend. Do not treat a larger record count as completion; develop content depth, matched illustrations and source verification.
