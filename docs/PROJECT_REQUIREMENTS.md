@@ -43,3 +43,7 @@ The previous README excludes GPS, automated translation of hieroglyphs and accou
 ## Subsequent confirmed direction
 
 The owner explicitly rejected the small seed as insufficient and requested proper, detailed, illustrated content using the best sources. Starting a website draft to review structure/content before app development is authorised. WordPress remains the eventual backend. Do not treat a larger record count as completion; develop content depth, matched illustrations and source verification.
+
+## Great Hypostyle Hall reset (owner direction)
+
+The owner rejected the previous website/content as shallow and wordy. Develop the Great Hypostyle Hall first, using a plan, animated manual orientation, sequential viewing instructions, precise historical/architectural explanations, real sign/cartouche examples and explanatory illustrations. The owner explicitly answered: **interior plus exterior battle reliefs now**. Do not expand other monuments before this section is reviewed. Avoid promotional headings and generic narrative. Do not label the route field-verified, a schematic a survey, or an unmatched photograph an identified panel.

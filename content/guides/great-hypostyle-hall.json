@@ -1,0 +1,1191 @@
+{
+  "id": "great-hypostyle-hall",
+  "type": "guide",
+  "title": "Great Hypostyle Hall",
+  "language": "en",
+  "version": 1,
+  "updated": "2026-11-13",
+  "status": "needs_field_check",
+  "scope": "Interior and north/south exterior battle reliefs",
+  "positionMode": "manual-selected-stop",
+  "accessNote": "Research draft. Numbered positions are approximate viewing areas, not GPS locations or a verified walking route. Follow current barriers and staff instructions.",
+  "planNote": "Original schematic, north up. Column numbers follow the published project plan; spacing is simplified. Wall-scene identifiers belong to the scholarly editions. Exterior transfers are not surveyed routes.",
+  "stops": [
+    {
+      "id": "entrance",
+      "number": 1,
+      "title": "Enter through the Second Pylon",
+      "zone": "interior",
+      "position": {
+        "x": 112,
+        "y": 410
+      },
+      "facing": "east",
+      "location": "West end of the central aisle, inside the Second Pylon.",
+      "stand": "Enter from the Great Court. Stop beyond the gateway without blocking it; face toward the Third Pylon.",
+      "look": [
+        "Identify the two rows of very tall columns. They mark the main west–east aisle.",
+        "Look through them toward the Third Pylon. This eastern boundary was already standing when the Hall was built.",
+        "Turn back once: the Second Pylon separates the Hall from the Great Court."
+      ],
+      "blocks": [
+        {
+          "heading": "Who built this space?",
+          "text": "Sety I, a king of Dynasty 19, constructed the Great Hypostyle Hall between two older pylons. Ramesses II completed and substantially changed its decoration. The Third Pylon belongs to Amenhotep III; the Second Pylon was begun under Horemheb. Construction of the room, carving of a scene and addition of a royal name can therefore have different dates.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hypostyle-project-architecture",
+              "locator": "History and architectural description"
+            }
+          ]
+        },
+        {
+          "heading": "What was the room for?",
+          "text": "This is a roofed part of Amun-Re’s temple, on an important processional axis. The divine image could travel in a portable bark shrine. The repeated king-and-god rituals on the walls define what the king should accomplish for the gods; they are not a record of tourists or an unrestricted public congregation.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "hall-function",
+              "locator": "Temple function and ritual interpretation"
+            }
+          ]
+        },
+        {
+          "heading": "Keep the sequence straight",
+          "text": "Amenhotep III and Horemheb belong to the later Eighteenth Dynasty; Sety I and Ramesses II to the Nineteenth. Later kings also inserted names and texts. A conspicuous cartouche identifies the ruler claimed by that inscription, not automatically the architect of the whole building.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "memphis-marginal",
+              "locator": "Later additions and royal names"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hypostyle-central-nave",
+          "caption": "The central nave: use the two tall rows as your first orientation feature.",
+          "annotations": []
+        }
+      ],
+      "diagram": "context",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "History; 134-column arrangement"
+        },
+        {
+          "sourceId": "hall-function",
+          "locator": "Ritual function"
+        }
+      ],
+      "transition": "Continue a short distance along the central aisle, keeping its two tall rows in view."
+    },
+    {
+      "id": "columns",
+      "number": 2,
+      "title": "Compare the two kinds of column",
+      "zone": "interior",
+      "position": {
+        "x": 195,
+        "y": 410
+      },
+      "facing": "north",
+      "location": "Central aisle, beside the western tall columns.",
+      "stand": "Remain in the central aisle. Face north to compare a tall central column with the shorter columns beyond it.",
+      "look": [
+        "Look at the spreading, open papyrus capital on a tall column.",
+        "Find the tighter bud-shaped capitals in the lower side aisles.",
+        "Follow each capital upward to the squared stone block and beams above it."
+      ],
+      "blocks": [
+        {
+          "heading": "Twelve tall; 122 lower",
+          "text": "The Hall has 134 columns. Twelve taller columns, in two rows of six, carry the higher central roof. The other 122 support the lower side roofs. Heights are often rounded to about 20 and 14 metres; published measurements vary with which parts are included. The large capital is not simply a larger version of the closed bud: the forms distinguish the nave and side aisles.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hypostyle-project-architecture",
+              "locator": "Column count, heights and capitals"
+            }
+          ]
+        },
+        {
+          "heading": "Why the different heights?",
+          "text": "The difference makes room for a clerestory: a raised band of wall with stone window grilles above the lower roofs. The spacing is structural as well as visual. Stone beams cannot span the entire room without intermediate supports, so closely spaced columns divide it into manageable spans.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "memphis-roof",
+              "locator": "Clerestory, architraves and roof construction"
+            }
+          ]
+        },
+        {
+          "heading": "Why papyrus?",
+          "text": "The plant forms make a constructed stone environment resemble a marsh. Egyptologists relate such temple vegetation and the rising floor/roof environment to creation imagery. That reading explains the religious setting; it does not establish a separate ancient written explanation for every individual column.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "hypostyle-project-columns",
+              "locator": "Papyrus forms and interpretation"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hypostyle-a20dc2dd",
+          "caption": "Compare the wide open capitals with the compact bud capitals behind them.",
+          "annotations": [
+            {
+              "x": 45,
+              "y": 20,
+              "label": "1"
+            },
+            {
+              "x": 80,
+              "y": 53,
+              "label": "2"
+            }
+          ]
+        },
+        {
+          "mediaId": "hypostyle-column-inscriptions",
+          "caption": "The lower columns: compare their proportions with the central nave.",
+          "annotations": []
+        }
+      ],
+      "diagram": "section",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "134 columns and different heights"
+        },
+        {
+          "sourceId": "memphis-roof",
+          "locator": "Raised central roof"
+        }
+      ],
+      "transition": "Stay in the central aisle and look up toward the surviving high window level."
+    },
+    {
+      "id": "roof",
+      "number": 3,
+      "title": "Reconstruct the roof and its light",
+      "zone": "interior",
+      "position": {
+        "x": 280,
+        "y": 410
+      },
+      "facing": "north",
+      "location": "Central nave, looking toward the clerestory on its north side.",
+      "stand": "Stand where a surviving stone window grille can be seen between the higher and lower roof levels.",
+      "look": [
+        "Find the horizontal beams resting on the columns. These are architraves.",
+        "Locate the high stone grilles. Their openings once admitted light above the side roofs.",
+        "Inspect sheltered undersides from the ground for pigment. Do not expect every surface to retain visible colour."
+      ],
+      "blocks": [
+        {
+          "heading": "Build the section from the bottom up",
+          "text": "Shaft → capital → abacus (the squared block above the capital) → architrave → roof slabs. The lower aisles were roofed too. The open sky between many columns today is the result of missing roofing, not the intended original lighting.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "memphis-roof",
+              "locator": "Description of abaci, architraves and stone roof"
+            }
+          ]
+        },
+        {
+          "heading": "Where light entered",
+          "text": "High clerestory windows lit the nave above the side roofs. Doors also admitted light. The original space would have had much stronger contrasts between illuminated and shaded areas than the roofless ruin suggests. The animation shows the geometry of this arrangement, not a measured reconstruction of ancient brightness or the path of sunlight at a particular hour.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "memphis-roof",
+              "locator": "Clerestory windows and light"
+            }
+          ]
+        },
+        {
+          "heading": "Why look under the beams?",
+          "text": "Sheltered stone can retain pigment that exposed surfaces have lost. Paint completed the relief: a bare groove is not the original finish. Visible patches do not justify filling an entire scene with a single imagined colour scheme; published colour observations may also record pigment that has faded since the survey.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Introduction; colour observations; plate 42, p. 90, note 276"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hypostyle-a20dc2dd",
+          "caption": "The high grilles and beams preserve the geometry needed to understand the missing roof.",
+          "annotations": []
+        },
+        {
+          "mediaId": "hypostyle-7f1badd2",
+          "caption": "Columns and architraves: follow the load-bearing elements upward.",
+          "annotations": []
+        }
+      ],
+      "diagram": "roof",
+      "citations": [
+        {
+          "sourceId": "memphis-roof",
+          "locator": "Complete page"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Colour observations, p. 90 n. 276"
+        }
+      ],
+      "transition": "Before moving to the walls, examine an accessible carved column surface without touching it."
+    },
+    {
+      "id": "carving",
+      "number": 4,
+      "title": "Tell raised relief from sunk relief",
+      "zone": "interior",
+      "position": {
+        "x": 330,
+        "y": 410
+      },
+      "facing": "south",
+      "location": "Central aisle; the illustration is a column comparison, not an identified numbered column.",
+      "stand": "Choose a surface visible from a permitted path. Look across the stone at a slight angle rather than straight into it.",
+      "look": [
+        "Identify the original flat face of the block around a sign.",
+        "Ask whether the figure stands above a lowered background, or sits within an outline cut into that face.",
+        "Compare the deep outline around the birds in the photograph with the edges of the B92 scene at stop 6."
+      ],
+      "blocks": [
+        {
+          "heading": "Raised relief: remove the background",
+          "text": "In raised relief the sculptor cuts back the surrounding field and leaves the sign or figure standing above it. The artist can model details within that surviving shape. Raised relief does not mean that pieces were attached to the wall.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Chapter 2: character of Sety I’s relief"
+            }
+          ]
+        },
+        {
+          "heading": "Sunk relief: cut into the original surface",
+          "text": "In sunk relief the outline is cut down into the wall; the figure is worked inside that boundary. Its outer edges create strong shadows. The deepest line is not necessarily the whole sign: details can be modeled inside it. Incised lines alone are a third possibility; not every scratch is a sunk-relief hieroglyph.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Chapter 2: relief techniques"
+            }
+          ]
+        },
+        {
+          "heading": "Why both occur here",
+          "text": "Lighting helps explain the usefulness of deep outlines outdoors, but “outside = sunk, inside = raised” fails in this Hall. Sety I’s northern interior decoration is largely raised. Ramesses II initially used raised relief in parts of the southern interior, then changed to sunk relief and converted earlier work. Technique here also records a change in the decoration programme. The exact motives for that change cannot be read from shadows alone.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Chapter 2; plate 48, p. 98"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hall-study-eb1eaa93",
+          "caption": "A real column surface with deeply recessed outlines. Modern names inside and above the central form are later graffiti, not hieroglyphic text.",
+          "annotations": [
+            {
+              "x": 23,
+              "y": 61,
+              "label": "1"
+            },
+            {
+              "x": 51,
+              "y": 55,
+              "label": "2"
+            },
+            {
+              "x": 57,
+              "y": 35,
+              "label": "3"
+            }
+          ]
+        }
+      ],
+      "diagram": "relief",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Chapter 2; plate 48"
+        }
+      ],
+      "transition": "Move to the south interior wall, west of its central doorway. Stops 5–7 use names and a securely identified scene in this sector; column-name photographs are comparison examples."
+    },
+    {
+      "id": "names",
+      "number": 5,
+      "title": "Recognise a cartouche and a royal name",
+      "zone": "interior",
+      "position": {
+        "x": 215,
+        "y": 666
+      },
+      "facing": "south",
+      "location": "Southwestern interior sector; the illustrated cartouche is on a column of unverified number.",
+      "stand": "Use the enlarged column photograph first. Then find the paired cartouches in the B92 panel shown at the next stop.",
+      "look": [
+        "Follow the oval outline and its closing bar. The enclosure marks a royal name.",
+        "In the column photograph, find the sun disk at the left and the seated figure of Maat near the middle.",
+        "Compare this long throne name with Sety I’s shorter Menmaatre name in B92."
+      ],
+      "blocks": [
+        {
+          "heading": "Ramesses II had more than one name",
+          "text": "A king’s formal titulary has five names. The two most often enclosed in cartouches are the throne name (prenomen) and birth name (nomen). Ramesses II’s throne name here is Usermaatre-setepenre; his birth name is Ramesses, often expanded by an epithet connecting him with Amun. Two nearby cartouches therefore need not mean two different kings.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Appendix B; plate 48, p. 98, cols. 5–6"
+            }
+          ]
+        },
+        {
+          "heading": "What this throne name says",
+          "text": "Usermaatre is conventionally rendered “Powerful is the Maat of Re”; setepenre means “chosen of Re”. Maat here expresses right order and is represented by a seated goddess with a feather. The solar disk writes the name of Re. Recognising these elements is a useful start, but a complete reading also requires sound values, grammatical grouping and the rest of the signs.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Royal names in translations and Appendix B"
+            }
+          ]
+        },
+        {
+          "heading": "Why the signs are not in English order",
+          "text": "Egyptian writing combines sound signs, word signs and meaning classifiers. Signs are arranged in balanced groups, rather than one letter after another. A divine name can be placed first for honour even when spoken later. Do not read the sun disk first and assume it must be the first spoken word.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "ucl-art-script",
+              "locator": "Interaction of art and script; arrangement and direction"
+            }
+          ]
+        },
+        {
+          "heading": "A name is evidence of a text’s claim",
+          "text": "A ruler could add names to earlier work, and a later inscription can occupy an earlier building. Compare the cartouche’s carving, surrounding text and publication history before assigning a whole wall to its owner.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "memphis-marginal",
+              "locator": "Marginal royal-name additions"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hall-study-97f47532",
+          "caption": "Usermaatre-setepenre on a column. This example is not assigned an invented column number.",
+          "annotations": [
+            {
+              "x": 26,
+              "y": 48,
+              "label": "1"
+            },
+            {
+              "x": 51,
+              "y": 49,
+              "label": "2"
+            },
+            {
+              "x": 74,
+              "y": 47,
+              "label": "3"
+            }
+          ]
+        },
+        {
+          "mediaId": "hypostyle-reliefs-5c1c875e",
+          "caption": "Comparison: Sety I cartouches. This photograph is not a Ramesses II name example; its precise beam position remains unverified.",
+          "annotations": []
+        }
+      ],
+      "diagram": "names",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Appendix B; plate 48"
+        },
+        {
+          "sourceId": "ucl-art-script",
+          "locator": "Sign arrangement"
+        }
+      ],
+      "transition": "At the south wall, locate the scene with four streams of water between two royal figures. Match the photograph before applying its reading to the stone."
+    },
+    {
+      "id": "four-jars",
+      "number": 6,
+      "title": "Read the four-jar purification of Sety I",
+      "zone": "interior",
+      "position": {
+        "x": 260,
+        "y": 666
+      },
+      "facing": "south",
+      "location": "South interior wall, west wing; B92, plate 48. Middle surviving register (“third”), third scene from the west.",
+      "stand": "Face south. Locate the two standing royal figures with four curved water streams between their heads. The scene reference identifies the surface; the map marker is approximate.",
+      "look": [
+        "Find Ramesses II at the left, holding the jars toward the figure on the right.",
+        "Count the four water streams. The repetition is part of the ritual, not several moments of a comic strip.",
+        "Find the loop-and-cross ankh held by Sety’s statue at the right.",
+        "Look beside Sety’s shoulder and rear leg for fitted stone repairs; distinguish these from the long block joints."
+      ],
+      "blocks": [
+        {
+          "heading": "Who is being purified?",
+          "text": "Ramesses II performs the rite for a statue of his deceased father, Sety I. The accompanying text describes going around four times with four nemset jars. Sety’s presence as the recipient does not mean he was alive when this panel was made. His name is connected with Osiris and the status of the justified dead.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48, B92, p. 98: subject and cols. 1–10"
+            }
+          ]
+        },
+        {
+          "heading": "What the water accomplishes",
+          "text": "The text links purification with renewed life and rejuvenation. This is an effective ritual image: the king sustains his father’s divine and funerary existence while presenting himself as the legitimate royal son. That political reading follows from the filial ritual and setting; it is not a separate caption carved beside the scene.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48, p. 98: label and speech"
+            }
+          ]
+        },
+        {
+          "heading": "The ankh is a word as well as an attribute",
+          "text": "The loop, crossbar and descending stem form the ankh sign, conventionally transliterated ꜥnḫ, “life” or “to live”. In Sety’s hand it is an attribute of life, not a sentence to be sounded out like the labels above. The same shape can appear inside written blessings. Its exact physical origin is debated; this guide does not present “sandal strap” or another proposed origin as proven.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "memphis-interior",
+              "locator": "Deified Sety; ankh in the purification scene"
+            }
+          ]
+        },
+        {
+          "heading": "The surface has more than one history",
+          "text": "The panel was first raised relief and later converted to sunk relief. The edition records raised edges beside figures and signs, and parts never fully recut. Some vertical cuts belong to an abandoned earlier design. Small patch-stones mend irregular blocks. None of these features alone proves an attempt to destroy Sety’s image.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48, p. 98: relief and observations"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hall-study-fc2a1d41",
+          "caption": "B92 / plate 48. The numbers identify the performer, four streams, recipient and ankh.",
+          "annotations": [
+            {
+              "x": 16,
+              "y": 44,
+              "label": "1"
+            },
+            {
+              "x": 48,
+              "y": 34,
+              "label": "2"
+            },
+            {
+              "x": 69,
+              "y": 46,
+              "label": "3"
+            },
+            {
+              "x": 77,
+              "y": 64,
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "diagram": "ritual",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98"
+        },
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Ramesses purifying the deified Sety"
+        }
+      ],
+      "transition": "Stay with this same panel. Read the placement of its labels before attempting another scene."
+    },
+    {
+      "id": "read-b92",
+      "number": 7,
+      "title": "Read the labels around the figures",
+      "zone": "interior",
+      "position": {
+        "x": 300,
+        "y": 666
+      },
+      "facing": "south",
+      "location": "The same B92 panel. No additional walking stop.",
+      "stand": "Keep the B92 photograph or wall panel in view. Use the annotation numbers to separate each text group.",
+      "look": [
+        "Locate the small action label between the two figures, below the streams.",
+        "Find the two cartouches above the king on the left: Ramesses II’s throne and birth names.",
+        "Find the cartouches above Sety on the right. The short throne name is Menmaatre.",
+        "Compare the direction of small birds and human signs in each text group. Each group has its own reading direction."
+      ],
+      "blocks": [
+        {
+          "heading": "Start with the action, then the speakers",
+          "text": "A ritual scene combines an action label, the king’s names and titles, divine or royal speech, and protection texts. These are related pieces, not a single line that runs across everything. Here the action label identifies the fourfold circuit; Ramesses’ speech asks for purification and renewal; the labels beside Sety identify his royal and Osirian status. These are paraphrases of the edition, not an independently produced full translation.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48, p. 98: labelled translation groups"
+            }
+          ]
+        },
+        {
+          "heading": "How direction works",
+          "text": "In a horizontal group, begin at the end toward which the signs face: if birds face left, read from the left toward the right. In a vertical column, read from top to bottom, then follow the direction appropriate to that group of columns. Figures, gods and inscriptions can face one another, so the entire wall need not have a single reading direction.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "ucl-art-script",
+              "locator": "Direction and integration of text with image"
+            }
+          ]
+        },
+        {
+          "heading": "Menmaatre: a second usable name",
+          "text": "The edition identifies Sety’s throne name as Menmaatre. The conventional meaning is “Enduring is the Maat of Re”. Compare its short group with Ramesses’ longer Usermaatre-setepenre. The similar sun and Maat elements are shared pieces of royal language, not proof that both cartouches name the same person.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48, cols. 1, 3, 8; Appendix B"
+            }
+          ]
+        },
+        {
+          "heading": "Why you cannot read the whole wall as a diary",
+          "text": "The framed scenes repeat and combine ideal rites. Adjacency can be meaningful, but the next panel is not automatically “what happened the next day”. The Hall’s programme must be analysed by registers, gateways, opposing walls and phases of carving.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "memphis-scene-sequence",
+              "locator": "Sequence and grouping of ritual scenes"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hall-study-fc2a1d41",
+          "caption": "One scene, several text groups: the action label and the names do different jobs.",
+          "annotations": [
+            {
+              "x": 44,
+              "y": 61,
+              "label": "1"
+            },
+            {
+              "x": 40,
+              "y": 18,
+              "label": "2"
+            },
+            {
+              "x": 67,
+              "y": 17,
+              "label": "3"
+            },
+            {
+              "x": 89,
+              "y": 35,
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "diagram": "grammar",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98"
+        },
+        {
+          "sourceId": "ucl-art-script",
+          "locator": "Reading direction"
+        },
+        {
+          "sourceId": "memphis-scene-structure",
+          "locator": "Scene components"
+        }
+      ],
+      "transition": "Return through the permitted aisles toward the northwestern interior. The next two wall studies are indexed to published scenes; their explanatory drawings are schematics, with photograph acquisition still outstanding."
+    },
+    {
+      "id": "purification",
+      "number": 8,
+      "title": "Find life signs in a purification scene",
+      "zone": "interior",
+      "position": {
+        "x": 130,
+        "y": 245
+      },
+      "facing": "west",
+      "location": "West interior wall, north wing; B230, plate 148. Second register, seventh scene north of the large southern-end scene.",
+      "stand": "Face west from a permitted aisle in the northern half. Use the published location and the two flanking gods to identify the scene; the drawing is a finding aid, not a facsimile.",
+      "look": [
+        "Identify the king between two gods rather than in front of a single offering recipient.",
+        "The published scene shows Horus and Seth pouring purification streams over Sety I.",
+        "Inspect the streams: they consist of repeated life signs, not a naturalistic drawing of falling water."
+      ],
+      "blocks": [
+        {
+          "heading": "An image can write its meaning",
+          "text": "The purification streams express the gift of life through repeated ankh signs. The sign works simultaneously as writing and as a depicted substance. This is why learning even one sign changes how you see a whole scene: an apparently decorative stream becomes a statement about the king’s condition.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 148, B230, p. 198"
+            }
+          ]
+        },
+        {
+          "heading": "Why Horus and Seth together?",
+          "text": "The two gods act together to purify the king. Seth is not simply excluded as a villain: his role depends on the ritual and historical setting. Reading every divine pairing through the later popular story of an unchanging good-versus-evil opposition would obscure what this panel actually shows.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 148: subject and divine speeches"
+            }
+          ]
+        },
+        {
+          "heading": "What is secure; what still needs an image",
+          "text": "The edition establishes the location, actors, raised technique and life-sign streams. No securely matched commercially reusable photograph has yet been acquired for this panel. The diagram therefore teaches the composition only; it must not be used as a sign-for-sign copy or an assertion of present visibility from a particular path.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 148: subject, relief, paint and observations"
+            }
+          ]
+        }
+      ],
+      "figures": [],
+      "diagram": "purification",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 148, B230, p. 198"
+        }
+      ],
+      "transition": "Continue toward the north wall and its central doorway; the bark scene is immediately east of that doorway on the inside."
+    },
+    {
+      "id": "barks",
+      "number": 9,
+      "title": "Identify Amun’s portable bark shrine",
+      "zone": "interior",
+      "position": {
+        "x": 420,
+        "y": 143
+      },
+      "facing": "north",
+      "location": "North interior wall, east wing, bottom register: B291–92, plate 197, first scene east of the central gateway.",
+      "stand": "Face north on the east side of the north doorway. Find the king censing a group of sacred barks.",
+      "look": [
+        "Find the ram-headed end ornaments of Amun’s bark.",
+        "Look for the enclosed central shrine beneath a larger canopy.",
+        "Distinguish the carrying equipment from the hull and shrine. This is a portable cult object represented as a boat.",
+        "Look for the accompanying barks of Mut and Khonsu, the other members of the Theban triad."
+      ],
+      "blocks": [
+        {
+          "heading": "The god is not exposed like a statue in a gallery",
+          "text": "A portable bark holds a shrine for the divine image. The enclosing shrine and canopy mark protected sacred presence; the ram-headed ends identify Amun’s association. The scene is Sety I burning incense before the barks of Amun, Mut and Khonsu.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 197, B291–92, pp. 256–58"
+            }
+          ]
+        },
+        {
+          "heading": "How to identify the gods elsewhere",
+          "text": "Amun-Re commonly has a tall two-plume crown; Mut often has a vulture cap and the Double Crown; Khonsu can have a lunar disk and crescent with a sidelock. Attributes narrow the identification, but names and context decide it. A falcon head alone does not distinguish every falcon-headed god. Amun also has an ithyphallic form, Amun-Kamutef: that form should not automatically be relabelled Min.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-amun",
+              "locator": "Amun-Re and Amun-Kamutef iconography"
+            }
+          ]
+        },
+        {
+          "heading": "Why this matters to the building",
+          "text": "The bark helps connect wall imagery to the wide central processional axis. The decorated room belongs to the movement and service of divine images, rather than being only an impressive forest of columns. The diagram shows the functional parts of a bark; it is not a reconstruction of every detail of plate 197.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "hall-function",
+              "locator": "Bark processions and temple function"
+            }
+          ]
+        }
+      ],
+      "figures": [],
+      "diagram": "bark",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 197, pp. 256–58"
+        },
+        {
+          "sourceId": "hall-triad",
+          "locator": "Mut and Khonsu attributes"
+        },
+        {
+          "sourceId": "hall-amun",
+          "locator": "Amun forms"
+        }
+      ],
+      "transition": "At the north gateway, examine its inner east jamb before going outside. Check whether passage is currently permitted."
+    },
+    {
+      "id": "gateway",
+      "number": 10,
+      "title": "Find the king’s changed posture",
+      "zone": "interior",
+      "position": {
+        "x": 356,
+        "y": 143
+      },
+      "facing": "east",
+      "location": "North central gateway, inner east jamb, bottom register: B280g–i, plate 187.",
+      "stand": "Near the doorway, look toward the east jamb. Do not stand in or obstruct the passage.",
+      "look": [
+        "Find Sety I presenting a small model of the temple to Amun-Re and Mut.",
+        "Compare the king’s final bowing pose with the extra contours around his forward leg.",
+        "Look for the unusual small hollow within his wig: the edition explains it through overlapping earlier outlines."
+      ],
+      "blocks": [
+        {
+          "heading": "This king was first upright",
+          "text": "The relief was substantially altered during its making. Sety’s first figure stood erect with a nemes headcloth and beard. The final version bows, wears a long wig and has no beard. Surviving traces include parts of the original ear and headcloth, arm and leg positions. The change belongs to the working history of this scene; it is not evidence that a later king replaced Sety here.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 187, pp. 274–75: observations"
+            }
+          ]
+        },
+        {
+          "heading": "How an old outline survives",
+          "text": "When a raised figure is recut, its new shape may intersect earlier hollows and contours. Some old stone has already been removed and cannot simply be put back. The edition uses these material overlaps to reconstruct successive changes. A double line should therefore be investigated before calling it careless workmanship or damage.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 187: palimpsests and successive alterations"
+            }
+          ]
+        },
+        {
+          "heading": "Do not reconstruct beyond the traces",
+          "text": "The edition rejects a confident reconstruction of the original short kilt: surviving evidence does not establish it. This is a useful example of the difference between recovering an earlier posture and inventing the missing costume. A matched reusable close-up is still needed; this stop’s diagram explains recutting rather than reproducing the jamb.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 187, p. 274, note 572"
+            }
+          ]
+        }
+      ],
+      "figures": [],
+      "diagram": "recut",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 187, pp. 274–75"
+        },
+        {
+          "sourceId": "hall-north-gateway",
+          "locator": "Reworked Sety figure"
+        }
+      ],
+      "transition": "If the north gateway is open, leave by it and turn toward the exterior north wall. Otherwise follow the approved route to the north side. Select the next stop after arriving; the map does not track your movement."
+    },
+    {
+      "id": "north-battles",
+      "number": 11,
+      "title": "Read Sety I’s north battle wall",
+      "zone": "north-exterior",
+      "position": {
+        "x": 465,
+        "y": 64
+      },
+      "facing": "south",
+      "location": "North exterior wall: begin east of its central gateway.",
+      "stand": "Stand back from the north wall, facing south. First identify the doorway that divides its east and west wings.",
+      "look": [
+        "Find the horizontal registers. Read one campaign group at a time rather than sweeping across the entire wall.",
+        "Find the oversized king, his chariot and the much smaller opponents.",
+        "Compare combat, marching or return, and presentation of booty: the wall links fighting to offerings to the gods.",
+        "Use the indexed scene list below to distinguish the Shasu, Lebanon and Yenoam material."
+      ],
+      "blocks": [
+        {
+          "heading": "Who and when?",
+          "text": "The main campaign reliefs on this north wall belong to Sety I. They are not Ramesses II’s famous Kadesh battle merely because a king drives a chariot. The specialist index identifies separate campaigns and scene groups. The programme connects royal success abroad with the restoration and enrichment of Amun’s temple.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-sety-wars",
+              "locator": "North exterior composition and themes"
+            }
+          ]
+        },
+        {
+          "heading": "How scale makes an argument",
+          "text": "The king’s enormous size is hierarchical, not a measurement of his body or a reliable count of enemies. Crowded defeated figures, controlled horses and the solitary dominant king construct royal mastery. The presence of real place names and events does not make the whole composition an eyewitness photograph.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "hall-sety-wars",
+              "locator": "Royal imagery and campaign interpretation"
+            }
+          ]
+        },
+        {
+          "heading": "Use these exact finding references",
+          "text": "East-wing index: H23, Shasu battle at Pa-Canaan (OIP 107 plate 3); H22, submission of Canaanite chiefs (plate 4); H21, Shasu and the Ways of Horus (plate 5); H20, return at Tcharu (plate 6); H24, Lebanon tribute (plate 10); H18, Yenoam battle (plate 11). These are the project’s panel identifiers and edition references, not new route numbers.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-sety-east",
+              "locator": "East-wing scene index H18–24"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hall-study-c9a04498",
+          "caption": "Sety’s north-wall chariot imagery. This photograph is a campaign comparison, not securely matched here to H23 or another single indexed panel.",
+          "annotations": [
+            {
+              "x": 52,
+              "y": 47,
+              "label": "1"
+            },
+            {
+              "x": 20,
+              "y": 45,
+              "label": "2"
+            }
+          ]
+        },
+        {
+          "mediaId": "hall-study-923bf077",
+          "caption": "The enclosing north wall with the central nave rising behind it: compare the exterior scale with the interior roof lesson.",
+          "annotations": []
+        }
+      ],
+      "diagram": "registers",
+      "citations": [
+        {
+          "sourceId": "hall-sety-east",
+          "locator": "H18–24 index"
+        },
+        {
+          "sourceId": "hall-sety-wars",
+          "locator": "War panorama"
+        }
+      ],
+      "transition": "On the eastern wing, identify the return-to-Egypt group by its waterway and frontier features. Do not assume any chariot photograph shows that exact group."
+    },
+    {
+      "id": "tcharu",
+      "number": 12,
+      "title": "Look for frontier geography and return",
+      "zone": "north-exterior",
+      "position": {
+        "x": 535,
+        "y": 64
+      },
+      "facing": "south",
+      "location": "North exterior, east wing: H20, return at Tcharu, OIP 107 plate 6; adjoining campaign and tribute scenes.",
+      "stand": "Face south from a position where the east wing can be viewed without crossing barriers. Use the waterway and forts as identifying features.",
+      "look": [
+        "Locate the waterway and the crocodiles mentioned in the project’s explanation of the Tcharu scene.",
+        "Look for fortified places and their labels. Their positions help structure the royal route.",
+        "Compare these landscape elements with the movement of the king and his entourage.",
+        "Find a separate presentation-of-booty scene and ask how the campaign ends within a religious programme."
+      ],
+      "blocks": [
+        {
+          "heading": "A map-like image, not a scale map",
+          "text": "The return through the frontier at Tcharu includes a waterway, fortifications and recognisable landscape signs. These make geographical claims, but their scale and spacing serve the relief’s composition. Do not derive a measured distance or reconstruct the exact width of a canal from the carving.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "hall-sety-wars",
+              "locator": "Tcharu, canal and crocodile depiction"
+            }
+          ]
+        },
+        {
+          "heading": "What happens to the spoil?",
+          "text": "The north-wall programme includes the king presenting captives and booty to deities. The battlefield is thus tied back to temple wealth and divine favour. In the nineteenth-century engraving, distinguish the large king and gods from the smaller captive groups; the print documents a composition but cannot establish current surface condition or pigment.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "hall-sety-east",
+              "locator": "H19 plate 8 and H15 plate 14; presentation scenes"
+            }
+          ]
+        },
+        {
+          "heading": "What remains to be checked",
+          "text": "H20 and plate 6 are verified against the university project’s index. A modern reusable close-up of its frontier details is still required. The historical engraving below illustrates the presentation theme elsewhere on the north wall; it is not labelled as H20.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-sety-east",
+              "locator": "H20, H19, H15; consultation scope"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hall-study-e120f34f",
+          "caption": "Historical engraving: Sety I presents captives and spoil to gods. A different scene from the Tcharu return; included to compare the religious conclusion of a campaign.",
+          "annotations": []
+        }
+      ],
+      "diagram": "geography",
+      "citations": [
+        {
+          "sourceId": "hall-sety-east",
+          "locator": "H20 / OIP 107 plate 6; H19; H15"
+        },
+        {
+          "sourceId": "hall-sety-wars",
+          "locator": "Tcharu explanation"
+        }
+      ],
+      "transition": "Move along the permitted north-side path to the west of the central gateway for Sety’s western campaign groups."
+    },
+    {
+      "id": "west-campaigns",
+      "number": 13,
+      "title": "Separate Sety’s western campaign groups",
+      "zone": "north-exterior",
+      "position": {
+        "x": 230,
+        "y": 64
+      },
+      "facing": "south",
+      "location": "North exterior, west wing: project index H2–H11.",
+      "stand": "Stand west of the north doorway, facing south. Establish which side of the doorway you are on before using a plate reference.",
+      "look": [
+        "Use the campaign index to distinguish an assault on Kadesh from Libyan and Hittite scenes.",
+        "Compare battle scenes with the return and offering scenes that accompany them.",
+        "Identify the triumph composition without treating each captive as an individually portrayed prisoner."
+      ],
+      "blocks": [
+        {
+          "heading": "Kadesh occurs in more than one reign",
+          "text": "The west-wing index includes Sety I’s assault on Kadesh (H2, OIP 107 plate 23). That is distinct from Ramesses II’s Year 5 battle and its representations on the south side. The place name alone cannot identify the ruler, date or event.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-sety-west",
+              "locator": "H2, plate 23"
+            }
+          ]
+        },
+        {
+          "heading": "Useful west-wing references",
+          "text": "H3, attack on Libyans (plate 28); H3a, king killing a Libyan chief (plate 29); H4, return (plate 31); H5, presentation of booty (plate 32). H7, Hittite campaign (plate 34), is followed by return and offering groups H8–9 (plates 35–36). H6 is a triumph scene (plate 17).",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-sety-west",
+              "locator": "West-wing index H2–9"
+            }
+          ]
+        },
+        {
+          "heading": "Why the panel sequence matters",
+          "text": "Grouping battle, return and gift to a god reveals the programme more clearly than collecting isolated dramatic images. It also limits historical claims: a conventional triumph image is evidence for royal ideology, not by itself proof that every depicted action occurred exactly as shown.",
+          "certainty": "interpretation",
+          "citations": [
+            {
+              "sourceId": "hall-sety-wars",
+              "locator": "Campaign programme and historical interpretation"
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "mediaId": "hall-study-8b7becfd",
+          "caption": "Wider view of Sety’s north-wall chariot relief. Exact H attribution is still unverified; use the indexed wall position rather than this photograph alone to identify a campaign.",
+          "annotations": []
+        }
+      ],
+      "diagram": "campaigns",
+      "citations": [
+        {
+          "sourceId": "hall-sety-west",
+          "locator": "H2–11 index"
+        },
+        {
+          "sourceId": "hall-sety-wars",
+          "locator": "Historical limits"
+        }
+      ],
+      "transition": "Transfer to the south exterior by a currently permitted route. This is a separate outdoor sector: the guide does not draw a shortcut through the Hall, pylons or closed passages. Select stop 14 after arriving."
+    },
+    {
+      "id": "south-battles",
+      "number": 14,
+      "title": "Read Ramesses II’s altered south battle wall",
+      "zone": "south-exterior",
+      "position": {
+        "x": 356,
+        "y": 756
+      },
+      "facing": "north",
+      "location": "South exterior wall of the Great Hypostyle Hall; both sides of its central doorway.",
+      "stand": "After reaching the south side by an approved path, face north. Identify the Hall’s south doorway before examining the adjoining reliefs.",
+      "look": [
+        "Find a large triumph scene beside the doorway: king, captives and Amun form a religious composition.",
+        "Inspect the lower groups of bound foreign figures and oval enclosures containing place names.",
+        "Look for overlapping or incomplete earlier outlines where the published study identifies recutting.",
+        "Compare a place-name ring below a captive head with the royal cartouches learned inside."
+      ],
+      "blocks": [
+        {
+          "heading": "A wall with successive designs",
+          "text": "Ramesses II’s south exterior programme was altered. The project describes an initial Kadesh composition overlain in parts by later Syrian/Palestinian campaign imagery. Plaster once concealed some earlier work; where it has fallen away, intersecting outlines can expose multiple phases. A confusing surface is therefore sometimes a palimpsest rather than one badly drawn scene.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-ramesses-wars",
+              "locator": "Revisions of the Kadesh composition and subsequent war scenes"
+            }
+          ]
+        },
+        {
+          "heading": "A god can occupy an older battlefield",
+          "text": "In a documented altered area, the later seated Amun overlaps an earlier soldier, and wavy lines from the Orontes survive beneath the later design. Identify that combination through the project’s detailed illustration before applying it to an arbitrary overlap elsewhere. A matched commercially reusable close-up has not yet been acquired; the diagram explains layers, not their precise surviving geometry.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-ramesses-wars",
+              "locator": "Seated Amun, earlier soldier and river traces"
+            }
+          ]
+        },
+        {
+          "heading": "These ovals are not royal cartouches",
+          "text": "Foreign place-name rings in triumph lists can take the form of crenellated enclosures with bound captive heads above them. They label conquered or subordinated places within a royal ideological scheme. A royal cartouche encloses a king’s name; the similar rounded outline does not make these the names of foreign kings.",
+          "certainty": "established",
+          "citations": [
+            {
+              "sourceId": "hall-ramesses-wars",
+              "locator": "Triumph scenes; place-name rings"
+            }
+          ]
+        },
+        {
+          "heading": "What the battle image can and cannot settle",
+          "text": "The south wall advertises Ramesses’ military power and divine support. It does not independently establish a simple decisive Egyptian victory at Kadesh. Assessing the campaign requires Egyptian and Hittite evidence and the later political situation. This first section does not reconstruct a tactical battle sequence or turn a triumph list into a complete map of Egyptian control.",
+          "certainty": "disputed",
+          "citations": [
+            {
+              "sourceId": "hall-ramesses-wars",
+              "locator": "Historical interpretation and limits"
+            }
+          ]
+        }
+      ],
+      "figures": [],
+      "diagram": "palimpsest",
+      "citations": [
+        {
+          "sourceId": "hall-ramesses-wars",
+          "locator": "South battle wall, recutting and place-name rings"
+        }
+      ],
+      "transition": "Return by the permitted visitor route. Compare the interior’s offerings with the exterior’s campaigns: both show royal action sustaining the divine order, using different visual forms."
+    }
+  ],
+  "planCitations": [
+    {
+      "sourceId": "hall-numbered-plan",
+      "locator": "Column positions and numbers; gateway and vestibule arrangement"
+    },
+    {
+      "sourceId": "hypostyle-project-architecture",
+      "locator": "Hall, adjacent pylons and central nave"
+    }
+  ],
+  "completion": {
+    "readyExamples": [
+      "B92 photograph and plate match",
+      "Ramesses II throne-name photo",
+      "134-column schematic and manual orientation",
+      "North campaign finding references"
+    ],
+    "open": [
+      "Field-check every viewing position and current exterior access",
+      "Acquire matched commercially reusable close-ups for B230, B291–92, B280g–i, H20 and the south palimpsest",
+      "Specialist review of name/sign teaching and interpretation",
+      "Photographic overlay positions are editorial aids, not epigraphic facsimiles"
+    ],
+    "notImplemented": [
+      "Automatic indoor positioning",
+      "Complete offline install",
+      "WordPress / JetEngine connection",
+      "Ukrainian translation"
+    ]
+  }
+}

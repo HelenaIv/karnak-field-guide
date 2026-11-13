@@ -647,6 +647,126 @@
       "accessed": "2026-11-13",
       "consultation": "Search-indexed official overview consulted; direct archive timed out. Exact epigraphic claims withheld pending access.",
       "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "hall-numbered-plan",
+      "title": "Numbered plan of the Great Hypostyle Hall",
+      "url": "https://www.memphis.edu/hypostyle/images/hall_interior_walls/plans/hall_plan.jpg",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Published column numbering and wall/gateway arrangement inspected visually. Reference only; protected image not redistributed.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-north-gateway",
+      "title": "The North Gateway",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/north_gateway.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read with OIP 142, plate 187 commentary, pp. 274–75.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-amun",
+      "title": "Amun-Re",
+      "url": "https://www.memphis.edu/hypostyle/meaning_function/amun-re.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Specialist explanation of Amun-Re, Amun-Kamutef and iconographic attributes.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-triad",
+      "title": "Mut and Khonsu",
+      "url": "https://www.memphis.edu/hypostyle/meaning_function/mut-khonsu.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read for divine attributes. Page reverses geographic definitions of Red/White crowns; that error is not adopted.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-sety-east",
+      "title": "Sety I war scenes: east wing",
+      "url": "https://www.memphis.edu/hypostyle/sety-i_war-scenes/east-wing.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Project scene index consulted; H numbers and OIP 107 plate references cross-checked here. Full OIP 107 not downloaded.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-sety-west",
+      "title": "Sety I war scenes: west wing",
+      "url": "https://www.memphis.edu/hypostyle/sety-i_war-scenes/west-wing.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Project scene index consulted; H numbers and OIP 107 plate references cross-checked here. Full OIP 107 not downloaded.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-sety-wars",
+      "title": "War scenes of Sety I",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/seti_scenes.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read for north exterior layout, Tcharu and representation of the campaigns; historical claims separated from royal rhetoric.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-ramesses-wars",
+      "title": "War scenes of Ramesses II",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/ramesses_ii_scenes.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read for south exterior palimpsests, triumph composition and foreign place-name rings. Avoid categorical outcome claims about Kadesh.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-oip107-catalogue",
+      "title": "The Battle Reliefs of King Sety I (OIP 107)",
+      "url": "https://isac.uchicago.edu/publications/karnak-volume-iv-battle-reliefs-king-sety-i",
+      "authors": [
+        "The Epigraphic Survey"
+      ],
+      "publisher": "Oriental Institute, University of Chicago",
+      "kind": "epigraphic edition catalogue",
+      "consultation": "Catalogue only. Full edition download returned 403; do not represent this as direct consultation of the plates.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hall-function",
+      "title": "Meaning and function of the Hall",
+      "url": "https://www.memphis.edu/hypostyle/meaning_function/",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read for temple-as-divine-house interpretation, kingship and ritual setting.",
+      "accessed": "2026-11-13"
     }
   ]
 }
