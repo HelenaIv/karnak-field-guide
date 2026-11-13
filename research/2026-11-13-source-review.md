@@ -46,3 +46,15 @@ Digital Karnak was launched at UCLA in 2008 and moved to UCSC in 2021, as stated
 - Epigraphic Survey (1979, 1981), *The Temple of Khonsu*, vols. 1–2.
 
 These leads come from the consulted pages' bibliographies. They must not be labelled full-text-checked until actually read.
+
+## Subsequent deeper consultation
+
+Full PDF access to Sullivan (2010) succeeded through the direct eScholarship content URL. Read origins/Middle Kingdom and Akhmenu sections. Earlier verification-wall failure is historical, not the final access state.
+
+OIP 142 part 2 obtained from Zenodo record 18944602, cross-checked against the official catalogue title/authors. Read title page and selected passages: pp. 18–19 (§2.3.2) and pp. 98–100 (plates 48–49). The edition treats sunk relief as more than a production shortcut. Plate 48 commentary establishes B92's location and evidence of conversion; it does not by itself verify a sign-by-sign transcription. Official part-3 download links were found, but fetching the PDF returned 403; no part-3 inspection is claimed. A project reference thumbnail was inspected temporarily, not imported or treated as commercially reusable evidence.
+
+Brooklyn 2016 Mut report: read abstract and pp. 1–3 on paving and later occupation west of the Taharqa Gate. ARCE expedition account supplied broader precinct context. Louvre E 13481 BIS catalogue supplied provenance/current collection context for the Chamber of Ancestors. UCL Digital Egypt supplied general direction/orientation conventions; these are not exact Karnak caption translations.
+
+Further Digital Karnak pages read: Fifth through Tenth Pylons, Wadjet Hall, Middle Kingdom Court, Aten Temples, Bab el-Amara, Hakoris chapel, Contra Temple, Osiris catacombs, Amenhotep I chapels, Thutmose IV peristyle and Akhmenu. More apparent copy errors were found: the Sixth Pylon phase text repeats Fourth Pylon material; the Thutmose IV peristyle destruction heading says Amenhotep II while its paragraph discusses Amenhotep III; the Thutmose I east-pair obelisk page starts with Akhmenu text. Do not transfer those erroneous sections into guide facts.
+
+Ptah archive requests remain unreliable; only its official search-indexed overview was accessible. Ptah's deeper entry stays needs_source_check instead of inventing a room-by-room narrative. The source consultation field records this limit.

@@ -1,0 +1,70 @@
+{
+  "id": "mut-landscape",
+  "type": "chapter",
+  "title": "Mut: a different sacred landscape",
+  "dek": "A horseshoe-shaped lake, changing precinct boundaries and older paving beneath later occupation.",
+  "placeId": "mut-precinct",
+  "heroMediaId": null,
+  "topics": [
+    "Religion",
+    "Landscape",
+    "Excavation"
+  ],
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "sections": [
+    {
+      "heading": "Do not stop at the Amun enclosure",
+      "paragraphs": [
+        "Mut’s precinct lies south of the main Amun complex. Its sacred geography is distinctive: the Isheru curves around the temple, and several major buildings occupy the precinct. Mut’s roles include consort of Amun and a powerful Eye-of-Re goddess. The curved lake belongs to that religious landscape.",
+        "The Ramesses III temple here is a different building from the bark temple in the Great Court of Amun. Repeated royal names should never substitute for precise place identification."
+      ],
+      "citations": [
+        {
+          "sourceId": "arce-mut",
+          "locator": "Opening site description and Ramesses III paragraph"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "The enclosure grew",
+      "paragraphs": [
+        "The expedition account explains that Temple A and the Ramesses III temple were not always inside the same precinct boundary. Later enclosure projects changed which buildings were included and how approaches functioned. The boundary visible in one phase should not be projected backward over the entire history."
+      ],
+      "citations": [
+        {
+          "sourceId": "arce-mut",
+          "locator": "Temple A; Taharqa Gate and precinct expansion"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "Read the ground vertically",
+      "paragraphs": [
+        "The 2016 report describes Dynasty 25 paving west of the Taharqa Gate beneath later fill and Ptolemaic construction. The archaeological story is therefore vertical as well as horizontal. A route can be buried, its gate blocked, and a formerly open area occupied differently.",
+        "This is why a single undated plan cannot tell the whole story. Compare phase plans and excavation sections, and distinguish the excavated evidence from what is currently visible at visitor ground level."
+      ],
+      "citations": [
+        {
+          "sourceId": "mut-fieldwork-2016",
+          "locator": "pp. 1–3, Excavation west of the Taharqa Gate"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    }
+  ],
+  "relatedDetailIds": [
+    "mut-occupation-layers"
+  ],
+  "sources": [
+    "arce-mut",
+    "mut-fieldwork-2016"
+  ],
+  "reviewNote": "English editorial draft. Citations checked to the stated scope; specialist and field review still required.",
+  "imageGap": "A verified Mut-precinct image is still required; do not illustrate it with the Amun Red Chapel."
+}

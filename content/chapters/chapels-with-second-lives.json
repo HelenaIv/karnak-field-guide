@@ -1,0 +1,85 @@
+{
+  "id": "chapels-with-second-lives",
+  "type": "chapter",
+  "title": "Chapels with second lives",
+  "dek": "The Open Air Museum restores buildings to view—and reveals how later kings reused earlier stone.",
+  "placeId": "white-chapel",
+  "heroMediaId": "white-chapel-788a32e2",
+  "topics": [
+    "Reconstruction",
+    "Reliefs",
+    "Geography"
+  ],
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "sections": [
+    {
+      "heading": "Start with the White Chapel’s scale",
+      "paragraphs": [
+        "The White Chapel of Senusret I is small enough for its arrangement to be understood as a whole: four internal pillars, twelve around them, a raised platform and stepped approaches. Its surviving limestone reliefs let you move between architectural form and fine carved detail.",
+        "The low base offers a different subject from the royal encounters above. Its north and south sides record Egyptian regions—the nomes—and measurements. Before identifying a particular region, match the exact panel and published caption."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Introduction"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "Present position and ancient position are different facts",
+      "paragraphs": [
+        "The White Chapel is reconstructed in the Open Air Museum. Its ancient location is disputed, and its earlier function has also been discussed. The original blocks were dismantled and reused in Amenhotep III’s Third Pylon.",
+        "A museum reconstruction can recover the relationship of carved blocks without recovering every detail of their ancient surroundings. Do not confuse a carefully assembled building with an untouched one."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Phases of Construction; Destruction: Amenhotep III"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "The Red Chapel takes you back to a sanctuary",
+      "paragraphs": [
+        "Hatshepsut’s two-room bark chapel originally belonged to the temple’s sanctuary setting. The portable sacred bark of Amun could rest there. Its red quartzite, doorways and relief registers give a very different visual impression from the White Chapel.",
+        "The exterior relief programme includes festival processions and the erection of obelisks. These connect an apparently small shrine with events and monuments elsewhere in the sacred landscape."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Introduction; Phases of Construction: Hatshepsut"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "Dismantling did not happen in one moment",
+      "paragraphs": [
+        "Thutmose III first completed the Red Chapel’s unfinished decoration, then later dismantled it and replaced it with his own shrine. Under Amenhotep III, blocks entered the Third Pylon’s foundations. These actions belong to different episodes.",
+        "The most revealing question is not simply “who destroyed it?” but “what happened to the stone next?” Reuse can erase an architectural setting and at the same time preserve decorated surfaces that later archaeology can recover."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Destruction: Thutmose III"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    }
+  ],
+  "relatedDetailIds": [
+    "white-chapel-nome-base",
+    "red-chapel-reassembled"
+  ],
+  "sources": [
+    "dk-red-chapel",
+    "dk-white-chapel"
+  ],
+  "reviewNote": "English editorial draft. Citations checked to the stated scope; specialist and field review still required."
+}

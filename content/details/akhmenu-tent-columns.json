@@ -1,0 +1,36 @@
+{
+  "id": "akhmenu-tent-columns",
+  "type": "detail",
+  "placeId": "akhmenu",
+  "title": "Why these columns resemble tent poles",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Main pillared hall of the Akhmenu.",
+  "question": "Why do these capitals look unlike the Hypostyle Hall?",
+  "explanation": "The Akhmenu’s unusual central supports are interpreted as monumental versions of tent poles. Compare their profile with open-papyrus capitals in the western hall. Their shape belongs to a different architectural programme; “column” describes a structural role without explaining every form. Avoid claiming that a surviving royal campaign tent has been excavated here.",
+  "lookFor": [
+    "Compare the capital profile and shaft with papyrus-form columns."
+  ],
+  "claims": [
+    {
+      "id": "akhmenu-tent-columns-0",
+      "text": "The central supports represent the poles of a portable tent in the Digital Karnak interpretation.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "digital-karnak-akhmenu",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "digital-karnak-akhmenu"
+  ],
+  "uncertainties": [
+    "Exact demonstration photographs and safe on-site viewpoints must be checked before publication."
+  ]
+}

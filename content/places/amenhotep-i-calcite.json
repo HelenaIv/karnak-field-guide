@@ -1,0 +1,69 @@
+{
+  "id": "amenhotep-i-calcite",
+  "type": "place",
+  "title": "Calcite chapel of Amenhotep I",
+  "area": "open-air-museum",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "The reconstructed chapel preserves early depictions of Amun’s sacred bark.",
+  "orientation": "Reconstructed in the Open Air Museum; ancient position disputed.",
+  "personIds": [],
+  "details": [],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "amenhotep-i-calcite-context",
+      "text": "The reconstructed chapel preserves early depictions of Amun’s sacred bark.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-amenhotep-i-calcite",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "amenhotep-i-calcite-0",
+      "text": "Doorways on its short sides could be closed with wooden doors.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-amenhotep-i-calcite",
+          "locator": "Introduction; Phases of Construction: Amenhotep I"
+        }
+      ]
+    },
+    {
+      "id": "amenhotep-i-calcite-1",
+      "text": "Its original position and successive movements are disputed; a digital model’s chosen placement is not proof.",
+      "certainty": "disputed",
+      "citations": [
+        {
+          "sourceId": "dk-amenhotep-i-calcite",
+          "locator": "About the reconstruction model of Amenhotep I"
+        }
+      ]
+    },
+    {
+      "id": "amenhotep-i-calcite-2",
+      "text": "Its blocks were reused in the Third Pylon under Amenhotep III.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-amenhotep-i-calcite",
+          "locator": "Destruction: Thutmose III"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-amenhotep-i-calcite"
+  ]
+}

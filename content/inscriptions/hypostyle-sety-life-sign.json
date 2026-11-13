@@ -4,7 +4,7 @@
   "title": "Why is a king holding the life sign?",
   "placeId": "hypostyle-hall",
   "status": "needs_epigraphic_review",
-  "surface": "South interior wall, scene of Ramesses II purifying a statue of Sety I; register and exact position pending edition match.",
+  "surface": "B92: south wall, west wing, middle register in situ (called third in the edition), third scene from the west.",
   "researchQuestion": "How does a small held object distinguish a deceased, deified king from an ordinary royal participant?",
   "claims": [
     {
@@ -17,23 +17,46 @@
           "locator": "Interior Wall Scenes: final caption Ramesses II purifies a statue of his deified father Sety I"
         }
       ]
+    },
+    {
+      "id": "b92-location",
+      "text": "The commentary locates B92 on the south wall, west wing, in the middle surviving register, third scene from the west.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "p. 98, Plate 48, Location"
+        }
+      ]
+    },
+    {
+      "id": "b92-recut",
+      "text": "The scene began in raised relief and was converted to sunk relief; traces of earlier edges remain.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "p. 98, Plate 48, Type of Relief"
+        }
+      ]
     }
   ],
   "editionTarget": {
-    "sourceId": "oip-142",
-    "locator": "South Wall, West Wing (published plate range 42–53); project image filename suggests plate 48, not yet independently checked."
+    "sourceId": "oip142-fulltext",
+    "locator": "p. 98, commentary to plate 48, B92; compare fig. 298."
   },
   "translationStatus": "withheld_pending_edition_check",
   "transliteration": null,
   "translation": null,
   "sources": [
     "memphis-interior",
-    "oip-142"
+    "oip-142",
+    "oip142-fulltext",
+    "memphis-south-plates"
   ],
   "nextChecks": [
-    "Inspect the published plate and commentary together.",
-    "Confirm wall, register, scene number and statue identity.",
-    "Verify sign identification against the actual image before adding a sign drawing or reading.",
-    "Clear image rights and field-check visitor viewpoint."
+    "Inspect plate/photo and verify held sign against image; match licensed photographic detail.",
+    "Check visitor viewpoint and present condition.",
+    "Transcribe and translate only after sign-by-sign image comparison."
   ]
 }

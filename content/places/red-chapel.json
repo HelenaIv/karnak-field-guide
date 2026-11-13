@@ -22,7 +22,9 @@
     "A vestibule and sanctuary form its two-room plan."
   ],
   "lookFor": [],
-  "details": [],
+  "details": [
+    "red-chapel-reassembled"
+  ],
   "claims": [
     {
       "id": "red-chapel-location",

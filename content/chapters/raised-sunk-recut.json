@@ -1,0 +1,85 @@
+{
+  "id": "raised-sunk-recut",
+  "type": "chapter",
+  "title": "Raised, sunk, recut",
+  "dek": "A few millimetres of stone can reveal a change of technique—and a second history beneath the first.",
+  "placeId": "hypostyle-hall",
+  "heroMediaId": "hypostyle-reliefs-d061daef",
+  "topics": [
+    "Reading stone",
+    "Reliefs",
+    "Royal history"
+  ],
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "sections": [
+    {
+      "heading": "Two different relationships to the surface",
+      "paragraphs": [
+        "In raised relief, the surrounding stone is lowered so that the figure or sign stands above the background. In sunk relief, the outline and modeled form are cut into the original surface. The distinction concerns the surface around the design, not simply whether a line looks deep.",
+        "The Hypostyle Hall gives a local sequence to study. Sety I’s northern programme uses raised relief; Ramesses II began with raised work but subsequently used sunk relief and converted earlier decoration. Technique is evidence, but it is not a universal ruler-identification machine."
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Interior Wall Scenes: discussion of bas relief and conversion"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "Why “it was quicker” is incomplete",
+      "paragraphs": [
+        "Production time is part of the discussion, but the full scholarly commentary also considers visibility, colour and artistic preference. Sunk relief can remain legible under different lighting conditions. Some very elaborate sunk work contradicts the idea that the technique necessarily means careless or inferior craftsmanship.",
+        "We should distinguish an observable change of technique from a claim about a king’s private motive. The surviving stone proves that a change happened; the explanation needs an argument."
+      ],
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "pp. 18–19, §2.3.2"
+        }
+      ],
+      "evidenceLabel": "Scholarly interpretation"
+    },
+    {
+      "heading": "A conversion leaves awkward edges",
+      "paragraphs": [
+        "When an existing raised design is changed, the carver has to negotiate its old outline. Residual ridges and lines can remain beside the new cut. The edition identifies such traces in B92, the purification scene on the south wall. It also records parts that were not fully recut.",
+        "This is more useful than searching for a “perfect example” of one style. A slightly untidy edge may preserve the sequence of work. It is also a reason to avoid identifying every irregular line as damage or a different hieroglyph."
+      ],
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "p. 98, Plate 48, Type of Relief"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "A looking exercise",
+      "paragraphs": [
+        "Choose one clearly documented outline in a photograph. Find the background plane, then the edge of the figure. Does the design project above that plane or descend into it? Now look for a second contour beside the first.",
+        "Do this with a source-matched detail before trying it on a distant wall. Strong light, erosion, restoration and loss of paint can make a photograph deceptive. Looking does not require touching the stone."
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Interior Wall Scenes: caption to converted figure of Ramesses II"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    }
+  ],
+  "relatedDetailIds": [
+    "hypostyle-relief-techniques",
+    "hypostyle-later-cartouches"
+  ],
+  "sources": [
+    "memphis-interior",
+    "oip142-fulltext"
+  ],
+  "reviewNote": "English editorial draft. Citations checked to the stated scope; specialist and field review still required."
+}

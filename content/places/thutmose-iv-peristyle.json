@@ -1,0 +1,58 @@
+{
+  "id": "thutmose-iv-peristyle",
+  "type": "place",
+  "title": "Painted peristyle of Thutmose IV",
+  "area": "open-air-museum",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Reconstructed painted pillars preserve part of a dismantled jubilee setting.",
+  "orientation": "Partly reconstructed in the Open Air Museum, distinct from surviving in-situ pillars.",
+  "personIds": [],
+  "details": [],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "thutmose-iv-peristyle-context",
+      "text": "Reconstructed painted pillars preserve part of a dismantled jubilee setting.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-thutmose-iv-peristyle",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "thutmose-iv-peristyle-0",
+      "text": "The pillars show the king embracing Amun; surviving pigments include red, yellow and blues.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-thutmose-iv-peristyle",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "thutmose-iv-peristyle-1",
+      "text": "Some pillars remained in situ while other remains were reassembled in the Open Air Museum. Present display and ancient setting differ.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-thutmose-iv-peristyle",
+          "locator": "Introduction; Destruction paragraph"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-thutmose-iv-peristyle"
+  ]
+}

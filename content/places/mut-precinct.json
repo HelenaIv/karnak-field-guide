@@ -1,0 +1,58 @@
+{
+  "id": "mut-precinct",
+  "type": "place",
+  "title": "Precinct of Mut",
+  "area": "mut-precinct",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "summary": "A separate southern sacred precinct, with a horseshoe-shaped lake and several temples, extends Karnak beyond the Amun enclosure.",
+  "orientation": "South of the Amun precinct.",
+  "details": [
+    "mut-occupation-layers"
+  ],
+  "claims": [
+    {
+      "id": "mut-lake",
+      "text": "The Isheru surrounds Mut’s temple on three sides and belongs to the distinctive sacred landscape of Eye-of-Re goddesses.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "arce-mut",
+          "locator": "Opening site description"
+        }
+      ]
+    },
+    {
+      "id": "mut-multiple",
+      "text": "Temple A and the Ramesses III temple entered the enclosure through later expansions; they were not all originally inside one boundary.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "arce-mut",
+          "locator": "Temple A and Ramesses III paragraphs"
+        }
+      ]
+    },
+    {
+      "id": "mut-paving",
+      "text": "Excavations west of the Taharqa Gate exposed older paving below later Ptolemaic occupation, illustrating changes in circulation and use.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "mut-fieldwork-2016",
+          "locator": "pp. 1–3, Excavation west of the Taharqa Gate"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "arce-mut",
+    "mut-fieldwork-2016"
+  ],
+  "caveats": [
+    "This is not the Ramesses III bark temple in the Amun Great Court.",
+    "Current access and transport between precincts need separate verification."
+  ]
+}

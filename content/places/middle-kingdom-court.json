@@ -1,0 +1,49 @@
+{
+  "id": "middle-kingdom-court",
+  "type": "place",
+  "title": "Middle Kingdom temple core",
+  "area": "central-temple",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Granite thresholds and a calcite support help identify a largely vanished early temple.",
+  "orientation": "The open central area behind the later sanctuary.",
+  "personIds": [
+    "senusret-i"
+  ],
+  "details": [],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "middle-kingdom-court-context",
+      "text": "Granite thresholds and a calcite support help identify a largely vanished early temple.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-middle-kingdom-court",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "middle-kingdom-court-0",
+      "text": "The plan is reconstructed from dispersed remains; scholars differ over its size and orientation. Empty space does not imply an ancient empty courtyard.",
+      "certainty": "disputed",
+      "citations": [
+        {
+          "sourceId": "dk-middle-kingdom-court",
+          "locator": "About the reconstruction of Senusret I"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-middle-kingdom-court"
+  ]
+}

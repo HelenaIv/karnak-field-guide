@@ -1,0 +1,36 @@
+{
+  "id": "hakoris-bark-turn",
+  "type": "detail",
+  "placeId": "hakoris-chapel",
+  "title": "A doorway designed around a portable boat",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "North and west entrances of the chapel.",
+  "question": "Why put the two entrances on different walls?",
+  "explanation": "Imagine carrying a long sacred bark through a building. Door position, a place to set the load down, and room for the bearers to reposition all matter. Digital Karnak interprets this chapel’s arrangement as preserving the direction of the bark’s prow while its bearers enter and depart. This is an explanation grounded in the plan, not a claim to have observed the ancient ceremony.",
+  "lookFor": [
+    "Compare the north doorway, broad western opening and rear support."
+  ],
+  "claims": [
+    {
+      "id": "hakoris-bark-turn-0",
+      "text": "The two-door circulation and rear support are interpreted in relation to carrying the bark.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-hakoris-chapel",
+          "locator": "Phases of Construction: Hakoris"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "dk-hakoris-chapel"
+  ],
+  "uncertainties": [
+    "Exact demonstration photographs and safe on-site viewpoints must be checked before publication."
+  ]
+}

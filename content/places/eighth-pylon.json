@@ -1,0 +1,60 @@
+{
+  "id": "eighth-pylon",
+  "type": "place",
+  "title": "Eighth Pylon",
+  "area": "southern-axis",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Hatshepsut’s gateway survives with extensive later changes to its decoration.",
+  "orientation": "South of the Seventh Pylon and north of the Ninth.",
+  "personIds": [
+    "hatshepsut"
+  ],
+  "details": [],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "eighth-pylon-context",
+      "text": "Hatshepsut’s gateway survives with extensive later changes to its decoration.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-eighth-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "eighth-pylon-0",
+      "text": "Thutmose III, Amenhotep II, Tutankhamun and Sety I intervened in the decoration. A visible royal name need not date the whole structure.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-eighth-pylon",
+          "locator": "Phases of Construction: Hatshepsut"
+        }
+      ]
+    },
+    {
+      "id": "eighth-pylon-1",
+      "text": "The north face includes a sacred-bark procession; identifying it specifically as Opet is qualified in the source.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-eighth-pylon",
+          "locator": "Phases of Construction: Hatshepsut"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-eighth-pylon"
+  ]
+}

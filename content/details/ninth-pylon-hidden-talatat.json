@@ -1,0 +1,36 @@
+{
+  "id": "ninth-pylon-hidden-talatat",
+  "type": "detail",
+  "placeId": "ninth-pylon",
+  "title": "An earlier temple hidden inside a later pylon",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Pylon fabric and documented reused blocks.",
+  "question": "How can destruction preserve an earlier building?",
+  "explanation": "The outside of a pylon presents one royal statement; its fill can contain fragments of an older one. Horemheb reused small blocks from Aten temples in this gateway. Buried relief faces could survive while the original buildings disappeared. Reassembling their scenes is an archaeological exercise in joins, dimensions and imagery—not permission to treat every loose block at Karnak as Aten-period.",
+  "lookFor": [
+    "Distinguish the pylon’s facing from published images of its internal reused blocks."
+  ],
+  "claims": [
+    {
+      "id": "ninth-pylon-hidden-talatat-0",
+      "text": "Horemheb reused Aten-temple talatat inside the Ninth Pylon.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-ninth-pylon",
+          "locator": "Phases of Construction: Horemheb"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "dk-ninth-pylon"
+  ],
+  "uncertainties": [
+    "Exact demonstration photographs and safe on-site viewpoints must be checked before publication."
+  ]
+}

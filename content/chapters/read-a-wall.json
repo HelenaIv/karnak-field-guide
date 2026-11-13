@@ -1,0 +1,83 @@
+{
+  "id": "read-a-wall",
+  "type": "chapter",
+  "title": "A wall is not one long sentence",
+  "dek": "Learn to separate a scene, an action and a speaker before attempting to read its words.",
+  "placeId": "red-chapel",
+  "heroMediaId": "red-chapel-fbad0306",
+  "topics": [
+    "Hieroglyphs",
+    "Ritual",
+    "Looking closely"
+  ],
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "sections": [
+    {
+      "heading": "Find the scene before the text",
+      "paragraphs": [
+        "Begin with one bounded encounter. Where is the king? Which deity faces him? Is an object being offered, a vessel tipped, or a hand extended? A wall often places several complete sacred acts in horizontal tiers called registers. Neighbouring scenes may form a sequence, but an entire wall is not automatically a continuous story.",
+        "A change of crown, costume or deity is therefore not necessarily a mistake. Ask what the new scene does before forcing it into a chronological narrative."
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-scene-sequence",
+          "locator": "Ritual Scenes and Their Sequence"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "Different groups of words do different jobs",
+      "paragraphs": [
+        "The specialist project distinguishes royal names and titles near the king, a label identifying the rite, and divine names or speeches around the gods. A protective bird or sun-disc may have a caption of its own. Dense writing becomes easier to approach when you stop treating it as a single block.",
+        "Use a simple three-part question: who acts, what is done, and who responds? This does not translate the inscription, but it gives the translation somewhere to belong."
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-scene-structure",
+          "locator": "Structure of Ritual Scenes: royal identity, labels and divine speech"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "Read into the faces",
+      "paragraphs": [
+        "Human, animal and bird signs normally face the beginning of their line. A sign facing right usually directs you to begin at the right, reading toward its face. Captions associated with figures normally share those figures’ orientation.",
+        "This makes direction a local decision: separate caption groups in one scene can face different ways. Determine which group belongs to which participant before choosing where to start. Vertical arrangement and the ordering of signs within groups still need their own attention."
+      ],
+      "citations": [
+        {
+          "sourceId": "ucl-art-script",
+          "locator": "Rules of orientation"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "A picture can also be writing",
+      "paragraphs": [
+        "A sign can function as part of language rather than simply depict the object it resembles. UCL’s teaching account distinguishes word signs and determinatives, which classify a word. Do not build a translation by assigning one English “meaning” to every pictured object.",
+        "The next level is an exact example with a photograph, edition and short reading aligned. The illustrated Red Chapel panels here demonstrate the relationship of figure and text; no unverified translation of their captions is being supplied."
+      ],
+      "citations": [
+        {
+          "sourceId": "ucl-art-script",
+          "locator": "Marked separation: logograms and determinatives"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    }
+  ],
+  "relatedDetailIds": [],
+  "sources": [
+    "memphis-scene-sequence",
+    "memphis-scene-structure",
+    "ucl-art-script"
+  ],
+  "reviewNote": "English editorial draft. Citations checked to the stated scope; specialist and field review still required."
+}

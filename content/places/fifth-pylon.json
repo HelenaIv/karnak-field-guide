@@ -1,0 +1,72 @@
+{
+  "id": "fifth-pylon",
+  "type": "place",
+  "title": "Fifth Pylon and court",
+  "area": "central-temple",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Thutmose I’s gateway led into a court whose circulation was later changed by partitions.",
+  "orientation": "On the main axis, at the eastern side of the Wadjet Hall.",
+  "personIds": [
+    "thutmose-i",
+    "thutmose-iii"
+  ],
+  "details": [],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "fifth-pylon-context",
+      "text": "Thutmose I’s gateway led into a court whose circulation was later changed by partitions.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-fifth-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "fifth-pylon-0",
+      "text": "A casing of limestone above and red granite below covered the sandstone core.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-fifth-pylon",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "fifth-pylon-1",
+      "text": "Thutmose III divided the court into a central corridor and flanking pillared spaces. What began as an open space became more channelled.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-fifth-pylon",
+          "locator": "Phases of Construction: Thutmose III"
+        }
+      ]
+    },
+    {
+      "id": "fifth-pylon-2",
+      "text": "The modeled wooden portico roof is not certain; a stone roof has also been proposed.",
+      "certainty": "unknown",
+      "citations": [
+        {
+          "sourceId": "dk-fifth-pylon",
+          "locator": "About the reconstruction model of Thutmose I"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-fifth-pylon"
+  ]
+}

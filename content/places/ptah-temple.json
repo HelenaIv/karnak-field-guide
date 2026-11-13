@@ -1,0 +1,31 @@
+{
+  "id": "ptah-temple",
+  "type": "place",
+  "title": "Temple of Ptah",
+  "area": "northern-temples",
+  "status": "needs_source_check",
+  "summary": "A northern temple with a long sequence of royal interventions; deeper research will use the CFEETK epigraphic publication.",
+  "orientation": "Northern part of the Amun precinct.",
+  "details": [],
+  "sources": [
+    "dk-ptah",
+    "cfeetk-ptah-overview"
+  ],
+  "claims": [
+    {
+      "id": "ptah-location",
+      "text": "The temple lies in the northern Amun complex.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-ptah",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "The official archive warns that the statues now positioned in the central and southern rooms are not in their original locations; independently verify the archive text before publishing a reconstructed ancient viewpoint.",
+    "The CFEETK monograph, rather than popular dramatic-light stories, is the next source target."
+  ]
+}

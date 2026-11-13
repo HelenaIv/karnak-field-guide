@@ -19,14 +19,15 @@
     "digital-karnak-hypostyle",
     "hypostyle-project-2011",
     "oip-142",
-    "memphis-interior"
+    "memphis-interior",
+    "oip142-fulltext"
   ],
   "uncertainties": [
     "A precise matching pair of publicly viewable panels still needs to be established.",
     "No specific hieroglyphic transcription has yet been checked for inclusion."
   ],
   "question": "Why are some signs raised while others are cut into the stone?",
-  "explanation": "Raised relief lowers the surrounding background so the figure remains in relief; sunk relief cuts the figure into the original surface. The Memphis account associates the change under Ramesses II with faster production and documents conversion of earlier raised carving. This local sequence does not establish one universal reason for all Egyptian sunk relief.",
+  "explanation": "Raised relief lowers the surrounding background, leaving figures and signs above it; sunk relief cuts their outline and modeled surfaces into the stone. Ramesses II changed technique and converted earlier work. Faster production is one consideration, but the scholarly commentary also discusses visibility and aesthetic choice, and rejects reducing sunk relief to cheap, inferior work.",
   "claims": [
     {
       "id": "relief-change",
@@ -47,6 +48,17 @@
         {
           "sourceId": "memphis-interior",
           "locator": "Interior Wall Scenes: paragraphs on bas relief and Ramesses II"
+        }
+      ]
+    },
+    {
+      "id": "relief-multiple-causes",
+      "text": "The edition discusses light, paint and aesthetic preference alongside production speed; deeply carved, elaborate sunk work challenges a speed-only explanation.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "pp. 18–19, §2.3.2"
         }
       ]
     }

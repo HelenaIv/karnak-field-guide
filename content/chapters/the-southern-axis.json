@@ -1,0 +1,99 @@
+{
+  "id": "the-southern-axis",
+  "type": "chapter",
+  "title": "Four gateways, several histories",
+  "dek": "Follow the southern axis through overwritten royal identities, buried statues and the stone of dismantled Aten temples.",
+  "placeId": "seventh-pylon",
+  "heroMediaId": "obelisks-b6f0e688",
+  "topics": [
+    "Routes",
+    "Archaeology",
+    "Royal history"
+  ],
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "sections": [
+    {
+      "heading": "Numbers describe position, not construction order",
+      "paragraphs": [
+        "The Seventh through Tenth Pylons belong to the southern processional axis. Their numbers are modern ordering labels. Reading them as a sequence of royal reigns would be misleading: successive rulers inserted and completed projects in an existing landscape.",
+        "This is a study sequence, not verified walking directions. Current barriers and access need to be checked separately."
+      ],
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Architectural Design of the Hall"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "A court full of displaced sculpture",
+      "paragraphs": [
+        "The court associated with the Seventh Pylon is known for the statue cache discovered by Georges Legrain in 1903. A sculpture’s findspot in that deposit is not automatically the place where it originally stood. That distinction matters when reconstructing a temple populated with royal, divine and private images."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-seventh-pylon",
+          "locator": "Phases of Construction: Thutmose III"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "Hatshepsut’s pylon, later names",
+      "paragraphs": [
+        "The Eighth Pylon was a project of Hatshepsut, but its decoration underwent repeated interventions. Digital Karnak identifies changes involving Thutmose III, Amenhotep II, Tutankhamun and Sety I. An image or cartouche on a surviving face belongs to a layered history.",
+        "Ask separately who erected the masonry, who designed the scene and who altered the writing. Those questions can have different answers."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-eighth-pylon",
+          "locator": "Phases of Construction: Hatshepsut"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "The Ninth Pylon conceals an older religious project",
+      "paragraphs": [
+        "Horemheb reused talatat from dismantled Aten temples as fill in the Ninth Pylon. Their small size and surviving decorated faces made them valuable evidence when recovered. What had once proclaimed the Aten could become invisible inside a gateway serving the renewed Amun cult.",
+        "A reconstructed Aten scene therefore depends on the archaeological arrangement of scattered pieces. It is not a photograph of an intact wall found standing."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-ninth-pylon",
+          "locator": "Phases of Construction: Horemheb"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "A southern threshold into a working complex",
+      "paragraphs": [
+        "The Tenth Pylon began under Amenhotep III and was completed under Horemheb. Its court connected not only with processional movement but with administrative, storage and priestly areas. This is a reminder that the temple was also an institution with supplies, personnel and controlled entrances."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-tenth-pylon",
+          "locator": "Phases of Construction: Amenhotep III; Horemheb"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    }
+  ],
+  "relatedDetailIds": [
+    "ninth-pylon-hidden-talatat"
+  ],
+  "sources": [
+    "dk-eighth-pylon",
+    "dk-ninth-pylon",
+    "dk-seventh-pylon",
+    "dk-tenth-pylon",
+    "hypostyle-project-architecture"
+  ],
+  "reviewNote": "English editorial draft. Citations checked to the stated scope; specialist and field review still required."
+}

@@ -1,0 +1,84 @@
+{
+  "id": "a-roof-you-can-no-longer-see",
+  "type": "chapter",
+  "title": "A roof you can no longer see",
+  "dek": "The columns make more sense when you put the missing roof back in your imagination.",
+  "placeId": "hypostyle-hall",
+  "heroMediaId": "hypostyle-a20dc2dd",
+  "topics": [
+    "Architecture",
+    "Light",
+    "Construction"
+  ],
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "sections": [
+    {
+      "heading": "Begin above your head",
+      "paragraphs": [
+        "Look at the contrast between the large central columns and the lower columns to either side. The difference is structural. Twelve taller supports define the central nave; 122 shorter columns occupy the surrounding wings. The raised middle provided space for a higher roof and for windows above the side roofs.",
+        "Follow the building upward: a column ends in a capital, above it sits an abacus, and great horizontal beams bridge the supports. Those beams are architraves. Roofing slabs once lay above them. The forest of columns was the means of carrying an enormous stone ceiling."
+      ],
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Architectural Design of the Hall"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "The open sky is a modern condition",
+      "paragraphs": [
+        "Much of the ceiling has fallen. The sunlit ruin therefore offers a misleading first impression of the ancient interior. Stone window grilles in the clerestory admitted light beneath the elevated roof, while the side wings were more enclosed. Small roof openings also admitted limited light.",
+        "The useful comparison is between a roofed hall and today’s exposed remains. We cannot recover a precise ancient brightness from a sunny photograph, and the phrase “dark temple” should not erase differences between the central aisle, side spaces and entrances."
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-roof",
+          "locator": "The Clerestory and Roof"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "Look for protected colour",
+      "paragraphs": [
+        "The underside of an architrave is its soffit. The project records surviving pigment in these protected positions. Looking upward can reveal information that exposed surfaces have lost: the temple’s colour was part of its visual design. A surviving coloured area does not tell us that all neighbouring surfaces were painted identically."
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-roof",
+          "locator": "The Architraves"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "One hall fitted between older gateways",
+      "paragraphs": [
+        "The Second and Third Pylons were already separate monumental thresholds before the hall filled the space between them. This explains something about its footprint: builders were working with an inherited temple, not laying out a blank site.",
+        "Try this comparison when moving elsewhere at Karnak. Ask which walls or gateways a new project had to join, cover or bypass. The resulting change in route can be as revealing as a ruler’s name."
+      ],
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Architectural Design of the Hall"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    }
+  ],
+  "relatedDetailIds": [
+    "hypostyle-central-columns",
+    "hypostyle-roof-light"
+  ],
+  "sources": [
+    "hypostyle-project-architecture",
+    "memphis-roof"
+  ],
+  "reviewNote": "English editorial draft. Citations checked to the stated scope; specialist and field review still required."
+}

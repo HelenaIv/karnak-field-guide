@@ -1,0 +1,37 @@
+{
+  "id": "akhmenu-botanical-images",
+  "type": "detail",
+  "placeId": "akhmenu",
+  "title": "An empire pictured as plants and animals",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Botanical room, northeastern Akhmenu.",
+  "question": "Is the “botanical garden” a garden?",
+  "explanation": "Here the familiar name refers to reliefs in an architectural space. Plants and animals associated with the king’s foreign campaigns appear on its walls. The images make distant environments present within the temple. Their relation to royal reach is an interpretation; identifying a particular modern species requires specialist work, not resemblance alone.",
+  "lookFor": [
+    "Distinguish carved stems and leaves from the room’s papyrus-form columns.",
+    "Observe whether a drawing isolates a plant or shows a real landscape."
+  ],
+  "claims": [
+    {
+      "id": "akhmenu-botanical-images-0",
+      "text": "The northeastern room has flora and fauna reliefs associated with the king’s foreign campaigns.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "digital-karnak-akhmenu",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "digital-karnak-akhmenu"
+  ],
+  "uncertainties": [
+    "Exact demonstration photographs and safe on-site viewpoints must be checked before publication."
+  ]
+}

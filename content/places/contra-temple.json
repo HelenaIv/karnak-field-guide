@@ -1,0 +1,61 @@
+{
+  "id": "contra-temple",
+  "type": "place",
+  "title": "Eastern Contra Temple",
+  "area": "eastern-temple",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "An outward-facing shrine offered a setting for petitioning royal and divine images.",
+  "orientation": "East of the Akhmenu, facing outward to the east.",
+  "personIds": [
+    "thutmose-iii",
+    "nectanebo-i"
+  ],
+  "details": [],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "contra-temple-context",
+      "text": "An outward-facing shrine offered a setting for petitioning royal and divine images.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-contra-temple",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "contra-temple-0",
+      "text": "The shrine’s public-facing role complicates any blanket claim that ordinary worshippers had no contact with temple divinities. It does not imply unrestricted inner-sanctuary access.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-contra-temple",
+          "locator": "Phases of Construction: Thutmose III"
+        }
+      ]
+    },
+    {
+      "id": "contra-temple-1",
+      "text": "The calcite naos held a broken royal/divine dyad; the original royal identity has been debated.",
+      "certainty": "disputed",
+      "citations": [
+        {
+          "sourceId": "dk-contra-temple",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-contra-temple"
+  ]
+}

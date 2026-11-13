@@ -30,7 +30,10 @@
     "Public access and visibility of particular chambers have not been confirmed.",
     "The famous botanical reliefs and king list require separate location-specific entries and scholarly checking before inclusion as interpretive stops."
   ],
-  "details": [],
+  "details": [
+    "akhmenu-botanical-images",
+    "akhmenu-tent-columns"
+  ],
   "sources": [
     "digital-karnak-akhmenu"
   ],

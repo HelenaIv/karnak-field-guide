@@ -1,0 +1,36 @@
+{
+  "id": "white-chapel-nome-base",
+  "type": "detail",
+  "placeId": "white-chapel",
+  "title": "Geography at the foot of a chapel",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Lower base, north and south sides.",
+  "question": "Why put regions of Egypt under royal ritual scenes?",
+  "explanation": "The base lists Egyptian regions and their measurements, while personified watery and geographical entities appear elsewhere around it. This creates a different scale of reading: above are royal-divine encounters; below, the ordered landscape contributes to the monument. Do not turn a small photographed sign into a named region until the exact panel and published text are matched.",
+  "lookFor": [
+    "Compare the low horizontal register with the taller scenes on the pillars."
+  ],
+  "claims": [
+    {
+      "id": "white-chapel-nome-base-0",
+      "text": "The north and south base sides record nomes and measurements.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "dk-white-chapel"
+  ],
+  "uncertainties": [
+    "Exact demonstration photographs and safe on-site viewpoints must be checked before publication."
+  ]
+}

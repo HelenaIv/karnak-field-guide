@@ -1,0 +1,36 @@
+{
+  "id": "red-chapel-reassembled",
+  "type": "detail",
+  "placeId": "red-chapel",
+  "title": "A chapel assembled from displaced blocks",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Reconstructed Red Chapel in the Open Air Museum.",
+  "question": "Does standing here mean it stood here in antiquity?",
+  "explanation": "The shrine was dismantled and its material reused. The museum reconstruction lets its architecture and reliefs be studied together again, but its current location is different from its ancient sanctuary setting. Separate three histories: the chapel’s original ritual use, the reuse of its blocks, and modern reassembly. A good reconstruction is an argument based on evidence, not a surviving untouched building.",
+  "lookFor": [
+    "Look at block joints and distinguish the modern display context from the carved surfaces."
+  ],
+  "claims": [
+    {
+      "id": "red-chapel-reassembled-0",
+      "text": "The chapel is a modern reconstruction and its ancient blocks were reused in the Third Pylon foundations.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Introduction; Destruction: Thutmose III"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "dk-red-chapel"
+  ],
+  "uncertainties": [
+    "Exact demonstration photographs and safe on-site viewpoints must be checked before publication."
+  ]
+}

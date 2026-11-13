@@ -5,33 +5,59 @@
   "contentLanguage": "en",
   "placeIds": [
     "akhmenu",
+    "amenhotep-i-calcite",
+    "aten-temples",
+    "bab-el-amara",
     "bubastite-portal",
     "central-bark-shrine",
+    "contra-temple",
+    "eighth-pylon",
+    "fifth-pylon",
     "first-pylon",
     "fourth-pylon",
     "great-court",
+    "hakoris-chapel",
     "hatshepsut-obelisks",
     "hypostyle-hall",
     "khonsu-temple",
+    "middle-kingdom-court",
+    "mut-precinct",
+    "ninth-pylon",
     "opet-temple",
+    "osiris-catacombs",
+    "ptah-temple",
     "ramesses-iii-temple",
     "red-chapel",
     "sacred-lake",
     "second-pylon",
     "sety-ii-shrine",
+    "seventh-pylon",
+    "sixth-pylon",
     "taharqo-kiosk",
+    "tenth-pylon",
     "third-pylon",
+    "thutmose-iv-peristyle",
+    "wadjet-hall",
     "white-chapel"
   ],
   "detailIds": [
+    "akhmenu-botanical-images",
+    "akhmenu-tent-columns",
     "first-pylon-construction-ramps",
+    "hakoris-bark-turn",
     "hypostyle-central-columns",
     "hypostyle-later-cartouches",
     "hypostyle-painted-details",
     "hypostyle-relief-techniques",
-    "hypostyle-roof-light"
+    "hypostyle-roof-light",
+    "mut-occupation-layers",
+    "ninth-pylon-hidden-talatat",
+    "red-chapel-reassembled",
+    "wadjet-wood-and-stone",
+    "white-chapel-nome-base"
   ],
   "lessonIds": [
+    "hieroglyph-direction",
     "how-to-read-a-field-guide-entry",
     "reading-a-ritual-scene"
   ],
@@ -81,5 +107,14 @@
   "plannedLanguages": [
     "uk"
   ],
-  "mediaRegistry": "content/media.json"
+  "mediaRegistry": "content/media.json",
+  "chapterIds": [
+    "a-roof-you-can-no-longer-see",
+    "akhmenu-beyond-the-forest",
+    "chapels-with-second-lives",
+    "mut-landscape",
+    "raised-sunk-recut",
+    "read-a-wall",
+    "the-southern-axis"
+  ]
 }

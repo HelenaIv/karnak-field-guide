@@ -8,7 +8,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 KINDS = {'place': 'places', 'detail': 'details', 'lesson': 'lessons', 'route': 'routes',
-         'person': 'people', 'period': 'periods', 'theme': 'themes', 'inscription': 'inscriptions'}
+         'person': 'people', 'period': 'periods', 'theme': 'themes', 'inscription': 'inscriptions', 'chapter': 'chapters'}
 STATUS = {'source_checked', 'needs_source_check', 'needs_epigraphic_review', 'needs_field_check', 'ready'}
 CERTAINTY = {'established', 'interpretation', 'disputed', 'unknown'}
 PREDICATES = {'contains', 'west_of', 'north_of', 'replaced_by', 'blocks_reused_in', 'ritually_related'}
@@ -71,6 +71,10 @@ def validate():
         for status in d.get('additionalChecks', []):
             check(status in STATUS, f'{ident}: invalid additional check')
         claim_ids = set()
+        for section in d.get('sections', []):
+            check(bool(section.get('heading')) and bool(section.get('paragraphs')), f'{ident}: incomplete section')
+            citations(section.get('citations', []), ident)
+        refs(d.get('relatedDetailIds', []), 'detail', ident)
         for c in d.get('claims', []):
             check(bool(c.get('text')), f'{ident}: empty claim')
             check(c.get('id') not in claim_ids, f'{ident}: duplicate claim ID')

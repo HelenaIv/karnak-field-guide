@@ -1,0 +1,85 @@
+{
+  "id": "akhmenu-beyond-the-forest",
+  "type": "chapter",
+  "title": "Beyond the forest of columns",
+  "dek": "The Akhmenu changes the architectural language: tent-pole forms, royal ancestors and carved foreign plants.",
+  "placeId": "akhmenu",
+  "heroMediaId": "akhmenu-71604540",
+  "topics": [
+    "Architecture",
+    "Plants",
+    "Kingship"
+  ],
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "sections": [
+    {
+      "heading": "A different building programme",
+      "paragraphs": [
+        "The eastern Akhmenu belongs to Thutmose III’s transformation of Karnak. It is more than an extra room behind the earlier temple: its spaces bring together royal regeneration, divine worship and specialised cult settings. Sullivan cautions that its exact cultic character remains elusive.",
+        "This is a useful limit to carry while exploring. A convenient label such as “Festival Hall” helps orientation, but it does not explain every chamber’s function or every stage of use."
+      ],
+      "citations": [
+        {
+          "sourceId": "sullivan-2010",
+          "locator": "p. 8, Akhmenu discussion"
+        }
+      ],
+      "evidenceLabel": "Scholarly interpretation"
+    },
+    {
+      "heading": "Columns with another model",
+      "paragraphs": [
+        "The main hall’s unusual central columns are interpreted as stone versions of portable-tent supports. Compare the profile with the open-papyrus capitals in the Great Hypostyle Hall. The structural job is still to carry a roof, but the architectural form is different."
+      ],
+      "citations": [
+        {
+          "sourceId": "digital-karnak-akhmenu",
+          "locator": "Introduction"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "The botanical room is carved, not planted",
+      "paragraphs": [
+        "The so-called botanical room lies in the northeastern part of the complex. Its reliefs show plants and animals associated with the king’s foreign campaigns. The modern nickname can mislead: what you study here is an architectural room and its images, not a surviving planted garden.",
+        "Begin with shapes and organisation. Notice a stem, branching leaves, or an isolated animal. A modern species name needs specialist botanical and epigraphic evidence. The guide should not turn resemblance into certainty."
+      ],
+      "citations": [
+        {
+          "sourceId": "digital-karnak-akhmenu",
+          "locator": "Introduction"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    },
+    {
+      "heading": "The ancestors are elsewhere today",
+      "paragraphs": [
+        "The Louvre records the Chambre des Ancêtres as originating in the Akhmenu and identifies it with inventory E 13481 BIS. Its reliefs show Thutmose III offering before royal predecessors. The original monument’s present collection context matters: a description of its ancient room must not promise that all its original carved walls remain in place at Karnak.",
+        "Treat the ancestor selection as a royal statement to interpret, rather than assume it is a complete neutral list of every king."
+      ],
+      "citations": [
+        {
+          "sourceId": "louvre-ancestors",
+          "locator": "Identification, provenance and description"
+        }
+      ],
+      "evidenceLabel": "Evidence-based explanation"
+    }
+  ],
+  "relatedDetailIds": [
+    "akhmenu-tent-columns",
+    "akhmenu-botanical-images"
+  ],
+  "sources": [
+    "digital-karnak-akhmenu",
+    "louvre-ancestors",
+    "sullivan-2010"
+  ],
+  "reviewNote": "English editorial draft. Citations checked to the stated scope; specialist and field review still required."
+}

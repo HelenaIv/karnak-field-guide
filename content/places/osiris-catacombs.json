@@ -1,0 +1,58 @@
+{
+  "id": "osiris-catacombs",
+  "type": "place",
+  "title": "Osiris catacombs",
+  "area": "northeastern-osiris",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "These galleries contained niches for small Osiris figures rather than human tombs.",
+  "orientation": "Northeast of the central Amun temple.",
+  "personIds": [],
+  "details": [],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "osiris-catacombs-context",
+      "text": "These galleries contained niches for small Osiris figures rather than human tombs.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-osiris-catacombs",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "osiris-catacombs-0",
+      "text": "The structure used fired brick, plaster and painted decoration. The niches were closed with clay plaques.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-osiris-catacombs",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "osiris-catacombs-1",
+      "text": "The source describes burial of Osiris statuettes in this hypogeum; do not label it a royal necropolis.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-osiris-catacombs",
+          "locator": "Phases of Construction: Ptolemy IV"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-osiris-catacombs"
+  ]
+}

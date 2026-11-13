@@ -1,0 +1,61 @@
+{
+  "id": "aten-temples",
+  "type": "place",
+  "title": "Eastern Aten temples and talatat",
+  "area": "eastern-temple",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Akhenaten’s early Aten foundations included the Gem-pa-Aten, later dismantled.",
+  "orientation": "Originally east of the Amun precinct; many blocks were later reused elsewhere.",
+  "personIds": [
+    "akhenaten",
+    "horemheb"
+  ],
+  "details": [],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "aten-temples-context",
+      "text": "Akhenaten’s early Aten foundations included the Gem-pa-Aten, later dismantled.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-aten-temples",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "aten-temples-0",
+      "text": "The known material includes jubilee scenes and small sandstone construction blocks.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-aten-temples",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "aten-temples-1",
+      "text": "Talatat were reused in the Second, Ninth and Tenth Pylons. Reconstruction of a decorated wall requires evidence for how dispersed blocks join.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-aten-temples",
+          "locator": "Destruction: Horemheb"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-aten-temples"
+  ]
+}

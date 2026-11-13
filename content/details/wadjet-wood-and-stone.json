@@ -1,0 +1,37 @@
+{
+  "id": "wadjet-wood-and-stone",
+  "type": "detail",
+  "placeId": "wadjet-hall",
+  "title": "The stone hall once had wooden supports",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Wadjet Hall between Fourth and Fifth Pylons.",
+  "question": "Why not assume every ancient phase was stone?",
+  "explanation": "Hatshepsut’s version incorporated gilded wooden papyrus columns and wooden roofing over side areas. Later builders replaced supports and changed the hall. The obelisks required open space above the centre. Looking at the standing masonry alone can therefore collapse several different spaces into one imagined “original temple.”",
+  "lookFor": [
+    "Separate the obelisk opening from the formerly roofed sides.",
+    "Compare a phase plan with the current remains."
+  ],
+  "claims": [
+    {
+      "id": "wadjet-wood-and-stone-0",
+      "text": "The account distinguishes Hatshepsut’s wooden supports from later stone replacements.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-wadjet-hall",
+          "locator": "Phases of Construction: Hatshepsut; Thutmose III"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "dk-wadjet-hall"
+  ],
+  "uncertainties": [
+    "Exact demonstration photographs and safe on-site viewpoints must be checked before publication."
+  ]
+}

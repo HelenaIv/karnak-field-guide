@@ -22,7 +22,9 @@
     "Four internal pillars are surrounded by twelve outer pillars."
   ],
   "lookFor": [],
-  "details": [],
+  "details": [
+    "white-chapel-nome-base"
+  ],
   "claims": [
     {
       "id": "white-chapel-location",

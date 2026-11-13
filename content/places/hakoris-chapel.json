@@ -1,0 +1,60 @@
+{
+  "id": "hakoris-chapel",
+  "type": "place",
+  "title": "Chapel of Hakoris",
+  "area": "western-entrance",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "This bark station has differently placed doorways and a rear support for the portable shrine.",
+  "orientation": "Outside the First Pylon, near the western water approach.",
+  "personIds": [],
+  "details": [
+    "hakoris-bark-turn"
+  ],
+  "architecture": [],
+  "lookFor": [],
+  "claims": [
+    {
+      "id": "hakoris-chapel-context",
+      "text": "This bark station has differently placed doorways and a rear support for the portable shrine.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-hakoris-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "hakoris-chapel-0",
+      "text": "The source interprets the north and west doors as allowing the bark to enter and leave without changing its north-facing prow orientation.",
+      "certainty": "interpretation",
+      "citations": [
+        {
+          "sourceId": "dk-hakoris-chapel",
+          "locator": "Phases of Construction: Hakoris"
+        }
+      ]
+    },
+    {
+      "id": "hakoris-chapel-1",
+      "text": "Open papyrus columns and low screen walls contrast with its more enclosed eastern half.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "dk-hakoris-chapel",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  ],
+  "sources": [
+    "dk-hakoris-chapel"
+  ]
+}

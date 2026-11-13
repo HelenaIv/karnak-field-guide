@@ -1,0 +1,38 @@
+{
+  "id": "hieroglyph-direction",
+  "type": "lesson",
+  "title": "Where does a line of hieroglyphs begin?",
+  "status": "source_checked",
+  "placeIds": [
+    "hypostyle-hall",
+    "red-chapel",
+    "white-chapel"
+  ],
+  "steps": [
+    "Choose one caption group rather than the entire wall.",
+    "Find a human, bird or animal sign with a clear facing direction. The start is normally on the side it faces.",
+    "Read into the faces, not in the direction the creatures appear to travel.",
+    "Check which depicted figure the caption belongs to; captions can be oriented with their figures.",
+    "Identify vertical arrangement separately; facing alone does not tell you how every sign group is ordered."
+  ],
+  "claims": [
+    {
+      "id": "direction-rule",
+      "text": "Signs normally face the beginning of a line, and captions align with their associated figures.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "ucl-art-script",
+          "locator": "Rules of orientation"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "ucl-art-script"
+  ],
+  "limits": [
+    "This teaches orientation, not a translation. A Karnak sign-by-sign example still needs an edition-matched image.",
+    "Ordinary conventions have exceptions; avoid applying this as an automatic decoding algorithm."
+  ]
+}

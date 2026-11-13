@@ -356,6 +356,297 @@
       "accessed": "2026-11-13",
       "consultation": "Web text and captions; precise epigraphic plates still require review.",
       "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "sullivan-2010",
+      "title": "Karnak: Development of the Temple of Amun-Ra",
+      "url": "https://escholarship.org/content/qt1f28q08h/qt1f28q08h.pdf",
+      "kind": "peer-reviewed Egyptological synthesis",
+      "authors": [
+        "Elaine A. Sullivan"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full PDF accessed; selected passages read, including origins, Middle Kingdom core and Akhmenu. Published 2010; newer work may revise hypotheses.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "mut-fieldwork-2016",
+      "title": "The Brooklyn Museum’s 2016 Season of Fieldwork at the Precinct of the Goddess Mut at South Karnak",
+      "url": "https://d1lfxha3ugu3d4.cloudfront.net/features/docs/Mut_Precinct_Preliminary_Report_2016.pdf",
+      "kind": "excavation report",
+      "authors": [
+        "Richard A. Fazzini",
+        "Mary E. McKercher"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full PDF accessed; abstract and excavation west of the Taharqa Gate read; report not a comprehensive final site publication.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "arce-mut",
+      "title": "Mut Temple: Brooklyn Museum Expedition",
+      "url": "https://arce.org/project/mut-temple/",
+      "kind": "excavating institution project account",
+      "authors": [
+        "Brooklyn Museum Mut Expedition / ARCE"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Project account read; sacred precinct, Temple A, gateways and conservation sections.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "ucl-art-script",
+      "title": "Art and script in ancient Egypt",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/art/artscript.html",
+      "kind": "university teaching resource",
+      "authors": [
+        "UCL Digital Egypt"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Read rules of orientation and integration of art/script; general teaching evidence, not a specific Karnak transcription.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "louvre-ancestors",
+      "title": "Chambre des Ancêtres, E 13481 BIS",
+      "url": "https://collections.louvre.fr/ark:/53355/cl010035431",
+      "kind": "museum collection catalogue",
+      "authors": [
+        "Musée du Louvre"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Collection record read; original findspot and present collection. Catalogue imagery not imported.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "memphis-south-plates",
+      "title": "South Wall, West Half: Plates 42–53",
+      "url": "https://www.memphis.edu/hypostyle/interior-scenes/southwallwest_pls_42_53.php",
+      "kind": "specialist epigraphic scene index",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Read scene index; confirmed plate 48 = B92. Published commentary read independently for precise location.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "oip142-fulltext",
+      "title": "The Great Hypostyle Hall, vol. 1 part 2: Translation and Commentary (consulted full text)",
+      "url": "https://isac-assets.s3.amazonaws.com/isac-publications/oip142_2.pdf",
+      "kind": "epigraphic edition",
+      "authors": [
+        "Peter J. Brand",
+        "Rosa Erika Feleg",
+        "William J. Murnane"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full part-2 PDF obtained through Zenodo record 18944602; title page and selected sections read: pp. 18–19, 98–100. Copy has 2018 copyright; catalogue lists 2019. Part-3 illustrations not yet verified. No wholesale text or images copied into guide.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-fifth-pylon",
+      "title": "Fifth Pylon and court",
+      "url": "https://digitalkarnak.ucsc.edu/5th-pylon-and-court/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-sixth-pylon",
+      "title": "Sixth Pylon and court",
+      "url": "https://digitalkarnak.ucsc.edu/6th-pylon-and-court/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-seventh-pylon",
+      "title": "Seventh Pylon and Cachette Court",
+      "url": "https://digitalkarnak.ucsc.edu/7th-pylon/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-eighth-pylon",
+      "title": "Eighth Pylon",
+      "url": "https://digitalkarnak.ucsc.edu/8th-pylon/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-ninth-pylon",
+      "title": "Ninth Pylon",
+      "url": "https://digitalkarnak.ucsc.edu/9th-pylon/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-tenth-pylon",
+      "title": "Tenth Pylon",
+      "url": "https://digitalkarnak.ucsc.edu/10th-pylon/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-wadjet-hall",
+      "title": "Wadjet Hall",
+      "url": "https://digitalkarnak.ucsc.edu/wadjet-hall/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-middle-kingdom-court",
+      "title": "Middle Kingdom temple core",
+      "url": "https://digitalkarnak.ucsc.edu/middle-kingdom-court/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-aten-temples",
+      "title": "Eastern Aten temples and talatat",
+      "url": "https://digitalkarnak.ucsc.edu/aten-temples/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-bab-el-amara",
+      "title": "Bab el-Amara gateway",
+      "url": "https://digitalkarnak.ucsc.edu/bab-el-amara-gate/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-hakoris-chapel",
+      "title": "Chapel of Hakoris",
+      "url": "https://digitalkarnak.ucsc.edu/chapel-of-hakoris/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-contra-temple",
+      "title": "Eastern Contra Temple",
+      "url": "https://digitalkarnak.ucsc.edu/contra-temple/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-osiris-catacombs",
+      "title": "Osiris catacombs",
+      "url": "https://digitalkarnak.ucsc.edu/osiris-catacombs/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-amenhotep-i-calcite",
+      "title": "Calcite chapel of Amenhotep I",
+      "url": "https://digitalkarnak.ucsc.edu/amenhotep-i-calcite-chapel/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-thutmose-iv-peristyle",
+      "title": "Painted peristyle of Thutmose IV",
+      "url": "https://digitalkarnak.ucsc.edu/thutmose-iv-peristyle-hall/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "dk-ptah",
+      "title": "Ptah Temple",
+      "url": "https://digitalkarnak.ucsc.edu/ptah-temple/",
+      "kind": "institutional monument synthesis",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Full web account read; model reconstructions distinguished from surviving fabric.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
+    },
+    {
+      "id": "cfeetk-ptah-overview",
+      "title": "Temple de Ptah: archive overview",
+      "url": "https://www.cfeetk.cnrs.fr/archives/?k=246",
+      "kind": "archaeological project archive",
+      "authors": [
+        "CFEETK"
+      ],
+      "accessed": "2026-11-13",
+      "consultation": "Search-indexed official overview consulted; direct archive timed out. Exact epigraphic claims withheld pending access.",
+      "rights": "Reference source; imagery not licensed for app reuse by this citation."
     }
   ]
 }

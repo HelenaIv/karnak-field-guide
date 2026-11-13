@@ -1,0 +1,36 @@
+{
+  "id": "mut-occupation-layers",
+  "type": "detail",
+  "placeId": "mut-precinct",
+  "title": "An old approach beneath later houses",
+  "category": "close-reading",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Excavated area west of the Taharqa Gate.",
+  "question": "How does a procession route become a residential area?",
+  "explanation": "The 2016 field report describes Dynasty 25 paving under later fills and Ptolemaic construction. The changed ground levels show why a single plan cannot describe every moment of a temple precinct. A gate can cease to function as an entrance while the surrounding area acquires another use. This is a researched excavation context, not a promise that the exposed layers are currently visible to visitors.",
+  "lookFor": [
+    "Compare phase plans, not just the present ground surface."
+  ],
+  "claims": [
+    {
+      "id": "mut-occupation-layers-0",
+      "text": "The report distinguishes older paving, later landfill and Ptolemaic building west of the gate.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "mut-fieldwork-2016",
+          "locator": "pp. 1–3, Excavation west of the Taharqa Gate"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "mut-fieldwork-2016"
+  ],
+  "uncertainties": [
+    "Exact demonstration photographs and safe on-site viewpoints must be checked before publication."
+  ]
+}
