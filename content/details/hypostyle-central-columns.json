@@ -1,0 +1,25 @@
+{
+  "id": "hypostyle-central-columns",
+  "type": "detail",
+  "placeId": "hypostyle-hall",
+  "title": "Why twelve columns look different",
+  "category": "architecture",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "position": "Central east–west nave of the Great Hypostyle Hall.",
+  "observation": "Twelve columns have taller shafts and capitals shaped like open papyrus blooms, unlike the 122 shorter closed-bud papyrus columns in the side wings.",
+  "interpretation": "The taller colonnade carried the elevated roof over the central aisle, enabling clerestory light to enter above the side roofs.",
+  "lookFor": [
+    "Open versus closed bud-shaped capitals.",
+    "Roof and clerestory remains above the central aisle."
+  ],
+  "sources": [
+    "digital-karnak-hypostyle",
+    "hypostyle-project-columns"
+  ],
+  "uncertainties": [
+    "Current visitor sightlines and lighting require field validation."
+  ]
+}
