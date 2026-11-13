@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated": "2026-11-13",
+  "site": "Karnak Temple Complex",
+  "contentLanguage": "en",
+  "placeIds": [
+    "first-pylon",
+    "hypostyle-hall",
+    "akhmenu"
+  ],
+  "detailIds": [
+    "first-pylon-construction-ramps",
+    "hypostyle-central-columns",
+    "hypostyle-relief-techniques"
+  ],
+  "lessonIds": [
+    "how-to-read-a-field-guide-entry"
+  ],
+  "routeIds": [
+    "west-east-introduction"
+  ],
+  "sourceRegistry": "content/sources.json",
+  "editorialStandards": "docs/EDITORIAL_STANDARDS.md",
+  "notes": "Research seed content; not a public-ready guide."
+}
