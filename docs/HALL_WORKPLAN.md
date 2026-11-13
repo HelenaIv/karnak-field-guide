@@ -11,6 +11,7 @@ Started 2026-11-13. This file is the hand-over point for any device, agent or se
 - **Stops.** 14 is a small number for this hall, not a ceiling. Add stops where the Hall has more to show. Cut a stop only if it doesn't make sense.
 - **Images.** Research and use images, preferably ones licensed for commercial apps. A missing matching photo is not a reason to drop a stop: look for a photo, a historical drawing, a plate or other illustration. The owner may add her own photos, but only where nothing usable exists online.
 - **Supporting content.** A glossary, timelines and temple plans, plus explanations of the kings and gods.
+- **Illustrations (2026-11-14).** The owner wants much more illustration everywhere: photos, plus drawings like the Memphis column diagrams. Original redrawn or generated explanatory diagrams are welcome; copyrighted drawings are not copied.
 - **Preservation.** Keep logs and details in GitHub so the work can be resumed from another device, agent or incognito session.
 - **Local only (2026-11-14).** The owner is keeping the project in the local repository for now. Commit locally; do not push.
 

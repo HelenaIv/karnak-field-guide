@@ -14,7 +14,7 @@ function cropBox(p, label) {
   const ratio = (m.width * cw) / (m.height * ch);
   const sx = cw >= 100 ? 0 : (cx / (100 - cw)) * 100, sy = ch >= 100 ? 0 : (cy / (100 - ch)) * 100;
   const box = `left:${((p.x - cx) / cw * 100).toFixed(1)}%;top:${((p.y - cy) / ch * 100).toFixed(1)}%;width:${(p.w / cw * 100).toFixed(1)}%;height:${(p.h / ch * 100).toFixed(1)}%`;
-  return `<figure class="crop-fig"><button class="crop" data-zoom="${esc(m.id)}" aria-label="Enlarge the full photograph: ${esc(m.caption)}" style="aspect-ratio:${ratio.toFixed(3)};background-image:url('${esc(m.webPath)}');background-size:${(10000 / cw).toFixed(1)}% auto;background-position:${sx.toFixed(1)}% ${sy.toFixed(1)}%"><span class="crop-mark" style="${box}"></span></button><figcaption>${label ? esc(label) + ' (outlined) · ' : ''}Detail of a photograph from the Hall. Tap to see the whole image.${credit(m)}</figcaption></figure>`;
+  return `<figure class="crop-fig"><button class="crop" data-zoom="${esc(m.id)}" aria-label="Enlarge the full photograph: ${esc(m.caption)}" style="aspect-ratio:${ratio.toFixed(3)};background-image:url('${esc(m.webPath)}');background-size:${(10000 / cw).toFixed(1)}% auto;background-position:${sx.toFixed(1)}% ${sy.toFixed(1)}%"><span class="crop-mark" style="${box}"></span></button><figcaption>${label ? esc(label) + ' (outlined) · ' : ''}Detail of a photograph. Tap to see the whole image.${credit(m)}</figcaption></figure>`;
 }
 function readHead(title, intro, back = true) {
   return `${back ? '<div class="reader-top"><a href="#read">← Read the walls</a><span></span></div>' : ''}<div class="page-head read-head"><span class="eyebrow">Read the walls</span><h1>${esc(title)}</h1>${intro ? `<p>${esc(intro)}</p>` : ''}</div>`;
@@ -23,13 +23,15 @@ function sourcesBlock(c) { return (c || []).length ? `<details class="source-not
 function stopLinks(ids) { const g = hallGuide(); return (ids || []).map(id => { if (id === 'names') return `<a href="#read/names">Royal names →</a>`; const s = g?.stops.find(x => x.id === id); return s ? `<a href="#hall/${esc(s.id)}">See it at stop ${s.number}: ${esc(s.title)} →</a>` : ''; }).filter(Boolean).join(''); }
 
 function readHome() {
-  const r = RD(); const starters = ['ankh', 'was', 'djed', 're', 'maat', 'nswt', 'sa', 'neb'].map(signById).filter(Boolean);
+  const r = RD(); const starters = ['ankh', 'was', 'djed', 'ka', 're', 'maat', 'nswt', 'sa'].map(signById).filter(Boolean);
   const tiles = [
     ['signs', 'Signs', `${r.signs.signs.length} signs you will see again and again, grouped by what they do.`],
-    ['names', 'Royal names', `How to read a cartouche, and how to tell ${r.names.kings.length} kings apart in the Hall.`],
+    ['names', 'Royal names', `How to read a cartouche, and the names of ${r.names.kings.length} kings you can find at Karnak.`],
     ['phrases', 'Phrases', `${r.phrases.phrases.length} set phrases that make up most temple texts.`],
+    ['alphabet', 'The alphabet', 'The 25 one-sound signs, and write your own name in hieroglyphs.'],
+    ['columns', 'Columns: layers of names', 'Step through who carved what on the Hall’s columns, over 200 years.'],
     ['scene', 'How a scene works', 'Which way to read, who is speaking, and what is being given.'],
-    ['practice', 'Try it', 'Read a real royal name and a real scene from the Hall, step by step.']];
+    ['practice', 'Try it', `${RD().practice.items.length} guided exercises on real photos from Karnak.`]];
   return `${readHead('Read the walls', 'You do not need to learn a language to read a lot of what is carved here. A few dozen signs, a handful of set phrases and the royal names cover much of what you see in the Hall. Start with the eight signs below.', false)}
   <section class="section" style="padding-top:0"><div class="starter">${starters.map(s => `<a class="sign-tile" href="#read/sign/${esc(s.id)}">${glyphs(s.glyphs)}<b>${esc(s.name)}</b><span>${esc(s.meaning)}</span></a>`).join('')}</div>
   <div class="read-tiles">${tiles.map(([id, t, d]) => `<a class="read-tile" href="#read/${id}"><h2>${t}</h2><p>${esc(d)}</p><span>Open →</span></a>`).join('')}</div></section>`;
@@ -49,17 +51,43 @@ function signPage(id) {
   ${s.photo ? cropBox(s.photo, s.name) : ''}<p class="links">${stopLinks(s.stops)}</p>${sourcesBlock(s.citations)}
   <div class="stop-nav">${prev ? `<a href="#read/sign/${esc(prev.id)}" rel="prev">← ${esc(prev.name)}</a>` : '<span></span>'}${next ? `<a href="#read/sign/${esc(next.id)}" rel="next">${esc(next.name)} →</a>` : '<a href="#read/signs">All signs →</a>'}</div></div></article>`;
 }
+function quads(qs) {
+  return (qs || []).map(q => { const n = q.length, big = Math.max(...q.map(r => r.length)); const fs = n > 1 || big > 1 ? Math.max(0.42, 1 / Math.max(n, big) * 1.05) : 1;
+    return `<span class="q" style="font-size:${fs.toFixed(2)}em">${q.map(r => `<span class="qr">${r.map(esc).join('')}</span>`).join('')}</span>`; }).join('');
+}
+function cartouche(n) { return n.quads?.length ? `<span class="cartouche" lang="egy" role="img" aria-label="Cartouche: ${esc(n.name)}">${quads(n.quads)}</span>` : (n.glyphs?.length ? `<span class="cartouche" lang="egy">${n.glyphs.map(esc).join('')}</span>` : '<span class="micro">No standard printed spelling available</span>'); }
 function nameBlock(label, n) {
-  return `<div class="name-block"><span class="micro">${label}</span>${n.glyphs?.length ? `<span class="cartouche" lang="egy">${n.glyphs.map(esc).join('')}</span>` : ''}<b>${esc(n.name)}</b><em>“${esc(n.meaning)}”</em><p>${esc(n.look)}</p>${n.glyphsNote ? `<p class="micro">${esc(n.glyphsNote)}</p>` : ''}</div>`;
+  return `<div class="name-block"><span class="micro">${label}</span>${cartouche(n)}<b>${esc(n.name)}</b><em>“${esc(n.meaning)}”</em>${n.look ? `<p>${esc(n.look)}</p>` : ''}</div>`;
+}
+function placeLinks(ids) { return (ids || []).map(id => records[id] ? `<a href="#entry/${esc(id)}">${esc(records[id].title)} →</a>` : '').filter(Boolean).join(''); }
+function kingCard(k) {
+  return `<article class="king" id="king-${esc(k.id)}"><header><h2>${esc(k.name)}</h2><span class="micro">${esc(k.reign)} · ${esc(k.dynasty)}</span></header><p>${esc(k.role)}</p>
+   <div class="name-pair">${nameBlock('Throne name', k.throne)}${nameBlock('Birth name', k.birth)}</div>
+   ${k.early ? `<p class="note">${esc(k.early)}</p>` : ''}<p class="spot"><b>Where to look:</b> ${esc(k.spot)}</p>
+   ${(k.photos || []).length ? `<div class="photo-row">${k.photos.map(p => cropBox(p, p.label)).join('')}</div>` : ''}
+   <p class="links">${stopLinks(k.stops)}${placeLinks(k.places)}</p>${sourcesBlock(k.citations)}</article>`;
 }
 function namesPage() {
-  const r = RD().names;
+  const r = RD().names, hall = r.kings.filter(k => k.inHall), other = r.kings.filter(k => !k.inHall);
+  const chips = list => list.map(k => `<a href="#read/names" data-jump="king-${esc(k.id)}">${esc(k.name)}</a>`).join('');
   return `${readHead('Royal names', r.intro)}
   <section class="section" style="padding-top:0"><div class="name-key"><div><span class="glyph" lang="egy">${['M23', 'X1', 'L2', 'X1'].map(c => esc(RD().glyphMap?.[c] || '')).join('')}</span><b>King of Upper and Lower Egypt</b><span>comes before the throne name</span></div><div><span class="glyph" lang="egy">${['G39', 'N5'].map(c => esc(RD().glyphMap?.[c] || '')).join('')}</span><b>Son of Re</b><span>comes before the birth name</span></div></div>
-  ${r.kings.map(k => `<article class="king" id="king-${esc(k.id)}"><header><h2>${esc(k.name)}</h2><span class="micro">${esc(k.reign)} · ${esc(k.dynasty)}</span></header><p>${esc(k.role)}</p>
-   <div class="name-pair">${nameBlock('Throne name', k.throne)}${nameBlock('Birth name', k.birth)}</div>
-   ${k.early ? `<p class="note">${esc(k.early)}</p>` : ''}<p class="spot"><b>How to spot it:</b> ${esc(k.spot)}</p>
-   ${k.photo ? cropBox(k.photo, k.name) : ''}<p class="links">${stopLinks((k.stops || []).filter(x => x !== 'names'))}</p>${sourcesBlock(k.citations)}</article>`).join('')}</section>`;
+  <nav class="king-index"><b>In the Hypostyle Hall</b>${chips(hall)}<b>Elsewhere at Karnak</b>${chips(other)}</nav>
+  <h2 class="group-head">Names in the Hypostyle Hall</h2>${hall.map(kingCard).join('')}
+  <h2 class="group-head">Elsewhere at Karnak</h2><p class="group-intro">Kings who built or decorated other parts of the temple, in date order.</p>${other.map(kingCard).join('')}</section>`;
+}
+function alphabetPage() {
+  const a = RD().alphabet; if (!a) return readHome();
+  return `${readHead('The alphabet', a.intro)}<section class="section" style="padding-top:0">
+  <div class="alpha-grid">${a.letters.map(l => `<div class="alpha"><span class="glyph" lang="egy">${l.glyphs.map(esc).join('')}</span><b>${esc(l.say)}</b><span class="tr">${esc(l.translit)}</span><span class="obj">${esc(l.object)}</span><span class="snd">${esc(l.sound)}</span>${l.note ? `<span class="micro">${esc(l.note)}</span>` : ''}</div>`).join('')}</div>
+  ${a.extra.map(l => `<div class="alpha-extra"><span class="glyph" lang="egy">${l.glyphs.map(esc).join('')}</span><p><b>${esc(l.object)} — ${esc(l.say)}.</b> ${esc(l.note)}</p></div>`).join('')}
+  <div class="name-tool"><h2>Write a name in hieroglyphs</h2><p class="micro">${esc(a.nameTool.note)}</p><label for="name-input">Your name</label><input id="name-input" type="text" maxlength="24" placeholder="e.g. Helena" autocomplete="off"><div id="name-out" class="name-out" aria-live="polite"></div></div>
+  ${sourcesBlock(a.citations)}</section>`;
+}
+function writeName(v) {
+  const a = RD().alphabet, map = a.nameTool.glyphs, s = (v || '').toLowerCase().replace(/[^a-z]/g, ''); const out = [];
+  for (let i = 0; i < s.length;) { const two = s.slice(i, i + 2); if (map[two]) { out.push(map[two].join('')); i += 2; } else { if (map[s[i]]) out.push(map[s[i]].join('')); i += 1; } }
+  return out.length ? `<span class="cartouche" lang="egy">${out.map(esc).join('')}</span>` : '';
 }
 function phrasesPage() {
   const r = RD().phrases;
@@ -84,11 +112,16 @@ function readRoute(arg, sub) {
   if (arg === 'names') return namesPage();
   if (arg === 'phrases') return phrasesPage();
   if (arg === 'scene') return scenePage();
+  if (arg === 'alphabet') return alphabetPage();
+  if (arg === 'columns') return columnsPage();
   if (arg === 'practice') return practicePage(sub);
   return readHome();
 }
 function readInteract(e) {
+  if (columnsInteract(e)) return true;
+  const j = e.target.closest('[data-jump]'); if (j) { e.preventDefault(); document.getElementById(j.dataset.jump)?.scrollIntoView({ behavior: 'smooth' }); return true; }
   const b = e.target.closest('.ann.tap'); if (!b) return false;
   const li = document.querySelector(`.practice-steps li[data-step="${b.dataset.step}"]`); if (li) { li.hidden = false; b.classList.add('done'); }
   return true;
 }
+function readInput(e) { if (e.target.id === 'name-input') { const o = document.getElementById('name-out'); if (o) o.innerHTML = writeName(e.target.value); } }

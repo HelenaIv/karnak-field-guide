@@ -13,7 +13,7 @@ OUT=ROOT/'dist'
 OUT.mkdir(exist_ok=True)
 def read(path):
  return json.loads(Path(path).read_text(encoding='utf-8'))
-for name in ['index.html','app.js','hall.js','read.js','styles.css']:
+for name in ['index.html','app.js','hall.js','columns.js','read.js','styles.css']:
  shutil.copyfile(ROOT/'web'/name,OUT/name)
 content={}
 for kind in ['chapters','places','details','lessons','guides']:
@@ -32,13 +32,16 @@ def conv(codes):
  for c in codes:
   gmap[c]=glyph(c); out.append(gmap[c])
  return out
-rd={k:read(ROOT/'content/reading'/(k+'.json')) for k in ['signs','names','phrases','scene','practice']}
+rd={k:read(ROOT/'content/reading'/(k+'.json')) for k in ['signs','names','phrases','scene','practice','alphabet']}
 for s in rd['signs']['signs']: s['glyphs']=conv(s['code'].split('-'))
 for p in rd['phrases']['phrases']: p['glyphs']=conv(p['glyphs'])
 for k in rd['names']['kings']:
  for part in ('throne','birth'):
   if k[part].get('glyphs'): k[part]['glyphs']=conv(k[part]['glyphs'])
+  if k[part].get('quads'): k[part]['quads']=[[conv(row) for row in q] for q in k[part]['quads']]
 conv(['M23','X1','L2','G39','N5'])
+for l in rd['alphabet']['letters']+rd['alphabet']['extra']: l['glyphs']=conv(l['code'].split('-'))
+rd['alphabet']['nameTool']['glyphs']={k:conv(v.split('-')) for k,v in rd['alphabet']['nameTool']['map'].items()}
 rd['glyphMap']=gmap
 content['reading']=rd
 fontsrc=ROOT/'assets/fonts'

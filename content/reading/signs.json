@@ -15,6 +15,11 @@
       "intro": "A god’s name is often written beside or above the figure. These few groups cover most of the Hall."
     },
     {
+      "id": "spirit",
+      "title": "Soul, spirit and life force",
+      "intro": "Egyptians saw a person as several parts. These signs name them, and you meet them in royal names and gods’ blessings."
+    },
+    {
       "id": "titles",
       "title": "The king’s titles",
       "intro": "Small groups of signs that stand in front of the royal names. They tell you a name is coming, and which one."
@@ -38,6 +43,21 @@
       "id": "time",
       "title": "Time and eternity",
       "intro": "Kings asked the gods for endless time. These signs count it."
+    },
+    {
+      "id": "crowns",
+      "title": "Crowns and regalia",
+      "intro": "What the king and gods wear and hold tells you who they are and what they claim."
+    },
+    {
+      "id": "world",
+      "title": "Sky, land, temple",
+      "intro": "Signs for the world around the king: the sky above, the horizon, cities, foreign lands and the temple itself."
+    },
+    {
+      "id": "body",
+      "title": "Body and action",
+      "intro": "Parts of the body are used both as words and for their sounds. They also show what someone is doing."
     }
   ],
   "signs": [
@@ -125,7 +145,14 @@
           "sourceId": "wiki-gardiner",
           "locator": "Sign list entry"
         }
-      ]
+      ],
+      "photo": {
+        "mediaId": "karnak-lintel-ramesses-ii-titles",
+        "x": 76,
+        "y": 14,
+        "w": 12,
+        "h": 32
+      }
     },
     {
       "id": "hotep",
@@ -324,7 +351,14 @@
           "sourceId": "wiki-gardiner",
           "locator": "Sign list entry"
         }
-      ]
+      ],
+      "photo": {
+        "mediaId": "karnak-lintel-ramesses-ii-titles",
+        "x": 11,
+        "y": 10,
+        "w": 10,
+        "h": 30
+      }
     },
     {
       "id": "bity",
@@ -340,7 +374,14 @@
           "sourceId": "wiki-gardiner",
           "locator": "Sign list entry"
         }
-      ]
+      ],
+      "photo": {
+        "mediaId": "karnak-bee-hieroglyph",
+        "x": 28,
+        "y": 20,
+        "w": 32,
+        "h": 30
+      }
     },
     {
       "id": "sa",
@@ -362,11 +403,11 @@
         }
       ],
       "photo": {
-        "mediaId": "hypostyle-reliefs-5c1c875e",
-        "x": 13,
-        "y": 34,
-        "w": 15,
-        "h": 18
+        "mediaId": "karnak-hatshepsut-obelisk-cartouche",
+        "x": 26,
+        "y": 0,
+        "w": 46,
+        "h": 30
       },
       "stops": [
         "names"
@@ -386,7 +427,14 @@
           "sourceId": "wiki-gardiner",
           "locator": "Sign list entry"
         }
-      ]
+      ],
+      "photo": {
+        "mediaId": "karnak-column-rekhyt-cartouches",
+        "x": 47,
+        "y": 55,
+        "w": 30,
+        "h": 16
+      }
     },
     {
       "id": "tawy",
@@ -598,7 +646,14 @@
           "sourceId": "wiki-gardiner",
           "locator": "Sign list entry"
         }
-      ]
+      ],
+      "photo": {
+        "mediaId": "hall-ceiling-ramesses-ii-nomen",
+        "x": 46,
+        "y": 25,
+        "w": 10,
+        "h": 45
+      }
     },
     {
       "id": "s",
@@ -860,7 +915,7 @@
       "reading": "rekhyt",
       "meaning": "the common people",
       "why": "A lapwing with its wings pinned. At the bases of the small columns, rekhyt birds sit on baskets (“all”) and raise their arms to Ramesses II’s names: all the people worship the king. It told visitors they were allowed in this part of the temple, even if they could not read.",
-      "where": "At the bases of many of the 122 smaller columns.",
+      "where": "At the bases of many of the 122 smaller columns, and on other columns at Karnak, as in the photo.",
       "citations": [
         {
           "sourceId": "wiki-gardiner",
@@ -870,7 +925,14 @@
           "sourceId": "memphis-small-columns",
           "locator": "Rekhyt birds on neb signs at the column bases"
         }
-      ]
+      ],
+      "photo": {
+        "mediaId": "karnak-column-rekhyt-cartouches",
+        "x": 44,
+        "y": 15,
+        "w": 38,
+        "h": 40
+      }
     },
     {
       "id": "bow",
@@ -896,7 +958,7 @@
       "reading": "heh",
       "meaning": "a million; “millions of years”",
       "why": "A kneeling god holding up his arms. He stands for an uncountable number: “millions of years” of reign.",
-      "where": "On the year staves in the scene next to stop 6 (B93).",
+      "where": "On the year staves in the scene next to stop 6 (B93), and large on the White Chapel of Senusret I.",
       "citations": [
         {
           "sourceId": "wiki-gardiner",
@@ -909,7 +971,14 @@
       ],
       "stops": [
         "four-jars"
-      ]
+      ],
+      "photo": {
+        "mediaId": "white-chapel-heh",
+        "x": 8,
+        "y": 3,
+        "w": 84,
+        "h": 94
+      }
     },
     {
       "id": "renpet",
@@ -951,6 +1020,477 @@
         {
           "sourceId": "oip142-fulltext",
           "locator": "Plate 49 (B93), p. 99: jubilees"
+        }
+      ]
+    },
+    {
+      "id": "ka",
+      "code": "D28",
+      "name": "Raised arms (ka)",
+      "group": "spirit",
+      "reading": "ka",
+      "meaning": "the ka: life force, a person’s double",
+      "why": "Two arms raised from the elbows. The ka is the life force that is passed from the gods to the king and from father to son. Offerings were made “for the ka” of the gods and the dead. It appears in many royal names, such as Hatshepsut’s Maatkare and Senusret I’s Kheperkare.",
+      "where": "In throne names (Maatkare, Kheperkare, Djeserkare) and in phrases about offerings.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "ba",
+      "code": "G53",
+      "name": "Human-headed bird (ba)",
+      "group": "spirit",
+      "reading": "ba",
+      "meaning": "the ba: a person’s mobile spirit",
+      "why": "A bird with a human head. The ba was the part of a person that could move freely after death, in and out of the tomb.",
+      "where": "Mostly in funerary texts; less common on temple walls.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "akh",
+      "code": "G25",
+      "name": "Crested ibis (akh)",
+      "group": "spirit",
+      "reading": "akh",
+      "meaning": "akh: transfigured spirit; effective, glorious",
+      "why": "A crested ibis. Akh is the blessed, effective spirit of the dead, and as an adjective means “useful, effective”. Akhenaten’s name means “effective for the Aten”. The Akhmenu, Thutmose III’s festival hall, is named with it too.",
+      "where": "In the name Akhenaten and in the name of the Akhmenu.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "ib",
+      "code": "F34",
+      "name": "Heart",
+      "group": "spirit",
+      "reading": "ib",
+      "meaning": "heart; mind, will",
+      "why": "A heart shaped like a jar. Egyptians thought with the heart. Gods say their heart is glad because of the king.",
+      "where": "In gods’ speeches (“my heart is glad for love of you”).",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "white-crown",
+      "code": "S1",
+      "name": "White Crown",
+      "group": "crowns",
+      "reading": "hedjet",
+      "meaning": "the White Crown of Upper (southern) Egypt; “bright, white”",
+      "why": "A tall crown shaped like a bowling pin. It stands for the south. As a sign it also writes hedj, “bright”, as in Shoshenq I’s throne name.",
+      "where": "On kings and on the god Osiris, often combined with the Red Crown.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "red-crown",
+      "code": "S3",
+      "name": "Red Crown",
+      "group": "crowns",
+      "reading": "deshret; also n",
+      "meaning": "the Red Crown of Lower (northern) Egypt",
+      "why": "A flat-topped crown with a tall back and a curl. It stands for the north. As a sign it is also used for the sound n.",
+      "where": "On kings and on the goddess Neith; combined with the White Crown as the Double Crown.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "double-crown",
+      "code": "S5",
+      "name": "Double Crown",
+      "group": "crowns",
+      "reading": "sekhemty",
+      "meaning": "the Double Crown: “the two powerful ones”",
+      "why": "The White Crown set inside the Red Crown: the king rules both halves of Egypt. The goddess Mut also wears it.",
+      "where": "On kings in many scenes and on Mut, Amun’s wife.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "blue-crown",
+      "code": "S7",
+      "name": "Blue Crown (khepresh)",
+      "group": "crowns",
+      "reading": "khepresh",
+      "meaning": "the Blue Crown",
+      "why": "A rounded helmet-like crown, often covered with small discs. New Kingdom kings wear it in war scenes and many rituals.",
+      "where": "On Ramesses II in many scenes in the Hall.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "flail",
+      "code": "S45",
+      "name": "Flail",
+      "group": "crowns",
+      "reading": "nekhakha",
+      "meaning": "flail: a royal emblem",
+      "why": "Carried with the crook by kings and by Osiris. Crook and flail together mean royal rule.",
+      "where": "In the hands of kings and of Osiris.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "sema-tawy",
+      "code": "F36",
+      "name": "Lungs and windpipe (sema)",
+      "group": "crowns",
+      "reading": "sema",
+      "meaning": "to unite; with plants: “the union of the Two Lands”",
+      "why": "Lungs and windpipe write the word “unite”. Gods tie the papyrus of the north and the lily or sedge of the south around it: Egypt united under one king.",
+      "where": "On the sides of royal thrones and on statue bases.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "sistrum",
+      "code": "Y8",
+      "name": "Sistrum",
+      "group": "crowns",
+      "reading": "sesheshet",
+      "meaning": "sistrum: a sacred rattle",
+      "why": "A rattle shaken in rituals to please the gods, especially Hathor. Queens and priestesses hold it.",
+      "where": "In offering scenes, held by queens and goddesses.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "amun-figure",
+      "code": "C12",
+      "name": "God with two tall plumes",
+      "group": "gods",
+      "reading": "imn",
+      "meaning": "Amun",
+      "why": "A seated god wearing a flat crown with two very tall plumes: Amun. In some royal names the figure replaces the spelled-out Amun group.",
+      "where": "In Ramesses IV’s and VI’s names, and as the god himself in almost every scene.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "thoth",
+      "code": "G26",
+      "name": "Ibis on a standard",
+      "group": "gods",
+      "reading": "djehuty",
+      "meaning": "Thoth, god of writing",
+      "why": "The sacred ibis of Thoth, god of writing and counting. It begins the name Thutmose, “born of Thoth”.",
+      "where": "In the names of Thutmose I, III and IV; Thoth writes the king’s years in the scene next to stop 6.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "seth",
+      "code": "E20",
+      "name": "Seth animal",
+      "group": "gods",
+      "reading": "sth",
+      "meaning": "Seth",
+      "why": "A strange animal with a curved snout, square-topped ears and a forked tail. It stands for Seth, god of storms and the desert. Sety I’s name means “he of Seth”.",
+      "where": "In the names of Sety I and Sety II, and as Seth purifying the king.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "anubis",
+      "code": "E15",
+      "name": "Lying jackal",
+      "group": "gods",
+      "reading": "inpw",
+      "meaning": "Anubis, guardian of the dead",
+      "why": "A jackal lying on a shrine or on its belly. Anubis protects the dead and guides them.",
+      "where": "In funerary texts and offering formulas.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "papyrus",
+      "code": "M13",
+      "name": "Papyrus stem",
+      "group": "world",
+      "reading": "wadj",
+      "meaning": "green, fresh; the north",
+      "why": "A papyrus stem. It writes “green, flourishing” and stands for the papyrus marshes of the north. The Hall’s columns are carved as papyrus.",
+      "where": "In texts and as the shape of every column in the Hall.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "sky",
+      "code": "N1",
+      "name": "Sky",
+      "group": "world",
+      "reading": "pet",
+      "meaning": "sky, heaven",
+      "why": "A flat slab with turned-down ends: the sky resting on its supports. A sky sign often runs along the top of a scene like a roof.",
+      "where": "Along the top of scenes and in “lord of heaven”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "star",
+      "code": "N14",
+      "name": "Star",
+      "group": "world",
+      "reading": "seba",
+      "meaning": "star",
+      "why": "A five-pointed star. Temple ceilings were painted with stars. The star also writes dua, “to adore, praise”: next to the rekhyt birds it means “adore”.",
+      "where": "On ceilings and in texts.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ],
+      "photo": {
+        "mediaId": "karnak-column-rekhyt-cartouches",
+        "x": 44,
+        "y": 40,
+        "w": 11,
+        "h": 12
+      }
+    },
+    {
+      "id": "horizon",
+      "code": "N27",
+      "name": "Sun between two hills",
+      "group": "world",
+      "reading": "akhet",
+      "meaning": "horizon",
+      "why": "The sun rising between two mountains. Temples were thought of as the horizon where the god appears.",
+      "where": "In names of temples and gods, such as Horakhty, “Horus of the horizon”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "hill-country",
+      "code": "N25",
+      "name": "Three hills",
+      "group": "world",
+      "reading": "khaset",
+      "meaning": "foreign land, desert",
+      "why": "Three hills: the deserts and foreign countries, as opposed to the flat Nile valley. On battle walls it marks the enemy’s land.",
+      "where": "On the outer battle walls and in place names of foreign lands.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "code": "O49",
+      "name": "Crossroads in a circle",
+      "group": "world",
+      "reading": "niwt",
+      "meaning": "city, town",
+      "why": "A round town with crossing streets. It ends the names of towns and cities, including Thebes.",
+      "where": "After place names in texts.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "code": "O1",
+      "name": "House plan",
+      "group": "world",
+      "reading": "per",
+      "meaning": "house; the sound p-r",
+      "why": "A simple house plan. Per-aa, “great house”, is the origin of the word pharaoh.",
+      "where": "In words for buildings and in temple names.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "mansion",
+      "code": "O6",
+      "name": "Enclosure (hut)",
+      "group": "world",
+      "reading": "hut",
+      "meaning": "mansion, temple enclosure",
+      "why": "A rectangular enclosure. Hut writes “mansion” or temple; the Hall was called a temple in its own right.",
+      "where": "In temple names and dedication texts.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "arm",
+      "code": "D36",
+      "name": "Forearm",
+      "group": "body",
+      "reading": "a (ꜥ)",
+      "meaning": "arm; the sound ꜥ (a deep a)",
+      "why": "A forearm with the hand open, used for a sound that does not exist in English, written ꜥ.",
+      "where": "In many words, including ankh when spelled out.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "hand",
+      "code": "D46",
+      "name": "Hand",
+      "group": "body",
+      "reading": "d",
+      "meaning": "hand; the sound d",
+      "why": "A hand, used for the sound d. It is the second sign in djed medu, “words spoken”.",
+      "where": "At the start of speeches.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "eye",
+      "code": "D4",
+      "name": "Eye",
+      "group": "body",
+      "reading": "ir",
+      "meaning": "eye; to do, to make",
+      "why": "A human eye. As a word it means “eye”; for its sound ir it writes “to do, to make”: “he made it as his monument”.",
+      "where": "In the name of Osiris and in dedication texts.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "praise",
+      "code": "A30",
+      "name": "Man with raised hands",
+      "group": "body",
+      "reading": "dua",
+      "meaning": "to praise, to worship",
+      "why": "A man raising both hands in front of him: worship.",
+      "where": "In scenes of praise and at the end of the word dua, “adore”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "censer",
+      "code": "R7",
+      "name": "Incense bowl with smoke",
+      "group": "gifts",
+      "reading": "senetjer",
+      "meaning": "incense",
+      "why": "A bowl with smoke rising: incense. Burning incense is one of the most common offerings in the Hall.",
+      "where": "In offering scenes and labels like “offering incense”.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
+        }
+      ]
+    },
+    {
+      "id": "lotus",
+      "code": "M9",
+      "name": "Lotus flower",
+      "group": "gifts",
+      "reading": "seshen",
+      "meaning": "lotus (water lily)",
+      "why": "The blue water lily, which opens at sunrise. Kings and gods are offered bouquets of lotus and papyrus.",
+      "where": "In offering scenes with flowers.",
+      "citations": [
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "Sign list entry"
         }
       ]
     }

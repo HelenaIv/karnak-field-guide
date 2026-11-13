@@ -3,25 +3,873 @@
   "language": "en",
   "updated": "2026-11-14",
   "status": "needs_source_check",
-  "intro": "Every king had five names. Two of them are written in cartouches: the throne name, taken at the coronation, and the birth name. The throne name follows “King of Upper and Lower Egypt” (sedge and bee); the birth name follows “Son of Re” (duck and sun disk). Inside, the god’s name is written first out of respect.",
+  "intro": "Every king had five names. Two of them are written in cartouches: the throne name, taken at the coronation, and the birth name. The throne name follows “King of Upper and Lower Egypt” (sedge and bee); the birth name follows “Son of Re” (duck and sun disk). Inside, a god’s name is written first out of respect. The printed cartouches below follow standard spellings; on the walls the same names are often arranged differently.",
   "kings": [
+    {
+      "id": "senusret-i",
+      "name": "Senusret I",
+      "reign": "c. 1971–1926 BC",
+      "dynasty": "Middle Kingdom, 12th Dynasty",
+      "inHall": false,
+      "places": [
+        "white-chapel"
+      ],
+      "role": "Built the White Chapel, a small limestone shrine decorated for his jubilee, now rebuilt in the Open Air Museum. It is one of the oldest buildings you can see at Karnak.",
+      "throne": {
+        "name": "Kheperkare",
+        "meaning": "The ka of Re comes into being",
+        "look": "Sun disk, scarab beetle and the raised arms of the ka.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ]
+          ],
+          [
+            [
+              "D28"
+            ]
+          ]
+        ],
+        "mdc": "ra-xpr-kA"
+      },
+      "birth": {
+        "name": "Senusret",
+        "meaning": "Man of the goddess Wosret",
+        "look": "Starts with the canine head on a staff (user), the sign also used in Usermaatre.",
+        "quads": [
+          [
+            [
+              "F12"
+            ]
+          ],
+          [
+            [
+              "S29"
+            ]
+          ],
+          [
+            [
+              "D21"
+            ],
+            [
+              "X1"
+            ]
+          ],
+          [
+            [
+              "O34"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "F12-s-D21:t-z:n"
+      },
+      "spot": "His cartouches cover the pillars of the White Chapel. Nectanebo I later used the same throne name, Kheperkare.",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "White Chapel"
+        },
+        {
+          "sourceId": "wikipedia-senusret-i",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak",
+      "photos": [
+        {
+          "mediaId": "white-chapel-senusret-relief",
+          "x": 38,
+          "y": 0,
+          "w": 24,
+          "h": 15,
+          "label": "Part of a cartouche on the White Chapel"
+        }
+      ]
+    },
+    {
+      "id": "amenhotep-i",
+      "name": "Amenhotep I",
+      "reign": "c. 1525–1504 BC",
+      "dynasty": "New Kingdom, 18th Dynasty",
+      "inHall": false,
+      "places": [
+        "amenhotep-i-calcite"
+      ],
+      "role": "Built a calcite (Egyptian alabaster) chapel for Amun’s sacred bark, now reconstructed.",
+      "throne": {
+        "name": "Djeserkare",
+        "meaning": "Holy is the ka of Re",
+        "look": "Sun disk, an arm holding a wand (djeser, “holy”) and the ka arms.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "D45"
+            ]
+          ],
+          [
+            [
+              "D28"
+            ]
+          ]
+        ],
+        "mdc": "-N5-D45-D28-"
+      },
+      "birth": {
+        "name": "Amenhotep",
+        "meaning": "Amun is satisfied",
+        "look": "The Amun group with the offering table (hetep).",
+        "quads": [
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "R4"
+            ],
+            [
+              "X1",
+              "Q3"
+            ]
+          ]
+        ],
+        "mdc": "i-mn:n-R4:t*p"
+      },
+      "spot": "On the reconstructed calcite chapel.",
+      "citations": [
+        {
+          "sourceId": "dk-amenhotep-i-calcite",
+          "locator": "Calcite chapel"
+        },
+        {
+          "sourceId": "wikipedia-amenhotep-i",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak"
+    },
+    {
+      "id": "thutmose-i",
+      "name": "Thutmose I",
+      "reign": "c. 1506–1493 BC",
+      "dynasty": "New Kingdom, 18th Dynasty",
+      "inHall": false,
+      "places": [
+        "fourth-pylon"
+      ],
+      "role": "Built the Fourth Pylon and an enclosure wall around the early temple of the 18th Dynasty.",
+      "throne": {
+        "name": "Aakheperkare",
+        "meaning": "Great is the form of the ka of Re",
+        "look": "Sun disk over a column (aa, “great”), scarab and ka arms.",
+        "quads": [
+          [
+            [
+              "N5"
+            ],
+            [
+              "O29"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ]
+          ],
+          [
+            [
+              "D28"
+            ]
+          ]
+        ],
+        "mdc": "N5:O29-L1-D28"
+      },
+      "birth": {
+        "name": "Thutmose",
+        "meaning": "Born of Thoth",
+        "look": "The ibis of Thoth followed by the three fox skins (mes, “born”).",
+        "quads": [
+          [
+            [
+              "G26"
+            ]
+          ],
+          [
+            [
+              "F31"
+            ]
+          ],
+          [
+            [
+              "S29"
+            ]
+          ]
+        ],
+        "mdc": "G26-F31-S29"
+      },
+      "spot": "Around the Fourth Pylon.",
+      "citations": [
+        {
+          "sourceId": "dk-fourth-pylon",
+          "locator": "Fourth Pylon"
+        },
+        {
+          "sourceId": "wikipedia-thutmose-i",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak"
+    },
+    {
+      "id": "hatshepsut",
+      "name": "Hatshepsut",
+      "reign": "c. 1479–1458 BC",
+      "dynasty": "New Kingdom, 18th Dynasty",
+      "inHall": false,
+      "places": [
+        "hatshepsut-obelisks",
+        "red-chapel",
+        "central-bark-shrine"
+      ],
+      "role": "A woman who ruled as king. She raised granite obelisks for her jubilee and built the Red Chapel, a resting place for Amun’s bark. The chapel was later taken apart; its blocks have been rebuilt in the Open Air Museum.",
+      "throne": {
+        "name": "Maatkare",
+        "meaning": "Maat is the ka of Re",
+        "look": "Sun disk, seated Maat and the ka arms.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "C10"
+            ]
+          ],
+          [
+            [
+              "D28"
+            ]
+          ]
+        ],
+        "mdc": "ra-mAat-kA"
+      },
+      "birth": {
+        "name": "Khnemet-Amun Hatshepsut",
+        "meaning": "Joined with Amun, foremost of noble women",
+        "look": "The Amun group, a jug, the front of a lion (hat, “foremost”) and a seated noble.",
+        "quads": [
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "W9",
+              "X1"
+            ],
+            [
+              "F4"
+            ]
+          ],
+          [
+            [
+              "X1"
+            ]
+          ],
+          [
+            [
+              "A51"
+            ]
+          ]
+        ],
+        "mdc": "i-mn:n-W9*t:F4-:t-A51"
+      },
+      "spot": "On her standing obelisk and on the Red Chapel blocks in the Open Air Museum. Her names often end in the feminine t.",
+      "citations": [
+        {
+          "sourceId": "dk-hatshepsut-obelisks",
+          "locator": "Obelisks"
+        },
+        {
+          "sourceId": "dk-red-chapel",
+          "locator": "Red Chapel"
+        },
+        {
+          "sourceId": "wikipedia-hatshepsut",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak",
+      "photos": [
+        {
+          "mediaId": "karnak-hatshepsut-obelisk-cartouche",
+          "x": 27,
+          "y": 31,
+          "w": 46,
+          "h": 68,
+          "label": "Birth name on her obelisk"
+        }
+      ]
+    },
+    {
+      "id": "thutmose-iii",
+      "name": "Thutmose III",
+      "reign": "c. 1479–1425 BC",
+      "dynasty": "New Kingdom, 18th Dynasty",
+      "inHall": false,
+      "places": [
+        "akhmenu",
+        "central-bark-shrine",
+        "sacred-lake"
+      ],
+      "role": "Built the Akhmenu festival hall in the east of the temple and reworked the sanctuary. His throne name Menkheperre is one of the most common at Karnak.",
+      "throne": {
+        "name": "Menkheperre",
+        "meaning": "Enduring are the forms of Re",
+        "look": "Sun disk, game board and scarab: short and easy to spot.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ]
+          ]
+        ],
+        "mdc": "ra-mn-xpr"
+      },
+      "birth": {
+        "name": "Thutmose-neferkheperu",
+        "meaning": "Born of Thoth, beautiful of forms",
+        "look": "The ibis of Thoth, fox skins, heart-and-windpipe (nefer) and scarab.",
+        "quads": [
+          [
+            [
+              "G26"
+            ]
+          ],
+          [
+            [
+              "F31"
+            ]
+          ],
+          [
+            [
+              "F35"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ]
+          ]
+        ],
+        "mdc": "G26-ms-nfr-xpr"
+      },
+      "spot": "All over the Akhmenu and the central part of the temple.",
+      "citations": [
+        {
+          "sourceId": "digital-karnak-akhmenu",
+          "locator": "Akhmenu"
+        },
+        {
+          "sourceId": "wikipedia-thutmose-iii",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak",
+      "photos": [
+        {
+          "mediaId": "heraldic-pillar-thutmose-iii",
+          "x": 36,
+          "y": 84,
+          "w": 18,
+          "h": 16,
+          "label": "Cartouche on the heraldic pillar"
+        }
+      ]
+    },
+    {
+      "id": "thutmose-iv",
+      "name": "Thutmose IV",
+      "reign": "c. 1401–1391 BC",
+      "dynasty": "New Kingdom, 18th Dynasty",
+      "inHall": false,
+      "places": [
+        "thutmose-iv-peristyle"
+      ],
+      "role": "Built a painted pillared court for a jubilee setting. It was later dismantled; its pillars have been rebuilt in the Open Air Museum.",
+      "throne": {
+        "name": "Menkheperure",
+        "meaning": "Enduring are the manifestations of Re",
+        "look": "Like Thutmose III’s name, plus three plural strokes.",
+        "quads": [
+          [
+            [
+              "N5"
+            ],
+            [
+              "Y5"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ]
+          ],
+          [
+            [
+              "Z2"
+            ]
+          ]
+        ],
+        "mdc": "ra:mn-xpr-Z2"
+      },
+      "birth": {
+        "name": "Thutmose",
+        "meaning": "Born of Thoth",
+        "look": "The ibis of Thoth and the fox skins.",
+        "quads": [
+          [
+            [
+              "G26"
+            ]
+          ],
+          [
+            [
+              "F31"
+            ]
+          ],
+          [
+            [
+              "S29"
+            ]
+          ]
+        ],
+        "mdc": "G26-ms-s"
+      },
+      "spot": "On the painted pillars in the Open Air Museum. Count the strokes to tell him from Thutmose III.",
+      "citations": [
+        {
+          "sourceId": "dk-thutmose-iv-peristyle",
+          "locator": "Peristyle"
+        },
+        {
+          "sourceId": "wikipedia-thutmose-iv",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak"
+    },
+    {
+      "id": "amenhotep-iii",
+      "name": "Amenhotep III",
+      "reign": "c. 1391–1353 BC",
+      "dynasty": "New Kingdom, 18th Dynasty",
+      "inHall": true,
+      "places": [
+        "third-pylon"
+      ],
+      "role": "Built the Third Pylon, the eastern end of the Hypostyle Hall, filling its core with blocks from older monuments.",
+      "throne": {
+        "name": "Nebmaatre",
+        "meaning": "The lord of Maat is Re",
+        "look": "Sun disk, Maat and the basket (neb). Ramesses VI’s name begins with the same three signs.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "C10"
+            ]
+          ],
+          [
+            [
+              "V30"
+            ]
+          ]
+        ],
+        "mdc": "ra-mAat-nb"
+      },
+      "birth": {
+        "name": "Amenhotep-heqawaset",
+        "meaning": "Amun is satisfied, ruler of Thebes",
+        "look": "The Amun group, offering table, crook (ruler) and the sceptre of Thebes.",
+        "quads": [
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "R4"
+            ]
+          ],
+          [
+            [
+              "S38"
+            ]
+          ],
+          [
+            [
+              "R19"
+            ]
+          ]
+        ],
+        "mdc": "i-mn:n-R4-HqA-R19"
+      },
+      "spot": "On the Third Pylon at the east end of the Hall.",
+      "citations": [
+        {
+          "sourceId": "dk-third-pylon",
+          "locator": "Third Pylon"
+        },
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Third Pylon built by Amenhotep III"
+        },
+        {
+          "sourceId": "wikipedia-amenhotep-iii",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Names in the Hypostyle Hall"
+    },
+    {
+      "id": "akhenaten",
+      "name": "Akhenaten",
+      "reign": "c. 1353–1336 BC",
+      "dynasty": "New Kingdom, 18th Dynasty",
+      "inHall": false,
+      "places": [
+        "aten-temples"
+      ],
+      "role": "Began his reign as Amenhotep IV and built temples to the sun disk, the Aten, east of Karnak. They were pulled down after his death, and thousands of their small blocks (talatat) were reused, including in the foundations of the Hypostyle Hall.",
+      "throne": {
+        "name": "Neferkheperure-waenre",
+        "meaning": "Beautiful are the forms of Re, the unique one of Re",
+        "look": "Sun disk, nefer, scarab with plural strokes, a second sun disk.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "F35"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ]
+          ],
+          [
+            [
+              "Z3"
+            ]
+          ],
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "T21"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "ra-nfr-xpr-Z3-ra-wa:n"
+      },
+      "birth": {
+        "name": "Akhenaten",
+        "meaning": "Effective for the Aten",
+        "look": "The Aten’s name (reed leaf, bread, water, sun disk) and the crested ibis (akh).",
+        "quads": [
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "X1"
+            ],
+            [
+              "N35"
+            ],
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "G25"
+            ]
+          ],
+          [
+            [
+              "Aa1"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "i-t:n:ra-G25-x:n"
+      },
+      "spot": "On talatat blocks from his temples; his names were often hacked out.",
+      "citations": [
+        {
+          "sourceId": "dk-aten-temples",
+          "locator": "Aten temples"
+        },
+        {
+          "sourceId": "memphis-restoration",
+          "locator": "Talatat in the Hall foundations"
+        },
+        {
+          "sourceId": "wikipedia-akhenaten",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak"
+    },
+    {
+      "id": "horemheb",
+      "name": "Horemheb",
+      "reign": "c. 1319–1292 BC",
+      "dynasty": "New Kingdom, last king of the 18th Dynasty",
+      "inHall": true,
+      "places": [
+        "second-pylon"
+      ],
+      "role": "Built the Second Pylon, the gateway you walk through into the Hall.",
+      "throne": {
+        "name": "Djeserkheperure-setepenre",
+        "meaning": "Holy are the manifestations of Re, chosen of Re",
+        "look": "An arm with a wand (djeser), scarab with plural strokes, adze and water.",
+        "quads": [
+          [
+            [
+              "N5"
+            ],
+            [
+              "D45"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ],
+            [
+              "Z2"
+            ]
+          ],
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "U21"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "ra:Dsr-xpr:Z2-ra-stp:n"
+      },
+      "birth": {
+        "name": "Horemheb-meryamun",
+        "meaning": "Horus is in festival, beloved of Amun",
+        "look": "The Amun group and hoe, the falcon of Horus and the festival bowl.",
+        "quads": [
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "U6"
+            ]
+          ],
+          [
+            [
+              "G5"
+            ]
+          ],
+          [
+            [
+              "S3"
+            ]
+          ],
+          [
+            [
+              "Aa15"
+            ],
+            [
+              "W3"
+            ]
+          ]
+        ],
+        "mdc": "M17-Y5:N35-U6-G5-S3-Aa15:W3"
+      },
+      "spot": "On the Second Pylon gateway at the west end of the Hall.",
+      "citations": [
+        {
+          "sourceId": "dk-second-pylon",
+          "locator": "Second Pylon"
+        },
+        {
+          "sourceId": "wikipedia-horemheb",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "stops": [
+        "entrance"
+      ],
+      "inHallNote": "Names in the Hypostyle Hall"
+    },
     {
       "id": "ramesses-i",
       "name": "Ramesses I",
-      "reign": "c. 1295–1294 BC",
-      "dynasty": "19th Dynasty (founder)",
-      "role": "Father of Sety I, founder of the family. He reigned for only a short time; Sety honoured him in scenes on the west wall of the Hall, and his names appear in their texts.",
+      "reign": "c. 1292–1290 BC",
+      "dynasty": "New Kingdom, founder of the 19th Dynasty",
+      "inHall": true,
+      "places": [
+        "hypostyle-hall"
+      ],
+      "role": "Father of Sety I. He reigned for about two years. Sety honoured him in scenes on the west wall of the Hall, and his names appear in their texts.",
       "throne": {
         "name": "Menpehtyre",
         "meaning": "Enduring is the strength of Re",
-        "look": "Sun disk and game board, like Sety I’s name, but with leopard heads (pehty, “strength”) instead of Maat."
+        "look": "Sun disk and game board with leopard heads (pehty, “strength”).",
+        "quads": [
+          [
+            [
+              "N5"
+            ],
+            [
+              "Y5"
+            ]
+          ],
+          [
+            [
+              "F9"
+            ],
+            [
+              "X1",
+              "X1"
+            ]
+          ]
+        ],
+        "mdc": "ra:mn-F9:t*t"
       },
       "birth": {
         "name": "Ramessu",
         "meaning": "Re is the one who bore him",
-        "look": "Sun disk, three fox skins and folded cloth: the basic “Ramesses” spelling."
+        "look": "Sun disk, three fox skins, folded cloth: the basic Ramesses spelling.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "F31"
+            ]
+          ],
+          [
+            [
+              "S29"
+            ]
+          ],
+          [
+            [
+              "M23"
+            ]
+          ],
+          [
+            [
+              "G43"
+            ]
+          ]
+        ],
+        "mdc": "ra-ms-s-sw-w"
       },
-      "spot": "Look in scenes where Sety I honours a deceased king on the west wall.",
+      "spot": "In scenes where Sety I honours his late father on the west wall.",
       "citations": [
         {
           "sourceId": "oip142-fulltext",
@@ -29,63 +877,134 @@
         },
         {
           "sourceId": "memphis-interior",
-          "locator": "Sety I honoured Ramesses I on the west wall"
+          "locator": "Sety I honoured Ramesses I"
         },
         {
           "sourceId": "wikipedia-ramesses-i",
-          "locator": "Prenomen and nomen with sign codes"
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
         }
-      ]
+      ],
+      "inHallNote": "Names in the Hypostyle Hall"
     },
     {
       "id": "sety-i",
       "name": "Sety I",
       "reign": "c. 1294–1279 BC",
-      "dynasty": "19th Dynasty",
-      "role": "Builder of the Hall. All his carving inside it is in raised relief, mostly in the north half and on the clerestory. He died before the decoration was finished.",
+      "dynasty": "New Kingdom, 19th Dynasty",
+      "inHall": true,
+      "places": [
+        "hypostyle-hall",
+        "third-pylon"
+      ],
+      "role": "Builder of the Hall. All his carving inside it is in raised relief, mostly in the north half. He died before the decoration was finished.",
       "throne": {
         "name": "Menmaatre",
         "meaning": "Enduring is the Maat of Re",
-        "glyphs": [
-          "N5",
-          "C10",
-          "Y5"
+        "look": "Sun disk, seated Maat, game board: short and compact.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "C10"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ]
+          ]
         ],
-        "glyphsNote": "As written at stop 6: sun disk, seated Maat, game board.",
-        "look": "A short, compact group: sun disk on top, seated Maat, game board at the bottom."
+        "mdc": "ra-mAat-mn"
       },
       "birth": {
         "name": "Sety-merenptah",
         "meaning": "He of Seth, beloved of Ptah",
-        "look": "The name includes a small seated figure of the god Seth. It is often followed by “beloved of Ptah” or, in some texts, “beloved of Amun” (Sety-merenamun)."
+        "look": "Includes a small seated figure of the god Seth.",
+        "quads": [
+          [
+            [
+              "Q3"
+            ],
+            [
+              "X1"
+            ]
+          ],
+          [
+            [
+              "V28"
+            ]
+          ],
+          [
+            [
+              "C7"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "U6"
+            ]
+          ],
+          [
+            [
+              "M17",
+              "M17"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "p:t-H-C7-i-i-mr-i*i:n"
       },
       "spot": "His Menmaatre is the easiest royal name in the Hall to recognise. Try it at stop 6, marker 6.",
-      "photo": {
-        "mediaId": "hall-study-fc2a1d41",
-        "x": 39,
-        "y": 74,
-        "w": 13,
-        "h": 12
-      },
-      "stops": [
-        "four-jars"
-      ],
       "citations": [
         {
           "sourceId": "oip142-fulltext",
-          "locator": "Plate 48, p. 98; names of Sety I in the translations"
+          "locator": "Plate 48, p. 98; names of Sety I"
         },
         {
           "sourceId": "digital-karnak-hypostyle",
-          "locator": "Dates and decoration of Sety I"
-        },
-        {
-          "sourceId": "memphis-interior",
-          "locator": "Sety I’s raised relief"
+          "locator": "Dates and decoration"
         },
         {
           "sourceId": "wikipedia-seti-i",
-          "locator": "Prenomen and nomen with sign codes"
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "stops": [
+        "four-jars"
+      ],
+      "inHallNote": "Names in the Hypostyle Hall",
+      "photos": [
+        {
+          "mediaId": "hall-study-fc2a1d41",
+          "x": 39,
+          "y": 74,
+          "w": 13,
+          "h": 12,
+          "label": "Throne name, Menmaatre, at stop 6"
+        },
+        {
+          "mediaId": "hypostyle-reliefs-5c1c875e",
+          "x": 29,
+          "y": 34,
+          "w": 32,
+          "h": 18,
+          "label": "Birth name, painted on a roof fragment, with the seated Seth figure"
         }
       ]
     },
@@ -93,56 +1012,251 @@
       "id": "ramesses-ii",
       "name": "Ramesses II",
       "reign": "c. 1279–1213 BC",
-      "dynasty": "19th Dynasty",
+      "dynasty": "New Kingdom, 19th Dynasty",
+      "inHall": true,
+      "places": [
+        "hypostyle-hall"
+      ],
       "role": "Sety’s son. He finished the Hall, converted the south half to sunk relief, and put his names on the central columns and almost everywhere else, sometimes over his father’s.",
       "throne": {
         "name": "Usermaatre-setepenre",
         "meaning": "Strong is the Maat of Re, chosen of Re",
-        "glyphs": [
-          "N5",
-          "F12",
-          "C10",
-          "U21",
-          "N35",
-          "N5"
+        "look": "Sun disk, canine head (user), Maat, then adze and water with a second sun disk.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "F12"
+            ]
+          ],
+          [
+            [
+              "C10"
+            ]
+          ],
+          [
+            [
+              "N5",
+              "U21"
+            ],
+            [
+              "N35"
+            ]
+          ]
         ],
-        "glyphsNote": "As carved on the column in the photo: sun disk, user, Maat holding an ankh, adze, water, sun disk.",
-        "look": "Sun disk, the canine head on a staff (user), Maat, then the adze (setep) with water (n) and a second sun disk."
+        "mdc": "ra-wsr-mAat-ra*stp:n"
       },
       "birth": {
         "name": "Ramesses-meryamun",
         "meaning": "Re is the one who bore him, beloved of Amun",
-        "look": "Sun disk, three fox skins, folded cloths, plus the Amun group and the hoe (beloved)."
+        "look": "The Amun group, sun disk, fox skins and folded cloth.",
+        "quads": [
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ],
+            [
+              "N36"
+            ]
+          ],
+          [
+            [
+              "N5"
+            ],
+            [
+              "Z1"
+            ]
+          ],
+          [
+            [
+              "F31"
+            ]
+          ],
+          [
+            [
+              "S29"
+            ]
+          ],
+          [
+            [
+              "M23"
+            ]
+          ]
+        ],
+        "mdc": "i-mn:n:N36-ra:Z1-ms-s-sw"
       },
-      "early": "In his first year his names were shorter: Usermaatre alone, and Ramessu-meryamun. He settled on the final forms in his second year and had earlier cartouches in the south half recut.",
       "spot": "User + Maat + adze = Ramesses II. You will see it on the twelve central columns and on most of the south wall.",
-      "photo": {
-        "mediaId": "hall-study-97f47532",
-        "x": 20,
-        "y": 34,
-        "w": 58,
-        "h": 36
-      },
-      "stops": [
-        "four-jars",
-        "names"
-      ],
       "citations": [
         {
           "sourceId": "memphis-interior",
-          "locator": "Early and final cartouches; conversion to sunk relief"
+          "locator": "Early and final cartouches"
         },
         {
           "sourceId": "digital-karnak-hypostyle",
-          "locator": "Central columns; dates"
-        },
-        {
-          "sourceId": "oip142-fulltext",
-          "locator": "Names of Ramesses II in the translations"
+          "locator": "Central columns"
         },
         {
           "sourceId": "wikipedia-ramesses-ii",
-          "locator": "Prenomen and nomen with sign codes"
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "stops": [
+        "four-jars"
+      ],
+      "early": "In his first year his names were shorter: Usermaatre alone, and Ramessu-meryamun. He settled on the final forms in his second year and had earlier cartouches in the south half recut.",
+      "inHallNote": "Names in the Hypostyle Hall",
+      "photos": [
+        {
+          "mediaId": "hall-study-97f47532",
+          "x": 20,
+          "y": 34,
+          "w": 58,
+          "h": 36,
+          "label": "Throne name on a column"
+        },
+        {
+          "mediaId": "hall-ceiling-ramesses-ii-nomen",
+          "x": 2,
+          "y": 20,
+          "w": 75,
+          "h": 60,
+          "label": "Birth name painted on the Hall ceiling"
+        },
+        {
+          "mediaId": "karnak-column-rekhyt-cartouches",
+          "x": 17,
+          "y": 18,
+          "w": 27,
+          "h": 42,
+          "label": "Both names side by side"
+        }
+      ]
+    },
+    {
+      "id": "sety-ii",
+      "name": "Sety II",
+      "reign": "c. 1203–1197 BC",
+      "dynasty": "New Kingdom, 19th Dynasty",
+      "inHall": false,
+      "places": [
+        "sety-ii-shrine"
+      ],
+      "role": "Built a triple bark shrine for Amun, Mut and Khonsu in what is now the Great Court.",
+      "throne": {
+        "name": "Userkheperure-setepenre",
+        "meaning": "Powerful are the manifestations of Re, chosen of Re",
+        "look": "User, scarab with plural strokes, adze.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "F12"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ],
+            [
+              "Z2"
+            ]
+          ],
+          [
+            [
+              "N5"
+            ],
+            [
+              "U21"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "ra-wsr-xpr:Z2-ra:stp:n"
+      },
+      "birth": {
+        "name": "Sety-merenptah",
+        "meaning": "He of Seth, beloved of Ptah",
+        "look": "Like Sety I’s birth name, with the seated Seth figure.",
+        "quads": [
+          [
+            [
+              "Q3"
+            ],
+            [
+              "X1"
+            ]
+          ],
+          [
+            [
+              "V28"
+            ]
+          ],
+          [
+            [
+              "U6"
+            ]
+          ],
+          [
+            [
+              "C7"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "p:t-V28-U6-C7-i-i-n"
+      },
+      "spot": "On his bark shrine in the Great Court.",
+      "citations": [
+        {
+          "sourceId": "dk-sety-ii-shrine",
+          "locator": "Sety II shrine"
+        },
+        {
+          "sourceId": "wikipedia-seti-ii",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak",
+      "photos": [
+        {
+          "mediaId": "sety-ii-obelisk-base",
+          "x": 20,
+          "y": 44,
+          "w": 66,
+          "h": 26,
+          "label": "Cartouches on an obelisk base"
         }
       ]
     },
@@ -150,85 +1264,330 @@
       "id": "ramesses-iii",
       "name": "Ramesses III",
       "reign": "c. 1186–1155 BC",
-      "dynasty": "20th Dynasty",
-      "role": "Added inscriptions in a few places in the Hall, and built a small shrine against the outside of the north wall for visitors who came to pray to the Theban triad.",
+      "dynasty": "New Kingdom, 20th Dynasty",
+      "inHall": true,
+      "places": [
+        "ramesses-iii-temple",
+        "khonsu-temple",
+        "hypostyle-hall"
+      ],
+      "role": "Built a bark temple in the Great Court and began the Temple of Khonsu. In the Hall he added inscriptions and a small shrine for visitors against the outside of the north wall.",
       "throne": {
         "name": "Usermaatre-meryamun",
         "meaning": "Strong is the Maat of Re, beloved of Amun",
-        "look": "Starts like Ramesses II’s name, but ends with the Amun group and hoe (beloved of Amun) instead of the adze and sun disk."
+        "look": "Starts like Ramesses II’s name, but ends with the Amun group and hoe instead of the adze.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "F12"
+            ]
+          ],
+          [
+            [
+              "C10"
+            ]
+          ],
+          [
+            [
+              "N36"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "ra-wsr-mAat-N36-i-mn:n"
       },
       "birth": {
         "name": "Ramesses-heqaiunu",
         "meaning": "Re is the one who bore him, ruler of Heliopolis",
-        "look": "The Ramesses spelling followed by the crook (ruler)."
+        "look": "A seated sun god, fox skins and the crook (ruler).",
+        "quads": [
+          [
+            [
+              "C1"
+            ]
+          ],
+          [
+            [
+              "F31"
+            ]
+          ],
+          [
+            [
+              "O34"
+            ],
+            [
+              "O34"
+            ]
+          ],
+          [
+            [
+              "S38"
+            ]
+          ],
+          [
+            [
+              "N29"
+            ]
+          ],
+          [
+            [
+              "O28"
+            ]
+          ]
+        ],
+        "mdc": "C1-ms-z:z-HqA-q-iwn"
       },
       "spot": "If you see Usermaatre without the adze, check whether it is Ramesses III.",
       "citations": [
         {
           "sourceId": "ucl-ramesses-iii",
-          "locator": "Prenomen and nomen"
+          "locator": "Names"
         },
         {
           "sourceId": "memphis-marginal",
-          "locator": "Ramesses III shrine on the north wall"
+          "locator": "Shrine on the north wall"
         },
         {
-          "sourceId": "oip142-fulltext",
-          "locator": "Ramesses III marginal inscriptions"
+          "sourceId": "dk-ramesses-iii-temple",
+          "locator": "Bark temple"
         },
         {
           "sourceId": "wikipedia-ramesses-iii",
-          "locator": "Prenomen and nomen with sign codes"
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
         }
-      ]
+      ],
+      "inHallNote": "Names in the Hypostyle Hall"
     },
     {
       "id": "ramesses-iv",
       "name": "Ramesses IV",
-      "reign": "c. 1155–1149 BC",
-      "dynasty": "20th Dynasty",
-      "role": "Filled most of the 134 columns with friezes of his cartouches and extra scenes: his names appear thousands of times. He also put huge cartouches and Horus names at the bases of the central columns.",
+      "reign": "c. 1153–1147 BC",
+      "dynasty": "New Kingdom, 20th Dynasty",
+      "inHall": true,
+      "places": [
+        "hypostyle-hall"
+      ],
+      "role": "Filled most of the 134 columns with friezes of his cartouches and extra scenes. His names appear thousands of times. He also carved huge cartouches and Horus names at the bases of the central columns.",
       "throne": {
-        "name": "Usermaatre-setepenamun, later Heqamaatre-setepenamun",
-        "meaning": "Strong is the Maat of Re, chosen of Amun; later: Re is the ruler of Maat, chosen of Amun",
-        "look": "Look for the crook (heqa) next to Maat, and for “chosen of Amun”: the adze with the Amun group instead of a sun disk."
+        "name": "Heqamaatre-setepenamun",
+        "meaning": "Re is the ruler of Maat, chosen of Amun",
+        "look": "Sun disk, crook (heqa), feather of Maat, adze and the Amun group. Early in his reign: Usermaatre-setepenamun.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "S38"
+            ]
+          ],
+          [
+            [
+              "H6"
+            ]
+          ],
+          [
+            [
+              "U21"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "G7"
+            ]
+          ]
+        ],
+        "mdc": "M23:t-L2:t-<-N5-S38-H6-U21:N35-M17-Y5:N35-G7->"
       },
       "birth": {
         "name": "Ramesses-heqamaat-meryamun",
         "meaning": "Re is the one who bore him, ruler of Maat, beloved of Amun",
-        "look": "The Ramesses spelling with the crook and Maat."
+        "look": "Figures of Amun and Re, fox skins, the crook and Maat.",
+        "quads": [
+          [
+            [
+              "U6"
+            ]
+          ],
+          [
+            [
+              "C12"
+            ]
+          ],
+          [
+            [
+              "C2"
+            ]
+          ],
+          [
+            [
+              "F31"
+            ]
+          ],
+          [
+            [
+              "O34"
+            ],
+            [
+              "O34"
+            ]
+          ],
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "S38"
+            ]
+          ],
+          [
+            [
+              "C10"
+            ]
+          ]
+        ],
+        "mdc": "U6-C12-C2-F31-O34:O34-N5-S38-C10"
       },
       "spot": "Rows of identical small cartouches on the column shafts are usually his. He changed the spelling of his name and recut some of them.",
       "citations": [
         {
           "sourceId": "memphis-marginal",
-          "locator": "Ramesses IV’s cartouches on most columns"
+          "locator": "Cartouches on most columns"
         },
         {
           "sourceId": "hypostyle-project-columns",
           "locator": "Large cartouches at the base of the great columns"
         },
         {
-          "sourceId": "wikidata-ramesses-iv",
-          "locator": "Throne names"
+          "sourceId": "wikipedia-ramesses-iv",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
         }
-      ]
+      ],
+      "inHallNote": "Names in the Hypostyle Hall"
     },
     {
       "id": "ramesses-vi",
       "name": "Ramesses VI",
-      "reign": "c. 1145–1137 BC",
-      "dynasty": "20th Dynasty",
+      "reign": "c. 1143–1136 BC",
+      "dynasty": "New Kingdom, 20th Dynasty",
+      "inHall": true,
+      "places": [
+        "hypostyle-hall"
+      ],
       "role": "Took over some of Ramesses IV’s big cartouches at the bases of the central columns by carving his own names over them. Plaster hid the earlier names; where it has fallen, several names overlap.",
       "throne": {
         "name": "Nebmaatre-meryamun",
-        "meaning": "Re is the lord of Maat, beloved of Amun",
-        "look": "The basket (neb) next to Maat and the sun disk, with the Amun group and hoe."
+        "meaning": "The lord of Maat is Re, beloved of Amun",
+        "look": "Sun disk, a figure of Amun, Maat, hoe and basket.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "C12"
+            ]
+          ],
+          [
+            [
+              "C10"
+            ]
+          ],
+          [
+            [
+              "N36"
+            ],
+            [
+              "V30"
+            ]
+          ]
+        ],
+        "mdc": "M23:t-L2:t-<-N5 C12 C10 N36:V30->"
       },
       "birth": {
         "name": "Ramesses-Amunherkhepeshef-netjerheqaiunu",
         "meaning": "Re is the one who bore him, Amun is his strength, god and ruler of Heliopolis",
-        "look": "A long birth name; look for the Ramesses spelling at the start."
+        "look": "Sun disk, Amun figure, fox skins, god flag, crook and the column of Heliopolis.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "C12"
+            ]
+          ],
+          [
+            [
+              "F31"
+            ]
+          ],
+          [
+            [
+              "O34"
+            ],
+            [
+              "O34"
+            ]
+          ],
+          [
+            [
+              "R8"
+            ]
+          ],
+          [
+            [
+              "S38"
+            ]
+          ],
+          [
+            [
+              "O28"
+            ]
+          ]
+        ],
+        "mdc": "N5-C12-F31-O34:O34-R8-S38-O28"
       },
       "spot": "At the bases of the central columns, a cartouche with a confusing jumble of signs may hold two or three kings’ names at once.",
       "citations": [
@@ -238,31 +1597,101 @@
         },
         {
           "sourceId": "wikipedia-ramesses-vi",
-          "locator": "Prenomen"
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
         }
-      ]
+      ],
+      "inHallNote": "Names in the Hypostyle Hall"
     },
     {
       "id": "herihor",
       "name": "Herihor",
       "reign": "c. 1080 BC",
       "dynasty": "End of the 20th Dynasty",
-      "role": "High Priest of Amun at Karnak who took royal titles in the temple. He added bands of text low down on walls and columns, connecting himself with Sety I and Ramesses II.",
+      "inHall": true,
+      "places": [
+        "hypostyle-hall"
+      ],
+      "role": "High Priest of Amun at Karnak who took royal titles in the temple. He added bands of text low down on walls and columns, linking himself with Sety I and Ramesses II.",
       "throne": {
         "name": "First Priest of Amun",
-        "meaning": "His title as High Priest of Amun, written inside a cartouche",
-        "look": "A cartouche that holds a priest’s title (the flag “god” and the Amun group) instead of a normal throne name."
+        "meaning": "His priestly title, written inside a cartouche",
+        "look": "A cartouche that holds a priest’s title: the god flag, a club and a head (“first”), and the Amun group.",
+        "quads": [
+          [
+            [
+              "R8"
+            ]
+          ],
+          [
+            [
+              "U36"
+            ]
+          ],
+          [
+            [
+              "D1",
+              "Q3"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "R8-U36-D1*p:n-i-mn:n"
       },
       "birth": {
         "name": "Siamun-Herihor",
         "meaning": "Son of Amun, Horus is raised up",
-        "look": "The Amun group and the falcon of Horus."
+        "look": "The Amun group, the sky sign and the falcon of Horus.",
+        "quads": [
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "G17"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "N1"
+            ],
+            [
+              "H8",
+              "Z1"
+            ]
+          ],
+          [
+            [
+              "G5"
+            ]
+          ]
+        ],
+        "mdc": "i-m:n-N1:H8*Z1-G5"
       },
       "spot": "Low bands of text at the bottom of the walls; many are worn or lost.",
       "citations": [
         {
           "sourceId": "oip142-fulltext",
-          "locator": "Bandeau text of Herihor, translation"
+          "locator": "Bandeau text of Herihor"
         },
         {
           "sourceId": "memphis-marginal",
@@ -270,72 +1699,593 @@
         },
         {
           "sourceId": "wikipedia-herihor",
-          "locator": "Prenomen and nomen with sign codes"
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
         }
-      ]
-    },
-    {
-      "id": "horemheb",
-      "name": "Horemheb",
-      "reign": "c. 1321–1293 BC",
-      "dynasty": "18th Dynasty (last king)",
-      "role": "Built the Second Pylon, the gateway you walk through into the Hall.",
-      "throne": {
-        "name": "Djeserkheperure-setepenre",
-        "meaning": "Holy are the forms of Re, chosen of Re",
-        "look": "Look for the scarab beetle (kheper) with three plural strokes."
-      },
-      "birth": {
-        "name": "Horemheb-meryamun",
-        "meaning": "Horus is in festival, beloved of Amun",
-        "look": "The falcon (Horus) with the festival sign."
-      },
-      "spot": "On the Second Pylon gateway at the west end of the Hall.",
-      "stops": [
-        "entrance"
       ],
+      "inHallNote": "Names in the Hypostyle Hall"
+    },
+    {
+      "id": "shoshenq-i",
+      "name": "Shoshenq I",
+      "reign": "c. 943–922 BC",
+      "dynasty": "Third Intermediate Period, 22nd Dynasty",
+      "inHall": false,
+      "places": [
+        "bubastite-portal",
+        "great-court"
+      ],
+      "role": "A king of Libyan descent whose reliefs by the Bubastite Portal, in the Great Court, proclaim victories in Syria-Palestine.",
+      "throne": {
+        "name": "Hedjkheperre-setepenre",
+        "meaning": "Bright are the forms of Re, chosen of Re",
+        "look": "The white crown (hedj, “bright”), scarab and adze.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "S1"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ]
+          ],
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "U19"
+            ],
+            [
+              "N35"
+            ]
+          ]
+        ],
+        "mdc": "M23:t-L2:t-<-N5-S1-L1-N5-U19:N35->"
+      },
+      "birth": {
+        "name": "Shoshenq-meryamun",
+        "meaning": "Shoshenq, beloved of Amun",
+        "look": "The Amun group and hoe, then lotus pools and a hill (the sounds sh-sh-n-q).",
+        "quads": [
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Y5"
+            ],
+            [
+              "N35"
+            ],
+            [
+              "N36"
+            ]
+          ],
+          [
+            [
+              "M8"
+            ],
+            [
+              "M8"
+            ]
+          ],
+          [
+            [
+              "N35"
+            ],
+            [
+              "N29"
+            ]
+          ]
+        ],
+        "mdc": "G39-N5-<-M17-Y5:N35:N36-M8:M8-N35:N29->"
+      },
+      "spot": "Beside the Bubastite Portal. His name ring is followed by rows of captives holding foreign place names.",
       "citations": [
         {
-          "sourceId": "hypostyle-project-architecture",
-          "locator": "Horemheb built the Second Pylon"
+          "sourceId": "dk-bubastite-portal",
+          "locator": "Bubastite Portal"
         },
         {
-          "sourceId": "wikipedia-horemheb",
-          "locator": "Royal names"
+          "sourceId": "wikipedia-shoshenq-i",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak",
+      "photos": [
+        {
+          "mediaId": "karnak-shoshenq-relief",
+          "x": 40,
+          "y": 29,
+          "w": 30,
+          "h": 13,
+          "label": "Small cartouches at the top of the relief"
         }
       ]
     },
     {
-      "id": "amenhotep-iii",
-      "name": "Amenhotep III",
-      "reign": "c. 1390–1352 BC",
-      "dynasty": "18th Dynasty",
-      "role": "Built the Third Pylon, the eastern end of the Hall, two generations before the Hall itself.",
+      "id": "taharqo",
+      "name": "Taharqo",
+      "reign": "690–664 BC",
+      "dynasty": "Third Intermediate Period, 25th (Kushite) Dynasty",
+      "inHall": false,
+      "places": [
+        "taharqo-kiosk",
+        "khonsu-temple",
+        "sacred-lake"
+      ],
+      "role": "A king from Kush (in today’s Sudan). He built a huge kiosk with ten columns in the Great Court; one column still stands.",
       "throne": {
-        "name": "Nebmaatre",
-        "meaning": "The lord of Maat is Re",
-        "look": "Sun disk, Maat and the basket (neb). The same three signs begin Ramesses VI’s name, so check what follows."
+        "name": "Nefertemkhure",
+        "meaning": "Nefertem is his protector",
+        "look": "Sun disk, heart-and-windpipe (nefer) and a sledge (tem).",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "F35"
+            ]
+          ],
+          [
+            [
+              "U15"
+            ]
+          ],
+          [
+            [
+              "Aa1"
+            ]
+          ],
+          [
+            [
+              "G43"
+            ]
+          ]
+        ],
+        "mdc": "ra-nfr-U15-x-w"
       },
       "birth": {
-        "name": "Amenhotep-heqawaset",
-        "meaning": "Amun is satisfied, ruler of Thebes",
-        "look": "The Amun group with the offering table (hetep)."
+        "name": "Taharqo",
+        "meaning": "Taharqo (his Kushite name)",
+        "look": "Land sign, twisted wick (h), lion (rw) and hill (q): a foreign name spelled by sound.",
+        "quads": [
+          [
+            [
+              "N17"
+            ],
+            [
+              "O4"
+            ]
+          ],
+          [
+            [
+              "E23"
+            ],
+            [
+              "N29"
+            ]
+          ]
+        ],
+        "mdc": "N17:h-rw:q"
       },
-      "spot": "On the Third Pylon at the east end of the Hall.",
+      "spot": "In the Great Court around his standing column.",
       "citations": [
         {
-          "sourceId": "hypostyle-project-architecture",
-          "locator": "Amenhotep III built the Third Pylon"
+          "sourceId": "dk-taharqo-kiosk",
+          "locator": "Kiosk"
         },
         {
-          "sourceId": "memphis-royal-barks",
-          "locator": "Reign dates of Amenhotep III"
-        },
-        {
-          "sourceId": "wikipedia-amenhotep-iii",
-          "locator": "Royal names"
+          "sourceId": "wikipedia-taharqa",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
         }
-      ]
+      ],
+      "inHallNote": "Elsewhere at Karnak"
+    },
+    {
+      "id": "hakoris",
+      "name": "Hakoris",
+      "reign": "c. 392–379 BC",
+      "dynasty": "Late Period, 29th Dynasty",
+      "inHall": false,
+      "places": [
+        "hakoris-chapel"
+      ],
+      "role": "Built a small bark station near the temple entrance, where Amun’s bark could rest.",
+      "throne": {
+        "name": "Khnemmaatre",
+        "meaning": "Who embraces the Maat of Re",
+        "look": "Sun disk, a jug (khnem, “unite”) and Maat.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "W9"
+            ]
+          ],
+          [
+            [
+              "C10"
+            ]
+          ]
+        ],
+        "mdc": "M23:t-L2:t-<-ra-Xnm-C10->"
+      },
+      "birth": {
+        "name": "Hakor",
+        "meaning": "Hakor",
+        "look": "Spelled by sound: twisted wick (h), basket (k), mouth (r).",
+        "quads": [
+          [
+            [
+              "O4"
+            ]
+          ],
+          [
+            [
+              "V31"
+            ],
+            [
+              "D21"
+            ]
+          ]
+        ],
+        "mdc": "G39-N5-<-h-k:r->"
+      },
+      "spot": "On his bark station at the entrance to the temple.",
+      "citations": [
+        {
+          "sourceId": "dk-hakoris-chapel",
+          "locator": "Chapel of Hakoris"
+        },
+        {
+          "sourceId": "wikipedia-hakoris",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak"
+    },
+    {
+      "id": "nectanebo-i",
+      "name": "Nectanebo I",
+      "reign": "c. 379–361 BC",
+      "dynasty": "Late Period, 30th Dynasty",
+      "inHall": false,
+      "places": [
+        "first-pylon",
+        "great-court"
+      ],
+      "role": "One of the last native kings of Egypt. The unfinished First Pylon and the great mudbrick enclosure walls are linked with his building work.",
+      "throne": {
+        "name": "Kheperkare",
+        "meaning": "The ka of Re comes into being",
+        "look": "Sun disk, scarab and ka arms: the same throne name as Senusret I, 1,600 years earlier.",
+        "quads": [
+          [
+            [
+              "N5"
+            ]
+          ],
+          [
+            [
+              "L1"
+            ]
+          ],
+          [
+            [
+              "D28"
+            ]
+          ]
+        ],
+        "mdc": "N5-L1-D28"
+      },
+      "birth": {
+        "name": "Nakhtnebef",
+        "meaning": "Strong one of his lord",
+        "look": "A tree and sieve sign (nakht), an arm with a stick, and the basket (neb).",
+        "quads": [
+          [
+            [
+              "N35"
+            ],
+            [
+              "M3"
+            ]
+          ],
+          [
+            [
+              "Aa1",
+              "X1"
+            ],
+            [
+              "D40"
+            ]
+          ],
+          [
+            [
+              "V30"
+            ],
+            [
+              "I9"
+            ]
+          ]
+        ],
+        "mdc": "n:M3-Aa1*t:D40-V30:f"
+      },
+      "spot": "Around the entrance and the enclosure.",
+      "citations": [
+        {
+          "sourceId": "digital-karnak-first-pylon",
+          "locator": "First Pylon"
+        },
+        {
+          "sourceId": "dk-great-court",
+          "locator": "Great Court"
+        },
+        {
+          "sourceId": "wikipedia-nectanebo-i",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak"
+    },
+    {
+      "id": "philip-iii",
+      "name": "Philip III Arrhidaeus",
+      "reign": "323–317 BC",
+      "dynasty": "Macedonian Dynasty",
+      "inHall": false,
+      "places": [
+        "central-bark-shrine"
+      ],
+      "role": "Half-brother of Alexander the Great. Egyptian craftsmen rebuilt the granite bark shrine at the heart of the temple in his name.",
+      "throne": {
+        "name": "Setepenre-meryamun",
+        "meaning": "Chosen of Re, beloved of Amun",
+        "look": "A Greek king given an Egyptian throne name."
+      },
+      "birth": {
+        "name": "Philip",
+        "meaning": "Philippos, written in hieroglyphs",
+        "look": "Stool (p), recumbent lion for l, stool again (p), reed leaves (i) and s: a Greek name spelled by sound.",
+        "quads": [
+          [
+            [
+              "Q3"
+            ],
+            [
+              "E23"
+            ]
+          ],
+          [
+            [
+              "Q3"
+            ],
+            [
+              "Z7"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "Aa18"
+            ]
+          ]
+        ],
+        "mdc": "p:E23-p:Z7-i-i-Aa18"
+      },
+      "spot": "In the granite bark shrine at the centre of the temple. Look for the lion used for the sound l, a late invention for Greek names.",
+      "citations": [
+        {
+          "sourceId": "dk-central-bark-shrine",
+          "locator": "Bark shrine"
+        },
+        {
+          "sourceId": "wikipedia-philip-iii",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak"
+    },
+    {
+      "id": "ptolemy-viii",
+      "name": "Ptolemy VIII",
+      "reign": "c. 170–116 BC (with interruptions)",
+      "dynasty": "Ptolemaic Dynasty",
+      "inHall": false,
+      "places": [
+        "opet-temple"
+      ],
+      "role": "Decorated the Temple of Opet, with its raised sanctuary and crypts linked to Osiris.",
+      "throne": {
+        "name": "Iwaennetjerwyperwy-setepenptah-irymaatre-sekhemankhenamun",
+        "meaning": "Heir of the two gods who appear, chosen of Ptah, who does the Maat of Re, living image of Amun",
+        "look": "A very long Ptolemaic throne name: look for Ptah’s name (stool, bread, twisted wick) and the adze.",
+        "quads": [
+          [
+            [
+              "R8"
+            ]
+          ],
+          [
+            [
+              "N8"
+            ]
+          ],
+          [
+            [
+              "R8"
+            ]
+          ],
+          [
+            [
+              "F44"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "Q3"
+            ],
+            [
+              "X1"
+            ]
+          ],
+          [
+            [
+              "V28"
+            ]
+          ],
+          [
+            [
+              "U21"
+            ],
+            [
+              "N35"
+            ]
+          ],
+          [
+            [
+              "D4"
+            ],
+            [
+              "Aa11"
+            ]
+          ],
+          [
+            [
+              "C2"
+            ]
+          ],
+          [
+            [
+              "C12"
+            ]
+          ],
+          [
+            [
+              "S42"
+            ]
+          ],
+          [
+            [
+              "S34"
+            ]
+          ]
+        ],
+        "mdc": "nTr\\-N8-nTr-F44:n-p:t-H-stp:n-ir:Aa11-C2\\-C12-sxm-anx"
+      },
+      "birth": {
+        "name": "Ptolemy-ankhdjet-meryptah",
+        "meaning": "Ptolemy, living forever, beloved of Ptah",
+        "look": "Stool (p), bread (t), lasso (wa), lion (l), owl (m): Ptolemaios spelled by sound.",
+        "quads": [
+          [
+            [
+              "Q3"
+            ],
+            [
+              "X1"
+            ]
+          ],
+          [
+            [
+              "V4"
+            ]
+          ],
+          [
+            [
+              "E23"
+            ],
+            [
+              "Aa15"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "M17"
+            ]
+          ],
+          [
+            [
+              "S29"
+            ]
+          ],
+          [
+            [
+              "S34"
+            ]
+          ],
+          [
+            [
+              "I10",
+              "X1"
+            ],
+            [
+              "N17"
+            ]
+          ],
+          [
+            [
+              "Q3"
+            ],
+            [
+              "X1",
+              "V28"
+            ],
+            [
+              "N36"
+            ]
+          ]
+        ],
+        "mdc": "p:t-wA-l:M-i-i-s-anx-D*t:N17-p:t*H:N36"
+      },
+      "spot": "In the Temple of Opet. Late names like this are long and full of extra signs.",
+      "citations": [
+        {
+          "sourceId": "dk-opet-temple",
+          "locator": "Temple of Opet"
+        },
+        {
+          "sourceId": "wikipedia-ptolemy-viii",
+          "locator": "Infobox royal names, hieroglyph spelling and reign"
+        }
+      ],
+      "inHallNote": "Elsewhere at Karnak"
     }
   ]
 }

@@ -80,6 +80,334 @@
           "locator": "Plate 48, p. 98"
         }
       ]
+    },
+    {
+      "id": "royal-frieze",
+      "title": "Read a royal frieze",
+      "mediaId": "karnak-lintel-ramesses-ii-titles",
+      "steps": [
+        {
+          "x": 7,
+          "y": 30,
+          "label": "1",
+          "text": "Ankh: “life”. At the start of a royal name it means “may he live”."
+        },
+        {
+          "x": 16,
+          "y": 28,
+          "label": "2",
+          "text": "Sedge plant: nesu, King of Upper Egypt."
+        },
+        {
+          "x": 27,
+          "y": 28,
+          "label": "3",
+          "text": "Bee: bity, King of Lower Egypt. Sedge and bee: the title before the throne name."
+        },
+        {
+          "x": 43,
+          "y": 32,
+          "label": "4",
+          "text": "Sun disk: Re, written first inside the cartouche."
+        },
+        {
+          "x": 55,
+          "y": 30,
+          "label": "5",
+          "text": "User and Maat: “strong is the Maat (of Re)”."
+        },
+        {
+          "x": 66,
+          "y": 30,
+          "label": "6",
+          "text": "Adze, water and sun disk: setep-en-Re, “chosen of Re”."
+        },
+        {
+          "x": 82,
+          "y": 34,
+          "label": "7",
+          "text": "Cone of bread: di, “given”."
+        },
+        {
+          "x": 93,
+          "y": 34,
+          "label": "8",
+          "text": "Ankh: “life”. Cone and ankh together: “given life”."
+        }
+      ],
+      "answer": "“(Long) live the King of Upper and Lower Egypt, Usermaatre-setepenre, given life.” The throne name of Ramesses II, framed by two common formulas.",
+      "citations": [
+        {
+          "sourceId": "wikipedia-ramesses-ii",
+          "locator": "Throne name"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "“given life” after royal names"
+        }
+      ]
+    },
+    {
+      "id": "mirror-lintel",
+      "title": "One text, written twice in mirror image",
+      "mediaId": "karnak-lintel-mirrored-titles",
+      "steps": [
+        {
+          "x": 55,
+          "y": 35,
+          "label": "1",
+          "text": "The ankh in the middle of the top row. The texts on each side start from here and face away from it."
+        },
+        {
+          "x": 43,
+          "y": 35,
+          "label": "2",
+          "text": "Bee and sedge on the left side: “King of Upper and Lower Egypt”, facing left."
+        },
+        {
+          "x": 68,
+          "y": 35,
+          "label": "3",
+          "text": "The same title on the right side, facing right. Each half reads outwards, towards its own cartouche."
+        },
+        {
+          "x": 48,
+          "y": 70,
+          "label": "4",
+          "text": "Bottom row: a duck and sun disk, “son of Re”, on each side of a second ankh."
+        },
+        {
+          "x": 20,
+          "y": 70,
+          "label": "5",
+          "text": "The birth-name cartouche follows “son of Re”."
+        },
+        {
+          "x": 20,
+          "y": 37,
+          "label": "6",
+          "text": "The throne-name cartouche follows “King of Upper and Lower Egypt”."
+        }
+      ],
+      "answer": "The same royal titles and names, written twice so that they face out from the centre of the doorway. Egyptian could be written in either direction; here the symmetry suits the architecture.",
+      "citations": [
+        {
+          "sourceId": "ucl-art-script",
+          "locator": "Direction of writing"
+        }
+      ]
+    },
+    {
+      "id": "ramesses-birth-name",
+      "title": "Spell out Ramesses II’s birth name",
+      "mediaId": "hall-ceiling-ramesses-ii-nomen",
+      "steps": [
+        {
+          "x": 14,
+          "y": 45,
+          "label": "1",
+          "text": "Reed leaf: the sound i."
+        },
+        {
+          "x": 25,
+          "y": 30,
+          "label": "2",
+          "text": "Game board: mn. Reed leaf + game board + water = Imen, Amun."
+        },
+        {
+          "x": 25,
+          "y": 47,
+          "label": "3",
+          "text": "Water: n."
+        },
+        {
+          "x": 25,
+          "y": 64,
+          "label": "4",
+          "text": "Canal: mer, “beloved”. Amun is written first out of respect: “beloved of Amun”."
+        },
+        {
+          "x": 40,
+          "y": 30,
+          "label": "5",
+          "text": "Sun disk: Ra."
+        },
+        {
+          "x": 52,
+          "y": 47,
+          "label": "6",
+          "text": "Three fox skins: mes, “born”."
+        },
+        {
+          "x": 62,
+          "y": 47,
+          "label": "7",
+          "text": "Folded cloths and the last sign: s, su."
+        }
+      ],
+      "answer": "Meryamun Ra-mes-su: Ramesses-meryamun, “Re is the one who bore him, beloved of Amun”, the birth name of Ramesses II, painted on the ceiling of the Hall.",
+      "citations": [
+        {
+          "sourceId": "wikipedia-ramesses-ii",
+          "locator": "Birth name and spelling"
+        }
+      ]
+    },
+    {
+      "id": "all-the-people",
+      "title": "All the people adore the king",
+      "mediaId": "karnak-column-rekhyt-cartouches",
+      "steps": [
+        {
+          "x": 23,
+          "y": 40,
+          "label": "1",
+          "text": "Throne name of Ramesses II: sun disk at the top."
+        },
+        {
+          "x": 37,
+          "y": 42,
+          "label": "2",
+          "text": "Birth name of Ramesses II: look for the fox skins."
+        },
+        {
+          "x": 63,
+          "y": 32,
+          "label": "3",
+          "text": "A lapwing (rekhyt) with human arms raised: the common people."
+        },
+        {
+          "x": 49,
+          "y": 45,
+          "label": "4",
+          "text": "Star: dua, “adore”."
+        },
+        {
+          "x": 60,
+          "y": 66,
+          "label": "5",
+          "text": "Basket: neb, “all”."
+        }
+      ],
+      "answer": "“All the people adore” the king’s names. Columns in the Hall carry this design at their bases, telling ordinary visitors they were welcome to worship here.",
+      "citations": [
+        {
+          "sourceId": "memphis-small-columns",
+          "locator": "Rekhyt birds on neb signs worshipping the cartouches of Ramesses II"
+        },
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "G23, N14, V30"
+        }
+      ]
+    },
+    {
+      "id": "obelisk-name",
+      "title": "Whose name is on this obelisk?",
+      "mediaId": "karnak-hatshepsut-obelisk-cartouche",
+      "steps": [
+        {
+          "x": 37,
+          "y": 7,
+          "label": "1",
+          "text": "Sun disk."
+        },
+        {
+          "x": 55,
+          "y": 18,
+          "label": "2",
+          "text": "Duck: sa, “son”. Sun and duck: “son of Re”, so the birth name follows."
+        },
+        {
+          "x": 48,
+          "y": 45,
+          "label": "3",
+          "text": "Reed leaf, game board and water: Amun."
+        },
+        {
+          "x": 38,
+          "y": 62,
+          "label": "4",
+          "text": "The front of a lion: hat, “foremost”."
+        },
+        {
+          "x": 46,
+          "y": 80,
+          "label": "5",
+          "text": "A seated noble lady: the name is about a woman."
+        },
+        {
+          "x": 63,
+          "y": 87,
+          "label": "6",
+          "text": "Small loaf (t): the feminine ending."
+        }
+      ],
+      "answer": "Khnemet-Amun Hatshepsut, “joined with Amun, foremost of noble women”: the birth name of Hatshepsut, a woman who ruled as king. The feminine signs give her away.",
+      "citations": [
+        {
+          "sourceId": "wikipedia-hatshepsut",
+          "locator": "Birth name and spelling"
+        },
+        {
+          "sourceId": "dk-hatshepsut-obelisks",
+          "locator": "Obelisks"
+        }
+      ]
+    },
+    {
+      "id": "breath-of-life",
+      "title": "Find the gift of life",
+      "mediaId": "white-chapel-senusret-relief",
+      "steps": [
+        {
+          "x": 50,
+          "y": 41,
+          "label": "1",
+          "text": "An ankh held up to a face: giving the breath of life."
+        },
+        {
+          "x": 37,
+          "y": 22,
+          "label": "2",
+          "text": "Ankh in the text above."
+        },
+        {
+          "x": 45,
+          "y": 25,
+          "label": "3",
+          "text": "Cone of bread: di. With the ankh: “given life”."
+        },
+        {
+          "x": 20,
+          "y": 25,
+          "label": "4",
+          "text": "The White Crown of Upper Egypt."
+        },
+        {
+          "x": 62,
+          "y": 20,
+          "label": "5",
+          "text": "Two tall plumes: the crown of Amun."
+        },
+        {
+          "x": 95,
+          "y": 36,
+          "label": "6",
+          "text": "Owl: the sound m."
+        }
+      ],
+      "answer": "A scene on the White Chapel of Senusret I, the oldest building you can visit at Karnak. The ankh at the face and the words “given life” say the same thing twice: in picture and in writing.",
+      "citations": [
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "White Chapel"
+        },
+        {
+          "sourceId": "wiki-gardiner",
+          "locator": "S34, X8, S1, G17"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,264 @@
+{
+  "id": "alphabet",
+  "language": "en",
+  "updated": "2026-11-14",
+  "status": "needs_source_check",
+  "intro": "Hieroglyphs are not an alphabet, but about 25 signs stand for a single consonant each. Scribes used them to spell sounds, to help read longer signs, and to write foreign names. Vowels were not written: Egyptologists add an “e” between consonants so the words can be spoken.",
+  "letters": [
+    {
+      "code": "G1",
+      "translit": "ꜣ",
+      "sound": "a glottal stop, like the break in “uh-oh”",
+      "say": "a",
+      "object": "Egyptian vulture",
+      "note": ""
+    },
+    {
+      "code": "M17",
+      "translit": "i",
+      "sound": "i or y",
+      "say": "i",
+      "object": "flowering reed",
+      "note": ""
+    },
+    {
+      "code": "M17-M17",
+      "translit": "y",
+      "sound": "y",
+      "say": "y",
+      "object": "two reeds",
+      "note": "Also written with two strokes."
+    },
+    {
+      "code": "D36",
+      "translit": "ꜥ",
+      "sound": "a deep “a” from the throat",
+      "say": "a",
+      "object": "forearm",
+      "note": ""
+    },
+    {
+      "code": "G43",
+      "translit": "w",
+      "sound": "w or u",
+      "say": "w / u",
+      "object": "quail chick",
+      "note": "Often replaced by a small coil (Z7)."
+    },
+    {
+      "code": "D58",
+      "translit": "b",
+      "sound": "b",
+      "say": "b",
+      "object": "foot",
+      "note": ""
+    },
+    {
+      "code": "Q3",
+      "translit": "p",
+      "sound": "p",
+      "say": "p",
+      "object": "stool",
+      "note": ""
+    },
+    {
+      "code": "I9",
+      "translit": "f",
+      "sound": "f",
+      "say": "f",
+      "object": "horned viper",
+      "note": ""
+    },
+    {
+      "code": "G17",
+      "translit": "m",
+      "sound": "m",
+      "say": "m",
+      "object": "owl",
+      "note": ""
+    },
+    {
+      "code": "N35",
+      "translit": "n",
+      "sound": "n",
+      "say": "n",
+      "object": "ripple of water",
+      "note": ""
+    },
+    {
+      "code": "D21",
+      "translit": "r",
+      "sound": "r",
+      "say": "r",
+      "object": "mouth",
+      "note": ""
+    },
+    {
+      "code": "O4",
+      "translit": "h",
+      "sound": "h",
+      "say": "h",
+      "object": "reed shelter",
+      "note": ""
+    },
+    {
+      "code": "V28",
+      "translit": "ḥ",
+      "sound": "an emphatic h",
+      "say": "h",
+      "object": "twisted wick of flax",
+      "note": ""
+    },
+    {
+      "code": "Aa1",
+      "translit": "ḫ",
+      "sound": "kh, as in Scottish “loch”",
+      "say": "kh",
+      "object": "sieve or placenta",
+      "note": ""
+    },
+    {
+      "code": "F32",
+      "translit": "ẖ",
+      "sound": "a softer kh, as in German “ich”",
+      "say": "kh",
+      "object": "animal belly with udder",
+      "note": ""
+    },
+    {
+      "code": "O34",
+      "translit": "s (z)",
+      "sound": "s (originally z)",
+      "say": "s / z",
+      "object": "door bolt",
+      "note": ""
+    },
+    {
+      "code": "S29",
+      "translit": "s",
+      "sound": "s",
+      "say": "s",
+      "object": "folded cloth",
+      "note": ""
+    },
+    {
+      "code": "N37",
+      "translit": "š",
+      "sound": "sh",
+      "say": "sh",
+      "object": "pool",
+      "note": ""
+    },
+    {
+      "code": "N29",
+      "translit": "q (ḳ)",
+      "sound": "a k made further back, like q",
+      "say": "q",
+      "object": "sandy hill slope",
+      "note": ""
+    },
+    {
+      "code": "V31",
+      "translit": "k",
+      "sound": "k",
+      "say": "k",
+      "object": "basket with handle",
+      "note": ""
+    },
+    {
+      "code": "W11",
+      "translit": "g",
+      "sound": "g, as in “go”",
+      "say": "g",
+      "object": "jar stand",
+      "note": ""
+    },
+    {
+      "code": "X1",
+      "translit": "t",
+      "sound": "t",
+      "say": "t",
+      "object": "loaf of bread",
+      "note": ""
+    },
+    {
+      "code": "V13",
+      "translit": "ṯ",
+      "sound": "tj, close to “ch” in “church”",
+      "say": "tj / ch",
+      "object": "tethering rope",
+      "note": ""
+    },
+    {
+      "code": "D46",
+      "translit": "d",
+      "sound": "d",
+      "say": "d",
+      "object": "hand",
+      "note": ""
+    },
+    {
+      "code": "I10",
+      "translit": "ḏ",
+      "sound": "dj, close to “j” in “jam”",
+      "say": "dj / j",
+      "object": "cobra",
+      "note": ""
+    }
+  ],
+  "extra": [
+    {
+      "code": "E23",
+      "translit": "rw / l",
+      "sound": "used for l in Greek names",
+      "say": "l",
+      "object": "recumbent lion",
+      "note": "Egyptian had no separate l. Scribes used the lion for l in names like Philippos and Ptolemaios, which you can see at Karnak."
+    }
+  ],
+  "nameTool": {
+    "note": "This is a modern game, not ancient practice: Egyptians did not write vowels, and English sounds do not all have Egyptian equivalents. Scribes used similar tricks to write foreign names in hieroglyphs.",
+    "map": {
+      "a": "G1",
+      "b": "D58",
+      "c": "V31",
+      "d": "D46",
+      "e": "M17",
+      "f": "I9",
+      "g": "W11",
+      "h": "O4",
+      "i": "M17",
+      "j": "I10",
+      "k": "V31",
+      "l": "E23",
+      "m": "G17",
+      "n": "N35",
+      "o": "G43",
+      "p": "Q3",
+      "q": "N29",
+      "r": "D21",
+      "s": "S29",
+      "t": "X1",
+      "u": "G43",
+      "v": "I9",
+      "w": "G43",
+      "x": "V31-S29",
+      "y": "M17-M17",
+      "z": "O34",
+      "ch": "V13",
+      "sh": "N37",
+      "kh": "Aa1",
+      "th": "V13"
+    }
+  },
+  "citations": [
+    {
+      "sourceId": "wiki-gardiner",
+      "locator": "Uniliteral signs and their sound values"
+    },
+    {
+      "sourceId": "wikipedia-philip-iii",
+      "locator": "Philippos written with the lion for l"
+    }
+  ]
+}

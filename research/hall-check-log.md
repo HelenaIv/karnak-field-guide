@@ -69,3 +69,18 @@ Files: `content/reading/` (signs, names, phrases, scene rules, practice).
 Open: specialist read-through of sign explanations; more photo examples for signs without one (was, djed, rekhyt, Ramesses IV/VI cartouches); a printed spelling for each king once matched to a Hall photograph.
 
 Font: Noto Sans Egyptian Hieroglyphs, SIL Open Font License 1.1, bundled in `assets/fonts/` with its licence for offline use.
+
+## Read the walls, round 2 (checked 2026-11-14)
+
+| What | How it was checked | Status |
+|---|---|---|
+| 23 kings with both names drawn as cartouches | Spellings taken from Wikipedia infobox hieroglyph markup and converted to Gardiner codes with the WikiHiero phoneme table; every code validated against the Unicode hieroglyph names. No sign typed by hand. Philip III’s throne name has no published spelling in the source, so only his birth name is drawn | checked |
+| Kings’ roles at Karnak | Existing repository place records (Digital Karnak), Memphis pages, OIP 142 | checked |
+| Reign dates | Wikipedia infoboxes (various chronologies); approximate | checked (approximate) |
+| 29 new signs (ka, ba, akh, heart, crowns, flail, sema-tawy, sistrum, Amun figure, Thoth, Seth, Anubis, papyrus, sky, star, horizon, foreign land, city, house, mansion, arm, hand, eye, praise, incense, lotus) | Codes and meanings matched against the Gardiner sign list | checked |
+| Alphabet: 25 one-consonant signs and the lion used for l | Matched against the Gardiner sign list values; lion for l confirmed in Philip III’s and Ptolemy VIII’s spellings | checked |
+| 11 new photos (Hatshepsut obelisk, Ramesses II frieze and ceiling, rekhyt column, mirrored lintel, White Chapel relief and Heh, Thutmose III heraldic pillar, Sety II obelisk base, Shoshenq I relief, bee) | Commons licence and description recorded; Karnak location from description or Commons categories; photos viewed before use | checked |
+| Practice markers on 8 photos | Placed by eye on a 10% grid and checked in screenshots | checked |
+| Column decoration diagrams | Original schematics from the Memphis descriptions of the great and smaller columns; simplified, not a survey | checked against text |
+
+Duplicate avoided: “Alig cartouches karnak.jpg” is the same file as `hypostyle-reliefs-5c1c875e`; the existing record is used.
