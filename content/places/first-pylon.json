@@ -1,0 +1,39 @@
+{
+  "id": "first-pylon",
+  "type": "place",
+  "title": "First Pylon",
+  "area": "western-entrance",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "summary": "Karnak’s monumental western entrance is unfinished, preserving evidence of how enormous temple gateways were built.",
+  "orientation": "The modern western entrance to the Amun precinct; the Great Court lies to its east.",
+  "periods": [
+    {
+      "ruler": "Nectanebo I",
+      "date": "Fourth century BCE",
+      "role": "Initiated the monumental pylon and precinct enclosure; completion was not achieved."
+    }
+  ],
+  "architecture": [
+    "A massive twin-tower gateway, historically intended to frame entry into the precinct.",
+    "Its unfinished state and surviving mudbrick ramp remains expose aspects of construction that finished pylons usually conceal."
+  ],
+  "lookFor": [
+    "Unfinished masonry at the pylon towers.",
+    "Remains of mudbrick construction ramps on the inner (court) side."
+  ],
+  "interpretation": "Karnak was not built once under a single pharaoh: the entrance encountered today belongs to a relatively late phase in an older sacred complex.",
+  "caveats": [
+    "Source descriptions do not establish current public proximity to the ramp remains.",
+    "The gateway and the pylon towers have distinct construction histories; avoid assigning every surviving element to Nectanebo I."
+  ],
+  "details": [
+    "first-pylon-construction-ramps"
+  ],
+  "sources": [
+    "digital-karnak-first-pylon",
+    "digital-karnak-architecture"
+  ]
+}
