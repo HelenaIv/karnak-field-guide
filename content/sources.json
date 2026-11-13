@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "accessed": "2026-11-13",
+  "sources": [
+    {
+      "id": "digital-karnak-architecture",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Architectural Features",
+      "publisher": "Digital Karnak, UCSC",
+      "url": "https://digitalkarnak.ucsc.edu/architectural-features/",
+      "kind": "institutional research and teaching"
+    },
+    {
+      "id": "digital-karnak-first-pylon",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "1st Pylon",
+      "publisher": "Digital Karnak, UCSC",
+      "url": "https://digitalkarnak.ucsc.edu/1st-pylon/",
+      "kind": "monument documentation"
+    },
+    {
+      "id": "digital-karnak-hypostyle",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Hypostyle Hall",
+      "publisher": "Digital Karnak, UCSC",
+      "url": "https://digitalkarnak.ucsc.edu/hypostyle-hall/",
+      "kind": "monument documentation"
+    },
+    {
+      "id": "digital-karnak-akhmenu",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Akhmenu",
+      "publisher": "Digital Karnak, UCSC",
+      "url": "https://digitalkarnak.ucsc.edu/akhmenu/",
+      "kind": "monument documentation"
+    },
+    {
+      "id": "hypostyle-project-overview",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "Welcome to the Great Hypostyle Hall of the Temple of Karnak",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/welcome/",
+      "kind": "research project"
+    },
+    {
+      "id": "hypostyle-project-architecture",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "About the Architecture",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/about-architecture/",
+      "kind": "architecture documentation"
+    },
+    {
+      "id": "hypostyle-project-columns",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "The Great Columns",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/great_columns.php",
+      "kind": "architectural observation"
+    },
+    {
+      "id": "hypostyle-project-2011",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "2011 Season Report",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/project/2011_seasonreport_web.php",
+      "kind": "fieldwork report"
+    },
+    {
+      "id": "oip-142",
+      "authors": [
+        "Peter J. Brand",
+        "Rosa Erika Feleg",
+        "William J. Murnane"
+      ],
+      "title": "The Great Hypostyle Hall in the Temple of Amun at Karnak",
+      "year": 2019,
+      "publisher": "Oriental Institute Publications 142, University of Chicago",
+      "doi": "10.83354/0tjs-9z57",
+      "url": "https://isac.uchicago.edu/research/publications/oip/oip-142-great-hypostyle-hall-temple-amun-karnak",
+      "kind": "epigraphic edition",
+      "note": "Authoritative wall- and plate-organized translation, commentary and documentation; individual passages must be checked before quotation."
+    }
+  ]
+}
