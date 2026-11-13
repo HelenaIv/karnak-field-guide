@@ -1223,6 +1223,30 @@
       "kind": "encyclopedia (secondary)",
       "consultation": "Read 2026-11-14: pylon mirrors the akhet (horizon) hieroglyph, two hills between which the sun rose and set; cites T. Wilkinson, Thames & Hudson Dictionary of Ancient Egypt (2005), p. 195.",
       "accessed": "2026-11-14"
+    },
+    {
+      "id": "wikipedia-karnak",
+      "title": "Karnak",
+      "url": "https://en.wikipedia.org/wiki/Karnak",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "encyclopedia (secondary)",
+      "consultation": "Read 2026-11-14: Fourth and Fifth Pylons (Thutmose I) as the earliest part still standing in situ; First Pylon and precinct enclosure walls built by Nectanebo I.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "heritagedaily-sacred-lake-2026",
+      "title": "Discovery of monumental sacred lake at Karnak",
+      "url": "https://www.heritagedaily.com/2026/01/discovery-of-monumental-sacred-lake-at-karnak/156860",
+      "authors": [
+        "HeritageDaily"
+      ],
+      "publisher": "HeritageDaily",
+      "kind": "archaeology news (secondary)",
+      "consultation": "Read 2026-11-14 for the general statement that temple sacred lakes represented Nun, the primordial waters, and served ritual purification. Replace with a specialist source when one is checked.",
+      "accessed": "2026-11-14"
     }
   ]
 }

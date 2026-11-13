@@ -4,7 +4,7 @@
   "status": "draft-checked",
   "title": "The temple as a model of the world",
   "eyebrow": "Why the temple looks the way it does",
-  "dek": "An Egyptian temple was a house for a god. It was also a model of the world at the moment it was created. Once you know the story, the gateways, the column forest and the dark rooms at the back start to make sense.",
+  "dek": "An Egyptian temple was a house for a god. It was also a model of the world at the moment it was created. Once you know the story, the gateways, courts, column halls and dark inner rooms of Karnak start to make sense.",
   "creation": {
     "heading": "The story the building retells",
     "intro": "Egyptian priests told several creation stories. The one that explains temple design best goes like this. Step through it.",
@@ -31,7 +31,10 @@
       }
     ],
     "citations": [
-      { "sourceId": "memphis-model-universe", "locator": "Creation from Nun; Atum; the mound of the First Event; Shu, Tefnut, Geb and Nut" }
+      {
+        "sourceId": "memphis-model-universe",
+        "locator": "Creation from Nun; Atum; the mound of the First Event; Shu, Tefnut, Geb and Nut"
+      }
     ]
   },
   "temple": {
@@ -41,7 +44,7 @@
       {
         "zone": "pylon",
         "label": "The gateway",
-        "text": "Two massive towers with a door between them: the [[pylon]]. Its shape echoes the hieroglyph [[akhet]], “horizon”: two hills with the sun appearing between them. You enter the god’s world through the horizon."
+        "text": "Two massive towers with a door between them: the [[pylon]]. It stands for the horizon, the edge of the world, where the sun appears each morning. You enter the god’s world through it."
       },
       {
         "zone": "court",
@@ -51,7 +54,7 @@
       {
         "zone": "hall",
         "label": "The hypostyle hall",
-        "text": "A roof again, carried on columns shaped like papyrus plants. Light comes only through the high stone window grilles of the [[clerestory]]. In the model, this [[hypostyle]] hall is the papyrus thicket that grew in the swampy ground at the edge of the first mound. The floor has risen a little; the ceiling has come down."
+        "text": "A roof again, carried on columns shaped like papyrus plants. Light comes only through high stone window grilles (the [[clerestory]]). In the model, a [[hypostyle]] hall is the papyrus thicket that grew in the swampy ground at the edge of the first mound. The floor has risen a little; the ceiling has come down."
       },
       {
         "zone": "sanctuary",
@@ -61,59 +64,251 @@
     ],
     "summary": "So, walking inward, you climb, the ceiling comes down and the light fades. You are walking backwards in time, from the bright everyday world to the dark, wet first moment, when the god stood on dry land for the first time.",
     "citations": [
-      { "sourceId": "memphis-model-universe", "locator": "Temples as replicas of the early universe; rising floor, lowering ceiling, decreasing light; restricted access; hypostyle as papyrus thicket" },
-      { "sourceId": "wikipedia-pylon", "locator": "Egyptian architecture: pylon and the akhet hieroglyph (citing Wilkinson 2005, p. 195)" }
+      {
+        "sourceId": "memphis-model-universe",
+        "locator": "Temples as replicas of the early universe; rising floor, lowering ceiling, decreasing light; restricted access; hypostyle as papyrus thicket"
+      }
     ]
   },
-  "here": {
-    "heading": "Where you are standing: in the marsh",
-    "text": [
-      "In the Great Hypostyle Hall you are inside the papyrus thicket. That is why the columns are stone plants: shaft for stalk, capital for the flower head. The twelve tall columns of the central aisle end in open flowers; the 122 lower ones end in closed buds.",
-      "Imagine the Hall with its roof on. The ruin is bright today because most of the roof has fallen. Originally it was dim, with light falling from the clerestory grilles over the central aisle and fading into shade among the side columns: a marsh at dusk, between the sunlit court behind you and the dark sanctuary ahead."
-    ],
-    "look": [
-      { "text": "The papyrus capitals: open flowers in the centre, closed buds at the sides.", "stop": "columns" },
-      { "text": "The surviving stone window grilles high above the central aisle.", "stop": "roof" },
-      { "text": "The gateway at the east end of the central aisle. The holy rooms of the temple lie further east, beyond it.", "stop": "entrance" }
-    ],
-    "figures": [
-      { "mediaId": "hypostyle-a20dc2dd", "caption": "Stone papyrus: the open capitals of the central aisle. In the temple’s model of the world this hall is the marsh at the edge of the first mound." },
-      { "mediaId": "hypostyle-central-nave", "caption": "Looking east along the central aisle, the direction of the sanctuary. With the roof in place this space was dim, lit from the high windows above." }
-    ],
-    "citations": [
-      { "sourceId": "memphis-model-universe", "locator": "Hypostyle hall as papyrus thicket at the edge of the primeval mound" },
-      { "sourceId": "hypostyle-project-architecture", "locator": "Column count, heights and capitals" },
-      { "sourceId": "memphis-roof", "locator": "Clerestory windows and light" }
-    ]
-  },
-  "more": [
+  "drawingNote": "Original schematic drawings for this guide. They explain the idea and are not measured plans or sections of Karnak or of any one temple.",
+  "citations": [
     {
+      "sourceId": "memphis-model-universe",
+      "locator": "A Model of the Universe"
+    }
+  ],
+  "sections": [
+    {
+      "id": "horizon",
+      "heading": "The gateway is the horizon",
+      "drawing": "akhet",
+      "text": [
+        "Look at the hieroglyph [[akhet]], “horizon”: the sun sitting between two hills. It marks the place where the sun rises and sets.",
+        "Now look at a [[pylon]] from the front: two sloping towers with a lower doorway between them. It is the same outline, at the size of a building. So a temple gateway is more than a wall to keep people out. It is the horizon in stone, the place where the sun is reborn every morning, and every time you walk through one you cross the edge of the world."
+      ],
+      "citations": [
+        {
+          "sourceId": "wikipedia-pylon",
+          "locator": "Egyptian architecture: pylon and the akhet hieroglyph (citing Wilkinson 2005, p. 195)"
+        }
+      ]
+    },
+    {
+      "id": "who",
       "heading": "Who saw all this?",
-      "text": "Very few people. The dim, closed rooms at the back were meant to carry whoever entered back to the beginning of time, and that privilege was limited to the king and a small number of priests. Most Egyptians never saw the inside of the sanctuary. When they did come close to the god, it was usually at festivals, when the god’s statue was carried out in its portable boat shrine (a [[bark]]).",
+      "text": [
+        "Very few people. The dim, closed rooms at the back were meant to carry whoever entered back to the beginning of time, and that privilege belonged to the king and a small number of priests. Most Egyptians never saw the sanctuary.",
+        "When ordinary people did come close to the god, it was usually at festivals, when the statue was carried out of the temple in its portable boat shrine (a [[bark]])."
+      ],
       "citations": [
-        { "sourceId": "memphis-model-universe", "locator": "Restricted access to the holy of holies" },
-        { "sourceId": "memphis-festivals", "locator": "Festivals and processions" }
-      ]
-    },
-    {
-      "heading": "The gateway as horizon",
-      "text": "The hieroglyph [[akhet]] shows the sun sitting between two hills: the horizon, where the sun rises and sets. A [[pylon]], with its two sloping towers and the door between them, repeats that outline at the size of a building. So the gate is more than a wall to keep people out. It marks the edge of the world, the place where the sun is reborn each morning.",
-      "citations": [
-        { "sourceId": "wikipedia-pylon", "locator": "Egyptian architecture: pylon and the akhet hieroglyph (citing Wilkinson 2005, p. 195)" }
-      ]
-    },
-    {
-      "heading": "Karnak is not a textbook temple",
-      "text": "The drawings on this page show the general pattern. Karnak grew over many centuries: later kings added new gateways, courts and halls in front of the older parts. The Great Hypostyle Hall itself was built in the space between two gateways that already stood. So here the sequence of gate, court, hall and sanctuary is repeated and stretched, and you should not expect a neat step up or down at every doorway. The idea still holds: the further east you go along the main axis, the closer you get to the oldest and holiest part of the temple.",
-      "certainty": "interpretation",
-      "citations": [
-        { "sourceId": "digital-karnak-architecture", "locator": "Growth of the Amun temple along its axes" },
-        { "sourceId": "digital-karnak-hypostyle", "locator": "Hypostyle Hall between the Second and Third Pylons" }
+        {
+          "sourceId": "memphis-model-universe",
+          "locator": "Restricted access to the holy of holies"
+        },
+        {
+          "sourceId": "memphis-festivals",
+          "locator": "Festivals and processions"
+        }
       ]
     }
   ],
-  "drawingNote": "Original schematic drawings for this guide. They explain the idea and are not measured plans or sections of Karnak or of any one temple.",
-  "citations": [
-    { "sourceId": "memphis-model-universe", "locator": "A Model of the Universe" }
-  ]
+  "karnak": {
+    "heading": "Now find it at Karnak",
+    "text": [
+      "Karnak follows the pattern, but not tidily, because it was not built in one go. Senusret I built a limestone temple here in the 1900s BC. For more than 1,500 years after that, kings kept adding gateways, courts and halls in front of it, mostly on the west side, towards the Nile. The newest gateway ended up on the outside and the oldest shrine deep inside.",
+      "So at Karnak you walk into the past twice. In the model, you walk back to the first moment of the world. In the stonework, you walk back through the temple’s own history: roughly speaking, each gateway you pass is older than the one before."
+    ],
+    "figure": {
+      "mediaId": "karnak-aerial-from-south",
+      "caption": "Karnak from the air, looking north. The Nile is at the top left. The main line of the temple runs from the entrance on the left (west) to the oldest parts on the right (east). The numbers match the list below.",
+      "annotations": [
+        {
+          "x": 28.5,
+          "y": 43.5,
+          "label": "1"
+        },
+        {
+          "x": 36,
+          "y": 42.5,
+          "label": "2"
+        },
+        {
+          "x": 44,
+          "y": 48,
+          "label": "3"
+        },
+        {
+          "x": 54,
+          "y": 44.5,
+          "label": "4"
+        },
+        {
+          "x": 62.5,
+          "y": 49,
+          "label": "5"
+        },
+        {
+          "x": 72.5,
+          "y": 48.5,
+          "label": "6"
+        },
+        {
+          "x": 65,
+          "y": 59,
+          "label": "7"
+        },
+        {
+          "x": 43,
+          "y": 58,
+          "label": "8"
+        },
+        {
+          "x": 78,
+          "y": 82,
+          "label": "9"
+        }
+      ]
+    },
+    "parts": [
+      {
+        "label": "First Pylon",
+        "role": "The gateway: the horizon",
+        "mediaId": "karnak-first-pylon-front",
+        "link": "#entry/first-pylon",
+        "text": "The entrance you use today. It is the outermost gateway and the newest: begun under Nectanebo I in the 300s BC and never finished."
+      },
+      {
+        "label": "Great Court",
+        "role": "The open court: the everyday world",
+        "mediaId": "great-court-ramesses-temple",
+        "link": "#entry/great-court",
+        "text": "No roof, full sun. Rows of papyrus-bud columns line the north and south sides."
+      },
+      {
+        "label": "Great Hypostyle Hall",
+        "role": "The papyrus marsh",
+        "mediaId": "hypostyle-central-nave",
+        "link": "#hall",
+        "text": "134 stone papyrus plants: open flowers on the twelve tall columns of the central aisle, closed buds on the 122 others. The ruin is bright because the roof has fallen. With the roof on it was dim, lit from the high window grilles: a marsh at dusk, between the sunlit court and the dark sanctuary."
+      },
+      {
+        "label": "Third to Sixth Pylons",
+        "role": "Closing in",
+        "mediaId": "obelisks-2ef82a18",
+        "link": "#entry/fourth-pylon",
+        "text": "Four more gateways close together, with narrow halls and courts between them. The standing obelisks are here. The Fourth and Fifth Pylons, built by Thutmose I, are the oldest parts of the temple still standing in place."
+      },
+      {
+        "label": "Sanctuary and the “Middle Kingdom court”",
+        "role": "The first mound",
+        "link": "#entry/middle-kingdom-court",
+        "text": "The granite shrine in the centre was built in the name of Philip III Arrhidaeus for the god’s portable [[bark]]. Behind it is a wide, almost empty square. Senusret I’s temple stood there, with the shrine that held the statue of Amun-Ra: the heart of the cult. Hardly anything is left of it; the oldest and holiest place at Karnak is now open ground."
+      },
+      {
+        "label": "Akhmenu",
+        "role": "Beyond the textbook",
+        "mediaId": "akhmenu-71604540",
+        "link": "#entry/akhmenu",
+        "text": "The temple does not stop at the sanctuary. Thutmose III added a large festival hall behind it, and its layout echoed Senusret I’s old temple. The textbook pattern has no place for a building here. Karnak grew at both ends."
+      },
+      {
+        "label": "Sacred Lake",
+        "role": "The water before creation",
+        "mediaId": "karnak-sacred-lake",
+        "link": "#entry/sacred-lake",
+        "text": "Thutmose III records digging a lake here. Temple lakes stood for [[nun]], the water the world rose out of, and supplied water for the priests’ purification."
+      },
+      {
+        "label": "Southern gateways",
+        "role": "A second axis",
+        "mediaId": "karnak-eighth-pylon-south",
+        "link": "#entry/eighth-pylon",
+        "text": "A textbook temple has one line of gateways. Karnak has two: the Seventh to Tenth Pylons run south from the main temple. The photo shows the Eighth Pylon, built by Hatshepsut."
+      },
+      {
+        "label": "Enclosure wall",
+        "role": "The edge of the god’s world",
+        "text": "The huge mud-brick wall around the whole precinct, also built under Nectanebo I. Everything inside it belonged to the god."
+      }
+    ],
+    "closing": "As we add the other halls and temples of Karnak to this guide, each one will say where it sits in this model.",
+    "citations": [
+      {
+        "sourceId": "dk-middle-kingdom-court",
+        "locator": "Introduction; Phases of Construction: Senusret I (limestone temple, naos and cult statue of Amun-Ra)"
+      },
+      {
+        "sourceId": "sullivan-2010",
+        "locator": "Middle Kingdom temple; Akhmenu echoing its layout; growth of the temple"
+      },
+      {
+        "sourceId": "digital-karnak-first-pylon",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "dk-great-court",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "hypostyle-project-architecture",
+        "locator": "Column count, heights and capitals"
+      },
+      {
+        "sourceId": "memphis-roof",
+        "locator": "Clerestory windows and light"
+      },
+      {
+        "sourceId": "dk-fourth-pylon",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "dk-fifth-pylon",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "dk-sixth-pylon",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "dk-hatshepsut-obelisks",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "wikipedia-karnak",
+        "locator": "Fourth and Fifth Pylons as earliest part standing in situ; First Pylon and enclosure walls built by Nectanebo I"
+      },
+      {
+        "sourceId": "dk-central-bark-shrine",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "digital-karnak-akhmenu",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "dk-sacred-lake",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "heritagedaily-sacred-lake-2026",
+        "locator": "Sacred lakes as the primordial waters of Nun; purification"
+      },
+      {
+        "sourceId": "dk-seventh-pylon",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "dk-eighth-pylon",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "dk-tenth-pylon",
+        "locator": "Introduction"
+      },
+      {
+        "sourceId": "memphis-model-universe",
+        "locator": "Courts, hypostyle hall and sanctuary in the model"
+      }
+    ]
+  }
 }

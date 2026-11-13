@@ -129,15 +129,19 @@ function muBlock(kind, svg, steps, intro) {
 
 function universePage() {
   const f = muFeature(); if (!f) return '<div class="page-head"><h1>This page is not in this build.</h1></div>';
-  const c = f.creation, t = f.temple, h = f.here;
-  const stopLink = id => { const s = hallGuide()?.stops.find(x => x.id === id); return s ? ` <a class="mu-stop" href="#hall/${esc(s.id)}">Stop ${s.number} →</a>` : ''; };
+  const c = f.creation, t = f.temple, k = f.karnak;
+  const section = x => `<div class="mu-sec${x.drawing ? ' with-drawing' : ''}" id="mu-${esc(x.id)}"><div><h2>${esc(x.heading)}</h2>${x.text.map(p => `<p>${fmt(p)}</p>`).join('')}${sourcesBlock(x.citations)}</div>${x.drawing === 'akhet' ? `<figure class="mu-akhet">${akhetSvg()}<figcaption class="micro">Original drawing. The hieroglyph is sign N27 in the standard sign list.</figcaption></figure>` : ''}</div>`;
+  const part = (p, i) => { const m = p.mediaId && media[p.mediaId]; return `<article class="mu-part">${m ? `<button class="mu-part-img" data-zoom="${esc(m.id)}" aria-label="Enlarge image: ${esc(m.caption)}"><img src="${esc(m.webPath || m.path)}" alt="${esc(m.alt)}" ></button>` : '<div class="mu-part-img none">No photo yet</div>'}<div class="mu-part-body"><span class="mu-num">${i + 1}</span><h3>${esc(p.label)}</h3><p class="mu-role">${esc(p.role)}</p><p>${fmt(p.text)}</p>${p.link ? `<a class="mu-stop" href="${esc(p.link)}">${p.link === '#hall' ? 'Open the Hall guide' : 'More about this place'} →</a>` : ''}${m ? credit(m) : ''}</div></article>`; };
   return `<div class="page-head"><span class="eyebrow">${esc(f.eyebrow)}</span><h1>${esc(f.title)}</h1><p>${fmt(f.dek)}</p></div>
   <section class="section mu" style="padding-top:0">
     <h2>${esc(c.heading)}</h2>${muBlock('creation', creationSvg(), c.steps, c.intro)}${sourcesBlock(c.citations)}
     <h2>${esc(t.heading)}</h2>${muBlock('temple', templeSvg(), t.steps, t.intro)}
     <p class="mu-summary">${fmt(t.summary)}</p>${sourcesBlock(t.citations)}
-    <div class="mu-here"><div><h2>${esc(h.heading)}</h2>${h.text.map(p => `<p>${fmt(p)}</p>`).join('')}<h3>Look for</h3><ol class="look">${h.look.map(l => `<li>${fmt(l.text)}${stopLink(l.stop)}</li>`).join('')}</ol>${sourcesBlock(h.citations)}</div><div>${h.figures.map(x => hallFigure(x)).join('')}</div></div>
-    <div class="mu-more">${f.more.map(m => `<details class="more"><summary>${esc(m.heading)}</summary><p>${fmt(m.text)}</p>${m.heading.includes('horizon') ? `<div class="mu-akhet">${akhetSvg()}</div>` : ''}${m.certainty === 'interpretation' ? '<p class="micro">This is our summary of the evidence, not a statement from one source.</p>' : ''}${sourcesBlock(m.citations)}</details>`).join('')}</div>
+    ${(f.sections || []).map(section).join('')}
+    <div class="mu-karnak"><h2>${esc(k.heading)}</h2><div class="mu-prose">${k.text.map(p => `<p>${fmt(p)}</p>`).join('')}</div>
+    <div class="mu-aerial">${hallFigure(k.figure)}</div>
+    <div class="mu-parts">${k.parts.map(part).join('')}</div>
+    <p class="mu-summary">${fmt(k.closing)}</p>${sourcesBlock(k.citations)}</div>
     <p class="micro">${esc(f.drawingNote)}</p>
     <p><a class="primary" href="#hall">Back to the Hall guide <span>→</span></a></p>
   </section>`;
