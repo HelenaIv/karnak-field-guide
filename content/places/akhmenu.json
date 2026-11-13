@@ -1,0 +1,37 @@
+{
+  "id": "akhmenu",
+  "type": "place",
+  "title": "Akhmenu (Festival Hall of Thutmose III)",
+  "area": "eastern-temple",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check",
+    "needs_epigraphic_review"
+  ],
+  "summary": "Thutmose III’s large eastern temple extension offers a distinct architectural programme beyond the main west–east sequence of pylons.",
+  "orientation": "In the eastern part of Karnak, beyond the earlier Eighteenth Dynasty temple core.",
+  "periods": [
+    {
+      "ruler": "Thutmose III",
+      "date": "15th century BCE",
+      "role": "Original construction."
+    }
+  ],
+  "architecture": [
+    "A large rectangular complex with a principal southwestern entrance described by Digital Karnak.",
+    "The southwestern entrance led toward a sequence of nine small southern chambers and a northern vestibule."
+  ],
+  "lookFor": [
+    "Changes in circulation and enclosure relative to the western temple.",
+    "The hall’s distinctive architectural character; further room-by-room research is required."
+  ],
+  "interpretation": "The Akhmenu expresses a major phase of royal reorganisation of the temple's eastern end.",
+  "caveats": [
+    "Public access and visibility of particular chambers have not been confirmed.",
+    "The famous botanical reliefs and king list require separate location-specific entries and scholarly checking before inclusion as interpretive stops."
+  ],
+  "details": [],
+  "sources": [
+    "digital-karnak-akhmenu"
+  ]
+}
