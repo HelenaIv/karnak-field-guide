@@ -14,59 +14,25 @@
     {
       "id": "entrance",
       "number": 1,
-      "title": "Enter through the Second Pylon",
+      "title": "Entering the Hall from the west",
       "zone": "interior",
       "position": {
         "x": 112,
         "y": 410
       },
       "facing": "east",
-      "location": "West end of the central aisle, inside the Second Pylon.",
-      "stand": "Enter from the Great Court. Stop beyond the gateway without blocking it; face toward the Third Pylon.",
+      "location": "Just inside the Second Pylon gateway, at the west end of the central aisle.",
+      "stand": "Walk from the open court through the gateway of the [[pylon|Second Pylon]] and stop a few steps inside, in the central aisle. Face east, along the line of the tallest columns.",
       "look": [
-        "Identify the two rows of very tall columns. They mark the main west–east aisle.",
-        "Look through them toward the Third Pylon. This eastern boundary was already standing when the Hall was built.",
-        "Turn back once: the Second Pylon separates the Hall from the Great Court."
-      ],
-      "blocks": [
-        {
-          "heading": "Who built this space?",
-          "text": "Sety I, a king of Dynasty 19, constructed the Great Hypostyle Hall between two older pylons. Ramesses II completed and substantially changed its decoration. The Third Pylon belongs to Amenhotep III; the Second Pylon was begun under Horemheb. Construction of the room, carving of a scene and addition of a royal name can therefore have different dates.",
-          "certainty": "established",
-          "citations": [
-            {
-              "sourceId": "hypostyle-project-architecture",
-              "locator": "History and architectural description"
-            }
-          ]
-        },
-        {
-          "heading": "What was the room for?",
-          "text": "This is a roofed part of Amun-Re’s temple, on an important processional axis. The divine image could travel in a portable bark shrine. The repeated king-and-god rituals on the walls define what the king should accomplish for the gods; they are not a record of tourists or an unrestricted public congregation.",
-          "certainty": "interpretation",
-          "citations": [
-            {
-              "sourceId": "hall-function",
-              "locator": "Temple function and ritual interpretation"
-            }
-          ]
-        },
-        {
-          "heading": "Keep the sequence straight",
-          "text": "Amenhotep III and Horemheb belong to the later Eighteenth Dynasty; Sety I and Ramesses II to the Nineteenth. Later kings also inserted names and texts. A conspicuous cartouche identifies the ruler claimed by that inscription, not automatically the architect of the whole building.",
-          "certainty": "established",
-          "citations": [
-            {
-              "sourceId": "memphis-marginal",
-              "locator": "Later additions and royal names"
-            }
-          ]
-        }
+        "The two rows of very tall columns ahead of you: six on each side, lining the main aisle.",
+        "The shorter columns packed in on both sides. There are 122 of them, filling the north and south halves of the hall.",
+        "The squared stone beams ([[architrave|architraves]]) resting on top of the columns. They once carried a stone roof.",
+        "The gateway at the far end of the aisle. That is the Third Pylon, the eastern end of the hall."
       ],
       "figures": [
         {
           "mediaId": "hypostyle-central-nave",
-          "caption": "The central nave: use the two tall rows as your first orientation feature.",
+          "caption": "The central aisle, looking east. The two rows of tall columns are your first landmark.",
           "annotations": []
         }
       ],
@@ -74,14 +40,121 @@
       "citations": [
         {
           "sourceId": "hypostyle-project-architecture",
-          "locator": "History; 134-column arrangement"
+          "locator": "About the architecture"
         },
         {
-          "sourceId": "hall-function",
-          "locator": "Ritual function"
+          "sourceId": "digital-karnak-hypostyle",
+          "locator": "Hypostyle Hall"
+        },
+        {
+          "sourceId": "memphis-sacred-barks",
+          "locator": "Sacred barks"
+        },
+        {
+          "sourceId": "memphis-restoration",
+          "locator": "Early recording and restoration"
         }
       ],
-      "transition": "Continue a short distance along the central aisle, keeping its two tall rows in view."
+      "transition": "Walk a few steps east along the central aisle and stop beside the first pair of tall columns.",
+      "format": 2,
+      "story": [
+        {
+          "text": "This is the largest columned hall in any Egyptian temple. Its builder, Sety I (reigned about 1294–1279 BC), did not start on empty ground. He filled the open space between two gateways that were already standing: the [[pylon]] you just walked through, built by Horemheb, the last king of the 18th Dynasty, and the Third Pylon ahead of you, built by Amenhotep III two generations earlier. Sety joined the two with side walls and set up 134 columns inside.",
+          "citations": [
+            {
+              "sourceId": "hypostyle-project-architecture",
+              "locator": "Builders, pylons and number of columns"
+            },
+            {
+              "sourceId": "digital-karnak-hypostyle",
+              "locator": "Dates of Sety I and Ramesses II"
+            }
+          ]
+        },
+        {
+          "text": "Sety died before the decoration was finished. His son Ramesses II completed it and changed a good deal of what his father had carved, so you will see both kings’ names all over the hall. Later kings, including Ramesses IV, added their own names on the columns wherever they found space.",
+          "citations": [
+            {
+              "sourceId": "memphis-interior",
+              "locator": "Sety I’s death and Ramesses II’s changes"
+            },
+            {
+              "sourceId": "digital-karnak-hypostyle",
+              "locator": "Ramesses II and Ramesses IV on the central columns"
+            }
+          ]
+        },
+        {
+          "text": "Why build a hall here? It stood on the route of Thebes’ great festivals. On those days priests carried the statue of Amun out of his sanctuary inside a portable, boat-shaped shrine (a [[bark|sacred bark]]), followed by the barks of his wife Mut and their son Khonsu. Sety’s dedication texts on the beams of the central aisle describe the hall as a resting place where Amun could appear during his yearly festival. It was the god’s first stop on his way out of the temple.",
+          "citations": [
+            {
+              "sourceId": "memphis-sacred-barks",
+              "locator": "Bark processions and architrave dedication texts"
+            },
+            {
+              "sourceId": "memphis-festivals",
+              "locator": "Opet and Valley Festivals"
+            }
+          ]
+        },
+        {
+          "text": "With its roof in place the hall was dim even at midday. Light came in mainly through stone window grilles high above the central aisle (the [[clerestory]]). The bright, open space you see today is the result of the roof falling in.",
+          "citations": [
+            {
+              "sourceId": "hypostyle-project-architecture",
+              "locator": "Roof, clerestory and lighting"
+            }
+          ]
+        }
+      ],
+      "lookCloser": {
+        "heading": "Two kings on the central columns",
+        "text": "Look at the large name rings ([[cartouche|cartouches]]) on the twelve tall columns. Sety had left these columns undecorated; Ramesses II carved scenes and his names on them, right along the main entrance route. Later still, Ramesses IV added his own cartouches to the same columns, attaching himself to his famous predecessors.",
+        "citations": [
+          {
+            "sourceId": "digital-karnak-hypostyle",
+            "locator": "Decoration of the central line of columns"
+          }
+        ]
+      },
+      "more": [
+        {
+          "heading": "How the hall looked in 1838",
+          "text": "When the Scottish artist David Roberts painted the central aisle in 1838, the floor was still deep in debris and one column was leaning against its neighbour. Paint survived on the capitals. Clearing and repairs only began at the end of the 19th century.",
+          "mediaId": "hall-roberts-1838",
+          "citations": [
+            {
+              "sourceId": "memphis-restoration",
+              "locator": "Early recording and restoration"
+            },
+            {
+              "sourceId": "museo-egizio-19c",
+              "locator": "19th-century photographs of the hall before clearance"
+            }
+          ]
+        },
+        {
+          "heading": "The day eleven columns fell",
+          "text": "On 3 October 1899, eleven columns in the north half of the hall fell one after another; the crash was heard at Luxor Temple, a few kilometres away. The foundations were to blame. They had been built from thousands of small reused blocks ([[talatat]]) taken from dismantled monuments of Akhenaten, and salty groundwater was breaking them down. The French Egyptologist Georges Legrain rebuilt the fallen columns and put new foundations of fired brick under most of the others while they were still standing.",
+          "mediaId": "hall-legrain-1899",
+          "citations": [
+            {
+              "sourceId": "memphis-restoration",
+              "locator": "Collapse of 3 October 1899 and Legrain’s repairs"
+            }
+          ]
+        },
+        {
+          "heading": "How big is it?",
+          "text": "The twelve central columns are about 20 metres tall; the other 122 are about 14 metres. The University of Memphis project, which studies the hall, notes that almost all of Notre-Dame cathedral in Paris would fit inside.",
+          "citations": [
+            {
+              "sourceId": "hypostyle-project-architecture",
+              "locator": "Column heights and size comparison"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "columns",
@@ -439,107 +512,156 @@
     {
       "id": "four-jars",
       "number": 6,
-      "title": "Read the four-jar purification of Sety I",
+      "title": "Ramesses II purifies a statue of his father",
       "zone": "interior",
       "position": {
         "x": 260,
         "y": 666
       },
       "facing": "south",
-      "location": "South interior wall, west wing; B92, plate 48. Middle surviving register (“third”), third scene from the west.",
-      "stand": "Face south. Locate the two standing royal figures with four curved water streams between their heads. The scene reference identifies the surface; the map marker is approximate.",
+      "location": "South wall, inside, west of the south doorway. Middle row of scenes, third scene from the west end (scene B92 in the published record).",
+      "stand": "Go to the south wall, west of its central doorway, and face it (you are facing south, so west is on your right). In the middle surviving row of scenes ([[register]]), count three scenes in from the right-hand end.",
       "look": [
-        "Find Ramesses II at the left, holding the jars toward the figure on the right.",
-        "Count the four water streams. The repetition is part of the ritual, not several moments of a comic strip.",
-        "Find the loop-and-cross ankh held by Sety’s statue at the right.",
-        "Look beside Sety’s shoulder and rear leg for fitted stone repairs; distinguish these from the long block joints."
-      ],
-      "blocks": [
-        {
-          "heading": "Who is being purified?",
-          "text": "Ramesses II performs the rite for a statue of his deceased father, Sety I. The accompanying text describes going around four times with four nemset jars. Sety’s presence as the recipient does not mean he was alive when this panel was made. His name is connected with Osiris and the status of the justified dead.",
-          "certainty": "established",
-          "citations": [
-            {
-              "sourceId": "oip142-fulltext",
-              "locator": "Plate 48, B92, p. 98: subject and cols. 1–10"
-            }
-          ]
-        },
-        {
-          "heading": "What the water accomplishes",
-          "text": "The text links purification with renewed life and rejuvenation. This is an effective ritual image: the king sustains his father’s divine and funerary existence while presenting himself as the legitimate royal son. That political reading follows from the filial ritual and setting; it is not a separate caption carved beside the scene.",
-          "certainty": "interpretation",
-          "citations": [
-            {
-              "sourceId": "oip142-fulltext",
-              "locator": "Plate 48, p. 98: label and speech"
-            }
-          ]
-        },
-        {
-          "heading": "The ankh is a word as well as an attribute",
-          "text": "The loop, crossbar and descending stem form the ankh sign, conventionally transliterated ꜥnḫ, “life” or “to live”. In Sety’s hand it is an attribute of life, not a sentence to be sounded out like the labels above. The same shape can appear inside written blessings. Its exact physical origin is debated; this guide does not present “sandal strap” or another proposed origin as proven.",
-          "certainty": "established",
-          "citations": [
-            {
-              "sourceId": "memphis-interior",
-              "locator": "Deified Sety; ankh in the purification scene"
-            }
-          ]
-        },
-        {
-          "heading": "The surface has more than one history",
-          "text": "The panel was first raised relief and later converted to sunk relief. The edition records raised edges beside figures and signs, and parts never fully recut. Some vertical cuts belong to an abandoned earlier design. Small patch-stones mend irregular blocks. None of these features alone proves an attempt to destroy Sety’s image.",
-          "certainty": "established",
-          "citations": [
-            {
-              "sourceId": "oip142-fulltext",
-              "locator": "Plate 48, p. 98: relief and observations"
-            }
-          ]
-        }
+        "Ramesses II, standing on the left.",
+        "The four jars in his raised hands, and the curved streams of water arching over the head of the figure opposite.",
+        "His father, Sety I, standing on the right. He is shown as a statue receiving the ritual.",
+        "The [[ankh]], the sign of life, in Sety’s lowered hand.",
+        "A vulture with outspread wings flying above Ramesses, protecting him."
       ],
       "figures": [
         {
           "mediaId": "hall-study-fc2a1d41",
-          "caption": "B92 / plate 48. The numbers identify the performer, four streams, recipient and ankh.",
+          "caption": "Scene B92 on the south wall. Numbers match the list above.",
           "annotations": [
             {
-              "x": 16,
-              "y": 44,
+              "x": 20,
+              "y": 47,
               "label": "1"
             },
             {
-              "x": 48,
-              "y": 34,
+              "x": 38,
+              "y": 37,
               "label": "2"
             },
             {
-              "x": 69,
-              "y": 46,
+              "x": 64,
+              "y": 50,
               "label": "3"
             },
             {
               "x": 77,
-              "y": 64,
+              "y": 68,
               "label": "4"
+            },
+            {
+              "x": 22,
+              "y": 7,
+              "label": "5"
+            },
+            {
+              "x": 43,
+              "y": 79,
+              "label": "6"
             }
           ]
         }
       ],
-      "diagram": "ritual",
+      "diagram": null,
       "citations": [
         {
           "sourceId": "oip142-fulltext",
-          "locator": "Plate 48, p. 98"
+          "locator": "Plate 48 (B92), p. 98"
         },
         {
           "sourceId": "memphis-interior",
-          "locator": "Ramesses purifying the deified Sety"
+          "locator": "Interior wall scenes"
+        },
+        {
+          "sourceId": "memphis-south-plates",
+          "locator": "Plate list, south wall west half"
         }
       ],
-      "transition": "Stay with this same panel. Read the placement of its labels before attempting another scene."
+      "transition": "Stay at this scene for the next stop, which looks at how the labels around the figures are arranged.",
+      "format": 2,
+      "story": [
+        {
+          "text": "This is a son honouring his dead father. Ramesses II pours water over a statue of Sety I, and the caption says he walks around it four times with four jars of water ([[nemset-jar|nemset jars]]). Sety is not shown as a living king. The text calls him “Osiris King Menmaatre”: a dead king who has joined Osiris, god of the dead. The ankh in his hand marks him as divine.",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48 (B92), p. 98: subject, label and texts"
+            },
+            {
+              "sourceId": "memphis-interior",
+              "locator": "Ramesses II purifies his deified father; the ankh"
+            }
+          ]
+        },
+        {
+          "text": "The words carved beside Ramesses say what the water is for: “May you live, may you be made new, may you be rejuvenated!” Washing with pure water was a basic temple rite. Here it renews a king who has become a god.",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48, p. 98: speech of Ramesses II"
+            }
+          ]
+        },
+        {
+          "text": "Why put this on the wall? Ramesses’ family was new to the throne. The 19th Dynasty came from a line of army officers, and it had ruled for only about a decade when he became king. Showing himself caring for his deified father was a way of saying he was a king’s son, and so a rightful king. Sety had done the same for his own father, Ramesses I, on the west wall of this hall.",
+          "citations": [
+            {
+              "sourceId": "memphis-interior",
+              "locator": "Legitimacy of the Ramesside family"
+            }
+          ]
+        }
+      ],
+      "lookCloser": {
+        "heading": "A carving that was changed",
+        "text": "Look along the outlines. This scene was first carved in [[raised-relief|raised relief]] and later recut as [[sunk-relief|sunk relief]], like all the decoration in the south half of the hall. Leftover raised edges and fine lines still run around both figures and many of the signs, and the sculptors never recut the ceremonial tails hanging behind the two kings. Small patch stones fill gaps between badly fitting blocks at Sety’s shoulder and rear leg.",
+        "citations": [
+          {
+            "sourceId": "oip142-fulltext",
+            "locator": "Plate 48, p. 98: type of relief and observations"
+          },
+          {
+            "sourceId": "memphis-interior",
+            "locator": "Conversion of the south wing to sunk relief"
+          }
+        ]
+      },
+      "readIt": {
+        "heading": "Read Sety’s name",
+        "text": "Find the name ring low down between the two kings (marker 6). It holds Sety I’s throne name, Menmaatre, usually translated “Enduring is the Maat of Re”. Read it from the top: the sun disk is Re; the seated goddess with a feather on her head is [[maat|Maat]]; the board with pieces on it writes “men”, enduring. Re is written first out of respect for the god, even though his name is spoken last. Once you know this group, you can spot Sety’s name across the hall.",
+        "citations": [
+          {
+            "sourceId": "oip142-fulltext",
+            "locator": "Plate 48, p. 98: Sety’s throne name in the texts"
+          }
+        ]
+      },
+      "more": [
+        {
+          "heading": "An earlier plan for this wall",
+          "text": "A few long vertical cuts run through Ramesses’ waist and his name ring. They belong to an earlier design for this part of the wall that was abandoned. The edition suggests they may be the poles of standards carried in front of the king, as in nearby scenes where gods lead him into the temple.",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48, p. 98: observations on the earlier design"
+            }
+          ]
+        },
+        {
+          "heading": "Traces of paint",
+          "text": "Both kings still show traces of red paint on their skin, and the pattern of two bracelets can be made out on Sety’s rear arm, though their colours have faded.",
+          "citations": [
+            {
+              "sourceId": "oip142-fulltext",
+              "locator": "Plate 48, p. 98: paint"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "read-b92",

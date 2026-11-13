@@ -18,7 +18,7 @@ def check(test, message):
         errors.append(message)
 def load(path):
     try:
-        return json.loads(path.read_text())
+        return json.loads(path.read_text(encoding='utf-8'))
     except (ValueError, OSError) as exc:
         errors.append(f'{path.relative_to(ROOT)}: {exc}')
         return {}
@@ -107,10 +107,66 @@ def validate():
             for field in ['creator', 'sourcePage', 'license', 'licenseUrl', 'attribution', 'retrieved']:
                 check(bool(m.get(field)), f'{m["id"]}: missing {field}')
             refs(m.get('placeIds', []), 'place', m['id'])
+    guides = sorted((ROOT / 'content/guides').glob('*.json'))
+    media_ids = {m.get('id') for m in load(media_file).get('media', [])} if media_file.exists() else set()
+    zones = {'interior', 'north-exterior', 'south-exterior'}
+    facings = {'north', 'south', 'east', 'west'}
+    diagrams = {'context', 'section', 'roof', 'relief', 'names', 'ritual', 'grammar', 'purification', 'bark', 'recut', 'registers', 'geography', 'campaigns', 'palimpsest'}
+    stop_count = 0
+    glossary = load(ROOT / 'content/glossary.json') if (ROOT / 'content/glossary.json').exists() else {'terms': []}
+    term_ids = {t.get('id') for t in glossary.get('terms', [])}
+    check(len(term_ids) == len(glossary.get('terms', [])), 'Duplicate glossary IDs')
+    for t in glossary.get('terms', []):
+        check(bool(t.get('term')) and bool(t.get('definition')), f"glossary/{t.get('id')}: incomplete term")
+        citations(t.get('citations', []), 'glossary/' + str(t.get('id')))
+    def term_refs(text, owner):
+        for ref in re.findall(r'\[\[([a-z0-9-]+)', text or ''):
+            check(ref in term_ids, f'{owner}: unknown glossary term {ref}')
+    for path in guides:
+        g = load(path)
+        gid = g.get('id', '')
+        check(gid == path.stem and g.get('type') == 'guide', f'{path}: invalid guide ID or type')
+        check(g.get('status') in STATUS, f'{gid}: invalid status')
+        citations(g.get('planCitations', []), gid + ' plan')
+        stops = g.get('stops', [])
+        check(bool(stops), f'{gid}: no stops')
+        check(len({s.get('id') for s in stops}) == len(stops), f'{gid}: duplicate stop IDs')
+        check([s.get('number') for s in stops] == list(range(1, len(stops) + 1)), f'{gid}: stops must be numbered 1..n in order')
+        for s in stops:
+            owner = f"{gid}/{s.get('id')}"
+            v2 = s.get('format') == 2
+            for field in ['title', 'location', 'stand', 'look', 'story' if v2 else 'blocks', 'transition']:
+                check(bool(s.get(field)), f'{owner}: missing {field}')
+            if v2:
+                parts = list(s.get('story', [])) + [x for x in (s.get('lookCloser'), s.get('readIt')) if x] + list(s.get('more', []))
+                for x in parts:
+                    check(bool(x.get('text')), f'{owner}: empty text section')
+                    citations(x.get('citations', []), owner)
+                    term_refs(x.get('text'), owner)
+                    if x.get('mediaId'):
+                        check(x['mediaId'] in media_ids, f'{owner}: unknown media {x["mediaId"]}')
+                for t in [s.get('stand'), s.get('transition')] + list(s.get('look', [])):
+                    term_refs(t, owner)
+            check(s.get('zone') in zones, f'{owner}: unknown zone')
+            check(s.get('facing') in facings, f'{owner}: unknown facing')
+            check(s.get('diagram') in diagrams or (v2 and s.get('diagram') is None), f'{owner}: unknown diagram {s.get("diagram")}')
+            pos = s.get('position', {})
+            check(0 <= pos.get('x', -1) <= 720 and 0 <= pos.get('y', -1) <= 820, f'{owner}: position outside plan')
+            citations(s.get('citations', []), owner)
+            for b in ([] if v2 else s.get('blocks', [])):
+                check(bool(b.get('heading')) and bool(b.get('text')), f'{owner}: incomplete block')
+                check(b.get('certainty') in CERTAINTY, f'{owner}: invalid certainty')
+                citations(b.get('citations', []), owner)
+            for f in s.get('figures', []):
+                check(f.get('mediaId') in media_ids, f'{owner}: unknown media {f.get("mediaId")}')
+                check(bool(f.get('caption')), f'{owner}: figure without caption')
+                for a in f.get('annotations', []):
+                    check(0 <= a.get('x', -1) <= 100 and 0 <= a.get('y', -1) <= 100 and bool(a.get('label')), f'{owner}: invalid annotation')
+            stop_count += 1
     if errors:
         print('\n'.join(errors), file=sys.stderr)
         return 1
-    print(f'Validated {len(records)} records, {len(sources)} sources and {len(graph)} relationships; references and media checksums passed.')
+    print(f'Validated {len(records)} records, {len(guides)} guide ({stop_count} stops), {len(sources)} sources and {len(graph)} relationships; references and media checksums passed.')
     return 0
 
 if __name__ == '__main__':

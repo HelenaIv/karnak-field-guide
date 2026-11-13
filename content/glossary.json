@@ -1,0 +1,210 @@
+{
+  "id": "glossary",
+  "language": "en",
+  "updated": "2026-11-13",
+  "status": "needs_source_check",
+  "terms": [
+    {
+      "id": "hypostyle",
+      "term": "Hypostyle hall",
+      "definition": "A hall whose roof is held up by rows of columns. The word is Greek for “resting on pillars”. In Egyptian temples it usually stands between the open court and the inner rooms.",
+      "citations": [
+        {
+          "sourceId": "digital-karnak-architecture",
+          "locator": "Hypostyle hall"
+        }
+      ]
+    },
+    {
+      "id": "pylon",
+      "term": "Pylon",
+      "definition": "A monumental temple gateway made of two massive towers with a doorway between them. Karnak’s pylons are numbered in the order a modern visitor meets them, not the order they were built.",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Pylons and their modern numbering"
+        }
+      ]
+    },
+    {
+      "id": "nave",
+      "term": "Central aisle (nave)",
+      "definition": "The wide, higher passage down the middle of the Hall, lined by the twelve tallest columns. It carried the temple’s main west–east route.",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Central nave"
+        }
+      ]
+    },
+    {
+      "id": "clerestory",
+      "term": "Clerestory",
+      "definition": "A raised band of wall with window openings, built where a higher roof meets a lower one. In the Hall, huge stone window grilles above the central aisle were the main source of light.",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Clerestory windows"
+        }
+      ]
+    },
+    {
+      "id": "architrave",
+      "term": "Architrave",
+      "definition": "A stone beam laid across the tops of columns. Roof slabs rested on the architraves. In the Hall they also carry long dedication texts.",
+      "citations": [
+        {
+          "sourceId": "hypostyle-project-architecture",
+          "locator": "Architraves"
+        }
+      ]
+    },
+    {
+      "id": "talatat",
+      "term": "Talatat",
+      "definition": "Small, standard-sized sandstone blocks used in the buildings of Akhenaten. After his reign they were dismantled and reused as fill, including in the foundations of the Hall.",
+      "citations": [
+        {
+          "sourceId": "memphis-restoration",
+          "locator": "Talatat foundations"
+        }
+      ]
+    },
+    {
+      "id": "register",
+      "term": "Register",
+      "definition": "One horizontal row of scenes on a wall. Most walls in the Hall have four or five registers, stacked one above the other, each scene in its own frame.",
+      "citations": [
+        {
+          "sourceId": "memphis-reliefs-overview",
+          "locator": "Registers"
+        }
+      ]
+    },
+    {
+      "id": "raised-relief",
+      "term": "Raised relief",
+      "definition": "Carving in which the background is cut away so the figures and signs stand out from the wall. It is slow, careful work. All of Sety I’s carving inside the Hall is in raised relief.",
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Bas relief"
+        }
+      ]
+    },
+    {
+      "id": "sunk-relief",
+      "term": "Sunk relief",
+      "definition": "Carving in which the outlines are cut down into the wall, so the figures sit below the original surface. It is quicker to make and throws strong shadows. Ramesses II switched to it early in his reign.",
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Sunk relief"
+        }
+      ]
+    },
+    {
+      "id": "cartouche",
+      "term": "Cartouche",
+      "definition": "The oval ring, closed by a bar, that encloses a king’s name. Each king had two names written in cartouches: a throne name and a birth name.",
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Royal names in cartouches"
+        }
+      ]
+    },
+    {
+      "id": "throne-name",
+      "term": "Throne name",
+      "definition": "The name a king took when he came to the throne, written in a cartouche. Sety I’s was Menmaatre; Ramesses II’s final form was Usermaatre-setepenre.",
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "Ramesses II’s throne name"
+        },
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Royal names in the translations"
+        }
+      ]
+    },
+    {
+      "id": "birth-name",
+      "term": "Birth name",
+      "definition": "The king’s personal name, also written in a cartouche, often with an extra phrase such as “beloved of Amun”: for example Ramesses-meramun.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Royal names in the translations"
+        }
+      ]
+    },
+    {
+      "id": "ankh",
+      "term": "Ankh",
+      "definition": "The hieroglyph for “life”: a loop above a crossbar and a stem. Gods hold it and offer it to kings; in the Hall, a king holding one is being shown as divine.",
+      "citations": [
+        {
+          "sourceId": "memphis-interior",
+          "locator": "The ankh as a sign of divinity"
+        }
+      ]
+    },
+    {
+      "id": "maat",
+      "term": "Maat",
+      "definition": "Truth, justice and right order, and the goddess who stands for them, shown seated with an ostrich feather on her head. Kings offered Maat to the gods, and her figure appears in many royal names.",
+      "citations": [
+        {
+          "sourceId": "memphis-reliefs-overview",
+          "locator": "Offering Maat"
+        }
+      ]
+    },
+    {
+      "id": "osiris",
+      "term": "Osiris",
+      "definition": "God of the dead and of renewal. A king who died was believed to become one with Osiris, so texts call a dead king “Osiris King …”.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98: “Osiris King Menmaatre”"
+        }
+      ]
+    },
+    {
+      "id": "bark",
+      "term": "Sacred bark",
+      "definition": "A model boat carried on poles by priests, with a shrine holding the god’s statue. Each god had one: Amun’s has ram heads at both ends, Mut’s has a woman’s head, Khonsu’s a falcon’s head with a moon disk.",
+      "citations": [
+        {
+          "sourceId": "memphis-sacred-barks",
+          "locator": "Sacred barks and figureheads"
+        }
+      ]
+    },
+    {
+      "id": "nemset-jar",
+      "term": "Nemset jar",
+      "definition": "A spouted jar used for pouring water in purification rites.",
+      "citations": [
+        {
+          "sourceId": "oip142-fulltext",
+          "locator": "Plate 48, p. 98: four nemset jars of water"
+        }
+      ]
+    },
+    {
+      "id": "theban-triad",
+      "term": "Theban triad",
+      "definition": "The divine family worshipped at Karnak: Amun, his wife Mut and their son Khonsu.",
+      "citations": [
+        {
+          "sourceId": "memphis-sacred-barks",
+          "locator": "Barks of the Theban Triad"
+        }
+      ]
+    }
+  ]
+}

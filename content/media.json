@@ -1279,6 +1279,56 @@
       "identificationStatus": "Historical documentation, not a modern photograph or neutral photographic facsimile. Divine group supported by file description; H scene number not asserted.",
       "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions.",
       "provenanceSnapshot": "research/media-provenance/hall-study-e120f34f.json"
+    },
+    {
+      "id": "hall-roberts-1838",
+      "path": "assets/photos/hall-roberts-1838.jpg",
+      "title": "David Roberts - The Great Temple of Amon Karnak, The Hypostyle Hall - Google Art Project.jpg",
+      "creator": "David Roberts",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:David_Roberts_-_The_Great_Temple_of_Amon_Karnak,_The_Hypostyle_Hall_-_Google_Art_Project.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/David_Roberts_-_The_Great_Temple_of_Amon_Karnak%2C_The_Hypostyle_Hall_-_Google_Art_Project.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/David_Roberts_-_The_Great_Temple_of_Amon_Karnak%2C_The_Hypostyle_Hall_-_Google_Art_Project.jpg/1280px-David_Roberts_-_The_Great_Temple_of_Amon_Karnak%2C_The_Hypostyle_Hall_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "David Roberts, public domain, via Wikimedia Commons.",
+      "attributionPlacement": "Credit beside image and in downloadable credits as a courtesy; no licence conditions.",
+      "changes": "Wikimedia-generated 1280px rendition; no editorial crop, annotation or colour change.",
+      "retrieved": "2026-11-13",
+      "sha256": "30144265b4e1b478f240df42d0059ce0db1941e939ac5ecaea2f0b61b19db58c",
+      "bytes": 529192,
+      "placeIds": [
+        "hypostyle-hall"
+      ],
+      "subjectGroup": "hall-history",
+      "caption": "The central aisle of the Hall painted by David Roberts in 1838, with debris on the floor and a leaning column in the distance.",
+      "alt": "Watercolour of the Great Hypostyle Hall central aisle by David Roberts, 1838: tall papyrus columns with painted capitals, a fallen roof and debris on the floor.",
+      "identificationStatus": "Historical artwork of the Great Hypostyle Hall; general view, not a scene identification.",
+      "distributionStatus": "Public domain per Commons licence template; commercial reuse permitted."
+    },
+    {
+      "id": "hall-legrain-1899",
+      "path": "assets/photos/hall-legrain-1899.jpg",
+      "title": "Karnak 1899 Georges Legrain.jpg",
+      "creator": "Georges Legrain",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak_1899_Georges_Legrain.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Karnak_1899_Georges_Legrain.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Karnak_1899_Georges_Legrain.jpg/1280px-Karnak_1899_Georges_Legrain.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Georges Legrain, public domain, via Wikimedia Commons.",
+      "attributionPlacement": "Credit beside image and in downloadable credits as a courtesy; no licence conditions.",
+      "changes": "Wikimedia-generated 1280px rendition; no editorial crop, annotation or colour change.",
+      "retrieved": "2026-11-13",
+      "sha256": "0807f40e4fa328e586ea06e7ae49d2c5c0b414109cc5b8ebd99337ab08e0e200",
+      "bytes": 663964,
+      "placeIds": [
+        "hypostyle-hall"
+      ],
+      "subjectGroup": "hall-history",
+      "caption": "Rebuilding a fallen column after the collapse of 3 October 1899. Photograph by Georges Legrain, 29 December 1899.",
+      "alt": "Black-and-white photograph: timber rigging and ladders around a tilted, inscribed column drum during repair work in the Great Hypostyle Hall, 1899.",
+      "identificationStatus": "Commons description: photograph by Georges Legrain, 29 December 1899, restoration work after the collapse of 3 October 1899 (Louvre).",
+      "distributionStatus": "Public domain per Commons licence template; commercial reuse permitted."
     }
   ]
 }

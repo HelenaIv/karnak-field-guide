@@ -39,7 +39,7 @@ Additional research data: `content/people/`, `content/periods/`, `content/themes
 
 ## Validation
 
-Run `python scripts/validate_content.py` and `git diff --check` before commits. Content validation uses the standard library. Build the review website with `python scripts/build_review_site.py` (Pillow required), then run `node scripts/check_review_site.cjs`. Serve the generated `dist/` with a static server; do not open `web/index.html` directly because its generated data file is in `dist/`. Checks validate data integrity and rendering, not historical accuracy or real browser layout.
+Run `python scripts/validate_content.py` and `git diff --check` before commits. Content validation uses the standard library. Build the review website with `python scripts/build_review_site.py` (Pillow required), then run `node scripts/check_review_site.cjs`. Then open `dist/index.html` directly in a browser (double-click it); the build writes the content as `dist/data.js`, so no server is needed. Do not open `web/index.html`: its generated data file is in `dist/`. The Great Hypostyle Hall guide (`content/guides/`) is at `#hall` in the review site. Checks validate data integrity and rendering, not historical accuracy or real browser layout.
 
 ## Reading this repository
 

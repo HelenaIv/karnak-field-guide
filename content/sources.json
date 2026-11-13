@@ -767,6 +767,66 @@
       "kind": "specialist archaeological project",
       "consultation": "Read for temple-as-divine-house interpretation, kingship and ritual setting.",
       "accessed": "2026-11-13"
+    },
+    {
+      "id": "memphis-sacred-barks",
+      "title": "Sacred Barks and Divine Rest Stations",
+      "url": "https://www.memphis.edu/hypostyle/meaning_function/sacred-barks.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-13: bark figureheads; Sety I architrave texts describing the Hall as a resting place for Amun during his yearly festival.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "memphis-festivals",
+      "title": "Festivals and the Royal Cult",
+      "url": "https://www.memphis.edu/hypostyle/meaning_function/festivals.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-13: Opet and Valley Festivals; the Hall as a temple in its own right.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "memphis-restoration",
+      "title": "Early Recording & Restoration",
+      "url": "https://www.memphis.edu/hypostyle/project/r_methods.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-13: collapse of eleven north-wing columns on 3 October 1899; talatat foundations and groundwater; Legrain’s repairs.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "museo-egizio-19c",
+      "title": "Temple complex of Amun in Karnak: 19th-century pictures",
+      "url": "https://archiviofotografico.museoegizio.it/en/archive/theban-region/temple-complex-of-amon-in-karnak/19th-century-pictures/",
+      "authors": [
+        "Museo Egizio, Turin"
+      ],
+      "publisher": "Museo Egizio",
+      "kind": "museum photographic archive",
+      "consultation": "Catalogue descriptions read 2026-11-13: 19th-century views with columns not yet cleared of sand and ground level covering column bases.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "memphis-reliefs-overview",
+      "title": "About the Reliefs and Inscriptions: Overview",
+      "url": "https://www.memphis.edu/hypostyle/reliefs_inscriptions/westwallnorthhalf.php",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-13: registers (most walls have four or five), ritual scene types including offering Maat, exterior battle scenes.",
+      "accessed": "2026-11-13"
     }
   ]
 }

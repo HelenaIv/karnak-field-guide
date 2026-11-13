@@ -1,0 +1,15 @@
+{
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak_1899_Georges_Legrain.jpg",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Karnak_1899_Georges_Legrain.jpg",
+  "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Karnak_1899_Georges_Legrain.jpg/1280px-Karnak_1899_Georges_Legrain.jpg",
+  "creator": "Georges Legrain",
+  "license": "Public domain",
+  "licenseTemplateUsage": "Public domain",
+  "date": "1899",
+  "credit": "Publié dans Grande Galerie, le journal du Louvre, n°32, juillet-août 2015.",
+  "description": "Photo de Georges Legrain, 29 décembre 1899. Travaux de restauration de la grande salle hypostyle de Karnak après l'effondrement du 3 octobre 1899. Musée du Louvre.",
+  "commonsSha1": "9634a2cd93c9b222e3090ea21d9e2db8eca19806",
+  "retrieved": "2026-11-13",
+  "sha256": "0807f40e4fa328e586ea06e7ae49d2c5c0b414109cc5b8ebd99337ab08e0e200",
+  "retrievalMethod": "curl on owner’s computer via E:\\Karnak\\images\\fetch.cmd"
+}
