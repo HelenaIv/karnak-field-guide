@@ -149,7 +149,8 @@
             "sourceId": "dk-sety-ii-shrine",
             "locator": "Shrine originally outside the temple’s western entrance"
           }
-        ]
+        ],
+        "mediaId": "gc-colonnade-sphinxes"
       },
       {
         "id": "kiosk",
@@ -168,7 +169,8 @@
             "sourceId": "dk-taharqo-kiosk",
             "locator": "Two rows of five columns with screen walls; 20.5 × 29 m; columns 2.99 m thick and 21 m high; probably unroofed; calcite shrine older; earlier wooden kiosk; ‘union of the disc’ proposed; Ptolemy IV decoration"
           }
-        ]
+        ],
+        "mediaId": "gc-taharqo-column"
       },
       {
         "id": "shrines",
@@ -195,7 +197,8 @@
             "sourceId": "michalowski-karnak",
             "locator": "Osiride statues of Ramesses III on both sides of the courtyard"
           }
-        ]
+        ],
+        "mediaId": "great-court-ramesses-temple"
       },
       {
         "id": "portal",
@@ -209,7 +212,8 @@
             "sourceId": "dk-bubastite-portal",
             "locator": "Door just under 5 m wide; two columns mark it inside the court; smiting scene; 156 name-rings"
           }
-        ]
+        ],
+        "mediaId": "gc-bubastite-portico"
       },
       {
         "id": "colossus",
@@ -229,7 +233,8 @@
             "sourceId": "smithsonian-eepa-colossus",
             "locator": "Two striding colossi of Ramesses II before the Second Pylon, feet of one remain; standing statue with Bentanta in front of them"
           }
-        ]
+        ],
+        "mediaId": "gc-colossus"
       }
     ],
     "questions": [
@@ -252,5 +257,6 @@
         ]
       }
     ]
-  }
+  },
+  "heroMediaId": "gc-court"
 }
