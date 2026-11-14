@@ -1522,7 +1522,7 @@
       ],
       "publisher": "Heidelberg University Library (digitised book)",
       "kind": "illustrated scholarly book (older)",
-      "consultation": "Plate caption seen in search extract 2026-11-14: “Block of pink quartzite from the sanctuary of Queen Hatshepsut. Acrobatic dancers are depicted on the relief.”",
+      "consultation": "Plate caption seen in search extract 2026-11-14: “Block of pink quartzite from the sanctuary of Queen Hatshepsut. Acrobatic dancers are depicted on the relief.” Introduction (p. 22 of the digitised book) seen in a search extract 2026-11-14: Ramesses III’s temple on the north–south axis next to the Second Pylon, with Osirian statues on both sides of its courtyard.",
       "accessed": "2026-11-14"
     },
     {
@@ -1619,6 +1619,31 @@
       "publisher": "De Haan Publications (Issuu)",
       "kind": "practical site guide",
       "consultation": "Read 2026-11-14 (search extract): sphinx avenue in front of the First Pylon, 52 m long, Pinedjem’s text on the bases; sphinxes rearranged when Shoshenq I’s court was built; French expedition’s inscription inside the doorway. Compiled guide; used for visitor-level detail only.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "dk-colossus-ramesses-bentanta",
+      "title": "Colossal Statue of Ramesses II and Daughter",
+      "url": "https://digitalkarnak.ucsc.edu/Colossal-Statue-of-Ramesses-II-and-Daughter",
+      "authors": [
+        "C. Zarnoch",
+        "E. Sullivan"
+      ],
+      "publisher": "Digital Karnak, UCLA / UC Santa Cruz",
+      "kind": "institutional object record",
+      "consultation": "Read 2026-11-14: colossus of Ramesses II with his daughter Bentanta, arms crossed with crook and flail, fronting the Second Pylon; usurped by the high priest Pinedjem (21st Dynasty) and Ramesses VI.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "smithsonian-eepa-colossus",
+      "title": "Colossal statue of Ramses II in the first court of Amon, Karnak (Eliot Elisofon Field collection)",
+      "url": "https://www.si.edu/object/archives/components/sova-eepa-1973-001-ref33674",
+      "authors": [
+        "Eliot Elisofon Photographic Archives, National Museum of African Art"
+      ],
+      "publisher": "Smithsonian Institution",
+      "kind": "museum archive record",
+      "consultation": "Read 2026-11-14: two striding colossi of Ramesses II fronted the Second Pylon, feet of one remain; in front, the standing statue with Bentanta, usurped by Ramesses VI and Pinedjem I.",
       "accessed": "2026-11-14"
     }
   ]

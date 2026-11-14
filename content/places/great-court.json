@@ -8,7 +8,7 @@
     "needs_field_check",
     "needs_epigraphic_review"
   ],
-  "summary": "Shoshenq I enclosed an area containing the older Sety II shrine and part of Ramesses III’s temple.",
+  "summary": "The vast open court behind the First Pylon. Shoshenq I walled it in around 925 BC, enclosing two older bark shrines; later Taharqo set a giant kiosk in its centre.",
   "orientation": "Between the First and Second Pylons.",
   "personIds": [
     "shoshenq-i",
@@ -73,6 +73,184 @@
     "Present access, exact viewpoints and condition have not been field-verified."
   ],
   "sources": [
-    "dk-great-court"
-  ]
+    "dk-bubastite-portal",
+    "dk-colossus-ramesses-bentanta",
+    "dk-great-court",
+    "dk-ramesses-iii-temple",
+    "dk-sety-ii-shrine",
+    "dk-taharqo-kiosk",
+    "michalowski-karnak",
+    "smithsonian-eepa-colossus"
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "Built by",
+        "value": "Shoshenq I, 22nd Dynasty, about 945–924 BC"
+      },
+      {
+        "label": "Size",
+        "value": "82 m wide and 101 m deep"
+      },
+      {
+        "label": "Closed in the west by",
+        "value": "The First Pylon of Nectanebo I, about 380–362 BC"
+      },
+      {
+        "label": "Inside",
+        "value": "Sety II’s bark shrine, part of Ramesses III’s bark temple, Taharqo’s kiosk, a colossus of Ramesses II"
+      },
+      {
+        "label": "Walls",
+        "value": "Colonnades of papyrus-bud columns on the north and south sides, left undecorated"
+      },
+      {
+        "label": "Purpose",
+        "value": "A “festival court for the house of Amun-Ra”, in Shoshenq I’s words"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "You are in the first court of the temple of Amun, between the First Pylon behind you and the Second Pylon ahead. It is the biggest open space in the temple: 82 m wide and 101 m deep.",
+          "Most of what stands here is older than the court itself. The plan shows the main things to find, numbered in the order this page describes them."
+        ],
+        "drawing": "court-plan",
+        "look": [
+          "Turn round to see the mud-brick ramp against the back of the First Pylon (6 on the plan).",
+          "Ahead, the single tall column of Taharqo’s kiosk (1), and beyond it the colossus in front of the Second Pylon (5)."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-great-court",
+            "locator": "Measurements: 82 × 101 m; position between the First and Second Pylons"
+          }
+        ]
+      },
+      {
+        "id": "history",
+        "heading": "How the court came to be",
+        "paragraphs": [
+          "Before there was a court, this was the open approach to the temple. The Second Pylon was the main entrance, and two rows of fifty ram-headed sphinxes lined the way up to it. Around 1200 BC Sety II built a small bark shrine outside the entrance, and Ramesses III soon added a bark temple to the south.",
+          "Shoshenq I, a king of Libyan origin, enclosed the whole area with walls and colonnades. A stela from year 21 of his reign says he meant to make a great double door and “a festival court for the house of his father Amun-Ra”. The sphinxes that stood in the way had to be moved; some were set along the sides of the court.",
+          "The court was never quite finished. When Nectanebo I began the First Pylon, he pulled down the court’s west wall and took apart the westernmost columns to make room for the building ramps. They were rebuilt in new stone but left rough: the column drums were never dressed."
+        ],
+        "look": [
+          "The columns nearest the First Pylon, with rough, undressed drums."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-great-court",
+            "locator": "Two rows of fifty sphinxes before the Second Pylon; Shoshenq I’s court enclosing the Sety II shrine and Ramesses III temple; stela of year 21; removal of the west wall and rebuilding of the west columns, left undressed"
+          },
+          {
+            "sourceId": "dk-sety-ii-shrine",
+            "locator": "Shrine originally outside the temple’s western entrance"
+          }
+        ]
+      },
+      {
+        "id": "kiosk",
+        "heading": "1 · Taharqo’s kiosk",
+        "paragraphs": [
+          "In the middle of the court the Kushite king Taharqo, around 680 BC, built a kiosk of ten open-papyrus columns in two rows of five, joined by low screen walls with doors on all four sides. Each column was about 3 m thick and 21 m tall. The space between the rows is so wide that the kiosk was probably never roofed.",
+          "Only one column still stands to its full height. At the centre is a calcite stand for the god’s boat, probably older than Taharqo’s building; excavations suggest an earlier wooden kiosk stood on the same spot. Its purpose is not known for certain: one idea is that the god’s statue was brought out here to be united with the sun."
+        ],
+        "look": [
+          "The standing column and its open-papyrus capital.",
+          "The calcite bark stand on the axis."
+        ],
+        "link": "taharqo-kiosk",
+        "citations": [
+          {
+            "sourceId": "dk-taharqo-kiosk",
+            "locator": "Two rows of five columns with screen walls; 20.5 × 29 m; columns 2.99 m thick and 21 m high; probably unroofed; calcite shrine older; earlier wooden kiosk; ‘union of the disc’ proposed; Ptolemy IV decoration"
+          }
+        ]
+      },
+      {
+        "id": "shrines",
+        "heading": "2 and 3 · Two bark shrines",
+        "paragraphs": [
+          "On your left, in the north-west corner, is Sety II’s shrine with three chambers for the boats of Mut, Amun and Khonsu. During festivals the gods’ boats were set down here on their way in and out of the temple.",
+          "On your right, Ramesses III’s bark temple runs across the court at a right angle to the main axis. It is a complete small temple, with its own pylon, a court lined with statues of the king as Osiris and three chambers for the same three boats. Only its front half lies inside the court; the rest projects to the south."
+        ],
+        "look": [
+          "The three doorways of Sety II’s shrine.",
+          "The Osiris statues of Ramesses III in his temple court."
+        ],
+        "link": "sety-ii-shrine",
+        "citations": [
+          {
+            "sourceId": "dk-sety-ii-shrine",
+            "locator": "Three chambers for the barks of Mut, Amun and Khonsu"
+          },
+          {
+            "sourceId": "dk-ramesses-iii-temple",
+            "locator": "Bark temple perpendicular to the axis; pylon, court, three bark chambers"
+          },
+          {
+            "sourceId": "michalowski-karnak",
+            "locator": "Osiride statues of Ramesses III on both sides of the courtyard"
+          }
+        ]
+      },
+      {
+        "id": "portal",
+        "heading": "4 · The Bubastite Portal",
+        "paragraphs": [
+          "In the south-east corner, between Ramesses III’s temple and the Second Pylon, a narrow door just under 5 m wide leads out of the court. Two columns inside the court mark it. Outside, on the wall facing south, Shoshenq I is shown striking his enemies while Amun hands him rows of bound captives: 156 name-rings of towns and peoples he claimed to have defeated."
+        ],
+        "link": "bubastite-portal",
+        "citations": [
+          {
+            "sourceId": "dk-bubastite-portal",
+            "locator": "Door just under 5 m wide; two columns mark it inside the court; smiting scene; 156 name-rings"
+          }
+        ]
+      },
+      {
+        "id": "colossus",
+        "heading": "5 · The colossus",
+        "paragraphs": [
+          "In front of the Second Pylon stands a colossal statue of Ramesses II with his arms crossed, holding the crook and flail, and his daughter Bentanta standing small at his feet. Later rulers took it over: the high priest Pinedjem of the 21st Dynasty and Ramesses VI both added their names. Two striding colossi of Ramesses II once flanked the pylon’s doorway; of one, only the feet remain."
+        ],
+        "look": [
+          "The small princess between the king’s feet."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-colossus-ramesses-bentanta",
+            "locator": "Colossal statue of Ramesses II and Bentanta fronting the Second Pylon; usurped by Pinedjem and Ramesses VI"
+          },
+          {
+            "sourceId": "smithsonian-eepa-colossus",
+            "locator": "Two striding colossi of Ramesses II before the Second Pylon, feet of one remain; standing statue with Bentanta in front of them"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "What did Shoshenq I’s west gate look like? The court’s west wall was destroyed for the First Pylon; drawings of it are reconstructions.",
+        "citations": [
+          {
+            "sourceId": "dk-great-court",
+            "locator": "Reconstruction of the west wall after Arnold 1999; gateway after Lauffray 1970"
+          }
+        ]
+      },
+      {
+        "text": "Was Taharqo’s kiosk roofed, and what was it for? The wide span suggests it was open to the sky; the solar ceremony is a proposal.",
+        "citations": [
+          {
+            "sourceId": "dk-taharqo-kiosk",
+            "locator": "Unroofed suggested by span; function unclear"
+          }
+        ]
+      }
+    ]
+  }
 }
