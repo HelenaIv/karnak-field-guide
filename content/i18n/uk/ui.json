@@ -646,7 +646,18 @@
   "Show this step": "Показати цей крок",
   "Built at Karnak:": "Збудував у Карнаку:",
   "Show on the plan →": "Показати на плані →",
-  "No builder from this period is featured in this guide.": "Будівничих цього періоду в путівнику не представлено."
+  "No builder from this period is featured in this guide.": "Будівничих цього періоду в путівнику не представлено.",
+  "At a glance": "Коротко",
+  "Open questions": "Відкриті питання",
+  "Original drawing to scale, seen from the avenue (north on the left). Solid: stone that was laid. Dashed: the planned height. Measurements from Digital Karnak.": "Авторський малюнок у масштабі, вигляд з алеї (північ ліворуч). Суцільне: покладений камінь. Пунктир: запланована висота. Розміри за Digital Karnak.",
+  "planned 38–40 m": "заплановано 38–40 м",
+  "31.65 m": "31,65 м",
+  "north tower 21.7 m": "північна вежа 21,7 м",
+  "south tower 31.65 m": "південна вежа 31,65 м",
+  "doorway 27.5 m": "прохід 27,5 м",
+  "113 m wide": "ширина 113 м",
+  "person": "людина",
+  "Front of the First Pylon to scale: the south tower is taller than the north tower, and both stop well below the planned height": "Фасад Першого пілона в масштабі: південна вежа вища за північну, і обидві значно нижчі за заплановану висоту"
  },
  "patterns": [
   [

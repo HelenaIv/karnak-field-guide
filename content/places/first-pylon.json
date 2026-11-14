@@ -7,7 +7,7 @@
   "additionalChecks": [
     "needs_field_check"
   ],
-  "summary": "Karnak’s monumental western entrance is unfinished, preserving evidence of how enormous temple gateways were built.",
+  "summary": "Today’s entrance is the last gateway ever built at Karnak, and it was never finished. Its bare towers and the mud-brick ramp behind them show how a pylon went up.",
   "orientation": "The modern western entrance to the Amun precinct; the Great Court lies to its east.",
   "periods": [
     {
@@ -20,10 +20,6 @@
     "A massive twin-tower gateway, historically intended to frame entry into the precinct.",
     "Its unfinished state and surviving mudbrick ramp remains expose aspects of construction that finished pylons usually conceal."
   ],
-  "lookFor": [
-    "Unfinished masonry at the pylon towers.",
-    "Remains of mudbrick construction ramps on the inner (court) side."
-  ],
   "interpretation": "Karnak was not built once under a single pharaoh: the entrance encountered today belongs to a relatively late phase in an older sacred complex.",
   "caveats": [
     "Source descriptions do not establish current public proximity to the ramp remains.",
@@ -33,13 +29,200 @@
     "first-pylon-construction-ramps"
   ],
   "sources": [
+    "dehaan-karnak-guide",
+    "digital-karnak-architecture",
     "digital-karnak-first-pylon",
-    "digital-karnak-architecture"
+    "dk-construction",
+    "dk-western-way",
+    "egyptology-nl-karnak",
+    "hmdb-great-forecourt",
+    "lascar-commons-first-pylon",
+    "memphis-constructing-hall"
   ],
   "personIds": [
     "nectanebo-i"
   ],
   "periodIds": [
     "late-period"
-  ]
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "Built by",
+        "value": "Nectanebo I, 30th Dynasty, about 380–362 BC (by general agreement; no inscription names him)"
+      },
+      {
+        "label": "Width",
+        "value": "113 m, with towers about 14.5 m deep"
+      },
+      {
+        "label": "Height today",
+        "value": "North tower 21.7 m, south tower 31.65 m"
+      },
+      {
+        "label": "Planned height",
+        "value": "About 38–40 m"
+      },
+      {
+        "label": "Doorway",
+        "value": "27.5 m high and 7.4 m wide, probably older, from Shoshenq I"
+      },
+      {
+        "label": "State",
+        "value": "Unfinished and undecorated"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "This is the western front of the temple of Amun-Ra and the main entrance today. You reach it along the avenue of ram-headed sphinxes that comes up from the old quay; through the doorway lies the Great Court.",
+          "Pylons are numbered from the entrance inwards, in the order visitors meet them, not in the order they were built. The First Pylon is in fact the last one: it was started about 1,500 years after the first stone temple of Amun."
+        ],
+        "look": [
+          "Stand back on the avenue to take in the whole front and the difference in height between the two towers.",
+          "Walk through the doorway and turn round in the court to see the back of the pylon and the building ramp."
+        ],
+        "citations": [
+          {
+            "sourceId": "digital-karnak-first-pylon",
+            "locator": "Introduction: westernmost pylon, today’s main entrance"
+          }
+        ]
+      },
+      {
+        "id": "why",
+        "heading": "Why it was built",
+        "paragraphs": [
+          "Nectanebo I built the pylon together with a huge new mud-brick wall around the whole Amun precinct. The two belong to one plan, and the wall may have been meant to protect the temple from foreign invaders.",
+          "The pylon replaced the west wall and gateway of the court of Shoshenq I, which had been the temple’s front for more than 500 years. That court became the Great Court behind the new entrance."
+        ],
+        "citations": [
+          {
+            "sourceId": "digital-karnak-first-pylon",
+            "locator": "Phases of construction: Nectanebo I; replacement of the west wall and gateway of Shoshenq I’s court; protection from invaders"
+          }
+        ]
+      },
+      {
+        "id": "unfinished",
+        "heading": "A gateway that was never finished",
+        "paragraphs": [
+          "Work stopped with the south tower at 45 courses of stone, about 31.65 m, and the north tower at only 32 courses, about 21.7 m. Finished, they would have stood 38 to 40 m high.",
+          "Nothing is carved on it. Egyptian builders set the blocks rough and smoothed the faces only at the end, working down from the top as the building embankments were taken away. Carving came last of all. Here the work stopped before that final stage, so you see the stone as the builders left it."
+        ],
+        "look": [
+          "The stepped, uneven tops of the two towers.",
+          "Rough block faces that were never smoothed.",
+          "No reliefs or inscriptions on the towers."
+        ],
+        "drawing": "pylon-elevation",
+        "citations": [
+          {
+            "sourceId": "digital-karnak-first-pylon",
+            "locator": "Measurements: courses and heights of each tower; planned height"
+          },
+          {
+            "sourceId": "memphis-constructing-hall",
+            "locator": "Rough blocks smoothed from the top down as embankments were removed; decoration after smoothing"
+          }
+        ]
+      },
+      {
+        "id": "ramp",
+        "heading": "The building ramp",
+        "paragraphs": [
+          "Against the back of the pylon, inside the court, a mass of mud brick still leans on the towers. It is what is left of the ramps and embankments on which the blocks were hauled up. As the walls grew, the workers raised the ramps about a metre at a time.",
+          "Most such ramps were cleared away once a building was finished, so this is a rare view of a temple under construction. Part of the brickwork was removed in the 19th century; what remains was recorded in photographs by Henri Chevrier in the mid-20th century."
+        ],
+        "look": [
+          "Courses of grey-brown mud brick against the stone, on the court side of the north tower."
+        ],
+        "mediaId": "basics-pylon-ramp",
+        "citations": [
+          {
+            "sourceId": "dk-construction",
+            "locator": "Ramps raised about one metre at a time; ramp remains at Pylon I, partly removed in the 19th century"
+          },
+          {
+            "sourceId": "hmdb-great-forecourt",
+            "locator": "Site panel: unfinished pylon and mud-brick ramp remains; Chevrier photograph of the north tower’s brick scaffolding"
+          }
+        ]
+      },
+      {
+        "id": "door",
+        "heading": "The doorway and a French inscription",
+        "paragraphs": [
+          "The great doorway is 27.5 m high and probably older than the towers: it may be the gateway of Shoshenq I’s court, kept and built into the new pylon. It was left unbonded to the towers, so that their enormous weight would not crush it. Later a much smaller door, only 10.85 m high, was set inside it.",
+          "High up inside the doorway, on the right as you walk in, the scholars of Napoleon’s expedition carved the latitudes and longitudes of the main monuments they surveyed, around 1799. It is one of the very few inscriptions on the pylon."
+        ],
+        "look": [
+          "Look up inside the passage, on the right-hand wall, for the lines of French text and numbers."
+        ],
+        "citations": [
+          {
+            "sourceId": "digital-karnak-first-pylon",
+            "locator": "Gateway probably by Shoshenq I, 27.5 × 7.4 m; inner door 10.85 m high"
+          },
+          {
+            "sourceId": "dk-construction",
+            "locator": "Stone gateway left unbonded to the towers"
+          },
+          {
+            "sourceId": "lascar-commons-first-pylon",
+            "locator": "Commons description quoting Tour Egypt: French expedition carved latitudes and longitudes inside the doorway, upper right"
+          }
+        ]
+      },
+      {
+        "id": "rams",
+        "heading": "In front: the ram-headed sphinxes",
+        "paragraphs": [
+          "The sphinxes have lions’ bodies and rams’ heads, the ram being an animal of Amun. Between the front paws of each stands a small statue of Ramesses II as Osiris.",
+          "They have moved more than once. They were first carved under Amenhotep III and Thutmose IV, then taken over by Ramesses II at Luxor temple. Later Pinedjem, high priest of Amun in the 21st Dynasty, brought about a hundred of them to Karnak and lined the 200 m way from the Second Pylon, then the entrance, to the quay, adding his own name. Shoshenq I’s court was later built over part of this road; some sphinxes now stand along the sides of the Great Court."
+        ],
+        "look": [
+          "The little standing king between the paws.",
+          "The band of text on the bases, added by Pinedjem."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-western-way",
+            "locator": "Ram-headed sphinxes with Osiride statuettes of Ramesses II; carved under Amenhotep III and Thutmose IV, usurped by Ramesses II at Luxor; moved by Pinedjem, about 100 sphinxes along 200 m from Pylon II to the quay"
+          },
+          {
+            "sourceId": "dehaan-karnak-guide",
+            "locator": "Forecourt and First Court: avenue 52 m long, Pinedjem’s text on the bases; sphinxes rearranged when the court was built; sphinxes along the court’s north and south sides"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Who built it? No inscription on the pylon names a king. It is attributed to Nectanebo I because it belongs with his enclosure wall.",
+        "citations": [
+          {
+            "sourceId": "egyptology-nl-karnak",
+            "locator": "“Although there is no written proof for it, it is generally assumed that Nectanebo I…”"
+          }
+        ]
+      },
+      {
+        "text": "Why was it never finished? The sources used for this guide do not say why work stopped.",
+        "citations": []
+      },
+      {
+        "text": "Was the doorway really Shoshenq I’s? Digital Karnak calls it probable, not certain.",
+        "citations": [
+          {
+            "sourceId": "digital-karnak-first-pylon",
+            "locator": "“probably constructed by Shoshenq I”"
+          }
+        ]
+      }
+    ]
+  },
+  "heroMediaId": "karnak-first-pylon-front"
 }

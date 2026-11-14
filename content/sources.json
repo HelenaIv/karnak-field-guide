@@ -1548,6 +1548,78 @@
       "kind": "general-audience website",
       "consultation": "Read 2026-11-14 (search extract): harpists and acrobatic dancers shown on the Red Chapel. Popular source; supports Michałowski’s plate caption.",
       "accessed": "2026-11-14"
+    },
+    {
+      "id": "memphis-constructing-hall",
+      "title": "Constructing the Hall (Karnak Great Hypostyle Hall Project)",
+      "url": "https://classic.memphis.edu/hypostyle/tour_hall/constructing_hall.php",
+      "authors": [
+        "Peter J. Brand and the Karnak Hypostyle Hall Project"
+      ],
+      "publisher": "University of Memphis",
+      "kind": "specialist project website",
+      "consultation": "Read 2026-11-14: building with ramps and embankments; rough blocks smoothed from the top down as embankments were removed; decoration after smoothing; photo of the First Pylon ramp. After D. Arnold, Building in Egypt (1991).",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "dk-western-way",
+      "title": "Western Processional Way",
+      "url": "https://digitalkarnak.ucsc.edu/western-processional-way",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "publisher": "Digital Karnak, UCLA / UC Santa Cruz",
+      "kind": "institutional monument synthesis",
+      "consultation": "Read 2026-11-14: ram-headed sphinxes with Osiride statuettes of Ramesses II; carved under Amenhotep III and Thutmose IV, usurped by Ramesses II at Luxor; Pinedjem moved about 100 to Karnak along 200 m from Pylon II to the quay and added his name.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "egyptology-nl-karnak",
+      "title": "Karnak: key to the plans",
+      "url": "https://egyptology.nl/pdf/plans_kn/karnkey.pdf",
+      "authors": [
+        "egyptology.nl"
+      ],
+      "publisher": "egyptology.nl",
+      "kind": "specialist reference plan key",
+      "consultation": "Read 2026-11-14 (search extract): no written proof for Nectanebo I as builder of the First Pylon; Shoshenq I’s court and possible gateway on the site.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "hmdb-great-forecourt",
+      "title": "Great Forecourt (site information panel, CFEETK)",
+      "url": "https://www.hmdb.org/m.asp?m=287916",
+      "authors": [
+        "CFEETK / Ministry of Tourism and Antiquities (panel); transcribed by HMdb"
+      ],
+      "publisher": "The Historical Marker Database",
+      "kind": "transcription of an on-site panel",
+      "consultation": "Read 2026-11-14: Nectanebo began the First Pylon; unfinished, hence mud-brick ramp remains; Chevrier photograph (1926–1954) of the north tower’s brick scaffolding.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "lascar-commons-first-pylon",
+      "title": "First pylon of the Amun-Re temple entrance as seen from inside (Wikimedia Commons file description)",
+      "url": "https://commons.wikimedia.org/wiki/File:First_pylon_of_the_Amun-Re_temple_entrance_as_seen_from_inside_(14210399344).jpg",
+      "authors": [
+        "Jorge Láscar (photo); description quoting Tour Egypt"
+      ],
+      "publisher": "Wikimedia Commons",
+      "kind": "photo description (secondary)",
+      "consultation": "Read 2026-11-14 via a mirror: doorway 7.4 m wide; French expedition carved latitudes and longitudes inside the doorway, upper right. Secondary; flagged for replacement by an edition.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "dehaan-karnak-guide",
+      "title": "Karnak Temple 1: a practical guide to the Karnak temple complex",
+      "url": "https://issuu.com/dehaanpublications/docs/karnak_1",
+      "authors": [
+        "De Haan Publications"
+      ],
+      "publisher": "De Haan Publications (Issuu)",
+      "kind": "practical site guide",
+      "consultation": "Read 2026-11-14 (search extract): sphinx avenue in front of the First Pylon, 52 m long, Pinedjem’s text on the bases; sphinxes rearranged when Shoshenq I’s court was built; French expedition’s inscription inside the doorway. Compiled guide; used for visitor-level detail only.",
+      "accessed": "2026-11-14"
     }
   ]
 }
