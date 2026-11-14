@@ -280,3 +280,7 @@ a.term{border-bottom:1px dotted var(--gold);color:inherit;text-decoration:none!i
 .rt-woman h3{margin:0 0 6px;font-size:15px}.rt-woman p{margin:0 0 6px;font-size:14px}
 .rt-ext{padding-left:18px;font-size:14px}.rt-ext li{margin:0 0 6px}
 .rt-pure-links h3{font-size:15px;margin:16px 0 6px}
+.video-fig{margin:16px auto;max-width:900px;padding:0 20px}.hall-intro-media .video-fig{padding:0;max-width:none}.video-fig video{display:block;width:100%;max-height:70vh;background:#111;border-radius:2px}
+.hall-intro-media{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start;padding-top:0;padding-bottom:0}
+.hall-intro-media figure{margin:0}.hall-intro-media img{width:100%;max-height:70vh;object-fit:cover}
+@media(max-width:760px){.hall-intro-media{grid-template-columns:1fr}}

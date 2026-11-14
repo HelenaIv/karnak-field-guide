@@ -5,3 +5,4 @@
 *.zip binary
 assets/fonts/OFL.txt -whitespace
 *.ttf binary
+*.mp4 binary

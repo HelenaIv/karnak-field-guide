@@ -161,7 +161,7 @@ function hallOverview() {
   const c = g.completion || {};
   const lst = (t, a) => a?.length ? `<div><strong>${t}</strong><ul>${a.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : '';
   return `<div class="page-head"><span class="eyebrow">Guided study · ${g.stops.length} stops</span><h1>${esc(g.title)}</h1><p>${esc(g.scope)}. Choose a numbered stop on the plan or start at stop 1. Each stop tells you where to stand, what to look at, and what the evidence says.</p><p class="notice-inline">${esc(g.accessNote)}</p><a class="primary" href="#hall/${esc(g.stops[0].id)}">Start at stop 1 <span>→</span></a>${universeTeaser()}</div>
-  <section class="section hall-overview" style="padding-top:10px"><div>${hallPlan(g, null)}${sourceNote(g.planCitations || [])}</div><div>${zones}<details class="notice"><summary>What is ready and what is still open</summary><div class="completion">${lst('Ready to review', c.readyExamples)}${lst('Still open', c.open)}${lst('Not implemented', c.notImplemented)}</div></details></div></section>`;
+  <section class="section hall-intro-media">${figure('own-hall-central-aisle')}${videoFig(media['own-video-hall-walk'])}</section><section class="section hall-overview" style="padding-top:10px"><div>${hallPlan(g, null)}${sourceNote(g.planCitations || [])}</div><div>${zones}<details class="notice"><summary>What is ready and what is still open</summary><div class="completion">${lst('Ready to review', c.readyExamples)}${lst('Still open', c.open)}${lst('Not implemented', c.notImplemented)}</div></details></div></section>`;
 }
 const MU_STOPS = ['entrance', 'columns', 'roof'];
 function hallStopV2(g, s, prev, next, nav, plan) {

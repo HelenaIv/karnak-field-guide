@@ -55,6 +55,13 @@ def build_content():
  content['reading']=rd
  (OUT/'assets').mkdir(exist_ok=True)
  for m in content['media']:
+  if m.get('type')=='video':
+   for k in ('path','poster'):
+    src=ROOT/m[k];dst=OUT/'assets'/src.name
+    if not dst.exists() or dst.stat().st_mtime<src.stat().st_mtime: shutil.copyfile(src,dst)
+   m['videoPath']='assets/'+(ROOT/m['path']).name;m['webPath']='assets/'+(ROOT/m['poster']).name
+   with Image.open(ROOT/m['poster']) as im2: m['width'],m['height']=im2.size
+   continue
   source=ROOT/m['path'];target=(OUT/'assets'/source.name).with_suffix('.jpg')
   if not target.exists() or target.stat().st_mtime<source.stat().st_mtime:
    with Image.open(source) as im:

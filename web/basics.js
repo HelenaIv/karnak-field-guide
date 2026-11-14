@@ -304,7 +304,7 @@ function bsLife() {
 }
 function bsAfter() {
   const a = bsData().after;
-  return `${bsHead('After the pharaohs', a.intro)}<section class="section bs" style="padding-top:0"><ol class="bs-after">${a.events.map(e => `<li><span class="bs-after-date">${esc(e.date)}</span><div><p>${fmt(e.text)}</p>${e.mediaId ? bsFig(e.mediaId) : ''}</div></li>`).join('')}</ol>${sourcesBlock(a.citations)}</section>`;
+  return `${bsHead('After the pharaohs', a.intro)}<section class="section bs" style="padding-top:0"><ol class="bs-after">${a.events.map(e => `<li><span class="bs-after-date">${esc(e.date)}</span><div><p>${fmt(e.text)}</p>${e.mediaId ? bsFig(e.mediaId) : ''}${e.videoId ? videoFig(media[e.videoId]) : ''}</div></li>`).join('')}</ol>${sourcesBlock(a.citations)}</section>`;
 }
 // ---------- Rituals and festivals ----------
 const BS_FEST_COL = { newyear: '#3f6b8a', mut: '#9a4f6b', opet: '#b07a2e', khoiak: '#4f7a4a', valley: '#7a5c99' };
