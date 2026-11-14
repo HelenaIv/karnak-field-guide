@@ -643,7 +643,10 @@
   "Removed or lost": "Розібране або втрачене",
   "Built later": "Збудоване пізніше",
   "Colour shows who built it": "Колір показує, хто збудував",
-  "Show this step": "Показати цей крок"
+  "Show this step": "Показати цей крок",
+  "Built at Karnak:": "Збудував у Карнаку:",
+  "Show on the plan →": "Показати на плані →",
+  "No builder from this period is featured in this guide.": "Будівничих цього періоду в путівнику не представлено."
  },
  "patterns": [
   [

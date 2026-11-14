@@ -276,17 +276,28 @@ function bsHome() {
   <section class="section" style="padding-top:0"><div class="bs-cards">${f.pages.map(p => { const m = media[pic[p.id]]; return `<a class="bs-card" href="${p.link || '#basics/' + p.id}">${m ? `<span class="bs-card-img"><img src="${esc(m.webPath || m.path)}" alt="" loading="lazy"></span>` : ''}<b>${esc(p.title)}</b><span>${esc(p.teaser)}</span></a>`; }).join('')}</div></section>`;
 }
 function bsTimeline() {
-  const t = bsData().timeline, min = -2150, max = 400, pct = y => ((y - min) / (max - min) * 100).toFixed(2);
+  // WHEN and WHO: Egypt's history periods and the kings who built at Karnak. The plan page shows WHERE.
+  const t = bsData().timeline, min = -2150, max = 400, span = max - min;
   const yr = y => y < 0 ? `${-y} BC` : `AD ${y}`;
-  const bar = t.periods.map(p => `<button class="tl-seg" data-scroll="tl-${p.id}" style="left:${pct(p.from)}%;width:${(pct(p.to) - pct(p.from)).toFixed(2)}%;--c:${bsEra(p.era).colour}" title="${esc(p.label)}"><span>${esc(p.label)}</span></button>`).join('');
-  const ticks = [-2000, -1500, -1000, -500, 0, 400].map(y => `<span class="tl-tick" style="left:${pct(y)}%">${y === 0 ? '1 BC | AD 1' : yr(y)}</span>`).join('');
-  const marks = t.kings.map(k => { const y = -parseInt(k.date); return `<a class="tl-mark" href="#tl-k-${esc(k.king)}" style="left:${pct(y)}%" title="${esc(bsKing(k.king)?.name || k.king)}"></a>`; }).join('');
-  const card = k => { const kg = bsKing(k.king) || { name: k.king }; const m = k.mediaId && media[k.mediaId]; return `<article class="tl-king" id="tl-k-${esc(k.king)}">${m ? `<button class="tl-img" data-zoom="${esc(m.id)}" aria-label="Enlarge image"><img src="${esc(m.webPath || m.path)}" alt="${esc(m.alt)}" loading="lazy"></button>` : ''}<div><span class="micro">${esc(k.date)}</span><h3>${esc(kg.name)}</h3>${kg.birth ? `<div class="tl-cart">${cartouche(kg.birth)}</div>` : ''}<p>${esc(k.built)}</p><a class="mu-stop" href="#basics/plan/${k.step}">See it on the plan →</a>${m ? credit(m) : ''}</div></article>`; };
+  const strip = t.periods.map(p => `<button class="tl-seg" data-scroll="tl-${p.id}" data-tl="${p.id}" style="flex-grow:${p.to - p.from};--c:${bsEra(p.era).colour}" aria-label="${esc(p.label)}, ${yr(p.from)} – ${yr(p.to)}"><span>${esc(p.label)}</span></button>`).join('');
+  const ticks = [-2000, -1500, -1000, -500, 1].map(y => `<span style="left:${((y - min) / span * 100).toFixed(1)}%">${y === 1 ? 'AD 1' : yr(y)}</span>`).join('');
+  const card = k => { const kg = bsKing(k.king) || { name: k.king }; const m = k.mediaId && media[k.mediaId];
+    return `<li class="tl-king" id="tl-k-${esc(k.king)}"><span class="tl-kdate">${esc(k.date)}</span><div class="tl-kbody">${m ? `<button class="tl-img" data-zoom="${esc(m.id)}" aria-label="Enlarge image"><img src="${esc(m.webPath || m.path)}" alt="${esc(m.alt)}" loading="lazy"></button>` : ''}<div><h3>${esc(kg.name)}</h3>${kg.birth ? `<div class="tl-cart">${cartouche(kg.birth)}</div>` : ''}<p><b>Built at Karnak:</b> ${esc(k.built)}</p><a class="tl-plan" href="#basics/plan/${k.step}">Show on the plan →</a>${m ? credit(m) : ''}</div></div></li>`; };
   return `${bsHead('Timeline and kings', t.intro)}
-  <section class="section bs" style="padding-top:0"><div class="tl-bar">${bar}${marks}</div><div class="tl-ticks">${ticks}</div>
-  ${t.periods.map(p => { const ks = t.kings.filter(k => k.period === p.id); return `<div class="tl-period" id="tl-${p.id}" style="--c:${bsEra(p.era).colour}"><div class="tl-phead"><span class="micro">${yr(p.from)} – ${yr(p.to)}</span><h2>${esc(p.label)}</h2><p>${fmt(p.text)}</p></div>${ks.length ? `<div class="tl-kings">${ks.map(card).join('')}</div>` : ''}</div>`; }).join('')}
-  <p class="micro">Dates are approximate and follow the Digital Karnak project; other books give slightly different reign dates. Cartouches show each king’s birth name; see <a href="#read/names" style="text-decoration:underline">Royal names</a> for both names.</p>
-  ${sourcesBlock(t.citations)}</section>`;
+  <section class="section bs tl2" style="padding-top:0">
+   <div class="tl-sticky"><div class="tl-strip">${strip}</div><div class="tl-ticks2">${ticks}</div><p class="tl-now micro"></p></div>
+   ${t.periods.map(p => { const ks = t.kings.filter(k => k.period === p.id); return `<section class="tl-period" id="tl-${p.id}" data-tl="${p.id}" style="--c:${bsEra(p.era).colour}"><div class="tl-phead"><span class="tl-years">${yr(p.from)} – ${yr(p.to)}</span><h2>${esc(p.label)}</h2><p>${fmt(p.text)}</p></div>${ks.length ? `<ol class="tl-kings2">${ks.map(card).join('')}</ol>` : `<p class="micro tl-none">No builder from this period is featured in this guide.</p>`}</section>`; }).join('')}
+   <p class="micro">Dates are approximate and follow the Digital Karnak project; other books give slightly different reign dates. Cartouches show each king’s birth name; see <a href="#read/names" style="text-decoration:underline">Royal names</a> for both names.</p>
+   ${sourcesBlock(t.citations)}</section>`;
+}
+function bsTimelineWatch() {
+  const secs = [...document.querySelectorAll('.tl-period')]; if (!secs.length || typeof IntersectionObserver === 'undefined') return;
+  const t = bsData().timeline, yr = y => y < 0 ? `${-y} BC` : `AD ${y}`;
+  const range = p => window.KARNAK_LANG === 'uk' ? (p.to < 0 ? `${-p.from}–${-p.to} до н. е.` : `${-p.from} до н. е. – ${p.to} н. е.`) : `${yr(p.from)} – ${yr(p.to)}`;
+  const set = id => { const p = t.periods.find(x => x.id === id); if (!p) return; document.querySelectorAll('.tl-seg').forEach(b => b.classList.toggle('on', b.dataset.tl === id)); const n = document.querySelector('.tl-now'); if (n) n.innerHTML = `<b>${esc(p.label)}</b><span> · ${range(p)}</span>`; };
+  set(secs[0].dataset.tl);
+  const io = new IntersectionObserver(es => { es.filter(e => e.isIntersecting).forEach(e => set(e.target.dataset.tl)); }, { rootMargin: '-35% 0px -60% 0px' });
+  secs.forEach(s => io.observe(s));
 }
 function bsGods() {
   const g = bsData().gods;
@@ -459,6 +470,7 @@ function basicsRoute(sub, arg) {
 }
 function basicsAfterRender() {
   if (document.querySelector('.bp-svg-wrap')) bsRenderPlan();
+  if (document.querySelector('.tl2')) bsTimelineWatch();
   document.querySelectorAll('.bs-stepper').forEach(b => bsSetStep(b, 0));
 }
 function basicsInteract(e) {

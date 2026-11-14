@@ -73,12 +73,12 @@
     {
       "id": "plan",
       "title": "How the temple grew",
-      "teaser": "A plan you can play: 2,000 years of building, gateway by gateway. Or colour it by builder."
+      "teaser": "Where: watch the temple grow on its plan, step by step, coloured by who built each part."
     },
     {
       "id": "timeline",
       "title": "Timeline and kings",
-      "teaser": "Who built what, and when, from Senusret I to the Ptolemies."
+      "teaser": "When and who: the periods of Egyptian history and the kings who built at Karnak."
     },
     {
       "id": "gods",
@@ -620,7 +620,7 @@
     ]
   },
   "timeline": {
-    "intro": "Karnak was built, pulled down and rebuilt for about 2,000 years. Almost every building was paid for by a king, and carries his name. Tap a period to see who built what.",
+    "intro": "When, and who: the periods of Egyptian history and the kings who built at Karnak. The bar at the top is time, drawn to scale; it follows you as you scroll. To see where each building stands, open How the temple grew.",
     "periods": [
       {
         "id": "early",
