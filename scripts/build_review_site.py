@@ -61,4 +61,12 @@ payload=json.dumps(content,ensure_ascii=False)
 (OUT/'data.js').write_text('window.KARNAK_DATA='+payload+';\n',encoding='utf-8')
 stops=sum(len(g.get('stops',[])) for g in content['guides'])
 print(f'Built {len(content["chapters"])} chapters, {len(content["places"])} places, {len(content["guides"])} guide ({stops} stops) and {len(content["media"])} images in {OUT}')
+# Cache-busting: tag each CSS/JS reference with a short content hash so browsers load fresh files after every deploy.
+import hashlib
+_idx=OUT/'index.html';_html=_idx.read_text(encoding='utf-8')
+def _ver(m):
+ f=OUT/m.group(2)
+ return m.group(0) if not f.exists() else f'{m.group(1)}="{m.group(2)}?v={hashlib.sha1(f.read_bytes()).hexdigest()[:10]}"'
+_html=re.sub(r'(src|href)="([\w.-]+\.(?:js|css))"',_ver,_html)
+_idx.write_text(_html,encoding='utf-8')
 print(f'Open {OUT/"index.html"} in a browser.')
