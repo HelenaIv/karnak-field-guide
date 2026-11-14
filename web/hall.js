@@ -28,7 +28,7 @@ function hallPlan(g, current, compact = false) {
   const stops = g.stops;
   const cur = stops.find(s => s.id === current);
   const start = hallState.last && stops.find(s => s.id === hallState.last) || cur;
-  const pins = stops.map(s => `<a href="#hall/${esc(s.id)}" class="pin${s.id === current ? ' current' : ''}" aria-label="Stop ${s.number}: ${esc(s.title)}"><circle cx="${s.position.x}" cy="${s.position.y}" r="12"/><text x="${s.position.x}" y="${s.position.y + 4}">${s.number}</text></a>`).join('');
+  const pins = stops.map(s => `<a href="#hall/${esc(s.id)}" class="pin${s.id === current ? ' current' : ''}" aria-label="Stop ${s.number}: ${esc(s.title)}"><circle cx="${s.position.x}" cy="${s.position.y}" r="22"/><text x="${s.position.x}" y="${s.position.y + 8}">${s.number}</text></a>`).join('');
   const marker = cur ? `<g id="hall-marker" class="marker" data-x="${cur.position.x}" data-y="${cur.position.y}" data-r="${FACING[cur.facing] ?? 0}" data-jump="${start && start.zone !== cur.zone ? 1 : 0}" style="transform:translate(${start.position.x}px,${start.position.y}px)"><g class="marker-dir" style="transform:rotate(${FACING[start.facing] ?? 0}deg)"><path d="M0 0L58 -24A62 62 0 0 1 58 24Z" class="view-cone"/></g><circle r="9" class="you"/></g>` : '';
   return `<figure class="hall-plan${compact ? ' compact' : ''}"><svg viewBox="0 0 720 820" role="img" aria-label="Schematic plan of the Great Hypostyle Hall with ${stops.length} numbered viewing areas${cur ? '; current stop ' + cur.number + ', facing ' + cur.facing : ''}">
   <rect x="0" y="0" width="720" height="820" class="plan-ground"/>

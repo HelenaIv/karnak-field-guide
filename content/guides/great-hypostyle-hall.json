@@ -411,7 +411,7 @@
       "title": "Recognise a cartouche and a royal name",
       "zone": "interior",
       "position": {
-        "x": 215,
+        "x": 200,
         "y": 666
       },
       "facing": "south",
@@ -515,7 +515,7 @@
       "title": "Ramesses II purifies a statue of his father",
       "zone": "interior",
       "position": {
-        "x": 260,
+        "x": 250,
         "y": 666
       },
       "facing": "south",
