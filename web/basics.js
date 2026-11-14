@@ -416,7 +416,7 @@ function bsBarkSvg() {
 }
 function bsPuritySvg() {
   // A priest made pure: numbers match the list "Every day on duty".
-  const m = (n, x, y, tx, ty) => `<path d="M${x} ${y}L${tx} ${ty}" stroke="#26302a" stroke-width="1.5"/><circle cx="${x}" cy="${y}" r="12" fill="#26302a"/><text x="${x}" y="${y + 4.5}" text-anchor="middle" style="font:700 13px system-ui,sans-serif;fill:#fff">${n}</text>`;
+  const m = (n, x, y, tx, ty) => `<path d="M${x} ${y}L${tx} ${ty}" stroke="#26302a" stroke-width="1.5"/><rect x="${x - 12}" y="${y - 12}" width="24" height="24" rx="3" fill="#26302a"/><text x="${x}" y="${y + 4.5}" text-anchor="middle" style="font:700 13px system-ui,sans-serif;fill:#fff">${n}</text>`;
   return `<svg viewBox="0 0 360 300" role="img" aria-label="A shaven priest in white linen, with water poured over him">
   <rect width="360" height="300" fill="#f3ead6"/><rect y="280" width="360" height="20" fill="#e3d2ac"/>
   <g transform="translate(-6 22) rotate(38 132 30)"><path d="M118 12h28l4 10v20c0 7-7 11-18 11s-18-4-18-11V22Z" fill="#a5834f" stroke="#5d4a2c" stroke-width="2"/></g>
@@ -431,7 +431,7 @@ function bsPuritySvg() {
 function bsWomenSvg() {
   // Three roles of women in Amun's temple; numbers match the cards.
   const fig = (x, extra) => `<path d="M${x - 15} 92q0-20 17-19q10 1 9 9l-14 6v28h-12Z" fill="#26302a"/><circle cx="${x + 3}" cy="96" r="12" fill="#b07a4f"/><circle cx="${x + 9}" cy="93" r="1.8" fill="#26302a"/><path d="M${x - 12} 112h24l12 128h-48Z" fill="#fbfaf4" stroke="#c9b48a" stroke-width="2"/>${extra}`;
-  const m = (n, x) => `<circle cx="${x}" cy="270" r="12" fill="#26302a"/><text x="${x}" y="274.5" text-anchor="middle" style="font:700 13px system-ui,sans-serif;fill:#fff">${n}</text>`;
+  const m = (n, x) => `<rect x="${x - 12}" y="258" width="24" height="24" rx="3" fill="#26302a"/><text x="${x}" y="274.5" text-anchor="middle" style="font:700 13px system-ui,sans-serif;fill:#fff">${n}</text>`;
   return `<svg viewBox="0 0 420 290" role="img" aria-label="Three women serving in the temple: a God’s Wife with a tall crown, a singer with a rattle, and a dancer">
   <rect width="420" height="290" fill="#f3ead6"/><rect y="244" width="420" height="46" fill="#e3d2ac"/>
   ${fig(80, `<path d="M72 82l4-38h8l4 38Z" fill="#c9a46a" stroke="#5d4a2c"/><path d="M80 44v-30M86 44v-28" stroke="#5d4a2c" stroke-width="3"/><path d="M92 128l26 8" stroke="#b07a4f" stroke-width="7" stroke-linecap="round"/><circle cx="122" cy="137" r="5" fill="#e2b84a"/>`)}

@@ -29,15 +29,15 @@ function diagram(kind) { if(kind==='relief') return `<div class="demo" id="relie
 function placeCourtPlan() {
   // Great Court plan, using the temple plan geometry (BS_GEO in basics.js). Numbers match the sections.
   const sh = (id, c) => BS_GEO[id] ? `<g class="cp-el" style="--c:${c}">${BS_GEO[id]()}</g>` : '';
-  const n = (k, x, y) => `<g class="cp-n"><circle cx="${x}" cy="${y}" r="5.5"/><text x="${x}" y="${y + 2.3}">${k}</text></g>`;
+  const n = (k, x, y, sec) => `<a class="cp-n" href="${sec.startsWith('#') ? sec : '#' + sec}"${sec.startsWith('#') ? '' : ` data-scroll="${sec}"`} aria-label="${k}"><circle cx="${x}" cy="${y}" r="6"/><text x="${x}" y="${y + 2.3}">${k}</text></a>`;
   return `<figure class="pg-draw"><svg viewBox="-14 -66 140 168" role="img" aria-label="Plan of the Great Court with numbered features">
   <rect x="-14" y="-66" width="140" height="168" fill="#efe7d4"/><path class="bp-axis" d="M-14 0H126"/>
   ${sh('great-court', '#b07a2e')}${sh('pylon1', '#8e7d5c')}${sh('pylon2', '#8a5a2b')}${sh('kiosk', '#b07a2e')}${sh('sety2-shrine', '#2e7048')}${sh('r3-temple', '#2f7f8f')}${sh('bubastite', '#7a5c99')}
   <rect class="cp-ramp" x="15.5" y="-50" width="5" height="44"/>
   <circle class="cp-col" cx="111" cy="-10" r="2.4"/>
-  ${n(1, 65, -16)}${n(2, 28, -56)}${n(3, 64, 99 - 8)}${n(4, 100.5, 62)}${n(5, 111, -20)}${n(6, 26, -28)}
+  ${n(1, 65, -16, 'section-2')}${n(2, 28, -56, 'section-3')}${n(3, 64, 99 - 8, 'section-3')}${n(4, 100.5, 62, 'section-4')}${n(5, 111, -20, 'section-5')}${n(6, 26, -28, '#entry/first-pylon')}
   <g class="cp-t"><text x="-11" y="-58">WEST</text><text x="122" y="-58" text-anchor="end">EAST</text></g>
-  </svg><figcaption class="micro">Schematic plan, west on the left. 1 Taharqo’s kiosk · 2 Sety II’s bark shrine · 3 Ramesses III’s bark temple · 4 Bubastite Portal · 5 colossus of Ramesses II (position approximate) · 6 building ramp. I and II: First and Second Pylons.</figcaption></figure>`;
+  </svg><figcaption class="micro">Schematic plan, west on the left. 1 Taharqo’s kiosk · 2 Sety II’s bark shrine · 3 Ramesses III’s bark temple · 4 Bubastite Portal · 5 colossus of Ramesses II (position approximate) · 6 building ramp. I and II: First and Second Pylons. Tap a number to jump to it.</figcaption></figure>`;
 }
 function placeDrawing(id) {
   if (id === 'court-plan') return placeCourtPlan();

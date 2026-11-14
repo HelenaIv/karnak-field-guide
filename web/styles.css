@@ -361,3 +361,7 @@ a.term{border-bottom:1px dotted var(--gold);color:inherit;text-decoration:none!i
 .cp-ramp{fill:#8b7355;fill-opacity:.55;stroke:#5d4a2c;stroke-width:.4;stroke-dasharray:1.5 1}.cp-col{fill:#5d4a2c}
 .cp-n circle{fill:#26302a;stroke:#fff;stroke-width:.6}.cp-n text{font:700 6.2px Arial,sans-serif;fill:#fff;text-anchor:middle}.cp-t text{font:5px Arial,sans-serif;fill:#7d7a68}
 .pg-more{font:13px Arial,sans-serif;margin:-6px 0 20px}.pg-draw svg[viewBox^="-14 -66"]{max-width:520px;margin:0 auto}
+/* Visual language: gold ring = tap me; dark square = label only */
+.cp-n{cursor:pointer}.cp-n circle{fill:var(--gold);stroke:#fff;stroke-width:1;filter:drop-shadow(0 0 1.6px rgba(181,138,77,.9))}.cp-n:hover circle{fill:#9a7238}.cp-n text{fill:#fff}
+.sm-mark circle{fill:var(--gold);stroke:#fff;stroke-width:.9;filter:drop-shadow(0 0 2px rgba(181,138,77,.9))}.sm-mark:hover circle{fill:#9a7238}
+.sm-card .sm-n,.rt-n{border-radius:3px}
