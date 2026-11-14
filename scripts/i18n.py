@@ -46,7 +46,7 @@ def strings(obj, rel, path='', key=None, live=False):
     """Yield (path, text) for every translatable string."""
     keys = MEDIA_KEYS if rel.name == 'media.json' else KEYS
     if isinstance(obj, str):
-        if live and re.search(r'[A-Za-z]', obj) and not re.fullmatch(r'[a-z0-9]+(-[a-z0-9]+)*', obj) and not obj.startswith(('http', '#', 'assets/')):
+        if live and re.search(r'[A-Za-z]', obj) and not (re.fullmatch(r'[a-z0-9]+(-[a-z0-9]+)*', obj) and ('-' in obj or key in ('kings', 'king', 'places', 'details', 'stops'))) and not obj.startswith(('http', '#', 'assets/')):
             yield path, obj
     elif isinstance(obj, list):
         for i, x in enumerate(obj):

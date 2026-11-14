@@ -84,8 +84,11 @@ function alphabetPage() {
   <div class="name-tool"><h2>Write a name in hieroglyphs</h2><p class="micro">${esc(a.nameTool.note)}</p><label for="name-input">Your name</label><input id="name-input" type="text" maxlength="24" placeholder="e.g. Helena" autocomplete="off"><div id="name-out" class="name-out" aria-live="polite"></div></div>
   ${sourcesBlock(a.citations)}</section>`;
 }
+// Cyrillic names are transliterated to Latin first (close to the official Ukrainian system), so the tool works for Ukrainian names too.
+const CYR = {'а':'a','б':'b','в':'v','г':'h','ґ':'g','д':'d','е':'e','є':'ye','ж':'zh','з':'z','и':'y','і':'i','ї':'yi','й':'y','к':'k','л':'l','м':'m','н':'n','о':'o','п':'p','р':'r','с':'s','т':'t','у':'u','ф':'f','х':'kh','ц':'ts','ч':'ch','ш':'sh','щ':'shch','ь':'','ю':'yu','я':'ya','ы':'y','э':'e','ё':'yo','ъ':''};
+const cyr2lat = t => t.replace(/[а-яіїєґёыэъ]/g, c => CYR[c] ?? '');
 function writeName(v) {
-  const a = RD().alphabet, map = a.nameTool.glyphs, s = (v || '').toLowerCase().replace(/[^a-z]/g, ''); const out = [];
+  const a = RD().alphabet, map = a.nameTool.glyphs, s = cyr2lat((v || '').toLowerCase()).replace(/[^a-z]/g, ''); const out = [];
   for (let i = 0; i < s.length;) { const two = s.slice(i, i + 2); if (map[two]) { out.push(map[two].join('')); i += 2; } else { if (map[s[i]]) out.push(map[s[i]].join('')); i += 1; } }
   return out.length ? `<span class="cartouche" lang="egy">${out.map(esc).join('')}</span>` : '';
 }
