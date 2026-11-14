@@ -657,7 +657,21 @@
   "doorway 27.5 m": "прохід 27,5 м",
   "113 m wide": "ширина 113 м",
   "person": "людина",
-  "Front of the First Pylon to scale: the south tower is taller than the north tower, and both stop well below the planned height": "Фасад Першого пілона в масштабі: південна вежа вища за північну, і обидві значно нижчі за заплановану висоту"
+  "Front of the First Pylon to scale: the south tower is taller than the north tower, and both stop well below the planned height": "Фасад Першого пілона в масштабі: південна вежа вища за північну, і обидві значно нижчі за заплановану висоту",
+  "Find your way around.": "Зорієнтуйтеся.",
+  "The precinct of Amun on one map. Tap an area to zoom in, then a numbered place to see what it is. Every place has its own page.": "Священна ділянка Амона на одній мапі. Торкніться зони, щоб наблизити її, а потім пронумерованого місця, щоб дізнатися, що це. Кожне місце має власну сторінку.",
+  "Tap a building or an area on the map.": "Торкніться споруди або зони на мапі.",
+  "Tap a numbered place.": "Торкніться пронумерованого місця.",
+  "Open the page →": "Відкрити сторінку →",
+  "position approximate": "розташування приблизне",
+  "Where it is": "Де це",
+  "Open the map of Karnak →": "Відкрити мапу Карнака →",
+  "Open Air Museum": "Музей просто неба",
+  "Nile side": "бік Нілу",
+  "↓ to Mut and Luxor": "↓ до Мут і Луксора",
+  "north wall": "північна стіна",
+  "Schematic map, not to scale; west is on the left. The temple’s own west–east axis is drawn horizontally. Places marked with a dashed outline are shown in their approximate position only.": "Схематична мапа, не в масштабі; захід ліворуч. Власну вісь храму захід–схід показано горизонтально. Місця з пунктирним контуром показано лише в приблизному розташуванні.",
+  "Map of the precinct of Amun at Karnak, west on the left": "Мапа священної ділянки Амона в Карнаку, захід ліворуч"
  },
  "patterns": [
   [

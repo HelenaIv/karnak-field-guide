@@ -18,7 +18,7 @@ LANG='en'
 def read(path):
  data=json.loads(Path(path).read_text(encoding='utf-8'))
  return i18n.localized(path,data) if LANG=='uk' else data
-for name in ['index.html','app.js','hall.js','columns.js','read.js','universe.js','basics.js','styles.css','i18n.js']:
+for name in ['index.html','app.js','hall.js','columns.js','read.js','universe.js','basics.js','sitemap.js','styles.css','i18n.js']:
  shutil.copyfile(ROOT/'web'/name,OUT/name)
 import re, unicodedata
 fontsrc=ROOT/'assets/fonts'
