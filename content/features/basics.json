@@ -1,0 +1,1236 @@
+{
+  "id": "basics",
+  "type": "feature",
+  "status": "draft-checked",
+  "title": "The big picture",
+  "dek": "The background that makes the rest of Karnak make sense: how the temple grew, who built it, which gods lived here, how it was built and what happened to it.",
+  "eras": [
+    {
+      "id": "mk",
+      "label": "Middle Kingdom",
+      "short": "Middle Kingdom",
+      "colour": "#7a5c99"
+    },
+    {
+      "id": "e18",
+      "label": "Early 18th Dynasty",
+      "short": "Early 18th Dyn.",
+      "colour": "#2f7f8f"
+    },
+    {
+      "id": "hat",
+      "label": "Hatshepsut",
+      "short": "Hatshepsut",
+      "colour": "#c0587e"
+    },
+    {
+      "id": "t3",
+      "label": "Thutmose III",
+      "short": "Thutmose III",
+      "colour": "#b5452c"
+    },
+    {
+      "id": "l18",
+      "label": "Later 18th Dynasty",
+      "short": "Later 18th Dyn.",
+      "colour": "#d98c1f"
+    },
+    {
+      "id": "ram",
+      "label": "Ramesside kings",
+      "short": "Ramesside",
+      "colour": "#2e7048"
+    },
+    {
+      "id": "tip",
+      "label": "Libyan and Kushite kings",
+      "short": "Libyan & Kushite",
+      "colour": "#8a9a2b"
+    },
+    {
+      "id": "late",
+      "label": "Last native kings",
+      "short": "30th Dynasty",
+      "colour": "#3f6fb0"
+    },
+    {
+      "id": "ptol",
+      "label": "Macedonian and Ptolemaic kings",
+      "short": "Ptolemaic",
+      "colour": "#8b6a3e"
+    }
+  ],
+  "pages": [
+    {
+      "id": "plan",
+      "title": "How the temple grew",
+      "teaser": "A plan you can play: 2,000 years of building, gateway by gateway. Or colour it by builder."
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline and kings",
+      "teaser": "Who built what, and when, from Senusret I to the Ptolemies."
+    },
+    {
+      "id": "gods",
+      "title": "Amun, Mut and Khonsu",
+      "teaser": "Why a local god became king of the gods, and how to recognise his family on the walls."
+    },
+    {
+      "id": "building",
+      "title": "How it was built",
+      "teaser": "Quarries, boats, mud-brick ramps, obelisks, and old temples hidden inside new ones."
+    },
+    {
+      "id": "thebes",
+      "title": "Karnak in Thebes",
+      "teaser": "The city, the river and the other temples: where Karnak fits."
+    },
+    {
+      "id": "life",
+      "title": "A day and a year",
+      "teaser": "The morning ritual, festival processions and the god’s household."
+    },
+    {
+      "id": "universe",
+      "title": "The temple as a model of the world",
+      "teaser": "Why the floor rises, the roof drops and the light fades as you walk in.",
+      "link": "#universe"
+    },
+    {
+      "id": "after",
+      "title": "After the pharaohs",
+      "teaser": "Closure, churches, sand, rediscovery and the people who put it back together."
+    }
+  ],
+  "growth": {
+    "intro": "Drag the slider or step through. Each step shows what was built (outlined) and what was pulled down (dashed). Tap any building for details.",
+    "steps": [
+      {
+        "id": "senusret",
+        "date": "c. 1950 BC",
+        "label": "Senusret I",
+        "era": "mk",
+        "kings": [
+          "senusret-i"
+        ],
+        "text": "The story starts with a limestone temple for Amun-Ra built by Senusret I, probably on the site of smaller earlier shrines. It had a pillared porch with statues of the king as Osiris, and an inner room where Amun’s statue stood in a shrine on a calcite stand. The king’s White Chapel stood somewhere outside it."
+      },
+      {
+        "id": "amenhotep-i",
+        "date": "c. 1520 BC",
+        "label": "Amenhotep I",
+        "era": "e18",
+        "kings": [
+          "amenhotep-i"
+        ],
+        "text": "The first kings of the New Kingdom started adding in front of the old temple. Amenhotep I lined its forecourt with chapels and storerooms, set up a calcite shrine for the god’s boat, and built a gateway at the west door."
+      },
+      {
+        "id": "thutmose-i",
+        "date": "c. 1500 BC",
+        "label": "Thutmose I",
+        "era": "e18",
+        "kings": [
+          "thutmose-i"
+        ],
+        "text": "Thutmose I gave the temple its first stone gateways that still stand: the Fourth and Fifth Pylons, with stone walls round the core. Between them he built a hall for statues of himself as Osiris, and in front of the Fourth Pylon, then the main entrance, he set up two granite obelisks."
+      },
+      {
+        "id": "thutmose-ii",
+        "date": "c. 1490 BC",
+        "label": "Thutmose II",
+        "era": "e18",
+        "kings": [],
+        "text": "Thutmose II pushed the front further west with a new pylon, creating a deep festival court around his father’s obelisks. This pylon was later pulled down, so it has no number in today’s system."
+      },
+      {
+        "id": "hatshepsut",
+        "date": "c. 1470 BC",
+        "label": "Hatshepsut",
+        "era": "hat",
+        "kings": [
+          "hatshepsut"
+        ],
+        "text": "Hatshepsut rebuilt the heart of the temple. She cleared Amenhotep I’s shrine and gateway, built a suite of rooms round the sanctuary (the “Palace of Maat”) with her quartzite Red Chapel for the god’s [[bark|boat]], and raised obelisks: a pair in her father’s hall, a pair for Thutmose II and a pair at the east end. To the south she built the Eighth Pylon, on the route towards the temples of Mut and Luxor."
+      },
+      {
+        "id": "thutmose-iii",
+        "date": "c. 1450 BC",
+        "label": "Thutmose III",
+        "era": "t3",
+        "kings": [
+          "thutmose-iii"
+        ],
+        "text": "Thutmose III changed the plan most. Behind the old temple he added a whole new temple, the Akhmenu, and walled it in. He added the Sixth Pylon, the Seventh Pylon on the southern route, a small temple on the east wall for people who could not go inside, and the Sacred Lake. He also took down Hatshepsut’s Red Chapel and replaced it with a granite shrine, and swapped Amenhotep I’s crumbling limestone chapels for sandstone ones."
+      },
+      {
+        "id": "amenhotep-iii",
+        "date": "c. 1370 BC",
+        "label": "Amenhotep III",
+        "era": "l18",
+        "kings": [
+          "amenhotep-iii",
+          "thutmose-iv"
+        ],
+        "text": "Amenhotep III tore down the whole festival court in front of the Fourth Pylon, with the pylon of Thutmose II and the chapels that stood there (among them the White Chapel and the Red Chapel blocks), and used them as fill for his new Third Pylon. He also began the Tenth Pylon in the south, but stopped after a few courses."
+      },
+      {
+        "id": "akhenaten",
+        "date": "c. 1350 BC",
+        "label": "Akhenaten",
+        "era": "l18",
+        "kings": [
+          "akhenaten"
+        ],
+        "text": "His son started as Amenhotep IV and built huge temples for the sun disk, the Aten, just east of Karnak, from small standard blocks called [[talatat]]. Then he changed his name to Akhenaten, attacked Amun, had his name and figure cut out of the walls, and left Thebes. The temple was closed."
+      },
+      {
+        "id": "horemheb",
+        "date": "c. 1310 BC",
+        "label": "Horemheb",
+        "era": "l18",
+        "kings": [
+          "horemheb"
+        ],
+        "text": "After Tutankhamun reopened the temples, Horemheb had Akhenaten’s buildings taken apart block by block and packed them into his own new pylons: the Second Pylon (the new front of the temple), the Ninth, and the Tenth, which he finished."
+      },
+      {
+        "id": "ramesside-hall",
+        "date": "c. 1290–1213 BC",
+        "label": "Sety I and Ramesses II",
+        "era": "ram",
+        "kings": [
+          "sety-i",
+          "ramesses-ii"
+        ],
+        "text": "Sety I filled the open space between the Second and Third Pylons with the Great [[hypostyle|Hypostyle]] Hall: 134 papyrus columns under a stone roof. Ramesses II finished its decoration, added his battle scenes on the south wall, and built a small temple at the east end for people to bring their prayers."
+      },
+      {
+        "id": "late-ramesside",
+        "date": "c. 1200–1155 BC",
+        "label": "Sety II and Ramesses III",
+        "era": "ram",
+        "kings": [
+          "sety-ii",
+          "ramesses-iii"
+        ],
+        "text": "In front of the Second Pylon, Sety II and Ramesses III built rest stops for the boats of Amun, Mut and Khonsu. In the south-west corner Ramesses III began a temple for Khonsu, the son of Amun and Mut."
+      },
+      {
+        "id": "shoshenq",
+        "date": "c. 930 BC",
+        "label": "Shoshenq I",
+        "era": "tip",
+        "kings": [
+          "shoshenq-i"
+        ],
+        "text": "Shoshenq I, a king of Libyan descent, closed the area in front of the Second Pylon with a great colonnaded court, swallowing the two boat shrines. On its south-east gate (the Bubastite Portal) he recorded his campaign into Palestine."
+      },
+      {
+        "id": "taharqo",
+        "date": "c. 680 BC",
+        "label": "Taharqo",
+        "era": "tip",
+        "kings": [
+          "taharqo"
+        ],
+        "text": "Taharqo, one of the Kushite kings from Nubia, put a giant kiosk of ten papyrus columns in the middle of the court and a building by the Sacred Lake with a deep well, which seems to have been meant to reach the waters of creation thought to flow under the ground."
+      },
+      {
+        "id": "nectanebo",
+        "date": "c. 370 BC",
+        "label": "Nectanebo I",
+        "era": "late",
+        "kings": [
+          "nectanebo-i"
+        ],
+        "text": "Nectanebo I, one of the last Egyptian-born kings, built the huge mud-brick wall that still surrounds the precinct, and started the First Pylon, the largest ever begun in Egypt. It was never finished."
+      },
+      {
+        "id": "ptolemaic",
+        "date": "c. 320–100 BC",
+        "label": "Philip Arrhidaeus and the Ptolemies",
+        "era": "ptol",
+        "kings": [
+          "philip-iii",
+          "ptolemy-viii"
+        ],
+        "text": "The Macedonian and Greek kings kept the temple going in Egyptian style. A granite shrine in the name of Philip Arrhidaeus, half-brother of Alexander the Great, replaced Thutmose III’s at the centre. Ptolemy III gave the Khonsu temple its tall gate (Bab el-Amara), and the temple of Opet was finished next to it."
+      }
+    ],
+    "elements": {
+      "mk-temple": {
+        "name": "Senusret I’s temple",
+        "era": "mk",
+        "from": 0,
+        "today": "Almost nothing left: a few granite door sills and a calcite stand in an empty square, the “Middle Kingdom court”.",
+        "link": "middle-kingdom-court",
+        "gone": true
+      },
+      "white-chapel": {
+        "name": "White Chapel",
+        "era": "mk",
+        "from": 0,
+        "to": 6,
+        "today": "Taken apart by Amenhotep III and packed into the Third Pylon. Rebuilt in the Open Air Museum. Its original position is uncertain; the plan shows a guess.",
+        "link": "white-chapel"
+      },
+      "am1-gate": {
+        "name": "Amenhotep I’s west gateway",
+        "era": "e18",
+        "from": 1,
+        "to": 2,
+        "today": "Gone: removed for Thutmose I’s Fourth Pylon.",
+        "link": null
+      },
+      "am1-shrine": {
+        "name": "Amenhotep I’s calcite boat shrine",
+        "era": "e18",
+        "from": 1,
+        "to": 4,
+        "today": "Moved, later reused in the Third Pylon; rebuilt in the Open Air Museum. Its exact first position is disputed.",
+        "link": "amenhotep-i-calcite"
+      },
+      "am1-chapels": {
+        "name": "Amenhotep I’s chapels",
+        "era": "e18",
+        "from": 1,
+        "to": 5,
+        "today": "Replaced in sandstone by Thutmose III.",
+        "link": null
+      },
+      "pylon4": {
+        "name": "Fourth Pylon",
+        "era": "e18",
+        "from": 2,
+        "today": "Standing, in ruins. With the Fifth Pylon, the oldest part of the temple still standing in place.",
+        "link": "fourth-pylon"
+      },
+      "pylon5": {
+        "name": "Fifth Pylon",
+        "era": "e18",
+        "from": 2,
+        "today": "Standing, in ruins.",
+        "link": "fifth-pylon"
+      },
+      "wadjet": {
+        "name": "Hall between the Fourth and Fifth Pylons (Wadjet Hall)",
+        "era": "e18",
+        "from": 2,
+        "today": "Ruined; many of Thutmose I’s Osiris statues still line it.",
+        "link": "wadjet-hall"
+      },
+      "th1-walls": {
+        "name": "Thutmose I’s stone walls round the core",
+        "era": "e18",
+        "from": 2,
+        "today": "Partly preserved.",
+        "link": "fourth-pylon"
+      },
+      "th1-obelisks": {
+        "name": "Obelisks of Thutmose I",
+        "era": "e18",
+        "from": 2,
+        "today": "One still stands, between the Third and Fourth Pylons.",
+        "link": null
+      },
+      "th2-pylon": {
+        "name": "Pylon of Thutmose II and his festival court",
+        "era": "e18",
+        "from": 3,
+        "to": 6,
+        "today": "Gone: pulled down by Amenhotep III. Its blocks were found inside the Third Pylon.",
+        "link": null
+      },
+      "th2-obelisks": {
+        "name": "Obelisks of Thutmose II (raised by Hatshepsut)",
+        "era": "hat",
+        "from": 4,
+        "to": 6,
+        "today": "Gone: their bases were later covered by the Third Pylon.",
+        "link": null
+      },
+      "hat-obelisks": {
+        "name": "Hatshepsut’s obelisks in the Wadjet Hall",
+        "era": "hat",
+        "from": 4,
+        "today": "The northern one still stands; part of the other lies near the Sacred Lake.",
+        "link": "hatshepsut-obelisks"
+      },
+      "hat-palace": {
+        "name": "Hatshepsut’s sanctuary rooms (“Palace of Maat”)",
+        "era": "hat",
+        "from": 4,
+        "today": "Partly preserved round the later granite shrine; her images there were later destroyed.",
+        "link": "central-bark-shrine"
+      },
+      "red-chapel": {
+        "name": "Red Chapel",
+        "era": "hat",
+        "from": 4,
+        "to": 5,
+        "today": "Taken down by Thutmose III; blocks later reused in the Third Pylon. Rebuilt in the Open Air Museum.",
+        "link": "red-chapel"
+      },
+      "hat-east-obelisks": {
+        "name": "Hatshepsut’s eastern obelisks",
+        "era": "hat",
+        "from": 4,
+        "today": "Mostly destroyed.",
+        "link": null,
+        "gone": true
+      },
+      "pylon8": {
+        "name": "Eighth Pylon",
+        "era": "hat",
+        "from": 4,
+        "today": "Standing, with decoration changed by later kings.",
+        "link": "eighth-pylon"
+      },
+      "akhmenu": {
+        "name": "Akhmenu, the festival temple of Thutmose III",
+        "era": "t3",
+        "from": 5,
+        "today": "Standing, partly roofless. Its tent-pole columns are unique.",
+        "link": "akhmenu"
+      },
+      "th3-walls": {
+        "name": "Thutmose III’s enclosure wall",
+        "era": "t3",
+        "from": 5,
+        "today": "Partly preserved.",
+        "link": null
+      },
+      "contra": {
+        "name": "Contra-temple (east)",
+        "era": "t3",
+        "from": 5,
+        "today": "Ruined. A place where people outside could approach the god.",
+        "link": "contra-temple"
+      },
+      "pylon6": {
+        "name": "Sixth Pylon",
+        "era": "t3",
+        "from": 5,
+        "today": "Low ruins.",
+        "link": "sixth-pylon"
+      },
+      "th3-chapels": {
+        "name": "Thutmose III’s sandstone chapels",
+        "era": "t3",
+        "from": 5,
+        "today": "Ruined.",
+        "link": null
+      },
+      "th3-shrine": {
+        "name": "Thutmose III’s granite boat shrine",
+        "era": "t3",
+        "from": 5,
+        "to": 14,
+        "today": "Replaced in the name of Philip Arrhidaeus.",
+        "link": "central-bark-shrine"
+      },
+      "th3-obelisks": {
+        "name": "Obelisks of Thutmose III",
+        "era": "t3",
+        "from": 5,
+        "today": "Gone.",
+        "link": null,
+        "gone": true
+      },
+      "pylon7": {
+        "name": "Seventh Pylon",
+        "era": "t3",
+        "from": 5,
+        "today": "Standing. North of it is the Cachette Court, where hundreds of buried statues were found in 1903.",
+        "link": "seventh-pylon"
+      },
+      "lake": {
+        "name": "Sacred Lake",
+        "era": "t3",
+        "from": 5,
+        "today": "Still holds water.",
+        "link": "sacred-lake"
+      },
+      "pylon3": {
+        "name": "Third Pylon",
+        "era": "l18",
+        "from": 6,
+        "today": "Standing, ruined. Emptied by 20th-century archaeologists, it gave back the White Chapel, the Red Chapel blocks and other buildings.",
+        "link": "third-pylon"
+      },
+      "pylon10": {
+        "name": "Tenth Pylon",
+        "era": "l18",
+        "from": 6,
+        "today": "Standing. Begun by Amenhotep III, finished by Horemheb.",
+        "link": "tenth-pylon"
+      },
+      "gem-pa-aten": {
+        "name": "Gem-pa-Aten, Akhenaten’s temple to the Aten",
+        "era": "l18",
+        "from": 7,
+        "to": 8,
+        "today": "Gone: dismantled by Horemheb. Its blocks (talatat) were found inside the Second, Ninth and Tenth Pylons.",
+        "link": "aten-temples"
+      },
+      "pylon2": {
+        "name": "Second Pylon",
+        "era": "l18",
+        "from": 8,
+        "today": "Standing; now the west end of the Great Hypostyle Hall.",
+        "link": "second-pylon"
+      },
+      "pylon9": {
+        "name": "Ninth Pylon",
+        "era": "l18",
+        "from": 8,
+        "today": "Standing. Thousands of Akhenaten’s talatat were found inside it.",
+        "link": "ninth-pylon"
+      },
+      "hypostyle": {
+        "name": "Great Hypostyle Hall",
+        "era": "ram",
+        "from": 9,
+        "today": "Standing; most of the roof has fallen.",
+        "link": "hypostyle-hall",
+        "hall": true
+      },
+      "r2-east": {
+        "name": "Ramesses II’s eastern temple (“Amun who hears prayers”)",
+        "era": "ram",
+        "from": 9,
+        "today": "Ruined.",
+        "link": null
+      },
+      "sety2-shrine": {
+        "name": "Sety II’s triple boat shrine",
+        "era": "ram",
+        "from": 10,
+        "today": "Standing, in the Great Court.",
+        "link": "sety-ii-shrine"
+      },
+      "r3-temple": {
+        "name": "Ramesses III’s boat temple",
+        "era": "ram",
+        "from": 10,
+        "today": "Standing, well preserved.",
+        "link": "ramesses-iii-temple"
+      },
+      "khonsu": {
+        "name": "Temple of Khonsu",
+        "era": "ram",
+        "from": 10,
+        "today": "Standing, well preserved.",
+        "link": "khonsu-temple"
+      },
+      "great-court": {
+        "name": "Great Court (Shoshenq I)",
+        "era": "tip",
+        "from": 11,
+        "today": "Standing: the first space you enter.",
+        "link": "great-court"
+      },
+      "bubastite": {
+        "name": "Bubastite Portal",
+        "era": "tip",
+        "from": 11,
+        "today": "Standing, with Shoshenq’s campaign reliefs.",
+        "link": "bubastite-portal"
+      },
+      "kiosk": {
+        "name": "Kiosk of Taharqo",
+        "era": "tip",
+        "from": 12,
+        "today": "One column still stands complete.",
+        "link": "taharqo-kiosk"
+      },
+      "edifice": {
+        "name": "Taharqo’s building by the lake",
+        "era": "tip",
+        "from": 12,
+        "today": "Ruined.",
+        "link": null
+      },
+      "pylon1": {
+        "name": "First Pylon",
+        "era": "late",
+        "from": 13,
+        "today": "Standing, unfinished; remains of mud-brick building ramps still lean against it.",
+        "link": "first-pylon"
+      },
+      "enclosure": {
+        "name": "Great enclosure wall",
+        "era": "late",
+        "from": 13,
+        "today": "Long stretches still stand.",
+        "link": null
+      },
+      "philip-shrine": {
+        "name": "Granite boat shrine of Philip Arrhidaeus",
+        "era": "ptol",
+        "from": 14,
+        "today": "Standing, at the centre of the temple.",
+        "link": "central-bark-shrine"
+      },
+      "bab-el-amara": {
+        "name": "Bab el-Amara gate",
+        "era": "ptol",
+        "from": 14,
+        "today": "Standing.",
+        "link": "bab-el-amara"
+      },
+      "opet": {
+        "name": "Temple of Opet",
+        "era": "ptol",
+        "from": 14,
+        "today": "Standing, under study and restoration.",
+        "link": "opet-temple"
+      }
+    },
+    "builtIntro": "The temple as it stands, coloured by the period that built each part, like a builder’s map. Dashed outlines are buildings that are gone. Tap any building.",
+    "note": "Original schematic plan for this guide. Sizes and positions are simplified; buildings whose position is unknown or disputed are placed approximately.",
+    "citations": [
+      {
+        "sourceId": "dk-development",
+        "locator": "I. Phase-by-phase summary of temple growth and change"
+      },
+      {
+        "sourceId": "dk-development",
+        "locator": "II. Discussion (Middle Kingdom court; central bark shrine; Thutmose I to Horemheb)"
+      },
+      {
+        "sourceId": "dk-introduction",
+        "locator": "Karnak in the early New Kingdom; Amarna period; Third Intermediate and Late periods"
+      },
+      {
+        "sourceId": "wikipedia-karnak",
+        "locator": "Fourth and Fifth Pylons the earliest part standing in situ; Nectanebo I First Pylon and walls"
+      }
+    ]
+  },
+  "timeline": {
+    "intro": "Karnak was built, pulled down and rebuilt for about 2,000 years. Almost every building was paid for by a king, and carries his name. Tap a period to see who built what.",
+    "periods": [
+      {
+        "id": "early",
+        "label": "Before",
+        "from": -2150,
+        "to": -1980,
+        "era": "mk",
+        "text": "Thebes was a small provincial town. When the Intef family of Thebes fought for the throne, around 2100 BC, they built a small temple for Amun-Ra here. It is known only from a few stones."
+      },
+      {
+        "id": "mk",
+        "label": "Middle Kingdom",
+        "from": -1980,
+        "to": -1650,
+        "era": "mk",
+        "text": "The Theban kings reunited Egypt. Senusret I built Amun a proper stone temple."
+      },
+      {
+        "id": "sip",
+        "label": "War with the Hyksos",
+        "from": -1650,
+        "to": -1550,
+        "era": "mk",
+        "text": "The country split again; foreign rulers, the Hyksos, held the north. Theban kings fought them for over thirty years and won under Ahmose. Amun got the credit."
+      },
+      {
+        "id": "nk",
+        "label": "New Kingdom",
+        "from": -1550,
+        "to": -1070,
+        "era": "t3",
+        "text": "Egypt’s empire years. Wealth from wars in Nubia and the Near East poured into Amun’s temple, and almost every king added to it. Most of what you see today dates from now."
+      },
+      {
+        "id": "tip",
+        "label": "Divided kingdom",
+        "from": -1070,
+        "to": -664,
+        "era": "tip",
+        "text": "Egypt broke into parts. High priests of Amun ruled the south from Thebes; Libyan and later Kushite kings built when they could."
+      },
+      {
+        "id": "late",
+        "label": "Late Period",
+        "from": -664,
+        "to": -332,
+        "era": "late",
+        "text": "Kings ruled from the north and built little at Karnak, until Nectanebo I’s huge wall and gateway."
+      },
+      {
+        "id": "ptol",
+        "label": "Greek kings",
+        "from": -332,
+        "to": -30,
+        "era": "ptol",
+        "text": "After Alexander the Great, Macedonian and Greek kings ruled as pharaohs and kept building in Egyptian style."
+      },
+      {
+        "id": "rom",
+        "label": "Roman Egypt",
+        "from": -30,
+        "to": 400,
+        "era": "ptol",
+        "text": "Tourists came to look. The temple faded; in AD 356 the emperor ordered pagan temples closed, and churches were built among the ruins."
+      }
+    ],
+    "kings": [
+      {
+        "king": "senusret-i",
+        "date": "1971–1926 BC",
+        "period": "mk",
+        "step": 0,
+        "built": "The first stone temple of Amun; the White Chapel."
+      },
+      {
+        "king": "amenhotep-i",
+        "date": "1525–1504 BC",
+        "period": "nk",
+        "step": 1,
+        "built": "Chapels and a calcite boat shrine in front of the old temple."
+      },
+      {
+        "king": "thutmose-i",
+        "date": "1504–1492 BC",
+        "period": "nk",
+        "step": 2,
+        "built": "Fourth and Fifth Pylons, a hall of Osiris statues, two obelisks.",
+        "mediaId": "basics-th1-obelisk"
+      },
+      {
+        "king": "hatshepsut",
+        "date": "1473–1458 BC",
+        "period": "nk",
+        "step": 4,
+        "built": "Red Chapel, sanctuary rooms, Eighth Pylon, at least four obelisks.",
+        "mediaId": "red-chapel-4c041022"
+      },
+      {
+        "king": "thutmose-iii",
+        "date": "1479–1425 BC",
+        "period": "nk",
+        "step": 5,
+        "built": "Akhmenu, Sixth and Seventh Pylons, Sacred Lake, granite boat shrine.",
+        "mediaId": "akhmenu-71604540"
+      },
+      {
+        "king": "thutmose-iv",
+        "date": "1401–1391 BC",
+        "period": "nk",
+        "step": 6,
+        "built": "A painted pillared court and a calcite shrine; a single obelisk at the east end."
+      },
+      {
+        "king": "amenhotep-iii",
+        "date": "1390–1352 BC",
+        "period": "nk",
+        "step": 6,
+        "built": "Third Pylon, filled with older chapels; began the Tenth Pylon."
+      },
+      {
+        "king": "akhenaten",
+        "date": "1352–1336 BC",
+        "period": "nk",
+        "step": 7,
+        "built": "Temples to the Aten east of Karnak; then closed Amun’s temple.",
+        "mediaId": "basics-talatat"
+      },
+      {
+        "king": "horemheb",
+        "date": "1323–1295 BC",
+        "period": "nk",
+        "step": 8,
+        "built": "Second, Ninth and Tenth Pylons, filled with Akhenaten’s blocks."
+      },
+      {
+        "king": "sety-i",
+        "date": "1294–1279 BC",
+        "period": "nk",
+        "step": 9,
+        "built": "The Great Hypostyle Hall and its north battle walls.",
+        "mediaId": "hypostyle-central-nave"
+      },
+      {
+        "king": "ramesses-ii",
+        "date": "1279–1213 BC",
+        "period": "nk",
+        "step": 9,
+        "built": "Finished the Hall; south battle walls; the eastern temple."
+      },
+      {
+        "king": "sety-ii",
+        "date": "1200–1194 BC",
+        "period": "nk",
+        "step": 10,
+        "built": "Triple boat shrine in front of the Second Pylon."
+      },
+      {
+        "king": "ramesses-iii",
+        "date": "1184–1153 BC",
+        "period": "nk",
+        "step": 10,
+        "built": "Boat temple in the Great Court; the Khonsu temple.",
+        "mediaId": "basics-khonsu-temple"
+      },
+      {
+        "king": "shoshenq-i",
+        "date": "945–924 BC",
+        "period": "tip",
+        "step": 11,
+        "built": "The Great Court and the Bubastite Portal.",
+        "mediaId": "great-court-ramesses-temple"
+      },
+      {
+        "king": "taharqo",
+        "date": "690–664 BC",
+        "period": "tip",
+        "step": 12,
+        "built": "The great kiosk in the court; a building with a well by the lake."
+      },
+      {
+        "king": "nectanebo-i",
+        "date": "380–362 BC",
+        "period": "late",
+        "step": 13,
+        "built": "The enclosure wall and the unfinished First Pylon.",
+        "mediaId": "karnak-first-pylon-front"
+      },
+      {
+        "king": "philip-iii",
+        "date": "323–317 BC",
+        "period": "ptol",
+        "step": 14,
+        "built": "The granite boat shrine at the centre of the temple."
+      },
+      {
+        "king": "ptolemy-viii",
+        "date": "170–116 BC",
+        "period": "ptol",
+        "step": 14,
+        "built": "Finished the Opet temple; rebuilt the eastern temple."
+      }
+    ],
+    "citations": [
+      {
+        "sourceId": "dk-introduction",
+        "locator": "Thebes and Karnak from the Old Kingdom to the Ptolemies"
+      },
+      {
+        "sourceId": "dk-development",
+        "locator": "Phase-by-phase summary with reign dates"
+      },
+      {
+        "sourceId": "wikipedia-karnak",
+        "locator": "Closure of pagan temples (AD 356) and churches among the ruins"
+      }
+    ]
+  },
+  "gods": {
+    "intro": "Karnak belonged to one god above all: Amun, “the Hidden One”. With his wife Mut and their son Khonsu he made up the [[theban-triad|Theban Triad]], the divine family of Thebes. Why these three, and why here?",
+    "rise": {
+      "heading": "How a local god became king of the gods",
+      "steps": [
+        {
+          "label": "A local god",
+          "date": "before 2000 BC",
+          "text": "Amun was a fairly obscure god before the Middle Kingdom, worshipped at Thebes, then a provincial town."
+        },
+        {
+          "label": "The Theban kings win",
+          "date": "c. 2050 BC",
+          "text": "The Intef family of Thebes fought their way to rule all Egypt. Their god had led them to victory, and their successors gave him a stone temple."
+        },
+        {
+          "label": "The second victory",
+          "date": "c. 1550 BC",
+          "text": "Theban kings drove out the Hyksos and reunited Egypt again. Amun’s reputation, and his temple, grew with every victory."
+        },
+        {
+          "label": "Amun-Ra, King of the Gods",
+          "date": "New Kingdom",
+          "text": "Amun was joined with the old sun god Ra of Heliopolis as Amun-Ra, “King of the Gods”. Kings went to Karnak to have their choice confirmed by him, and spent the wealth of their wars on his house."
+        },
+        {
+          "label": "The break",
+          "date": "c. 1350 BC",
+          "text": "Akhenaten turned against Amun, cut out his name and closed his temple. It lasted a few years. Afterwards Amun’s figures were carved back in; you can still spot the repairs."
+        },
+        {
+          "label": "God as ruler",
+          "date": "after 1070 BC",
+          "text": "When Egypt split, Amun himself was treated as the supreme authority. Decisions were put to him through oracles at Karnak."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "hall-amun",
+          "locator": "Amun, the Hidden One; obscure before the Middle Kingdom; merged with Re; titles"
+        },
+        {
+          "sourceId": "dk-introduction",
+          "locator": "First Intermediate Period; Second Intermediate Period; Amarna; Third Intermediate Period"
+        }
+      ]
+    },
+    "gods": [
+      {
+        "id": "amun",
+        "name": "Amun (Amun-Ra)",
+        "role": "Father. King of the gods.",
+        "look": [
+          "Tall double plume crown, often with a ribbon hanging behind",
+          "Blue skin (red in older scenes): the colour of fertile Nile soil",
+          "Short kilt and a corselet with straps; a staff and an ankh",
+          "Sometimes as Amun-Kamutef: wrapped tight like a mummy, one arm raised"
+        ],
+        "home": "The main temple, the Precinct of Amun-Ra: where you are.",
+        "mediaId": "basics-bark-shrine-relief",
+        "caption": "Amun with his tall plumes, on the granite boat shrine at the centre of the temple."
+      },
+      {
+        "id": "mut",
+        "name": "Mut",
+        "role": "Mother. “The Great Mother”; Amun’s wife in the Theban family.",
+        "look": [
+          "A woman in a long tight dress",
+          "Vulture cap, the headdress of queens",
+          "The double crown of Egypt on top, otherwise worn only by the king",
+          "Sometimes with a lioness head"
+        ],
+        "home": "Her own precinct just south of here, with a crescent-shaped lake, joined to Amun’s by an avenue of sphinxes.",
+        "mediaId": "basics-amun-mut-dyad",
+        "caption": "Amun and Mut side by side: his tall plumes, her double crown. Statue in the Luxor Museum."
+      },
+      {
+        "id": "khonsu",
+        "name": "Khonsu",
+        "role": "Son. The moon.",
+        "look": [
+          "A young man wrapped like a mummy",
+          "Shaved head with the side lock of a child",
+          "A crescent moon holding a full moon disk",
+          "Sometimes falcon-headed"
+        ],
+        "home": "His own temple in the south-west corner of this precinct, begun by Ramesses III.",
+        "mediaId": "basics-khonsu-relief",
+        "caption": "Khonsu in the sanctuary of his temple, here in an unusual form with sun disk and plumes, borrowed from the war god Montu."
+      }
+    ],
+    "family": {
+      "heading": "Why a family of three?",
+      "text": [
+        "Egyptian priests often grouped gods into families of three: father, mother, child. Each big city had one. At Thebes it was Amun, Mut and Khonsu, and each had a home: Amun’s temple at the centre, Mut’s precinct to the south, Khonsu’s temple at the south-west.",
+        "The family moved between their houses. At festivals their statues travelled in portable boats along sphinx avenues, by water to Luxor Temple, and across the Nile to the temples on the west bank. The boat shrines of Sety II and Ramesses III in the Great Court each have three rooms: one for each member of the family.",
+        "Thebes had other gods too. Montu, a war god, has his own precinct just north of the wall. It is closed to visitors."
+      ],
+      "citations": [
+        {
+          "sourceId": "hall-triad",
+          "locator": "Theban Triad; Mut; Khonsu"
+        },
+        {
+          "sourceId": "dk-introduction",
+          "locator": "The gods Amun, Mut and Khonsu; temple function and festivals"
+        },
+        {
+          "sourceId": "wikipedia-karnak",
+          "locator": "Precincts of Mut and Montu; closed to the public"
+        },
+        {
+          "sourceId": "memphis-festivals",
+          "locator": "Festivals and processions"
+        },
+        {
+          "sourceId": "dk-development",
+          "locator": "Tutankhamun: sphinxes on the route to the Mut temple"
+        }
+      ]
+    },
+    "citations": [
+      {
+        "sourceId": "hall-amun",
+        "locator": "Appearance of Amun"
+      },
+      {
+        "sourceId": "hall-triad",
+        "locator": "Appearance of Mut and Khonsu"
+      }
+    ]
+  },
+  "building": {
+    "intro": "No cranes, and for most of its history no iron tools. Karnak was built with copper and bronze chisels, stone hammers, ropes, sledges, boats and mud-brick ramps, and the evidence is still on site.",
+    "sections": [
+      {
+        "id": "stone",
+        "heading": "Where the stone came from",
+        "drawing": "materials",
+        "text": [
+          "Most of Karnak is sandstone from Gebel el-Silsila, about 160 km upriver. Granite for obelisks, door frames and colossal statues came from Aswan, further south still. Fine limestone came from Tura near Cairo, calcite (“Egyptian alabaster”) from Hatnub, and red quartzite from Gebel Ahmar. Everything heavy travelled by boat.",
+          "The early temple was limestone. It did not survive the yearly wetting and drying of the flood plain, so from Thutmose III on, builders switched to sandstone."
+        ],
+        "mediaIds": [
+          "basics-silsila",
+          "basics-unfinished-obelisk"
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-construction",
+            "locator": "Materials; Quarrying and dressing blocks; Change in techniques and materials over time"
+          }
+        ]
+      },
+      {
+        "id": "pylon",
+        "heading": "How a pylon went up",
+        "drawing": "pylon-steps",
+        "text": [
+          "Foundations were trenches partly filled with clean sand, which spreads the load. Blocks arrived roughly cut and were fitted on site, each course to its neighbours. As the walls grew, workers built mud-brick ramps against them, raising the ramps about a metre at a time. Only the outer faces were smoothed, once the wall was complete; the core was often rubble or old blocks.",
+          "The First Pylon was never finished, so it still shows all of this: remains of the ramps on its inner side, smoothed and rough blocks side by side, and a moulding only roughed out."
+        ],
+        "mediaIds": [
+          "basics-pylon-ramp"
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-construction",
+            "locator": "Foundations; Building techniques; Pylons, gateways and doors"
+          }
+        ]
+      },
+      {
+        "id": "columns",
+        "heading": "Columns and roofs",
+        "drawing": "column",
+        "text": [
+          "Columns were stacks of stone drums. Plumb lines kept them straight, and the papyrus flowers and buds were carved after the stones were in place: on some columns the capital starts in the middle of a block. Then everything was smoothed and painted.",
+          "Stone beams could only span so far. The biggest gaps bridged in stone at Karnak are about 7 metres; anything wider needed wood. In the Hypostyle Hall the roof slabs are 9 m long and over a metre thick, and some architraves are made of up to four blocks stacked together."
+        ],
+        "mediaIds": [],
+        "citations": [
+          {
+            "sourceId": "dk-construction",
+            "locator": "Column construction; Roofing"
+          }
+        ]
+      },
+      {
+        "id": "obelisks",
+        "heading": "Obelisks",
+        "drawing": "obelisk",
+        "text": [
+          "An [[obelisk]] is a single piece of granite. At Aswan, quarrymen pounded trenches round it with balls of hard dolerite stone up to 30 cm across. The unfinished obelisk still lying there shows the marks. Thutmose I’s obelisks weigh about 143 tonnes each; Hatshepsut’s about 323.",
+          "The stone was dragged on a sledge to the river, floated down on a barge and dragged again to the temple. Nobody knows for sure how it was stood up. One idea: it was slid down a ramp into a sand-filled pit over its base, and tipped upright as the sand was removed. Another: it was levered up on its base, using a groove cut into the pedestal."
+        ],
+        "mediaIds": [
+          "basics-th1-obelisk"
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-construction",
+            "locator": "Quarrying and dressing blocks; Obelisks: transport and erection"
+          }
+        ]
+      },
+      {
+        "id": "reuse",
+        "heading": "Old temples inside new ones",
+        "drawing": "reuse",
+        "text": [
+          "[[pylon|Pylons]] have a casing of good stone and a filled core, and kings filled them with whatever was in the way. Amenhotep III packed the Third Pylon with the chapels he cleared to build it, among them Senusret I’s White Chapel and Hatshepsut’s Red Chapel. Horemheb filled three pylons with Akhenaten’s temples, on purpose, to wipe them out.",
+          "That is why Karnak has an Open Air Museum: modern archaeologists took those blocks back out and rebuilt the chapels. Tens of thousands of Akhenaten’s talatat blocks are still being studied."
+        ],
+        "mediaIds": [
+          "basics-talatat"
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-construction",
+            "locator": "Reuse of building materials"
+          },
+          {
+            "sourceId": "dk-development",
+            "locator": "Amenhotep III; Horemheb"
+          }
+        ]
+      },
+      {
+        "id": "wall",
+        "heading": "The wavy wall",
+        "drawing": "wall",
+        "text": [
+          "The great mud-brick wall around the precinct is up to 12 m thick. It was built in sections, with the brick courses of neighbouring sections laid on slightly curved beds, and reeds and timber beams laid in for strength. The result is a wall whose courses rise and fall like waves. The Egyptians may have seen in it the waters of creation round the god’s island."
+        ],
+        "mediaIds": [],
+        "citations": [
+          {
+            "sourceId": "dk-construction",
+            "locator": "Enclosure walls"
+          },
+          {
+            "sourceId": "dk-enclosures",
+            "locator": "Measurements of the Nectanebo I wall"
+          }
+        ]
+      }
+    ]
+  },
+  "thebes": {
+    "intro": "Karnak was the largest of many temples in ancient Thebes, a city spread over both banks of the Nile. Its ancient name was Ipet-isut, “the most select of places”.",
+    "text": [
+      "On the east bank stood the great temples of the gods. Karnak itself is four precincts: Amun-Ra in the centre (where you are), Mut to the south, Montu to the north, and Akhenaten’s demolished Aten temples to the east. Only the Amun precinct is open to visitors.",
+      "A processional road lined with about 700 sphinxes runs about 2 km south to Luxor Temple. On the west bank, kings were buried in the Valley of the Kings and worshipped in their memorial temples along the edge of the desert.",
+      "The Nile used to run much closer. As it slowly moved west, the kings followed it, building new quays and gateways further out. That is one reason Karnak grew westward, gate by gate."
+    ],
+    "citations": [
+      {
+        "sourceId": "wikipedia-karnak",
+        "locator": "Name Ipet-isut; four precincts; only Amun-Ra open to the public"
+      },
+      {
+        "sourceId": "dk-introduction",
+        "locator": "Thebes; the temples of Karnak and Luxor"
+      },
+      {
+        "sourceId": "dk-development",
+        "locator": "The position of the Nile in relation to Karnak; Nectanebo I sphinx avenue"
+      }
+    ]
+  },
+  "life": {
+    "intro": "Karnak was not a monument. It was the house of a god, with a household: priests, scribes, bakers, butchers, store-keepers, and fields across Egypt to pay for it all.",
+    "ritual": {
+      "heading": "Every morning",
+      "steps": [
+        "At dawn a purified priest entered the dark sanctuary, lit a torch and burned incense.",
+        "He broke the clay seal on the shrine, drew back the bolt and opened the doors to see the god’s face.",
+        "He knelt, kissed the ground and sang hymns of praise.",
+        "He took out the statue, cleaned it, dressed it in fresh linen, oils and make-up, and put it back.",
+        "He offered food and drink, then closed and sealed the shrine again.",
+        "He walked out backwards, sweeping away his footprints. The food was then shared among the temple staff."
+      ],
+      "note": "In theory the king did all this, and the walls always show him doing it. In practice the high priest of Amun stood in for him. The statue itself, though shown life-size on the walls, was probably small: gold, silver and precious wood, a little over 30 cm tall.",
+      "citations": [
+        {
+          "sourceId": "dk-daily-ritual",
+          "locator": "Introduction to the Daily Ritual; discussion of the shrine and statue"
+        }
+      ]
+    },
+    "festivals": {
+      "heading": "Festival days",
+      "text": [
+        "A few times a year the god came out. Priests carried his statue in a portable boat shrine (a [[bark]]) on their shoulders, and people lined the route. The biggest outing was the Opet Festival, when Amun travelled to Luxor Temple. In the Valley Festival he crossed the river to visit the temples of dead kings on the west bank.",
+        "For most people this was as close as they got to the god. Others brought their prayers to the back of the temple, where small temples like Thutmose III’s contra-temple and Ramesses II’s eastern temple let them approach without going in."
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-festivals",
+          "locator": "Festivals and processions"
+        },
+        {
+          "sourceId": "memphis-sacred-barks",
+          "locator": "Sacred barks"
+        },
+        {
+          "sourceId": "dk-development",
+          "locator": "Contra-temple of Thutmose III; temple of Amun-Ra who hears prayers"
+        },
+        {
+          "sourceId": "dk-introduction",
+          "locator": "Temple function"
+        }
+      ]
+    },
+    "estate": {
+      "heading": "The god’s estate",
+      "text": [
+        "Around the temple were storehouses, bakeries, workshops, animal pens, aviaries for sacred geese and the priests’ houses. The temple owned land and collected taxes far beyond Thebes; it brought in great wealth."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-introduction",
+          "locator": "Temple function: estate, storehouses, land and taxation"
+        },
+        {
+          "sourceId": "dk-development",
+          "locator": "Psammuthis storehouse and aviary"
+        }
+      ]
+    }
+  },
+  "after": {
+    "intro": "The temple outlived the pharaohs by centuries, was nearly forgotten, and was then rediscovered, quarried, recorded and rebuilt. The Karnak you visit is partly the work of the last 130 years.",
+    "events": [
+      {
+        "date": "Roman times",
+        "text": "Greek and Roman tourists came to marvel at the Hypostyle Hall and scratched their names on the walls."
+      },
+      {
+        "date": "AD 356",
+        "text": "Emperor Constantius II ordered pagan temples closed. Karnak was already largely abandoned; Christians built churches among the ruins, and painted saints can still be seen in the Akhmenu."
+      },
+      {
+        "date": "Middle Ages",
+        "text": "Centuries of near silence: only one medieval traveller is known to have written about the ruins."
+      },
+      {
+        "date": "1589",
+        "text": "An Italian traveller describes the ruins at Luxor, the first European record."
+      },
+      {
+        "date": "1799",
+        "text": "Napoleon’s scholars draw Karnak for the Description de l’Égypte.",
+        "mediaId": "basics-description-view"
+      },
+      {
+        "date": "1820s–1840s",
+        "text": "Champollion deciphers hieroglyphs; he and Lepsius copy the inscriptions. Local people are still quarrying the ruins for stone.",
+        "mediaId": "hall-roberts-1838"
+      },
+      {
+        "date": "1895",
+        "text": "A permanent works service is set up at Karnak under Georges Legrain."
+      },
+      {
+        "date": "1899",
+        "text": "On 3 October eleven columns of the Hypostyle Hall collapse. Legrain rebuilds them.",
+        "mediaId": "hall-legrain-1899"
+      },
+      {
+        "date": "1903",
+        "text": "In the court north of the Seventh Pylon, Legrain finds a pit with about 800 statues and 17,000 bronzes, buried in ancient times: the Karnak Cachette.",
+        "mediaId": "basics-cachette"
+      },
+      {
+        "date": "1920s–1950s",
+        "text": "Henri Chevrier finishes rebuilding the Hall, clears the Sacred Lake and continues work on the pylons."
+      },
+      {
+        "date": "1967",
+        "text": "The Franco-Egyptian Centre (CFEETK) takes over the study and conservation of the temple; it rebuilds the Red Chapel in the Open Air Museum."
+      },
+      {
+        "date": "Today",
+        "text": "Work goes on: the avenue of sphinxes to Luxor has been uncovered, and walls, reliefs and columns are still being recorded."
+      }
+    ],
+    "citations": [
+      {
+        "sourceId": "dk-introduction",
+        "locator": "Discovery and excavation history of Karnak"
+      },
+      {
+        "sourceId": "wikipedia-karnak",
+        "locator": "Closure of the temples in AD 356; churches; painted saints in the Akhmenu"
+      },
+      {
+        "sourceId": "memphis-restoration",
+        "locator": "Collapse of 3 October 1899 and rebuilding"
+      }
+    ]
+  }
+}

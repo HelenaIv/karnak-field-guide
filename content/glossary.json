@@ -323,6 +323,21 @@
           "locator": "Egyptian architecture: pylon and the akhet hieroglyph"
         }
       ]
+    },
+    {
+      "id": "obelisk",
+      "term": "Obelisk",
+      "definition": "A tall, four-sided stone shaft with a small pyramid at the top, cut from a single block, usually of red granite from Aswan. Kings set them up in pairs in front of temple gateways.",
+      "citations": [
+        {
+          "sourceId": "dk-construction",
+          "locator": "Obelisks"
+        },
+        {
+          "sourceId": "dk-development",
+          "locator": "Thutmose I; Hatshepsut; Thutmose III (obelisk pairs)"
+        }
+      ]
     }
   ]
 }

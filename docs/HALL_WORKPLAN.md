@@ -52,3 +52,8 @@ Caution goes in one plain sentence, and only where it changes what the reader sh
 ## Status
 
 See the latest `docs/logs/` entry. The phase-1 sample is in progress.
+
+## Site sections (as of 2026-11-14)
+
+- Hall guide (`#hall`), Read the walls (`#read`), The big picture (`#basics`, includes the temple-as-cosmos page `#universe`), Explore places, Image collection, Glossary, Misc.
+- The big picture is the context layer for the whole temple, not just the Hall: timeline and kings, interactive growth plan, gods, construction, Thebes, daily and festival life, after the pharaohs. New halls and temples should link into it (plan element ids in web/basics.js `BS_GEO`).

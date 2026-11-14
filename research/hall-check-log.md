@@ -97,3 +97,26 @@ Duplicate avoided: “Alig cartouches karnak.jpg” is the same file as `hyposty
 | Hypostyle = papyrus thicket at the swampy edge of the mound | memphis-model-universe | checked |
 | Pylon mirrors the akhet "horizon" sign, sun between two hills | wikipedia-pylon (Wilkinson 2005: 195) | checked (secondary) |
 | Karnak grew by additions in front; Hall built between two existing pylons | digital-karnak-architecture, digital-karnak-hypostyle, stop 1 | checked; "further east = older, holier" marked as interpretation |
+
+## #basics — The big picture (2026-11-14)
+
+All phase claims of the growth plan (who added or removed what, reign dates) follow Sullivan 2010, "The Development of the Temple of Karnak" (dk-development), section I, checked line by line. Additional checks:
+
+| Claim | Source | Status |
+|---|---|---|
+| Intef II's small temple; Senusret I's limestone temple on the same site | dk-introduction | checked |
+| Amun obscure before the Middle Kingdom; merged with Re; "King of the Gods" | hall-amun (Memphis) | checked |
+| Coronation choice confirmed by Amun in Thutmose I's hall | dk-introduction | checked |
+| Amarna: Amun erased, temple closed; Horemheb's demolition and reuse | dk-introduction, dk-development | checked |
+| Third Intermediate Period: Amun as supreme authority, oracles | dk-introduction | checked |
+| Mut: vulture cap + double crown, lioness form; Khonsu: moon, side lock, falcon form | hall-triad (Memphis) | checked |
+| Montu precinct north, closed to the public; Mut's crescent lake | wikipedia-karnak | checked (secondary) |
+| Quarries: Silsila 160 km, Aswan granite, Tura limestone, Hatnub calcite, Gebel Ahmar quartzite; limestone→sandstone from Thutmose III | dk-construction | checked |
+| Sand foundations; ramps raised about 1 m at a time; faces smoothed after completion; First Pylon ramp remains | dk-construction | checked |
+| Capitals carved after stacking; max stone spans ~7 m; Hall roof slabs 9 m, architraves of up to four blocks | dk-construction | checked |
+| Dolerite balls 12.7–30.5 cm; obelisk weights 143 / 323 t; two raising theories | dk-construction | checked |
+| Wavy wall built in sections on curved beds; possible link with primeval waters; 12 m thick | dk-construction, dk-enclosures | checked |
+| ~700 sphinxes, 2 km route to Luxor; Nile shifting west | dk-development | checked |
+| Daily ritual sequence; statue a little over one foot tall | dk-daily-ritual | checked |
+| AD 356 closure order; churches; painted saints in the Akhmenu | wikipedia-karnak | checked (secondary) |
+| 1589, 1799, Champollion/Lepsius, 1895 Legrain, 1903 Cachette (~800 statues, 17,000 bronzes), Chevrier, CFEETK 1967 | dk-introduction | checked |

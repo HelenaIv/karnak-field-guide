@@ -132,7 +132,7 @@ function universePage() {
   const c = f.creation, t = f.temple, k = f.karnak;
   const section = x => `<div class="mu-sec${x.drawing ? ' with-drawing' : ''}" id="mu-${esc(x.id)}"><div><h2>${esc(x.heading)}</h2>${x.text.map(p => `<p>${fmt(p)}</p>`).join('')}${sourcesBlock(x.citations)}</div>${x.drawing === 'akhet' ? `<figure class="mu-akhet">${akhetSvg()}<figcaption class="micro">Original drawing. The hieroglyph is sign N27 in the standard sign list.</figcaption></figure>` : ''}</div>`;
   const part = (p, i) => { const m = p.mediaId && media[p.mediaId]; return `<article class="mu-part">${m ? `<button class="mu-part-img" data-zoom="${esc(m.id)}" aria-label="Enlarge image: ${esc(m.caption)}"><img src="${esc(m.webPath || m.path)}" alt="${esc(m.alt)}" ></button>` : '<div class="mu-part-img none">No photo yet</div>'}<div class="mu-part-body"><span class="mu-num">${i + 1}</span><h3>${esc(p.label)}</h3><p class="mu-role">${esc(p.role)}</p><p>${fmt(p.text)}</p>${p.link ? `<a class="mu-stop" href="${esc(p.link)}">${p.link === '#hall' ? 'Open the Hall guide' : 'More about this place'} →</a>` : ''}${m ? credit(m) : ''}</div></article>`; };
-  return `<div class="page-head"><span class="eyebrow">${esc(f.eyebrow)}</span><h1>${esc(f.title)}</h1><p>${fmt(f.dek)}</p></div>
+  return `<div class="page-head"><a class="micro" href="#basics">← The big picture</a><span class="eyebrow" style="margin-top:18px">${esc(f.eyebrow)}</span><h1>${esc(f.title)}</h1><p>${fmt(f.dek)}</p></div>
   <section class="section mu" style="padding-top:0">
     <h2>${esc(c.heading)}</h2>${muBlock('creation', creationSvg(), c.steps, c.intro)}${sourcesBlock(c.citations)}
     <h2>${esc(t.heading)}</h2>${muBlock('temple', templeSvg(), t.steps, t.intro)}

@@ -1247,6 +1247,66 @@
       "kind": "archaeology news (secondary)",
       "consultation": "Read 2026-11-14 for the general statement that temple sacred lakes represented Nun, the primordial waters, and served ritual purification. Replace with a specialist source when one is checked.",
       "accessed": "2026-11-14"
+    },
+    {
+      "id": "dk-development",
+      "title": "The Development of the Temple of Karnak (Sullivan 2010)",
+      "url": "https://digitalkarnak.ucsc.edu/wp-content/uploads/2020/10/developement-of-karnak-pdf_compressed.pdf",
+      "authors": [
+        "Elaine A. Sullivan"
+      ],
+      "publisher": "Digital Karnak, UCLA / UC Santa Cruz",
+      "kind": "specialist project guide (PDF)",
+      "consultation": "Read in full 2026-11-14: phase-by-phase list of structures added and removed by each king, with reign dates; discussion of the Nile’s position, the Middle Kingdom court, processional routes and the central bark shrine. Basis of the growth plan.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "dk-introduction",
+      "title": "Introduction to the Temple of Karnak (Sullivan 2008)",
+      "url": "https://digitalkarnak.ucsc.edu/wp-content/uploads/2020/10/guide.pdf",
+      "authors": [
+        "Elaine A. Sullivan"
+      ],
+      "publisher": "Digital Karnak, UCLA / UC Santa Cruz",
+      "kind": "specialist project guide (PDF)",
+      "consultation": "Read in full 2026-11-14: Thebes and Karnak from the Old Kingdom to the Ptolemies; Amarna; temple function; Amun, Mut and Khonsu; discovery and excavation history.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "dk-construction",
+      "title": "Construction Methods and Building Materials (Sullivan 2008)",
+      "url": "https://digitalkarnak.ucsc.edu/wp-content/uploads/2020/11/Construction.pdf",
+      "authors": [
+        "Elaine A. Sullivan"
+      ],
+      "publisher": "Digital Karnak, UCLA / UC Santa Cruz",
+      "kind": "specialist project guide (PDF)",
+      "consultation": "Read in full 2026-11-14: materials and quarries, quarrying, foundations, building with ramps, columns, roofing, reuse, obelisks, pylons, enclosure walls, repairs.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "dk-daily-ritual",
+      "title": "The Daily Ritual (Sullivan 2008)",
+      "url": "https://digitalkarnak.ucsc.edu/wp-content/uploads/2020/10/daily-ritual-pdf_compressed.pdf",
+      "authors": [
+        "Elaine A. Sullivan"
+      ],
+      "publisher": "Digital Karnak, UCLA / UC Santa Cruz",
+      "kind": "specialist project guide (PDF)",
+      "consultation": "Read 2026-11-14: sequence of the morning ritual; king and high priest; size of the cult statue.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "dk-enclosures",
+      "title": "Enclosures and Gates",
+      "url": "https://digitalkarnak.ucsc.edu/archive/Enclosures-and-Gates",
+      "authors": [
+        "Digital Karnak"
+      ],
+      "publisher": "Digital Karnak, UCLA / UC Santa Cruz",
+      "kind": "specialist archaeological project",
+      "consultation": "Read 2026-11-14: Nectanebo I wall 12 m thick and 21 m high; earlier enclosure walls.",
+      "accessed": "2026-11-14"
     }
   ]
 }

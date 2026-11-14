@@ -13,7 +13,7 @@ OUT=ROOT/'dist'
 OUT.mkdir(exist_ok=True)
 def read(path):
  return json.loads(Path(path).read_text(encoding='utf-8'))
-for name in ['index.html','app.js','hall.js','columns.js','read.js','universe.js','styles.css']:
+for name in ['index.html','app.js','hall.js','columns.js','read.js','universe.js','basics.js','styles.css']:
  shutil.copyfile(ROOT/'web'/name,OUT/name)
 content={}
 for kind in ['chapters','places','details','lessons','guides','features']:
