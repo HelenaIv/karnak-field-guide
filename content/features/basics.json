@@ -1288,6 +1288,79 @@
         }
       ]
     },
+    "purity": {
+      "heading": "Making the priests pure",
+      "intro": "One of the Egyptian words for priest carries the idea of purity. A priest’s body had to be made pure before he could enter the temple, and kept pure for as long as he served.",
+      "groups": [
+        {
+          "id": "before",
+          "label": "Before a month of duty",
+          "items": [
+            "No sex for several days before service began, and none during it.",
+            "Days of “drinking natron”, a natural salt. A complaint from the temple of Khnum at Elephantine, written under Ramesses IV and V, accuses a priest of going under the god’s carrying poles after only seven days of natron, with three days still to go."
+          ],
+          "citations": [
+            {
+              "sourceId": "worlderas-temple-personnel",
+              "locator": "Purity: abstinence before and during service"
+            },
+            {
+              "sourceId": "smb-turin-indictment",
+              "locator": "Verso, lines 9–11: “7 days of drinking natron”; “3 days of drinking natron” still due"
+            }
+          ]
+        },
+        {
+          "id": "daily",
+          "label": "Every day on duty",
+          "numbered": true,
+          "items": [
+            "Shave the whole body. Herodotus says priests did this every other day, so that no lice could live on them while they served the gods.",
+            "Bathe in cold water: twice by day and twice by night in Herodotus’s time. In the Ramesside period the rule was three baths a day in the temple’s sacred lake.",
+            "Rinse the mouth with natron dissolved in water.",
+            "Wear fresh white linen and sandals of papyrus, nothing else. Wool was not allowed in the temple."
+          ],
+          "citations": [
+            {
+              "sourceId": "herodotus-2-37",
+              "locator": "Histories 2.37.2–3: shaving, linen and papyrus sandals, cold baths"
+            },
+            {
+              "sourceId": "worlderas-temple-personnel",
+              "locator": "Purity: three baths a day in the Ramesside period; natron mouth-rinse; no wool"
+            }
+          ]
+        },
+        {
+          "id": "always",
+          "label": "Always",
+          "items": [
+            "Be circumcised.",
+            "Keep the food taboos. They differed from region to region: fish was forbidden in one province, honey in another. Herodotus adds that priests could not bear even to look at beans."
+          ],
+          "citations": [
+            {
+              "sourceId": "worlderas-temple-personnel",
+              "locator": "Purity: circumcision; regional food taboos (Third and Sixth Upper Egyptian nomes)"
+            },
+            {
+              "sourceId": "herodotus-2-37",
+              "locator": "Histories 2.37.4–5: fish and beans"
+            }
+          ]
+        }
+      ],
+      "oil": "Oils mostly belonged to the god: the statue was anointed in the morning service. In scenes of the king acting as chief priest, he was washed, dressed and anointed in the “House of the Morning” before entering the temple. Which oils, if any, ordinary priests put on is not recorded in the sources used for this guide.",
+      "oilCitations": [
+        {
+          "sourceId": "blackman-1921",
+          "locator": "p. 46: priests “drinking” natron before their course; the king-priest robed and anointed; the House of the Morning"
+        }
+      ],
+      "note": "Most of these details come from Herodotus, a Greek visitor of the 5th century BC, and from later texts. The rules changed over time and from temple to temple.",
+      "lake": "At Karnak the water came from the Sacred Lake, south of the temple.",
+      "wall": "The same idea on a wall: on the west side of the Hall, Horus and Seth pour streams of life signs over Sety I."
+    },
     "monthly": {
       "heading": "Every month and every ten days",
       "text": [

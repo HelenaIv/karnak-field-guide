@@ -385,8 +385,22 @@ function bsBarkSvg() {
   <text x="210" y="30" text-anchor="middle" class="bs-map-m">shrine: the statue is hidden inside</text><path d="M210 34v8" stroke="#5d4a2c"/>
   <text x="14" y="56" class="bs-map-m">ram head</text><text x="410" y="140" text-anchor="end" class="bs-map-m">carrying poles</text><text x="210" y="225" text-anchor="middle" class="bs-map-l">priests</text></svg>`;
 }
+function bsPuritySvg() {
+  // A priest made pure: numbers match the list "Every day on duty".
+  const m = (n, x, y, tx, ty) => `<path d="M${x} ${y}L${tx} ${ty}" stroke="#26302a" stroke-width="1.5"/><circle cx="${x}" cy="${y}" r="12" fill="#26302a"/><text x="${x}" y="${y + 4.5}" text-anchor="middle" style="font:700 13px system-ui,sans-serif;fill:#fff">${n}</text>`;
+  return `<svg viewBox="0 0 360 300" role="img" aria-label="A shaven priest in white linen, with water poured over him">
+  <rect width="360" height="300" fill="#f3ead6"/><rect y="280" width="360" height="20" fill="#e3d2ac"/>
+  <g transform="translate(-6 22) rotate(38 132 30)"><path d="M118 12h28l4 10v20c0 7-7 11-18 11s-18-4-18-11V22Z" fill="#a5834f" stroke="#5d4a2c" stroke-width="2"/></g>
+  <g fill="none" stroke="#5f9fc4" stroke-width="3" stroke-linecap="round"><path d="M146 60Q166 52 174 54" stroke-dasharray="5 4"/><path d="M148 66Q172 58 184 54" stroke-dasharray="5 4"/></g>
+  <circle cx="180" cy="74" r="22" fill="#b07a4f"/><circle cx="189" cy="70" r="2.2" fill="#26302a"/><path d="M190 84h9" stroke="#5d3b22" stroke-width="2" stroke-linecap="round"/><circle cx="170" cy="74" r="4" fill="#9c6a43"/>
+  <path d="M172 94h16v8h-16Z" fill="#b07a4f"/><path d="M156 102h48l6 42h-60Z" fill="#b07a4f"/>
+  <path d="M158 108l-14 38M202 108l14 38" stroke="#b07a4f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M152 142h56l16 122h-88Z" fill="#fbfaf4" stroke="#c9b48a" stroke-width="2"/><path d="M168 150l-8 110M180 150v110M192 150l8 110" stroke="#e6dcc4" stroke-width="1.5"/>
+  <path d="M168 264v14M192 264v14" stroke="#b07a4f" stroke-width="8"/><path d="M156 280h20M184 280h22" stroke="#c9a46a" stroke-width="5" stroke-linecap="round"/>
+  ${m(1, 250, 46, 198, 60)}${m(2, 86, 88, 128, 70)}${m(3, 250, 100, 200, 84)}${m(4, 264, 210, 220, 210)}</svg>`;
+}
 function bsRituals() {
-  const f = bsData(), r = f.rituals, l = f.life, y = r.year, p = r.processions, w = r.walls;
+  const f = bsData(), r = f.rituals, l = f.life, pu = r.purity, y = r.year, p = r.processions, w = r.walls;
   BS_STEPPERS.shrine = l.ritual.steps.map((t, i) => ({ label: ['Enter', 'Open', 'Greet', 'Dress', 'Feed', 'Leave'][i] || String(i + 1), text: t, layers: [['light', 'closed', 'torch', 'stand'], ['light', 'open', 'stand'], ['light', 'open', 'kneel'], ['light', 'open', 'cloth', 'stand'], ['light', 'open', 'cloth', 'table', 'kneel'], ['closed', 'sweep']][i] || [] }));
   const goLink = s => s.link ? `<a class="mu-stop" href="${esc(s.link)}">${s.link.startsWith('#hall/') ? 'Go to the stop →' : 'More about this place →'}</a>` : '';
   const scene = s => { const m = s.mediaId && media[s.mediaId]; return `<article class="rt-scene">${m ? `<button class="rt-scene-img" data-zoom="${esc(m.id)}" aria-label="Enlarge image: ${esc(m.caption)}"><img src="${esc(m.webPath || m.path)}" alt="${esc(m.alt)}" loading="lazy"></button>` : ''}<div><span class="micro">${esc(s.where)}</span><h3>${esc(s.title)}</h3><p>${fmt(s.text)}</p>${goLink(s)}${m ? credit(m) : ''}${s.citations ? sourcesBlock(s.citations) : ''}</div></article>`; };
@@ -395,6 +409,8 @@ function bsRituals() {
   <div class="rt-rhythms">${r.rhythms.map(x => `<a class="rt-rhythm" href="#" data-scroll="rt-${esc(x.id)}"><b>${esc(x.label)}</b><span>${esc(x.text)}</span></a>`).join('')}</div>
   <div class="bs-sec" id="rt-day"><div class="bs-sec-text"><h2>${esc(r.daily.heading)}</h2>${r.daily.text.map(t => `<p>${fmt(t)}</p>`).join('')}<ol class="rt-services">${r.daily.services.map(s => `<li><b>${esc(s.label)}</b> · ${esc(s.time)}<br><span>${esc(s.text)}</span></li>`).join('')}</ol><p>${fmt(l.ritual.note)}</p><p>${fmt(r.daily.after)}</p>${sourcesBlock(r.daily.citations)}</div>
   <div class="bs-sec-art"><figure class="bs-draw">${bsDayClockSvg(r.daily.services)}<figcaption class="micro">Original schematic, not a clock: the times are approximate.</figcaption></figure>${bsStepper('shrine', bsShrineSvg(), BS_STEPPERS.shrine)}</div></div>
+  <div class="bs-sec" id="rt-pure"><div class="bs-sec-text"><h2>${esc(pu.heading)}</h2><p>${fmt(pu.intro)}</p><div class="rt-pure">${pu.groups.map(g => `<div class="rt-pure-g"><h3>${esc(g.label)}</h3><${g.numbered ? 'ol' : 'ul'}>${g.items.map((t, i) => `<li>${g.numbered ? `<span class="rt-n">${i + 1}</span>` : ''}<span>${fmt(t)}</span></li>`).join('')}</${g.numbered ? 'ol' : 'ul'}>${sourcesBlock(g.citations)}</div>`).join('')}</div><p>${fmt(pu.oil)}</p>${sourcesBlock(pu.oilCitations)}<p class="micro">${fmt(pu.note)}</p></div>
+  <div class="bs-sec-art"><figure class="bs-draw">${bsPuritySvg()}<figcaption class="micro">Original drawing. The numbers match the list “Every day on duty”.</figcaption></figure><div class="rt-pure-links"><p>${fmt(pu.lake)} <a class="mu-stop" href="#entry/sacred-lake">More about this place →</a></p><p>${fmt(pu.wall)} <a class="mu-stop" href="#hall/purification">Go to the stop →</a></p></div></div></div>
   <div class="bs-sec" id="rt-month"><div class="bs-sec-text"><h2>${esc(r.monthly.heading)}</h2>${r.monthly.text.map(t => `<p>${fmt(t)}</p>`).join('')}${sourcesBlock(r.monthly.citations)}</div><div class="bs-sec-art">${bsFig('basics-bark-shrine-relief', 'The king before Amun, on the granite boat shrine at the heart of the temple.')}</div></div>
   <div class="bs-sec" id="rt-year"><div class="bs-sec-text"><h2>${esc(y.heading)}</h2><p>${fmt(y.intro)}</p><div class="rt-fests">${y.festivals.map((x, i) => `<article class="rt-fest" id="fest-${esc(x.id)}" style="--c:${BS_FEST_COL[x.id] || '#5d4a2c'}"><span class="rt-num">${i + 1}</span><div><h3>${esc(x.name)}</h3><span class="micro">${esc(x.when)}</span><p>${fmt(x.text)}</p>${sourcesBlock(x.citations)}</div></article>`).join('')}</div></div>
   <div class="bs-sec-art"><figure class="bs-draw">${bsYearWheelSvg(y)}<figcaption class="micro">Original schematic of the civil year. Tap a number to read about the festival. Festival positions follow the ancient calendar dates; the new-moon festivals moved from year to year.</figcaption></figure></div></div>

@@ -1415,6 +1415,55 @@
       "kind": "peer-reviewed article",
       "consultation": "Indexed text read 2026-11-14: the Decade festival, when Amun of Luxor crossed to Djeme (Medinet Habu) to visit the buried primeval gods; earliest mention under Thutmose II.",
       "accessed": "2026-11-14"
+    },
+    {
+      "id": "herodotus-2-37",
+      "title": "Herodotus, Histories 2.37 (trans. A. D. Godley, 1920)",
+      "url": "https://cts.perseids.org/read/greekLit/tlg0016/tlg001/perseus-eng2/2.37.1-2.38.2",
+      "authors": [
+        "Herodotus",
+        "A. D. Godley (translator)"
+      ],
+      "publisher": "Perseus / Perseids (Loeb text, public domain)",
+      "kind": "ancient source in translation",
+      "consultation": "Read 2026-11-14: priests shave the whole body every other day, wear one linen garment and papyrus sandals, wash in cold water twice a day and twice a night; no fish; beans unclean. A Greek visitor’s account of the 5th century BC.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "worlderas-temple-personnel",
+      "title": "Temple Personnel (World Eras: Ancient Egypt)",
+      "url": "https://www.encyclopedia.com/humanities/culture-magazines/temple-personnel",
+      "authors": [
+        "Gale, World Eras"
+      ],
+      "publisher": "Gale, via Encyclopedia.com",
+      "kind": "reference encyclopedia entry",
+      "consultation": "Read 2026-11-14, Purity section: three baths a day in the sacred lake in the Ramesside period; natron mouth-rinse; hair removal; circumcision; abstinence before and during service; no wool; regional food taboos. Draws on Sauneron, Quirke, Shafer and Wilkinson.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "smb-turin-indictment",
+      "title": "Turin Indictment Papyrus (P. Turin Cat. 1887), translation and record",
+      "url": "https://elephantine.smb.museum/objects/object.php?o=308422",
+      "authors": [
+        "ELEPHANTINE project, Staatliche Museen zu Berlin"
+      ],
+      "publisher": "Staatliche Museen zu Berlin – Elephantine database",
+      "kind": "text edition and translation (database)",
+      "consultation": "Read 2026-11-14: verso lines 9–11, a priest entered “under the god” after 7 days of drinking natron, with 3 days still due. Reigns of Ramesses IV–V.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "blackman-1921",
+      "title": "A. M. Blackman, article in Recueil de travaux relatifs à la philologie et à l’archéologie égyptiennes et assyriennes (1921), p. 46",
+      "url": "https://digi.ub.uni-heidelberg.de/diglit/rectrav1921/0050",
+      "authors": [
+        "Aylward M. Blackman"
+      ],
+      "publisher": "Heidelberg University Library (digitised journal)",
+      "kind": "scholarly article (older)",
+      "consultation": "Text of p. 46 seen in a search extract 2026-11-14 (the page itself is bot-protected): priests’ purification before their course included “drinking” natron; the king-priest was robed and anointed after purification; the House of the Morning. Old study; flagged for checking against a modern source.",
+      "accessed": "2026-11-14"
     }
   ]
 }
