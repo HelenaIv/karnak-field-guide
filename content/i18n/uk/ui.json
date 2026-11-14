@@ -633,7 +633,17 @@
   "Original drawing. The numbers match the list “Every day on duty”.": "Авторський малюнок. Номери відповідають списку «Щодня під час служби».",
   "A shaven priest in white linen, with water poured over him": "Поголений жрець у білому льоні, на якого ллють воду",
   "Original drawing. The numbers match the cards.": "Авторський малюнок. Номери відповідають карткам.",
-  "Three women serving in the temple: a God’s Wife with a tall crown, a singer with a rattle, and a dancer": "Три жінки на службі в храмі: Божа дружина у високій короні, співачка з брязкальцем і танцівниця"
+  "Three women serving in the temple: a God’s Wife with a tall crown, a singer with a rattle, and a dancer": "Три жінки на службі в храмі: Божа дружина у високій короні, співачка з брязкальцем і танцівниця",
+  "All together": "Усе разом",
+  "All": "Усе",
+  "All periods": "Усі періоди",
+  "New:": "Нове:",
+  "New in this step": "Нове на цьому кроці",
+  "Already standing": "Уже стоїть",
+  "Removed or lost": "Розібране або втрачене",
+  "Built later": "Збудоване пізніше",
+  "Colour shows who built it": "Колір показує, хто збудував",
+  "Show this step": "Показати цей крок"
  },
  "patterns": [
   [

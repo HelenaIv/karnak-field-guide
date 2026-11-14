@@ -9,55 +9,64 @@
       "id": "mk",
       "label": "Middle Kingdom",
       "short": "Middle Kingdom",
-      "colour": "#7a5c99"
+      "colour": "#7a5c99",
+      "years": "c. 1970–1925 BC"
     },
     {
       "id": "e18",
       "label": "Early 18th Dynasty",
       "short": "Early 18th Dyn.",
-      "colour": "#2f7f8f"
+      "colour": "#2f7f8f",
+      "years": "c. 1525–1480 BC"
     },
     {
       "id": "hat",
       "label": "Hatshepsut",
       "short": "Hatshepsut",
-      "colour": "#c0587e"
+      "colour": "#c0587e",
+      "years": "c. 1475–1460 BC"
     },
     {
       "id": "t3",
       "label": "Thutmose III",
       "short": "Thutmose III",
-      "colour": "#b5452c"
+      "colour": "#b5452c",
+      "years": "c. 1480–1425 BC"
     },
     {
       "id": "l18",
       "label": "Later 18th Dynasty",
       "short": "Later 18th Dyn.",
-      "colour": "#d98c1f"
+      "colour": "#d98c1f",
+      "years": "c. 1400–1295 BC"
     },
     {
       "id": "ram",
       "label": "Ramesside kings",
       "short": "Ramesside",
-      "colour": "#2e7048"
+      "colour": "#2e7048",
+      "years": "c. 1295–1155 BC"
     },
     {
       "id": "tip",
       "label": "Libyan and Kushite kings",
       "short": "Libyan & Kushite",
-      "colour": "#8a9a2b"
+      "colour": "#8a9a2b",
+      "years": "c. 945–665 BC"
     },
     {
       "id": "late",
       "label": "Last native kings",
       "short": "30th Dynasty",
-      "colour": "#3f6fb0"
+      "colour": "#3f6fb0",
+      "years": "c. 380–360 BC"
     },
     {
       "id": "ptol",
       "label": "Macedonian and Ptolemaic kings",
       "short": "Ptolemaic",
-      "colour": "#8b6a3e"
+      "colour": "#8b6a3e",
+      "years": "c. 325–115 BC"
     }
   ],
   "pages": [
@@ -104,7 +113,7 @@
     }
   ],
   "growth": {
-    "intro": "Drag the slider or step through. Each step shows what was built (outlined) and what was pulled down (dashed). Tap any building for details.",
+    "intro": "Tap a numbered step, or use the arrows. The colour of each building shows which period built it; new buildings are outlined, removed ones dashed, and later ones drawn faintly. “All” shows everything together. Tap any building for details.",
     "steps": [
       {
         "id": "senusret",

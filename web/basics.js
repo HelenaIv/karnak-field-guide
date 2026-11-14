@@ -3,7 +3,7 @@
 function bsData() { return (D.features || []).find(f => f.id === 'basics'); }
 function bsEra(id) { return (bsData()?.eras || []).find(e => e.id === id) || { colour: '#888', label: id }; }
 function bsKing(id) { return D.reading?.names?.kings?.find(k => k.id === id); }
-const bsState = { mode: 'grow', view: 'main', step: 0, lost: true, sel: null };
+const bsState = { view: 'main', step: 0, lost: true, sel: null };
 
 // ---------- Plan geometry (metres, west = left, north = up; schematic) ----------
 const BR = (x1, y1, x2, y2, cls = '') => `<rect class="s ${cls}" x="${x1}" y="${y1}" width="${x2 - x1}" height="${y2 - y1}"/>`;
@@ -73,54 +73,72 @@ function bsPlanSvg() {
 }
 
 function bsPlanPage(stepArg) {
-  const f = bsData(), g = f.growth, steps = g.steps;
-  if (stepArg !== undefined && stepArg !== '' && !isNaN(+stepArg)) { bsState.step = Math.max(0, Math.min(steps.length - 1, +stepArg)); bsState.mode = 'grow'; }
-  const legend = f.eras.map(e => `<button class="bp-chip" data-bp-era="${e.id}" style="--c:${e.colour}"><i></i>${esc(e.short)}</button>`).join('');
+  const f = bsData(), g = f.growth, steps = g.steps, n = steps.length;
+  if (stepArg !== undefined && stepArg !== '' && !isNaN(+stepArg)) bsState.step = Math.max(0, Math.min(n, +stepArg));
+  // One track of steps, coloured by era; the last button shows everything together.
+  const dots = steps.map((st, i) => `<button class="bp-dot" data-bp-step="${i}" style="--c:${bsEra(st.era).colour}" aria-label="${esc(st.label)}, ${esc(st.date)}" title="${esc(st.label)}, ${esc(st.date)}"><span>${i + 1}</span></button>`).join('')
+    + `<button class="bp-dot bp-all" data-bp-step="${n}" aria-label="All together" title="All together"><span>All</span></button>`;
+  const eras = f.eras.map(e => { const first = steps.findIndex(st => st.era === e.id); return first < 0 ? '' : `<button class="bp-era" data-bp-jump="${first}" style="--c:${e.colour}"><i></i><b>${esc(e.short)}</b><span>${esc(e.years || '')}</span></button>`; }).join('');
   return `${bsHead('How the temple grew', g.intro)}
-  <section class="section bs" style="padding-top:0">
-   <div class="bp-tools"><div class="bp-seg"><button data-bp-mode="grow">Step by step</button><button data-bp-mode="built">Who built what</button></div>
-   <div class="bp-seg"><button data-bp-view="main">Main temple</button><button data-bp-view="whole">Whole precinct</button></div></div>
-   <div class="bp-grow"><div class="bp-stepbar"><button data-bp-move="-1" aria-label="Previous step">←</button><input type="range" min="0" max="${steps.length - 1}" value="${bsState.step}" data-bp-range aria-label="Choose a building phase"><button data-bp-move="1" aria-label="Next step">→</button></div>
-   <div class="bp-steptext"><span class="bp-date"></span><h2 class="bp-steptitle"></h2><p class="bp-stepdesc"></p></div></div>
-   <div class="bp-built"><p class="bp-builtintro">${esc(g.builtIntro)}</p><label class="bp-lost"><input type="checkbox" data-bp-lost checked> Show buildings that are gone</label></div>
-   <p class="micro bp-swipe">Swipe sideways to see the whole plan.</p><div class="bp-svg-wrap">${bsPlanSvg()}</div>
-   <div class="bp-legend">${legend}</div>
-   <div class="bp-info" aria-live="polite"><p class="micro">Tap a building on the plan to see who built it and what is left of it.</p></div>
-   <p class="micro">${esc(g.note)} Inspired by the many colour-coded builders’ plans of Karnak; redrawn from published plans and descriptions, not copied.</p>
-   ${sourcesBlock(g.citations)}
+  <section class="section bs bp2" style="padding-top:0">
+   <div class="bp-stage">
+    <div class="bp-stagebar"><div class="bp-seg"><button data-bp-view="main">Main temple</button><button data-bp-view="whole">Whole precinct</button></div><span class="bp-now"></span></div>
+    <div class="bp-svg-wrap">${bsPlanSvg()}</div>
+    <div class="bp-track"><button class="bp-arrow" data-bp-move="-1" aria-label="Previous step">←</button><div class="bp-dots">${dots}</div><button class="bp-arrow" data-bp-move="1" aria-label="Next step">→</button></div>
+   </div>
+   <div class="bp-panel">
+    <div class="bp-steptext" aria-live="polite"><span class="bp-date"></span><h2 class="bp-steptitle"></h2><p class="bp-stepdesc"></p><div class="bp-changes"></div></div>
+    <div class="bp-info"><p class="micro">Tap a building on the plan to see who built it and what is left of it.</p></div>
+    <div class="bp-key"><span><i class="k-new"></i>New in this step</span><span><i class="k-old"></i>Already standing</span><span><i class="k-gone"></i>Removed or lost</span><span><i class="k-future"></i>Built later</span></div>
+    <label class="bp-lost"><input type="checkbox" data-bp-lost ${bsState.lost ? 'checked' : ''}> Show buildings that are gone</label>
+    <h3 class="bp-erahead">Colour shows who built it</h3><div class="bp-eras">${eras}</div>
+    <p class="micro">${esc(g.note)} Inspired by the many colour-coded builders’ plans of Karnak; redrawn from published plans and descriptions, not copied.</p>
+    ${sourcesBlock(g.citations)}
+   </div>
   </section>`;
 }
 function bsRenderPlan() {
   const wrap = document.querySelector('.bp-svg-wrap'); if (!wrap || !wrap.querySelector) return;
-  const g = bsData().growth, s = bsState.step, built = bsState.mode === 'built', last = g.steps.length - 1;
-  document.querySelector('.bs')?.setAttribute('data-mode', bsState.mode);
-  document.querySelectorAll('[data-bp-mode]').forEach(b => b.classList.toggle('on', b.dataset.bpMode === bsState.mode));
+  const g = bsData().growth, n = g.steps.length, all = bsState.step >= n, s = all ? n - 1 : bsState.step;
   document.querySelectorAll('[data-bp-view]').forEach(b => b.classList.toggle('on', b.dataset.bpView === bsState.view));
   wrap.querySelector('svg').setAttribute('viewBox', BS_VIEWS[bsState.view]);
+  const added = [], removed = [];
   wrap.querySelectorAll('.el').forEach(el => {
-    const e = g.elements[el.dataset.el]; const cur = built ? last : s;
-    const alive = e.from <= cur && (e.to == null || e.to > cur);
-    const removedNow = !built && e.to === s;
-    const lost = built && (e.to != null || e.gone);
-    el.classList.toggle('on', alive && !(built && e.gone));
-    el.classList.toggle('new', !built && e.from === s);
-    el.classList.toggle('removed', removedNow);
-    el.classList.toggle('ghost', lost && bsState.lost);
-    el.classList.toggle('sel', bsState.sel === el.dataset.el);
+    const id = el.dataset.el, e = g.elements[id];
+    const standing = e.from <= s && (e.to == null || e.to > s) && !(all && e.gone);
+    const isNew = !all && e.from === s, isRemoved = !all && e.to === s;
+    const lostNow = (e.to != null && e.to < s) || (all && (e.gone || e.to != null));
+    if (isNew) added.push(id); if (isRemoved) removed.push(id);
+    el.classList.toggle('on', standing);
+    el.classList.toggle('new', isNew);
+    el.classList.toggle('removed', isRemoved);
+    el.classList.toggle('ghost', lostNow && bsState.lost && !standing);
+    el.classList.toggle('future', !all && e.from > s);
+    el.classList.toggle('sel', bsState.sel === id);
   });
-  if (!built) {
-    const st = g.steps[s];
-    document.querySelector('.bp-date').textContent = st.date;
+  document.querySelectorAll('[data-bp-step]').forEach(b => { const i = +b.dataset.bpStep; b.classList.toggle('on', i === bsState.step); b.classList.toggle('past', i < bsState.step); });
+  document.querySelector('.bp-dot.on')?.scrollIntoView?.({ block: 'nearest', inline: 'nearest' });
+  const chip = id => `<button class="bp-chipel" data-el="${id}" style="--c:${bsEra(g.elements[id].era).colour}">${esc(g.elements[id].name)}</button>`;
+  if (all) {
+    document.querySelector('.bp-date').textContent = g.steps[0].date + ' – ' + g.steps[n - 1].date;
+    document.querySelector('.bp-steptitle').textContent = 'All together';
+    document.querySelector('.bp-stepdesc').innerHTML = fmt(g.builtIntro);
+    document.querySelector('.bp-changes').innerHTML = '';
+    document.querySelector('.bp-now').textContent = 'All periods';
+  } else {
+    const st = g.steps[s], era = bsEra(st.era);
+    document.querySelector('.bp-date').innerHTML = `${esc(st.date)} · <b style="color:${era.colour}">${esc(era.label)}</b>`;
     document.querySelector('.bp-steptitle').textContent = st.label;
     document.querySelector('.bp-stepdesc').innerHTML = fmt(st.text);
-    const r = document.querySelector('[data-bp-range]'); if (r) r.value = s;
+    document.querySelector('.bp-changes').innerHTML = (added.length ? `<p><b>New:</b> ${added.map(chip).join('')}</p>` : '') + (removed.length ? `<p><b>Removed:</b> ${removed.map(chip).join('')}</p>` : '');
+    document.querySelector('.bp-now').innerHTML = `<i style="background:${era.colour}"></i>${s + 1}/${n} · ${esc(st.date)}`;
   }
 }
 function bsInfo(id) {
   const g = bsData().growth, e = g.elements[id]; if (!e) return;
   bsState.sel = id; const era = bsEra(e.era), st = g.steps[e.from], gone = e.to != null ? g.steps[e.to] : null;
   const link = e.hall ? `<a href="#hall">Open the Hall guide →</a>` : (e.link && records[e.link] ? `<a href="#entry/${esc(e.link)}">More about this place →</a>` : '');
-  document.querySelector('.bp-info').innerHTML = `<h3><i style="background:${era.colour}"></i>${esc(e.name)}</h3><p><b>Built:</b> ${esc(st.label)}, ${esc(st.date)}.${gone ? ` <b>Removed:</b> ${esc(gone.label)}, ${esc(gone.date)}.` : ''}</p><p><b>Today:</b> ${esc(e.today)}</p>${link}`;
+  document.querySelector('.bp-info').innerHTML = `<h3><i style="background:${era.colour}"></i>${esc(e.name)}</h3><p><b>Built:</b> ${esc(st.label)}, ${esc(st.date)} (${esc(era.label)}). <button class="bp-go" data-bp-step="${e.from}">Show this step</button></p>${gone ? `<p><b>Removed:</b> ${esc(gone.label)}, ${esc(gone.date)}.</p>` : ''}<p><b>Today:</b> ${esc(e.today)}</p>${link}`;
   bsRenderPlan();
 }
 
@@ -445,16 +463,15 @@ function basicsAfterRender() {
 }
 function basicsInteract(e) {
   const t = e.target;
-  const m = t.closest('[data-bp-mode]'); if (m) { bsState.mode = m.dataset.bpMode; bsRenderPlan(); return true; }
+  const mv = t.closest('[data-bp-move]'); if (mv) { bsState.step = Math.max(0, Math.min(bsData().growth.steps.length, bsState.step + +mv.dataset.bpMove)); bsRenderPlan(); return true; }
+  const sp = t.closest('[data-bp-step]'); if (sp) { bsState.step = +sp.dataset.bpStep; bsRenderPlan(); if (sp.classList.contains('bp-go')) document.querySelector('.bp-stage')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); return true; }
+  const jp = t.closest('[data-bp-jump]'); if (jp) { bsState.step = +jp.dataset.bpJump; bsRenderPlan(); document.querySelector('.bp-stage')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); return true; }
   const v = t.closest('[data-bp-view]'); if (v) { bsState.view = v.dataset.bpView; bsRenderPlan(); return true; }
-  const mv = t.closest('[data-bp-move]'); if (mv) { bsState.step = Math.max(0, Math.min(bsData().growth.steps.length - 1, bsState.step + +mv.dataset.bpMove)); bsRenderPlan(); return true; }
   const el = t.closest('[data-el]'); if (el) { bsInfo(el.dataset.el); return true; }
-  const er = t.closest('[data-bp-era]'); if (er) { const svg = document.querySelector('.bp-svg'); const on = svg.dataset.era === er.dataset.bpEra; svg.dataset.era = on ? '' : er.dataset.bpEra; document.querySelectorAll('.el').forEach(g => g.classList.toggle('dim', !on && bsData().growth.elements[g.dataset.el].era !== er.dataset.bpEra)); document.querySelectorAll('[data-bp-era]').forEach(b => b.classList.toggle('on', !on && b === er)); return true; }
   const rt = t.closest('[data-rt]'); if (rt) { const svg = document.querySelector('.rt-svg'); const on = svg.dataset.route === rt.dataset.rt; svg.dataset.route = on ? '' : rt.dataset.rt; document.querySelectorAll('[data-rt]').forEach(b => b.classList.toggle('on', !on && b === rt)); return true; }
   const st = t.closest('[data-bsstep]'); if (st) { bsSetStep(st.closest('.bs-stepper'), +st.dataset.bsstep); return true; }
   return false;
 }
 function basicsInput(e) {
-  if (e.target.matches('[data-bp-range]')) { bsState.step = +e.target.value; bsRenderPlan(); }
   if (e.target.matches('[data-bp-lost]')) { bsState.lost = e.target.checked; bsRenderPlan(); }
 }
