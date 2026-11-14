@@ -39,3 +39,12 @@ Published: https://karnak-field-guide-review.inventivefluke33.chatgpt.site
 Site appgprj_6af75e7bc41481919c50a44465c967a3; deployment appgdep_6af7633c70388191bbca9a6f43671a42 reported succeeded. Published source commit 4627d12945704b623cebff2530b374b3016f4e1c in the Sites source repository is a snapshot of owner GitHub commit 4e22fcb701dbe8ea7db9e979af9e73a7025ec072. Subsequent owner-repository commits may update logs without changing the live website. Never substitute GitHub and Sites commit IDs when publishing.
 
 `research/coverage.json` reports per-place chapters/details/media gaps. At this checkpoint, 26 of 35 place records lack a matched acquired image; the illustrated chapters are concentrated in selected areas. This is a review draft, not an illustrated-complete guide.
+
+## Ukrainian version
+
+- The review site has an EN / УКР switch in the header. The choice is remembered in the browser; `?lang=uk` opens the Ukrainian version directly.
+- English content records stay the identity. Ukrainian text lives in `content/i18n/uk/<same path as the English file>` as a flat map of `path -> text` (paths use item ids, e.g. `stops[entrance]/look[0]`). Anything without a translation falls back to English.
+- Interface strings rendered by `web/*.js` are translated by `content/i18n/uk/ui.json` (exact phrases plus patterns with Ukrainian plural forms), applied by `web/i18n.js`. Short translated content strings are reused automatically as interface phrases at build time.
+- Kept in their original form: source titles, authors, image file names, credits and licences, transliterations, hieroglyphs and Gardiner codes.
+- `python scripts/i18n.py status` shows coverage; `python scripts/i18n.py todo <file>` lists untranslated strings; `python scripts/i18n_merge.py <file>` merges a JSON map of new translations. `validate_content.py` runs `i18n.py check`, which fails if an English path a translation points to has gone or glossary links differ.
+- When English text changes, update the matching Ukrainian string in the same commit.

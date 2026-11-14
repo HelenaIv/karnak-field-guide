@@ -8,7 +8,7 @@ A scholarly, site-specific digital field guide to the Karnak temple complex at L
 
 ## Confirmed direction
 
-WordPress + JetEngine backend, with a separate app; English first and Ukrainian planned. Text, images and selected animations, without audio. Downloadable content for offline use, with future Google Play and Apple App Store distribution in mind. No WordPress site or native app exists yet; the review website currently reads repository JSON. Framework and packaging choices remain proposals.
+WordPress + JetEngine backend, with a separate app; English and Ukrainian (the review site has both; see docs/RECOVERY.md, “Ukrainian version”). Text, images and selected animations, without audio. Downloadable content for offline use, with future Google Play and Apple App Store distribution in mind. No WordPress site or native app exists yet; the review website currently reads repository JSON. Framework and packaging choices remain proposals.
 
 **Resume after a lost chat:** read [docs/RECOVERY.md](docs/RECOVERY.md). Confirmed requirements are in [docs/PROJECT_REQUIREMENTS.md](docs/PROJECT_REQUIREMENTS.md); implementation proposal in [docs/TECHNOLOGY_ARCHITECTURE.md](docs/TECHNOLOGY_ARCHITECTURE.md).
 

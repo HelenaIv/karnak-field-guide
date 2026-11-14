@@ -12,7 +12,7 @@ const BPYS = (y1, y2, x1, x2, label = '', cx = 197) => BR(x1, y1, cx - 3, y2) + 
 const BDOT = (x, y, r = 2.2) => `<circle class="s" cx="${x}" cy="${y}" r="${r}"/>`;
 function bsHypoCols() { let s = ''; for (let i = 0; i < 6; i++) { const x = 126 + i * 10; s += BDOT(x, -6, 2.6) + BDOT(x, 6, 2.6); } for (let i = 0; i < 9; i++) for (let j = 0; j < 7; j++) { const x = 122 + i * 7, y = 14 + j * 5.5; s += BDOT(x, y, 1.5) + BDOT(x, -y, 1.5); } return s; }
 const BS_GEO = {
-  'mk-temple': () => BR(270, -19, 308, 19, 'fill') + `<text class="bp-lab inv" x="289" y="-2">Senusret I</text><text class="bp-lab inv" x="289" y="6">temple</text>`,
+  'mk-temple': () => BR(270, -19, 308, 19, 'fill') + `<text class="bp-lab inv" x="289" y="-2" data-uk="Храм">Senusret I</text><text class="bp-lab inv" x="289" y="6" data-uk="Сенусерта I">temple</text>`,
   'white-chapel': () => BR(228, 32, 235, 39, 'fill'),
   'am1-gate': () => BR(204, -22, 209, 22, 'fill'),
   'am1-shrine': () => BR(250, -3, 257, 3, 'fill'),

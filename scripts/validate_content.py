@@ -223,6 +223,9 @@ def validate():
         print('\n'.join(errors), file=sys.stderr)
         return 1
     print(f'Validated {len(records)} records, {len(guides)} guide ({stop_count} stops), {reading_count} reading items, {feature_count} feature pages, {len(sources)} sources and {len(graph)} relationships; references and media checksums passed.')
+    import subprocess
+    if subprocess.run([sys.executable, str(Path(__file__).with_name('i18n.py')), 'check']).returncode:
+        return 1
     return 0
 
 if __name__ == '__main__':

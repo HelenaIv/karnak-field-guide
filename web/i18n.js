@@ -13,7 +13,7 @@
         const to = b.dataset.lang; if (to === L) return;
         try { localStorage.setItem('karnak-lang', to); } catch (e) { /* URL keeps the choice */ }
         const u = new URL(location.href); u.searchParams.delete('lang'); if (to === 'uk') u.searchParams.set('lang', 'uk');
-        location.href = u.toString();
+        if (u.href === location.href) location.reload(); else location.href = u.href;
       });
     });
   }
@@ -42,8 +42,14 @@
   const ATTR = ['aria-label', 'placeholder', 'title', 'alt'];
   const attrs = el => { for (const a of ATTR) { const v = el.getAttribute(a); if (v) { const n = tr(v); if (n != null && n !== v) el.setAttribute(a, n); } } };
   const walk = node => {
-    if (node.nodeType === 3) { const n = tr(node.nodeValue); if (n != null && n !== node.nodeValue) node.nodeValue = n; return; }
+    if (node.nodeType === 3) {
+      let v = node.nodeValue; const n = tr(v); if (n != null) v = n;
+      v = v.replace(/н\. е\.\./g, 'н. е.');   // a template full stop after a Ukrainian date that already ends in "е."
+      if (v !== node.nodeValue) node.nodeValue = v; return;
+    }
     if (node.nodeType !== 1 || node.tagName === 'SCRIPT' || node.tagName === 'STYLE') return;
+    // An element can carry its own Ukrainian text where word order differs between lines (e.g. SVG labels).
+    if (node.dataset && node.dataset.uk != null) { if (node.textContent !== node.dataset.uk) node.textContent = node.dataset.uk; return; }
     attrs(node);
     for (const c of node.childNodes) walk(c);
   };

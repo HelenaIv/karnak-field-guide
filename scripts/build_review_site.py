@@ -61,7 +61,7 @@ def build_content():
     im=im.convert('RGB');im.thumbnail((1600,1600));im.save(target,quality=88,optimize=True)
   m['webPath']='assets/'+target.name
   with Image.open(target) as im2: m['width'],m['height']=im2.size
-  m['changes'] += ' Review-site copy proportionally resized to at most 1600px and JPEG recompressed; no editorial crop. Card layouts may crop the display; enlarge for the full image.'
+  m['changes'] += (' Копію для сайту пропорційно зменшено до 1600 px і повторно стиснуто в JPEG; редакційного обрізання немає. Картки можуть обрізати зображення; збільште його, щоб побачити повністю.' if LANG=='uk' else ' Review-site copy proportionally resized to at most 1600px and JPEG recompressed; no editorial crop. Card layouts may crop the display; enlarge for the full image.')
  return content
 content=build_content()
 LANG='uk'

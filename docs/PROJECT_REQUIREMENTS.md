@@ -8,7 +8,7 @@ Recovered and confirmed by the owner on 2026-11-13. This file replaces dependenc
 - The distinctive value is close observation: small architectural features, meaningful signs, reading walls, carving techniques, alterations, light, construction and religious context. A generic highlights walk is insufficient.
 - Cover monuments, historical periods, pharaohs, architecture, inscriptions, religion, routes and relationships. Monument overviews support deeper detail entries.
 - The assistant is responsible for research and gathering content using reliable archaeological and Egyptological sources, with citations and explicit uncertainty.
-- English first; Ukrainian planned. Use locale code `uk`, not `ua`.
+- English and Ukrainian. English records are the identity; Ukrainian lives in `content/i18n/uk/`. Use locale code `uk`, not `ua`.
 - Text, images and selected animations. No audio guide.
 
 ## Technology and distribution
