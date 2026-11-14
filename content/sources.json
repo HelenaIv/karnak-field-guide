@@ -1464,6 +1464,90 @@
       "kind": "scholarly article (older)",
       "consultation": "Text of p. 46 seen in a search extract 2026-11-14 (the page itself is bot-protected): priests’ purification before their course included “drinking” natron; the king-priest was robed and anointed after purification; the House of the Morning. Old study; flagged for checking against a modern source.",
       "accessed": "2026-11-14"
+    },
+    {
+      "id": "wiki-gods-wife",
+      "title": "God’s Wife of Amun",
+      "url": "https://en.wikipedia.org/wiki/God%27s_Wife_of_Amun",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "publisher": "Wikipedia",
+      "kind": "encyclopedia overview",
+      "consultation": "Search extract read 2026-11-14: highest-ranking priestess of the Amun cult; Ahmose-Nefertari’s appointment recorded on a stela at Karnak; scenes of her purified in the sacred lake and following the king into the sanctuary. Overview; flagged for replacement by Ayad 2009.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "brooklyn-shepenwepet",
+      "title": "Relief Fragment of Shepenwepet II (74.99.2)",
+      "url": "https://www.brooklynmuseum.org/objects/100542",
+      "authors": [
+        "Brooklyn Museum"
+      ],
+      "publisher": "Brooklyn Museum",
+      "kind": "museum object record",
+      "consultation": "Label read 2026-11-14: relief from a chapel in North Karnak; a God’s Wife of Amun, a celibate high priestess, wearing a vulture headdress; about 700 BC.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "ayad-gods-wife-talk",
+      "title": "“The God’s Wife of Amun (Dynasty 23–26)”, talk by Mariam Ayad (write-up)",
+      "url": "https://writeups.talesfromthetwolands.org/?p=1472",
+      "authors": [
+        "Essex Egyptology Group write-up of a talk by Mariam Ayad"
+      ],
+      "publisher": "Tales from the Two Lands",
+      "kind": "report of a specialist talk",
+      "consultation": "Read 2026-11-14 (search extract): the God’s Wife shown making herself pure to enter the temple and taking precedence over male priests; chapels built mostly at Karnak in Dynasties 23–26.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "archaeology-meresamun",
+      "title": "Meresamun: her life (Archaeology Magazine online feature)",
+      "url": "https://archive.archaeology.org/online/features/meresamun/herlife.html",
+      "authors": [
+        "Archaeology Magazine, with the Oriental Institute, Chicago"
+      ],
+      "publisher": "Archaeological Institute of America",
+      "kind": "magazine feature based on a museum exhibition",
+      "consultation": "Read 2026-11-14: Meresamun’s coffin calls her “Singer in the Interior of the Temple of Amun at Karnak”; women sang inside the temple, men played instruments outside; sistrum as ritual rattle.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "michalowski-karnak",
+      "title": "K. Michałowski, Karnak (1970), plate list",
+      "url": "https://digi.ub.uni-heidelberg.de/diglit/michalowski1970a/0031",
+      "authors": [
+        "Kazimierz Michałowski"
+      ],
+      "publisher": "Heidelberg University Library (digitised book)",
+      "kind": "illustrated scholarly book (older)",
+      "consultation": "Plate caption seen in search extract 2026-11-14: “Block of pink quartzite from the sanctuary of Queen Hatshepsut. Acrobatic dancers are depicted on the relief.”",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "worldhistory-clergy",
+      "title": "Clergy, Priests & Priestesses in Ancient Egypt",
+      "url": "https://www.worldhistory.org/article/1026/clergy-priests--priestesses-in-ancient-egypt/",
+      "authors": [
+        "Joshua J. Mark"
+      ],
+      "publisher": "World History Encyclopedia",
+      "kind": "general-audience encyclopedia article",
+      "consultation": "Read 2026-11-14 (search extract): women more often priestesses of goddesses, but also of Serket and Amun; Herodotus’s claim that no woman held a priesthood. General source.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "egyptmuseum-red-chapel",
+      "title": "Hatshepsut’s Red Chapel",
+      "url": "https://egypt-museum.com/hatshepsuts-red-chapel/",
+      "authors": [
+        "Egypt Museum (website)"
+      ],
+      "publisher": "egypt-museum.com",
+      "kind": "general-audience website",
+      "consultation": "Read 2026-11-14 (search extract): harpists and acrobatic dancers shown on the Red Chapel. Popular source; supports Michałowski’s plate caption.",
+      "accessed": "2026-11-14"
     }
   ]
 }

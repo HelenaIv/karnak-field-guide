@@ -1361,6 +1361,90 @@
       "lake": "At Karnak the water came from the Sacred Lake, south of the temple.",
       "wall": "The same idea on a wall: on the west side of the Hall, Horus and Seth pour streams of life signs over Sety I."
     },
+    "women": {
+      "heading": "Women in the temple",
+      "intro": "Women did serve the gods at Karnak. Herodotus wrote that no woman could be a priest, but Egyptian titles, coffins and wall scenes show otherwise.",
+      "roles": [
+        {
+          "id": "wife",
+          "name": "God’s Wife of Amun",
+          "text": "The highest-ranking priestess of Amun. Queen Ahmose-Nefertari was the first royal woman to hold the office, recorded on a stela in the temple of Amun at Karnak. Scenes show the God’s Wife purified in the sacred lake and following the king into the sanctuary. In the 8th to 6th centuries BC the office went to unmarried king’s daughters, who built chapels of their own, mostly at Karnak.",
+          "citations": [
+            {
+              "sourceId": "wiki-gods-wife",
+              "locator": "Stela at Karnak; scenes of purification in the sacred lake and entering the sanctuary"
+            },
+            {
+              "sourceId": "brooklyn-shepenwepet",
+              "locator": "Label: a celibate high priestess; relief from a chapel in North Karnak"
+            },
+            {
+              "sourceId": "ayad-gods-wife-talk",
+              "locator": "Chapels of the God’s Wives, mostly at Karnak; shown making herself pure to enter the temple"
+            }
+          ]
+        },
+        {
+          "id": "singer",
+          "name": "Singers of Amun",
+          "text": "The most common role. Women with the title “chantress” or “singer” of Amun sang hymns during rituals and festivals, shaking a sistrum, a metal rattle. The coffin of Meresamun, around 800 BC, calls her “Singer in the Interior of the Temple of Amun at Karnak”: in her time women sang inside the temple, while men played instruments in the rituals outside.",
+          "citations": [
+            {
+              "sourceId": "archaeology-meresamun",
+              "locator": "Meresamun’s coffin title; women singers inside, men instrumentalists outside; sistrum"
+            }
+          ]
+        },
+        {
+          "id": "dancer",
+          "name": "Musicians and dancers",
+          "text": "Festivals had music and dance. Blocks from Hatshepsut’s Red Chapel show acrobatic dancers and harpists in festival scenes.",
+          "citations": [
+            {
+              "sourceId": "michalowski-karnak",
+              "locator": "Plate 70: block of pink quartzite from Hatshepsut’s sanctuary; acrobatic dancers"
+            },
+            {
+              "sourceId": "egyptmuseum-red-chapel",
+              "locator": "Harpists and acrobatic dancers on the Red Chapel"
+            }
+          ]
+        }
+      ],
+      "note": "Women more often served goddesses, but Amun had priestesses and singers too.",
+      "noteCitations": [
+        {
+          "sourceId": "worldhistory-clergy",
+          "locator": "Women more often priestesses of goddesses, with Amun and Serket as exceptions; Herodotus’s claim"
+        }
+      ],
+      "see": "Where to see them",
+      "places": [
+        {
+          "text": "Hatshepsut’s Red Chapel, in the Open Air Museum: dancers and musicians in festival scenes.",
+          "link": "#entry/red-chapel"
+        },
+        {
+          "text": "The small chapels of the God’s Wives in the north-east of the Amun precinct and in North Karnak, such as the chapel of Osiris Heqa-djet.",
+          "link": ""
+        }
+      ],
+      "photos": "Photos of these reliefs (outside links)",
+      "external": [
+        {
+          "text": "Shepenupet II and Amenirdis II before the gods, chapel at Karnak (Wikimedia Commons, CC BY 3.0)",
+          "url": "https://commons.wikimedia.org/wiki/File:Karnak_Chepenoupet_II_Amenirdis_II.jpg"
+        },
+        {
+          "text": "The God’s Wife Shepenwepet II, relief from a chapel in North Karnak (Brooklyn Museum)",
+          "url": "https://www.brooklynmuseum.org/objects/100542"
+        },
+        {
+          "text": "The God’s Wife Amenirdis I offering to Amun-Re, probably from Karnak (Brooklyn Museum)",
+          "url": "https://www.brooklynmuseum.org/objects/3927"
+        }
+      ]
+    },
     "monthly": {
       "heading": "Every month and every ten days",
       "text": [
