@@ -589,7 +589,47 @@
   "All signs →": "Усі знаки →",
   "Close": "Закрити",
   "At the base, rekhyt birds raise their arms to Ramesses II’s names: “all the people adore”. Later in his reign he inserted deeply carved bands of text on the lower shafts, probably for one of his jubilees.": "Біля основи птахи рехіт здіймають руки до імен Рамсеса II: «увесь народ шанує». Пізніше за свого правління він вставив глибоко вирізані смуги тексту в нижній частині стовбурів, імовірно, до одного зі своїх ювілеїв.",
-  "Ramesses II added more: a band of text with a speech of Amun and his titles, and two huge vertical cartouches below the scenes, facing the processional route, marking the Hall as his.": "Рамсес II додав ще: смугу тексту з промовою Амона та його титулами і два величезні вертикальні картуші під сценами, звернені до процесійного шляху, – так він позначив Зал як свій."
+  "Ramesses II added more: a band of text with a speech of Amun and his titles, and two huge vertical cartouches below the scenes, facing the processional route, marking the Hall as his.": "Рамсес II додав ще: смугу тексту з промовою Амона та його титулами і два величезні вертикальні картуші під сценами, звернені до процесійного шляху, – так він позначив Зал як свій.",
+  "Rituals and festivals": "Ритуали та свята",
+  "Enter": "Вхід",
+  "Open": "Відчинити",
+  "Greet": "Привітання",
+  "Dress": "Вбрання",
+  "Feed": "Годування",
+  "Leave": "Вихід",
+  "Go to the stop →": "Перейти до зупинки →",
+  "The jubilee sign in Read the walls →": "Знак ювілею в розділі «Читати стіни» →",
+  "Original schematic, not a clock: the times are approximate.": "Авторська схема, а не годинник: час приблизний.",
+  "Original schematic of the civil year. Tap a number to read about the festival. Festival positions follow the ancient calendar dates; the new-moon festivals moved from year to year.": "Авторська схема цивільного року. Торкніться номера, щоб прочитати про свято. Свята розміщено за давніми календарними датами; свята, прив’язані до молодика, щороку зміщувалися.",
+  "Original schematic map, not to scale. Tap a festival to highlight its route; routes changed over the centuries.": "Авторська схематична карта, не в масштабі. Торкніться свята, щоб виділити його маршрут; маршрути змінювалися впродовж століть.",
+  "Original drawing. Barks differed for each god: Amun’s has ram heads.": "Авторський малюнок. Барки різних богів відрізнялися: барка Амона має голови барана.",
+  "The god Heh, “millions”, on Senusret I’s jubilee chapel.": "Бог Хех, «мільйони», на ювілейній каплиці Сенусерта I.",
+  "night: the shrine stays sealed": "ніч: наос лишається запечатаним",
+  "sunrise": "схід сонця",
+  "sunset": "захід сонця",
+  "sealed doors": "запечатані двері",
+  "the god’s statue": "статуя бога",
+  "footprints swept away": "сліди заметено",
+  "Flood": "Повінь",
+  "Growing": "Ріст",
+  "Harvest": "Жнива",
+  "Akhet": "ахет",
+  "Peret": "перет",
+  "Shemu": "шему",
+  "365 days": "365 днів",
+  "12 × 30 + 5": "12 × 30 + 5",
+  "year starts at the top": "рік починається вгорі",
+  "Karnak": "Карнак",
+  "Akhmenu": "Ахмену",
+  "back by river": "назад річкою",
+  "sphinx road": "алея сфінксів",
+  "bark stations": "станції для барки",
+  "WEST BANK": "ЗАХІДНИЙ БЕРЕГ",
+  "EAST BANK": "СХІДНИЙ БЕРЕГ",
+  "shrine: the statue is hidden inside": "наос: статуя схована всередині",
+  "ram head": "голова барана",
+  "carrying poles": "жердини для перенесення",
+  "priests": "жерці"
  },
  "patterns": [
   [
@@ -780,6 +820,10 @@
   [
    "Stop (\\d+)",
    "Зупинка $1"
+  ],
+  [
+   "(\\d+)\\. (.+)",
+   "$1. $2"
   ]
  ]
 }

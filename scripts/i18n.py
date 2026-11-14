@@ -24,7 +24,7 @@ KEYS = {'text','title','name','label','meaning','look','caption','where','headin
  'observation','interpretation','limits','body','approximateRange','datingNote','caveats','uncertainties',
  'home','imageGap','builtIntro','eyebrow','drawingNote','accessNote','planNote','surface','researchQuestion',
  'early','description','note','lookCloser','more','story','blocks','figures','readIt','items','cards','lede',
- 'subtitle','hint','readyExamples','open','notImplemented','reviewNote','prompt','options','feedback','tip','tips','legend','sections','points','facts','pages'}
+ 'subtitle','hint','when','time','after','extra','stations','readyExamples','open','notImplemented','reviewNote','prompt','options','feedback','tip','tips','legend','sections','points','facts','pages'}
 # Internal values and enums, never translated even inside a translatable block.
 NEVER = {'certainty','status','type','zone','facing','diagram','format','kind','category','level','additionalChecks',
  'consultation','reviewNote','positionMode','link','colour','era','period','group','area','drawing','predicate',

@@ -87,9 +87,9 @@
       "teaser": "The city, the river and the other temples: where Karnak fits."
     },
     {
-      "id": "life",
-      "title": "A day and a year",
-      "teaser": "The morning ritual, festival processions and the god’s household."
+      "id": "rituals",
+      "title": "Rituals and festivals",
+      "teaser": "Every day, every month, every year: the god’s timetable, the great processions, and where to find them on the walls."
     },
     {
       "id": "universe",
@@ -1232,5 +1232,373 @@
         "locator": "Collapse of 3 October 1899 and rebuilding"
       }
     ]
+  },
+  "rituals": {
+    "title": "Rituals and festivals",
+    "intro": "Karnak ran on a timetable. The god was served every day, honoured on set days of the month, and taken out in procession on the great festivals of the year. Once in a long reign the king also renewed his own power. Many of these rites are carved on the temple’s walls, so you can still find them.",
+    "rhythms": [
+      {
+        "id": "day",
+        "label": "Every day",
+        "text": "Three services: a long one at dawn, shorter ones in the afternoon and evening."
+      },
+      {
+        "id": "month",
+        "label": "Every month",
+        "text": "Feasts tied to the moon, and a ten-day visit by Amun of Luxor to the west bank."
+      },
+      {
+        "id": "year",
+        "label": "Every year",
+        "text": "The great festivals: Opet, the Valley Festival, Osiris in Khoiak, the New Year."
+      },
+      {
+        "id": "reign",
+        "label": "Once in a reign",
+        "text": "The jubilee (heb-sed), after 30 years on the throne."
+      }
+    ],
+    "daily": {
+      "heading": "Every day",
+      "text": [
+        "The main service took place every morning, after first light. Similar but shorter rites followed in the afternoon and in the evening. Step through the morning service below."
+      ],
+      "services": [
+        {
+          "time": "Dawn",
+          "label": "Morning service",
+          "text": "The shrine is opened, the statue is cleaned, dressed and fed."
+        },
+        {
+          "time": "Afternoon",
+          "label": "Afternoon rite",
+          "text": "A shorter service."
+        },
+        {
+          "time": "Evening",
+          "label": "Evening rite",
+          "text": "A shorter service before night."
+        }
+      ],
+      "after": "When the god had eaten, the food was taken away with its own ceremony, the “reversion of offerings”, and shared among the temple staff.",
+      "citations": [
+        {
+          "sourceId": "dk-daily-ritual",
+          "locator": "Frequency; sequence of the morning ritual; reversion of offerings (episodes 34–40)"
+        }
+      ]
+    },
+    "monthly": {
+      "heading": "Every month and every ten days",
+      "text": [
+        "The temple also kept feasts tied to the moon. Next to the daily-ritual scenes in the Hypostyle Hall, Sety I is shown at the feasts of the first and the sixth day of the month.",
+        "Every ten days, from the New Kingdom on, the Amun of Luxor Temple crossed the Nile to the small temple at Medinet Habu, where the primeval gods were believed to be buried. This is called the Decade festival."
+      ],
+      "citations": [
+        {
+          "sourceId": "dk-daily-ritual",
+          "locator": "Bordering walls: First and Sixth Day Feasts"
+        },
+        {
+          "sourceId": "abouzaid-valley",
+          "locator": "Decade festival (Djeme, Medinet Habu)"
+        }
+      ]
+    },
+    "year": {
+      "heading": "Every year: the festival calendar",
+      "intro": "The Egyptian year had three seasons of four months: the flood (Akhet), the growing season (Peret) and the harvest (Shemu). Every month had 30 days, and five extra days closed the year. Because there was no leap year, this calendar slowly drifted against the real seasons.",
+      "festivals": [
+        {
+          "id": "newyear",
+          "name": "New Year",
+          "when": "1st month of the flood, day 1",
+          "month": 1,
+          "day": 1,
+          "len": 1,
+          "text": "The first day of the year. On the east wall of the Hypostyle Hall, Sety I is shown at the New Year festival.",
+          "citations": [
+            {
+              "sourceId": "fukaya-opet",
+              "locator": "Structure of the civil calendar"
+            },
+            {
+              "sourceId": "dk-daily-ritual",
+              "locator": "Bordering walls: New Year Festival"
+            }
+          ]
+        },
+        {
+          "id": "mut",
+          "name": "Festivals of Mut",
+          "when": "Early in the year",
+          "month": 1,
+          "day": 15,
+          "len": 0,
+          "text": "Mut had her own festivals. Hatshepsut built a “columned portico of drunkenness” at Mut’s temple, where a festival of drunkenness was held, reportedly in the first month of the year. The Hall also shows Sety I at a festival of Mut.",
+          "citations": [
+            {
+              "sourceId": "arce-bryan-drunkenness",
+              "locator": "Portico of drunkenness for Mut, mistress of Isheru"
+            },
+            {
+              "sourceId": "nbc-bryan-2006",
+              "locator": "Timing of the festival"
+            },
+            {
+              "sourceId": "dk-daily-ritual",
+              "locator": "Bordering walls: Festival of Mut"
+            }
+          ]
+        },
+        {
+          "id": "opet",
+          "name": "Opet Festival",
+          "when": "2nd month of the flood, 11 to 27 days",
+          "month": 2,
+          "day": 15,
+          "len": 24,
+          "text": "Amun, Mut and Khonsu travelled to Luxor Temple, and the king renewed his kingship there. Under Thutmose III it lasted 11 days; by Ramesses III, 24 days or more.",
+          "citations": [
+            {
+              "sourceId": "dk-festivals",
+              "locator": "The Opet Festival"
+            },
+            {
+              "sourceId": "uee-opet",
+              "locator": "Dates and duration"
+            }
+          ]
+        },
+        {
+          "id": "khoiak",
+          "name": "Osiris in Khoiak",
+          "when": "4th month of the flood",
+          "month": 4,
+          "day": 12,
+          "len": 19,
+          "text": "As the flood went down, priests shaped earth into figures of Osiris, sowed them with grain and watered them until they sprouted: the god coming back to life. At Karnak the rites ran from day 18 to 26, with a procession of Osiris on day 26. The galleries where such figures were buried survive at Karnak.",
+          "citations": [
+            {
+              "sourceId": "ucl-khoiak",
+              "locator": "Timing; seeded Osiris figures; Karnak rites (Papyrus Louvre N 3176)"
+            },
+            {
+              "sourceId": "dk-osiris-catacombs",
+              "locator": "Osiris catacombs"
+            }
+          ]
+        },
+        {
+          "id": "valley",
+          "name": "Valley Festival",
+          "when": "2nd month of the harvest, at the new moon",
+          "month": 10,
+          "day": 1,
+          "len": 2,
+          "text": "Amun crossed the river to visit the temples on the west bank, and families feasted at the tombs of their relatives.",
+          "citations": [
+            {
+              "sourceId": "ucl-festival-dates",
+              "locator": "Month 10: Festival of the Valley"
+            },
+            {
+              "sourceId": "dk-festivals",
+              "locator": "The Beautiful Feast of the Wadi"
+            }
+          ]
+        }
+      ],
+      "extra": "5 extra days"
+    },
+    "jubilee": {
+      "heading": "Once in a reign: the jubilee",
+      "text": [
+        "The heb-sed was a royal jubilee, celebrated after 30 years of rule and repeated every three years after that. It renewed the king’s strength.",
+        "At Karnak, Senusret I’s White Chapel was decorated for his jubilee, and Hatshepsut raised her granite obelisks for a jubilee in year 16 of her reign. On the walls, gods promise kings “millions of jubilees”."
+      ],
+      "citations": [
+        {
+          "sourceId": "britannica-hebsed",
+          "locator": "Heb-Sed"
+        },
+        {
+          "sourceId": "dk-white-chapel",
+          "locator": "White Chapel"
+        },
+        {
+          "sourceId": "dk-hatshepsut-obelisks",
+          "locator": "Obelisks of Wadjet Hall"
+        }
+      ]
+    },
+    "processions": {
+      "heading": "Processions",
+      "text": [
+        "On festival days the god left the sanctuary. His statue stayed hidden inside a small shrine on a portable boat, the [[bark|bark]], carried on poles by priests. Along the way the bearers rested the bark in small shrines, the bark stations.",
+        "Under Hatshepsut the Opet procession went to Luxor on foot, stopping at six bark stations, and came back by river. By the Ramesside period each god, and the king, had a bark of his own, and the journey south went upstream by boat."
+      ],
+      "routes": [
+        {
+          "id": "opet",
+          "name": "Opet",
+          "text": "Karnak to Luxor Temple and back: by the sphinx road, by river, or both."
+        },
+        {
+          "id": "valley",
+          "name": "Valley Festival",
+          "text": "Across the Nile to Deir el-Bahari and, later, to the memorial temples of the kings."
+        },
+        {
+          "id": "wehem",
+          "name": "Wehem-ankh",
+          "text": "A local festival: royal statues carried from the Akhmenu to Mut’s temple and back. Its scenes are in the Akhmenu."
+        },
+        {
+          "id": "decade",
+          "name": "Decade festival",
+          "text": "Every ten days, from Luxor Temple across the river to Medinet Habu."
+        }
+      ],
+      "stations": "Where the barks rested at Karnak",
+      "citations": [
+        {
+          "sourceId": "dk-festivals",
+          "locator": "Opet routes under Hatshepsut and Ramesses II; Wadi route; Wehem-ankh"
+        },
+        {
+          "sourceId": "memphis-sacred-barks",
+          "locator": "Sacred barks and divine rest stations"
+        },
+        {
+          "sourceId": "abouzaid-valley",
+          "locator": "Decade festival"
+        }
+      ]
+    },
+    "walls": {
+      "heading": "Find the rituals on the walls",
+      "intro": "These scenes are carved at Karnak. Open a card to find the place, or go straight to the matching stop in the Hall guide.",
+      "scenes": [
+        {
+          "id": "daily",
+          "title": "The daily ritual",
+          "where": "Hypostyle Hall, east wall (the face of the Third Pylon)",
+          "text": "Sety I breaks the seal, draws the bolt and opens the shrine doors to see the god; elsewhere he drives out demons and takes away the offerings. Next to these: the New Year, the first- and sixth-day feasts and a festival of Mut.",
+          "link": "#entry/hypostyle-hall",
+          "citations": [
+            {
+              "sourceId": "dk-daily-ritual",
+              "locator": "Depictions at Karnak; bordering walls"
+            }
+          ]
+        },
+        {
+          "id": "b92",
+          "title": "Pouring water for a dead king",
+          "where": "Hypostyle Hall, south wall (stop 6)",
+          "text": "Ramesses II purifies the statue of his deified father, Sety I, with four jars of water.",
+          "mediaId": "hall-study-fc2a1d41",
+          "link": "#hall/four-jars"
+        },
+        {
+          "id": "b230",
+          "title": "Purified by Horus and Seth",
+          "where": "Hypostyle Hall, west wall (stop 8)",
+          "text": "Two gods pour streams of life signs over Sety I.",
+          "link": "#hall/purification"
+        },
+        {
+          "id": "barks",
+          "title": "Incense for the three barks",
+          "where": "Hypostyle Hall, north wall (stop 9)",
+          "text": "Sety I burns incense before the barks of Amun, Mut and Khonsu. The Hall’s interior walls also show the Opet Festival under Sety I and Ramesses II.",
+          "link": "#hall/barks",
+          "citations": [
+            {
+              "sourceId": "dk-festivals",
+              "locator": "Sources: Hypostyle Hall"
+            }
+          ]
+        },
+        {
+          "id": "red",
+          "title": "Opet and the Valley Festival",
+          "where": "Red Chapel, Open Air Museum",
+          "text": "The oldest pictures of the Opet procession: the journey to Luxor on one wall, the return on the other, and the crossing to Deir el-Bahari for the Valley Festival.",
+          "mediaId": "red-chapel-237864cd",
+          "link": "#entry/red-chapel",
+          "citations": [
+            {
+              "sourceId": "dk-festivals",
+              "locator": "Red Chapel"
+            }
+          ]
+        },
+        {
+          "id": "pylon3",
+          "title": "The bark goes to Luxor",
+          "where": "Third Pylon, east face",
+          "text": "Amenhotep III shows the sacred bark on its journey to Luxor, beside his jubilee.",
+          "link": "#entry/third-pylon",
+          "citations": [
+            {
+              "sourceId": "dk-festivals",
+              "locator": "Sources: Third Pylon"
+            },
+            {
+              "sourceId": "dk-third-pylon",
+              "locator": "Decoration"
+            }
+          ]
+        },
+        {
+          "id": "akhmenu",
+          "title": "The Wehem-ankh festival",
+          "where": "Akhmenu",
+          "text": "Priests carry statues of Thutmose III and his queen to Amun and Mut, with singers clapping.",
+          "mediaId": "akhmenu-71604540",
+          "link": "#entry/akhmenu",
+          "citations": [
+            {
+              "sourceId": "dk-festivals",
+              "locator": "The Wehem-Ankh Festival"
+            }
+          ]
+        },
+        {
+          "id": "jubilee",
+          "title": "A chapel for a jubilee",
+          "where": "White Chapel, Open Air Museum",
+          "text": "Senusret I’s jubilee chapel. The kneeling god Heh stands for “millions” of years.",
+          "mediaId": "white-chapel-heh",
+          "link": "#entry/white-chapel",
+          "citations": [
+            {
+              "sourceId": "dk-white-chapel",
+              "locator": "White Chapel"
+            }
+          ]
+        },
+        {
+          "id": "south",
+          "title": "Processions on the southern gateways",
+          "where": "Eighth and Ninth Pylons",
+          "text": "A sacred-bark procession on the north face of the Eighth Pylon, and festival processions of Ramesses II between the Eighth and Ninth.",
+          "mediaId": "karnak-eighth-pylon-south",
+          "link": "#entry/eighth-pylon",
+          "citations": [
+            {
+              "sourceId": "dk-eighth-pylon",
+              "locator": "North face"
+            },
+            {
+              "sourceId": "dk-ninth-pylon",
+              "locator": "Ramesses II decoration"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

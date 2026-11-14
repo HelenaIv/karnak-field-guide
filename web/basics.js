@@ -253,7 +253,7 @@ function bsCrownsSvg() {
 function bsHead(title, intro) { return `<div class="page-head"><a class="micro" href="#basics">← The big picture</a><span class="eyebrow" style="margin-top:18px">The big picture</span><h1>${esc(title)}</h1><p>${fmt(intro)}</p></div>`; }
 function bsFig(id, caption) { return media[id] ? simpleFigure(id, caption) : ''; }
 function bsHome() {
-  const f = bsData(); const pic = { plan: 'karnak-aerial-from-south', timeline: 'basics-th1-obelisk', gods: 'basics-amun-mut-dyad', building: 'basics-unfinished-obelisk', thebes: 'basics-sphinx-road', life: 'basics-bark-shrine-relief', universe: 'hypostyle-central-nave', after: 'basics-description-view' };
+  const f = bsData(); const pic = { plan: 'karnak-aerial-from-south', timeline: 'basics-th1-obelisk', gods: 'basics-amun-mut-dyad', building: 'basics-unfinished-obelisk', thebes: 'basics-sphinx-road', rituals: 'basics-bark-shrine-relief', life: 'basics-bark-shrine-relief', universe: 'hypostyle-central-nave', after: 'basics-description-view' };
   return `<div class="page-head"><span class="eyebrow">Background</span><h1>${esc(f.title)}</h1><p>${fmt(f.dek)}</p></div>
   <section class="section" style="padding-top:0"><div class="bs-cards">${f.pages.map(p => { const m = media[pic[p.id]]; return `<a class="bs-card" href="${p.link || '#basics/' + p.id}">${m ? `<span class="bs-card-img"><img src="${esc(m.webPath || m.path)}" alt="" loading="lazy"></span>` : ''}<b>${esc(p.title)}</b><span>${esc(p.teaser)}</span></a>`; }).join('')}</div></section>`;
 }
@@ -306,10 +306,109 @@ function bsAfter() {
   const a = bsData().after;
   return `${bsHead('After the pharaohs', a.intro)}<section class="section bs" style="padding-top:0"><ol class="bs-after">${a.events.map(e => `<li><span class="bs-after-date">${esc(e.date)}</span><div><p>${fmt(e.text)}</p>${e.mediaId ? bsFig(e.mediaId) : ''}</div></li>`).join('')}</ol>${sourcesBlock(a.citations)}</section>`;
 }
+// ---------- Rituals and festivals ----------
+const BS_FEST_COL = { newyear: '#3f6b8a', mut: '#9a4f6b', opet: '#b07a2e', khoiak: '#4f7a4a', valley: '#7a5c99' };
+function bsDayClockSvg(services) {
+  // Sun path over one day, with the three services marked.
+  const pt = a => [200 + 160 * Math.cos(Math.PI - a), 190 - 140 * Math.sin(Math.PI - a)];
+  const at = [0.12, 0.72, 0.97].map(f => f * Math.PI);
+  const mk = (a, i) => { const [x, y] = pt(a); const big = i === 0; return `<g><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${big ? 15 : 10}" fill="${big ? '#b07a2e' : '#d9b77a'}" stroke="#5d4a2c" stroke-width="1.5"/><text x="${x.toFixed(1)}" y="${(y + (big ? 5 : 4)).toFixed(1)}" text-anchor="middle" class="bs-map-q strong" style="font-size:${big ? 13 : 11}px;fill:#fff">${i + 1}</text><text x="${x.toFixed(1)}" y="${(y - (big ? 24 : 18)).toFixed(1)}" text-anchor="middle" class="bs-map-m">${esc(services[i].time)}</text></g>`; };
+  return `<svg viewBox="0 0 400 240" role="img" aria-label="The sun’s path through one day, with the morning service at dawn and two shorter rites in the afternoon and evening">
+  <rect width="400" height="240" fill="#f3ead6"/><rect y="190" width="400" height="50" fill="#2f3b45"/>
+  <path d="M40 190A160 140 0 0 1 360 190" fill="none" stroke="#c9a46a" stroke-width="2" stroke-dasharray="3 5"/>
+  <text x="200" y="222" text-anchor="middle" class="bs-map-l" style="fill:#d8dde0">night: the shrine stays sealed</text>
+  <text x="30" y="208" class="bs-map-l" style="fill:#d8dde0">sunrise</text><text x="370" y="208" text-anchor="end" class="bs-map-l" style="fill:#d8dde0">sunset</text>
+  ${at.map(mk).join('')}</svg>`;
+}
+function bsShrineSvg() {
+  // Morning service in the sanctuary, step by step.
+  const priest = (x, kneel) => kneel
+    ? `<circle cx="${x}" cy="196" r="9" fill="#5d4a2c"/><path d="M${x} 205l-4 22h-20M${x} 210l18 6" stroke="#5d4a2c" stroke-width="5" fill="none" stroke-linecap="round"/>`
+    : `<circle cx="${x}" cy="160" r="9" fill="#5d4a2c"/><path d="M${x} 169v40l-8 28M${x} 209l8 28M${x} 180l20 8" stroke="#5d4a2c" stroke-width="5" fill="none" stroke-linecap="round"/>`;
+  return `<svg viewBox="0 0 420 270" role="img" aria-label="A priest before the god’s shrine in the dark sanctuary">
+  <rect width="420" height="270" fill="#26302a"/><rect y="238" width="420" height="32" fill="#3a463d"/>
+  <g class="layer" data-l="light"><path d="M300 0L250 238H350Z" fill="#f3d98f" opacity=".18"/></g>
+  <rect x="250" y="120" width="100" height="118" fill="#8b6a3e" stroke="#e6cf9a" stroke-width="2"/><path d="M246 120h108l-8-14h-92Z" fill="#a5834f" stroke="#e6cf9a"/>
+  <g class="layer" data-l="closed"><rect x="256" y="128" width="44" height="104" fill="#6e5330" stroke="#e6cf9a"/><rect x="300" y="128" width="44" height="104" fill="#6e5330" stroke="#e6cf9a"/><circle cx="300" cy="180" r="6" fill="#b8564a"/><text x="300" y="258" text-anchor="middle" class="bs-map-l" style="fill:#e6cf9a">sealed doors</text></g>
+  <g class="layer" data-l="open"><rect x="256" y="128" width="88" height="104" fill="#3b2e1c"/><path d="M256 128l-26 10v88l26 6M344 128l26 10v88l-26 6" fill="#6e5330" stroke="#e6cf9a"/>
+   <g fill="#e2b84a"><circle cx="300" cy="150" r="8"/><path d="M291 160h18l3 50h-24Z"/><path d="M296 140l4-16 4 16" /></g><text x="300" y="258" text-anchor="middle" class="bs-map-l" style="fill:#e6cf9a">the god’s statue</text></g>
+  <g class="layer" data-l="cloth"><path d="M290 166h20l3 30h-26Z" fill="#f4f1e6"/></g>
+  <g class="layer" data-l="table"><rect x="190" y="208" width="44" height="30" fill="#a5834f"/><circle cx="200" cy="202" r="7" fill="#c9a46a"/><circle cx="214" cy="200" r="8" fill="#b8564a"/><circle cx="226" cy="203" r="6" fill="#4f7a4a"/></g>
+  <g class="layer" data-l="torch"><path d="M120 150v70" stroke="#a5834f" stroke-width="5"/><path d="M120 150c-10-12 2-24 0-34 10 10 10 22 0 34Z" fill="#f0a640"/><path d="M150 140c6-10-4-16 2-26M160 140c6-10-4-16 2-26" stroke="#c9c2b0" stroke-width="2" fill="none"/></g>
+  <g class="layer" data-l="stand">${priest(170, false)}</g>
+  <g class="layer" data-l="kneel">${priest(186, true)}</g>
+  <g class="layer" data-l="sweep">${priest(90, false)}<path d="M98 225l40 10M60 240c12-4 24-2 34 0" stroke="#c9a46a" stroke-width="3" fill="none"/><text x="60" y="262" class="bs-map-l" style="fill:#e6cf9a">footprints swept away</text></g>
+  </svg>`;
+}
+function bsYearWheelSvg(y) {
+  // The civil year: 12 months of 30 days in three seasons, plus 5 extra days; festivals on the outer ring.
+  const C = 210, ang = d => (d / 365) * 2 * Math.PI - Math.PI / 2, P = (r, d) => [C + r * Math.cos(ang(d)), C + r * Math.sin(ang(d))];
+  const arc = (r1, r2, d1, d2, fill, extra = '') => { const [a, b] = P(r2, d1), [c, e] = P(r2, d2), [f, g] = P(r1, d2), [h, k] = P(r1, d1), L = d2 - d1 > 182.5 ? 1 : 0; return `<path d="M${a.toFixed(1)} ${b.toFixed(1)}A${r2} ${r2} 0 ${L} 1 ${c.toFixed(1)} ${e.toFixed(1)}L${f.toFixed(1)} ${g.toFixed(1)}A${r1} ${r1} 0 ${L} 0 ${h.toFixed(1)} ${k.toFixed(1)}Z" fill="${fill}" ${extra}/>`; };
+  const seasons = [['Flood', 'Akhet', '#9fc1cf'], ['Growing', 'Peret', '#a9c79a'], ['Harvest', 'Shemu', '#e3c98d']];
+  let s = '';
+  seasons.forEach(([n, eg, col], i) => { s += arc(92, 150, i * 120, i * 120 + 120, col, 'stroke="#f3ead6" stroke-width="2"'); for (let m = 0; m < 4; m++) { const d = i * 120 + m * 30; s += arc(150, 168, d, d + 30, '#fbf6ea', 'stroke="#d9cfb7"'); const [x, yy] = P(159, d + 15); s += `<text x="${x.toFixed(1)}" y="${(yy + 4).toFixed(1)}" text-anchor="middle" class="bs-map-m" style="font-size:10px">${['I', 'II', 'III', 'IV'][m]}</text>`; } const [tx, ty] = P(121, i * 120 + 60); s += `<text x="${tx.toFixed(1)}" y="${(ty - 2).toFixed(1)}" text-anchor="middle" class="bs-map-q strong" style="font-size:12px">${n}</text><text x="${tx.toFixed(1)}" y="${(ty + 12).toFixed(1)}" text-anchor="middle" class="bs-map-l" style="font-size:10px">${eg}</text>`; });
+  s += arc(92, 168, 360, 365, '#c9b48a', 'stroke="#f3ead6"');
+  const [ex, ey] = P(168, 362.5); s += `<path d="M${ex.toFixed(1)} ${ey.toFixed(1)}L${C - 52} 30H${C - 70}" fill="none" stroke="#8b7a55"/><text x="${C - 74}" y="33" text-anchor="end" class="bs-map-l">${esc(y.extra)}</text>`;
+  y.festivals.forEach((f, i) => { const d = (f.month - 1) * 30 + f.day - 1, col = BS_FEST_COL[f.id] || '#5d4a2c'; if (f.len > 1) s += arc(172, 182, d, d + f.len, col, `opacity=".85"`); const [x, yy] = P(f.len > 1 ? 196 : 186, d + Math.max(f.len, 1) / 2); s += `<g data-scroll="fest-${esc(f.id)}" style="cursor:pointer"><circle cx="${x.toFixed(1)}" cy="${yy.toFixed(1)}" r="11" fill="${col}" stroke="#fff" stroke-width="2"/><text x="${x.toFixed(1)}" y="${(yy + 4).toFixed(1)}" text-anchor="middle" style="font:bold 11px Arial,sans-serif;fill:#fff">${i + 1}</text></g>`; });
+  return `<svg viewBox="0 0 420 420" role="img" aria-label="The Egyptian year as a wheel: twelve months in three seasons and five extra days, with the main festivals of Thebes marked">
+  <rect width="420" height="420" fill="#f3ead6"/>${s}<circle cx="${C}" cy="${C}" r="88" fill="#f3ead6"/><text x="${C}" y="${C - 4}" text-anchor="middle" class="bs-map-q strong">365 days</text><text x="${C}" y="${C + 14}" text-anchor="middle" class="bs-map-l">12 × 30 + 5</text>
+  <path d="M${C - 14} ${C - 52}A60 60 0 0 1 ${C + 22} ${C - 50}" fill="none" stroke="#8b7a55" stroke-width="1.5"/><path d="M${C + 22} ${C - 50}l-8-5M${C + 22} ${C - 50}l-9 3" stroke="#8b7a55" stroke-width="1.5"/><text x="${C}" y="${C - 60}" text-anchor="middle" class="bs-map-l">year starts at the top</text></svg>`;
+}
+function bsRoutesSvg() {
+  // Schematic map of the festival routes (not to scale). Each route can be highlighted.
+  const st = [[318, 178], [314, 214], [306, 250], [298, 286], [290, 322], [282, 352]];
+  return `<svg viewBox="0 0 420 470" role="img" aria-label="Schematic map of the festival routes between Karnak, Luxor Temple and the west bank" class="rt-svg" data-route="">
+  <rect width="420" height="470" fill="#f3ead6"/><path d="M0 0H120C104 140 132 300 110 470H0Z" fill="#e3d2ac"/>
+  <path d="M212 0C196 120 236 230 210 330S236 420 222 470" fill="none" stroke="#9fc1cf" stroke-width="40"/><text x="224" y="250" class="bs-map-l" transform="rotate(-82 224 250)">Nile</text>
+  <rect x="290" y="56" width="70" height="56" fill="#c9a46a" stroke="#5d4a2c" stroke-width="2"/><text x="314" y="88" text-anchor="middle" class="bs-map-q strong" style="font-size:12px">Karnak</text>
+  <rect x="343" y="62" width="14" height="22" fill="#a5834f"/><text x="348" y="50" text-anchor="middle" class="bs-map-l" style="font-size:9px">Akhmenu</text>
+  <rect x="304" y="134" width="40" height="32" fill="#e6d6b2" stroke="#5d4a2c"/><text x="350" y="154" class="bs-map-m">Mut</text>
+  <rect x="262" y="362" width="56" height="34" fill="#c9a46a" stroke="#5d4a2c" stroke-width="2"/><text x="290" y="414" text-anchor="middle" class="bs-map-q" style="font-size:12px">Luxor Temple</text>
+  ${[['Deir el-Bahari', 66, 74, 40, 100], ['Ramesseum', 92, 224, 8, 250], ['Medinet Habu', 74, 338, 8, 368]].map(([n, x, y, lx, ly]) => `<circle cx="${x}" cy="${y}" r="7" fill="#8b6a3e"/><text x="${lx}" y="${ly}" class="bs-map-m">${n}</text>`).join('')}
+  <g class="rt rt-opet"><path d="M324 112C322 140 324 160 318 178S294 320 286 362" fill="none" stroke="#b07a2e" stroke-width="4" stroke-dasharray="7 5"/>${st.map(([x, y]) => `<rect x="${x - 5}" y="${y - 5}" width="10" height="10" fill="#fff" stroke="#b07a2e" stroke-width="2"/>`).join('')}
+   <path d="M262 378C236 360 238 300 226 240S232 120 252 98" fill="none" stroke="#b07a2e" stroke-width="3"/><path d="M252 98l-10 4M252 98l-2 10" stroke="#b07a2e" stroke-width="3"/><text x="248" y="190" class="bs-map-l" style="fill:#8a5c1e" transform="rotate(-84 248 190)">back by river</text><text x="312" y="300" class="bs-map-l" style="fill:#8a5c1e">sphinx road</text><text x="312" y="314" class="bs-map-l" style="fill:#8a5c1e">bark stations</text></g>
+  <g class="rt rt-valley"><path d="M290 90C250 92 220 90 196 90S110 84 72 76" fill="none" stroke="#7a5c99" stroke-width="4"/><path d="M150 88C130 140 110 190 96 220M130 120C110 220 92 290 78 332" fill="none" stroke="#7a5c99" stroke-width="2" stroke-dasharray="3 4"/></g>
+  <g class="rt rt-wehem"><path d="M348 84C372 110 360 140 344 150" fill="none" stroke="#4f7a4a" stroke-width="4"/><path d="M344 150l4-10M344 150l10-2" stroke="#4f7a4a" stroke-width="3"/></g>
+  <g class="rt rt-decade"><path d="M262 386C200 392 140 372 82 342" fill="none" stroke="#3f6b8a" stroke-width="4" stroke-dasharray="1 6" stroke-linecap="round"/></g>
+  <text x="14" y="456" class="bs-map-l">WEST BANK</text><text x="300" y="456" class="bs-map-l">EAST BANK</text>
+  <path d="M30 16v24M30 16l-5 10M30 16l5 10" stroke="#273a30" stroke-width="2"/><text x="26" y="54" class="bs-map-l">N</text></svg>`;
+}
+function bsBarkSvg() {
+  const man = x => `<circle cx="${x}" cy="150" r="7" fill="#5d4a2c"/><path d="M${x} 157v28l-6 22M${x} 185l6 22M${x} 164l-8-18M${x} 164l8-18" stroke="#5d4a2c" stroke-width="4" fill="none" stroke-linecap="round"/>`;
+  return `<svg viewBox="0 0 420 230" role="img" aria-label="A sacred bark carried on poles by priests, with the shrine that hides the god’s statue">
+  <rect width="420" height="230" fill="#f3ead6"/><rect y="207" width="420" height="23" fill="#e3d2ac"/>
+  <path d="M60 108h300" stroke="#8b6a3e" stroke-width="6"/><path d="M60 122h300" stroke="#8b6a3e" stroke-width="6"/>
+  <path d="M70 96C120 112 300 112 350 96L340 84C290 98 130 98 80 84Z" fill="#d6a84e" stroke="#5d4a2c" stroke-width="2"/>
+  <circle cx="74" cy="80" r="10" fill="#d6a84e" stroke="#5d4a2c" stroke-width="2"/><circle cx="346" cy="80" r="10" fill="#d6a84e" stroke="#5d4a2c" stroke-width="2"/>
+  <rect x="180" y="52" width="60" height="40" fill="#f4f1e6" stroke="#5d4a2c" stroke-width="2"/><path d="M174 52h72l-6-10h-60Z" fill="#c9a46a" stroke="#5d4a2c"/>
+  ${[100, 145, 190, 235, 280, 325].map(man).join('')}
+  <text x="210" y="30" text-anchor="middle" class="bs-map-m">shrine: the statue is hidden inside</text><path d="M210 34v8" stroke="#5d4a2c"/>
+  <text x="14" y="56" class="bs-map-m">ram head</text><text x="410" y="140" text-anchor="end" class="bs-map-m">carrying poles</text><text x="210" y="225" text-anchor="middle" class="bs-map-l">priests</text></svg>`;
+}
+function bsRituals() {
+  const f = bsData(), r = f.rituals, l = f.life, y = r.year, p = r.processions, w = r.walls;
+  BS_STEPPERS.shrine = l.ritual.steps.map((t, i) => ({ label: ['Enter', 'Open', 'Greet', 'Dress', 'Feed', 'Leave'][i] || String(i + 1), text: t, layers: [['light', 'closed', 'torch', 'stand'], ['light', 'open', 'stand'], ['light', 'open', 'kneel'], ['light', 'open', 'cloth', 'stand'], ['light', 'open', 'cloth', 'table', 'kneel'], ['closed', 'sweep']][i] || [] }));
+  const goLink = s => s.link ? `<a class="mu-stop" href="${esc(s.link)}">${s.link.startsWith('#hall/') ? 'Go to the stop →' : 'More about this place →'}</a>` : '';
+  const scene = s => { const m = s.mediaId && media[s.mediaId]; return `<article class="rt-scene">${m ? `<button class="rt-scene-img" data-zoom="${esc(m.id)}" aria-label="Enlarge image: ${esc(m.caption)}"><img src="${esc(m.webPath || m.path)}" alt="${esc(m.alt)}" loading="lazy"></button>` : ''}<div><span class="micro">${esc(s.where)}</span><h3>${esc(s.title)}</h3><p>${fmt(s.text)}</p>${goLink(s)}${m ? credit(m) : ''}${s.citations ? sourcesBlock(s.citations) : ''}</div></article>`; };
+  const stations = ['central-bark-shrine', 'red-chapel', 'amenhotep-i-calcite', 'sety-ii-shrine', 'ramesses-iii-temple', 'hakoris-chapel'].filter(id => records[id]);
+  return `${bsHead('Rituals and festivals', r.intro)}<section class="section bs" style="padding-top:0">
+  <div class="rt-rhythms">${r.rhythms.map(x => `<a class="rt-rhythm" href="#" data-scroll="rt-${esc(x.id)}"><b>${esc(x.label)}</b><span>${esc(x.text)}</span></a>`).join('')}</div>
+  <div class="bs-sec" id="rt-day"><div class="bs-sec-text"><h2>${esc(r.daily.heading)}</h2>${r.daily.text.map(t => `<p>${fmt(t)}</p>`).join('')}<ol class="rt-services">${r.daily.services.map(s => `<li><b>${esc(s.label)}</b> · ${esc(s.time)}<br><span>${esc(s.text)}</span></li>`).join('')}</ol><p>${fmt(l.ritual.note)}</p><p>${fmt(r.daily.after)}</p>${sourcesBlock(r.daily.citations)}</div>
+  <div class="bs-sec-art"><figure class="bs-draw">${bsDayClockSvg(r.daily.services)}<figcaption class="micro">Original schematic, not a clock: the times are approximate.</figcaption></figure>${bsStepper('shrine', bsShrineSvg(), BS_STEPPERS.shrine)}</div></div>
+  <div class="bs-sec" id="rt-month"><div class="bs-sec-text"><h2>${esc(r.monthly.heading)}</h2>${r.monthly.text.map(t => `<p>${fmt(t)}</p>`).join('')}${sourcesBlock(r.monthly.citations)}</div><div class="bs-sec-art">${bsFig('basics-bark-shrine-relief', 'The king before Amun, on the granite boat shrine at the heart of the temple.')}</div></div>
+  <div class="bs-sec" id="rt-year"><div class="bs-sec-text"><h2>${esc(y.heading)}</h2><p>${fmt(y.intro)}</p><div class="rt-fests">${y.festivals.map((x, i) => `<article class="rt-fest" id="fest-${esc(x.id)}" style="--c:${BS_FEST_COL[x.id] || '#5d4a2c'}"><span class="rt-num">${i + 1}</span><div><h3>${esc(x.name)}</h3><span class="micro">${esc(x.when)}</span><p>${fmt(x.text)}</p>${sourcesBlock(x.citations)}</div></article>`).join('')}</div></div>
+  <div class="bs-sec-art"><figure class="bs-draw">${bsYearWheelSvg(y)}<figcaption class="micro">Original schematic of the civil year. Tap a number to read about the festival. Festival positions follow the ancient calendar dates; the new-moon festivals moved from year to year.</figcaption></figure></div></div>
+  <div class="bs-sec" id="rt-reign"><div class="bs-sec-text"><h2>${esc(r.jubilee.heading)}</h2>${r.jubilee.text.map(t => `<p>${fmt(t)}</p>`).join('')}${sourcesBlock(r.jubilee.citations)}<p><a class="mu-stop" href="#read/sign/hebsed">The jubilee sign in Read the walls →</a></p></div><div class="bs-sec-art">${bsFig('white-chapel-heh', 'The god Heh, “millions”, on Senusret I’s jubilee chapel.')}</div></div>
+  <div class="bs-sec" id="rt-proc"><div class="bs-sec-text"><h2>${esc(p.heading)}</h2>${p.text.map(t => `<p>${fmt(t)}</p>`).join('')}<div class="rt-legend">${p.routes.map(x => `<button data-rt="${esc(x.id)}" class="rt-key rt-key-${esc(x.id)}"><b>${esc(x.name)}</b><span>${esc(x.text)}</span></button>`).join('')}</div>${sourcesBlock(p.citations)}
+  <h3 style="margin-top:22px">${esc(p.stations)}</h3><ul class="rt-stations">${stations.map(id => `<li><a href="#entry/${esc(id)}">${esc(records[id].title)} →</a></li>`).join('')}</ul></div>
+  <div class="bs-sec-art"><figure class="bs-draw">${bsRoutesSvg()}<figcaption class="micro">Original schematic map, not to scale. Tap a festival to highlight its route; routes changed over the centuries.</figcaption></figure><figure class="bs-draw">${bsBarkSvg()}<figcaption class="micro">Original drawing. Barks differed for each god: Amun’s has ram heads.</figcaption></figure></div></div>
+  <div id="rt-walls"><h2>${esc(w.heading)}</h2><p class="micro" style="max-width:720px">${fmt(w.intro)}</p><div class="rt-scenes">${w.scenes.map(scene).join('')}</div></div>
+  <div class="mu-sec"><div><h2>${esc(l.estate.heading)}</h2>${l.estate.text.map(t => `<p>${fmt(t)}</p>`).join('')}${sourcesBlock(l.estate.citations)}</div></div></section>`;
+}
 function basicsRoute(sub, arg) {
   if (!bsData()) return '<div class="page-head"><h1>This section is not in this build.</h1></div>';
   if (sub === 'plan') return bsPlanPage(arg);
-  return ({ timeline: bsTimeline, gods: bsGods, building: bsBuilding, thebes: bsThebes, life: bsLife, after: bsAfter }[sub] || bsHome)();
+  return ({ timeline: bsTimeline, gods: bsGods, building: bsBuilding, thebes: bsThebes, life: bsRituals, rituals: bsRituals, after: bsAfter }[sub] || bsHome)();
 }
 function basicsAfterRender() {
   if (document.querySelector('.bp-svg-wrap')) bsRenderPlan();
@@ -322,6 +421,7 @@ function basicsInteract(e) {
   const mv = t.closest('[data-bp-move]'); if (mv) { bsState.step = Math.max(0, Math.min(bsData().growth.steps.length - 1, bsState.step + +mv.dataset.bpMove)); bsRenderPlan(); return true; }
   const el = t.closest('[data-el]'); if (el) { bsInfo(el.dataset.el); return true; }
   const er = t.closest('[data-bp-era]'); if (er) { const svg = document.querySelector('.bp-svg'); const on = svg.dataset.era === er.dataset.bpEra; svg.dataset.era = on ? '' : er.dataset.bpEra; document.querySelectorAll('.el').forEach(g => g.classList.toggle('dim', !on && bsData().growth.elements[g.dataset.el].era !== er.dataset.bpEra)); document.querySelectorAll('[data-bp-era]').forEach(b => b.classList.toggle('on', !on && b === er)); return true; }
+  const rt = t.closest('[data-rt]'); if (rt) { const svg = document.querySelector('.rt-svg'); const on = svg.dataset.route === rt.dataset.rt; svg.dataset.route = on ? '' : rt.dataset.rt; document.querySelectorAll('[data-rt]').forEach(b => b.classList.toggle('on', !on && b === rt)); return true; }
   const st = t.closest('[data-bsstep]'); if (st) { bsSetStep(st.closest('.bs-stepper'), +st.dataset.bsstep); return true; }
   return false;
 }

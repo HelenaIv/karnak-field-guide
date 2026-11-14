@@ -1307,6 +1307,114 @@
       "kind": "specialist archaeological project",
       "consultation": "Read 2026-11-14: Nectanebo I wall 12 m thick and 21 m high; earlier enclosure walls.",
       "accessed": "2026-11-14"
+    },
+    {
+      "id": "dk-festivals",
+      "title": "Processional Routes and Festivals (Sullivan 2008)",
+      "url": "https://digitalkarnak.ucsc.edu/wp-content/uploads/2020/11/festivalprocessions-min.pdf",
+      "authors": [
+        "Elaine A. Sullivan"
+      ],
+      "publisher": "Digital Karnak, UCLA / UC Santa Cruz",
+      "kind": "specialist project guide (PDF)",
+      "consultation": "Read in full 2026-11-14: Opet (season, durations, land and river routes, six bark stations, Karnak depictions), Beautiful Feast of the Valley, Wehem-ankh scenes in the Akhmenu.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "uee-opet",
+      "title": "Opet Festival",
+      "url": "https://escholarship.org/uc/item/4739r3fr",
+      "authors": [
+        "John Coleman Darnell"
+      ],
+      "publisher": "UCLA Encyclopedia of Egyptology, 2010",
+      "kind": "peer-reviewed encyclopedia article",
+      "consultation": "Indexed text read 2026-11-14: 11 days from II Akhet 15 under Thutmose III; 24 days (II Akhet 19 – III Akhet 12) in the Medinet Habu calendar, perhaps 27 by the end of Ramesses III’s reign; barks of Mut, Khonsu and the king by Tutankhamun.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "ucl-festival-dates",
+      "title": "Festival dates",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt//ideology/festivaldates.html",
+      "authors": [
+        "Digital Egypt for Universities"
+      ],
+      "publisher": "University College London",
+      "kind": "university teaching resource",
+      "consultation": "Indexed text read 2026-11-14 (the page itself returned an error): Valley Festival at the new moon of the tenth month; Opet start dates under Thutmose III and Ramesses III.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "ucl-khoiak",
+      "title": "The Khoiak festival",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/ideology/khoiak.html",
+      "authors": [
+        "Digital Egypt for Universities"
+      ],
+      "publisher": "University College London",
+      "kind": "university teaching resource",
+      "consultation": "Read 2026-11-14: fourth month of the flood season; seeded earth figures of Osiris; rites at Karnak on days 18–26 with a procession of Osiris on day 26 (Papyrus Louvre N 3176); Osiris chambers found at Karnak.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "fukaya-opet",
+      "title": "Dates and precursors of the Opet Festival",
+      "url": "https://tsukuba.repo.nii.ac.jp/record/35355/files/PH%2033-128%281%29.pdf",
+      "authors": [
+        "Masashi Fukaya"
+      ],
+      "publisher": "University of Tsukuba",
+      "kind": "peer-reviewed article",
+      "consultation": "Indexed text read 2026-11-14: civil year of three seasons of four 30-day months plus five extra days, drifting against the solar year; Thutmose III’s Opet dates.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "arce-bryan-drunkenness",
+      "title": "The Altered State of Religion: Sekhmet and Ritual Revelries in the Reign of Amenhotep III (lecture transcript)",
+      "url": "https://arce.org/wp-content/uploads/files-imported/documents/Bryan%20Transcript.pdf",
+      "authors": [
+        "Betsy M. Bryan"
+      ],
+      "publisher": "American Research Center in Egypt, 2020",
+      "kind": "excavator’s public lecture (transcript)",
+      "consultation": "Read 2026-11-14: Hatshepsut and Thutmose III’s “columned portico of drunkenness” for Mut, mistress of Isheru, found by the Johns Hopkins expedition in 2004–2007.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "nbc-bryan-2006",
+      "title": "Sex and booze figured in Egyptian rites",
+      "url": "https://www.nbcnews.com/id/15475319/page/2/",
+      "authors": [
+        "Alan Boyle"
+      ],
+      "publisher": "NBC News, 2006",
+      "kind": "news report (secondary)",
+      "consultation": "Read 2026-11-14 for Betsy Bryan’s statement that the festival of drunkenness fell in the first month of the year, after the flood began. Replace with a specialist publication when one is checked.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "britannica-hebsed",
+      "title": "Heb-Sed",
+      "url": "https://www.britannica.com/topic/Heb-Sed",
+      "authors": [
+        "Encyclopaedia Britannica"
+      ],
+      "publisher": "Encyclopaedia Britannica",
+      "kind": "encyclopedia (secondary)",
+      "consultation": "Read 2026-11-14: celebrated by the king after 30 years of rule and repeated every 3 years thereafter.",
+      "accessed": "2026-11-14"
+    },
+    {
+      "id": "abouzaid-valley",
+      "title": "Some new evidence for the processional way of the Beautiful Feast of the Valley at Western Thebes",
+      "url": "https://journals.ekb.eg/article_330913_4f7582bfd7e4772326c3af9b700a5e54.pdf",
+      "authors": [
+        "Omar Abou Zaid"
+      ],
+      "publisher": "Aswan University (journal article)",
+      "kind": "peer-reviewed article",
+      "consultation": "Indexed text read 2026-11-14: the Decade festival, when Amun of Luxor crossed to Djeme (Medinet Habu) to visit the buried primeval gods; earliest mention under Thutmose II.",
+      "accessed": "2026-11-14"
     }
   ]
 }
