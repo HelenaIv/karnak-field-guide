@@ -2150,6 +2150,59 @@
       "accessed": "2026-11-16",
       "consultation": "Search extract read; lists the Heqa-djet chapel under Shepenupet I and Amenirdis I. Author and publication to be identified.",
       "rights": "Reference only."
+    },
+    {
+      "id": "brooklyn-gac-mut",
+      "authors": [
+        "Brooklyn Museum"
+      ],
+      "title": "Brooklyn Museum and the Precinct of Mut",
+      "publisher": "Google Arts & Culture",
+      "url": "https://artsandculture.google.com/story/FQWRg4Ls1BMA8A",
+      "kind": "museum online exhibition",
+      "accessed": "2026-11-16",
+      "consultation": "Exhibition text read via search extract.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "wikipedia-precinct-of-mut",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "title": "Precinct of Mut",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Precinct_of_Mut",
+      "kind": "encyclopedia article",
+      "accessed": "2026-11-16",
+      "consultation": "Used only for the Sekhmet statue count and museum holdings, which it attributes to Lythgoe 1919 and Porter and Moss 1960.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "digital-epigraphy-mut-pylon",
+      "authors": [
+        "Digital Epigraphy"
+      ],
+      "title": "The First Pylon of the Mut Temple, South Karnak (review of Fazzini and van Dijk, OLA 236, 2015)",
+      "publisher": "Digital Epigraphy",
+      "url": "https://www.digital-epigraphy.com/readings/the-first-pylon-of-the-mut-temple-south-karnak-architecture-decoration-inscriptions",
+      "kind": "book review",
+      "accessed": "2026-11-16",
+      "consultation": "Review read via search extract.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "mut-report-2017",
+      "authors": [
+        "Richard Fazzini",
+        "Mary McKercher"
+      ],
+      "title": "The Brooklyn Museum’s 2017 season at the Precinct of Mut (English report)",
+      "publisher": "Brooklyn Museum",
+      "url": "https://d1lfxha3ugu3d4.cloudfront.net/features/docs/Mut_Precinct_Report_2017_English.pdf",
+      "kind": "field report",
+      "accessed": "2026-11-16",
+      "consultation": "Report read via search extract; authorship as in the series, not checked on this report.",
+      "rights": "Reference only."
     }
   ]
 }

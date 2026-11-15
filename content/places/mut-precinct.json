@@ -7,8 +7,8 @@
   "additionalChecks": [
     "needs_field_check"
   ],
-  "summary": "A separate southern sacred precinct, with a horseshoe-shaped lake and several temples, extends Karnak beyond the Amun enclosure.",
-  "orientation": "South of the Amun precinct.",
+  "summary": "The precinct of the goddess Mut south of Karnak: her temple almost ringed by the crescent-shaped Isheru lake, the lion-headed Sekhmet statues of Amenhotep III, Temple A, the temple of Ramesses III and Taharqa’s gate.",
+  "orientation": "About 100 yards (90 m) south of the precinct of Amun, linked to it by an avenue of sphinxes from the Tenth Pylon.",
   "details": [
     "mut-occupation-layers"
   ],
@@ -49,10 +49,177 @@
   ],
   "sources": [
     "arce-mut",
-    "mut-fieldwork-2016"
+    "mut-fieldwork-2016",
+    "brooklyn-gac-mut",
+    "wikipedia-precinct-of-mut",
+    "digital-epigraphy-mut-pylon",
+    "mut-report-2017"
   ],
   "caveats": [
     "This is not the Ramesses III bark temple in the Amun Great Court.",
     "Current access and transport between precincts need separate verification."
-  ]
+  ],
+  "personIds": [
+    "hatshepsut",
+    "thutmose-iii",
+    "amenhotep-iii",
+    "ramesses-ii",
+    "ramesses-iii",
+    "taharqo"
+  ],
+  "periodIds": [
+    "new-kingdom",
+    "third-intermediate",
+    "macedonian-ptolemaic"
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "Goddess",
+        "value": "Mut, wife of Amun and mother of Khonsu, also worshipped in the form of the lioness Sekhmet"
+      },
+      {
+        "label": "Built",
+        "value": "Earliest standing remains from Hatshepsut and Thutmose III; final walls in the 4th century BC"
+      },
+      {
+        "label": "Where",
+        "value": "South of the precinct of Amun, at the end of the sphinx avenue from the Tenth Pylon"
+      },
+      {
+        "label": "Known for",
+        "value": "The Isheru lake and hundreds of granite statues of Sekhmet"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "The precinct of Mut lies about 100 yards (90 m) south of the temple of Amun and faces it; an avenue of sphinxes links the two. Mut was Amun’s wife and, with their son Khonsu, formed the Theban triad.",
+          "The precinct reopened to the public in January 2014 after being closed for almost 40 years, following work by the Brooklyn Museum and Johns Hopkins University expeditions and the American Research Center in Egypt."
+        ],
+        "citations": [
+          {
+            "sourceId": "brooklyn-gac-mut",
+            "locator": "The Mut Precinct; Celebrating 15"
+          },
+          {
+            "sourceId": "wikipedia-precinct-of-mut",
+            "locator": "Introduction"
+          }
+        ]
+      },
+      {
+        "id": "temple",
+        "heading": "The temple of Mut and the Isheru",
+        "paragraphs": [
+          "The temple of Mut is surrounded on three sides by a crescent-shaped sacred lake, the Isheru. A temple to Mut may have stood here as early as the Middle Kingdom, and the Johns Hopkins expedition found evidence of an earlier temple below the later building, but the earliest standing remains date to Hatshepsut and Thutmose III. Until the 25th Dynasty the precinct held only the temple of Mut and its lake."
+        ],
+        "look": [
+          "The curve of the Isheru around the back of the temple."
+        ],
+        "citations": [
+          {
+            "sourceId": "digital-epigraphy-mut-pylon",
+            "locator": "Introduction"
+          },
+          {
+            "sourceId": "arce-mut",
+            "locator": "History"
+          }
+        ],
+        "mediaId": "mut-court-2005"
+      },
+      {
+        "id": "sekhmet",
+        "heading": "The Sekhmet statues",
+        "paragraphs": [
+          "Amenhotep III filled the precinct with seated and standing granite statues of the lion-headed goddess Sekhmet, a fierce form linked with Mut at Thebes; one estimate puts their original number at about 570. Most seem to have been made for this site, though some may have come from Amenhotep III’s mortuary temple on the west bank.",
+          "Many still stand in the courts and along the Isheru. Others were taken to museums: the British Museum alone has about thirty and the Egyptian Museum in Cairo six."
+        ],
+        "look": [
+          "The seated Sekhmet statues still standing in the courts and beside the lake."
+        ],
+        "citations": [
+          {
+            "sourceId": "wikipedia-precinct-of-mut",
+            "locator": "Statues of Sekhmet"
+          }
+        ],
+        "mediaIds": [
+          "mut-sekhmet-tausch-2011",
+          "mut-sekhmet-bm-garytodd"
+        ]
+      },
+      {
+        "id": "temple-a",
+        "heading": "Temple A",
+        "paragraphs": [
+          "In the north-east corner stands the building known as Temple A. A block from it names a “Temple of Millions of Years” of Ramesses II. It lay outside the precinct until Taharqa brought it inside in the 25th Dynasty, and by the Third Intermediate Period it served as a birth house, a temple celebrating the divine birth of a god."
+        ],
+        "citations": [
+          {
+            "sourceId": "arce-mut",
+            "locator": "History; Temple A"
+          },
+          {
+            "sourceId": "mut-report-2017",
+            "locator": "Block naming a Temple of Millions of Years of Ramesses II"
+          }
+        ]
+      },
+      {
+        "id": "ramesses-iii",
+        "heading": "The temple of Ramesses III",
+        "paragraphs": [
+          "South-west of the Isheru stands a temple of Ramesses III, which was also outside the precinct at first. In the 1920s Maurice Pillet cleared it and re-erected the two colossal statues of the king in front of its entrance."
+        ],
+        "citations": [
+          {
+            "sourceId": "arce-mut",
+            "locator": "History; Exploration"
+          },
+          {
+            "sourceId": "brooklyn-gac-mut",
+            "locator": "Early exploration"
+          }
+        ]
+      },
+      {
+        "id": "gate",
+        "heading": "Taharqa’s gate and the final walls",
+        "paragraphs": [
+          "Taharqa built a gate in a new western enclosure wall, opening a processional way to Temple A; it is carved with scenes of his divine birth and his acceptance by the gods. The precinct reached its final size in the 4th century BC, when either Nectanebo II or an early Ptolemy added the monumental entrance, the propylon, and built massive walls around Temple A, the Ramesses III temple and the area south of the Isheru. The Taharqa gate was then blocked; the Brooklyn expedition rebuilt it in 2008–2009.",
+          "On the propylon a Ptolemaic king and two priestesses play music before the goddesses."
+        ],
+        "look": [
+          "The music-making scene on the propylon at the entrance."
+        ],
+        "detailId": "mut-occupation-layers",
+        "citations": [
+          {
+            "sourceId": "arce-mut",
+            "locator": "History; Taharqa Gate"
+          },
+          {
+            "sourceId": "brooklyn-gac-mut",
+            "locator": "The Mut Precinct"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "How far did a Middle Kingdom temple of Mut extend? Only traces below the later temple are known.",
+        "citations": [
+          {
+            "sourceId": "arce-mut",
+            "locator": "History"
+          }
+        ]
+      }
+    ]
+  },
+  "heroMediaId": "mut-sekhmet-isheru-2005"
 }

@@ -3544,6 +3544,106 @@
       "alt": "A tall stone doorway and fragments of walls rising from excavated ground with mud-brick remains.",
       "identificationStatus": "Commons description: “Chapelle Osiris Ounnefer, Karnak”, photographed 2025-12-04. Which of the Wennefer chapels is not stated.",
       "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "mut-sekhmet-isheru-2005",
+      "path": "assets/photos/mut-sekhmet-isheru-2005.jpg",
+      "title": "Temple Mout 003.JPG",
+      "creator": "Unknown (Wikimedia Commons uploader)",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Temple_Mout_003.JPG",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mout_003.JPG",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mout_003.JPG?width=2560",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Temple_Mout_003.JPG",
+      "attribution": "Public domain, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "144dcebca1deb0c728eef21b585e529a2e85eae9c2369711c38b44398cc400d9",
+      "bytes": 356616,
+      "placeIds": [
+        "mut-precinct"
+      ],
+      "subjectGroup": "place",
+      "caption": "Sekhmet statues beside the Isheru, the sacred lake of the temple of Mut.",
+      "alt": "Dark stone statues and fallen blocks on the bank of a lake, with reeds and palm trees beyond.",
+      "identificationStatus": "Commons description: “Statues de Sekhmet bordant le lac sacré Isherou du temple de Mout à Karnak”, August 2005.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "mut-court-2005",
+      "path": "assets/photos/mut-court-2005.jpg",
+      "title": "Temple Mout 01.JPG",
+      "creator": "Unknown (Wikimedia Commons uploader)",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Temple_Mout_01.JPG",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mout_01.JPG",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mout_01.JPG?width=2560",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Temple_Mout_01.JPG",
+      "attribution": "Public domain, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "e45fc015a11b06acdbbba3305c338b527fc906c1e2dde342194a6f851e660f4a",
+      "bytes": 420367,
+      "placeIds": [
+        "mut-precinct"
+      ],
+      "subjectGroup": "place",
+      "caption": "One of the courts of the temple of Mut, with statue fragments among the ruins.",
+      "alt": "Ruined temple court with low walls, scattered dark statues and dry grass, palm trees on the horizon.",
+      "identificationStatus": "Commons description: “Vue d’une des cours du temple de Mout à Karnak”, August 2005.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "mut-sekhmet-tausch-2011",
+      "path": "assets/photos/mut-sekhmet-tausch-2011.jpg",
+      "title": "Karnak Sachmet 02.JPG",
+      "creator": "Olaf Tausch",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak_Sachmet_02.JPG",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Sachmet_02.JPG",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Sachmet_02.JPG?width=2560",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Olaf Tausch, CC BY 3.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "c9868ca5b4438e77dac53165e09852440b75ad0ebb77b3232e2ddac2b34c2039",
+      "bytes": 688660,
+      "placeIds": [
+        "mut-precinct"
+      ],
+      "subjectGroup": "place",
+      "caption": "Three seated statues of Sekhmet from the temple of Mut, now displayed in the Open Air Museum at Karnak.",
+      "alt": "Three dark stone statues of a lion-headed goddess seated on thrones in front of a mud-brick wall.",
+      "identificationStatus": "Commons description: statues of Sekhmet from the former Mut temple, in the Open Air Museum of Karnak, photographed 2011-03-04.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "mut-sekhmet-bm-garytodd",
+      "path": "assets/photos/mut-sekhmet-bm-garytodd.jpg",
+      "title": "Egyptian Granodiorite Statues of Lion-Headed Goddess Sekhmet, Karnak (Thebes), Temple of Mut, 18th Dynasty (36399266851).jpg",
+      "creator": "Gary Todd",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Egyptian_Granodiorite_Statues_of_Lion-Headed_Goddess_Sekhmet,_Karnak_(Thebes),_Temple_of_Mut,_18th_Dynasty_(36399266851).jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Egyptian_Granodiorite_Statues_of_Lion-Headed_Goddess_Sekhmet,_Karnak_(Thebes),_Temple_of_Mut,_18th_Dynasty_(36399266851).jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Egyptian_Granodiorite_Statues_of_Lion-Headed_Goddess_Sekhmet,_Karnak_(Thebes),_Temple_of_Mut,_18th_Dynasty_(36399266851).jpg?width=2560",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Gary Todd, CC0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "d1c9cc6ad51aa09c6fc425d49bdf54ea975ae25ae06a37d67620ae5b6f91ffaf",
+      "bytes": 288752,
+      "placeIds": [
+        "mut-precinct"
+      ],
+      "subjectGroup": "place",
+      "caption": "Granodiorite statues of Sekhmet from the temple of Mut in the Egyptian Sculpture Gallery of the British Museum.",
+      "alt": "A seated and a standing statue of a lion-headed goddess in dark stone, displayed in a museum gallery.",
+      "identificationStatus": "Commons description: statues of Sekhmet from the Temple of Mut, Karnak, British Museum, photographed 2017.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
     }
   ]
 }
