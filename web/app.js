@@ -26,6 +26,20 @@ function learn() { return `<div class="page-head"><span class="eyebrow">Misc</sp
 function diagram(kind) { if(kind==='relief') return `<div class="demo" id="relief-demo"><div class="demo-controls"><strong>A cross-section through the stone</strong><button data-demo="light">Change light direction ↔</button></div><svg viewBox="0 0 720 210" role="img" aria-label="Schematic cross-sections: raised relief stands above a lowered background; sunk relief is cut below the original surface"><text x="35" y="25" class="demo-label">RAISED RELIEF</text><text x="395" y="25" class="demo-label">SUNK RELIEF</text><path d="M25 105H115V65H175V105H310V175H25Z" fill="#bfa16d" class="relief-shape"/><path d="M385 65H475V105H535V65H690V175H385Z" fill="#bfa16d" class="relief-shape"/><path d="M25 65H310 M385 65H690" stroke="#5b6658" stroke-width="1" stroke-dasharray="5 5"/><text x="25" y="200" class="demo-label">Background lowered around the form</text><text x="385" y="200" class="demo-label">Form cut into the surface</text></svg><p>Original explanatory schematic. Dashed line: original stone surface. Not a reconstruction of a particular hieroglyph or ancient light level.</p></div>`; return `<div class="demo" id="roof-demo"><div class="demo-controls"><strong>Put the roof back</strong><button data-demo="roof" aria-pressed="false">Show the roof</button></div><svg viewBox="0 0 720 300" role="img" aria-label="Schematic cross-section of a higher central nave and lower side roofs"><g fill="#bfa16d" stroke="#8d784f"><path d="M90 275V125H120V275 M190 275V125H220V275 M290 275V65H325V275 M395 275V65H430V275 M500 275V125H530V275 M600 275V125H630V275"/><path d="M75 115h160v12H75 M275 55h170v14H275 M485 115h160v12H485"/></g><g class="roof-slab" fill="#897753"><path d="M60 102h230v13H60 M430 102h230v13H430 M270 40h180v15H270"/><path d="M277 68h10v34h-10 M433 68h10v34h-10"/></g><path d="M220 62l50 29 M500 62l-50 29" stroke="#b38d40" stroke-width="3"/><text x="310" y="20" class="demo-label">HIGHER NAVE</text><text x="40" y="55" class="demo-label">Light enters at the clerestory</text></svg><p>Original schematic explaining relative roof heights. Column spacing, construction sequence and ancient illumination are not reconstructed to scale.</p></div>`; }
 
 // ---------- Place guides: structured place pages ----------
+function placePylonFill() {
+  // Schematic cut-away of the Third Pylon: older chapels packed inside the towers as fill. Not to scale; block counts are illustrative.
+  const C = [['#e9e4d6', 'White Chapel · Senusret I · limestone'], ['#b4553f', 'Red Chapel · Hatshepsut · red quartzite'], ['#efd98f', 'Calcite chapel · Amenhotep I'], ['#9fb0a8', 'Shrines of Amenhotep II, Thutmose IV']];
+  let blocks = '', s = 7;
+  const rnd = () => (s = (s * 9301 + 49297) % 233280) / 233280;
+  [[40, 210], [300, 470]].forEach(([x0, x1]) => { for (let y = 196; y > 70; y -= 14) { const inset = (196 - y) * 0.18; for (let x = x0 + inset; x < x1 - inset - 18; x += 26) { const r = rnd(), c = r < .5 ? 0 : r < .82 ? 1 : r < .97 ? 2 : 3; blocks += `<rect x="${x.toFixed(1)}" y="${y - 12}" width="23" height="11" fill="${C[c][0]}" stroke="#8a7a5c" stroke-width=".6"/>`; } } });
+  const tower = (x0, x1) => `<path d="M${x0} 200L${x0 + 26} 56H${x1 - 26}L${x1} 200Z" fill="none" stroke="#26302a" stroke-width="2"/>`;
+  return `<figure class="pg-draw"><svg viewBox="0 0 510 290" role="img" aria-label="Schematic cut-away of the Third Pylon: both towers are packed with blocks from older chapels.">
+  <rect width="510" height="290" fill="#f3ead6"/><rect y="200" width="510" height="12" fill="#e3d2ac"/>
+  ${blocks}${tower(30, 220)}${tower(290, 480)}
+  <path d="M220 200V96H290V200" fill="none" stroke="#26302a" stroke-width="2"/><text x="255" y="150" text-anchor="middle" font-size="11" fill="#5b5a4d">gate</text>
+  ${C.map((c, i) => `<rect x="${30 + (i % 2) * 240}" y="${226 + Math.floor(i / 2) * 26}" width="14" height="14" fill="${c[0]}" stroke="#8a7a5c"/><text x="${50 + (i % 2) * 240}" y="${237 + Math.floor(i / 2) * 26}" font-size="11" fill="#26302a">${c[1]}</text>`).join('')}
+  </svg><figcaption class="micro">Original schematic drawing, not to scale: the towers were filled with blocks of dismantled older chapels. The mix of colours is illustrative, not a record of where each block was found.</figcaption></figure>`;
+}
 function placeCourtPlan() {
   // Great Court plan, using the temple plan geometry (BS_GEO in basics.js). Numbers match the sections.
   const sh = (id, c) => BS_GEO[id] ? `<g class="cp-el" style="--c:${c}">${BS_GEO[id]()}</g>` : '';
@@ -41,6 +55,7 @@ function placeCourtPlan() {
 }
 function placeDrawing(id) {
   if (id === 'court-plan') return placeCourtPlan();
+  if (id === 'pylon-fill') return placePylonFill();
   if (id !== 'pylon-elevation') return '';
   // First Pylon seen from the avenue (west), drawn to scale: 1 m = 4 units.
   const k = 4, g = 200, x0 = 16, W = 113, gw = 7.4, tw = (W - gw) / 2, bat = 0.12;

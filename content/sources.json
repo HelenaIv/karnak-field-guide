@@ -1671,6 +1671,19 @@
       "accessed": "2026-11-15",
       "consultation": "Web text and captions; precise epigraphic plates still require review.",
       "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "memphis-third-pylon",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "The Third Pylon",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/third_pylon.php",
+      "kind": "specialist project interpretation",
+      "accessed": "2026-11-15",
+      "consultation": "Web text and captions; precise epigraphic plates still require review.",
+      "rights": "Reference only; media reuse not cleared."
     }
   ]
 }

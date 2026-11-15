@@ -73,6 +73,164 @@
     "Present access, exact viewpoints and condition have not been field-verified."
   ],
   "sources": [
-    "dk-third-pylon"
-  ]
+    "dk-third-pylon",
+    "memphis-third-pylon",
+    "dk-white-chapel",
+    "dk-amenhotep-i-calcite",
+    "michalowski-karnak"
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "Built by",
+        "value": "Amenhotep III, 18th Dynasty, about 1390–1352 BC"
+      },
+      {
+        "label": "Height",
+        "value": "28 m"
+      },
+      {
+        "label": "Finished by",
+        "value": "Amenhotep IV (Akhenaten), who completed the gate’s porch"
+      },
+      {
+        "label": "Inside the towers",
+        "value": "Several hundred blocks of older chapels, now rebuilt in the Open Air Museum"
+      },
+      {
+        "label": "Today",
+        "value": "Its west face is the east wall of the Hypostyle Hall"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "The Third Pylon closes the east end of the Great Hypostyle Hall. When Amenhotep III built it, it was the front of the temple, with open ground in front of it; Sety I later filled that space with the Hall and hid the pylon’s west face behind a stone lining.",
+          "Building it, Amenhotep III cleared away the festival court of Thutmose II with its pillars and bark shrines. The temple’s main entrance moved east, the opposite of the usual westward growth."
+        ],
+        "look": [
+          "Stand at the east end of the Hall’s central aisle: the gateway in front of you is the Third Pylon’s."
+        ],
+        "link": "hypostyle-hall",
+        "citations": [
+          {
+            "sourceId": "dk-third-pylon",
+            "locator": "Measurements; Construction: clearing of Thutmose II’s festival court; Sety I lining"
+          }
+        ],
+        "mediaId": "hypostyle-central-nave"
+      },
+      {
+        "id": "fill",
+        "heading": "A pylon full of older chapels",
+        "paragraphs": [
+          "The monuments Amenhotep III took down did not go to waste. Their blocks were packed into the pylon’s foundations and towers as fill, and that is why many of them survived, often in fairly good condition.",
+          "When the pylon was restored in the early 20th century, several hundred blocks came out of it. From them Egyptologists rebuilt the White Chapel of Senusret I and the Red Chapel of Hatshepsut, and this material makes up most of today’s Open Air Museum. Amenhotep I’s calcite chapel came from the pylon too, and a few blocks of small alabaster shrines of Amenhotep II and Thutmose IV were found in its core."
+        ],
+        "drawing": "pylon-fill",
+        "look": [
+          "The White Chapel and the Red Chapel in the Open Air Museum, north of the Great Court: both stood inside this pylon for more than three thousand years."
+        ],
+        "link": "white-chapel",
+        "citations": [
+          {
+            "sourceId": "dk-third-pylon",
+            "locator": "Reused monuments in the fill"
+          },
+          {
+            "sourceId": "memphis-third-pylon",
+            "locator": "Several hundred blocks found during restoration; White and Red Chapels; Open Air Museum"
+          },
+          {
+            "sourceId": "dk-white-chapel",
+            "locator": "Destruction: Amenhotep III"
+          },
+          {
+            "sourceId": "dk-amenhotep-i-calcite",
+            "locator": "Destruction: Thutmose III (later reuse in the Third Pylon)"
+          },
+          {
+            "sourceId": "michalowski-karnak",
+            "locator": "Alabaster shrines of Amenhotep II and Thutmose IV in the core of the Third Pylon"
+          }
+        ],
+        "mediaId": "white-chapel-788a32e2"
+      },
+      {
+        "id": "barge",
+        "heading": "Amun’s river barge on the back of the pylon",
+        "paragraphs": [
+          "On the back of the north tower, facing east, a huge scene shows the gilded barge of Amun-Ra being towed by the king’s own boat. Digital Karnak describes it as the god’s festival journey to Luxor Temple. Amenhotep III appears twice beside the temple-like cabin that held the god’s portable shrine on the river.",
+          "The scene was reworked by four later reigns. Akhenaten defaced the small scenes on the hull and Tutankhamun restored them. Horemheb erased a small figure of a king standing behind Amenhotep III, most likely Tutankhamun, and put a table of food offerings in its place, and enlarged the figures of the gods. Much later, Christian iconoclasts pecked at the faces."
+        ],
+        "look": [
+          "Behind the figure of Amenhotep III, the offering table that replaced an erased king.",
+          "Faces pecked away on the figures."
+        ],
+        "citations": [
+          {
+            "sourceId": "memphis-third-pylon",
+            "locator": "Barge scene on the rear wall of the north tower; Tutankhamun figure erased by Horemheb"
+          },
+          {
+            "sourceId": "dk-third-pylon",
+            "locator": "Decoration: the king and the sacred bark on a festival journey to Luxor"
+          }
+        ]
+      },
+      {
+        "id": "porch",
+        "heading": "The porch that father and son decorated",
+        "paragraphs": [
+          "The gate on the west face had a porch, begun under Amenhotep III and completed by his son Amenhotep IV, the future Akhenaten. Its scenes showed the king in the traditional way, striking down enemies; the decoration was never finished.",
+          "Some scenes showed the young Amenhotep IV together with his father; they were later defaced. Sety I covered the Akhenaten scenes on the north part of the porch with stone when he built the Hall. That wall has since been taken apart and reassembled in the Open Air Museum."
+        ],
+        "look": [
+          "In the Open Air Museum, the rebuilt wall of Akhenaten’s scenes from this porch."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-third-pylon",
+            "locator": "Gateway porch; Akhenaten modifications; Sety I modifications"
+          }
+        ]
+      },
+      {
+        "id": "flags",
+        "heading": "Flagpoles that disappeared",
+        "paragraphs": [
+          "Like the other pylons, the towers had tall wooden flagstaffs with coloured banners, standing in square notches in the front. When Sety I enclosed the west face inside the Hall, the flagstaffs were taken down."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-third-pylon",
+            "locator": "Flagstaffs"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Did Amenhotep III plan a colonnade in front of the pylon, like the one at Luxor Temple? Scholars have suggested it; it was never built.",
+        "citations": [
+          {
+            "sourceId": "dk-third-pylon",
+            "locator": "Construction: proposed colonnade"
+          }
+        ]
+      },
+      {
+        "text": "Did Akhenaten build a pillared court with images of Nefertiti in front of the pylon? This has been proposed, not proven.",
+        "citations": [
+          {
+            "sourceId": "dk-third-pylon",
+            "locator": "Akhenaten modifications"
+          }
+        ]
+      }
+    ]
+  },
+  "heroMediaId": "hypostyle-central-nave"
 }

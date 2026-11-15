@@ -676,7 +676,13 @@
   "EAST": "СХІД",
   "Schematic plan, west on the left. 1 Taharqo’s kiosk · 2 Sety II’s bark shrine · 3 Ramesses III’s bark temple · 4 Bubastite Portal · 5 colossus of Ramesses II (position approximate) · 6 building ramp. I and II: First and Second Pylons. Tap a number to jump to it.": "Схематичний план, захід ліворуч. 1 Кіоск Тахарки · 2 Святилище барок Сеті II · 3 Храм барок Рамсеса III · 4 Бубастидський портал · 5 Колос Рамсеса II (розташування приблизне) · 6 Будівельний пандус. I та II: Перший і Другий пілони. Торкніться номера, щоб перейти до нього.",
   "Hall guide stops": "Зупинки путівника залом",
-  "Smaller monuments are sections of the bigger place they stand in.": "Менші пам’ятки описано як розділи більшого місця, де вони стоять."
+  "Smaller monuments are sections of the bigger place they stand in.": "Менші пам’ятки описано як розділи більшого місця, де вони стоять.",
+  "White Chapel · Senusret I · limestone": "Біла каплиця · Сенусерт I · вапняк",
+  "Red Chapel · Hatshepsut · red quartzite": "Червона каплиця · Хатшепсут · червоний кварцит",
+  "Calcite chapel · Amenhotep I": "Кальцитова каплиця · Аменхотеп I",
+  "gate": "брама",
+  "Original schematic drawing, not to scale: the towers were filled with blocks of dismantled older chapels. The mix of colours is illustrative, not a record of where each block was found.": "Оригінальна схема, не в масштабі: башти заповнили блоками розібраних давніших каплиць. Поєднання кольорів умовне, воно не показує, де знайдено кожен блок.",
+  "Shrines of Amenhotep II, Thutmose IV": "Святилища Аменхотепа II, Тутмоса IV"
  },
  "patterns": [
   [
