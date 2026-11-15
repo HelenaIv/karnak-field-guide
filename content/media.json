@@ -1908,7 +1908,8 @@
       "sha256": "3b4139b2db2271f4279f49d93b325fddbcb0cfee63abc76d4b76a05f957c53aa",
       "bytes": 473177,
       "placeIds": [
-        "central-bark-shrine"
+        "central-bark-shrine",
+        "temple-core"
       ],
       "subjectGroup": "big-picture",
       "caption": "The king before Amun, on the granite boat shrine at the centre of the temple.",
@@ -1980,7 +1981,9 @@
       "retrieved": "2026-11-14",
       "sha256": "de62924aeb09f52e09805ac172c29f9796497b035076f82fdf2a44e242798a20",
       "bytes": 201701,
-      "placeIds": [],
+      "placeIds": [
+        "temple-core"
+      ],
       "subjectGroup": "big-picture",
       "caption": "The surviving obelisk of Thutmose I, between the Third and Fourth Pylons.",
       "alt": "A tall granite obelisk standing between ruined walls.",

@@ -268,5 +268,9 @@
  "sources[memphis-entrance]/kind": "тлумачення спеціалізованого проєкту",
  "sources[memphis-entrance]/consultation": "Вебтекст і підписи; точні епіграфічні таблиці ще потребують перевірки.",
  "sources[memphis-third-pylon]/kind": "тлумачення спеціалізованого проєкту",
- "sources[memphis-third-pylon]/consultation": "Вебтекст і підписи; точні епіграфічні таблиці ще потребують перевірки."
+ "sources[memphis-third-pylon]/consultation": "Вебтекст і підписи; точні епіграфічні таблиці ще потребують перевірки.",
+ "sources[dk-obelisks-th1]/kind": "інституційне дослідження пам’ятки",
+ "sources[dk-obelisks-th1]/consultation": "Прочитано вебсторінку; бібліографію окремо не перевіряли.",
+ "sources[cfeetk-philip-shrine]/kind": "анотація видавця до епіграфічного видання",
+ "sources[cfeetk-philip-shrine]/consultation": "Лише анотація видавця; саме видання не опрацьовано."
 }

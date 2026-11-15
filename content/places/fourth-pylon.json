@@ -1,54 +1,24 @@
 {
-  "id": "fourth-pylon",
-  "type": "place",
-  "title": "Fourth Pylon and enclosure",
-  "area": "central-temple",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "Thutmose I’s pylon belonged to an enclosure around the early Eighteenth Dynasty temple.",
-  "orientation": "West of the Wadjet Hall.",
-  "personIds": [
-    "thutmose-i"
-  ],
-  "periodIds": [
-    "new-kingdom"
-  ],
-  "architecture": [
-    "A limestone casing covered a sandstone core."
-  ],
-  "lookFor": [],
-  "details": [],
-  "claims": [
-    {
-      "id": "fourth-pylon-location",
-      "text": "West of the Wadjet Hall.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-fourth-pylon",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "fourth-pylon-fabric",
-      "text": "Thutmose I’s pylon belonged to an enclosure around the early Eighteenth Dynasty temple. A limestone casing covered a sandstone core.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-fourth-pylon",
-          "locator": "Introduction"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Present access, exact viewpoints and condition have not been field-verified."
-  ],
-  "sources": [
-    "dk-fourth-pylon"
-  ]
+ "id": "fourth-pylon",
+ "type": "place",
+ "title": "Fourth Pylon and enclosure",
+ "area": "central-temple",
+ "status": "source_checked",
+ "summary": "Thutmose I’s pylon belonged to an enclosure around the early Eighteenth Dynasty temple.",
+ "orientation": "West of the Wadjet Hall.",
+ "personIds": [
+  "thutmose-i"
+ ],
+ "periodIds": [
+  "new-kingdom"
+ ],
+ "sources": [
+  "dk-fourth-pylon"
+ ],
+ "architecture": [],
+ "lookFor": [],
+ "details": [],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "temple-core"
 }

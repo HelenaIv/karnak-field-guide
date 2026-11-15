@@ -1,60 +1,21 @@
 {
-  "id": "sixth-pylon",
-  "type": "place",
-  "title": "Sixth Pylon and court",
-  "area": "central-temple",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "This smaller pylon formed a threshold within the central sanctuary approach.",
-  "orientation": "Between the Fifth Pylon court and the Palace of Ma’at.",
-  "personIds": [
-    "thutmose-iii"
-  ],
-  "details": [],
-  "architecture": [],
-  "lookFor": [],
-  "claims": [
-    {
-      "id": "sixth-pylon-context",
-      "text": "This smaller pylon formed a threshold within the central sanctuary approach.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-sixth-pylon",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "sixth-pylon-0",
-      "text": "Its court had paired groups of papyrus-form columns and chapels extending east.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-sixth-pylon",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "sixth-pylon-1",
-      "text": "Foundation deposits associate the sandstone chapels with the joint reign of Hatshepsut and Thutmose III; this need not mean every chapel was completed then.",
-      "certainty": "interpretation",
-      "citations": [
-        {
-          "sourceId": "dk-sixth-pylon",
-          "locator": "About the reconstruction model of Thutmose III"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
-  ],
-  "sources": [
-    "dk-sixth-pylon"
-  ]
+ "id": "sixth-pylon",
+ "type": "place",
+ "title": "Sixth Pylon and court",
+ "area": "central-temple",
+ "status": "source_checked",
+ "summary": "This smaller pylon formed a threshold within the central sanctuary approach.",
+ "orientation": "Between the Fifth Pylon court and the Palace of Ma’at.",
+ "personIds": [
+  "thutmose-iii"
+ ],
+ "sources": [
+  "dk-sixth-pylon"
+ ],
+ "architecture": [],
+ "lookFor": [],
+ "details": [],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "temple-core"
 }

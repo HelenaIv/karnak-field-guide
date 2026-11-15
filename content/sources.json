@@ -1684,6 +1684,34 @@
       "accessed": "2026-11-15",
       "consultation": "Web text and captions; precise epigraphic plates still require review.",
       "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-obelisks-th1",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Obelisks of Festival Hall East Pair",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/obelisks-of-festival-hall-east-pair",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-15",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "cfeetk-philip-shrine",
+      "authors": [
+        "Christophe Thiers (dir.)",
+        "Ch. Labarta",
+        "A. Tillier"
+      ],
+      "title": "La chapelle-reposoir de barque de Philippe Arrhidée à Karnak (BiGen 60, 2020)",
+      "publisher": "CFEETK / IFAO",
+      "url": "https://www.cfeetk.cnrs.fr/publication/chapelle-reposoir-philippe-arrhidee-karnak/",
+      "kind": "publisher summary of an epigraphic edition",
+      "accessed": "2026-11-15",
+      "consultation": "Publisher summary only; the edition itself not consulted.",
+      "rights": "Reference only."
     }
   ]
 }

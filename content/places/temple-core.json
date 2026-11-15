@@ -1,0 +1,245 @@
+{
+ "id": "temple-core",
+ "type": "place",
+ "title": "The temple core",
+ "area": "central-temple",
+ "status": "source_checked",
+ "additionalChecks": [
+  "needs_field_check"
+ ],
+ "summary": "The oldest part of the temple of Amun: from the Fourth Pylon through the Wadjet Hall and the small pylons to the granite bark shrine and the empty square where the Middle Kingdom temple stood.",
+ "orientation": "East of the Third Pylon, along the main axis, up to the Akhmenu.",
+ "personIds": [
+  "thutmose-i",
+  "hatshepsut",
+  "thutmose-iii"
+ ],
+ "periodIds": [
+  "new-kingdom"
+ ],
+ "architecture": [],
+ "lookFor": [],
+ "details": [],
+ "claims": [
+  {
+   "id": "temple-core-growth",
+   "text": "The earliest temple buildings lie behind the Sixth Pylon; the temple grew outward from this core.",
+   "certainty": "established",
+   "citations": [
+    {
+     "sourceId": "dk-introduction",
+     "locator": "Introduction to the Temple of Karnak"
+    }
+   ]
+  }
+ ],
+ "caveats": [
+  "Present access to the sanctuary area and exact viewpoints have not been field-verified."
+ ],
+ "sources": [
+  "dk-introduction",
+  "dk-fourth-pylon",
+  "dk-obelisks-th1",
+  "dk-wadjet-hall",
+  "dk-hatshepsut-obelisks",
+  "dk-fifth-pylon",
+  "dk-sixth-pylon",
+  "michalowski-karnak",
+  "dk-central-bark-shrine",
+  "cfeetk-philip-shrine",
+  "dk-middle-kingdom-court"
+ ],
+ "heroMediaId": "basics-th1-obelisk",
+ "guide": {
+  "glance": [
+   {
+    "label": "Oldest part",
+    "value": "The Middle Kingdom temple of Senusret I, about 1971–1926 BC, now an empty square"
+   },
+   {
+    "label": "Main builders",
+    "value": "Thutmose I, Hatshepsut and Thutmose III, 18th Dynasty, about 1504–1425 BC"
+   },
+   {
+    "label": "Youngest building",
+    "value": "The granite bark shrine of Philip Arrhidaeus, about 323–316 BC"
+   },
+   {
+    "label": "In order from west to east",
+    "value": "Fourth Pylon, Wadjet Hall, Fifth Pylon, Sixth Pylon, bark shrine, Middle Kingdom court"
+   }
+  ],
+  "sections": [
+   {
+    "id": "where",
+    "heading": "Where you are",
+    "paragraphs": [
+     "Past the Third Pylon you leave the big Ramesside halls and enter the oldest part of the temple. The earliest buildings lie at its far end, behind the Sixth Pylon, and the temple grew outward from there over two thousand years.",
+     "Walking east, the spaces get smaller and closer together: a narrow hall, two small pylons, the shrine where Amun’s boat rested, and finally the open square of the first temple. This page follows them in that order."
+    ],
+    "look": [
+     "The single standing obelisk of Thutmose I, just east of the Third Pylon, and the taller obelisk of Hatshepsut further on."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-introduction",
+      "locator": "The earliest temple buildings are behind the sixth pylon"
+     }
+    ],
+    "mediaId": "basics-th1-obelisk",
+    "drawing": "core-strip"
+   },
+   {
+    "id": "fourth",
+    "heading": "The Fourth Pylon and Thutmose I’s obelisks",
+    "paragraphs": [
+     "Thutmose I built the Fourth Pylon as the gate of a stone enclosure around the temple of his day, with a limestone casing over a sandstone core. In front of this western gate he set up a pair of rose-granite obelisks. One still stands.",
+     "Its inscriptions say the pyramidion at the top was once covered in electrum, an alloy of gold and silver that would have caught the sun. The central line of text on each side says Thutmose I “made it as a monument for his father Amun-Ra”."
+    ],
+    "look": [
+     "The tip of Thutmose I’s obelisk: it was once sheathed in metal."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-fourth-pylon",
+      "locator": "Introduction"
+     },
+     {
+      "sourceId": "dk-obelisks-th1",
+      "locator": "Introduction; Phases of Construction: Thutmose I"
+     }
+    ]
+   },
+   {
+    "id": "wadjet",
+    "heading": "The Wadjet Hall, where kings were crowned",
+    "paragraphs": [
+     "Between the Fourth and Fifth Pylons lies a long, shallow hall, 75 m wide and only 14 m deep. Ramesside inscriptions say it was used for the king’s coronation and for the jubilee festival, until the Hypostyle Hall took over in the 19th Dynasty. Broken sandstone statues of Thutmose I in the pose of Osiris still line it.",
+     "Hatshepsut rebuilt the hall. She took out Thutmose I’s stone columns and put in gilded wooden columns shaped like papyrus, called wadj, which gave the hall its name. Their wooden roof covered the north and south ends; the middle stayed open to the sky, because she raised her two obelisks there."
+    ],
+    "look": [
+     "The Osiris statues of Thutmose I along the walls, arms crossed.",
+     "The standing obelisk of Hatshepsut in the middle of the hall."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-wadjet-hall",
+      "locator": "Introduction; Measurements; Phases of Construction: Hatshepsut"
+     }
+    ]
+   },
+   {
+    "id": "obelisks",
+    "heading": "Hatshepsut’s obelisk",
+    "paragraphs": [
+     "The northern of Hatshepsut’s two obelisks still stands, 30 m tall. Later, a stone structure was built around the lower part of both obelisks, so only their tops showed. Their story has its own page."
+    ],
+    "link": "hatshepsut-obelisks",
+    "citations": [
+     {
+      "sourceId": "dk-hatshepsut-obelisks",
+      "locator": "Introduction; Measurements; Phases of Construction: Thutmose III"
+     }
+    ],
+    "mediaId": "own-hatshepsut-obelisk"
+   },
+   {
+    "id": "pylons",
+    "heading": "The Fifth and Sixth Pylons",
+    "paragraphs": [
+     "The Fifth Pylon is another gate of Thutmose I, cased in limestone above and red granite below. Thutmose III later split the court behind it into a central corridor with pillared rooms on each side, so that what had been an open space became a channelled passage.",
+     "The Sixth Pylon is the smallest of all: 15.7 m long, 4.2 m wide and only 12.5 m high. Thutmose III built it, with a granite gate covered in electrum and reliefs of the king worshipping Amun-Ra. Behind it, a court with closed-papyrus columns opened onto small chapels."
+    ],
+    "look": [
+     "How low the Sixth Pylon is compared with the pylons you passed on the way in."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-fifth-pylon",
+      "locator": "Introduction; Phases of Construction: Thutmose III"
+     },
+     {
+      "sourceId": "dk-sixth-pylon",
+      "locator": "Introduction; Measurements"
+     }
+    ]
+   },
+   {
+    "id": "heraldic",
+    "heading": "The two heraldic pillars",
+    "paragraphs": [
+     "Between the Sixth Pylon and the sanctuary, Thutmose III built a vestibule with two pillars. One is carved with the papyrus, the plant of Lower (northern) Egypt, the other with the lotus of Upper (southern) Egypt: the two halves of the country, side by side in front of the god. On one of them the goddess Mut embraces Thutmose III."
+    ],
+    "look": [
+     "Find which pillar carries the papyrus and which the lotus."
+    ],
+    "citations": [
+     {
+      "sourceId": "michalowski-karnak",
+      "locator": "Vestibule with two pillars decorated with lotus and papyrus in heraldic order; pl. 36–37, Mut embracing Thutmose III"
+     }
+    ]
+   },
+   {
+    "id": "shrine",
+    "heading": "The granite shrine for Amun’s boat",
+    "paragraphs": [
+     "At the heart of the temple stands a two-room shrine of rose granite, 17.83 m deep and 6.85 m high. Here Amun’s portable boat, the bark, rested between processions. It was built for Philip Arrhidaeus, half-brother of Alexander the Great, around 323–316 BC.",
+     "It replaced a shrine of Thutmose III, which had itself replaced Hatshepsut’s Red Chapel. Philip’s inscription claims his shrine is a faithful copy of Thutmose III’s. Inside, the ceiling is painted with red, white and blue stars, and the south outer wall shows the bark leaving the temple and coming back. Georges Legrain cleared it of fallen blocks and partly rebuilt it in the early 20th century; its colours were fixed during restoration in 1992–1993."
+    ],
+    "look": [
+     "The starry ceiling inside.",
+     "On the south outer wall, the bark carried in procession."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-central-bark-shrine",
+      "locator": "Introduction; Measurements; Phases of Construction: Thutmose III and Philip Arrhidaeus"
+     },
+     {
+      "sourceId": "cfeetk-philip-shrine",
+      "locator": "Publication summary: Legrain’s clearance; restoration 1992–1993"
+     }
+    ],
+    "mediaId": "basics-bark-shrine-relief"
+   },
+   {
+    "id": "mk",
+    "heading": "The empty square: the first temple",
+    "paragraphs": [
+     "Behind the shrine is a large, almost empty square. This is where Senusret I built a limestone temple to Amun-Ra in the Middle Kingdom, about 38 m by 38 m and 6 m high, probably replacing an even smaller one. Only rose-granite door sills and a big calcite altar remain in place.",
+     "Hatshepsut removed its front portico of Osiris pillars to build her sanctuary, the Palace of Ma’at. The rest of the temple may have stood until the 4th century AD, when the temple was closed and people carried off its limestone for new buildings."
+    ],
+    "look": [
+     "The granite door sills set in the ground, marking the doorways of a temple that is no longer there."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-middle-kingdom-court",
+      "locator": "Introduction; Measurements; Phases of Construction: Senusret I, Hatshepsut"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "text": "How big was the Middle Kingdom temple, and which way did it face? One scholar has proposed a much smaller temple facing east, towards a vanished Nile channel.",
+    "citations": [
+     {
+      "sourceId": "dk-middle-kingdom-court",
+      "locator": "About the reconstruction of Senusret I: Larché 2007"
+     }
+    ]
+   },
+   {
+    "text": "Did the court behind the Fifth Pylon have a wooden or a stone roof? Both have been proposed.",
+    "citations": [
+     {
+      "sourceId": "dk-fifth-pylon",
+      "locator": "About the reconstruction model of Thutmose I"
+     }
+    ]
+   }
+  ]
+ }
+}

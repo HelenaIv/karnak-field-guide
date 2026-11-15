@@ -1,79 +1,27 @@
 {
-  "id": "central-bark-shrine",
-  "type": "place",
-  "title": "Central bark shrine (Philip III Arrhidaeus)",
-  "area": "central-temple",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "The surviving two-room shrine belongs to Philip III Arrhidaeus, succeeding Thutmose III’s shrine.",
-  "orientation": "Within the central sanctuary area known as the Palace of Ma’at.",
-  "personIds": [
-    "hatshepsut",
-    "thutmose-iii",
-    "philip-iii"
-  ],
-  "periodIds": [
-    "new-kingdom",
-    "macedonian-ptolemaic"
-  ],
-  "architecture": [
-    "Rose granite and a decorated ceiling distinguish the surviving structure."
-  ],
-  "lookFor": [],
-  "details": [],
-  "claims": [
-    {
-      "id": "central-bark-shrine-location",
-      "text": "Within the central sanctuary area known as the Palace of Ma’at.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-central-bark-shrine",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "central-bark-shrine-fabric",
-      "text": "The surviving two-room shrine belongs to Philip III Arrhidaeus, succeeding Thutmose III’s shrine. Rose granite and a decorated ceiling distinguish the surviving structure.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-central-bark-shrine",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "central-bark-shrine-1",
-      "text": "Thutmose III’s predecessor shrine replaced Hatshepsut’s Red Chapel; the Red Chapel is now reconstructed elsewhere.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-central-bark-shrine",
-          "locator": "Phases of Construction: Thutmose III"
-        }
-      ]
-    },
-    {
-      "id": "central-bark-shrine-2",
-      "text": "Philip’s text claims fidelity to Thutmose III’s shrine. Treat this as a royal claim, not proof that every detail was copied.",
-      "certainty": "interpretation",
-      "citations": [
-        {
-          "sourceId": "dk-central-bark-shrine",
-          "locator": "Phases of Construction: Philip Arrhidaeus"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Present access, exact viewpoints and condition have not been field-verified."
-  ],
-  "sources": [
-    "dk-central-bark-shrine"
-  ]
+ "id": "central-bark-shrine",
+ "type": "place",
+ "title": "Central bark shrine (Philip III Arrhidaeus)",
+ "area": "central-temple",
+ "status": "source_checked",
+ "summary": "The surviving two-room shrine belongs to Philip III Arrhidaeus, succeeding Thutmose III’s shrine.",
+ "orientation": "Within the central sanctuary area known as the Palace of Ma’at.",
+ "personIds": [
+  "hatshepsut",
+  "thutmose-iii",
+  "philip-iii"
+ ],
+ "periodIds": [
+  "new-kingdom",
+  "macedonian-ptolemaic"
+ ],
+ "sources": [
+  "dk-central-bark-shrine"
+ ],
+ "architecture": [],
+ "lookFor": [],
+ "details": [],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "temple-core"
 }

@@ -72,6 +72,121 @@
     "Present access, exact viewpoints and condition have not been field-verified."
   ],
   "sources": [
-    "dk-hatshepsut-obelisks"
-  ]
+    "dk-hatshepsut-obelisks",
+    "dk-wadjet-hall",
+    "michalowski-karnak"
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "Raised by",
+        "value": "Hatshepsut, for her jubilee in year 16 of her reign"
+      },
+      {
+        "label": "Height",
+        "value": "30 m (the standing northern obelisk)"
+      },
+      {
+        "label": "Stone",
+        "value": "Rose granite"
+      },
+      {
+        "label": "Where",
+        "value": "In the middle of the Wadjet Hall, between the Fourth and Fifth Pylons"
+      },
+      {
+        "label": "The other one",
+        "value": "The southern obelisk has fallen; its upper part lies near the Sacred Lake"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pair",
+        "heading": "A pair raised for a jubilee",
+        "paragraphs": [
+          "Hatshepsut set up two rose-granite obelisks in the Wadjet Hall as part of her rebuilding of the hall, along with its gilded wooden columns and wooden roof. The middle of the hall was left open to the sky to make room for them.",
+          "The inscriptions record the celebration of her jubilee festival in the 16th year of her reign. She also recorded the raising of these obelisks on her red quartzite bark shrine, the Red Chapel."
+        ],
+        "look": [
+          "The Red Chapel in the Open Air Museum, where the obelisks are commemorated."
+        ],
+        "link": "red-chapel",
+        "citations": [
+          {
+            "sourceId": "dk-hatshepsut-obelisks",
+            "locator": "Introduction; Phases of Construction: Hatshepsut"
+          },
+          {
+            "sourceId": "dk-wadjet-hall",
+            "locator": "Phases of Construction: Hatshepsut"
+          }
+        ]
+      },
+      {
+        "id": "standing",
+        "heading": "The one still standing",
+        "paragraphs": [
+          "The northern obelisk stands 30 m high. Its faces are covered with small scenes of Hatshepsut making offerings to the gods; she is shown as a male pharaoh. Her name in a cartouche, below the title “son of Ra”, can be read near the base."
+        ],
+        "look": [
+          "The small offering scenes running up the shaft.",
+          "Her cartouche low on the obelisk; the “Read the walls” section shows how to spot royal names."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-hatshepsut-obelisks",
+            "locator": "Measurements; Phases of Construction: Hatshepsut"
+          }
+        ],
+        "mediaId": "karnak-hatshepsut-obelisk-cartouche"
+      },
+      {
+        "id": "enclosed",
+        "heading": "Walled in up to 20 m",
+        "paragraphs": [
+          "Later, a stone gateway with tall jambs was built in the hall around the bases of the obelisks, so that only their upper parts were visible. Michałowski gives the height of this masonry as 20.13 m, against an obelisk of about 30.7 m. On the visible upper parts Thutmose III added new lines of text beside Hatshepsut’s.",
+          "The enclosure is traditionally credited to Thutmose III. A recent study of the hall’s building phases suggests Hatshepsut may have enclosed the obelisks herself, so the idea that her successor walled them in out of hatred should not be taken as fact."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-hatshepsut-obelisks",
+            "locator": "Phases of Construction: Thutmose III"
+          },
+          {
+            "sourceId": "michalowski-karnak",
+            "locator": "Enclosing masonry 20.13 m high; obelisks 30.70 m"
+          }
+        ]
+      },
+      {
+        "id": "fallen",
+        "heading": "The fallen obelisk",
+        "paragraphs": [
+          "The southern obelisk has fallen. Its upper section is displayed near the Sacred Lake, where you can see the carving at eye level, which is impossible on the standing one."
+        ],
+        "look": [
+          "The top of the fallen obelisk near the Sacred Lake."
+        ],
+        "link": "sacred-lake",
+        "citations": [
+          {
+            "sourceId": "dk-hatshepsut-obelisks",
+            "locator": "Introduction"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Who enclosed the obelisks: Thutmose III or Hatshepsut herself? The evidence is still debated.",
+        "citations": [
+          {
+            "sourceId": "dk-hatshepsut-obelisks",
+            "locator": "Phases of Construction: Thutmose III"
+          }
+        ]
+      }
+    ]
+  },
+  "heroMediaId": "own-hatshepsut-obelisk"
 }

@@ -20,12 +20,15 @@ const SM_APPROX = {
 };
 const smState = { area: '', sel: '', view: 'whole' };
 // Small monuments covered as sections of a bigger place's article: [parent place, section id].
-const SM_IN = { 'sety-ii-shrine': ['great-court', 'shrines'], 'taharqo-kiosk': ['great-court', 'kiosk'], 'ramesses-iii-temple': ['great-court', 'shrines'], 'bubastite-portal': ['great-court', 'portal'] };
+const SM_IN = { 'sety-ii-shrine': ['great-court', 'shrines'], 'taharqo-kiosk': ['great-court', 'kiosk'], 'ramesses-iii-temple': ['great-court', 'shrines'], 'bubastite-portal': ['great-court', 'portal'],
+  'fourth-pylon': ['temple-core', 'fourth'], 'wadjet-hall': ['temple-core', 'wadjet'], 'hatshepsut-obelisks': ['temple-core', null], 'fifth-pylon': ['temple-core', 'pylons'],
+  'sixth-pylon': ['temple-core', 'pylons'], 'central-bark-shrine': ['temple-core', 'shrine'], 'middle-kingdom-court': ['temple-core', 'mk'] };
+// [parent, null] = shown under the parent but has its own article.
 // Places whose full article lives on another route.
 const SM_LINK = { 'hypostyle-hall': '#hall' };
-function smHref(id) { return SM_IN[id] ? `#entry/${SM_IN[id][0]}/${SM_IN[id][1]}` : (SM_LINK[id] || `#entry/${id}`); }
+function smHref(id) { return SM_IN[id]?.[1] ? `#entry/${SM_IN[id][0]}/${SM_IN[id][1]}` : (SM_LINK[id] || `#entry/${id}`); }
 function smKids(id) { return SM_WALK.filter(k => SM_IN[k]?.[0] === id); }
-const SM_WALK = ['hakoris-chapel', 'first-pylon', 'great-court', 'sety-ii-shrine', 'taharqo-kiosk', 'ramesses-iii-temple', 'bubastite-portal', 'second-pylon', 'hypostyle-hall', 'third-pylon',
+const SM_WALK = ['hakoris-chapel', 'first-pylon', 'great-court', 'sety-ii-shrine', 'taharqo-kiosk', 'ramesses-iii-temple', 'bubastite-portal', 'second-pylon', 'hypostyle-hall', 'third-pylon', 'temple-core',
   'fourth-pylon', 'wadjet-hall', 'hatshepsut-obelisks', 'fifth-pylon', 'sixth-pylon', 'central-bark-shrine', 'middle-kingdom-court', 'akhmenu', 'contra-temple', 'aten-temples',
   'seventh-pylon', 'eighth-pylon', 'ninth-pylon', 'tenth-pylon', 'sacred-lake', 'khonsu-temple', 'opet-temple', 'bab-el-amara'];
 function smPlaces() { const order = SM_AREAS.map(a => a[0]), w = id => { const i = SM_WALK.indexOf(id); return i < 0 ? 99 : i; }; return [...D.places].sort((a, b) => (order.indexOf(a.area) - order.indexOf(b.area)) || (w(a.id) - w(b.id)) || a.title.localeCompare(b.title)); }
@@ -94,7 +97,7 @@ function smRender() {
   const w = document.querySelector('.sm-where'); if (w) w.textContent = a ? (areaNames[a] || a) : '';
   document.querySelectorAll('[data-sm-view]').forEach(b => b.classList.toggle('on', !a && b.dataset.smView === smState.view));
   const card = document.querySelector('.sm-card'), p = records[smState.sel];
-  if (card) card.innerHTML = p ? `<span class="sm-n" style="background:${SM_COL[p.area]}">${smNum(p.id)}</span><div><span class="micro">${esc(areaNames[p.area] || '')}</span>${SM_APPROX[p.id] ? ' <span class="micro">· </span><span class="micro">position approximate</span>' : ''}<h3>${esc(p.title)}</h3><p>${esc(p.summary || '')}</p><a class="mu-stop" href="${smHref(p.id)}">${SM_IN[p.id] ? 'Open its section in ' + esc(records[SM_IN[p.id][0]].title) + ' →' : 'Open the page →'}</a></div>`
+  if (card) card.innerHTML = p ? `<span class="sm-n" style="background:${SM_COL[p.area]}">${smNum(p.id)}</span><div><span class="micro">${esc(areaNames[p.area] || '')}</span>${SM_APPROX[p.id] ? ' <span class="micro">· </span><span class="micro">position approximate</span>' : ''}<h3>${esc(p.title)}</h3><p>${esc(p.summary || '')}</p><a class="mu-stop" href="${smHref(p.id)}">${SM_IN[p.id]?.[1] ? 'Open its section in ' + esc(records[SM_IN[p.id][0]].title) + ' →' : 'Open the page →'}</a></div>`
     : `<p class="micro">${a ? 'Tap a numbered place.' : 'Tap a building or an area on the map.'}</p>`;
 }
 function smPick(id) { const p = records[id]; if (!p) return; smState.sel = id; smState.area = p.area; smRender(); }

@@ -1,64 +1,23 @@
 {
-  "id": "wadjet-hall",
-  "type": "place",
-  "title": "Wadjet Hall",
-  "area": "central-temple",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "Successive rulers changed the hall’s columns, roofs, royal statues and obelisk setting.",
-  "orientation": "Between the Fourth and Fifth Pylons.",
-  "personIds": [
-    "thutmose-i",
-    "hatshepsut",
-    "thutmose-iii"
-  ],
-  "details": [
-    "wadjet-wood-and-stone"
-  ],
-  "architecture": [],
-  "lookFor": [],
-  "claims": [
-    {
-      "id": "wadjet-hall-context",
-      "text": "Successive rulers changed the hall’s columns, roofs, royal statues and obelisk setting.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-wadjet-hall",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "wadjet-hall-0",
-      "text": "Hatshepsut replaced earlier stone supports with gilded wooden papyrus-form columns; later work again substituted stone. The surviving phase is not the only ancient design.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-wadjet-hall",
-          "locator": "Phases of Construction: Hatshepsut; Thutmose III"
-        }
-      ]
-    },
-    {
-      "id": "wadjet-hall-1",
-      "text": "The centre needed an opening for the obelisks while side sections were roofed.",
-      "certainty": "interpretation",
-      "citations": [
-        {
-          "sourceId": "dk-wadjet-hall",
-          "locator": "Phases of Construction: Hatshepsut"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
-  ],
-  "sources": [
-    "dk-wadjet-hall"
-  ]
+ "id": "wadjet-hall",
+ "type": "place",
+ "title": "Wadjet Hall",
+ "area": "central-temple",
+ "status": "source_checked",
+ "summary": "Successive rulers changed the hall’s columns, roofs, royal statues and obelisk setting.",
+ "orientation": "Between the Fourth and Fifth Pylons.",
+ "personIds": [
+  "thutmose-i",
+  "hatshepsut",
+  "thutmose-iii"
+ ],
+ "sources": [
+  "dk-wadjet-hall"
+ ],
+ "architecture": [],
+ "lookFor": [],
+ "details": ["wadjet-wood-and-stone"],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "temple-core"
 }
