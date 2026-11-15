@@ -1869,6 +1869,75 @@
       "accessed": "2026-11-16",
       "consultation": "Introduction and bibliography entries read.",
       "rights": "Reference only."
+    },
+    {
+      "id": "wikipedia-ptah-karnak",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "title": "Temple of Ptah (Karnak)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Temple_of_Ptah_(Karnak)",
+      "kind": "encyclopedia overview",
+      "accessed": "2026-11-16",
+      "consultation": "Used for layout only (gods, gates, sanctuary); cross-checked with CFEETK notes.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "ahram-ptah-wall",
+      "authors": [
+        "Ahram Online"
+      ],
+      "title": "An ancient Egyptian wall that once enclosed the Ptah temple has been found at Karnak",
+      "publisher": "Ahram Online",
+      "url": "https://english.ahram.org.eg/NewsPrint/15535.aspx",
+      "kind": "news report",
+      "accessed": "2026-11-16",
+      "consultation": "News report quoting the restoration team.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "cfeetk-ptah-139131",
+      "authors": [
+        "CNRS-CFEETK"
+      ],
+      "title": "Temple de Ptah (KIU 246), archive photo 139131",
+      "publisher": "CNRS-CFEETK archives",
+      "url": "https://www.cfeetk.cnrs.fr/archives/?n=139131",
+      "kind": "archive catalogue note",
+      "accessed": "2026-11-16",
+      "consultation": "Catalogue note read.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "polito-sekhmet-2023",
+      "authors": [
+        "R. Spallone",
+        "F. Lamberti",
+        "D. Calandra",
+        "D. Mezzino",
+        "et al."
+      ],
+      "title": "Re-contextualizing the standing Sekhmet statues in the Temple of Ptah at Karnak (DisegnareCon 31, 2023)",
+      "publisher": "Politecnico di Torino",
+      "url": "https://iris.polito.it/retrieve/handle/11583/2985018/692464",
+      "kind": "peer-reviewed article",
+      "accessed": "2026-11-16",
+      "consultation": "Introduction read.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "ea-38-ptah",
+      "authors": [
+        "Egyptian Archaeology"
+      ],
+      "title": "Digging diary: Karnak, Ptah temple (Egyptian Archaeology 38)",
+      "publisher": "Egypt Exploration Society",
+      "url": "https://issuu.com/theees/docs/ea_38_reduced/23",
+      "kind": "specialist magazine report",
+      "accessed": "2026-11-16",
+      "consultation": "Report read via search excerpt.",
+      "rights": "Reference only."
     }
   ]
 }

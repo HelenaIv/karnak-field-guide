@@ -296,5 +296,15 @@
  "sources[wikipedia-legrain]/kind": "енциклопедичний огляд",
  "sources[wikipedia-legrain]/consultation": "Використано лише для даних про знахідку, що збігаються з базою IFAO і звітом Масперо.",
  "sources[ifao-cachette]/kind": "фахова база даних",
- "sources[ifao-cachette]/consultation": "Прочитано вступ і бібліографічні записи."
+ "sources[ifao-cachette]/consultation": "Прочитано вступ і бібліографічні записи.",
+ "sources[wikipedia-ptah-karnak]/kind": "енциклопедичний огляд",
+ "sources[wikipedia-ptah-karnak]/consultation": "Використано лише для плану (боги, брами, святилище); звірено з нотатками CFEETK.",
+ "sources[ahram-ptah-wall]/kind": "новинне повідомлення",
+ "sources[ahram-ptah-wall]/consultation": "Новина з цитатами реставраційної команди.",
+ "sources[cfeetk-ptah-139131]/kind": "нотатка архівного каталогу",
+ "sources[cfeetk-ptah-139131]/consultation": "Прочитано нотатку каталогу.",
+ "sources[polito-sekhmet-2023]/kind": "рецензована стаття",
+ "sources[polito-sekhmet-2023]/consultation": "Прочитано вступ.",
+ "sources[ea-38-ptah]/kind": "звіт у фаховому журналі",
+ "sources[ea-38-ptah]/consultation": "Звіт прочитано через пошуковий уривок."
 }

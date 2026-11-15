@@ -9,7 +9,12 @@
   "details": [],
   "sources": [
     "dk-ptah",
-    "cfeetk-ptah-overview"
+    "cfeetk-ptah-overview",
+    "wikipedia-ptah-karnak",
+    "ahram-ptah-wall",
+    "cfeetk-ptah-139131",
+    "polito-sekhmet-2023",
+    "ea-38-ptah"
   ],
   "claims": [
     {
@@ -27,5 +32,112 @@
   "caveats": [
     "The official archive warns that the statues now positioned in the central and southern rooms are not in their original locations; independently verify the archive text before publishing a reconstructed ancient viewpoint.",
     "The CFEETK monograph, rather than popular dramatic-light stories, is the next source target."
-  ]
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "Gods",
+        "value": "Ptah of Memphis, his wife Sekhmet and their son Nefertem"
+      },
+      {
+        "label": "Built by",
+        "value": "Thutmose III, on the site of an earlier Middle Kingdom temple; enlarged by the Ptolemies"
+      },
+      {
+        "label": "Where",
+        "value": "In the north of the precinct of Amun, just inside the enclosure wall"
+      },
+      {
+        "label": "Known for",
+        "value": "A row of six gateways, and a statue of Sekhmet still standing in her chapel"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "The small temple of Ptah stands in the north of the precinct, just inside the enclosure wall, a short walk from the main temple. Ptah was the great god of Memphis; here he is worshipped at Thebes together with his wife, the lion-headed Sekhmet, and their son Nefertem."
+        ],
+        "citations": [
+          {
+            "sourceId": "wikipedia-ptah-karnak",
+            "locator": "Introduction; History"
+          }
+        ],
+        "mediaId": "ptah-temple-13193789"
+      },
+      {
+        "id": "gates",
+        "heading": "Six gates in a row",
+        "paragraphs": [
+          "You reach the temple through six small gateways set close together, one behind another. The first, on the west, is Ptolemaic, with the cartouche of Ptolemy VI; the others date from the 18th Dynasty. One gate carries the titles of Thutmose III together with a Ptolemy’s name: later kings rebuilt and enlarged them and kept the old king’s name on them.",
+          "The last gate leads straight into the sanctuary. A recent restoration found blocks of Thutmose III in the building, confirming that it was begun under him and not in Ptolemaic times, and uncovered Ptolemaic mud-brick walls around it. Under Shabaqo, in the 25th Dynasty, the whole northern area of the precinct was redeveloped."
+        ],
+        "look": [
+          "Walk through the gates and compare the Ptolemaic carving at the front with the older gates behind."
+        ],
+        "citations": [
+          {
+            "sourceId": "wikipedia-ptah-karnak",
+            "locator": "Gateways"
+          },
+          {
+            "sourceId": "ahram-ptah-wall",
+            "locator": "Restoration report"
+          },
+          {
+            "sourceId": "cfeetk-ptah-139131",
+            "locator": "Bibliography: Thiers and Zignani 2014 on Shabaqo’s northern development"
+          }
+        ]
+      },
+      {
+        "id": "sanctuary",
+        "heading": "Ptah and Sekhmet in their chapels",
+        "paragraphs": [
+          "The sanctuary has three small chapels. In the middle one stands a statue of Ptah and in the chapel beside it a statue of Sekhmet, the lioness goddess.",
+          "Neither statue is in its original position: both were put back in these rooms in modern times."
+        ],
+        "look": [
+          "The statue of Sekhmet in her chapel."
+        ],
+        "citations": [
+          {
+            "sourceId": "wikipedia-ptah-karnak",
+            "locator": "Sanctuary"
+          },
+          {
+            "sourceId": "cfeetk-ptah-139131",
+            "locator": "Catalogue note: the statues in the central room and the south chapel are not in their original place"
+          }
+        ]
+      },
+      {
+        "id": "turin",
+        "heading": "Lion goddesses in Turin",
+        "paragraphs": [
+          "In 1818 a group of standing statues of Sekhmet was found in front of the temple; they are now in the Museo Egizio in Turin. They seem originally to have stood in the mortuary temple of Amenhotep III on the west bank and were brought here later."
+        ],
+        "citations": [
+          {
+            "sourceId": "polito-sekhmet-2023",
+            "locator": "Introduction"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Was the courtyard of Thutmose III’s temple the same size as the Ptolemaic one? The evidence is insufficient.",
+        "citations": [
+          {
+            "sourceId": "ea-38-ptah",
+            "locator": "Report on the Ptah temple courtyard"
+          }
+        ]
+      }
+    ]
+  },
+  "heroMediaId": "ptah-temple-13193789"
 }
