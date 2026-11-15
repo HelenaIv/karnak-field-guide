@@ -80,7 +80,6 @@ function smMarks(svg, ids, scale) {
 function smSub(id) {
   const kids = smKids(id).filter(k => records[k]);
   if (kids.length) return `<ol class="sm-sub">${kids.map(k => `<li><button class="sm-item sub" data-sm-pick="${esc(k)}"><span class="sm-n">${smNum(k)}</span><span>${esc(records[k].title)}</span></button></li>`).join('')}</ol>`;
-  if (id === 'hypostyle-hall' && typeof hallGuide === 'function' && hallGuide()) return `<ol class="sm-sub"><li class="micro">Hall guide stops</li>${hallGuide().stops.map(s => `<li><a class="sm-item sub" href="#hall/${esc(s.id)}"><span class="sm-n">${s.number}</span><span>${esc(s.title)}</span></a></li>`).join('')}</ol>`;
   return '';
 }
 function smRender() {
