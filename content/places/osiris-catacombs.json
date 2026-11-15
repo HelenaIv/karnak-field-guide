@@ -54,5 +54,6 @@
   ],
   "sources": [
     "dk-osiris-catacombs"
-  ]
+  ],
+  "coveredIn": "osiris-sector"
 }

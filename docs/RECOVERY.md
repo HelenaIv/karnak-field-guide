@@ -14,7 +14,7 @@ Last updated: 2026-11-15. Repository: HelenaIv/karnak-field-guide, branch main.
 
 Research and editorial review website in English and Ukrainian, built from `content/` by `python scripts/build_review_site.py` into `dist/`. GitHub Pages publishes the review site for phone preview. WordPress/JetEngine remains the confirmed backend; not built yet.
 
-Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon, Third Pylon, temple core (one article covering the Fourth Pylon to the Middle Kingdom court), Hatshepsut’s obelisks, Akhmenu, contra-temple and eastern temple, Aten temples, southern pylons (Seventh–Tenth), Temple of Khonsu (with Opet and Bab el-Amara), Temple of Ptah, Sacred Lake, Open Air Museum; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). Big-picture pages: growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
+Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon, Third Pylon, temple core (one article covering the Fourth Pylon to the Middle Kingdom court), Hatshepsut’s obelisks, Akhmenu, contra-temple and eastern temple, Aten temples, southern pylons (Seventh–Tenth), Temple of Khonsu (with Opet and Bab el-Amara), Temple of Ptah, Sacred Lake, Open Air Museum, Osiris chapels and catacombs; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). Big-picture pages: growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
 
 Latest work and decisions are in `docs/logs/` (newest file last). `git log` is the authoritative list of finished work.
 
@@ -31,7 +31,7 @@ Latest work and decisions are in `docs/logs/` (newest file last). `git log` is t
 
 ## Exact next work
 
-1. Owner wants detail photos (walls, reliefs) for every finished article, like the Opet section: add 4–7 openly licensed photos per article via `mediaIds` (method in `docs/logs/2026-11-16.md`). Sacred Lake and Open Air Museum guides done 2026-11-16 (still need extra detail photos). Then continue place guides: Osiris chapels, Mut precinct. Ask the owner whether `own-pylon-seated-colossi-2023` is the Eighth Pylon. Small monuments inside a bigger place become sections of its article (`SM_IN` in `web/sitemap.js`, record reduced to a stub with `coveredIn`).
+1. Owner wants detail photos (walls, reliefs) for every finished article, like the Opet section: add 4–7 openly licensed photos per article via `mediaIds` (method in `docs/logs/2026-11-16.md`). Sacred Lake, Open Air Museum and Osiris chapels guides done 2026-11-16 (still need extra detail photos). Then continue place guides: Mut precinct. Ask the owner whether `own-pylon-seated-colossi-2023` is the Eighth Pylon. Small monuments inside a bigger place become sections of its article (`SM_IN` in `web/sitemap.js`, record reduced to a stub with `coveredIn`).
 2. Optional: confirm places for own photos `own-court-with-painted-columns`, `own-painted-architrave-pillars`, `own-relief-king-and-isis`; add `placeIds` only when confirmed. `video-ruins-pan` not used (place unknown).
 3. Second Pylon has no own photo; swap in one if the owner supplies it.
 4. Older open items: see `docs/RESEARCH_BACKLOG.md` and `docs/HALL_WORKPLAN.md`.

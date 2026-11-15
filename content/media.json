@@ -3444,6 +3444,106 @@
       "alt": "A row of square stone pillars carved with figures, some with remains of paint.",
       "identificationStatus": "Commons description: “Peristyle Hall of Thutmosis IV at the Open Air Museum in the precinct of Amun-Ra in Karnak”, photographed 2024-03-10.",
       "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "osiris-heqadjet-tausch-03",
+      "path": "assets/photos/osiris-heqadjet-tausch-03.jpg",
+      "title": "Karnak Kapelle Osiris Hekadjet 03.JPG",
+      "creator": "Olaf Tausch",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak_Kapelle_Osiris_Hekadjet_03.JPG",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Kapelle_Osiris_Hekadjet_03.JPG",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Kapelle_Osiris_Hekadjet_03.JPG?width=2560",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Olaf Tausch, CC BY 3.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "5f4ccaf5600b16dd845cbbe05fd6f05ecfd7388a48817fce3e66bdca95a90446",
+      "bytes": 566016,
+      "placeIds": [
+        "osiris-sector"
+      ],
+      "subjectGroup": "place",
+      "caption": "Reliefs on a wall of the chapel of Osiris Heqa-djet: figures facing each other between columns of hieroglyphs.",
+      "alt": "A sandstone wall carved in relief with standing figures and vertical columns of hieroglyphs, with traces of colour.",
+      "identificationStatus": "Commons title: “Karnak Kapelle Osiris Hekadjet” (chapel of Osiris Heqa-djet, Karnak).",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "osiris-heqadjet-marsupium-03",
+      "path": "assets/photos/osiris-heqadjet-marsupium-03.jpg",
+      "title": "Chapel of Osiris Heqadjet in Karnak 03.jpg",
+      "creator": "Marsupium",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapel_of_Osiris_Heqadjet_in_Karnak_03.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Osiris_Heqadjet_in_Karnak_03.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Osiris_Heqadjet_in_Karnak_03.jpg?width=2560",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Marsupium, CC BY 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "875330e759a4f6f1fba86f68665fac6b091462f407c02d6c02de931901c2ab88",
+      "bytes": 725859,
+      "placeIds": [
+        "osiris-sector"
+      ],
+      "subjectGroup": "place",
+      "caption": "A carved wall inside the chapel of Osiris Heqa-djet.",
+      "alt": "A wall of large sandstone blocks carved with figures and columns of hieroglyphs, half in sunlight.",
+      "identificationStatus": "Commons title: “Chapel of Osiris Heqadjet in Karnak”, photographed 2024.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "osiris-heqadjet-marsupium-01",
+      "path": "assets/photos/osiris-heqadjet-marsupium-01.jpg",
+      "title": "Chapel of Osiris Heqadjet in Karnak 01.jpg",
+      "creator": "Marsupium",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapel_of_Osiris_Heqadjet_in_Karnak_01.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Osiris_Heqadjet_in_Karnak_01.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Osiris_Heqadjet_in_Karnak_01.jpg?width=2560",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Marsupium, CC BY 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "ae8c938e0699e35d6b346c84a484441ad1a4cfb45f2b50d839e03e50d8428e96",
+      "bytes": 935746,
+      "placeIds": [
+        "osiris-sector"
+      ],
+      "subjectGroup": "place",
+      "caption": "A doorway-shaped niche with several recessed frames, carved into a wall of the chapel of Osiris Heqa-djet.",
+      "alt": "A stone wall with a tall niche framed by several stepped, recessed door frames.",
+      "identificationStatus": "Commons title: “Chapel of Osiris Heqadjet in Karnak”, photographed 2024.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "osiris-wennefer-chabe01-1",
+      "path": "assets/photos/osiris-wennefer-chabe01-1.jpg",
+      "title": "Chapelle Osiris Ounnefer Karnak - Louxor (EG) - 2025-12-04 - 1.jpg",
+      "creator": "Chabe01",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapelle_Osiris_Ounnefer_Karnak_-_Louxor_(EG)_-_2025-12-04_-_1.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapelle_Osiris_Ounnefer_Karnak_-_Louxor_(EG)_-_2025-12-04_-_1.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapelle_Osiris_Ounnefer_Karnak_-_Louxor_(EG)_-_2025-12-04_-_1.jpg?width=2560",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Chabe01, CC BY-SA 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "b0d4dfcd8e8f0ccc0f74c3f05921c6f95761e3afc0bc5fc6204c4c0f8d812dd5",
+      "bytes": 843698,
+      "placeIds": [
+        "osiris-sector"
+      ],
+      "subjectGroup": "place",
+      "caption": "The ruined stone gateway of a chapel of Osiris Wennefer, standing above excavated mud-brick walls.",
+      "alt": "A tall stone doorway and fragments of walls rising from excavated ground with mud-brick remains.",
+      "identificationStatus": "Commons description: “Chapelle Osiris Ounnefer, Karnak”, photographed 2025-12-04. Which of the Wennefer chapels is not stated.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
     }
   ]
 }

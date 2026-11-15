@@ -1,0 +1,203 @@
+{
+  "id": "osiris-sector",
+  "type": "place",
+  "title": "The Osiris chapels and catacombs",
+  "area": "northeastern-osiris",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "summary": "Small chapels to different forms of Osiris, built mostly for the Divine Adoratrices of Amun in the first millennium BC, and the Ptolemaic catacombs where Osiris figurines were buried.",
+  "orientation": "Mostly north and north-east of the main temple, around the Osiris cemetery and along the paved way to the temple of Ptah; one chapel lies south of the Tenth Pylon.",
+  "personIds": [
+    "taharqo"
+  ],
+  "periodIds": [
+    "third-intermediate",
+    "late-period",
+    "macedonian-ptolemaic"
+  ],
+  "architecture": [],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "osiris-sector-adoratrices",
+      "text": "Most Osirian chapels at Karnak, from the start of the Third Intermediate Period to the end of the Saite era, were built on the initiative of the Divine Adoratrices of Amun.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "ifao-osiris-sanctuaries",
+          "locator": "The Osirian Chapels and the Divine Adoratrices of Amun"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Which chapels visitors can reach has not been field-verified; the catacombs are closed to visitors."
+  ],
+  "sources": [
+    "ifao-osiris-sanctuaries",
+    "ifao-karnak-2013",
+    "coulon-2009-osiris",
+    "coulon-2008-necropole",
+    "dk-osiris-heqa-djet",
+    "dk-osiris-coptite",
+    "dk-osiris-catacombs",
+    "archaeology-2018-osiris-ptah",
+    "arce-osiris-ptah",
+    "academia-adoratrices-fecundity",
+    "coulon-2010-chapelles"
+  ],
+  "heroMediaId": "osiris-heqadjet-tausch-03",
+  "guide": {
+    "glance": [
+      {
+        "label": "God",
+        "value": "Osiris, worshipped here in many separate forms, each with its own chapel"
+      },
+      {
+        "label": "Built",
+        "value": "Mostly from the Third Intermediate Period to the 6th century BC; catacombs under Ptolemy IV"
+      },
+      {
+        "label": "Where",
+        "value": "North-east of the main temple and along the way to the temple of Ptah; one chapel south of the Tenth Pylon"
+      },
+      {
+        "label": "Known for",
+        "value": "Chapels built by the Divine Adoratrices of Amun, and catacombs with 720 niches for Osiris figurines"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "Around the edges of the temple of Amun stand many small chapels, each dedicated to one form of Osiris, such as Osiris “ruler of eternity” or Osiris “lord of life”. Most of them were built from the start of the Third Intermediate Period to the end of the 6th century BC on the initiative of the Divine Adoratrices of Amun, royal princesses who held the highest priestly office at Thebes.",
+          "They cluster around the Osiris cemetery north-east of the temple and along the processional ways through the northern part of the precinct. Each chapel links its princess both with Amun, who appears often in the decoration, and with the form of Osiris it was built for."
+        ],
+        "citations": [
+          {
+            "sourceId": "ifao-osiris-sanctuaries",
+            "locator": "The Osirian Chapels and the Divine Adoratrices of Amun"
+          },
+          {
+            "sourceId": "coulon-2009-osiris",
+            "locator": "Plan of the Osirian buildings"
+          }
+        ]
+      },
+      {
+        "id": "heqadjet",
+        "heading": "The chapel of Osiris Heqa-djet",
+        "paragraphs": [
+          "The chapel of Osiris Heqa-djet, “ruler of eternity”, stands in the north-eastern part of the precinct of Amun. Its decoration names the Divine Adoratrices Shepenupet I and Amenirdis I. Georges Legrain cleared it in 1900–1901 and restored it."
+        ],
+        "look": [
+          "The processions of fecundity figures, which appear on monuments of the Divine Adoratrices."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-osiris-heqa-djet",
+            "locator": "Introduction"
+          },
+          {
+            "sourceId": "coulon-2009-osiris",
+            "locator": "Plan of the Osirian buildings"
+          },
+          {
+            "sourceId": "coulon-2010-chapelles",
+            "locator": "Fig. 2 and text on Legrain’s clearance"
+          },
+          {
+            "sourceId": "academia-adoratrices-fecundity",
+            "locator": "List of Divine Adoratrice monuments with fecundity figures"
+          }
+        ],
+        "mediaIds": [
+          "osiris-heqadjet-marsupium-03",
+          "osiris-heqadjet-marsupium-01"
+        ]
+      },
+      {
+        "id": "ptah-way",
+        "heading": "Chapels along the way to the temple of Ptah",
+        "paragraphs": [
+          "Three chapels line the paved way leading north to the temple of Ptah. The central one, dedicated to Osiris Wennefer Neb-djefau, “lord of provisions”, is decorated in the names of King Amasis and the Divine Adoratrice Ankhnesneferibre in the 6th century BC. An older chapel is dedicated to Osiris Neb-ankh, “lord of life, who helps the wretched”, and a later one to Osiris Wennefer.",
+          "French teams have excavated these chapels since 2000. Finds from the chapel of Osiris Wennefer include a bronze figurine of Osiris and a bronze statuette of Isis nursing Horus."
+        ],
+        "citations": [
+          {
+            "sourceId": "ifao-osiris-sanctuaries",
+            "locator": "Programme description"
+          },
+          {
+            "sourceId": "ifao-karnak-2013",
+            "locator": "La chapelle d’Osiris Ounnefer Neb-djefaou"
+          }
+        ],
+        "mediaId": "osiris-wennefer-chabe01-1"
+      },
+      {
+        "id": "coptite",
+        "heading": "Osiris of Coptos and the catacombs",
+        "paragraphs": [
+          "On the east side of the precinct, near the eastern temple of Ramesses II, stood a chapel of Osiris of Coptos, partly visible when Champollion and Lepsius recorded it in the 19th century. Directly north of it and connected to it lie the catacombs built under Ptolemy IV.",
+          "The catacombs were a building of fired brick, 25 by 14.5 m and at least partly underground: a short corridor on the east side led into three long galleries lined with niches about 30 cm high and 90 cm deep, 720 in all. Each niche held a small Osiris figure made for the yearly Khoiak festival and was sealed with a clay plaque. The plastered walls were painted, and thousands of fragments show Ptolemy IV’s name, the resurrection of Osiris and the running of the Apis bull. The catacombs are closed to visitors."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-osiris-coptite",
+            "locator": "Introduction"
+          },
+          {
+            "sourceId": "ifao-osiris-sanctuaries",
+            "locator": "History of research"
+          },
+          {
+            "sourceId": "coulon-2008-necropole",
+            "locator": "Section 1"
+          },
+          {
+            "sourceId": "dk-osiris-catacombs",
+            "locator": "Introduction; Measurements"
+          },
+          {
+            "sourceId": "coulon-2009-osiris",
+            "locator": "L’essor du berceau et du tombeau d’Osiris"
+          }
+        ]
+      },
+      {
+        "id": "osiris-ptah",
+        "heading": "Osiris-Ptah Neb-ankh, south of the Tenth Pylon",
+        "paragraphs": [
+          "Away from the others, the chapel of Osiris-Ptah Neb-ankh, “lord of life”, lies south of the Tenth Pylon, east of the avenue of ram-headed sphinxes leading to the precinct of Mut. It was built in the 25th Dynasty, and the Kushite kings Taharqo and Tanwetamani appear in its reliefs.",
+          "Local people found it in 1875 in poor condition. A project funded through the American Research Center in Egypt conserved and partly rebuilt it in 2020, correcting a restoration made a century earlier, and aims to open it to visitors."
+        ],
+        "citations": [
+          {
+            "sourceId": "archaeology-2018-osiris-ptah",
+            "locator": "Digs & Discoveries"
+          },
+          {
+            "sourceId": "arce-osiris-ptah",
+            "locator": "Project summary"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Which of the Osiris chapels can visitors enter today? Access has not been checked on site.",
+        "citations": [
+          {
+            "sourceId": "arce-osiris-ptah",
+            "locator": "Project summary"
+          }
+        ]
+      }
+    ]
+  }
+}

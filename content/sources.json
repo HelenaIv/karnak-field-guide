@@ -2020,6 +2020,136 @@
       "accessed": "2026-11-16",
       "consultation": "Web account read via search extract.",
       "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "ifao-osiris-sanctuaries",
+      "authors": [
+        "IFAO"
+      ],
+      "title": "Karnak – sanctuaires osiriens",
+      "publisher": "Institut français d’archéologie orientale",
+      "url": "https://www.ifao.egnet.net/bietud/karnak/",
+      "kind": "institutional project page",
+      "accessed": "2026-11-16",
+      "consultation": "Project page read via search extract (English and French text).",
+      "rights": "Reference only."
+    },
+    {
+      "id": "ifao-karnak-2013",
+      "authors": [
+        "Laurent Coulon"
+      ],
+      "title": "Karnak – sanctuaires osiriens: rapport 2013",
+      "publisher": "IFAO",
+      "url": "https://www.ifao.egnet.net/uploads/docs/sites/IFAO-karnak_2013.pdf",
+      "kind": "field report",
+      "accessed": "2026-11-16",
+      "consultation": "Report read via search extract.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "coulon-2009-osiris",
+      "authors": [
+        "Laurent Coulon"
+      ],
+      "title": "Un dieu mort florissant: Osiris à Karnak (Religions & Histoire 29)",
+      "publisher": "Religions & Histoire",
+      "url": "https://www.hisoma.mom.fr/sites/hisoma.mom.fr/files/annuaire-du-personnel/coulon-laurent/Coulon_2009_RH29_p44-49.pdf",
+      "kind": "popular scholarly article",
+      "accessed": "2026-11-16",
+      "consultation": "Article read via search extract.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "coulon-2008-necropole",
+      "authors": [
+        "Laurent Coulon"
+      ],
+      "title": "La nécropole osirienne de Karnak sous les Ptolémées",
+      "publisher": "Papyrologica Bruxellensia 34",
+      "url": "https://www.hisoma.mom.fr/sites/hisoma.mom.fr/files/annuaire-du-personnel/coulon-laurent/2008_Coulon_PapBrux%2034.pdf",
+      "kind": "scholarly article",
+      "accessed": "2026-11-16",
+      "consultation": "Article read via search extract.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "coulon-2010-chapelles",
+      "authors": [
+        "Laurent Coulon"
+      ],
+      "title": "Les chapelles osiriennes de Karnak. Aperçu des travaux récents (BdE 153)",
+      "publisher": "IFAO",
+      "url": "https://www.academia.edu/33981907/",
+      "kind": "scholarly article",
+      "accessed": "2026-11-16",
+      "consultation": "Article read via search extract (Legrain’s clearance 1900–1901).",
+      "rights": "Reference only."
+    },
+    {
+      "id": "dk-osiris-heqa-djet",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Osiris Heqa-Djet",
+      "publisher": "Digital Karnak, UCSC",
+      "url": "https://digitalkarnak.ucsc.edu/?p=3910",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-16",
+      "consultation": "Web entry read via search extract.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "dk-osiris-coptite",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Osiris Coptite",
+      "publisher": "Digital Karnak, UCSC",
+      "url": "https://digitalkarnak.ucsc.edu/osiris-coptite/",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-16",
+      "consultation": "Web entry read via search extract.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "archaeology-2018-osiris-ptah",
+      "authors": [
+        "Archaeology magazine"
+      ],
+      "title": "Honoring Osiris",
+      "publisher": "Archaeological Institute of America",
+      "url": "https://archaeology.org/issues/july-august-2018/digs-discoveries/trenches-egypt-luxor-karnak-osiris-chapel/",
+      "kind": "news report",
+      "accessed": "2026-11-16",
+      "consultation": "News report read.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "arce-osiris-ptah",
+      "authors": [
+        "American Research Center in Egypt"
+      ],
+      "title": "Osiris-Ptah Neb-ankh chapel conservation",
+      "publisher": "ARCE",
+      "url": "https://arce.org/?p=2526",
+      "kind": "project report",
+      "accessed": "2026-11-16",
+      "consultation": "Project page read via search extract.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "academia-adoratrices-fecundity",
+      "authors": [
+        "Unknown (Academia.edu upload)"
+      ],
+      "title": "Article on processions of fecundity figures on monuments of the Divine Adoratrices",
+      "publisher": "Academia.edu",
+      "url": "https://www.academia.edu/25347272/",
+      "kind": "scholarly article (author not recorded)",
+      "accessed": "2026-11-16",
+      "consultation": "Search extract read; lists the Heqa-djet chapel under Shepenupet I and Amenirdis I. Author and publication to be identified.",
+      "rights": "Reference only."
     }
   ]
 }
