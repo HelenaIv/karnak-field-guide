@@ -306,5 +306,9 @@
  "sources[polito-sekhmet-2023]/kind": "рецензована стаття",
  "sources[polito-sekhmet-2023]/consultation": "Прочитано вступ.",
  "sources[ea-38-ptah]/kind": "звіт у фаховому журналі",
- "sources[ea-38-ptah]/consultation": "Звіт прочитано через пошуковий уривок."
+ "sources[ea-38-ptah]/consultation": "Звіт прочитано через пошуковий уривок.",
+ "sources[dk-taharqo-edifice]/kind": "інституційний узагальнювальний опис пам’ятки",
+ "sources[dk-taharqo-edifice]/consultation": "Вебопис прочитано за витягом із пошуку; він посилається на Parker, Leclant and Goyon 1979 та Cooney 2000, які самостійно не переглянуто.",
+ "sources[dk-scarab-amenhotep-iii]/kind": "інституційний опис предмета",
+ "sources[dk-scarab-amenhotep-iii]/consultation": "Вебопис прочитано за витягом із пошуку; розмірів джерело не наводить."
 }
