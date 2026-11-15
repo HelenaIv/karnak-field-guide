@@ -1,61 +1,22 @@
 {
-  "id": "tenth-pylon",
-  "type": "place",
-  "title": "Tenth Pylon",
-  "area": "southern-axis",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "Begun under Amenhotep III and completed under Horemheb, the gateway joined successive royal projects.",
-  "orientation": "Southernmost of the ten numbered pylons, on the route toward Mut and Luxor.",
-  "personIds": [
-    "amenhotep-iii",
-    "horemheb"
-  ],
-  "details": [],
-  "architecture": [],
-  "lookFor": [],
-  "claims": [
-    {
-      "id": "tenth-pylon-context",
-      "text": "Begun under Amenhotep III and completed under Horemheb, the gateway joined successive royal projects.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-tenth-pylon",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "tenth-pylon-0",
-      "text": "Its upper towers incorporated talatat from dismantled Aten buildings.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-tenth-pylon",
-          "locator": "Phases of Construction: Horemheb"
-        }
-      ]
-    },
-    {
-      "id": "tenth-pylon-1",
-      "text": "An eastern doorway connected its court with administrative, storage and priestly areas. Ritual circulation was embedded in a working institution.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-tenth-pylon",
-          "locator": "Phases of Construction: Horemheb"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
-  ],
-  "sources": [
-    "dk-tenth-pylon"
-  ]
+ "id": "tenth-pylon",
+ "type": "place",
+ "title": "Tenth Pylon",
+ "area": "southern-axis",
+ "status": "source_checked",
+ "summary": "Begun under Amenhotep III and completed under Horemheb, the gateway joined successive royal projects.",
+ "orientation": "Southernmost of the ten numbered pylons, on the route toward Mut and Luxor.",
+ "personIds": [
+  "amenhotep-iii",
+  "horemheb"
+ ],
+ "sources": [
+  "dk-tenth-pylon"
+ ],
+ "details": [],
+ "architecture": [],
+ "lookFor": [],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "southern-axis"
 }

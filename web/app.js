@@ -26,6 +26,21 @@ function learn() { return `<div class="page-head"><span class="eyebrow">Misc</sp
 function diagram(kind) { if(kind==='relief') return `<div class="demo" id="relief-demo"><div class="demo-controls"><strong>A cross-section through the stone</strong><button data-demo="light">Change light direction ↔</button></div><svg viewBox="0 0 720 210" role="img" aria-label="Schematic cross-sections: raised relief stands above a lowered background; sunk relief is cut below the original surface"><text x="35" y="25" class="demo-label">RAISED RELIEF</text><text x="395" y="25" class="demo-label">SUNK RELIEF</text><path d="M25 105H115V65H175V105H310V175H25Z" fill="#bfa16d" class="relief-shape"/><path d="M385 65H475V105H535V65H690V175H385Z" fill="#bfa16d" class="relief-shape"/><path d="M25 65H310 M385 65H690" stroke="#5b6658" stroke-width="1" stroke-dasharray="5 5"/><text x="25" y="200" class="demo-label">Background lowered around the form</text><text x="385" y="200" class="demo-label">Form cut into the surface</text></svg><p>Original explanatory schematic. Dashed line: original stone surface. Not a reconstruction of a particular hieroglyph or ancient light level.</p></div>`; return `<div class="demo" id="roof-demo"><div class="demo-controls"><strong>Put the roof back</strong><button data-demo="roof" aria-pressed="false">Show the roof</button></div><svg viewBox="0 0 720 300" role="img" aria-label="Schematic cross-section of a higher central nave and lower side roofs"><g fill="#bfa16d" stroke="#8d784f"><path d="M90 275V125H120V275 M190 275V125H220V275 M290 275V65H325V275 M395 275V65H430V275 M500 275V125H530V275 M600 275V125H630V275"/><path d="M75 115h160v12H75 M275 55h170v14H275 M485 115h160v12H485"/></g><g class="roof-slab" fill="#897753"><path d="M60 102h230v13H60 M430 102h230v13H430 M270 40h180v15H270"/><path d="M277 68h10v34h-10 M433 68h10v34h-10"/></g><path d="M220 62l50 29 M500 62l-50 29" stroke="#b38d40" stroke-width="3"/><text x="310" y="20" class="demo-label">HIGHER NAVE</text><text x="40" y="55" class="demo-label">Light enters at the clerestory</text></svg><p>Original schematic explaining relative roof heights. Column spacing, construction sequence and ancient illumination are not reconstructed to scale.</p></div>`; }
 
 // ---------- Place guides: structured place pages ----------
+function placeSouthPylons() {
+  // Fronts of the southern pylons to one scale (1 m = 2.2 units), north to south, with build order. Ninth Pylon size not given in the sources used: drawn dashed.
+  const k = 2.2, g = 150, P = [['VII', 63.2, 26, 'Thutmose III', '2nd'], ['VIII', 47.7, 21, 'Hatshepsut', '1st'], ['IX', 50, 20, 'Horemheb', '4th', 1], ['X', 66.6, 21, 'Amenhotep III → Horemheb', '3rd']];
+  let x = 14, out = '';
+  P.forEach(([n, L, H, who, ord, unk]) => {
+    const w = L * k, h = H * k, gw = 6 * k, tw = (w - gw) / 2, b = h * 0.1;
+    const tower = x0 => `<path d="M${x0} ${g}L${x0 + b} ${g - h}H${x0 + tw - b}L${x0 + tw} ${g}Z" fill="${unk ? 'none' : '#d9b98a'}" stroke="#26302a" stroke-width="1.2"${unk ? ' stroke-dasharray="4 3"' : ''}/>`;
+    out += tower(x) + tower(x + tw + gw) + `<text x="${x + w / 2}" y="${g + 16}" text-anchor="middle" font-size="12" font-weight="700" fill="#26302a">${n}</text><text x="${x + w / 2}" y="${g + 30}" text-anchor="middle" font-size="9.5" fill="#26302a">${who}</text><rect x="${x + w / 2 - 15}" y="${g - h - 22}" width="30" height="15" fill="#fff" stroke="#8a7a5c"/><text x="${x + w / 2}" y="${g - h - 11}" text-anchor="middle" font-size="10" fill="#26302a">${ord}</text>`;
+    x += w + 16;
+  });
+  return `<figure class="pg-draw"><svg viewBox="0 0 ${Math.ceil(x)} 196" role="img" aria-label="The four southern pylons drawn to one scale from north to south, each labelled with its builder and the order in which it was built.">
+  <rect width="${Math.ceil(x)}" height="196" fill="#f3ead6"/><rect y="${g}" width="${Math.ceil(x)}" height="4" fill="#cdb98f"/>${out}
+  <text x="14" y="14" font-size="11" fill="#5b5a4d">north (temple core)</text><text x="${Math.ceil(x) - 14}" y="14" text-anchor="end" font-size="11" fill="#5b5a4d">south (towards Mut)</text>
+  </svg><figcaption class="micro">Original drawing, fronts of the pylons to one scale, measurements from Digital Karnak. Boxes give the order in which building began. The Ninth Pylon’s size is not given in the sources used here, so it is dashed and approximate.</figcaption></figure>`;
+}
 function placeTalatat() {
   // One talatat block drawn to scale in oblique view (1 cm = 4 units), with its measurements from Digital Karnak.
   const k = 4, L = 52 * k, H = 22 * k, D = 26 * k * 0.5, x = 60, y = 70;
@@ -90,6 +105,7 @@ function placeDrawing(id) {
   if (id === 'pylon-fill') return placePylonFill();
   if (id === 'core-strip') return placeCoreStrip();
   if (id === 'talatat') return placeTalatat();
+  if (id === 'south-pylons') return placeSouthPylons();
   if (id !== 'pylon-elevation') return '';
   // First Pylon seen from the avenue (west), drawn to scale: 1 m = 4 units.
   const k = 4, g = 200, x0 = 16, W = 113, gw = 7.4, tw = (W - gw) / 2, bat = 0.12;

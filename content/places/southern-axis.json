@@ -1,0 +1,225 @@
+{
+ "id": "southern-axis",
+ "type": "place",
+ "title": "The southern pylons",
+ "area": "southern-axis",
+ "status": "source_checked",
+ "additionalChecks": [
+  "needs_field_check"
+ ],
+ "summary": "Four pylons and their courts on the temple’s north–south processional route towards the temple of Mut, from Thutmose III’s Seventh Pylon and the Cachette Court to Horemheb’s Tenth Pylon.",
+ "orientation": "South of the temple core, running from the main axis towards the Mut precinct.",
+ "personIds": [
+  "hatshepsut",
+  "thutmose-iii",
+  "amenhotep-iii",
+  "horemheb"
+ ],
+ "periodIds": [
+  "new-kingdom"
+ ],
+ "architecture": [],
+ "lookFor": [],
+ "details": [],
+ "claims": [
+  {
+   "id": "southern-axis-route",
+   "text": "The Seventh to Tenth Pylons stand on the southern processional route towards the temples of Mut and Luxor.",
+   "certainty": "established",
+   "citations": [
+    {
+     "sourceId": "dk-tenth-pylon",
+     "locator": "Introduction"
+    }
+   ]
+  }
+ ],
+ "caveats": [
+  "Access to the southern courts varies and has not been field-verified."
+ ],
+ "sources": [
+  "dk-seventh-pylon",
+  "dk-obelisks-7th",
+  "dk-eighth-pylon",
+  "dk-ninth-pylon",
+  "dk-tenth-pylon",
+  "dk-edifice-amenhotep-ii",
+  "wikipedia-legrain",
+  "ifao-cachette"
+ ],
+ "heroMediaId": "karnak-eighth-pylon-south",
+ "guide": {
+  "glance": [
+   {
+    "label": "What it is",
+    "value": "Four pylons on the processional route from the temple of Amun south to the temple of Mut"
+   },
+   {
+    "label": "Oldest",
+    "value": "The Eighth Pylon of Hatshepsut, about 1479–1458 BC"
+   },
+   {
+    "label": "Youngest",
+    "value": "The Ninth and Tenth Pylons, finished by Horemheb, about 1323–1295 BC"
+   },
+   {
+    "label": "Most famous find",
+    "value": "The Cachette: about 800 stone statues and 17,000 bronzes, found in 1903"
+   }
+  ],
+  "sections": [
+   {
+    "id": "where",
+    "heading": "Where you are",
+    "paragraphs": [
+     "Karnak has a second axis. From the temple core a processional route runs south, through four pylons and their courts, towards the temple of Mut and on to Luxor. The pylons are numbered Seven to Ten from north to south.",
+     "The numbers give their order on the ground, not their age. Hatshepsut’s Eighth Pylon is the oldest still standing; Thutmose III then put the Seventh in front of it, and Horemheb added the Ninth and finished the Tenth more than a century later."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-tenth-pylon",
+      "locator": "Introduction"
+     },
+     {
+      "sourceId": "dk-eighth-pylon",
+      "locator": "Phases of Construction: Hatshepsut"
+     },
+     {
+      "sourceId": "dk-seventh-pylon",
+      "locator": "Phases of Construction: Thutmose III"
+     }
+    ],
+    "mediaId": "karnak-eighth-pylon-south",
+    "drawing": "south-pylons"
+   },
+   {
+    "id": "seventh",
+    "heading": "The Seventh Pylon and an obelisk in Istanbul",
+    "paragraphs": [
+     "Thutmose III built the Seventh Pylon, 26 m high and 63.2 m long, between Hatshepsut’s pylon and his own festival court, replacing an earlier mud-brick pylon. On the south face of both towers he is shown striking a group of cowering captives. Two colossal statues of the king flanked the doorway, with two rose-granite obelisks in front.",
+     "The western obelisk was taken down in the 4th century AD, probably by a Roman emperor, and sent to Constantinople. It still stands in the old Hippodrome of Istanbul, though only its upper 20 m survive of an obelisk about 29 m tall. The tip of its partner was found at Karnak."
+    ],
+    "look": [
+     "On the south face, Thutmose III striking his enemies.",
+     "The bases of the colossi in front of the doorway."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-seventh-pylon",
+      "locator": "Introduction; Measurements; Phases of Construction: Thutmose III"
+     },
+     {
+      "sourceId": "dk-obelisks-7th",
+      "locator": "Introduction; Measurements"
+     }
+    ]
+   },
+   {
+    "id": "cachette",
+    "heading": "The Cachette: a pit full of statues",
+    "paragraphs": [
+     "In 1903 Georges Legrain, director of works at Karnak, found a pit packed with sculpture in the court north of the Seventh Pylon. Digging went on until 1907. It yielded about 800 stone statues, including more than 350 block statues, and about 17,000 bronzes.",
+     "Apart from some royal statues, most portray priests of Karnak, from the New Kingdom to the Ptolemaic period. Some time in the Greco-Roman period they had been cleared out of the temple and buried together. So the pit tells you where the statues ended up, not where each one once stood. Most are now in the Egyptian Museum in Cairo."
+    ],
+    "look": [
+     "The open court north of the Seventh Pylon: the pit has been filled in."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-seventh-pylon",
+      "locator": "Phases of Construction: the court of the cachette"
+     },
+     {
+      "sourceId": "wikipedia-legrain",
+      "locator": "Discovery of the cache, 1903"
+     },
+     {
+      "sourceId": "ifao-cachette",
+      "locator": "Introduction; Jambon 2009 on the excavations 1903–1907"
+     }
+    ],
+    "mediaId": "basics-cachette"
+   },
+   {
+    "id": "eighth",
+    "heading": "Hatshepsut’s Eighth Pylon",
+    "paragraphs": [
+     "The Eighth Pylon, 21 m high and 47.7 m long, was the first of the surviving pylons on the southern route, perhaps replacing a mud-brick one. While it was the southern entrance, statues of Thutmose II, of Amenhotep I with Queen Ahmose-Nefertari, and of Amenhotep II were set up along its south face.",
+     "Little of Hatshepsut’s own decoration survives: Thutmose III, Amenhotep II, Tutankhamun and Sety I all recarved it. The south face now shows Amenhotep II striking Egypt’s enemies; the north face shows the king with the gods and a procession of the sacred bark, possibly during the Opet festival."
+    ],
+    "look": [
+     "The seated statues along the south face.",
+     "The bark procession on the north face."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-eighth-pylon",
+      "locator": "Introduction; Measurements; Phases of Construction: Hatshepsut"
+     }
+    ]
+   },
+   {
+    "id": "ninth",
+    "heading": "The Ninth Pylon, built from Akhenaten’s temples",
+    "paragraphs": [
+     "Horemheb built the Ninth Pylon and filled it with talatat, the small blocks of Akhenaten’s demolished sun temples. Ramesses II later decorated its gateway and the walls between the Eighth and Ninth Pylons with the bark procession of the Opet festival."
+    ],
+    "look": [
+     "The festival scenes on the walls between the Eighth and Ninth Pylons."
+    ],
+    "link": "aten-temples",
+    "citations": [
+     {
+      "sourceId": "dk-ninth-pylon",
+      "locator": "Introduction; Phases of Construction: Horemheb, Ramesses II"
+     }
+    ],
+    "mediaId": "basics-talatat"
+   },
+   {
+    "id": "edifice",
+    "heading": "A festival building moved by Horemheb",
+    "paragraphs": [
+     "In the court between the Ninth and Tenth Pylons stands the “edifice of Amenhotep II”, about 37 m wide and 20 m deep. Amenhotep II had built a large festival court south of the Eighth Pylon; Horemheb tore it down when he reorganised the route and rebuilt the building in its present place."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-edifice-amenhotep-ii",
+      "locator": "Introduction; Measurements; Phases of Construction"
+     }
+    ]
+   },
+   {
+    "id": "tenth",
+    "heading": "The Tenth Pylon, gate towards Mut",
+    "paragraphs": [
+     "The Tenth Pylon is the southernmost, 66.6 m long and 21 m high, with a rose-granite doorway 15.62 m tall. Amenhotep III began it but only the lowest courses were laid before he died. Horemheb finished it, filled the upper towers with talatat, linked it to his Ninth Pylon with sandstone walls, and had himself shown on the towers striking his enemies."
+    ],
+    "look": [
+     "The granite doorway, and the road beyond it towards the temple of Mut."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-tenth-pylon",
+      "locator": "Introduction; Measurements; Phases of Construction: Amenhotep III, Horemheb"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "text": "When exactly, and why, were the Cachette statues buried? Digital Karnak places it in the Greco-Roman period; the reasons are still studied.",
+    "citations": [
+     {
+      "sourceId": "dk-seventh-pylon",
+      "locator": "The court of the cachette"
+     },
+     {
+      "sourceId": "ifao-cachette",
+      "locator": "Jambon 2016, analytical study"
+     }
+    ]
+   }
+  ]
+ }
+}

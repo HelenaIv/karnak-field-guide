@@ -288,5 +288,13 @@
  "sources[cnrs-talatat]/kind": "новини науки",
  "sources[cnrs-talatat]/consultation": "Статтю прочитано через пошукові уривки.",
  "sources[dk-akhenaten-head]/kind": "запис каталогу предметів",
- "sources[dk-akhenaten-head]/consultation": "Прочитано запис вебкаталогу."
+ "sources[dk-akhenaten-head]/consultation": "Прочитано запис вебкаталогу.",
+ "sources[dk-obelisks-7th]/kind": "інституційне дослідження пам’ятки",
+ "sources[dk-obelisks-7th]/consultation": "Прочитано вебсторінку; бібліографію окремо не перевіряли.",
+ "sources[dk-edifice-amenhotep-ii]/kind": "інституційне дослідження пам’ятки",
+ "sources[dk-edifice-amenhotep-ii]/consultation": "Прочитано вебсторінку; бібліографію окремо не перевіряли.",
+ "sources[wikipedia-legrain]/kind": "енциклопедичний огляд",
+ "sources[wikipedia-legrain]/consultation": "Використано лише для даних про знахідку, що збігаються з базою IFAO і звітом Масперо.",
+ "sources[ifao-cachette]/kind": "фахова база даних",
+ "sources[ifao-cachette]/consultation": "Прочитано вступ і бібліографічні записи."
 }

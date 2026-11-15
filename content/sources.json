@@ -1817,6 +1817,58 @@
       "accessed": "2026-11-16",
       "consultation": "Web catalogue entry read.",
       "rights": "Reference only."
+    },
+    {
+      "id": "dk-obelisks-7th",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Obelisks of 7th Pylon",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/?p=3873",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-16",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "dk-edifice-amenhotep-ii",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Edifice of Amenhotep II",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/?p=4136",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-16",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "wikipedia-legrain",
+      "authors": [
+        "Wikipedia contributors"
+      ],
+      "title": "Georges Legrain",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Georges_Legrain",
+      "kind": "encyclopedia overview",
+      "accessed": "2026-11-16",
+      "consultation": "Used only for discovery figures, which match the IFAO database and Maspero’s report.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "ifao-cachette",
+      "authors": [
+        "IFAO"
+      ],
+      "title": "Cachette de Karnak et numéros “K” de G. Legrain (database, version 2)",
+      "publisher": "Institut français d’archéologie orientale",
+      "url": "https://www.ifao.egnet.net/bases/cachette/",
+      "kind": "specialist database",
+      "accessed": "2026-11-16",
+      "consultation": "Introduction and bibliography entries read.",
+      "rights": "Reference only."
     }
   ]
 }

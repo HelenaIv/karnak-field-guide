@@ -1,60 +1,21 @@
 {
-  "id": "seventh-pylon",
-  "type": "place",
-  "title": "Seventh Pylon and Cachette Court",
-  "area": "southern-axis",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "Thutmose III’s southern gateway is associated with the court where Legrain discovered the great statue cache in 1903.",
-  "orientation": "On the southern axis, north of the Eighth Pylon.",
-  "personIds": [
-    "thutmose-iii"
-  ],
-  "details": [],
-  "architecture": [],
-  "lookFor": [],
-  "claims": [
-    {
-      "id": "seventh-pylon-context",
-      "text": "Thutmose III’s southern gateway is associated with the court where Legrain discovered the great statue cache in 1903.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-seventh-pylon",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "seventh-pylon-0",
-      "text": "Its south face presents the king defeating captives; this is formal royal victory imagery, not a photograph of an event.",
-      "certainty": "interpretation",
-      "citations": [
-        {
-          "sourceId": "dk-seventh-pylon",
-          "locator": "Phases of Construction: Thutmose III"
-        }
-      ]
-    },
-    {
-      "id": "seventh-pylon-1",
-      "text": "The buried sculptures represent a secondary deposit; the discovery location must be distinguished from their original display positions.",
-      "certainty": "interpretation",
-      "citations": [
-        {
-          "sourceId": "dk-seventh-pylon",
-          "locator": "Phases of Construction: Thutmose III"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
-  ],
-  "sources": [
-    "dk-seventh-pylon"
-  ]
+ "id": "seventh-pylon",
+ "type": "place",
+ "title": "Seventh Pylon and Cachette Court",
+ "area": "southern-axis",
+ "status": "source_checked",
+ "summary": "Thutmose III’s southern gateway is associated with the court where Legrain discovered the great statue cache in 1903.",
+ "orientation": "On the southern axis, north of the Eighth Pylon.",
+ "personIds": [
+  "thutmose-iii"
+ ],
+ "sources": [
+  "dk-seventh-pylon"
+ ],
+ "details": [],
+ "architecture": [],
+ "lookFor": [],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "southern-axis"
 }

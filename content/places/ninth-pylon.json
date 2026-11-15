@@ -1,63 +1,24 @@
 {
-  "id": "ninth-pylon",
-  "type": "place",
-  "title": "Ninth Pylon",
-  "area": "southern-axis",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "Horemheb used blocks from dismantled Aten temples inside this pylon.",
-  "orientation": "Between the Eighth and Tenth Pylons.",
-  "personIds": [
-    "horemheb",
-    "akhenaten"
-  ],
-  "details": [
-    "ninth-pylon-hidden-talatat"
-  ],
-  "architecture": [],
-  "lookFor": [],
-  "claims": [
-    {
-      "id": "ninth-pylon-context",
-      "text": "Horemheb used blocks from dismantled Aten temples inside this pylon.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-ninth-pylon",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "ninth-pylon-0",
-      "text": "The reused small sandstone blocks are known as talatat. A wall can conceal evidence older than its visible exterior.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-ninth-pylon",
-          "locator": "Phases of Construction: Horemheb"
-        }
-      ]
-    },
-    {
-      "id": "ninth-pylon-1",
-      "text": "Ramesses II added decoration to the gateway and walls between the Eighth and Ninth Pylons, including festival procession scenes.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-ninth-pylon",
-          "locator": "Phases of Construction: Horemheb"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
-  ],
-  "sources": [
-    "dk-ninth-pylon"
-  ]
+ "id": "ninth-pylon",
+ "type": "place",
+ "title": "Ninth Pylon",
+ "area": "southern-axis",
+ "status": "source_checked",
+ "summary": "Horemheb used blocks from dismantled Aten temples inside this pylon.",
+ "orientation": "Between the Eighth and Tenth Pylons.",
+ "personIds": [
+  "horemheb",
+  "akhenaten"
+ ],
+ "sources": [
+  "dk-ninth-pylon"
+ ],
+ "details": [
+  "ninth-pylon-hidden-talatat"
+ ],
+ "architecture": [],
+ "lookFor": [],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "southern-axis"
 }

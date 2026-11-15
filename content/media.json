@@ -1690,7 +1690,8 @@
       "sha256": "c8111c1b08a39e8146b4ed204be0a2d41367507819a0e0509fbce7ca09324ce9",
       "bytes": 269011,
       "placeIds": [
-        "eighth-pylon"
+        "eighth-pylon",
+        "southern-axis"
       ],
       "subjectGroup": "temple-overview",
       "caption": "The Eighth Pylon seen from the south.",
@@ -1787,7 +1788,8 @@
       "bytes": 282970,
       "placeIds": [
         "aten-temples",
-        "ninth-pylon"
+        "ninth-pylon",
+        "southern-axis"
       ],
       "subjectGroup": "big-picture",
       "caption": "Talatat from Akhenaten’s Gem-pa-Aten, recovered from the Ninth Pylon and reassembled as a wall in the Luxor Museum.",
@@ -2007,7 +2009,8 @@
       "sha256": "6edf3b62aa673c3ca26e6c2876033cb477bbe4f417501f478500ffdfb4151901",
       "bytes": 340269,
       "placeIds": [
-        "seventh-pylon"
+        "seventh-pylon",
+        "southern-axis"
       ],
       "subjectGroup": "big-picture",
       "caption": "The Cachette Court, where Legrain found about 800 buried statues in 1903.",

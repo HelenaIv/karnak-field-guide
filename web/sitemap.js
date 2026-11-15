@@ -22,7 +22,8 @@ const smState = { area: '', sel: '', view: 'whole' };
 // Small monuments covered as sections of a bigger place's article: [parent place, section id].
 const SM_IN = { 'sety-ii-shrine': ['great-court', 'shrines'], 'taharqo-kiosk': ['great-court', 'kiosk'], 'ramesses-iii-temple': ['great-court', 'shrines'], 'bubastite-portal': ['great-court', 'portal'],
   'fourth-pylon': ['temple-core', 'fourth'], 'wadjet-hall': ['temple-core', 'wadjet'], 'hatshepsut-obelisks': ['temple-core', null], 'fifth-pylon': ['temple-core', 'pylons'],
-  'sixth-pylon': ['temple-core', 'pylons'], 'central-bark-shrine': ['temple-core', 'shrine'], 'middle-kingdom-court': ['temple-core', 'mk'] };
+  'sixth-pylon': ['temple-core', 'pylons'], 'central-bark-shrine': ['temple-core', 'shrine'], 'middle-kingdom-court': ['temple-core', 'mk'],
+  'seventh-pylon': ['southern-axis', 'seventh'], 'eighth-pylon': ['southern-axis', 'eighth'], 'ninth-pylon': ['southern-axis', 'ninth'], 'tenth-pylon': ['southern-axis', 'tenth'] };
 // [parent, null] = shown under the parent but has its own article.
 // Places whose full article lives on another route.
 const SM_LINK = { 'hypostyle-hall': '#hall' };
@@ -30,7 +31,7 @@ function smHref(id) { return SM_IN[id]?.[1] ? `#entry/${SM_IN[id][0]}/${SM_IN[id
 function smKids(id) { return SM_WALK.filter(k => SM_IN[k]?.[0] === id); }
 const SM_WALK = ['hakoris-chapel', 'first-pylon', 'great-court', 'sety-ii-shrine', 'taharqo-kiosk', 'ramesses-iii-temple', 'bubastite-portal', 'second-pylon', 'hypostyle-hall', 'third-pylon', 'temple-core',
   'fourth-pylon', 'wadjet-hall', 'hatshepsut-obelisks', 'fifth-pylon', 'sixth-pylon', 'central-bark-shrine', 'middle-kingdom-court', 'akhmenu', 'contra-temple', 'aten-temples',
-  'seventh-pylon', 'eighth-pylon', 'ninth-pylon', 'tenth-pylon', 'sacred-lake', 'khonsu-temple', 'opet-temple', 'bab-el-amara'];
+  'southern-axis', 'seventh-pylon', 'eighth-pylon', 'ninth-pylon', 'tenth-pylon', 'sacred-lake', 'khonsu-temple', 'opet-temple', 'bab-el-amara'];
 function smPlaces() { const order = SM_AREAS.map(a => a[0]), w = id => { const i = SM_WALK.indexOf(id); return i < 0 ? 99 : i; }; return [...D.places].sort((a, b) => (order.indexOf(a.area) - order.indexOf(b.area)) || (w(a.id) - w(b.id)) || a.title.localeCompare(b.title)); }
 function smNum(id) { if (SM_IN[id]) { const par = SM_IN[id][0]; return smNum(par) + 'abcdefghij'[smKids(par).indexOf(id)]; } return smPlaces().filter(p => !SM_IN[p.id]).findIndex(p => p.id === id) + 1; }
 function smShape(p) {
