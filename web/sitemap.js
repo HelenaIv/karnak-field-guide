@@ -23,7 +23,8 @@ const smState = { area: '', sel: '', view: 'whole' };
 const SM_IN = { 'sety-ii-shrine': ['great-court', 'shrines'], 'taharqo-kiosk': ['great-court', 'kiosk'], 'ramesses-iii-temple': ['great-court', 'shrines'], 'bubastite-portal': ['great-court', 'portal'],
   'fourth-pylon': ['temple-core', 'fourth'], 'wadjet-hall': ['temple-core', 'wadjet'], 'hatshepsut-obelisks': ['temple-core', null], 'fifth-pylon': ['temple-core', 'pylons'],
   'sixth-pylon': ['temple-core', 'pylons'], 'central-bark-shrine': ['temple-core', 'shrine'], 'middle-kingdom-court': ['temple-core', 'mk'],
-  'seventh-pylon': ['southern-axis', 'seventh'], 'eighth-pylon': ['southern-axis', 'eighth'], 'ninth-pylon': ['southern-axis', 'ninth'], 'tenth-pylon': ['southern-axis', 'tenth'] };
+  'seventh-pylon': ['southern-axis', 'seventh'], 'eighth-pylon': ['southern-axis', 'eighth'], 'ninth-pylon': ['southern-axis', 'ninth'], 'tenth-pylon': ['southern-axis', 'tenth'],
+  'opet-temple': ['khonsu-temple', 'opet'], 'bab-el-amara': ['khonsu-temple', 'gate'] };
 // [parent, null] = shown under the parent but has its own article.
 // Places whose full article lives on another route.
 const SM_LINK = { 'hypostyle-hall': '#hall' };

@@ -1,58 +1,19 @@
 {
-  "id": "bab-el-amara",
-  "type": "place",
-  "title": "Bab el-Amara gateway",
-  "area": "southwestern-temples",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "Ptolemy III’s monumental gate occupies a setting where planned pylon towers were not completed.",
-  "orientation": "South of Khonsu’s temple, on its southern approach.",
-  "personIds": [],
-  "details": [],
-  "architecture": [],
-  "lookFor": [],
-  "claims": [
-    {
-      "id": "bab-el-amara-context",
-      "text": "Ptolemy III’s monumental gate occupies a setting where planned pylon towers were not completed.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-bab-el-amara",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "bab-el-amara-0",
-      "text": "Vultures decorate its ceiling, a winged sun marks the lintel and protective formulae occur within the passage. The gateway acts as a decorated threshold.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-bab-el-amara",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "bab-el-amara-1",
-      "text": "Do not reconstruct the missing flanking towers as if they once stood complete.",
-      "certainty": "interpretation",
-      "citations": [
-        {
-          "sourceId": "dk-bab-el-amara",
-          "locator": "Phases of Construction: Nectanebo I; Ptolemy III"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
-  ],
-  "sources": [
-    "dk-bab-el-amara"
-  ]
+ "id": "bab-el-amara",
+ "type": "place",
+ "title": "Bab el-Amara gateway",
+ "area": "southwestern-temples",
+ "status": "source_checked",
+ "summary": "Ptolemy III’s monumental gate occupies a setting where planned pylon towers were not completed.",
+ "orientation": "South of Khonsu’s temple, on its southern approach.",
+ "personIds": [],
+ "sources": [
+  "dk-bab-el-amara"
+ ],
+ "details": [],
+ "architecture": [],
+ "lookFor": [],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "khonsu-temple"
 }
