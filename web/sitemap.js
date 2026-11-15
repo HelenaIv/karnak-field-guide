@@ -15,7 +15,7 @@ const SM_GEO = {
 };
 // Approximate shapes for places that the plan does not draw (x, y, w, h); flagged as approximate on the map.
 const SM_APPROX = {
-  'red-chapel': [24, -132, 22, 14], 'white-chapel': [52, -132, 16, 14], 'amenhotep-i-calcite': [24, -110, 16, 12], 'thutmose-iv-peristyle': [48, -110, 28, 14],
+  'open-air-museum': [20, -136, 60, 44], 'red-chapel': [24, -132, 22, 14], 'white-chapel': [52, -132, 16, 14], 'amenhotep-i-calcite': [24, -110, 16, 12], 'thutmose-iv-peristyle': [48, -110, 28, 14],
   'ptah-temple': [262, -228, 34, 18], 'osiris-catacombs': [430, -190, 34, 24], 'hakoris-chapel': [-40, -16, 12, 10]
 };
 const smState = { area: '', sel: '', view: 'whole' };
@@ -24,6 +24,7 @@ const SM_IN = { 'sety-ii-shrine': ['great-court', 'shrines'], 'taharqo-kiosk': [
   'fourth-pylon': ['temple-core', 'fourth'], 'wadjet-hall': ['temple-core', 'wadjet'], 'hatshepsut-obelisks': ['temple-core', null], 'fifth-pylon': ['temple-core', 'pylons'],
   'sixth-pylon': ['temple-core', 'pylons'], 'central-bark-shrine': ['temple-core', 'shrine'], 'middle-kingdom-court': ['temple-core', 'mk'],
   'seventh-pylon': ['southern-axis', 'seventh'], 'eighth-pylon': ['southern-axis', 'eighth'], 'ninth-pylon': ['southern-axis', 'ninth'], 'tenth-pylon': ['southern-axis', 'tenth'],
+  'white-chapel': ['open-air-museum', 'white'], 'amenhotep-i-calcite': ['open-air-museum', 'calcite'], 'red-chapel': ['open-air-museum', 'red'], 'thutmose-iv-peristyle': ['open-air-museum', 'peristyle'],
   'opet-temple': ['khonsu-temple', 'opet'], 'bab-el-amara': ['khonsu-temple', 'gate'] };
 // [parent, null] = shown under the parent but has its own article.
 // Places whose full article lives on another route.
@@ -32,7 +33,7 @@ function smHref(id) { return SM_IN[id]?.[1] ? `#entry/${SM_IN[id][0]}/${SM_IN[id
 function smKids(id) { return SM_WALK.filter(k => SM_IN[k]?.[0] === id); }
 const SM_WALK = ['hakoris-chapel', 'first-pylon', 'great-court', 'sety-ii-shrine', 'taharqo-kiosk', 'ramesses-iii-temple', 'bubastite-portal', 'second-pylon', 'hypostyle-hall', 'third-pylon', 'temple-core',
   'fourth-pylon', 'wadjet-hall', 'hatshepsut-obelisks', 'fifth-pylon', 'sixth-pylon', 'central-bark-shrine', 'middle-kingdom-court', 'akhmenu', 'contra-temple', 'aten-temples',
-  'southern-axis', 'seventh-pylon', 'eighth-pylon', 'ninth-pylon', 'tenth-pylon', 'sacred-lake', 'khonsu-temple', 'opet-temple', 'bab-el-amara'];
+  'southern-axis', 'seventh-pylon', 'eighth-pylon', 'ninth-pylon', 'tenth-pylon', 'sacred-lake', 'khonsu-temple', 'opet-temple', 'bab-el-amara', 'open-air-museum', 'white-chapel', 'amenhotep-i-calcite', 'red-chapel', 'thutmose-iv-peristyle'];
 function smPlaces() { const order = SM_AREAS.map(a => a[0]), w = id => { const i = SM_WALK.indexOf(id); return i < 0 ? 99 : i; }; return [...D.places].sort((a, b) => (order.indexOf(a.area) - order.indexOf(b.area)) || (w(a.id) - w(b.id)) || a.title.localeCompare(b.title)); }
 function smNum(id) { if (SM_IN[id]) { const par = SM_IN[id][0]; return smNum(par) + 'abcdefghij'[smKids(par).indexOf(id)]; } return smPlaces().filter(p => !SM_IN[p.id]).findIndex(p => p.id === id) + 1; }
 function smShape(p) {

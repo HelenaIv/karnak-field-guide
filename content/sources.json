@@ -1965,6 +1965,61 @@
       "accessed": "2026-11-16",
       "consultation": "Web entry read via search extract; dimensions not given by the source.",
       "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "wikivoyage-de-karnak-oam",
+      "authors": [
+        "Wikivoyage contributors"
+      ],
+      "title": "Karnak/Freilichtmuseum",
+      "publisher": "Wikivoyage (German)",
+      "url": "https://de.wikivoyage.org/wiki/Karnak/Freilichtmuseum",
+      "kind": "travel guide wiki",
+      "accessed": "2026-11-16",
+      "consultation": "Search extract read for location and access only.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "smarthistory-white-chapel",
+      "authors": [
+        "Amy Calvert"
+      ],
+      "title": "White Chapel",
+      "publisher": "Smarthistory",
+      "url": "https://smarthistory.org/white-chapel",
+      "kind": "educational article",
+      "accessed": "2026-11-16",
+      "consultation": "Search extract read; block count and date of the Third Pylon repair.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "cfeetk-calcite-chapel-2019",
+      "authors": [
+        "J.-Fr. Carlotti",
+        "L. Gabolde",
+        "C. Graindorge",
+        "Ph. Martinez"
+      ],
+      "title": "La chapelle de barque en calcite aux noms d’Amenhotep Ier et de Thoutmosis Ier (TravCFEETK, BiGen 58, 2019)",
+      "publisher": "CFEETK / IFAO",
+      "url": "https://www.cfeetk.cnrs.fr/actualite/j-fr-carlotti-l-gabolde-c-graindorge-ph-martinez-la-chapelle-de-barque-en-calcite-aux-noms-damenhotep-ier-et-de-thoutmosis-ier-travcfeetk-bigen-58-2019/",
+      "kind": "publication announcement",
+      "accessed": "2026-11-16",
+      "consultation": "Publisher’s summary read; the volume itself not consulted.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "dk-thutmose-ii-court",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Pylon and Festival Court of Thutmose II",
+      "publisher": "Digital Karnak, UCSC",
+      "url": "https://digitalkarnak.ucsc.edu/pylon-and-festival-court-of-thutmose-ii",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-16",
+      "consultation": "Web account read via search extract.",
+      "rights": "Reference only; media reuse not cleared."
     }
   ]
 }

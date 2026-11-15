@@ -1,0 +1,218 @@
+{
+  "id": "open-air-museum",
+  "type": "place",
+  "title": "The Open Air Museum",
+  "area": "open-air-museum",
+  "status": "source_checked",
+  "additionalChecks": [
+    "needs_field_check"
+  ],
+  "summary": "Chapels taken apart in antiquity and rebuilt from their blocks: Senusret I’s White Chapel, Amenhotep I’s alabaster chapel, Hatshepsut’s Red Chapel and Thutmose IV’s pillared hall.",
+  "orientation": "In the north-west corner of the precinct of Amun, entered from the north side of the Great Court.",
+  "personIds": [
+    "senusret-i",
+    "thutmose-i",
+    "hatshepsut",
+    "thutmose-iii",
+    "amenhotep-iii"
+  ],
+  "periodIds": [
+    "middle-kingdom",
+    "new-kingdom"
+  ],
+  "architecture": [],
+  "lookFor": [],
+  "details": [],
+  "claims": [
+    {
+      "id": "oam-location",
+      "text": "The Open Air Museum lies in the north-west corner of the precinct of Amun and is reached through a gate in the north wall of the Great Court.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "wikivoyage-de-karnak-oam",
+          "locator": "Lage; Anreise"
+        }
+      ]
+    },
+    {
+      "id": "oam-third-pylon",
+      "text": "Repair of the Third Pylon from 1924 recovered about 950 blocks from eleven structures used as fill.",
+      "certainty": "established",
+      "citations": [
+        {
+          "sourceId": "smarthistory-white-chapel",
+          "locator": "The White Chapel after Senusret I"
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "Opening hours, ticketing and which chapels can be entered have not been field-verified."
+  ],
+  "sources": [
+    "wikivoyage-de-karnak-oam",
+    "smarthistory-white-chapel",
+    "dk-white-chapel",
+    "dk-amenhotep-i-calcite",
+    "cfeetk-calcite-chapel-2019",
+    "dk-red-chapel",
+    "dk-thutmose-iv-peristyle",
+    "dk-thutmose-ii-court"
+  ],
+  "heroMediaId": "oam-peristyle-marsupium-02",
+  "guide": {
+    "glance": [
+      {
+        "label": "What it is",
+        "value": "An area where chapels found as building fill have been put back together"
+      },
+      {
+        "label": "Oldest building",
+        "value": "The White Chapel of Senusret I, Middle Kingdom"
+      },
+      {
+        "label": "Where",
+        "value": "North-west corner of the precinct, through a gate on the north side of the Great Court"
+      },
+      {
+        "label": "Known for",
+        "value": "The Red Chapel of Hatshepsut and the list of Egypt’s provinces on the White Chapel"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "The Open Air Museum fills the north-west corner of the precinct of Amun. You reach it through a gate in the north wall of the Great Court, with a ticket booth just in front of it."
+        ],
+        "citations": [
+          {
+            "sourceId": "wikivoyage-de-karnak-oam",
+            "locator": "Lage; Anreise"
+          }
+        ]
+      },
+      {
+        "id": "fill",
+        "heading": "Why these chapels were in pieces",
+        "paragraphs": [
+          "Kings often took down older buildings at Karnak and packed their blocks inside new pylons as fill. When the Third Pylon, built by Amenhotep III, was repaired from 1924, about 950 blocks from eleven different structures came out of it, many with their carving well preserved. The chapels in this area have been rebuilt from blocks found in this way."
+        ],
+        "citations": [
+          {
+            "sourceId": "smarthistory-white-chapel",
+            "locator": "The White Chapel after Senusret I"
+          }
+        ]
+      },
+      {
+        "id": "white",
+        "heading": "The White Chapel of Senusret I",
+        "paragraphs": [
+          "This small limestone chapel of the Middle Kingdom king Senusret I is decorated for his jubilee. Its roof rests on four inner pillars surrounded by twelve outer ones, and ramps lead up to doorways on two sides.",
+          "Around the base runs a list of Egypt’s provinces, with figures personifying them and their measurements. Where the chapel originally stood is debated; it may have been outside the temple’s inner enclosure wall in the Middle Kingdom. Amenhotep III later used its blocks as fill in the Third Pylon."
+        ],
+        "look": [
+          "The province list around the base, each with its name and measurements."
+        ],
+        "detailId": "white-chapel-nome-base",
+        "citations": [
+          {
+            "sourceId": "dk-white-chapel",
+            "locator": "Introduction; Phases of Construction"
+          },
+          {
+            "sourceId": "smarthistory-white-chapel",
+            "locator": "Carvings on the White Chapel"
+          }
+        ],
+        "mediaId": "white-chapel-788a32e2"
+      },
+      {
+        "id": "calcite",
+        "heading": "The alabaster chapel of Amenhotep I",
+        "paragraphs": [
+          "Amenhotep I built this roofed chapel of calcite (Egyptian alabaster) as a resting place for the portable bark of Amun-Ra. It is 3.6 m wide, 6.75 m deep and 4.5 m high, with doorways on its short sides that could be shut with wooden doors. Amenhotep I left the decoration of the south wall unfinished, and Thutmose I completed it.",
+          "The first blocks were found in 1914 in the foundations of the southern tower of the Third Pylon, and the chapel was rebuilt here in 1947. Its decoration was later copied on most of Karnak’s calcite bark shrines."
+        ],
+        "look": [
+          "The bark of Amun carried in procession in the wall scenes."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-amenhotep-i-calcite",
+            "locator": "Introduction; Measurements; Phases of Construction"
+          },
+          {
+            "sourceId": "cfeetk-calcite-chapel-2019",
+            "locator": "Publication summary"
+          }
+        ],
+        "mediaId": "oam-calcite-chapel-chabe01-1"
+      },
+      {
+        "id": "red",
+        "heading": "The Red Chapel of Hatshepsut",
+        "paragraphs": [
+          "Hatshepsut’s bark chapel stood in the sanctuary of the temple of Amun-Ra. Its walls are red quartzite, with black granite and grey diorite for other parts; as rebuilt it is 7.2 m high, 15 m long and 6.5 m wide, with a vestibule and a sanctuary for the bark.",
+          "The outer walls show festival processions, including the Opet festival and the Beautiful Feast of the Valley, and the erection of obelisks. A frieze and a row of kneeling Nile gods and female figures decorate the low base. Thutmose III finished the decoration after Hatshepsut’s death and later took the chapel down; Amenhotep III reused its blocks in the foundations of the Third Pylon."
+        ],
+        "look": [
+          "The processions with the bark of Amun on the outer walls."
+        ],
+        "detailId": "red-chapel-reassembled",
+        "citations": [
+          {
+            "sourceId": "dk-red-chapel",
+            "locator": "Introduction; Measurements; Phases of Construction"
+          }
+        ],
+        "mediaId": "red-chapel-bb773f84"
+      },
+      {
+        "id": "peristyle",
+        "heading": "The pillared hall of Thutmose IV",
+        "paragraphs": [
+          "Thutmose IV surrounded the festival court of Thutmose II, west of the Fourth Pylon, with a double row of square pillars about 5 m high, and set a small calcite shrine between them. The inscriptions refer to his jubilee festival.",
+          "When Amenhotep III built the Third Pylon, the western half of the hall was taken down and its pillars went into the pylon as fill. Only four pillars still stand in their original place; the recovered ones have been rebuilt here."
+        ],
+        "look": [
+          "The carved scenes on the pillar faces, some with traces of paint."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-thutmose-iv-peristyle",
+            "locator": "Introduction; Measurements; Phases of Construction"
+          },
+          {
+            "sourceId": "dk-thutmose-ii-court",
+            "locator": "Phases of Construction: Thutmose IV; Amenhotep III"
+          }
+        ],
+        "mediaId": "oam-peristyle-marsupium-03"
+      }
+    ],
+    "questions": [
+      {
+        "text": "Where did the White Chapel originally stand? Scholars still debate it.",
+        "citations": [
+          {
+            "sourceId": "dk-white-chapel",
+            "locator": "Introduction"
+          }
+        ]
+      },
+      {
+        "text": "Did Amenhotep I’s alabaster chapel stand in the Middle Kingdom court as the main bark shrine, or in the forecourt west of the later Fourth Pylon? Both reconstructions have been proposed.",
+        "citations": [
+          {
+            "sourceId": "dk-amenhotep-i-calcite",
+            "locator": "Phases of Construction: Amenhotep I"
+          }
+        ]
+      }
+    ]
+  }
+}

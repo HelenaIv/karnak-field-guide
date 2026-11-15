@@ -101,7 +101,8 @@
       "sha256": "2523a5ca81a0b66bc557be41706fb9ec481ce9250b033df2d12808a340f2a614",
       "bytes": 565042,
       "placeIds": [
-        "white-chapel"
+        "white-chapel",
+        "open-air-museum"
       ],
       "subjectGroup": "white-chapel",
       "caption": "The reconstructed White Chapel: open pillars, raised platform and approach ramp.",
@@ -127,7 +128,8 @@
       "sha256": "3e0ff1c83d709af67e8ea513d57257441952b408fce8302c370f109ee798a3c5",
       "bytes": 140762,
       "placeIds": [
-        "red-chapel"
+        "red-chapel",
+        "open-air-museum"
       ],
       "subjectGroup": "red-chapel",
       "caption": "The reconstructed Red Chapel: two-room form and contrasting stone colours.",
@@ -3363,6 +3365,84 @@
       "caption": "Amenhotep III’s granite scarab on its round plinth, with the offering scene carved on the front.",
       "alt": "A large stone scarab beetle on a cylindrical granite plinth carved with a relief scene, with temple ruins behind.",
       "identificationStatus": "Commons description: “Chepre-Statue (Skarabäus) im Tempel von Karnak”, photographed 2011-03-04; matches the scarab by the Sacred Lake.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "oam-calcite-chapel-chabe01-1",
+      "path": "assets/photos/oam-calcite-chapel-chabe01-1.jpg",
+      "title": "Chapelle Albâtre Amenhotep Ier Karnak - Louxor (EG) - 2025-12-04 - 1.jpg",
+      "creator": "Chabe01",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapelle_Albâtre_Amenhotep_Ier_Karnak_-_Louxor_(EG)_-_2025-12-04_-_1.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapelle_Albâtre_Amenhotep_Ier_Karnak_-_Louxor_(EG)_-_2025-12-04_-_1.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapelle_Albâtre_Amenhotep_Ier_Karnak_-_Louxor_(EG)_-_2025-12-04_-_1.jpg?width=2560",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Chabe01, CC BY-SA 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "dd92536521050472ca0b2978947085c535a6d867b1f4a26b4c6cf0e5a654489c",
+      "bytes": 653260,
+      "placeIds": [
+        "amenhotep-i-calcite",
+        "open-air-museum"
+      ],
+      "subjectGroup": "place",
+      "caption": "The alabaster chapel of Amenhotep I, rebuilt in the Open Air Museum, seen through its doorways.",
+      "alt": "A small rectangular white-stone chapel with a doorway on each short end, aligned so that you can see straight through it.",
+      "identificationStatus": "Commons description: “Chapelle d’albâtre d’Amenhotep Ier à Karnak”, photographed 2025-12-04.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "oam-peristyle-marsupium-02",
+      "path": "assets/photos/oam-peristyle-marsupium-02.jpg",
+      "title": "Peristyle Hall of Thutmosis IV in Karnak 02.jpg",
+      "creator": "Marsupium",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Peristyle_Hall_of_Thutmosis_IV_in_Karnak_02.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peristyle_Hall_of_Thutmosis_IV_in_Karnak_02.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peristyle_Hall_of_Thutmosis_IV_in_Karnak_02.jpg?width=2560",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Marsupium, CC BY 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "3770982248091c41ae04f6de5210c734d86b3b6427de9ad83cd8a3ddb420b10a",
+      "bytes": 518399,
+      "placeIds": [
+        "thutmose-iv-peristyle",
+        "open-air-museum"
+      ],
+      "subjectGroup": "place",
+      "caption": "The pillared hall of Thutmose IV as rebuilt in the Open Air Museum.",
+      "alt": "Rows of square sandstone pillars carrying stone beams around an open court, under a blue sky.",
+      "identificationStatus": "Commons description: “Peristyle Hall of Thutmosis IV at the Open Air Museum in the precinct of Amun-Ra in Karnak”, photographed 2024-03-10.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "oam-peristyle-marsupium-03",
+      "path": "assets/photos/oam-peristyle-marsupium-03.jpg",
+      "title": "Peristyle Hall of Thutmosis IV in Karnak 03.jpg",
+      "creator": "Marsupium",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Peristyle_Hall_of_Thutmosis_IV_in_Karnak_03.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peristyle_Hall_of_Thutmosis_IV_in_Karnak_03.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peristyle_Hall_of_Thutmosis_IV_in_Karnak_03.jpg?width=2560",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Marsupium, CC BY 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to at most 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "7aa6e06f26d20822c3613f214e860b194a90a42e87c6d1cf993f6eeca4a0ced8",
+      "bytes": 616381,
+      "placeIds": [
+        "thutmose-iv-peristyle",
+        "open-air-museum"
+      ],
+      "subjectGroup": "place",
+      "caption": "Carved pillars of Thutmose IV’s hall, some with traces of paint.",
+      "alt": "A row of square stone pillars carved with figures, some with remains of paint.",
+      "identificationStatus": "Commons description: “Peristyle Hall of Thutmosis IV at the Open Air Museum in the precinct of Amun-Ra in Karnak”, photographed 2024-03-10.",
       "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
     }
   ]
