@@ -1,7 +1,7 @@
 {
   "id": "contra-temple",
   "type": "place",
-  "title": "Eastern Contra Temple",
+  "title": "Contra-temple and the eastern temple",
   "area": "eastern-temple",
   "status": "source_checked",
   "additionalChecks": [
@@ -56,6 +56,115 @@
     "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
   ],
   "sources": [
-    "dk-contra-temple"
-  ]
+    "dk-contra-temple",
+    "dk-ramesses-ii-eastern",
+    "gallet-uee-2013",
+    "gallet-escholarship-2013"
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "What it is",
+        "value": "Shrines on the outside of the temple’s east end, where people who could not enter came to pray"
+      },
+      {
+        "label": "Contra-temple",
+        "value": "Thutmose III, about 15.5 m by 8.2 m, between Hatshepsut’s eastern obelisks"
+      },
+      {
+        "label": "Eastern temple",
+        "value": "“Amun-Ra, Ramesses II, who hears prayers”, around the base of the Unique Obelisk"
+      },
+      {
+        "label": "Unique Obelisk",
+        "value": "Now in Rome, in front of the Lateran; taken down in the 4th century AD"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "You are behind the Akhmenu, at the east end of the temple of Amun. Ordinary Egyptians were not allowed inside the temple, so shrines were built here on the outside of its back wall, facing outward, where anyone could come and ask the god for help."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-contra-temple",
+            "locator": "Phases of Construction: Thutmose III"
+          }
+        ]
+      },
+      {
+        "id": "ear",
+        "heading": "The chapel of the hearing ear",
+        "paragraphs": [
+          "Thutmose III built a small shrine, about 15.5 m across and 8.2 m deep, against the east wall of his temple. It was known as the “chapel of the hearing ear”: the people of Thebes could bring their requests to a statue of the king with Amun-Ra.",
+          "It stood between a pair of Hatshepsut’s obelisks. Much later, Nectanebo I added two small chapels on its north and south sides, enclosing the bases of those obelisks."
+        ],
+        "look": [
+          "The sandstone and calcite (“Egyptian alabaster”) of the shrine.",
+          "The two later chapels at each side, built round the obelisk bases."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-contra-temple",
+            "locator": "Introduction; Measurements; Phases of Construction: Thutmose III, Nectanebo I"
+          }
+        ]
+      },
+      {
+        "id": "eastern",
+        "heading": "Ramesses II’s temple of the god who hears prayers",
+        "paragraphs": [
+          "A little further east, Ramesses II built a small temple called “Amun-Ra, Ramesses II, who hears prayers”. It was partly built and wholly redecorated between years 40 and 46 of his reign, probably over an older shrine of Thutmose III, whose column drums were reused in it.",
+          "A gateway led into a pillared hall with a false door in the middle of its back wall and two side doors that opened onto the foot of a great obelisk. Like the contra-temple, it was probably a place where ordinary people could pray to Amun-Ra. Taharqo later added a colonnade in front, and under Ptolemy VIII the base of the obelisk was taken into the shrine itself."
+        ],
+        "look": [
+          "The false door in the back wall of the pillared hall."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-ramesses-ii-eastern",
+            "locator": "Introduction; Phases of Construction: Ramesses II, Ptolemy VIII"
+          },
+          {
+            "sourceId": "gallet-uee-2013",
+            "locator": "Introduction; Date"
+          },
+          {
+            "sourceId": "gallet-escholarship-2013",
+            "locator": "Abstract: years 40–46 of Ramesses II"
+          }
+        ]
+      },
+      {
+        "id": "obelisk",
+        "heading": "The Unique Obelisk, now in Rome",
+        "paragraphs": [
+          "The temple was built around a single obelisk, the “Unique Obelisk”, which stood alone rather than as one of a pair. It carries the names of Thutmose III and Thutmose IV, and two scenes of Ramesses II were added on its east side.",
+          "In the 4th century AD it was taken down and shipped to Rome, where it now stands in front of the Lateran; it is also called the Lateran Obelisk. The large mound north of the temple seems to hold the remains of the scaffolding used to lower it. Only in 1950 was the obelisk’s base recognised as part of the sanctuary."
+        ],
+        "look": [
+          "The obelisk’s foundation at the far end of the temple, now empty."
+        ],
+        "citations": [
+          {
+            "sourceId": "gallet-uee-2013",
+            "locator": "The Unique Obelisk; Azim 1980 on the scaffolding mound; identification of the base in 1950"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "What did the area around the Unique Obelisk look like when it was first set up? Later building hides the original setting.",
+        "citations": [
+          {
+            "sourceId": "gallet-uee-2013",
+            "locator": "Date: the original architectural context cannot be reconstructed"
+          }
+        ]
+      }
+    ]
+  }
 }

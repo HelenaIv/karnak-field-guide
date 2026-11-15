@@ -1,61 +1,187 @@
 {
-  "id": "aten-temples",
-  "type": "place",
-  "title": "Eastern Aten temples and talatat",
-  "area": "eastern-temple",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "Akhenaten’s early Aten foundations included the Gem-pa-Aten, later dismantled.",
-  "orientation": "Originally east of the Amun precinct; many blocks were later reused elsewhere.",
-  "personIds": [
-    "akhenaten",
-    "horemheb"
-  ],
-  "details": [],
-  "architecture": [],
-  "lookFor": [],
-  "claims": [
+ "id": "aten-temples",
+ "type": "place",
+ "title": "Eastern Aten temples and talatat",
+ "area": "eastern-temple",
+ "status": "source_checked",
+ "additionalChecks": [
+  "needs_field_check",
+  "needs_epigraphic_review"
+ ],
+ "summary": "Akhenaten’s early Aten foundations included the Gem-pa-Aten, later dismantled.",
+ "orientation": "Originally east of the Amun precinct; many blocks were later reused elsewhere.",
+ "personIds": [
+  "akhenaten",
+  "horemheb"
+ ],
+ "details": [],
+ "architecture": [],
+ "lookFor": [],
+ "claims": [
+  {
+   "id": "aten-temples-context",
+   "text": "Akhenaten’s early Aten foundations included the Gem-pa-Aten, later dismantled.",
+   "certainty": "established",
+   "citations": [
     {
-      "id": "aten-temples-context",
-      "text": "Akhenaten’s early Aten foundations included the Gem-pa-Aten, later dismantled.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-aten-temples",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "aten-temples-0",
-      "text": "The known material includes jubilee scenes and small sandstone construction blocks.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-aten-temples",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "aten-temples-1",
-      "text": "Talatat were reused in the Second, Ninth and Tenth Pylons. Reconstruction of a decorated wall requires evidence for how dispersed blocks join.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-aten-temples",
-          "locator": "Destruction: Horemheb"
-        }
-      ]
+     "sourceId": "dk-aten-temples",
+     "locator": "Introduction"
     }
+   ]
+  },
+  {
+   "id": "aten-temples-0",
+   "text": "The known material includes jubilee scenes and small sandstone construction blocks.",
+   "certainty": "established",
+   "citations": [
+    {
+     "sourceId": "dk-aten-temples",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "aten-temples-1",
+   "text": "Talatat were reused in the Second, Ninth and Tenth Pylons. Reconstruction of a decorated wall requires evidence for how dispersed blocks join.",
+   "certainty": "established",
+   "citations": [
+    {
+     "sourceId": "dk-aten-temples",
+     "locator": "Destruction: Horemheb"
+    }
+   ]
+  }
+ ],
+ "caveats": [
+  "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+ ],
+ "sources": [
+  "dk-aten-temples",
+  "thepast-akhenaten-colossi",
+  "cnrs-talatat",
+  "dk-akhenaten-head"
+ ],
+ "guide": {
+  "glance": [
+   {
+    "label": "Built by",
+    "value": "Amenhotep IV, later Akhenaten, from year 3 of his reign, about 1350 BC"
+   },
+   {
+    "label": "Main temple",
+    "value": "Gem-pa-Aten, “the sun disk is found”: about 130 m by 216 m, a vast open court"
+   },
+   {
+    "label": "Building blocks",
+    "value": "Talatat: small sandstone blocks about 52 × 26 × 22 cm"
+   },
+   {
+    "label": "Where",
+    "value": "Outside the precinct of Amun, to the east; nothing is visible today"
+   },
+   {
+    "label": "What happened to it",
+    "value": "Pulled down under Horemheb; the blocks became fill for the Second, Ninth and Tenth Pylons"
+   }
   ],
-  "caveats": [
-    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+  "sections": [
+   {
+    "id": "where",
+    "heading": "A temple you cannot see",
+    "paragraphs": [
+     "Remains of four buildings that Akhenaten dedicated to the sun disk, the Aten, have been found at Karnak. The best known, the Gem-pa-Aten, stood east of the precinct of Amun, beyond today’s enclosure wall. The area is now covered with mounds of excavation rubble; there is nothing to visit on the ground.",
+     "What survives is scattered: blocks found inside later pylons, and colossal statues now in museums in Luxor and Cairo."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-aten-temples",
+      "locator": "Introduction"
+     },
+     {
+      "sourceId": "thepast-akhenaten-colossi",
+      "locator": "East Karnak today; colossi in Luxor and Cairo"
+     }
+    ]
+   },
+   {
+    "id": "gem",
+    "heading": "A vast court for the jubilee",
+    "paragraphs": [
+     "Akhenaten built the Gem-pa-Aten in the third year of his reign, for his jubilee festival. It was a huge court, about 130 m by 216 m, with walls about 7 m high, inside a mud-brick enclosure. A colonnade of square pillars lined the court, and against the pillars stood colossal statues of the king and of Queen Nefertiti, alternating.",
+     "The walls of the court were carved and painted with the king and queen at the jubilee: coming and going from the palace and making offerings. By year 6 Akhenaten had moved the court to his new city at Amarna."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-aten-temples",
+      "locator": "Measurements; Phases of Construction: Amenhotep IV/Akhenaten"
+     }
+    ]
+   },
+   {
+    "id": "talatat",
+    "heading": "Talatat: blocks small enough for one worker",
+    "paragraphs": [
+     "The Aten temples were built fast from small, standard sandstone blocks, about 52 cm long, 26 cm wide and 22 cm high, called talatat. Under Horemheb the temples were pulled down and the talatat packed into the Second, Ninth and Tenth Pylons as fill; Ramesses II used more of them in the pylon of Luxor Temple.",
+     "Hidden inside the pylons, the painted faces survived. About 12,000 talatat with decoration have been found at Karnak, and from them researchers have put together hundreds of partial scenes, now increasingly in 3D."
+    ],
+    "link": "ninth-pylon",
+    "citations": [
+     {
+      "sourceId": "dk-aten-temples",
+      "locator": "Measurements; Destruction: Horemheb; Ramesses II"
+     },
+     {
+      "sourceId": "cnrs-talatat",
+      "locator": "Almost 12,000 decorated talatat; reconstructed scenes"
+     }
+    ],
+    "drawing": "talatat"
+   },
+   {
+    "id": "colossi",
+    "heading": "Colossi found in a drainage ditch",
+    "paragraphs": [
+     "In July 1925 Maurice Pillet, director of works at Karnak, was widening a drainage ditch east of the temple when he found two fallen colossi of Akhenaten: long faces, arms crossed, a full belly and wide hips. Henri Chevrier, who took over in 1926, found dozens more fragments of heads and bodies. The statues had been pushed over into the court and left lying where they fell.",
+     "One head from this court shows the king with the nemes headdress and a crown of four tall feathers. Not every statue was so unusual: one of the most complete shows him in an ordinary short kilt."
+    ],
+    "look": [
+     "The Akhenaten colossi in the Luxor Museum, if you visit it."
+    ],
+    "citations": [
+     {
+      "sourceId": "thepast-akhenaten-colossi",
+      "locator": "Pillet 1925; Chevrier from 1926"
+     },
+     {
+      "sourceId": "dk-aten-temples",
+      "locator": "Destruction: colossi knocked down and left in situ"
+     },
+     {
+      "sourceId": "dk-akhenaten-head",
+      "locator": "Description; Provenance"
+     }
+    ]
+   }
   ],
-  "sources": [
-    "dk-aten-temples"
+  "questions": [
+   {
+    "text": "Why did Akhenaten celebrate a jubilee in only his third year, instead of after the usual thirty years? Scholars are still undecided.",
+    "citations": [
+     {
+      "sourceId": "thepast-akhenaten-colossi",
+      "locator": "Heb-sed in regnal year three"
+     }
+    ]
+   },
+   {
+    "text": "How much were the Aten temples used after the court moved to Amarna? This is not known.",
+    "citations": [
+     {
+      "sourceId": "dk-aten-temples",
+      "locator": "Phases of Construction"
+     }
+    ]
+   }
   ]
+ }
 }

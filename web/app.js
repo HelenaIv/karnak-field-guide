@@ -26,6 +26,20 @@ function learn() { return `<div class="page-head"><span class="eyebrow">Misc</sp
 function diagram(kind) { if(kind==='relief') return `<div class="demo" id="relief-demo"><div class="demo-controls"><strong>A cross-section through the stone</strong><button data-demo="light">Change light direction ↔</button></div><svg viewBox="0 0 720 210" role="img" aria-label="Schematic cross-sections: raised relief stands above a lowered background; sunk relief is cut below the original surface"><text x="35" y="25" class="demo-label">RAISED RELIEF</text><text x="395" y="25" class="demo-label">SUNK RELIEF</text><path d="M25 105H115V65H175V105H310V175H25Z" fill="#bfa16d" class="relief-shape"/><path d="M385 65H475V105H535V65H690V175H385Z" fill="#bfa16d" class="relief-shape"/><path d="M25 65H310 M385 65H690" stroke="#5b6658" stroke-width="1" stroke-dasharray="5 5"/><text x="25" y="200" class="demo-label">Background lowered around the form</text><text x="385" y="200" class="demo-label">Form cut into the surface</text></svg><p>Original explanatory schematic. Dashed line: original stone surface. Not a reconstruction of a particular hieroglyph or ancient light level.</p></div>`; return `<div class="demo" id="roof-demo"><div class="demo-controls"><strong>Put the roof back</strong><button data-demo="roof" aria-pressed="false">Show the roof</button></div><svg viewBox="0 0 720 300" role="img" aria-label="Schematic cross-section of a higher central nave and lower side roofs"><g fill="#bfa16d" stroke="#8d784f"><path d="M90 275V125H120V275 M190 275V125H220V275 M290 275V65H325V275 M395 275V65H430V275 M500 275V125H530V275 M600 275V125H630V275"/><path d="M75 115h160v12H75 M275 55h170v14H275 M485 115h160v12H485"/></g><g class="roof-slab" fill="#897753"><path d="M60 102h230v13H60 M430 102h230v13H430 M270 40h180v15H270"/><path d="M277 68h10v34h-10 M433 68h10v34h-10"/></g><path d="M220 62l50 29 M500 62l-50 29" stroke="#b38d40" stroke-width="3"/><text x="310" y="20" class="demo-label">HIGHER NAVE</text><text x="40" y="55" class="demo-label">Light enters at the clerestory</text></svg><p>Original schematic explaining relative roof heights. Column spacing, construction sequence and ancient illumination are not reconstructed to scale.</p></div>`; }
 
 // ---------- Place guides: structured place pages ----------
+function placeTalatat() {
+  // One talatat block drawn to scale in oblique view (1 cm = 4 units), with its measurements from Digital Karnak.
+  const k = 4, L = 52 * k, H = 22 * k, D = 26 * k * 0.5, x = 60, y = 70;
+  return `<figure class="pg-draw"><svg viewBox="0 0 420 220" role="img" aria-label="A talatat block drawn to scale: 52 cm long, 26 cm deep, 22 cm high.">
+  <rect width="420" height="220" fill="#f3ead6"/>
+  <path d="M${x} ${y + D}h${L}v${H}h-${L}z" fill="#d9b98a" stroke="#26302a" stroke-width="1.5"/>
+  <path d="M${x} ${y + D}l${D} -${D}h${L}l-${D} ${D}z" fill="#e8d0a6" stroke="#26302a" stroke-width="1.5"/>
+  <path d="M${x + L} ${y + D}l${D} -${D}v${H}l-${D} ${D}z" fill="#c49f6c" stroke="#26302a" stroke-width="1.5"/>
+  <text x="${x + L / 2}" y="${y + D + H + 20}" text-anchor="middle" font-size="12" fill="#26302a">52 cm</text>
+  <text x="${x - 8}" y="${y + D + H / 2 + 4}" text-anchor="end" font-size="12" fill="#26302a">22 cm</text>
+  <text x="${x + L + D + 8}" y="${y + D / 2 + 4}" font-size="12" fill="#26302a">26 cm</text>
+  <text x="${x + L / 2}" y="${y + D + H / 2 + 4}" text-anchor="middle" font-size="11" fill="#5b4a2c">decorated face</text>
+  </svg><figcaption class="micro">Original drawing to scale of one talatat block, measurements from Digital Karnak. Thousands were packed into later pylons with their carved faces hidden inside.</figcaption></figure>`;
+}
 function placeCoreStrip() {
   // Schematic west-to-east strip of the temple core, coloured by builder. Not to scale.
   const K = { s1: ['#7d8f6a', 'Senusret I'], t1: ['#b07a2e', 'Thutmose I'], h: ['#b5452c', 'Hatshepsut'], t3: ['#3f6fb0', 'Thutmose III'], ph: ['#7a5c99', 'Philip Arrhidaeus'] };
@@ -75,6 +89,7 @@ function placeDrawing(id) {
   if (id === 'court-plan') return placeCourtPlan();
   if (id === 'pylon-fill') return placePylonFill();
   if (id === 'core-strip') return placeCoreStrip();
+  if (id === 'talatat') return placeTalatat();
   if (id !== 'pylon-elevation') return '';
   // First Pylon seen from the avenue (west), drawn to scale: 1 m = 4 units.
   const k = 4, g = 200, x0 = 16, W = 113, gw = 7.4, tw = (W - gw) / 2, bat = 0.12;

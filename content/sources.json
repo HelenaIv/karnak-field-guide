@@ -1738,6 +1738,85 @@
       "accessed": "2026-11-16",
       "consultation": "News report quoting the Luxor antiquities director; not an excavation report.",
       "rights": "Reference only."
+    },
+    {
+      "id": "dk-ramesses-ii-eastern",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Ramesses II Eastern Temple",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/?p=4214",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-16",
+      "consultation": "Web account read; bibliography leads are not independently consulted editions.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "gallet-uee-2013",
+      "authors": [
+        "Laetitia Gallet"
+      ],
+      "title": "Karnak, the Temple of Amun-Ra-Who-Hears-Prayers (UCLA Encyclopedia of Egyptology, 2013)",
+      "publisher": "UCLA Encyclopedia of Egyptology",
+      "url": "https://journalpub.escholarship.org/nelc_uee/article/4100/galley/2624/download",
+      "kind": "peer-reviewed encyclopedia article",
+      "accessed": "2026-11-16",
+      "consultation": "Article text read in part (via search excerpts).",
+      "rights": "Reference only."
+    },
+    {
+      "id": "gallet-escholarship-2013",
+      "authors": [
+        "Laetitia Gallet"
+      ],
+      "title": "Karnak, the Temple of Amun-Ra-Who-Hears-Prayers: abstract",
+      "publisher": "eScholarship, University of California",
+      "url": "https://escholarship.org/uc/item/3h92j4bj",
+      "kind": "peer-reviewed encyclopedia article (abstract)",
+      "accessed": "2026-11-16",
+      "consultation": "Abstract only.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "thepast-akhenaten-colossi",
+      "authors": [
+        "Geoffrey Lenox-Smith"
+      ],
+      "title": "Statues of Akhenaten at Karnak",
+      "publisher": "The Past (Ancient Egypt magazine)",
+      "url": "https://the-past.com/ancient-egypt/151/the-picture-desk/statues-of-akhenaten-at-karnak/",
+      "kind": "magazine article by an independent researcher",
+      "accessed": "2026-11-16",
+      "consultation": "Article read via search excerpts.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "cnrs-talatat",
+      "authors": [
+        "CNRS News"
+      ],
+      "title": "The Lost City of Akhenaten",
+      "publisher": "CNRS News",
+      "url": "https://news.cnrs.fr/articles/the-lost-city-of-akhenaten",
+      "kind": "research news",
+      "accessed": "2026-11-16",
+      "consultation": "Article read via search excerpts.",
+      "rights": "Reference only."
+    },
+    {
+      "id": "dk-akhenaten-head",
+      "authors": [
+        "C. Zarnoch",
+        "E. Sullivan"
+      ],
+      "title": "Head of Colossal of Akhenaten",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/?p=6412",
+      "kind": "object catalogue entry",
+      "accessed": "2026-11-16",
+      "consultation": "Web catalogue entry read.",
+      "rights": "Reference only."
     }
   ]
 }

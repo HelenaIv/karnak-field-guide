@@ -276,5 +276,17 @@
  "sources[paths-thebes]/kind": "фаховий каталог написів",
  "sources[paths-thebes]/consultation": "Прочитано записи каталогу (через пошукові уривки).",
  "sources[ancientpages-akhmenu-2025]/kind": "новинне повідомлення",
- "sources[ancientpages-akhmenu-2025]/consultation": "Новина з цитатами директора старожитностей Луксора; не звіт про розкопки."
+ "sources[ancientpages-akhmenu-2025]/consultation": "Новина з цитатами директора старожитностей Луксора; не звіт про розкопки.",
+ "sources[dk-ramesses-ii-eastern]/kind": "інституційне дослідження пам’ятки",
+ "sources[dk-ramesses-ii-eastern]/consultation": "Прочитано вебсторінку; бібліографію окремо не перевіряли.",
+ "sources[gallet-uee-2013]/kind": "стаття рецензованої енциклопедії",
+ "sources[gallet-uee-2013]/consultation": "Текст статті прочитано частково (через пошукові уривки).",
+ "sources[gallet-escholarship-2013]/kind": "стаття рецензованої енциклопедії (анотація)",
+ "sources[gallet-escholarship-2013]/consultation": "Лише анотація.",
+ "sources[thepast-akhenaten-colossi]/kind": "журнальна стаття незалежного дослідника",
+ "sources[thepast-akhenaten-colossi]/consultation": "Статтю прочитано через пошукові уривки.",
+ "sources[cnrs-talatat]/kind": "новини науки",
+ "sources[cnrs-talatat]/consultation": "Статтю прочитано через пошукові уривки.",
+ "sources[dk-akhenaten-head]/kind": "запис каталогу предметів",
+ "sources[dk-akhenaten-head]/consultation": "Прочитано запис вебкаталогу."
 }
