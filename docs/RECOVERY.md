@@ -31,7 +31,7 @@ Latest work and decisions are in `docs/logs/` (newest file last). `git log` is t
 
 ## Exact next work
 
-1. Owner wants detail photos (walls, reliefs) for every finished article, like the Opet section: add 4–7 openly licensed photos per article via `mediaIds` (method in `docs/logs/2026-11-16.md`). Then continue place guides: Sacred Lake, then Open Air Museum chapels, Osiris chapels, Mut precinct. Ask the owner whether `own-pylon-seated-colossi-2023` is the Eighth Pylon. Small monuments inside a bigger place become sections of its article (`SM_IN` in `web/sitemap.js`, record reduced to a stub with `coveredIn`).
+1. Owner wants detail photos (walls, reliefs) for every finished article, like the Opet section: add 4–7 openly licensed photos per article via `mediaIds` (method in `docs/logs/2026-11-16.md`). Sacred Lake and Open Air Museum guides done 2026-11-16 (still need extra detail photos). Then continue place guides: Osiris chapels, Mut precinct. Ask the owner whether `own-pylon-seated-colossi-2023` is the Eighth Pylon. Small monuments inside a bigger place become sections of its article (`SM_IN` in `web/sitemap.js`, record reduced to a stub with `coveredIn`).
 2. Optional: confirm places for own photos `own-court-with-painted-columns`, `own-painted-architrave-pillars`, `own-relief-king-and-isis`; add `placeIds` only when confirmed. `video-ruins-pan` not used (place unknown).
 3. Second Pylon has no own photo; swap in one if the owner supplies it.
 4. Older open items: see `docs/RESEARCH_BACKLOG.md` and `docs/HALL_WORKPLAN.md`.
