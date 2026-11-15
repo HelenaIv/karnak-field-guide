@@ -18,7 +18,7 @@ const SM_APPROX = {
   'red-chapel': [24, -132, 22, 14], 'white-chapel': [52, -132, 16, 14], 'amenhotep-i-calcite': [24, -110, 16, 12], 'thutmose-iv-peristyle': [48, -110, 28, 14],
   'ptah-temple': [262, -228, 34, 18], 'osiris-catacombs': [430, -190, 34, 24], 'hakoris-chapel': [-40, -16, 12, 10]
 };
-const smState = { area: '', sel: '' };
+const smState = { area: '', sel: '', view: 'whole' };
 // Small monuments covered as sections of a bigger place's article: [parent place, section id].
 const SM_IN = { 'sety-ii-shrine': ['great-court', 'shrines'], 'taharqo-kiosk': ['great-court', 'kiosk'], 'ramesses-iii-temple': ['great-court', 'shrines'], 'bubastite-portal': ['great-court', 'portal'] };
 // Places whose full article lives on another route.
@@ -55,7 +55,7 @@ function exploreMap() {
   const groups = SM_AREAS.map(([a, c]) => { const list = ps.filter(p => p.area === a); return list.length ? `<section class="sm-group" data-group="${a}" style="--c:${c}"><h3>${esc(areaNames[a] || a)}</h3><ol>${list.filter(p => !SM_IN[p.id]).map(p => `<li><button class="sm-item" data-sm-pick="${esc(p.id)}"><span class="sm-n">${smNum(p.id)}</span><b>${esc(p.title)}</b></button>${smSub(p.id)}</li>`).join('')}</ol></section>` : ''; }).join('');
   return `<div class="page-head"><span class="eyebrow">Explore Karnak</span><h1>Find your way around.</h1><p>The precinct of Amun on one map. Tap an area to zoom in, then a numbered place to see what it is. Smaller monuments are sections of the bigger place they stand in.</p></div>
   <section class="section sm" style="padding-top:0">
-   <div class="sm-stage"><div class="sm-bar"><button class="sm-all" data-sm-area="">Whole precinct</button><span class="sm-where micro"></span></div>
+   <div class="sm-stage"><div class="sm-bar"><div class="bp-seg"><button data-sm-view="main">Main temple</button><button data-sm-view="whole">Whole precinct</button></div><span class="sm-where micro"></span></div>
     <div class="sm-wrap">${smSvg()}</div>
     <div class="sm-card" aria-live="polite"><p class="micro">Tap a building or an area on the map.</p></div></div>
    <div class="sm-side"><div class="sm-areas">${chips}</div><div class="sm-list">${groups}</div>
@@ -87,12 +87,13 @@ function smRender() {
   const svg = document.querySelector('.sm .sm-svg'); if (!svg || !svg.getBBox) return;
   const ps = smPlaces(), a = smState.area, inArea = a ? ps.filter(p => p.area === a).map(p => p.id) : [];
   svg.querySelectorAll('.sm-pl').forEach(g => { g.classList.toggle('dim', !!a && g.dataset.area !== a); g.classList.toggle('sel', g.dataset.sm === smState.sel); });
-  smFit(svg, a ? smBox(svg, inArea) : null);
+  if (a) smFit(svg, smBox(svg, inArea)); else svg.setAttribute('viewBox', BS_VIEWS[smState.view]);
   const vb = svg.viewBox.baseVal, px = svg.getBoundingClientRect().width || 700; smMarks(svg, a ? inArea : [], 11 * vb.width / px);
   document.querySelectorAll('[data-sm-area]').forEach(b => b.classList.toggle('on', b.dataset.smArea === a));
   document.querySelectorAll('.sm-group').forEach(s => s.classList.toggle('dim', !!a && s.dataset.group !== a));
   document.querySelectorAll('[data-sm-pick]').forEach(b => b.classList.toggle('on', b.dataset.smPick === smState.sel));
-  const w = document.querySelector('.sm-where'); if (w) w.textContent = a ? (areaNames[a] || a) : 'Whole precinct';
+  const w = document.querySelector('.sm-where'); if (w) w.textContent = a ? (areaNames[a] || a) : '';
+  document.querySelectorAll('[data-sm-view]').forEach(b => b.classList.toggle('on', !a && b.dataset.smView === smState.view));
   const card = document.querySelector('.sm-card'), p = records[smState.sel];
   if (card) card.innerHTML = p ? `<span class="sm-n" style="background:${SM_COL[p.area]}">${smNum(p.id)}</span><div><span class="micro">${esc(areaNames[p.area] || '')}</span>${SM_APPROX[p.id] ? ' <span class="micro">· </span><span class="micro">position approximate</span>' : ''}<h3>${esc(p.title)}</h3><p>${esc(p.summary || '')}</p><a class="mu-stop" href="${smHref(p.id)}">${SM_IN[p.id] ? 'Open its section in ' + esc(records[SM_IN[p.id][0]].title) + ' →' : 'Open the page →'}</a></div>`
     : `<p class="micro">${a ? 'Tap a numbered place.' : 'Tap a building or an area on the map.'}</p>`;
@@ -116,6 +117,7 @@ function sitemapInteract(e) {
   const t = e.target;
   const o = t.closest('[data-sm-open]'); if (o) { smState.sel = o.dataset.smOpen; smState.area = records[smState.sel]?.area || ''; return false; }
   if (!document.querySelector('.sm .sm-svg')) return false;
+  const v = t.closest('[data-sm-view]'); if (v) { smState.view = v.dataset.smView; smState.area = ''; smRender(); return true; }
   const ar = t.closest('[data-sm-area]'); if (ar) { smState.area = ar.dataset.smArea; if (records[smState.sel]?.area !== smState.area) smState.sel = ''; smRender(); return true; }
   const pk = t.closest('[data-sm-pick]'); if (pk) { smPick(pk.dataset.smPick); document.querySelector('.sm-stage')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); return true; }
   const sh = t.closest('.sm .sm-pl, .sm .sm-mark'); if (sh) { const id = sh.dataset.sm, p = records[id]; if (!smState.area || smState.area !== p.area) { smState.area = p.area; smState.sel = ''; } else smState.sel = id; smRender(); return true; }
