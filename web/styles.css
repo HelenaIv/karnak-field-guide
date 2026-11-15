@@ -365,3 +365,10 @@ a.term{border-bottom:1px dotted var(--gold);color:inherit;text-decoration:none!i
 .cp-n{cursor:pointer}.cp-n circle{fill:var(--gold);stroke:#fff;stroke-width:1;filter:drop-shadow(0 0 1.6px rgba(181,138,77,.9))}.cp-n:hover circle{fill:#9a7238}.cp-n text{fill:#fff}
 .sm-mark circle{fill:var(--gold);stroke:#fff;stroke-width:.9;filter:drop-shadow(0 0 2px rgba(181,138,77,.9))}.sm-mark:hover circle{fill:#9a7238}
 .sm-card .sm-n,.rt-n{border-radius:3px}
+
+/* Explore map: monuments that are sections of a bigger place */
+.sm-sub{list-style:none;margin:0 0 4px 32px;padding:0 0 0 10px;border-left:1px dashed #cfc6b0}
+.sm-item.sub{font-size:13px;padding:2px 0;color:#5b5a4d;text-decoration:none}
+.sm-item.sub .sm-n{flex-basis:26px;height:20px;line-height:18px;font-size:10px;background:#fff;color:var(--c);border:1.5px solid var(--c);border-radius:10px}
+.sm-sub .micro{margin:2px 0}
+.sm-mark.sub circle{fill:#fff;stroke:var(--gold,#b58a4d);stroke-width:1.2;filter:none}.sm-mark.sub text{fill:#7a5a2b}

@@ -19,11 +19,17 @@ const SM_APPROX = {
   'ptah-temple': [262, -228, 34, 18], 'osiris-catacombs': [430, -190, 34, 24], 'hakoris-chapel': [-40, -16, 12, 10]
 };
 const smState = { area: '', sel: '' };
+// Small monuments covered as sections of a bigger place's article: [parent place, section id].
+const SM_IN = { 'sety-ii-shrine': ['great-court', 'shrines'], 'taharqo-kiosk': ['great-court', 'kiosk'], 'ramesses-iii-temple': ['great-court', 'shrines'], 'bubastite-portal': ['great-court', 'portal'] };
+// Places whose full article lives on another route.
+const SM_LINK = { 'hypostyle-hall': '#hall' };
+function smHref(id) { return SM_IN[id] ? `#entry/${SM_IN[id][0]}/${SM_IN[id][1]}` : (SM_LINK[id] || `#entry/${id}`); }
+function smKids(id) { return SM_WALK.filter(k => SM_IN[k]?.[0] === id); }
 const SM_WALK = ['hakoris-chapel', 'first-pylon', 'great-court', 'sety-ii-shrine', 'taharqo-kiosk', 'ramesses-iii-temple', 'bubastite-portal', 'second-pylon', 'hypostyle-hall', 'third-pylon',
   'fourth-pylon', 'wadjet-hall', 'hatshepsut-obelisks', 'fifth-pylon', 'sixth-pylon', 'central-bark-shrine', 'middle-kingdom-court', 'akhmenu', 'contra-temple', 'aten-temples',
   'seventh-pylon', 'eighth-pylon', 'ninth-pylon', 'tenth-pylon', 'sacred-lake', 'khonsu-temple', 'opet-temple', 'bab-el-amara'];
 function smPlaces() { const order = SM_AREAS.map(a => a[0]), w = id => { const i = SM_WALK.indexOf(id); return i < 0 ? 99 : i; }; return [...D.places].sort((a, b) => (order.indexOf(a.area) - order.indexOf(b.area)) || (w(a.id) - w(b.id)) || a.title.localeCompare(b.title)); }
-function smNum(id) { return smPlaces().findIndex(p => p.id === id) + 1; }
+function smNum(id) { if (SM_IN[id]) { const par = SM_IN[id][0]; return smNum(par) + 'abcdefghij'[smKids(par).indexOf(id)]; } return smPlaces().filter(p => !SM_IN[p.id]).findIndex(p => p.id === id) + 1; }
 function smShape(p) {
   const c = SM_COL[p.area] || '#888';
   const inner = SM_GEO[p.id] ? SM_GEO[p.id].map(g => BS_GEO[g] ? BS_GEO[g]() : '').join('')
@@ -46,8 +52,8 @@ function smSvg(cls = '') {
 function exploreMap() {
   const ps = smPlaces();
   const chips = SM_AREAS.filter(([a]) => ps.some(p => p.area === a)).map(([a, c]) => `<button class="sm-area" data-sm-area="${a}" style="--c:${c}"><i></i>${esc(areaNames[a] || a)}</button>`).join('');
-  const groups = SM_AREAS.map(([a, c]) => { const list = ps.filter(p => p.area === a); return list.length ? `<section class="sm-group" data-group="${a}" style="--c:${c}"><h3>${esc(areaNames[a] || a)}</h3><ol>${list.map(p => `<li><button class="sm-item" data-sm-pick="${esc(p.id)}"><span class="sm-n">${smNum(p.id)}</span><b>${esc(p.title)}</b></button></li>`).join('')}</ol></section>` : ''; }).join('');
-  return `<div class="page-head"><span class="eyebrow">Explore Karnak</span><h1>Find your way around.</h1><p>The precinct of Amun on one map. Tap an area to zoom in, then a numbered place to see what it is. Every place has its own page.</p></div>
+  const groups = SM_AREAS.map(([a, c]) => { const list = ps.filter(p => p.area === a); return list.length ? `<section class="sm-group" data-group="${a}" style="--c:${c}"><h3>${esc(areaNames[a] || a)}</h3><ol>${list.filter(p => !SM_IN[p.id]).map(p => `<li><button class="sm-item" data-sm-pick="${esc(p.id)}"><span class="sm-n">${smNum(p.id)}</span><b>${esc(p.title)}</b></button>${smSub(p.id)}</li>`).join('')}</ol></section>` : ''; }).join('');
+  return `<div class="page-head"><span class="eyebrow">Explore Karnak</span><h1>Find your way around.</h1><p>The precinct of Amun on one map. Tap an area to zoom in, then a numbered place to see what it is. Smaller monuments are sections of the bigger place they stand in.</p></div>
   <section class="section sm" style="padding-top:0">
    <div class="sm-stage"><div class="sm-bar"><button class="sm-all" data-sm-area="">Whole precinct</button><span class="sm-where micro"></span></div>
     <div class="sm-wrap">${smSvg()}</div>
@@ -69,7 +75,13 @@ function smFit(svg, box, pad = 24, minW = 140) {
 }
 function smMarks(svg, ids, scale) {
   const g = svg.querySelector('.sm-marks'); if (!g) return;
-  g.innerHTML = ids.map((id, i) => { const b = smBox(svg, [id]); if (!b) return ''; const r = scale, cx = b[0] + b[2] / 2, cy = b[3] > r * 3 ? (i % 2 ? b[1] + b[3] - r * 1.1 : b[1] + r * 1.1) : b[1] + b[3] / 2; return `<g class="sm-mark" data-sm="${id}"><circle cx="${cx}" cy="${cy}" r="${r}"/><text x="${cx}" y="${cy + r * 0.42}" style="font-size:${r * 1.15}px">${smNum(id)}</text></g>`; }).join('');
+  g.innerHTML = ids.map((id, i) => { const b = smBox(svg, [id]); if (!b) return ''; const r = scale, cx = b[0] + b[2] / 2, cy = b[3] > r * 3 ? (i % 2 ? b[1] + b[3] - r * 1.1 : b[1] + r * 1.1) : b[1] + b[3] / 2; return `<g class="sm-mark${SM_IN[id] ? ' sub' : ''}" data-sm="${id}"><circle cx="${cx}" cy="${cy}" r="${r}"/><text x="${cx}" y="${cy + r * 0.42}" style="font-size:${r * 1.15}px">${smNum(id)}</text></g>`; }).join('');
+}
+function smSub(id) {
+  const kids = smKids(id).filter(k => records[k]);
+  if (kids.length) return `<ol class="sm-sub">${kids.map(k => `<li><button class="sm-item sub" data-sm-pick="${esc(k)}"><span class="sm-n">${smNum(k)}</span><span>${esc(records[k].title)}</span></button></li>`).join('')}</ol>`;
+  if (id === 'hypostyle-hall' && typeof hallGuide === 'function' && hallGuide()) return `<ol class="sm-sub"><li class="micro">Hall guide stops</li>${hallGuide().stops.map(s => `<li><a class="sm-item sub" href="#hall/${esc(s.id)}"><span class="sm-n">${s.number}</span><span>${esc(s.title)}</span></a></li>`).join('')}</ol>`;
+  return '';
 }
 function smRender() {
   const svg = document.querySelector('.sm .sm-svg'); if (!svg || !svg.getBBox) return;
@@ -82,7 +94,7 @@ function smRender() {
   document.querySelectorAll('[data-sm-pick]').forEach(b => b.classList.toggle('on', b.dataset.smPick === smState.sel));
   const w = document.querySelector('.sm-where'); if (w) w.textContent = a ? (areaNames[a] || a) : 'Whole precinct';
   const card = document.querySelector('.sm-card'), p = records[smState.sel];
-  if (card) card.innerHTML = p ? `<span class="sm-n" style="background:${SM_COL[p.area]}">${smNum(p.id)}</span><div><span class="micro">${esc(areaNames[p.area] || '')}</span>${SM_APPROX[p.id] ? ' <span class="micro">· </span><span class="micro">position approximate</span>' : ''}<h3>${esc(p.title)}</h3><p>${esc(p.summary || '')}</p><a class="mu-stop" href="#entry/${esc(p.id)}">Open the page →</a></div>`
+  if (card) card.innerHTML = p ? `<span class="sm-n" style="background:${SM_COL[p.area]}">${smNum(p.id)}</span><div><span class="micro">${esc(areaNames[p.area] || '')}</span>${SM_APPROX[p.id] ? ' <span class="micro">· </span><span class="micro">position approximate</span>' : ''}<h3>${esc(p.title)}</h3><p>${esc(p.summary || '')}</p><a class="mu-stop" href="${smHref(p.id)}">${SM_IN[p.id] ? 'Open its section in ' + esc(records[SM_IN[p.id][0]].title) + ' →' : 'Open the page →'}</a></div>`
     : `<p class="micro">${a ? 'Tap a numbered place.' : 'Tap a building or an area on the map.'}</p>`;
 }
 function smPick(id) { const p = records[id]; if (!p) return; smState.sel = id; smState.area = p.area; smRender(); }
