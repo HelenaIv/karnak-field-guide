@@ -8,7 +8,7 @@
     "needs_field_check",
     "needs_epigraphic_review"
   ],
-  "summary": "Thutmose III records digging a sacred lake; the existing lake has a later history too.",
+  "summary": "The sacred lake of the temple of Amun, dug by Thutmose III and later modified by Taharqo, with the edifice of Taharqo and Amenhotep III’s granite scarab beside it.",
   "orientation": "South of the Middle Kingdom court.",
   "personIds": [
     "thutmose-iii",
@@ -73,6 +73,126 @@
     "Present access, exact viewpoints and condition have not been field-verified."
   ],
   "sources": [
-    "dk-sacred-lake"
-  ]
+    "dk-sacred-lake",
+    "dk-taharqo-edifice",
+    "dk-scarab-amenhotep-iii"
+  ],
+  "heroMediaId": "own-sacred-lake-2023",
+  "guide": {
+    "glance": [
+      {
+        "label": "Built by",
+        "value": "Thutmose III; modified later by Taharqo"
+      },
+      {
+        "label": "Size",
+        "value": "About 128 m long and 83 m wide"
+      },
+      {
+        "label": "Where",
+        "value": "South of the Middle Kingdom court, between the main temple and the southern pylons"
+      },
+      {
+        "label": "Known for",
+        "value": "Festival boats, the geese of Amun, and the granite scarab at its north-west corner"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "The rectangular lake lies south of the Middle Kingdom court, so you reach it by walking south from the temple core towards the Seventh Pylon. Digital Karnak gives its size as 128 m by 83 m; some guide websites quote about 120 by 77 m, and the sources consulted do not explain the difference."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-sacred-lake",
+            "locator": "Introduction; Measurements"
+          }
+        ],
+        "mediaId": "own-sacred-lake-2023"
+      },
+      {
+        "id": "use",
+        "heading": "What the lake was for",
+        "paragraphs": [
+          "Thutmose III records digging a new sacred lake for the temple of Amun-Ra, which may have replaced an earlier lake somewhere in the southern part of the temple. During festivals the sacred barks of the gods were floated on it, and in daily life it was home to the geese of Amun, one of the god’s sacred animals.",
+          "The lake as it is today was later modified by Taharqo, in the 25th Dynasty, but what he changed and how much remains unknown."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-sacred-lake",
+            "locator": "Introduction; Phases of Construction: Thutmose III"
+          }
+        ]
+      },
+      {
+        "id": "around",
+        "heading": "Buildings around the lake",
+        "paragraphs": [
+          "The buildings found on each side show how many jobs the lake had. On the north side stand the edifice of Taharqo and the so-called Nilometer, and a small chapel of Thoth stood to the west. To the east, priests lived or worked in administrative buildings dating from the 22nd Dynasty to the Ptolemaic Period, and to the south archaeologists found storerooms and an aviary for the temple’s birds."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-sacred-lake",
+            "locator": "Introduction: surrounding buildings"
+          }
+        ]
+      },
+      {
+        "id": "edifice",
+        "heading": "The edifice of Taharqo",
+        "paragraphs": [
+          "On the north bank, the sandstone edifice of Taharqo had a series of underground rooms below a building with a central open court, which is now destroyed; it measured 25 by 29 m, and its walls survive only 1 to 2.5 m high. Blocks of the earlier Kushite king Shabaqo were reused in it, so an older building may have stood on the same spot.",
+          "Rituals held here concerned Amun-Ra’s return from the west bank and his union with the creative powers of Nun, the primeval waters. Beside it runs the so-called Nilometer, about 30 m long and set slightly off the building’s axis; Digital Karnak puts the name in quotation marks."
+        ],
+        "look": [
+          "The sunk reliefs on the outer north and south walls: the king walks from east to west, while the gods face east, towards the entrance."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-taharqo-edifice",
+            "locator": "Introduction; Measurements; Phases of Construction: Taharqo"
+          }
+        ]
+      },
+      {
+        "id": "scarab",
+        "heading": "The granite scarab of Amenhotep III",
+        "paragraphs": [
+          "Near the north-west corner of the lake a colossal scarab beetle, the form of the young sun god Khepri, sits on an oval plinth of red granite. On the plinth a lightly carved sunk relief shows Amenhotep III kneeling before the seated god under a winged sun disc.",
+          "The scarab was made for Amenhotep III’s mortuary temple on the west bank and was moved to Karnak later, probably by Taharqo."
+        ],
+        "look": [
+          "The offering scene on the front of the plinth."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-scarab-amenhotep-iii",
+            "locator": "Description; Provenance"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "Was there an earlier sacred lake before Thutmose III, and where? The sources only say it is possible.",
+        "citations": [
+          {
+            "sourceId": "dk-sacred-lake",
+            "locator": "Phases of Construction: Thutmose III"
+          }
+        ]
+      },
+      {
+        "text": "What did Taharqo change when he modified the lake? This remains unknown.",
+        "citations": [
+          {
+            "sourceId": "dk-sacred-lake",
+            "locator": "Introduction"
+          }
+        ]
+      }
+    ]
+  }
 }

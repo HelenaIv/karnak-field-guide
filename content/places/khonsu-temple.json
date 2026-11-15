@@ -1,226 +1,235 @@
 {
-  "id": "khonsu-temple",
-  "type": "place",
-  "title": "Temple of Khonsu",
-  "area": "southwestern-temples",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "The surviving temple was begun under Ramesses III for Khonsu, child of Amun and Mut.",
-  "orientation": "Southwest of the Amun precinct, with its principal axis facing south.",
-  "personIds": [
-    "ramesses-iii",
-    "taharqo"
-  ],
-  "periodIds": [
-    "new-kingdom",
-    "third-intermediate"
-  ],
-  "architecture": [
-    "A court and columned hall lead toward distinct statue and bark accommodation."
-  ],
-  "lookFor": [],
-  "details": [],
-  "claims": [
+ "id": "khonsu-temple",
+ "type": "place",
+ "title": "Temple of Khonsu",
+ "area": "southwestern-temples",
+ "status": "source_checked",
+ "additionalChecks": [
+  "needs_field_check",
+  "needs_epigraphic_review"
+ ],
+ "summary": "The surviving temple was begun under Ramesses III for Khonsu, child of Amun and Mut.",
+ "orientation": "Southwest of the Amun precinct, with its principal axis facing south.",
+ "personIds": [
+  "ramesses-iii",
+  "taharqo"
+ ],
+ "periodIds": [
+  "new-kingdom",
+  "third-intermediate"
+ ],
+ "architecture": [
+  "A court and columned hall lead toward distinct statue and bark accommodation."
+ ],
+ "lookFor": [],
+ "details": [],
+ "claims": [
+  {
+   "id": "khonsu-temple-location",
+   "text": "Southwest of the Amun precinct, with its principal axis facing south.",
+   "certainty": "established",
+   "citations": [
     {
-      "id": "khonsu-temple-location",
-      "text": "Southwest of the Amun precinct, with its principal axis facing south.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-khonsu-temple",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "khonsu-temple-fabric",
-      "text": "The surviving temple was begun under Ramesses III for Khonsu, child of Amun and Mut. A court and columned hall lead toward distinct statue and bark accommodation.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-khonsu-temple",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "khonsu-temple-1",
-      "text": "Scholars differ on whether later royal inscriptions identify new construction phases or decoration of an already completed building.",
-      "certainty": "disputed",
-      "citations": [
-        {
-          "sourceId": "dk-khonsu-temple",
-          "locator": "Phases of Construction (paragraph following Ramesses III attribution)"
-        }
-      ]
-    },
-    {
-      "id": "khonsu-temple-2",
-      "text": "Reused Amenhotep III blocks do not by themselves prove an earlier Khonsu temple on this exact site.",
-      "certainty": "interpretation",
-      "citations": [
-        {
-          "sourceId": "dk-khonsu-temple",
-          "locator": "Introduction"
-        }
-      ]
+     "sourceId": "dk-khonsu-temple",
+     "locator": "Introduction"
     }
-  ],
-  "caveats": [
-    "Present access, exact viewpoints and condition have not been field-verified."
-  ],
-  "sources": [
-    "dk-khonsu-temple",
-    "dk-opet-temple",
-    "dk-bab-el-amara"
-  ],
-  "guide": {
-    "glance": [
-      {
-        "label": "Built by",
-        "value": "Ramesses III, 20th Dynasty, about 1184–1153 BC, for Khonsu, the child of Amun and Mut"
-      },
-      {
-        "label": "Size",
-        "value": "About 70 m long and 27 m wide; pylon 18 m high"
-      },
-      {
-        "label": "Faces",
-        "value": "South, towards the avenue of sphinxes that led to Luxor"
-      },
-      {
-        "label": "Next door",
-        "value": "The small temple of Opet, and the Ptolemaic gate of Bab el-Amara"
-      }
-    ],
-    "sections": [
-      {
-        "id": "where",
-        "heading": "Where you are",
-        "paragraphs": [
-          "The temple of Khonsu stands in the south-west corner of the precinct of Amun and, unlike the main temple, faces south. It is one of the most complete New Kingdom temples at Karnak: pylon, court, columned hall and sanctuary are all still standing.",
-          "Its front door looked onto the processional road from Luxor. The tall gate of Bab el-Amara stands in front of it, and the temple of Opet is right beside it to the west."
-        ],
-        "look": [
-          "The whole pylon, with its towers almost complete."
-        ],
-        "citations": [
-          {
-            "sourceId": "dk-khonsu-temple",
-            "locator": "Introduction"
-          }
-        ],
-        "mediaId": "own-khonsu-pylon-2023"
-      },
-      {
-        "id": "plan",
-        "heading": "A complete temple in miniature",
-        "paragraphs": [
-          "Ramesses III began a new temple here for Khonsu, the child god, son of Amun-Ra and Mut. It is about 70 m long and 27 m wide. Behind the pylon (34.5 m long, 18 m high) lies an open court with a double row of closed-bud papyrus columns, then a columned hall whose four central columns are 7 m tall and the outer ones 5.5 m.",
-          "A ramp leads up into the inner temple. It had rooms for the god’s statue and a separate chamber for his portable bark, the boat in which Khonsu was carried in festivals."
-        ],
-        "look": [
-          "How the floor rises and the ceilings drop as you go further in."
-        ],
-        "citations": [
-          {
-            "sourceId": "dk-khonsu-temple",
-            "locator": "Introduction; Measurements; Phases of Construction: Ramesses III"
-          }
-        ],
-        "mediaId": "own-khonsu-doorway-2023"
-      },
-      {
-        "id": "names",
-        "heading": "Six rulers on one temple",
-        "paragraphs": [
-          "The walls carry the names of Ramesses III, Ramesses IV, Ramesses XI, Ramesses XII, and the high priests of Amun Herihor and Pinedjem. The scenes of Herihor in the court are among the best known.",
-          "Some scholars think Ramesses III or IV finished the building, and that later kings and high priests simply filled its blank walls with their own names and images. Others argue that each ruler built the part his name is on."
-        ],
-        "citations": [
-          {
-            "sourceId": "dk-khonsu-temple",
-            "locator": "Introduction; Phases of Construction"
-          }
-        ]
-      },
-      {
-        "id": "porch",
-        "heading": "Taharqo’s porch and the rams",
-        "paragraphs": [
-          "In front of the pylon, Taharqo added a porch of four rows of five papyrus columns, paved with red granite. The gaps between the columns, 7.2–8.2 m, were too wide for a stone roof; if it had a roof, it was wooden. Two lines of ram-headed sphinxes run south from the porch, probably moved here after the 20th Dynasty."
-        ],
-        "look": [
-          "The ram-headed sphinxes in front of the temple."
-        ],
-        "citations": [
-          {
-            "sourceId": "dk-khonsu-temple",
-            "locator": "Phases of Construction: Taharqo; about the sphinxes"
-          }
-        ]
-      },
-      {
-        "id": "gate",
-        "heading": "Bab el-Amara, a gate without its towers",
-        "paragraphs": [
-          "South of the temple stands a tall free-standing gate in the precinct wall. Nectanebo I, or his successor Teos, planned a new pylon here and began two flanking towers, each 28.2 m long, but did not finish them. Ptolemy III then put up the stone gateway between them. Its ceiling is decorated with flying vultures.",
-          "Later, a mud-brick wall was built against the gate, covering the unfinished towers, which is why the gate now seems to stand on its own. South of it ran an avenue lined with sphinxes."
-        ],
-        "look": [
-          "The vultures on the ceiling of the passage.",
-          "The winged sun disk over the doorway."
-        ],
-        "citations": [
-          {
-            "sourceId": "dk-bab-el-amara",
-            "locator": "Introduction; Phases of Construction: Nectanebo I or Teos, Ptolemy III; later mud-brick wall"
-          }
-        ],
-        "mediaId": "own-bab-el-amara-2023-1"
-      },
-      {
-        "id": "opet",
-        "heading": "The temple of Opet, where Osiris is reborn",
-        "paragraphs": [
-          "Right beside the temple of Khonsu, to the west, stands the small temple of the mother goddess Opet. It sits on a podium 19.6 m by 22.7 m and 1.9 m high. A ramp leads up from its court into a small hall with two columns topped by the head of Hathor, and on to the sanctuary.",
-          "Crypts run down into the podium, among them a “tomb of Osiris” and a “birth chamber”. In one Egyptian myth Amun dies as Osiris and is reborn through the mother goddess Opet; Khonsu, Amun’s child, was seen as the newly reborn sun. A shrine on Opet’s back wall stood directly opposite a door of the Khonsu temple, which suggests the two temples were linked in this cult.",
-          "Ptolemy II and Ptolemy III added their names, but the temple was finished only under Ptolemy VIII, who decorated most of the inside; the outside was carved under the Roman emperor Augustus."
-        ],
-        "look": [
-          "The Hathor-headed columns in the small hall."
-        ],
-        "citations": [
-          {
-            "sourceId": "dk-opet-temple",
-            "locator": "Introduction; Measurements; Phases of Construction: Ptolemy III, Ptolemy VIII; cult link with Khonsu"
-          }
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "text": "In what order was the Khonsu temple built and decorated? Its architecture is being restudied by the CFEETK.",
-        "citations": [
-          {
-            "sourceId": "dk-opet-temple",
-            "locator": "Introduction: Khonsu chronology unclear"
-          }
-        ]
-      },
-      {
-        "text": "Did an earlier temple of Khonsu stand on this site in the 18th Dynasty? Blocks of Amenhotep III reused here may come from his temple on the west bank instead.",
-        "citations": [
-          {
-            "sourceId": "dk-khonsu-temple",
-            "locator": "Introduction"
-          }
-        ]
-      }
-    ]
+   ]
   },
-  "heroMediaId": "own-khonsu-pylon-2023"
+  {
+   "id": "khonsu-temple-fabric",
+   "text": "The surviving temple was begun under Ramesses III for Khonsu, child of Amun and Mut. A court and columned hall lead toward distinct statue and bark accommodation.",
+   "certainty": "established",
+   "citations": [
+    {
+     "sourceId": "dk-khonsu-temple",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "khonsu-temple-1",
+   "text": "Scholars differ on whether later royal inscriptions identify new construction phases or decoration of an already completed building.",
+   "certainty": "disputed",
+   "citations": [
+    {
+     "sourceId": "dk-khonsu-temple",
+     "locator": "Phases of Construction (paragraph following Ramesses III attribution)"
+    }
+   ]
+  },
+  {
+   "id": "khonsu-temple-2",
+   "text": "Reused Amenhotep III blocks do not by themselves prove an earlier Khonsu temple on this exact site.",
+   "certainty": "interpretation",
+   "citations": [
+    {
+     "sourceId": "dk-khonsu-temple",
+     "locator": "Introduction"
+    }
+   ]
+  }
+ ],
+ "caveats": [
+  "Present access, exact viewpoints and condition have not been field-verified."
+ ],
+ "sources": [
+  "dk-khonsu-temple",
+  "dk-opet-temple",
+  "dk-bab-el-amara"
+ ],
+ "guide": {
+  "glance": [
+   {
+    "label": "Built by",
+    "value": "Ramesses III, 20th Dynasty, about 1184–1153 BC, for Khonsu, the child of Amun and Mut"
+   },
+   {
+    "label": "Size",
+    "value": "About 70 m long and 27 m wide; pylon 18 m high"
+   },
+   {
+    "label": "Faces",
+    "value": "South, towards the avenue of sphinxes that led to Luxor"
+   },
+   {
+    "label": "Next door",
+    "value": "The small temple of Opet, and the Ptolemaic gate of Bab el-Amara"
+   }
+  ],
+  "sections": [
+   {
+    "id": "where",
+    "heading": "Where you are",
+    "paragraphs": [
+     "The temple of Khonsu stands in the south-west corner of the precinct of Amun and, unlike the main temple, faces south. It is one of the most complete New Kingdom temples at Karnak: pylon, court, columned hall and sanctuary are all still standing.",
+     "Its front door looked onto the processional road from Luxor. The tall gate of Bab el-Amara stands in front of it, and the temple of Opet is right beside it to the west."
+    ],
+    "look": [
+     "The whole pylon, with its towers almost complete."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-khonsu-temple",
+      "locator": "Introduction"
+     }
+    ],
+    "mediaId": "own-khonsu-pylon-2023"
+   },
+   {
+    "id": "plan",
+    "heading": "A complete temple in miniature",
+    "paragraphs": [
+     "Ramesses III began a new temple here for Khonsu, the child god, son of Amun-Ra and Mut. It is about 70 m long and 27 m wide. Behind the pylon (34.5 m long, 18 m high) lies an open court with a double row of closed-bud papyrus columns, then a columned hall whose four central columns are 7 m tall and the outer ones 5.5 m.",
+     "A ramp leads up into the inner temple. It had rooms for the god’s statue and a separate chamber for his portable bark, the boat in which Khonsu was carried in festivals."
+    ],
+    "look": [
+     "How the floor rises and the ceilings drop as you go further in."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-khonsu-temple",
+      "locator": "Introduction; Measurements; Phases of Construction: Ramesses III"
+     }
+    ],
+    "mediaId": "own-khonsu-doorway-2023"
+   },
+   {
+    "id": "names",
+    "heading": "Six rulers on one temple",
+    "paragraphs": [
+     "The walls carry the names of Ramesses III, Ramesses IV, Ramesses XI, Ramesses XII, and the high priests of Amun Herihor and Pinedjem. The scenes of Herihor in the court are among the best known.",
+     "Some scholars think Ramesses III or IV finished the building, and that later kings and high priests simply filled its blank walls with their own names and images. Others argue that each ruler built the part his name is on."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-khonsu-temple",
+      "locator": "Introduction; Phases of Construction"
+     }
+    ]
+   },
+   {
+    "id": "porch",
+    "heading": "Taharqo’s porch and the rams",
+    "paragraphs": [
+     "In front of the pylon, Taharqo added a porch of four rows of five papyrus columns, paved with red granite. The gaps between the columns, 7.2–8.2 m, were too wide for a stone roof; if it had a roof, it was wooden. Two lines of ram-headed sphinxes run south from the porch, probably moved here after the 20th Dynasty."
+    ],
+    "look": [
+     "The ram-headed sphinxes in front of the temple."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-khonsu-temple",
+      "locator": "Phases of Construction: Taharqo; about the sphinxes"
+     }
+    ]
+   },
+   {
+    "id": "gate",
+    "heading": "Bab el-Amara, a gate without its towers",
+    "paragraphs": [
+     "South of the temple stands a tall free-standing gate in the precinct wall. Nectanebo I, or his successor Teos, planned a new pylon here and began two flanking towers, each 28.2 m long, but did not finish them. Ptolemy III then put up the stone gateway between them. Its ceiling is decorated with flying vultures.",
+     "Later, a mud-brick wall was built against the gate, covering the unfinished towers, which is why the gate now seems to stand on its own. South of it ran an avenue lined with sphinxes."
+    ],
+    "look": [
+     "The vultures on the ceiling of the passage.",
+     "The winged sun disk over the doorway."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-bab-el-amara",
+      "locator": "Introduction; Phases of Construction: Nectanebo I or Teos, Ptolemy III; later mud-brick wall"
+     }
+    ],
+    "mediaId": "own-bab-el-amara-2023-1"
+   },
+   {
+    "id": "opet",
+    "heading": "The temple of Opet, where Osiris is reborn",
+    "paragraphs": [
+     "Right beside the temple of Khonsu, to the west, stands the small temple of the mother goddess Opet. It sits on a podium 19.6 m by 22.7 m and 1.9 m high. A ramp leads up from its court into a small hall with two columns topped by the head of Hathor, and on to the sanctuary.",
+     "Crypts run down into the podium, among them a “tomb of Osiris” and a “birth chamber”. In one Egyptian myth Amun dies as Osiris and is reborn through the mother goddess Opet; Khonsu, Amun’s child, was seen as the newly reborn sun. A shrine on Opet’s back wall stood directly opposite a door of the Khonsu temple, which suggests the two temples were linked in this cult.",
+     "Ptolemy II and Ptolemy III added their names, but the temple was finished only under Ptolemy VIII, who decorated most of the inside; the outside was carved under the Roman emperor Augustus."
+    ],
+    "look": [
+     "The Hathor-headed columns in the small hall."
+    ],
+    "citations": [
+     {
+      "sourceId": "dk-opet-temple",
+      "locator": "Introduction; Measurements; Phases of Construction: Ptolemy III, Ptolemy VIII; cult link with Khonsu"
+     }
+    ],
+    "mediaId": "opet-podium",
+    "mediaIds": [
+     "opet-entrance",
+     "opet-door-jamb",
+     "opet-relief-band",
+     "opet-wall-scene",
+     "opet-east-wall",
+     "opet-side"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "text": "In what order was the Khonsu temple built and decorated? Its architecture is being restudied by the CFEETK.",
+    "citations": [
+     {
+      "sourceId": "dk-opet-temple",
+      "locator": "Introduction: Khonsu chronology unclear"
+     }
+    ]
+   },
+   {
+    "text": "Did an earlier temple of Khonsu stand on this site in the 18th Dynasty? Blocks of Amenhotep III reused here may come from his temple on the west bank instead.",
+    "citations": [
+     {
+      "sourceId": "dk-khonsu-temple",
+      "locator": "Introduction"
+     }
+    ]
+   }
+  ]
+ },
+ "heroMediaId": "own-khonsu-pylon-2023"
 }

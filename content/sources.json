@@ -1938,6 +1938,33 @@
       "accessed": "2026-11-16",
       "consultation": "Report read via search excerpt.",
       "rights": "Reference only."
+    },
+    {
+      "id": "dk-taharqo-edifice",
+      "authors": [
+        "Digital Karnak project"
+      ],
+      "title": "Taharqo Edifice and Nilometer",
+      "publisher": "Digital Karnak, UCSC (project originated at UCLA)",
+      "url": "https://digitalkarnak.ucsc.edu/taharqo-edifice",
+      "kind": "institutional monument synthesis",
+      "accessed": "2026-11-16",
+      "consultation": "Web account read via search extract; cites Parker, Leclant and Goyon 1979 and Cooney 2000, not independently consulted.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "dk-scarab-amenhotep-iii",
+      "authors": [
+        "C. Zarnoch",
+        "E. Sullivan"
+      ],
+      "title": "Scarab of Amenhotep III",
+      "publisher": "Digital Karnak, UCSC",
+      "url": "https://digitalkarnak.ucsc.edu/Scarab-of-Amenhotep-III",
+      "kind": "institutional object entry",
+      "accessed": "2026-11-16",
+      "consultation": "Web entry read via search extract; dimensions not given by the source.",
+      "rights": "Reference only; media reuse not cleared."
     }
   ]
 }
