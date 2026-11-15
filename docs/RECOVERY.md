@@ -1,6 +1,6 @@
 # Resume here after a lost chat
 
-Last updated: 2026-11-13. Repository: HelenaIv/karnak-field-guide, branch main.
+Last updated: 2026-11-15. Repository: HelenaIv/karnak-field-guide, branch main.
 
 ## Read first
 
@@ -10,21 +10,31 @@ Last updated: 2026-11-13. Repository: HelenaIv/karnak-field-guide, branch main.
 4. `docs/RESEARCH_ARCHITECTURE.md`, `docs/EDITORIAL_STANDARDS.md`, `research/2026-11-13-source-review.md`.
 5. `content/index.json` and `docs/logs/2026-11-13.md`.
 
-## Current state
+## Current state (2026-11-15)
 
-Research and editorial review website. **No WordPress site or native app yet.** A buildless responsive website is in `web/`, built from the content records by `python scripts/build_review_site.py`. WordPress/JetEngine remains the confirmed backend. English is being drafted; Ukrainian is planned. Current data: 35 place records, 14 details, 3 lessons, 7 reading chapters, 16 people, 5 periods, 1 theme and 1 inscription dossier; 53 sources, 11 relationships and 33 acquired images with provenance. These counts measure records, not finished publication-ready coverage.
+Research and editorial review website in English and Ukrainian, built from `content/` by `python scripts/build_review_site.py` into `dist/`. GitHub Pages publishes the review site for phone preview. WordPress/JetEngine remains the confirmed backend; not built yet.
 
-The private review Site identity is in `.openai/hosting.json`. Publishing and verification details belong in `docs/logs/2026-11-13.md`. The local preview relay failed; do not claim browser/layout QA passed. Functional VM checks render 67 routes and validate local images/links; see the actual test output for final count.
+Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). Big-picture pages: growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
+
+Latest work and decisions are in `docs/logs/` (newest file last). `git log` is the authoritative list of finished work.
+
+## Owner rules (always follow)
+
+- Ask the owner first instead of guessing; never present a guess as fact.
+- Every fact is cited in the record (`claims`/`citations`, sources in `content/sources.json`). Original drawings only, no copied plans.
+- Every English change gets its Ukrainian string in the same commit.
+- Owner's photos: credit "Photo: Helena Ivanova"; originals in `E:\Karnak\images\own`, web copies `assets/photos/own-*`. Captions name a place only when it is confirmed; otherwise describe what is visible. Say what was edited.
+- All downloaded or generated images go to `E:\Karnak\images`, never Downloads.
+- Numbered images: tappable numbers and label-only numbers use clearly different styles (label-only = squares). Every number on a photo has a matching list item.
+- Place sections use photos where possible. Controls must be synced and usable on a phone without sideways scrolling.
+- Commit locally. The owner pushes from GitHub Desktop unless she asks the agent to push.
 
 ## Exact next work
 
-1. Part-2 commentary now confirms B92/plate 48 on p. 98. Obtain a securely matched photo/plate and rights-cleared image before transcribing or annotating the life sign.
-2. Select and verify one photographed raised/sunk comparison, one cartouche pair and one bark detail. Add exact surface/scene references and short English teaching entries.
-3. Acquire rights-cleared detail photographs matching those examples. Current photos include real carved details but are not sign-by-sign edition-matched samples.
-4. Continue monument-specific primary-source checks: museum chapels, obelisks, sanctuary, southern axis, Ptah/Mut/Montu and later phases; see backlog.
-5. Prepare schematic animation storyboards, preserving evidence versus illustration. No audio.
-6. Ask owner about audience/reading level, commercial model and design before dependent implementation decisions. Do not ask again about confirmed languages/backend/audio.
-7. When backend implementation is requested, get the WordPress URL/configuration from the owner; map verified fields and export a complete versioned pack. No CMS credentials in git.
+1. Continue place guides along the walk: Third Pylon next, then Fourth/Fifth Pylons, Hatshepsut obelisks, Wadjet Hall, central bark shrine, Akhmenu.
+2. Optional: confirm places for own photos `own-court-with-painted-columns`, `own-painted-architrave-pillars`, `own-relief-king-and-isis`; add `placeIds` only when confirmed. `video-ruins-pan` not used (place unknown).
+3. Second Pylon has no own photo; swap in one if the owner supplies it.
+4. Older open items: see `docs/RESEARCH_BACKLOG.md` and `docs/HALL_WORKPLAN.md`.
 
 ## Validation and preservation
 
