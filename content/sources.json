@@ -1645,6 +1645,32 @@
       "kind": "museum archive record",
       "consultation": "Read 2026-11-14: two striding colossi of Ramesses II fronted the Second Pylon, feet of one remain; in front, the standing statue with Bentanta, usurped by Ramesses VI and Pinedjem I.",
       "accessed": "2026-11-14"
+    },
+    {
+      "id": "memphis-second-pylon",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "The Second Pylon",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/second_pylon.php",
+      "kind": "specialist project interpretation",
+      "accessed": "2026-11-15",
+      "consultation": "Web text and captions; precise epigraphic plates still require review.",
+      "rights": "Reference only; media reuse not cleared."
+    },
+    {
+      "id": "memphis-entrance",
+      "authors": [
+        "Karnak Great Hypostyle Hall Project"
+      ],
+      "title": "Entrance to the Hall",
+      "publisher": "University of Memphis",
+      "url": "https://www.memphis.edu/hypostyle/tour_hall/entrance.php",
+      "kind": "specialist project interpretation",
+      "accessed": "2026-11-15",
+      "consultation": "Web text and captions; precise epigraphic plates still require review.",
+      "rights": "Reference only; media reuse not cleared."
     }
   ]
 }

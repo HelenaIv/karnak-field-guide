@@ -60,6 +60,146 @@
     "Present access, exact viewpoints and condition have not been field-verified."
   ],
   "sources": [
-    "dk-second-pylon"
-  ]
+    "dk-second-pylon",
+    "memphis-second-pylon",
+    "memphis-entrance",
+    "dk-great-court"
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "Built by",
+        "value": "Horemheb, last king of the 18th Dynasty, about 1300 BC"
+      },
+      {
+        "label": "Decorated by",
+        "value": "Ramesses I, who finished the reliefs in a reign of less than two years"
+      },
+      {
+        "label": "Towers at the base",
+        "value": "46.4 m long and 14.6 m wide; the original height is unknown"
+      },
+      {
+        "label": "Gateway",
+        "value": "29.5 m high, partly rebuilt under Ptolemy VI"
+      },
+      {
+        "label": "Role",
+        "value": "Main entrance of the temple until Shoshenq I built the Great Court in front of it"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "The Second Pylon is the huge gateway at the east end of the Great Court. Walk through it and you are in the Great Hypostyle Hall: the back of this pylon is the hall’s west wall.",
+          "When Horemheb built it, it was the front door of the temple. Its gate stayed the main entrance until Shoshenq I enclosed the open ground in front of it as the Great Court, with a new gate further west."
+        ],
+        "look": [
+          "The colossus of Ramesses II standing in front of the pylon, covered on the Great Court page.",
+          "The deep passage through the gate, the way into the Hypostyle Hall."
+        ],
+        "link": "great-court",
+        "citations": [
+          {
+            "sourceId": "dk-second-pylon",
+            "locator": "Introduction; Measurements"
+          }
+        ],
+        "mediaId": "gc-colossus"
+      },
+      {
+        "id": "names",
+        "heading": "Three kings in one name ring",
+        "paragraphs": [
+          "Horemheb died before the pylon was fully decorated. His successor Ramesses I finished the reliefs and put his own name into Horemheb’s cartouches. A generation later Ramesses II carved his name into the same cartouches again.",
+          "So a cartouche here can carry traces of three kings, cut one over another. A king’s name on a wall at Karnak tells you who claimed it last, not always who built it."
+        ],
+        "look": [
+          "On the front of the gate’s vestibule, a scene of Horemheb offering a tray of food to Amun, its cartouches recut twice.",
+          "Name rings with uneven, doubled outlines where the stone was cut back and recarved."
+        ],
+        "citations": [
+          {
+            "sourceId": "memphis-second-pylon",
+            "locator": "Vestibule scene; usurped cartouches"
+          },
+          {
+            "sourceId": "dk-second-pylon",
+            "locator": "Phases of Construction: Horemheb"
+          }
+        ]
+      },
+      {
+        "id": "gate",
+        "heading": "The gate rebuilt by Ptolemy VI",
+        "paragraphs": [
+          "Long after the Ramesside kings, the gate was badly damaged: Digital Karnak records a fire, and ceiling blocks fell into the eastern part of the passage. Under Ptolemy VI, in the 2nd century BC, the damaged walls were rebuilt and recarved.",
+          "His artists copied the old scenes as closely as they could and carved the Ramesside kings’ names into the cartouches, instead of Ptolemy’s own."
+        ],
+        "look": [
+          "In the passage, compare the flatter Ramesside hieroglyphs with the bolder, rounder Ptolemaic ones beside them."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-second-pylon",
+            "locator": "Phases of Construction: Ptolemy VI repairs"
+          },
+          {
+            "sourceId": "memphis-entrance",
+            "locator": "Ptolemy VI restoration of the passage reliefs"
+          }
+        ],
+        "mediaId": "gc-taharqo-column"
+      },
+      {
+        "id": "back",
+        "heading": "The back of the pylon, inside the hall",
+        "paragraphs": [
+          "Before the Hypostyle Hall existed, the east side of the pylon faced an open court. Ramesses I built two small shrines against it, one on each side of the passage. Only the southern one survives; its alabaster floor is carved with bound foreign enemies, Asiatic and Nubian, perhaps under the king’s throne.",
+          "A huge relief of Amun’s sacred bark being towed by the king’s barge covered this wall. When Sety I turned the court into the Hypostyle Hall, he erased it and carved his own scenes, adding scenes of his late father Ramesses I to make up for the names he had removed."
+        ],
+        "look": [
+          "The southern shrine of Ramesses I, just inside the hall to the right of the passage.",
+          "At the north end of the wall, part of the ram-headed figurehead from the erased bark scene, showing under Sety I’s relief."
+        ],
+        "link": "hypostyle-hall",
+        "citations": [
+          {
+            "sourceId": "memphis-second-pylon",
+            "locator": "Ramesses I shrines; alabaster floor; bark-towing scene; Sety I’s honorary scenes"
+          }
+        ]
+      },
+      {
+        "id": "flags",
+        "heading": "Flagpoles",
+        "paragraphs": [
+          "Like other pylons, the towers once carried tall wooden flagstaffs with coloured cloth banners. They stood in square notches cut into the front of the towers and were held by clamps higher up."
+        ],
+        "look": [
+          "The tall vertical notches in the front of the towers."
+        ],
+        "citations": [
+          {
+            "sourceId": "dk-second-pylon",
+            "locator": "Flagpoles"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "How tall was the pylon? Its upper part is lost and the original height is not known.",
+        "citations": [
+          {
+            "sourceId": "dk-second-pylon",
+            "locator": "Measurements"
+          }
+        ]
+      }
+    ]
+  },
+  "heroMediaId": "gc-colossus"
 }

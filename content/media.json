@@ -2359,7 +2359,8 @@
       "bytes": 587937,
       "placeIds": [
         "great-court",
-        "taharqo-kiosk"
+        "taharqo-kiosk",
+        "second-pylon"
       ],
       "subjectGroup": "place",
       "caption": "The surviving column of Taharqo’s kiosk, with the Second Pylon behind.",
@@ -2408,7 +2409,8 @@
       "sha256": "39f2a357c9c6e69b1f854eac6ecbdb53ab58f4381381173ce36410bde1c1bb1b",
       "bytes": 550914,
       "placeIds": [
-        "great-court"
+        "great-court",
+        "second-pylon"
       ],
       "subjectGroup": "place",
       "caption": "The colossus of Ramesses II in front of the Second Pylon, later inscribed for Pinedjem.",
