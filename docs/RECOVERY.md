@@ -14,7 +14,7 @@ Last updated: 2026-11-15. Repository: HelenaIv/karnak-field-guide, branch main.
 
 Research and editorial review website in English and Ukrainian, built from `content/` by `python scripts/build_review_site.py` into `dist/`. GitHub Pages publishes the review site for phone preview. WordPress/JetEngine remains the confirmed backend; not built yet.
 
-Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). Big-picture pages: growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
+Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon, Third Pylon; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). Big-picture pages: growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
 
 Latest work and decisions are in `docs/logs/` (newest file last). `git log` is the authoritative list of finished work.
 
@@ -31,7 +31,7 @@ Latest work and decisions are in `docs/logs/` (newest file last). `git log` is t
 
 ## Exact next work
 
-1. Continue place guides along the walk: Third Pylon next, then Fourth/Fifth Pylons, Hatshepsut obelisks, Wadjet Hall, central bark shrine, Akhmenu.
+1. Continue place guides along the walk: older temple core next (owner prefers one article like the Great Court, split only where material justifies), then Fourth/Fifth Pylons, Hatshepsut obelisks, Wadjet Hall, central bark shrine, Akhmenu.
 2. Optional: confirm places for own photos `own-court-with-painted-columns`, `own-painted-architrave-pillars`, `own-relief-king-and-isis`; add `placeIds` only when confirmed. `video-ruins-pan` not used (place unknown).
 3. Second Pylon has no own photo; swap in one if the owner supplies it.
 4. Older open items: see `docs/RESEARCH_BACKLOG.md` and `docs/HALL_WORKPLAN.md`.
