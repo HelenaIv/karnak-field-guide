@@ -272,5 +272,9 @@
  "sources[dk-obelisks-th1]/kind": "інституційне дослідження пам’ятки",
  "sources[dk-obelisks-th1]/consultation": "Прочитано вебсторінку; бібліографію окремо не перевіряли.",
  "sources[cfeetk-philip-shrine]/kind": "анотація видавця до епіграфічного видання",
- "sources[cfeetk-philip-shrine]/consultation": "Лише анотація видавця; саме видання не опрацьовано."
+ "sources[cfeetk-philip-shrine]/consultation": "Лише анотація видавця; саме видання не опрацьовано.",
+ "sources[paths-thebes]/kind": "фаховий каталог написів",
+ "sources[paths-thebes]/consultation": "Прочитано записи каталогу (через пошукові уривки).",
+ "sources[ancientpages-akhmenu-2025]/kind": "новинне повідомлення",
+ "sources[ancientpages-akhmenu-2025]/consultation": "Новина з цитатами директора старожитностей Луксора; не звіт про розкопки."
 }

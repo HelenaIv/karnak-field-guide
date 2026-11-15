@@ -35,12 +35,189 @@
     "akhmenu-tent-columns"
   ],
   "sources": [
-    "digital-karnak-akhmenu"
+    "digital-karnak-akhmenu",
+    "sullivan-2010",
+    "louvre-ancestors",
+    "paths-thebes",
+    "ancientpages-akhmenu-2025"
   ],
   "personIds": [
     "thutmose-iii"
   ],
   "periodIds": [
     "new-kingdom"
-  ]
+  ],
+  "guide": {
+    "glance": [
+      {
+        "label": "Built by",
+        "value": "Thutmose III, begun in year 23 of his reign and finished seven years later"
+      },
+      {
+        "label": "Size",
+        "value": "77.5 m wide and 40 m deep"
+      },
+      {
+        "label": "Where",
+        "value": "Behind the old temple core, at the east end of the temple of Amun"
+      },
+      {
+        "label": "Best known for",
+        "value": "Tent-pole columns, the “botanical room”, and a list of royal ancestors now in the Louvre"
+      },
+      {
+        "label": "Later life",
+        "value": "Its central hall became a church, with saints painted on the columns"
+      }
+    ],
+    "sections": [
+      {
+        "id": "where",
+        "heading": "Where you are",
+        "paragraphs": [
+          "The Akhmenu is a temple in its own right, built by Thutmose III directly behind the old temple core, outside the early 18th Dynasty enclosure. It measures 77.5 m by 40 m. Work began in year 23 of the king’s reign and was finished seven years later.",
+          "The main door is in the south-west corner; a second door in the middle of the west wall was found only recently. Inside, the spaces serve royal renewal and the worship of several gods, and its exact purpose is still debated: the usual label “Festival Hall” is a convenience, not an explanation."
+        ],
+        "look": [
+          "The entrance in the south-west corner, and the line of small rooms that opens off it."
+        ],
+        "citations": [
+          {
+            "sourceId": "digital-karnak-akhmenu",
+            "locator": "Introduction; Measurements; Phases of Construction: Thutmose III"
+          },
+          {
+            "sourceId": "sullivan-2010",
+            "locator": "p. 8, Akhmenu discussion"
+          }
+        ],
+        "mediaId": "akhmenu-71604540"
+      },
+      {
+        "id": "hall",
+        "heading": "A hall held up by tent poles",
+        "paragraphs": [
+          "The main pillared hall is 40 m across. Its central roof rests on two rows of columns with an unusual shape: they copy in stone the wooden poles of a portable tent. The ceiling was painted blue with yellow stars.",
+          "Compare them with the papyrus columns of the Hypostyle Hall: they carry a roof just the same, but they imitate a royal tent, not a plant."
+        ],
+        "look": [
+          "The tent-pole columns and how their shape differs from a plant column.",
+          "Any traces of blue paint on the ceiling blocks."
+        ],
+        "link": "akhmenu-tent-columns",
+        "citations": [
+          {
+            "sourceId": "digital-karnak-akhmenu",
+            "locator": "Introduction: main pillared hall, tent-pole columns, blue ceiling with yellow stars"
+          }
+        ]
+      },
+      {
+        "id": "ancestors",
+        "heading": "Sixty-one ancestors, now in Paris",
+        "paragraphs": [
+          "A small room north of the entrance corridor, the “hall of ancestors”, showed Thutmose III making offerings to sixty-one seated kings he counted as his predecessors. The earliest names go back to the 4th Dynasty, more than a thousand years before him.",
+          "The room’s reliefs are no longer at Karnak: they are in the Louvre (inventory E 13481 bis). Read the list as the king’s own selection of ancestors, not a complete record of every ruler."
+        ],
+        "citations": [
+          {
+            "sourceId": "digital-karnak-akhmenu",
+            "locator": "Introduction: hall of ancestors"
+          },
+          {
+            "sourceId": "louvre-ancestors",
+            "locator": "Identification, provenance and description"
+          }
+        ]
+      },
+      {
+        "id": "botanical",
+        "heading": "The botanical room",
+        "paragraphs": [
+          "In the north-east of the building, a room with four papyrus columns is carved with plants and animals that the king saw on his military campaigns abroad. It leads into the Akhmenu’s main sanctuary, where eight wall niches once held statues, perhaps of the nine gods of Thebes.",
+          "The nickname “botanical garden” is modern. These are carved images, and naming a species from them needs specialist evidence."
+        ],
+        "look": [
+          "Single plants and animals carved on the walls; start with the shapes before trying to name them."
+        ],
+        "link": "akhmenu-botanical-images",
+        "citations": [
+          {
+            "sourceId": "digital-karnak-akhmenu",
+            "locator": "Introduction: botanical room, main sanctuary niches"
+          }
+        ],
+        "mediaId": "botanical-4663305f"
+      },
+      {
+        "id": "gods",
+        "heading": "Rooms for Sokar, Amun and the sun",
+        "paragraphs": [
+          "Three chapels at the north of the hall are carved with rituals and processions; in the largest stood a quartzite statue group of Thutmose III with Amun and Mut. The south-east part belongs to the god Sokar, with a suite of rooms ending in a hall of eight fluted columns. A stairway in the north-east corner of the hall climbs to a shrine for the sun on the roof."
+        ],
+        "look": [
+          "The stairway up to the roof shrine of the sun."
+        ],
+        "citations": [
+          {
+            "sourceId": "digital-karnak-akhmenu",
+            "locator": "Introduction: northern chapels, Sokar suite, roof solar shrine"
+          }
+        ]
+      },
+      {
+        "id": "church",
+        "heading": "A church among the columns",
+        "paragraphs": [
+          "In Late Antiquity the Christians of eastern Thebes set up churches inside Karnak’s ruins, one of them in the Akhmenu’s central hall. The columns still carry paintings of saints with their names, among them Saint Colluthus and Saint Mercury, and dated graffiti."
+        ],
+        "look": [
+          "Painted saints and Coptic captions on the columns of the central hall."
+        ],
+        "citations": [
+          {
+            "sourceId": "paths-thebes",
+            "locator": "Karnak, Temple of Amun: church inside the Akh-menu; painted captions on columns 4 and 6"
+          }
+        ]
+      },
+      {
+        "id": "restored",
+        "heading": "Newly restored chapels",
+        "paragraphs": [
+          "A joint Egyptian-French mission has restored the chapels to the right of the main entrance, a group of seven linked shrines and two pillared halls, completed in 2025. Their walls and ceilings are mostly preserved, with coloured scenes of Thutmose III making offerings to Amun and celebrating his jubilee, and a long foundation text calling the building a “Temple of Millions of Years”."
+        ],
+        "look": [
+          "The colours in the restored southern chapels."
+        ],
+        "citations": [
+          {
+            "sourceId": "ancientpages-akhmenu-2025",
+            "locator": "Report of 17 June 2025"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "text": "What was the Akhmenu for? Royal renewal, the jubilee, Amun and other gods all play a part; its exact cult remains unclear.",
+        "citations": [
+          {
+            "sourceId": "sullivan-2010",
+            "locator": "p. 8, Akhmenu discussion"
+          }
+        ]
+      },
+      {
+        "text": "Did an earlier temple of Hatshepsut, or of Hatshepsut and Thutmose III together, stand on the same spot? Digital Karnak calls it possible.",
+        "citations": [
+          {
+            "sourceId": "digital-karnak-akhmenu",
+            "locator": "Introduction"
+          }
+        ]
+      }
+    ]
+  },
+  "heroMediaId": "akhmenu-71604540"
 }

@@ -1712,6 +1712,32 @@
       "accessed": "2026-11-15",
       "consultation": "Publisher summary only; the edition itself not consulted.",
       "rights": "Reference only."
+    },
+    {
+      "id": "paths-thebes",
+      "authors": [
+        "PAThs project"
+      ],
+      "title": "Sacri lapides Aegypti: Thebes, inscriptions",
+      "publisher": "PAThs ERC project, Sapienza University of Rome",
+      "url": "https://paths-erc.eu/sacri-lapides-aegypti/thebes/thebes_inscription.pdf",
+      "kind": "specialist inscription catalogue",
+      "accessed": "2026-11-16",
+      "consultation": "Catalogue entries read (via search excerpts).",
+      "rights": "Reference only."
+    },
+    {
+      "id": "ancientpages-akhmenu-2025",
+      "authors": [
+        "Ancient Pages"
+      ],
+      "title": "Luxor’s heritage in focus: southern chapels of the Akh-Menu temple restored",
+      "publisher": "Ancient Pages",
+      "url": "https://www.ancientpages.com/2025/06/17/luxors-heritage-in-focus-southern-chapels-of-the-akh-menu-temple-restored",
+      "kind": "news report",
+      "accessed": "2026-11-16",
+      "consultation": "News report quoting the Luxor antiquities director; not an excavation report.",
+      "rights": "Reference only."
     }
   ]
 }
