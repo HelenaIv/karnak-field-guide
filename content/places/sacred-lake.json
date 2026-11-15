@@ -77,7 +77,7 @@
     "dk-taharqo-edifice",
     "dk-scarab-amenhotep-iii"
   ],
-  "heroMediaId": "own-sacred-lake-2023",
+  "heroMediaId": "sacred-lake-tausch-2011",
   "guide": {
     "glance": [
       {
@@ -109,8 +109,7 @@
             "sourceId": "dk-sacred-lake",
             "locator": "Introduction; Measurements"
           }
-        ],
-        "mediaId": "own-sacred-lake-2023"
+        ]
       },
       {
         "id": "use",
@@ -171,7 +170,8 @@
             "sourceId": "dk-scarab-amenhotep-iii",
             "locator": "Description; Provenance"
           }
-        ]
+        ],
+        "mediaId": "sacred-lake-scarab-tausch-2011"
       }
     ],
     "questions": [

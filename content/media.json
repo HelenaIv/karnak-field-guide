@@ -1609,14 +1609,7 @@
       "retrieved": "2026-11-14",
       "sha256": "cbacb460990fb0a7d99f681deddb24ebf8c031156cfba18543a661d220bc7351",
       "bytes": 1105212,
-      "placeIds": [
-        "first-pylon",
-        "great-court",
-        "hypostyle-hall",
-        "sacred-lake",
-        "akhmenu",
-        "eighth-pylon"
-      ],
+      "placeIds": [],
       "subjectGroup": "temple-overview",
       "caption": "Karnak from the air, looking north: the main temple runs from the First Pylon (left) to the Akhmenu (right), with the Sacred Lake in front.",
       "alt": "Aerial photograph of the Karnak temple precinct with its gateways, column hall, rectangular lake and surrounding wall, the Nile in the background.",
@@ -2832,9 +2825,7 @@
       "retrieved": "2026-11-16",
       "sha256": "3a87bbd1ffd281384c26e5f9d556d9520b1a6e926185216069ec99e6df2e25b2",
       "bytes": 189486,
-      "placeIds": [
-        "sacred-lake"
-      ],
+      "placeIds": [],
       "subjectGroup": "own",
       "caption": "The Sacred Lake, with temple ruins on the far side.",
       "alt": "A still rectangular lake with ruined temple walls beyond it.",
@@ -3323,6 +3314,56 @@
       "alt": "A broad stone wall with a broken, stepped top edge under a cloudy sky.",
       "identificationStatus": "Identified as the Opet temple by the Wikimedia Commons category and file description; caption describes what is visible.",
       "distributionStatus": "Openly licensed (CC BY-SA 4.0); credit and licence link required."
+    },
+    {
+      "id": "sacred-lake-tausch-2011",
+      "path": "assets/photos/sacred-lake-tausch-2011.jpg",
+      "title": "Karnak Heiliger See 03.JPG",
+      "creator": "Olaf Tausch",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak_Heiliger_See_03.JPG",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Heiliger_See_03.JPG",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Heiliger_See_03.JPG?width=2560",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Olaf Tausch, CC BY 3.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated 3840 px rendition, resized to 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "d6f5b59ba1fa9c5c65693d045ba6a7655e51f8b28a1c5b99ae328fc8a7fddbbe",
+      "bytes": 420406,
+      "placeIds": [
+        "sacred-lake"
+      ],
+      "subjectGroup": "place",
+      "caption": "The Sacred Lake from the south, with temple ruins, palm trees and an obelisk reflected in the water.",
+      "alt": "A still rectangular lake reflecting palm trees, ruined temple walls and a tall obelisk under a clear sky.",
+      "identificationStatus": "Commons description: “Heiliger See im Tempel von Karnak” (Sacred Lake in the temple of Karnak), photographed 2011-03-04.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "sacred-lake-scarab-tausch-2011",
+      "path": "assets/photos/sacred-lake-scarab-tausch-2011.jpg",
+      "title": "Karnak Tempel Chepre 01.JPG",
+      "creator": "Olaf Tausch",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak_Tempel_Chepre_01.JPG",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Tempel_Chepre_01.JPG",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Tempel_Chepre_01.JPG?width=2560",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Olaf Tausch, CC BY 3.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated 3840 px rendition, resized to 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "cc7490a36c20ec0ef5113dc718507faaad93dc0fa56b3df65e33d67f0b84d7f0",
+      "bytes": 500253,
+      "placeIds": [
+        "sacred-lake"
+      ],
+      "subjectGroup": "place",
+      "caption": "Amenhotep III’s granite scarab on its round plinth, with the offering scene carved on the front.",
+      "alt": "A large stone scarab beetle on a cylindrical granite plinth carved with a relief scene, with temple ruins behind.",
+      "identificationStatus": "Commons description: “Chepre-Statue (Skarabäus) im Tempel von Karnak”, photographed 2011-03-04; matches the scarab by the Sacred Lake.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
     }
   ]
 }

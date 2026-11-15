@@ -530,5 +530,13 @@
  "media[opet-side]/changes": "Зменшено для вебу.",
  "media[opet-side]/caption": "Бічний бік храму Опет: східчастий верх показує, де втрачено верхні ряди кладки.",
  "media[opet-side]/alt": "Широка кам’яна стіна з поламаним східчастим верхнім краєм під хмарним небом.",
- "media[opet-side]/identificationStatus": "Визначено як храм Опет за категорією та описом файлу у Wikimedia Commons; підпис описує те, що видно."
+ "media[opet-side]/identificationStatus": "Визначено як храм Опет за категорією та описом файлу у Wikimedia Commons; підпис описує те, що видно.",
+ "media[sacred-lake-tausch-2011]/changes": "Версія Вікімедіа шириною 3840 пікселів, зменшена до 2048 пікселів для вебу; без кадрування та зміни кольору.",
+ "media[sacred-lake-tausch-2011]/caption": "Священне озеро з півдня: у воді відбиваються руїни храму, пальми та обеліск.",
+ "media[sacred-lake-tausch-2011]/alt": "Спокійне прямокутне озеро, у якому відбиваються пальми, зруйновані стіни храму та високий обеліск під ясним небом.",
+ "media[sacred-lake-tausch-2011]/identificationStatus": "Опис на Commons: «Heiliger See im Tempel von Karnak» (Священне озеро в храмі Карнака), знято 4 березня 2011 року.",
+ "media[sacred-lake-scarab-tausch-2011]/changes": "Версія Вікімедіа шириною 3840 пікселів, зменшена до 2048 пікселів для вебу; без кадрування та зміни кольору.",
+ "media[sacred-lake-scarab-tausch-2011]/caption": "Гранітний скарабей Аменхотепа III на круглому постаменті зі сценою підношення на передньому боці.",
+ "media[sacred-lake-scarab-tausch-2011]/alt": "Великий кам’яний жук-скарабей на циліндричному гранітному постаменті з рельєфною сценою, позаду руїни храму.",
+ "media[sacred-lake-scarab-tausch-2011]/identificationStatus": "Опис на Commons: «Chepre-Statue (Skarabäus) im Tempel von Karnak», знято 4 березня 2011 року; відповідає скарабею біля Священного озера."
 }
