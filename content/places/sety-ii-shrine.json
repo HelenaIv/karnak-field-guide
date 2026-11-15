@@ -1,78 +1,26 @@
 {
-  "id": "sety-ii-shrine",
-  "type": "place",
-  "title": "Sety II’s triple bark shrine",
-  "area": "western-entrance",
-  "status": "source_checked",
-  "additionalChecks": [
-    "needs_field_check",
-    "needs_epigraphic_review"
-  ],
-  "summary": "The shrine predates the court that later enclosed it.",
-  "orientation": "In the Great Court; its entrance faces south.",
-  "personIds": [
-    "sety-ii",
-    "shoshenq-i"
-  ],
-  "periodIds": [
-    "new-kingdom",
-    "third-intermediate"
-  ],
-  "architecture": [
-    "Three chambers accommodated the sacred barks of Mut, Amun and Khonsu."
-  ],
-  "lookFor": [],
-  "details": [],
-  "claims": [
-    {
-      "id": "sety-ii-shrine-location",
-      "text": "In the Great Court; its entrance faces south.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-sety-ii-shrine",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "sety-ii-shrine-fabric",
-      "text": "The shrine predates the court that later enclosed it. Three chambers accommodated the sacred barks of Mut, Amun and Khonsu.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-sety-ii-shrine",
-          "locator": "Introduction"
-        }
-      ]
-    },
-    {
-      "id": "sety-ii-shrine-1",
-      "text": "The chambers are assigned west to Mut, centre to Amun and east to Khonsu.",
-      "certainty": "established",
-      "citations": [
-        {
-          "sourceId": "dk-sety-ii-shrine",
-          "locator": "Phases of Construction: Sety II"
-        }
-      ]
-    },
-    {
-      "id": "sety-ii-shrine-2",
-      "text": "A role in popular worship is proposed; it does not establish unrestricted public access throughout the temple.",
-      "certainty": "interpretation",
-      "citations": [
-        {
-          "sourceId": "dk-sety-ii-shrine",
-          "locator": "Phases of Construction: Sety II"
-        }
-      ]
-    }
-  ],
-  "caveats": [
-    "Present access, exact viewpoints and condition have not been field-verified."
-  ],
-  "sources": [
-    "dk-sety-ii-shrine"
-  ]
+ "id": "sety-ii-shrine",
+ "type": "place",
+ "title": "Sety II’s triple bark shrine",
+ "area": "western-entrance",
+ "status": "source_checked",
+ "summary": "The shrine predates the court that later enclosed it.",
+ "orientation": "In the Great Court; its entrance faces south.",
+ "personIds": [
+  "sety-ii",
+  "shoshenq-i"
+ ],
+ "periodIds": [
+  "new-kingdom",
+  "third-intermediate"
+ ],
+ "sources": [
+  "dk-sety-ii-shrine"
+ ],
+ "architecture": [],
+ "lookFor": [],
+ "details": [],
+ "claims": [],
+ "caveats": [],
+ "coveredIn": "great-court"
 }
