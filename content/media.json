@@ -3667,6 +3667,84 @@
       "alt": "A sandstone pylon with two towers and a central doorway under a clear blue sky, a paved path leading to it.",
       "identificationStatus": "Commons title: “Karnak Tempel Chons” (temple of Khonsu, Karnak).",
       "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "hakor-marsupium-03",
+      "path": "assets/photos/hakor-marsupium-03.jpg",
+      "title": "Chapel of Hakor in Karnak 03.jpg",
+      "creator": "Marsupium",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapel_of_Hakor_in_Karnak_03.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Hakor_in_Karnak_03.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Hakor_in_Karnak_03.jpg?width=2560",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Marsupium, CC BY 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "955c51b0a792a69e4be8866ff0283ce2fe30e94f71529fc6e9982215db59c4e2",
+      "bytes": 616150,
+      "placeIds": [
+        "hakoris-chapel",
+        "first-pylon"
+      ],
+      "subjectGroup": "place",
+      "caption": "The chapel of Hakoris with its papyrus columns, and the First Pylon behind it.",
+      "alt": "Ruined sandstone chapel walls and three tall columns with papyrus capitals, a massive pylon tower in the background.",
+      "identificationStatus": "Commons title: “Chapel of Hakor in Karnak”.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "hakor-marsupium-05",
+      "path": "assets/photos/hakor-marsupium-05.jpg",
+      "title": "Chapel of Hakor in Karnak 05.jpg",
+      "creator": "Marsupium",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapel_of_Hakor_in_Karnak_05.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Hakor_in_Karnak_05.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Hakor_in_Karnak_05.jpg?width=2560",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Marsupium, CC BY 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "548d17fc1f3e46154481811aa93dc38b16c372ab247c25461e5b0c219e5024f5",
+      "bytes": 645709,
+      "placeIds": [
+        "hakoris-chapel",
+        "first-pylon"
+      ],
+      "subjectGroup": "place",
+      "caption": "Columns and walls of the chapel of Hakoris.",
+      "alt": "A sandstone wall section with a lintel and a single column with a papyrus capital, surrounded by fallen blocks.",
+      "identificationStatus": "Commons title: “Chapel of Hakor in Karnak”.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "hakor-marsupium-12",
+      "path": "assets/photos/hakor-marsupium-12.jpg",
+      "title": "Chapel of Hakor in Karnak 12.jpg",
+      "creator": "Marsupium",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapel_of_Hakor_in_Karnak_12.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Hakor_in_Karnak_12.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_Hakor_in_Karnak_12.jpg?width=2560",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Marsupium, CC BY 4.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "cdf625af62fccf60ec680bec9be7ba9d916878f08cb669b866968ecc2a05bc17",
+      "bytes": 1241003,
+      "placeIds": [
+        "hakoris-chapel",
+        "first-pylon"
+      ],
+      "subjectGroup": "place",
+      "caption": "Carved relief on a wall of the chapel of Hakoris.",
+      "alt": "Close view of a sandstone wall carved with figures, hieroglyphs and architectural motifs.",
+      "identificationStatus": "Commons title: “Chapel of Hakor in Karnak”.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
     }
   ]
 }
