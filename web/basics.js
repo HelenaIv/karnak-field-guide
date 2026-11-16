@@ -529,7 +529,11 @@ function bsMapDraw() {
   const anchor = el => { const [x, y, r] = mid(el); return [x, y < band ? r.bottom - box.top : r.top - box.top]; };
   const curve = (a, b) => `M${a[0]} ${a[1]}C${a[0]} ${band},${b[0]} ${band},${b[0]} ${b[1]}`;
   let out = '';
-  if (innerWidth > 700) {
+  if (innerWidth <= 700) {
+    const bow = (a, b) => { const dx = Math.max(36, Math.abs(a[1] - b[1]) * .25), side = a[0] < box.width / 2 ? -1 : 1; return `M${a[0]} ${a[1]}C${a[0] + side * dx} ${a[1]},${b[0] + side * dx} ${b[1]},${b[0]} ${b[1]}`; };
+    if (!sel) { const last = mid(nodes[nodes.length - 1]); out = `<path class="bsm-spoke" d="M${c[0]} ${c[1]}V${last[1]}"/>`; }
+    else { const s = wrap.querySelector(`.bsm-node[data-bsnode="${sel}"]`); if (s) { const a = mid(s); out = bsLinksOf(sel).map(l => { const t = wrap.querySelector(`.bsm-node[data-bsnode="${l.other}"]`); return t ? `<path class="bsm-link" style="stroke:${bsGroupOf(l.other).colour}" d="${bow(a, mid(t))}"/>` : ''; }).join(''); } }
+  } else {
     if (!sel) out = nodes.map(n => { const a = anchor(n); return `<path class="bsm-spoke" d="M${a[0]} ${a[1]}C${a[0]} ${band},${c[0]} ${band},${c[0]} ${band}"/>`; }).join('');
     else { const s = wrap.querySelector(`.bsm-node[data-bsnode="${sel}"]`); if (s) { const a = anchor(s); out = bsLinksOf(sel).map(l => { const t = wrap.querySelector(`.bsm-node[data-bsnode="${l.other}"]`); return t ? `<path class="bsm-link" style="stroke:${bsGroupOf(l.other).colour}" d="${curve(a, anchor(t))}"/>` : ''; }).join(''); } }
   }
