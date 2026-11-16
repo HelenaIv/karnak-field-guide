@@ -515,8 +515,8 @@ function bsMapPanel() {
   const id = bsMapState.sel, p = id && bsPageOf(id);
   if (!p) { panel.innerHTML = ''; return; }
   const g = bsGroupOf(id);
-  panel.innerHTML = `<div class="bsm-card" style="--c:${g.colour}"><span class="eyebrow">${esc(g.label)}</span><h3>${bsIcon(id, 'bs-ico bs-ico-lg')}${esc(p.title)}</h3><p>${esc(p.teaser)}</p><a class="mu-stop" href="${bsHrefOf(id)}">Open the page →</a>
-   <h4>How this connects</h4><ul class="bsm-links">${bsLinksOf(id).map(l => `<li><button data-bsnode="${esc(l.other)}" style="--c:${bsGroupOf(l.other).colour}">${bsIcon(l.other)}<b>${esc(bsPageOf(l.other).title)}</b></button><span>${esc(l.text)}</span></li>`).join('')}</ul></div>`;
+  panel.innerHTML = `<div class="bsm-card" style="--c:${g.colour}"><span class="eyebrow">${esc(g.label)}</span><h3>${bsIcon(id, 'bs-ico bs-ico-lg')}${esc(p.title)}</h3><p>${esc(p.teaser)}</p><a class="bsm-open" href="${bsHrefOf(id)}">${bsIcon(id)}<span>Open the page</span><b aria-hidden="true">→</b></a>
+   <h4>How this connects</h4><ul class="bsm-links">${bsLinksOf(id).map(l => `<li><a href="${bsHrefOf(l.other)}" style="--c:${bsGroupOf(l.other).colour}">${bsIcon(l.other)}<b>${esc(bsPageOf(l.other).title)}</b><i aria-hidden="true">→</i></a><span>${esc(l.text)}</span></li>`).join('')}</ul></div>`;
 }
 function bsMapDraw() {
   const wrap = document.querySelector('.bsm'); if (!wrap || typeof wrap.querySelector !== 'function' || typeof wrap.getBoundingClientRect !== 'function') return; const svg = wrap.querySelector('.bsm-lines'); if (!svg) return;
