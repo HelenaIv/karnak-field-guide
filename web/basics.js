@@ -273,7 +273,7 @@ function bsFig(id, caption) { return media[id] ? simpleFigure(id, caption) : '';
 function bsHome() {
   const f = bsData(); const pic = { plan: 'karnak-aerial-from-south', timeline: 'basics-th1-obelisk', gods: 'basics-amun-mut-dyad', building: 'basics-unfinished-obelisk', thebes: 'basics-sphinx-road', rituals: 'basics-bark-shrine-relief', life: 'basics-bark-shrine-relief', universe: 'hypostyle-central-nave', after: 'basics-description-view' };
   return `<div class="page-head"><span class="eyebrow">Background</span><h1>${esc(f.title)}</h1><p>${fmt(f.dek)}</p></div>
-  ${bsMap()}<section class="section" style="padding-top:0"><h2 class="bsm-all">All topics</h2><div class="bs-cards">${f.pages.map(p => { const m = media[pic[p.id]]; return `<a class="bs-card" href="${p.link || '#basics/' + p.id}">${m ? `<span class="bs-card-img"><img src="${esc(m.webPath || m.path)}" alt="" loading="lazy"></span>` : ''}<b>${esc(p.title)}</b><span>${esc(p.teaser)}</span></a>`; }).join('')}</div></section>`;
+  ${bsMap()}<section class="section" style="padding-top:0"><h2 class="bsm-all">All topics</h2><div class="bs-cards">${f.pages.map(p => { const m = media[pic[p.id]]; const g = bsGroupOf(p.id); return `<a class="bs-card" href="${p.link || '#basics/' + p.id}" style="--c:${g ? g.colour : '#b58a4d'}">${m ? `<span class="bs-card-img"><img src="${esc(m.webPath || m.path)}" alt="" loading="lazy"><span class="bs-badge">${bsIcon(p.id)}</span></span>` : ''}<b>${esc(p.title)}</b><span>${esc(p.teaser)}</span></a>`; }).join('')}</div></section>`;
 }
 function bsTimeline() {
   // WHEN and WHO: Egypt's history periods and the kings who built at Karnak. The plan page shows WHERE.
@@ -500,7 +500,7 @@ function bsLinksOf(id) { const c = bsConn(); return c ? c.links.filter(l => l.a 
 function bsGroupOf(id) { return bsConn()?.groups.find(g => g.pages.includes(id)); }
 function bsMap() {
   const c = bsConn(); if (!c) return '';
-  const node = id => { const p = bsPageOf(id), g = bsGroupOf(id); return p ? `<button class="bsm-node" data-bsnode="${esc(id)}" style="--c:${g.colour}" aria-pressed="false"><b>${esc(p.title)}</b></button>` : ''; };
+  const node = id => { const p = bsPageOf(id), g = bsGroupOf(id); return p ? `<button class="bsm-node" data-bsnode="${esc(id)}" style="--c:${g.colour}" aria-pressed="false">${bsIcon(id)}<b>${esc(p.title)}</b></button>` : ''; };
   const group = g => `<div class="bsm-group" style="--c:${g.colour}"><span class="bsm-glabel">${esc(g.label)}</span><div class="bsm-gnodes">${g.pages.map(node).join('')}</div></div>`;
   const [g1, g2, g3, g4] = c.groups;
   return `<section class="section bsm-wrap" style="padding-top:0"><p class="bsm-intro">${esc(c.intro)}</p>
@@ -515,8 +515,8 @@ function bsMapPanel() {
   const id = bsMapState.sel, p = id && bsPageOf(id);
   if (!p) { panel.innerHTML = ''; return; }
   const g = bsGroupOf(id);
-  panel.innerHTML = `<div class="bsm-card" style="--c:${g.colour}"><span class="eyebrow">${esc(g.label)}</span><h3>${esc(p.title)}</h3><p>${esc(p.teaser)}</p><a class="mu-stop" href="${bsHrefOf(id)}">Open the page →</a>
-   <h4>How this connects</h4><ul class="bsm-links">${bsLinksOf(id).map(l => `<li><button data-bsnode="${esc(l.other)}" style="--c:${bsGroupOf(l.other).colour}"><b>${esc(bsPageOf(l.other).title)}</b></button><span>${esc(l.text)}</span></li>`).join('')}</ul></div>`;
+  panel.innerHTML = `<div class="bsm-card" style="--c:${g.colour}"><span class="eyebrow">${esc(g.label)}</span><h3>${bsIcon(id, 'bs-ico bs-ico-lg')}${esc(p.title)}</h3><p>${esc(p.teaser)}</p><a class="mu-stop" href="${bsHrefOf(id)}">Open the page →</a>
+   <h4>How this connects</h4><ul class="bsm-links">${bsLinksOf(id).map(l => `<li><button data-bsnode="${esc(l.other)}" style="--c:${bsGroupOf(l.other).colour}">${bsIcon(l.other)}<b>${esc(bsPageOf(l.other).title)}</b></button><span>${esc(l.text)}</span></li>`).join('')}</ul></div>`;
 }
 function bsMapDraw() {
   const wrap = document.querySelector('.bsm'); if (!wrap || typeof wrap.querySelector !== 'function' || typeof wrap.getBoundingClientRect !== 'function') return; const svg = wrap.querySelector('.bsm-lines'); if (!svg) return;
@@ -538,6 +538,19 @@ function bsMapDraw() {
 function bsMapSelect(id) { bsMapState.sel = bsMapState.sel === id ? '' : id; bsMapPanel(); bsMapDraw(); if (bsMapState.sel && innerWidth <= 700) document.querySelector('.bsm-card')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
 function bsRelated(id) {
   const ls = bsLinksOf(id); if (!ls.length) return '';
-  return `<section class="section bs-related" style="padding-top:10px"><h2>How this connects</h2><div class="bsr-grid">${ls.map(l => { const p = bsPageOf(l.other), g = bsGroupOf(l.other); return p ? `<a class="bsr-card" href="${bsHrefOf(l.other)}" style="--c:${g.colour}"><span class="eyebrow">${esc(g.label)}</span><b>${esc(p.title)}</b><span>${esc(l.text)}</span></a>` : ''; }).join('')}</div><p class="micro"><a href="#basics" style="text-decoration:underline">See how all the big-picture topics fit together</a></p></section>`;
+  return `<section class="section bs-related" style="padding-top:10px"><h2>How this connects</h2><div class="bsr-grid">${ls.map(l => { const p = bsPageOf(l.other), g = bsGroupOf(l.other); return p ? `<a class="bsr-card" href="${bsHrefOf(l.other)}" style="--c:${g.colour}"><span class="bsr-top">${bsIcon(l.other)}<span class="eyebrow">${esc(g.label)}</span></span><b>${esc(p.title)}</b><span>${esc(l.text)}</span></a>` : ''; }).join('')}</div><p class="micro"><a href="#basics" style="text-decoration:underline">See how all the big-picture topics fit together</a></p></section>`;
 }
 if (typeof window !== 'undefined' && window.addEventListener) window.addEventListener('resize', () => { if (document.querySelector('.bsm')) bsMapDraw(); });
+
+// ---------- Small Egyptian-style topic icons (original line drawings) ----------
+const BS_ICONS = {
+  timeline: '<rect x="7" y="2.5" width="10" height="17" rx="5"/><path d="M5.5 21.5h13M12 6.5v2M10 10.5h4M12 12.5v3"/>',
+  plan: '<path d="M2.5 21V7l6-2v16M21.5 21V7l-6-2v16M8.5 21v-7h7v7M2 21h20M8.5 9h7"/>',
+  gods: '<circle cx="12" cy="6" r="3.2"/><path d="M12 9.2V22M6.5 12.5h11"/>',
+  universe: '<circle cx="12" cy="9.5" r="3.5"/><path d="M2 20h20M3.5 20 8 13.5M20.5 20 16 13.5M12 3V1.5M5.5 9.5H4M20 9.5h-1.5"/>',
+  building: '<path d="M10 21V5.5L12 2l2 3.5V21M7 21h10M8 17.5h8"/><path d="M5 21l-2.5 1M19 21l2.5 1" opacity=".6"/>',
+  rituals: '<path d="M2.5 15c3 3.5 16 3.5 19 0M2.5 15 1.5 11.5M21.5 15l1-3.5M9 14.5V10h6v4.5M12 10V7"/><circle cx="12" cy="5.5" r="1.5"/>',
+  thebes: '<path d="M2 18c2-1.5 4 1.5 6 0s4 1.5 6 0 4 1.5 6 0M12 15V6M12 6c-2.5-1-4-3-4.5-4.5M12 6c2.5-1 4-3 4.5-4.5M12 6V2"/>',
+  after: '<path d="M7 21V9.5l2-1.5M11 21v-7M15 21V7l2-1.5V21M3 21h18M9.5 14l3-1.5"/><path d="M13 4.5h4M12.5 3h5" opacity=".6"/>'
+};
+function bsIcon(id, cls = 'bs-ico') { const p = BS_ICONS[id]; return p ? `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true">${p}</svg>` : ''; }

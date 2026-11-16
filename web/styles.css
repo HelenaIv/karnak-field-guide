@@ -410,3 +410,11 @@ a.term{border-bottom:1px dotted var(--gold);color:inherit;text-decoration:none!i
 .reader-tools .text-save:hover{background:#eeebe1}.reader-tools .text-save .bm-ico{width:18px;height:18px}
 .reader-tools .text-save[aria-pressed=true]{background:var(--ink);color:var(--white)}
 @media(max-width:700px){.reader-tools{flex-wrap:wrap;gap:12px}.reader-tools .text-save{font-size:15px;padding:10px 18px 10px 14px}}
+/* Big picture: topic icons */
+.bs-ico{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.bsm-node{display:flex;align-items:center;gap:12px}.bsm-node .bs-ico{color:var(--c);width:28px;height:28px}.bsm-node.on .bs-ico{color:#f1d9a8}.bsm-node.dim .bs-ico{color:#bdb5a3}
+.bsm-card h3{display:flex;align-items:center;gap:12px}.bs-ico-lg{width:34px;height:34px;color:var(--c)}
+.bsm-links button{display:inline-flex;align-items:center;gap:8px}.bsm-links button .bs-ico{color:var(--c);width:20px;height:20px}
+.bsr-top{display:flex;align-items:center;gap:8px}.bsr-top .bs-ico{color:var(--c)}
+.bs-card-img{position:relative}.bs-badge{position:absolute;left:12px;bottom:-18px;width:44px;height:44px;border-radius:50%;background:var(--white);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--c);box-shadow:0 2px 8px #0002}
+.bs-badge .bs-ico{width:24px;height:24px}.bs-card .bs-card-img{overflow:visible}.bs-card .bs-card-img img{display:block}.bs-card b{padding-top:24px}
