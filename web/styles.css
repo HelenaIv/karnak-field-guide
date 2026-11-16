@@ -431,3 +431,4 @@ a.crumb:hover,.crumb-bottom a:hover{border-color:var(--gold);background:#f3ead6}
 .crumb-bottom{display:flex;justify-content:center;padding:10px 5% 50px}
 .crumb-bottom a{font-size:15px;padding:12px 22px 12px 18px}
 @media(max-width:700px){.reader-top{display:flex!important;padding:16px 5% 0}.reader-top>span{display:none}a.crumb{font-size:14px;padding:10px 16px 10px 13px}.crumb-bottom a{width:100%;justify-content:center}}
+.bs-card .bs-card-img{aspect-ratio:1.5;height:auto}.bs-card .bs-card-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
