@@ -273,7 +273,7 @@ function bsFig(id, caption) { return media[id] ? simpleFigure(id, caption) : '';
 function bsHome() {
   const f = bsData(); const pic = { plan: 'karnak-aerial-from-south', timeline: 'basics-th1-obelisk', gods: 'basics-amun-mut-dyad', building: 'basics-unfinished-obelisk', thebes: 'basics-sphinx-road', rituals: 'basics-bark-shrine-relief', life: 'basics-bark-shrine-relief', universe: 'hypostyle-central-nave', after: 'basics-description-view' };
   return `<div class="page-head"><span class="eyebrow">Background</span><h1>${esc(f.title)}</h1><p>${fmt(f.dek)}</p></div>
-  <section class="section" style="padding-top:0"><div class="bs-cards">${f.pages.map(p => { const m = media[pic[p.id]]; return `<a class="bs-card" href="${p.link || '#basics/' + p.id}">${m ? `<span class="bs-card-img"><img src="${esc(m.webPath || m.path)}" alt="" loading="lazy"></span>` : ''}<b>${esc(p.title)}</b><span>${esc(p.teaser)}</span></a>`; }).join('')}</div></section>`;
+  ${bsMap()}<section class="section" style="padding-top:0"><h2 class="bsm-all">All topics</h2><div class="bs-cards">${f.pages.map(p => { const m = media[pic[p.id]]; return `<a class="bs-card" href="${p.link || '#basics/' + p.id}">${m ? `<span class="bs-card-img"><img src="${esc(m.webPath || m.path)}" alt="" loading="lazy"></span>` : ''}<b>${esc(p.title)}</b><span>${esc(p.teaser)}</span></a>`; }).join('')}</div></section>`;
 }
 function bsTimeline() {
   // WHEN and WHO: Egypt's history periods and the kings who built at Karnak. The plan page shows WHERE.
@@ -465,16 +465,19 @@ function bsRituals() {
 }
 function basicsRoute(sub, arg) {
   if (!bsData()) return '<div class="page-head"><h1>This section is not in this build.</h1></div>';
-  if (sub === 'plan') return bsPlanPage(arg);
-  return ({ timeline: bsTimeline, gods: bsGods, building: bsBuilding, thebes: bsThebes, life: bsRituals, rituals: bsRituals, after: bsAfter }[sub] || bsHome)();
+  if (sub === 'plan') return bsPlanPage(arg) + bsRelated('plan');
+  const fn = { timeline: bsTimeline, gods: bsGods, building: bsBuilding, thebes: bsThebes, life: bsRituals, rituals: bsRituals, after: bsAfter }[sub];
+  return fn ? fn() + bsRelated(sub === 'life' ? 'rituals' : sub) : bsHome();
 }
 function basicsAfterRender() {
   if (document.querySelector('.bp-svg-wrap')) bsRenderPlan();
   if (document.querySelector('.tl2')) bsTimelineWatch();
   document.querySelectorAll('.bs-stepper').forEach(b => bsSetStep(b, 0));
+  if (document.querySelector('.bsm')) { bsMapPanel(); setTimeout(bsMapDraw, 30); }
 }
 function basicsInteract(e) {
   const t = e.target;
+  const bn = t.closest('[data-bsnode]'); if (bn) { bsMapSelect(bn.dataset.bsnode); return true; }
   const mv = t.closest('[data-bp-move]'); if (mv) { bsState.step = Math.max(0, Math.min(bsData().growth.steps.length, bsState.step + +mv.dataset.bpMove)); bsRenderPlan(); return true; }
   const sp = t.closest('[data-bp-step]'); if (sp) { bsState.step = +sp.dataset.bpStep; bsRenderPlan(); if (sp.classList.contains('bp-go')) document.querySelector('.bp-stage')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); return true; }
   const jp = t.closest('[data-bp-jump]'); if (jp) { bsState.step = +jp.dataset.bpJump; bsRenderPlan(); document.querySelector('.bp-stage')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); return true; }
@@ -487,3 +490,54 @@ function basicsInteract(e) {
 function basicsInput(e) {
   if (e.target.matches('[data-bp-lost]')) { bsState.lost = e.target.checked; bsRenderPlan(); }
 }
+
+// ---------- Connection map (big picture home) and "How this connects" strips ----------
+const bsMapState = { sel: '' };
+function bsConn() { return bsData()?.connections; }
+function bsPageOf(id) { return bsData().pages.find(p => p.id === id); }
+function bsHrefOf(id) { const p = bsPageOf(id); return p ? (p.link || '#basics/' + p.id) : '#basics'; }
+function bsLinksOf(id) { const c = bsConn(); return c ? c.links.filter(l => l.a === id || l.b === id).map(l => ({ other: l.a === id ? l.b : l.a, text: l.text })) : []; }
+function bsGroupOf(id) { return bsConn()?.groups.find(g => g.pages.includes(id)); }
+function bsMap() {
+  const c = bsConn(); if (!c) return '';
+  const node = id => { const p = bsPageOf(id), g = bsGroupOf(id); return p ? `<button class="bsm-node" data-bsnode="${esc(id)}" style="--c:${g.colour}" aria-pressed="false"><b>${esc(p.title)}</b></button>` : ''; };
+  const group = g => `<div class="bsm-group" style="--c:${g.colour}"><span class="bsm-glabel">${esc(g.label)}</span><div class="bsm-gnodes">${g.pages.map(node).join('')}</div></div>`;
+  const [g1, g2, g3, g4] = c.groups;
+  return `<section class="section bsm-wrap" style="padding-top:0"><p class="bsm-intro">${esc(c.intro)}</p>
+  <div class="bsm"><svg class="bsm-lines" aria-hidden="true"></svg>
+   <div class="bsm-row">${group(g1)}${group(g2)}</div>
+   <div class="bsm-centre"><span>${esc(c.centre)}</span></div>
+   <div class="bsm-row bsm-low">${group(g3)}${group(g4)}</div></div>
+  <div class="bsm-panel" aria-live="polite"></div></section>`;
+}
+function bsMapPanel() {
+  const panel = document.querySelector('.bsm-panel'); if (!panel) return;
+  const id = bsMapState.sel, p = id && bsPageOf(id);
+  if (!p) { panel.innerHTML = ''; return; }
+  const g = bsGroupOf(id);
+  panel.innerHTML = `<div class="bsm-card" style="--c:${g.colour}"><span class="eyebrow">${esc(g.label)}</span><h3>${esc(p.title)}</h3><p>${esc(p.teaser)}</p><a class="mu-stop" href="${bsHrefOf(id)}">Open the page →</a>
+   <h4>How this connects</h4><ul class="bsm-links">${bsLinksOf(id).map(l => `<li><button data-bsnode="${esc(l.other)}" style="--c:${bsGroupOf(l.other).colour}"><b>${esc(bsPageOf(l.other).title)}</b></button><span>${esc(l.text)}</span></li>`).join('')}</ul></div>`;
+}
+function bsMapDraw() {
+  const wrap = document.querySelector('.bsm'); if (!wrap || typeof wrap.querySelector !== 'function' || typeof wrap.getBoundingClientRect !== 'function') return; const svg = wrap.querySelector('.bsm-lines'); if (!svg) return;
+  const box = wrap.getBoundingClientRect(); svg.setAttribute('viewBox', `0 0 ${box.width} ${box.height}`);
+  const mid = el => { const r = el.getBoundingClientRect(); return [r.left - box.left + r.width / 2, r.top - box.top + r.height / 2, r]; };
+  const centre = wrap.querySelector('.bsm-centre span'), sel = bsMapState.sel;
+  const nodes = [...wrap.querySelectorAll('.bsm-node')];
+  nodes.forEach(n => { const on = n.dataset.bsnode === sel, rel = sel && bsLinksOf(sel).some(l => l.other === n.dataset.bsnode); n.classList.toggle('on', on); n.classList.toggle('rel', !!rel); n.classList.toggle('dim', !!sel && !on && !rel); n.setAttribute('aria-pressed', on); });
+  const c = mid(centre), band = c[1];
+  const anchor = el => { const [x, y, r] = mid(el); return [x, y < band ? r.bottom - box.top : r.top - box.top]; };
+  const curve = (a, b) => `M${a[0]} ${a[1]}C${a[0]} ${band},${b[0]} ${band},${b[0]} ${b[1]}`;
+  let out = '';
+  if (innerWidth > 700) {
+    if (!sel) out = nodes.map(n => { const a = anchor(n); return `<path class="bsm-spoke" d="M${a[0]} ${a[1]}C${a[0]} ${band},${c[0]} ${band},${c[0]} ${band}"/>`; }).join('');
+    else { const s = wrap.querySelector(`.bsm-node[data-bsnode="${sel}"]`); if (s) { const a = anchor(s); out = bsLinksOf(sel).map(l => { const t = wrap.querySelector(`.bsm-node[data-bsnode="${l.other}"]`); return t ? `<path class="bsm-link" style="stroke:${bsGroupOf(l.other).colour}" d="${curve(a, anchor(t))}"/>` : ''; }).join(''); } }
+  }
+  svg.innerHTML = out;
+}
+function bsMapSelect(id) { bsMapState.sel = bsMapState.sel === id ? '' : id; bsMapPanel(); bsMapDraw(); if (bsMapState.sel && innerWidth <= 700) document.querySelector('.bsm-card')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
+function bsRelated(id) {
+  const ls = bsLinksOf(id); if (!ls.length) return '';
+  return `<section class="section bs-related" style="padding-top:10px"><h2>How this connects</h2><div class="bsr-grid">${ls.map(l => { const p = bsPageOf(l.other), g = bsGroupOf(l.other); return p ? `<a class="bsr-card" href="${bsHrefOf(l.other)}" style="--c:${g.colour}"><span class="eyebrow">${esc(g.label)}</span><b>${esc(p.title)}</b><span>${esc(l.text)}</span></a>` : ''; }).join('')}</div><p class="micro"><a href="#basics" style="text-decoration:underline">See how all the big-picture topics fit together</a></p></section>`;
+}
+if (typeof window !== 'undefined' && window.addEventListener) window.addEventListener('resize', () => { if (document.querySelector('.bsm')) bsMapDraw(); });

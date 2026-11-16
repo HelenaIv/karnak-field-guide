@@ -1767,5 +1767,109 @@
         }
       ]
     }
+  },
+  "connections": {
+    "intro": "These topics are parts of one story. Tap a topic to see how it connects to the others.",
+    "centre": "Karnak",
+    "groups": [
+      {
+        "id": "who",
+        "label": "Who built it, and when",
+        "pages": [
+          "timeline",
+          "plan"
+        ],
+        "colour": "#8e6c3f"
+      },
+      {
+        "id": "meaning",
+        "label": "What it meant",
+        "pages": [
+          "gods",
+          "universe"
+        ],
+        "colour": "#3f6b4e"
+      },
+      {
+        "id": "working",
+        "label": "How it worked",
+        "pages": [
+          "building",
+          "rituals"
+        ],
+        "colour": "#9b4433"
+      },
+      {
+        "id": "around",
+        "label": "Around it, and afterwards",
+        "pages": [
+          "thebes",
+          "after"
+        ],
+        "colour": "#3f6fb0"
+      }
+    ],
+    "links": [
+      {
+        "id": "timeline-plan",
+        "a": "timeline",
+        "b": "plan",
+        "text": "The kings on the timeline are the builders who add each part on the plan."
+      },
+      {
+        "id": "gods-timeline",
+        "a": "gods",
+        "b": "timeline",
+        "text": "Amun rose with the Theban kings who won Egypt, and each victory brought him a bigger temple."
+      },
+      {
+        "id": "gods-universe",
+        "a": "gods",
+        "b": "universe",
+        "text": "The temple was Amun’s house and also a model of the world at the moment of creation."
+      },
+      {
+        "id": "gods-rituals",
+        "a": "gods",
+        "b": "rituals",
+        "text": "The rituals were the daily care of Amun and the festivals that carried him out of his house."
+      },
+      {
+        "id": "rituals-thebes",
+        "a": "rituals",
+        "b": "thebes",
+        "text": "The great processions left Karnak for Luxor Temple and the west bank of Thebes."
+      },
+      {
+        "id": "building-plan",
+        "a": "building",
+        "b": "plan",
+        "text": "Kings packed old buildings inside new ones, so the plan grew by covering what came before."
+      },
+      {
+        "id": "universe-plan",
+        "a": "universe",
+        "b": "plan",
+        "text": "The floor rises, the roof drops and the light fades as you follow the plan from the gateway to the sanctuary."
+      },
+      {
+        "id": "after-building",
+        "a": "after",
+        "b": "building",
+        "text": "Blocks hidden inside the pylons were found in modern times and rebuilt by archaeologists."
+      },
+      {
+        "id": "after-timeline",
+        "a": "after",
+        "b": "timeline",
+        "text": "The story goes on after the last pharaohs: churches, sand, rediscovery and restoration."
+      },
+      {
+        "id": "thebes-gods",
+        "a": "thebes",
+        "b": "gods",
+        "text": "Amun’s wife Mut had her own precinct just south of the Amun precinct, linked to it by a sphinx road."
+      }
+    ]
   }
 }
