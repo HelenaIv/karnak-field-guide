@@ -2850,9 +2850,7 @@
       "retrieved": "2026-11-16",
       "sha256": "df7e34046e5bdb6b9a344da963c2710cbbd522c1003ff86b5bd0ab4253b8867f",
       "bytes": 126113,
-      "placeIds": [
-        "khonsu-temple"
-      ],
+      "placeIds": [],
       "subjectGroup": "own",
       "caption": "The pylon of the Khonsu temple, seen from the front.",
       "alt": "A complete stone pylon with a central doorway; two shadows on the ground in front.",
@@ -2896,10 +2894,10 @@
       "licenseUrl": "#credits",
       "attribution": "Photo: Helena Ivanova, used with permission.",
       "attributionPlacement": "Credit beside the image or video.",
-      "changes": "Resized for the web; no other changes.",
+      "changes": "Cropped top and bottom to frame the gate (removed sky and gravel); no other changes.",
       "retrieved": "2026-11-16",
-      "sha256": "28356e61a8d226ac28de8957beef3b09def5a5a77da2f83794772f4c36a90e12",
-      "bytes": 144500,
+      "sha256": "0dfaaf58da88c0d19b50ee07f778e0b90e6fa1047d3af252782c73b78bac2a12",
+      "bytes": 90425,
       "placeIds": [
         "bab-el-amara"
       ],
@@ -3643,6 +3641,31 @@
       "caption": "Granodiorite statues of Sekhmet from the temple of Mut in the Egyptian Sculpture Gallery of the British Museum.",
       "alt": "A seated and a standing statue of a lion-headed goddess in dark stone, displayed in a museum gallery.",
       "identificationStatus": "Commons description: statues of Sekhmet from the Temple of Mut, Karnak, British Museum, photographed 2017.",
+      "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
+    },
+    {
+      "id": "khonsu-tausch-03",
+      "path": "assets/photos/khonsu-tausch-03.jpg",
+      "title": "Karnak Tempel Chons 03.jpg",
+      "creator": "Olaf Tausch",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak_Tempel_Chons_03.jpg",
+      "originalUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Tempel_Chons_03.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karnak_Tempel_Chons_03.jpg?width=2560",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Olaf Tausch, CC BY 3.0, via Wikimedia Commons.",
+      "attributionPlacement": "Beside image and in downloadable credits; link source and licence.",
+      "changes": "Wikimedia-generated rendition, resized to 2048 px for the web; no crop or colour change.",
+      "retrieved": "2026-11-16",
+      "sha256": "3a1c8a520c2d8283080b63382ff62d1a25fae761faf443759dcb62f654b363cb",
+      "bytes": 492456,
+      "placeIds": [
+        "khonsu-temple"
+      ],
+      "subjectGroup": "place",
+      "caption": "The pylon of the temple of Khonsu, seen from the front.",
+      "alt": "A sandstone pylon with two towers and a central doorway under a clear blue sky, a paved path leading to it.",
+      "identificationStatus": "Commons title: “Karnak Tempel Chons” (temple of Khonsu, Karnak).",
       "distributionStatus": "Commercial reuse permitted subject to the recorded licence conditions."
     }
   ]
