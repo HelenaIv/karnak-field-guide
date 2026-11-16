@@ -7,7 +7,7 @@ Last updated: 2026-11-15. Repository: HelenaIv/karnak-field-guide, branch main.
 1. `docs/PROJECT_REQUIREMENTS.md` — owner-confirmed decisions and questions that remain unanswered.
 2. `docs/DETAIL_ENTRY_STANDARD.md` — detailed learning, not a generic highlights guide.
 3. `docs/TECHNOLOGY_ARCHITECTURE.md` — confirmed WordPress/JetEngine backend and proposed offline/store architecture.
-   `docs/PLATFORM_PLAN.md` — phased plan (2026-11-16) for JetEngine data model, git↔WP sync, app and public site; lists open owner decisions.
+   WordPress implementation lives in the separate repo `../karnak-wp` (plan: `karnak-wp/docs/PLATFORM_PLAN.md`). Keep WP work out of this repo.
 4. `docs/RESEARCH_ARCHITECTURE.md`, `docs/EDITORIAL_STANDARDS.md`, `research/2026-11-13-source-review.md`.
 5. `content/index.json` and `docs/logs/2026-11-13.md`.
 
@@ -35,7 +35,7 @@ Latest work and decisions are in `docs/logs/` (newest file last). `git log` is t
 1. Owner wants detail photos (walls, reliefs) for every finished article, like the Opet section: add 4–7 openly licensed photos per article via `mediaIds` (method in `docs/logs/2026-11-16.md`). Sacred Lake, Open Air Museum, Osiris chapels and Mut precinct guides done 2026-11-16 (still need extra detail photos). Only the Chapel of Hakoris (by the quay, west of the First Pylon) still lacks a guide; then detail photos per article. Ask the owner whether `own-pylon-seated-colossi-2023` is the Eighth Pylon. Small monuments inside a bigger place become sections of its article (`SM_IN` in `web/sitemap.js`, record reduced to a stub with `coveredIn`).
 2. Optional: confirm places for own photos `own-court-with-painted-columns`, `own-painted-architrave-pillars`, `own-relief-king-and-isis`; add `placeIds` only when confirmed. `video-ruins-pan` not used (place unknown).
 3. Second Pylon has no own photo; swap in one if the owner supplies it.
-4. Platform: owner to answer the decisions in `docs/PLATFORM_PLAN.md` section 9 (website rendering, Ukrainian editing, switch timing, hosting). App/PWA work (phase 4) can start on git content without WordPress.
+4. Platform: Hybrid site chosen; WordPress is the editable database only, existing build and interactive illustrations stay. Work continues in `../karnak-wp`. App/PWA work (phase 4) can start on git content without WordPress.
 5. Older open items: see `docs/RESEARCH_BACKLOG.md` and `docs/HALL_WORKPLAN.md`.
 
 ## Validation and preservation
