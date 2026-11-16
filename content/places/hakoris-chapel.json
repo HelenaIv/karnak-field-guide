@@ -52,9 +52,10 @@
     }
   ],
   "caveats": [
-    "Field access and demonstration viewpoints are unverified; this is an editorial research draft."
+    "Field access and viewpoints are unverified."
   ],
   "sources": [
     "dk-hakoris-chapel"
-  ]
+  ],
+  "coveredIn": "first-pylon"
 }

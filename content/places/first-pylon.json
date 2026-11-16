@@ -37,7 +37,8 @@
     "egyptology-nl-karnak",
     "hmdb-great-forecourt",
     "lascar-commons-first-pylon",
-    "memphis-constructing-hall"
+    "memphis-constructing-hall",
+    "dk-hakoris-chapel"
   ],
   "personIds": [
     "nectanebo-i"
@@ -195,6 +196,24 @@
           {
             "sourceId": "dehaan-karnak-guide",
             "locator": "Forecourt and First Court: avenue 52 m long, Pinedjem’s text on the bases; sphinxes rearranged when the court was built; sphinxes along the court’s north and south sides"
+          }
+        ]
+      },
+      {
+        "id": "hakoris",
+        "heading": "In front: the chapel of Hakoris",
+        "paragraphs": [
+          "Just outside the pylon, beside the processional way, stand the remains of a small rectangular chapel built by King Hakoris (393–380 BC). It was a resting place for the portable bark of Amun-Ra on its processional journeys outside the temple. Its western half was open, with papyrus columns and low screen walls, while the eastern half was more enclosed.",
+          "The chapel has two doorways, one on the west and one on the north. According to Digital Karnak, the bark could be carried in from the river through the north door with its prow facing north, and carried out again through the west door, prow still to the north, without being turned as it entered the temple precinct. A small granite platform at the back let the priests set the bark down while they changed position. The chapel was built of sandstone and black granite, and the lintel over the west door was a wooden beam 8.25 m long."
+        ],
+        "look": [
+          "The two doorways, on the west and north sides, and the granite platform at the back."
+        ],
+        "detailId": "hakoris-bark-turn",
+        "citations": [
+          {
+            "sourceId": "dk-hakoris-chapel",
+            "locator": "Introduction; Phases of Construction: Hakoris"
           }
         ]
       }
