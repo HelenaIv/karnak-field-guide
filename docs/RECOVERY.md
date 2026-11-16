@@ -7,6 +7,7 @@ Last updated: 2026-11-15. Repository: HelenaIv/karnak-field-guide, branch main.
 1. `docs/PROJECT_REQUIREMENTS.md` — owner-confirmed decisions and questions that remain unanswered.
 2. `docs/DETAIL_ENTRY_STANDARD.md` — detailed learning, not a generic highlights guide.
 3. `docs/TECHNOLOGY_ARCHITECTURE.md` — confirmed WordPress/JetEngine backend and proposed offline/store architecture.
+   Installable offline app (PWA for iPhone/Android/desktop) lives in the separate repo `../karnak-app`; it builds from this repo's `dist/`.
    WordPress implementation lives in the separate repo `../karnak-wp` (plan: `karnak-wp/docs/PLATFORM_PLAN.md`). Keep WP work out of this repo.
 4. `docs/RESEARCH_ARCHITECTURE.md`, `docs/EDITORIAL_STANDARDS.md`, `research/2026-11-13-source-review.md`.
 5. `content/index.json` and `docs/logs/2026-11-13.md`.
