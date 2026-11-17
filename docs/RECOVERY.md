@@ -33,6 +33,8 @@ Latest work and decisions are in `docs/logs/` (newest file last). `git log` is t
 
 ## Exact next work
 
+- Valley of the Kings: collecting area `content/valley-of-the-kings/` (see its README), images in `E:\Karnak\images\valley-of-the-kings`. Ask the owner which tombs to start with and how it joins the site.
+
 1. Owner wants detail photos (walls, reliefs) for every finished article, like the Opet section: add 4–7 openly licensed photos per article via `mediaIds` (method in `docs/logs/2026-11-16.md`). Sacred Lake, Open Air Museum, Osiris chapels and Mut precinct guides done 2026-11-16 (still need extra detail photos). Only the Chapel of Hakoris (by the quay, west of the First Pylon) still lacks a guide; then detail photos per article. Ask the owner whether `own-pylon-seated-colossi-2023` is the Eighth Pylon. Small monuments inside a bigger place become sections of its article (`SM_IN` in `web/sitemap.js`, record reduced to a stub with `coveredIn`).
 2. Optional: confirm places for own photos `own-court-with-painted-columns`, `own-painted-architrave-pillars`, `own-relief-king-and-isis`; add `placeIds` only when confirmed. `video-ruins-pan` not used (place unknown).
 3. Second Pylon has no own photo; swap in one if the owner supplies it.
