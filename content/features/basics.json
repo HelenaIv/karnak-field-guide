@@ -86,6 +86,11 @@
       "teaser": "Why a local god became king of the gods, and how to recognise his family on the walls."
     },
     {
+      "id": "religion",
+      "title": "Main ideas of Egyptian religion",
+      "teaser": "Order and chaos, many gods, creation, the sun’s journey, the soul and the judgement of the dead: the ideas behind the walls."
+    },
+    {
       "id": "building",
       "title": "How it was built",
       "teaser": "Quarries, boats, mud-brick ramps, obelisks, and old temples hidden inside new ones."
@@ -1786,7 +1791,8 @@
         "label": "What it meant",
         "pages": [
           "gods",
-          "universe"
+          "universe",
+          "religion"
         ],
         "colour": "#3f6b4e"
       },
@@ -1869,7 +1875,515 @@
         "a": "thebes",
         "b": "gods",
         "text": "Amun’s wife Mut had her own precinct just south of the Amun precinct, linked to it by a sphinx road."
+      },
+      {
+        "id": "religion-gods",
+        "a": "religion",
+        "b": "gods",
+        "text": "Amun of Karnak is one god among many, and a joined one: Amun-Ra, hidden power and sun in one."
+      },
+      {
+        "id": "religion-universe",
+        "a": "religion",
+        "b": "universe",
+        "text": "The creation story, from the dark water to the first mound, is built into the temple itself."
+      },
+      {
+        "id": "religion-rituals",
+        "a": "religion",
+        "b": "rituals",
+        "text": "Every ritual was one half of an exchange: the king gives, the gods give back."
       }
     ]
+  },
+  "religion": {
+    "title": "Main ideas of Egyptian religion",
+    "intro": "Egyptian religion had no single holy book and no creed. It was a web of ideas that lived side by side: new ideas were added to old ones rather than replacing them. Seven of them explain most of what you see on the walls of Karnak.",
+    "introCitations": [
+      {
+        "sourceId": "met-divine-egypt",
+        "locator": "Creation: many accounts presented as equally valid; mythology was additive"
+      },
+      {
+        "sourceId": "ucl-deities-creation",
+        "locator": "On ‘myth’: no single Egyptian narration"
+      }
+    ],
+    "hub": [
+      {
+        "id": "maat",
+        "label": "Order",
+        "short": "Maat, and the king who keeps it"
+      },
+      {
+        "id": "gods",
+        "label": "Gods",
+        "short": "Many gods, many forms"
+      },
+      {
+        "id": "creation",
+        "label": "Creation",
+        "short": "How the world began"
+      },
+      {
+        "id": "sun",
+        "label": "The sun",
+        "short": "The daily journey of Ra"
+      },
+      {
+        "id": "exchange",
+        "label": "Temple",
+        "short": "A gift for a gift"
+      },
+      {
+        "id": "person",
+        "label": "The person",
+        "short": "Body, ka, ba, shadow, akh"
+      },
+      {
+        "id": "judgement",
+        "label": "Judgement",
+        "short": "The weighing of the heart"
+      }
+    ],
+    "maat": {
+      "heading": "Maat: the right order of things",
+      "text": "[[maat|Maat]] means what is right: truth, justice and the proper order of the world. Maat was also a goddess, who wears an ostrich feather. Order was not automatic. The gods kept it in the sky, and on earth the king had to keep it.",
+      "duties": [
+        {
+          "id": "judge",
+          "label": "Judge between people",
+          "text": "Settle disputes fairly. Justice among people was part of the order of the world."
+        },
+        {
+          "id": "content",
+          "label": "Keep the gods content",
+          "text": "Look after the gods, above all through their temples and their rituals."
+        },
+        {
+          "id": "right",
+          "label": "Make right happen",
+          "text": "Bring about maat: truth, justice and order."
+        },
+        {
+          "id": "wrong",
+          "label": "Destroy what is wrong",
+          "text": "Drive back disorder. The text does not spell out war and taxes, but behind these words lie the army and the economy too."
+        },
+        {
+          "id": "gods-offer",
+          "label": "Offer to the gods",
+          "text": "Present food, drink, incense and other gifts to the gods, every day, in the king’s name."
+        },
+        {
+          "id": "dead-offer",
+          "label": "Offer to the dead",
+          "text": "Speak offerings for the blessed dead, so the ancestors are remembered and fed."
+        }
+      ],
+      "dutiesIntro": "A religious text known from the New Kingdom says why the sun god put the king on earth. Tap each duty.",
+      "deeper": "Notice what the list leaves out: armies, taxes, trade. The same kings’ annals are full of expeditions, tribute and war. In religious texts kingship is described as justice and ritual; the power and the economy are hidden inside the phrase “destroy what is wrong”.",
+      "karnak": "At Karnak: in many wall scenes the king holds out a small figure of Maat to the god. He is offering order itself.",
+      "citations": [
+        {
+          "sourceId": "met-divine-egypt",
+          "locator": "Ruling the Cosmos: Maat, the embodiment of “what is right”, wears an ostrich feather"
+        },
+        {
+          "sourceId": "ucl-king-duties",
+          "locator": "What does a king have to do? (text after Assmann 1970) and commentary"
+        },
+        {
+          "sourceId": "memphis-scene-types",
+          "locator": "Classification of scenes: offering a symbol of Maat"
+        }
+      ]
+    },
+    "gods": {
+      "heading": "Many gods, many forms",
+      "text": "Each divine name marked out one part of existence that the Egyptians held sacred: the sun, the flood, writing, motherhood, fury. A god could look human, animal or both, could share roles with other gods, and could change over the centuries.",
+      "headsIntro": "In temple art the head tells you the theme; the body shows what the god is doing. Tap a head.",
+      "heads": [
+        {
+          "id": "falcon",
+          "label": "Falcon",
+          "text": "Horus, the god of kingship: every king identified with him. But other gods can be falcon-headed too, such as Re-Harakhty, Montu and Sokar.",
+          "mediaId": "own-relief-king-bouquet-falcon-god"
+        },
+        {
+          "id": "lion",
+          "label": "Lioness",
+          "text": "Fury. Any goddess shown in her fury can have a lion’s head. The best known is Sekhmet, “the mighty goddess”.",
+          "mediaId": "mut-sekhmet-tausch-2011"
+        },
+        {
+          "id": "cow",
+          "label": "Cow horns",
+          "text": "Motherly love. A goddess with cow horns and a sun disk on her head is often Hathor, who took many forms.",
+          "mediaId": "own-relief-king-and-isis"
+        },
+        {
+          "id": "ibis",
+          "label": "Ibis",
+          "text": "Thoth, god of knowledge, writing and calculation, the scribe of the gods. He also appears as a baboon."
+        },
+        {
+          "id": "jackal",
+          "label": "Jackal",
+          "text": "Anubis, god of embalming, who prepares the dead for eternity."
+        },
+        {
+          "id": "human",
+          "label": "Human",
+          "text": "Many gods are fully human and are known by their crowns and objects. Amun wears a tall crown of two plumes.",
+          "mediaId": "basics-bark-shrine-relief"
+        }
+      ],
+      "deeper": "A divine name is not a person with a biography. It marks out an area of divine power, which is why names join and split so easily, and why a lion head can belong to several goddesses. Egyptian sources group the gods in three ways: in the cosmos (sun, earth, sky), in a place (the chief god of each city: Amun of Thebes), and in words (hymns, rituals and myths). An A–Z of gods hides this; each name needs its context.",
+      "fusion": {
+        "heading": "Gods could join and split",
+        "a": "Amun",
+        "aText": "the hidden power, everywhere",
+        "b": "Ra",
+        "bText": "the sun, source of all light",
+        "ab": "Amun-Ra",
+        "abText": "one god with both powers: the god of Karnak",
+        "split": "A name could also split: Horus the elder, at full power, and Horus the child, a power still growing."
+      },
+      "citations": [
+        {
+          "sourceId": "ucl-deities-index",
+          "locator": "Introduction; Fissioning and fusing names; Iconography"
+        },
+        {
+          "sourceId": "met-divine-egypt",
+          "locator": "Introduction; Expressing the Divine; Ruling the Cosmos"
+        },
+        {
+          "sourceId": "ucl-deities-creation",
+          "locator": "Other aspects of creation: Thoth, Anubis; The reign of Ra: Sekhmet"
+        },
+        {
+          "sourceId": "hall-amun",
+          "locator": "Amun’s iconography"
+        }
+      ]
+    },
+    "creation": {
+      "heading": "Before the world, and how it began",
+      "text": "Egyptians described creation in several ways at once and did not see them as rivals. The pictures came from the Nile: every autumn the fields rose out of the flood water, covered in fresh black mud.",
+      "eightHeading": "Before creation: four kinds of nothing",
+      "eightIntro": "Before the world, there were four absences, each a male and a female, perhaps for both halves of human life, and four, perhaps for the four directions. Tap a pair.",
+      "eight": [
+        {
+          "id": "water",
+          "names": "Nun and Nunet",
+          "word": "watery expanse",
+          "text": "Nothing solid: only water."
+        },
+        {
+          "id": "time",
+          "names": "Heh and Hehet",
+          "word": "unending time",
+          "text": "No time: nothing begins or ends."
+        },
+        {
+          "id": "dark",
+          "names": "Kek and Keket",
+          "word": "darkness",
+          "text": "No light at all."
+        },
+        {
+          "id": "way",
+          "names": "Tenem and Tenemet",
+          "word": "to wander",
+          "text": "No direction. Later texts often put Amun and Amunet, “hidden”, in their place: no sight."
+        }
+      ],
+      "emergeHeading": "The creator appears",
+      "emergeText": "The sun god, called Ra and also Atum, “the complete one”, held all things inside himself. Creation was an unfolding: the one became many. Texts picture the first moment in different ways.",
+      "emerge": [
+        {
+          "id": "mound",
+          "label": "A mound",
+          "text": "The first dry ground rises from the water: the first sacred place. Temples were said to stand on this mound."
+        },
+        {
+          "id": "heron",
+          "label": "A heron",
+          "text": "A heron lands on the first dry ground. Its name, benu, may lie behind the Greek phoenix."
+        },
+        {
+          "id": "lotus",
+          "label": "A lotus",
+          "text": "A lotus flower rises out of the water. In the New Kingdom and later this image belongs to Nefertem, the lotus at the nose of Ra."
+        }
+      ],
+      "familyHeading": "The first family of gods",
+      "familyIntro": "From the creator came pairs, each more solid than the last, down to the gods who rule the world now. Tap a name.",
+      "family": [
+        {
+          "id": "ra",
+          "name": "Ra-Atum",
+          "text": "The sun god, first creator and first ruler of the world."
+        },
+        {
+          "id": "shu",
+          "name": "Shu",
+          "text": "Dryness and air, the creator’s first son. He holds earth and sky apart."
+        },
+        {
+          "id": "tefnut",
+          "name": "Tefnut",
+          "text": "Moisture, the creator’s first daughter. Some texts equate her with Maat."
+        },
+        {
+          "id": "geb",
+          "name": "Geb",
+          "text": "The earth."
+        },
+        {
+          "id": "nut",
+          "name": "Nut",
+          "text": "The sky, which the Egyptians thought of as watery."
+        },
+        {
+          "id": "osiris",
+          "name": "Osiris",
+          "text": "The good god. Murdered by his brother Seth, revived by Isis, he became ruler of the dead."
+        },
+        {
+          "id": "isis",
+          "name": "Isis",
+          "text": "The great healer. She gathered Osiris’s body and conceived their son Horus."
+        },
+        {
+          "id": "seth",
+          "name": "Seth",
+          "text": "The disorderly brother who killed Osiris and took his throne. In some versions he is given the deserts."
+        },
+        {
+          "id": "nephthys",
+          "name": "Nephthys",
+          "text": "Sister of Isis and Osiris. With Isis she mourns him."
+        },
+        {
+          "id": "horus",
+          "name": "Horus",
+          "text": "Son of Osiris and Isis. He beat Seth and became king. Every king on earth was a Horus."
+        }
+      ],
+      "familyNote": "Egyptians usually spoke of a large group of gods as “the Nine” (Greek: the Ennead). Elsewhere, at Memphis, the god Ptah was said to have made the world and the gods by speaking.",
+      "story": {
+        "heading": "Why the sun god lives in the sky",
+        "text": "A New Kingdom text, the Book of the Heavenly Cow, tells how people rebelled against the ageing sun god. He sent out his Eye, as his daughter, to punish them. As Sekhmet, “the mighty goddess”, she almost wiped out humankind. The gods saved the rest by colouring a lake of beer red like blood; she drank, grew sweetly drunk and turned back into loving, motherly Hathor. Ra withdrew to the sky."
+      },
+      "people": "No Egyptian text tells how people were made: they are simply there, early in the story. One account says they came from the sun god’s tears, a play on words: in Egyptian, the word for “people” sounds like the word “to weep”.",
+      "deeper": "Books often speak of a “Hermopolitan” and a “Heliopolitan” theology, as if rival cities had rival myths. In fact we do not know where or when these ideas arose, and they do not compete: the Eight describe the state before creation, the sun god’s family carries the story on. Early sources do not even tell it as one story. They set gods in relation to each other, in “constellations”; full narratives appear much later. And this is not nature worship: rivers and trees are not gods, but divine power is in the flood (Hapy), the sun (Ra), the earth (Geb) and the sky (Nut).",
+      "karnak": "At Karnak: the temple itself retells this story, from the dark water to the first mound.",
+      "citations": [
+        {
+          "sourceId": "ucl-deities-creation",
+          "locator": "Introduction; Before creation; The creator emerges; From Ra to Osiris and Horus"
+        },
+        {
+          "sourceId": "met-divine-egypt",
+          "locator": "Creation: Heliopolis and the Ennead; Ptah at Memphis creating through speech; children of Geb and Nut and funeral roles"
+        }
+      ]
+    },
+    "sun": {
+      "heading": "The sun’s daily journey",
+      "text": "Ra, the sun god, was the supreme god and ruler of all. Every day he is born in the morning, crosses the sky in his boat and at night sails through the underworld, to be born again at dawn. This endless round kept the world in maat, and it also let the dead be reborn.",
+      "phases": [
+        {
+          "id": "dawn",
+          "label": "Morning",
+          "text": "The sun is born on the eastern horizon."
+        },
+        {
+          "id": "day",
+          "label": "Day",
+          "text": "In his boat, Ra crosses the sky, giving warmth and light."
+        },
+        {
+          "id": "dusk",
+          "label": "Evening",
+          "text": "He sinks in the west and enters the world below."
+        },
+        {
+          "id": "night",
+          "label": "Night",
+          "text": "He sails through the underworld. Dangerous forces wait to attack him; gods with the features of cats and snakes defend him."
+        }
+      ],
+      "karnak": "At Karnak: the sign [[akhet]], the sun between two hills, is the horizon where this journey begins every morning.",
+      "citations": [
+        {
+          "sourceId": "met-divine-egypt",
+          "locator": "Ruling the Cosmos: Re’s cycle, rebirth, defenders of Re"
+        },
+        {
+          "sourceId": "ucl-deities-creation",
+          "locator": "With the kingship of Horus: Ra rules from his daily boat journey"
+        }
+      ]
+    },
+    "exchange": {
+      "heading": "The temple: a gift for a gift",
+      "text": "Temple worship was a partnership between people and gods. The king stood with one foot in the world of the gods and one in the world of people. He built the temples and cared for the gods, and in return the gods did good things for him. Almost every scene on Karnak’s walls shows one side of this exchange.",
+      "kingGives": [
+        "Incense",
+        "Water poured out",
+        "Bread and cakes",
+        "Flowers",
+        "Wine or milk",
+        "Ointment",
+        "A figure of Maat"
+      ],
+      "godGives": [
+        "Life, prosperity, health",
+        "Long life and jubilees",
+        "Rule over the lands",
+        "Crowns and sceptres"
+      ],
+      "intro": "Tap one of the king’s gifts, and see what comes back.",
+      "deeper": "Read any wall scene as a sentence: the king, his gift, the god, the god’s gift back. The king usually walks in from outside, facing the god; an altar of offerings stands between them; a vulture, a falcon or a winged sun hovers over him as protection, and its caption too promises him life.",
+      "label": "The caption of a scene names the deal: “giving incense to Amun-Re, so that he may be given life”.",
+      "peopleHeading": "And everyone else?",
+      "people": [
+        {
+          "id": "festival",
+          "label": "At festivals",
+          "text": "When a god left the temple in a portable boat, people along the route could ask for a favour or a blessing."
+        },
+        {
+          "id": "gift",
+          "label": "With a gift",
+          "text": "People could give a statue, a stela or a small figure to bring themselves closer to a god."
+        },
+        {
+          "id": "shrine",
+          "label": "At open shrines",
+          "text": "Some gods, such as Isis with her son Horus, had shrines where anyone could ask for help."
+        },
+        {
+          "id": "home",
+          "label": "At home",
+          "text": "Images of Bes and of hippo goddesses kept harm away from the household."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "memphis-scene-types",
+          "locator": "Temple exchange; classification of offerings; divine benefactions"
+        },
+        {
+          "sourceId": "memphis-scene-structure",
+          "locator": "Label text and divine speeches: “given life”"
+        },
+        {
+          "sourceId": "met-divine-egypt",
+          "locator": "Personal religion: festivals, donated objects, public shrines, Bes and hippo goddesses"
+        }
+      ]
+    },
+    "person": {
+      "heading": "What a person is made of",
+      "text": "The Egyptians had no single word for the soul. A person was several things at once, and each needed care after death. Tap a part.",
+      "parts": [
+        {
+          "id": "body",
+          "label": "Body",
+          "text": "Preserved by embalming. Osiris, revived after death, was the model for every mummy."
+        },
+        {
+          "id": "ka",
+          "label": "Ka",
+          "text": "A person’s double, formed when he or she was made, carrying traits inherited from the father. It could lead you into scrapes: the young were told to work hard, not to “follow the ka”. Tomb offerings were made for the ka, and the word could even mean food offerings."
+        },
+        {
+          "id": "ba",
+          "label": "Ba",
+          "text": "Shown as a bird with a human head. It could fly out of the tomb by day, and returned to the body every night."
+        },
+        {
+          "id": "shadow",
+          "label": "Shadow",
+          "text": "The shut, another part of the person. Rarely drawn: a black silhouette."
+        },
+        {
+          "id": "heart",
+          "label": "Heart",
+          "text": "Weighed at the judgement against the feather of Maat. Nothing else of the person goes on the scale."
+        },
+        {
+          "id": "akh",
+          "label": "Akh",
+          "text": "“The effective one”: the spirit form a dead person could become, with the right offerings and the right spells."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "fitz-soul",
+          "locator": "Ka; Ba; Shadow; Akh"
+        },
+        {
+          "sourceId": "met-divine-egypt",
+          "locator": "Osiris: the prototypical mummified corpse; Anubis embalms"
+        },
+        {
+          "sourceId": "bm-hunefer",
+          "locator": "Curator’s comments: the heart on the scale"
+        }
+      ]
+    },
+    "judgement": {
+      "heading": "The weighing of the heart",
+      "text": "Osiris, ruler of the underworld, stood for overcoming death, and everyone, king or not, hoped to live for ever. Papyri of the Book of the Dead, first found around 1450 BC, show the test on the way. One of the finest belonged to Hunefer, a royal scribe in the time of Sety I, the king whose battle scenes cover the north outer wall of the Great Hypostyle Hall.",
+      "deeper": "Under Osiris’s throne a lotus grows out of a pool, and on it stand the four Sons of Horus. Perhaps, the British Museum suggests, Hunefer, a royal scribe, wrote his own papyrus himself.",
+      "steps": [
+        {
+          "id": "lead",
+          "label": "Anubis leads",
+          "text": "Jackal-headed Anubis leads the dead man to the scales."
+        },
+        {
+          "id": "check",
+          "label": "The balance",
+          "text": "Anubis kneels to adjust the plumb-weight of the balance."
+        },
+        {
+          "id": "weigh",
+          "label": "Heart and feather",
+          "text": "On one pan lies the heart; on the other, the feather of Maat."
+        },
+        {
+          "id": "ammit",
+          "label": "Ammit waits",
+          "text": "Below crouches Ammit, “Devourer of the Damned”: crocodile in front, lion in the middle, hippo behind."
+        },
+        {
+          "id": "thoth",
+          "label": "Thoth writes",
+          "text": "Ibis-headed Thoth records the result with pen and palette."
+        },
+        {
+          "id": "osiris",
+          "label": "Before Osiris",
+          "text": "Horus leads the dead man to Osiris, enthroned with Isis and Nephthys behind him."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "bm-hunefer",
+          "locator": "Curator’s comments: judgement scene, frame 3; titles naming Menmaatra (Sety I)"
+        },
+        {
+          "sourceId": "met-divine-egypt",
+          "locator": "Osiris: rules the underworld, eternal life for king and commoner; Maat’s feather against which every soul is weighed"
+        }
+      ]
+    }
   }
 }

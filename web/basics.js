@@ -271,7 +271,7 @@ function bsCrownsSvg() {
 function bsHead(title, intro) { return `<div class="page-head"><a class="micro" href="#basics">← The Context</a><span class="eyebrow" style="margin-top:18px">The Context</span><h1>${esc(title)}</h1><p>${fmt(intro)}</p></div>`; }
 function bsFig(id, caption) { return media[id] ? simpleFigure(id, caption) : ''; }
 function bsHome() {
-  const f = bsData(); const pic = { plan: 'karnak-aerial-from-south', timeline: 'basics-th1-obelisk', gods: 'basics-amun-mut-dyad', building: 'basics-unfinished-obelisk', thebes: 'basics-sphinx-road', rituals: 'basics-bark-shrine-relief', life: 'basics-bark-shrine-relief', universe: 'hypostyle-central-nave', after: 'basics-description-view' };
+  const f = bsData(); const pic = { plan: 'karnak-aerial-from-south', timeline: 'basics-th1-obelisk', gods: 'basics-amun-mut-dyad', religion: 'own-relief-king-bouquet-falcon-god', building: 'basics-unfinished-obelisk', thebes: 'basics-sphinx-road', rituals: 'basics-bark-shrine-relief', life: 'basics-bark-shrine-relief', universe: 'hypostyle-central-nave', after: 'basics-description-view' };
   return `<div class="page-head"><span class="eyebrow">Background</span><h1>${esc(f.title)}</h1><p>${fmt(f.dek)}</p></div>
   ${bsMap()}<section class="section" style="padding-top:0"><h2 class="bsm-all">All topics</h2><div class="bs-cards">${f.pages.map(p => { const m = media[pic[p.id]]; const g = bsGroupOf(p.id); return `<a class="bs-card" href="${p.link || '#basics/' + p.id}" style="--c:${g ? g.colour : '#b58a4d'}">${m ? `<span class="bs-card-img"><img src="${esc(m.webPath || m.path)}" alt="" loading="lazy"><span class="bs-badge">${bsIcon(p.id)}</span></span>` : ''}<b>${esc(p.title)}</b><span>${esc(p.teaser)}</span></a>`; }).join('')}</div></section>`;
 }
@@ -466,10 +466,11 @@ function bsRituals() {
 function basicsRoute(sub, arg) {
   if (!bsData()) return '<div class="page-head"><h1>This section is not in this build.</h1></div>';
   if (sub === 'plan') return bsPlanPage(arg) + bsRelated('plan');
-  const fn = { timeline: bsTimeline, gods: bsGods, building: bsBuilding, thebes: bsThebes, life: bsRituals, rituals: bsRituals, after: bsAfter }[sub];
+  const fn = { timeline: bsTimeline, gods: bsGods, religion: bsReligion, building: bsBuilding, thebes: bsThebes, life: bsRituals, rituals: bsRituals, after: bsAfter }[sub];
   return fn ? fn() + bsRelated(sub === 'life' ? 'rituals' : sub) : bsHome();
 }
 function basicsAfterRender() {
+  if (typeof religionAfterRender === 'function') religionAfterRender();
   if (document.querySelector('.bp-svg-wrap')) bsRenderPlan();
   if (document.querySelector('.tl2')) bsTimelineWatch();
   document.querySelectorAll('.bs-stepper').forEach(b => bsSetStep(b, 0));
@@ -477,6 +478,7 @@ function basicsAfterRender() {
 }
 function basicsInteract(e) {
   const t = e.target;
+  if (typeof rlInteract === 'function' && rlInteract(e)) return true;
   const bn = t.closest('[data-bsnode]'); if (bn) { bsMapSelect(bn.dataset.bsnode); return true; }
   const mv = t.closest('[data-bp-move]'); if (mv) { bsState.step = Math.max(0, Math.min(bsData().growth.steps.length, bsState.step + +mv.dataset.bpMove)); bsRenderPlan(); return true; }
   const sp = t.closest('[data-bp-step]'); if (sp) { bsState.step = +sp.dataset.bpStep; bsRenderPlan(); if (sp.classList.contains('bp-go')) document.querySelector('.bp-stage')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); return true; }
@@ -555,6 +557,7 @@ const BS_ICONS = {
   building: '<path d="M10 21V5.5L12 2l2 3.5V21M7 21h10M8 17.5h8"/><path d="M5 21l-2.5 1M19 21l2.5 1" opacity=".6"/>',
   rituals: '<path d="M2.5 15c3 3.5 16 3.5 19 0M2.5 15 1.5 11.5M21.5 15l1-3.5M9 14.5V10h6v4.5M12 10V7"/><circle cx="12" cy="5.5" r="1.5"/>',
   thebes: '<path d="M2 18c2-1.5 4 1.5 6 0s4 1.5 6 0 4 1.5 6 0M12 15V6M12 6c-2.5-1-4-3-4.5-4.5M12 6c2.5-1 4-3 4.5-4.5M12 6V2"/>',
+  religion: '<path d="M12 3v18M7 21h10M4 7h16M4 7l-2.5 6h5zM20 7l-2.5 6h5z"/>',
   after: '<path d="M7 21V9.5l2-1.5M11 21v-7M15 21V7l2-1.5V21M3 21h18M9.5 14l3-1.5"/><path d="M13 4.5h4M12.5 3h5" opacity=".6"/>'
 };
 function bsIcon(id, cls = 'bs-ico') { const p = BS_ICONS[id]; return p ? `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true">${p}</svg>` : ''; }
