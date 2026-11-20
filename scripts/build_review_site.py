@@ -17,7 +17,7 @@ import i18n
 LANG='en'
 def read(path):
  data=json.loads(Path(path).read_text(encoding='utf-8'))
- return i18n.localized(path,data) if LANG=='uk' else data
+ return i18n.localized(path,data,LANG) if LANG!='en' else data
 for name in ['index.html','app.js','hall.js','columns.js','read.js','universe.js','basics.js','sitemap.js','styles.css','i18n.js']:
  shutil.copyfile(ROOT/'web'/name,OUT/name)
 import re, unicodedata
@@ -68,31 +68,34 @@ def build_content():
     im=im.convert('RGB');im.thumbnail((1600,1600));im.save(target,quality=88,optimize=True)
   m['webPath']='assets/'+target.name
   with Image.open(target) as im2: m['width'],m['height']=im2.size
-  m['changes'] += (' Копію для сайту пропорційно зменшено до 1600 px і повторно стиснуто в JPEG; редакційного обрізання немає. Картки можуть обрізати зображення; збільште його, щоб побачити повністю.' if LANG=='uk' else ' Review-site copy proportionally resized to at most 1600px and JPEG recompressed; no editorial crop. Card layouts may crop the display; enlarge for the full image.')
+  m['changes'] += RESIZE_NOTE.get(LANG,RESIZE_NOTE['en'])
  return content
+RESIZE_NOTE={'en':' Review-site copy proportionally resized to at most 1600px and JPEG recompressed; no editorial crop. Card layouts may crop the display; enlarge for the full image.',
+ 'uk':' Копію для сайту пропорційно зменшено до 1600 px і повторно стиснуто в JPEG; редакційного обрізання немає. Картки можуть обрізати зображення; збільште його, щоб побачити повністю.',
+ 'nb':' Kopien på nettstedet er forholdsmessig forminsket til høyst 1600 px og komprimert på nytt som JPEG; ingen redaksjonell beskjæring. Kortvisninger kan beskjære bildet; forstørr for å se hele.'}
 content=build_content()
-LANG='uk'
-content_uk=build_content()
+translated={}
+for LANG in i18n.LANGS:
+ translated[LANG]=build_content()
 LANG='en'
 payload=json.dumps(content,ensure_ascii=False)
 (OUT/'data.json').write_text(payload+'\n',encoding='utf-8')
 (OUT/'data.js').write_text('window.KARNAK_DATA='+payload+';\n',encoding='utf-8')
-(OUT/'data-uk.js').write_text('window.KARNAK_DATA='+json.dumps(content_uk,ensure_ascii=False)+';\n',encoding='utf-8')
-ui=ROOT/'content/i18n/uk/ui.json'
-uidict=json.loads(ui.read_text(encoding='utf-8')) if ui.exists() else {}
 # Short translated content strings double as interface phrases (titles reused in links, labels, buttons).
-auto={}
-def pairs(a,b):
+def pairs(a,b,auto):
  if isinstance(a,str) and isinstance(b,str):
   if a!=b and len(a)<=80 and '[[' not in a: auto.setdefault(a.strip(),b.strip())
  elif isinstance(a,list) and isinstance(b,list):
-  for x,y in zip(a,b): pairs(x,y)
+  for x,y in zip(a,b): pairs(x,y,auto)
  elif isinstance(a,dict) and isinstance(b,dict):
   for k in a:
-   if k in b: pairs(a[k],b[k])
-pairs(content,content_uk)
-uidict['auto']=auto
-(OUT/'ui-uk.js').write_text('window.KARNAK_UI_UK='+json.dumps(uidict,ensure_ascii=False)+';\n',encoding='utf-8')
+   if k in b: pairs(a[k],b[k],auto)
+for lg,content_lg in translated.items():
+ (OUT/f'data-{lg}.js').write_text('window.KARNAK_DATA='+json.dumps(content_lg,ensure_ascii=False)+';\n',encoding='utf-8')
+ ui=ROOT/f'content/i18n/{lg}/ui.json'
+ uidict=json.loads(ui.read_text(encoding='utf-8')) if ui.exists() else {}
+ auto={}; pairs(content,content_lg,auto); uidict['auto']=auto
+ (OUT/f'ui-{lg}.js').write_text('window.KARNAK_UI='+json.dumps(uidict,ensure_ascii=False)+';\n',encoding='utf-8')
 stops=sum(len(g.get('stops',[])) for g in content['guides'])
 print(f'Built {len(content["chapters"])} chapters, {len(content["places"])} places, {len(content["guides"])} guide ({stops} stops) and {len(content["media"])} images in {OUT}')
 # Cache-busting: tag each CSS/JS reference with a short content hash so browsers load fresh files after every deploy.
@@ -102,7 +105,7 @@ def _ver(m):
  f=OUT/m.group(2)
  return m.group(0) if not f.exists() else f'{m.group(1)}="{m.group(2)}?v={hashlib.sha1(f.read_bytes()).hexdigest()[:10]}"'
 _html=re.sub(r'(src|href)="([\w.-]+\.(?:js|css))"',_ver,_html)
-for _f in ('data.js','data-uk.js','ui-uk.js'):
+for _f in ['data.js']+[f'{k}-{lg}.js' for lg in i18n.LANGS for k in ('data','ui')]:
  _html=_html.replace('{{'+_f+'}}',f'{_f}?v={hashlib.sha1((OUT/_f).read_bytes()).hexdigest()[:10]}')
 _idx.write_text(_html,encoding='utf-8')
 print(f'Open {OUT/"index.html"} in a browser.')

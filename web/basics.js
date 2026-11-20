@@ -1,4 +1,4 @@
-// "The big picture": background pages with original drawings.
+// "The Context" (route #basics): background pages with original drawings.
 // Content: content/features/basics.json. Drawings are original schematics made for this guide.
 function bsData() { return (D.features || []).find(f => f.id === 'basics'); }
 function bsEra(id) { return (bsData()?.eras || []).find(e => e.id === id) || { colour: '#888', label: id }; }
@@ -12,7 +12,7 @@ const BPYS = (y1, y2, x1, x2, label = '', cx = 197) => BR(x1, y1, cx - 3, y2) + 
 const BDOT = (x, y, r = 2.2) => `<circle class="s" cx="${x}" cy="${y}" r="${r}"/>`;
 function bsHypoCols() { let s = ''; for (let i = 0; i < 6; i++) { const x = 126 + i * 10; s += BDOT(x, -6, 2.6) + BDOT(x, 6, 2.6); } for (let i = 0; i < 9; i++) for (let j = 0; j < 7; j++) { const x = 122 + i * 7, y = 14 + j * 5.5; s += BDOT(x, y, 1.5) + BDOT(x, -y, 1.5); } return s; }
 const BS_GEO = {
-  'mk-temple': () => BR(270, -19, 308, 19, 'fill') + `<text class="bp-lab inv" x="289" y="-2" data-uk="Храм">Senusret I</text><text class="bp-lab inv" x="289" y="6" data-uk="Сенусерта I">temple</text>`,
+  'mk-temple': () => BR(270, -19, 308, 19, 'fill') + `<text class="bp-lab inv" x="289" y="-2" data-uk="Храм" data-nb="Senusret Is">Senusret I</text><text class="bp-lab inv" x="289" y="6" data-uk="Сенусерта I" data-nb="tempel">temple</text>`,
   'white-chapel': () => BR(228, 32, 235, 39, 'fill'),
   'am1-gate': () => BR(204, -22, 209, 22, 'fill'),
   'am1-shrine': () => BR(250, -3, 257, 3, 'fill'),
@@ -268,7 +268,7 @@ function bsCrownsSvg() {
 }
 
 // ---------- Pages ----------
-function bsHead(title, intro) { return `<div class="page-head"><a class="micro" href="#basics">← The big picture</a><span class="eyebrow" style="margin-top:18px">The big picture</span><h1>${esc(title)}</h1><p>${fmt(intro)}</p></div>`; }
+function bsHead(title, intro) { return `<div class="page-head"><a class="micro" href="#basics">← The Context</a><span class="eyebrow" style="margin-top:18px">The Context</span><h1>${esc(title)}</h1><p>${fmt(intro)}</p></div>`; }
 function bsFig(id, caption) { return media[id] ? simpleFigure(id, caption) : ''; }
 function bsHome() {
   const f = bsData(); const pic = { plan: 'karnak-aerial-from-south', timeline: 'basics-th1-obelisk', gods: 'basics-amun-mut-dyad', building: 'basics-unfinished-obelisk', thebes: 'basics-sphinx-road', rituals: 'basics-bark-shrine-relief', life: 'basics-bark-shrine-relief', universe: 'hypostyle-central-nave', after: 'basics-description-view' };
@@ -293,7 +293,7 @@ function bsTimeline() {
 function bsTimelineWatch() {
   const secs = [...document.querySelectorAll('.tl-period')]; if (!secs.length || typeof IntersectionObserver === 'undefined') return;
   const t = bsData().timeline, yr = y => y < 0 ? `${-y} BC` : `AD ${y}`;
-  const range = p => window.KARNAK_LANG === 'uk' ? (p.to < 0 ? `${-p.from}–${-p.to} до н. е.` : `${-p.from} до н. е. – ${p.to} н. е.`) : `${yr(p.from)} – ${yr(p.to)}`;
+  const range = p => window.KARNAK_LANG === 'uk' ? (p.to < 0 ? `${-p.from}–${-p.to} до н. е.` : `${-p.from} до н. е. – ${p.to} н. е.`) : window.KARNAK_LANG === 'nb' ? (p.to < 0 ? `${-p.from}–${-p.to} f.Kr.` : `${-p.from} f.Kr. – ${p.to} e.Kr.`) : `${yr(p.from)} – ${yr(p.to)}`;
   const set = id => { const p = t.periods.find(x => x.id === id); if (!p) return; document.querySelectorAll('.tl-seg').forEach(b => b.classList.toggle('on', b.dataset.tl === id)); const n = document.querySelector('.tl-now'); if (n) n.innerHTML = `<b>${esc(p.label)}</b><span> · ${range(p)}</span>`; };
   set(secs[0].dataset.tl);
   const io = new IntersectionObserver(es => { es.filter(e => e.isIntersecting).forEach(e => set(e.target.dataset.tl)); }, { rootMargin: '-35% 0px -60% 0px' });
@@ -491,7 +491,7 @@ function basicsInput(e) {
   if (e.target.matches('[data-bp-lost]')) { bsState.lost = e.target.checked; bsRenderPlan(); }
 }
 
-// ---------- Connection map (big picture home) and "How this connects" strips ----------
+// ---------- Connection map (Context home) and "How this connects" strips ----------
 const bsMapState = { sel: '' };
 function bsConn() { return bsData()?.connections; }
 function bsPageOf(id) { return bsData().pages.find(p => p.id === id); }
@@ -542,7 +542,7 @@ function bsMapDraw() {
 function bsMapSelect(id) { bsMapState.sel = bsMapState.sel === id ? '' : id; bsMapPanel(); bsMapDraw(); if (bsMapState.sel && innerWidth <= 700) document.querySelector('.bsm-card')?.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
 function bsRelated(id) {
   const ls = bsLinksOf(id); if (!ls.length) return '';
-  return `<section class="section bs-related" style="padding-top:10px"><h2>How this connects</h2><div class="bsr-grid">${ls.map(l => { const p = bsPageOf(l.other), g = bsGroupOf(l.other); return p ? `<a class="bsr-card" href="${bsHrefOf(l.other)}" style="--c:${g.colour}"><span class="bsr-top">${bsIcon(l.other)}<span class="eyebrow">${esc(g.label)}</span></span><b>${esc(p.title)}</b><span>${esc(l.text)}</span></a>` : ''; }).join('')}</div><p class="micro"><a href="#basics" style="text-decoration:underline">See how all the big-picture topics fit together</a></p></section>`;
+  return `<section class="section bs-related" style="padding-top:10px"><h2>How this connects</h2><div class="bsr-grid">${ls.map(l => { const p = bsPageOf(l.other), g = bsGroupOf(l.other); return p ? `<a class="bsr-card" href="${bsHrefOf(l.other)}" style="--c:${g.colour}"><span class="bsr-top">${bsIcon(l.other)}<span class="eyebrow">${esc(g.label)}</span></span><b>${esc(p.title)}</b><span>${esc(l.text)}</span></a>` : ''; }).join('')}</div><p class="micro"><a href="#basics" style="text-decoration:underline">See how all the topics of The Context fit together</a></p></section>`;
 }
 if (typeof window !== 'undefined' && window.addEventListener) window.addEventListener('resize', () => { if (document.querySelector('.bsm')) bsMapDraw(); });
 

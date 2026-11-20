@@ -1,6 +1,6 @@
 # Resume here after a lost chat
 
-Last updated: 2026-11-15. Repository: HelenaIv/karnak-field-guide, branch main.
+Last updated: 2026-11-20. Repository: HelenaIv/karnak-field-guide, branch main.
 
 ## Read first
 
@@ -16,7 +16,7 @@ Last updated: 2026-11-15. Repository: HelenaIv/karnak-field-guide, branch main.
 
 Research and editorial review website in English and Ukrainian, built from `content/` by `python scripts/build_review_site.py` into `dist/`. GitHub Pages publishes the review site for phone preview. WordPress/JetEngine remains the confirmed backend; not built yet.
 
-Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon, Third Pylon, temple core (one article covering the Fourth Pylon to the Middle Kingdom court), Hatshepsut’s obelisks, Akhmenu, contra-temple and eastern temple, Aten temples, southern pylons (Seventh–Tenth), Temple of Khonsu (with Opet and Bab el-Amara), Temple of Ptah, Sacred Lake, Open Air Museum, Osiris chapels and catacombs, Precinct of Mut; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). Big-picture pages: growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
+Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon, Third Pylon, temple core (one article covering the Fourth Pylon to the Middle Kingdom court), Hatshepsut’s obelisks, Akhmenu, contra-temple and eastern temple, Aten temples, southern pylons (Seventh–Tenth), Temple of Khonsu (with Opet and Bab el-Amara), Temple of Ptah, Sacred Lake, Open Air Museum, Osiris chapels and catacombs, Precinct of Mut; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). The Context pages (route `#basics`, formerly "The big picture"): growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
 
 Latest work and decisions are in `docs/logs/` (newest file last). `git log` is the authoritative list of finished work.
 
@@ -55,7 +55,11 @@ Site appgprj_6af75e7bc41481919c50a44465c967a3; deployment appgdep_6af7633c703881
 
 `research/coverage.json` reports per-place chapters/details/media gaps. At this checkpoint, 26 of 35 place records lack a matched acquired image; the illustrated chapters are concentrated in selected areas. This is a review draft, not an illustrated-complete guide.
 
-## Ukrainian version
+## Languages: Ukrainian and Norwegian
+
+- Norwegian (Bokmål, code `nb`) added 2026-11-20: switch EN / УКР / NO, `?lang=nb`. Only the interface is translated so far (`content/i18n/nb/ui.json`); all content text falls back to English. Machine translation by the agent, not yet reviewed by a Norwegian speaker. Translate content with `python scripts/i18n.py --lang nb todo <file>` and `python scripts/i18n_merge.py --lang nb <file>`. Languages are listed in `LANGS` in `scripts/i18n.py`, `web/i18n.js` and the language script in `web/index.html`.
+- Owner rule stays: every English change gets its Ukrainian string in the same commit. New interface strings also get Norwegian; Norwegian content is not required per commit until the owner decides.
+
 
 - The review site has an EN / УКР switch in the header. The choice is remembered in the browser; `?lang=uk` opens the Ukrainian version directly.
 - English content records stay the identity. Ukrainian text lives in `content/i18n/uk/<same path as the English file>` as a flat map of `path -> text` (paths use item ids, e.g. `stops[entrance]/look[0]`). Anything without a translation falls back to English.
