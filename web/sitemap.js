@@ -101,7 +101,14 @@ function smRender() {
   document.querySelectorAll('[data-sm-view]').forEach(b => b.classList.toggle('on', !a && b.dataset.smView === smState.view));
   const card = document.querySelector('.sm-card'), p = records[smState.sel];
   if (card) card.innerHTML = p ? `<span class="sm-n" style="background:${SM_COL[p.area]}">${smNum(p.id)}</span><div><span class="micro">${esc(areaNames[p.area] || '')}</span>${SM_APPROX[p.id] ? ' <span class="micro">· </span><span class="micro">position approximate</span>' : ''}<h3>${esc(p.title)}</h3><p>${esc(p.summary || '')}</p><a class="mu-stop" href="${smHref(p.id)}">${SM_IN[p.id]?.[1] ? 'Open its section in ' + esc(records[SM_IN[p.id][0]].title) + ' →' : 'Open the page →'}</a></div>`
-    : `<p class="micro">${a ? 'Tap a numbered place.' : 'Tap a building or an area on the map.'}</p>`;
+    : a ? smAreaCard(a, ps.filter(p => p.area === a)) : `<p class="micro">Tap a building or an area on the map.</p>`;
+  // A place with no shape on this map (e.g. the precinct of Mut, south of the drawing): say where it is.
+  if (card && p && p.orientation && ![p.id, ...smKids(p.id)].some(k => svg.querySelector(`[data-sm="${k}"]`))) card.querySelector('div')?.insertAdjacentHTML('beforeend', `<div class="micro sm-off"><span>Outside this map.</span> ${esc(p.orientation)}</div>`);
+}
+// Area chosen but no place yet: name the area and list its places, so there is always a next step.
+function smAreaCard(a, list) {
+  const top = list.filter(p => !SM_IN[p.id]);
+  return `<span class="sm-n" style="background:${SM_COL[a]}"></span><div><span class="micro">Area</span><h3>${esc(areaNames[a] || a)}</h3><div class="micro">Tap a number on the map, or choose a place:</div><ul class="sm-arealist">${top.map(p => `<li><button class="sm-item" data-sm-pick="${esc(p.id)}"><span class="sm-n" style="background:${SM_COL[a]}">${smNum(p.id)}</span><b>${esc(p.title)}</b></button></li>`).join('')}</ul></div>`;
 }
 function smPick(id) { const p = records[id]; if (!p) return; smState.sel = id; smState.area = p.area; smRender(); }
 // Small "where is it" map at the top of a place page.

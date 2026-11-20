@@ -767,7 +767,11 @@
   "papyrus bundles": "пучків папірусу",
   "palm trunks": "стовбурів пальм",
   "tent poles": "наметових жердин",
-  "Their unusual shape imitates the poles of a tent.": "Їхня незвична форма наслідує жердини намету."
+  "Their unusual shape imitates the poles of a tent.": "Їхня незвична форма наслідує жердини намету.",
+  "Photos:": "Фото:",
+  "Photo: Helena Ivanova": "Фото: Helena Ivanova",
+  "Tap a number on the map, or choose a place:": "Торкніться номера на мапі або виберіть місце:",
+  "Outside this map.": "Поза межами цієї мапи."
  },
  "patterns": [
   [

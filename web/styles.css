@@ -490,3 +490,54 @@ a.crumb:hover,.crumb-bottom a:hover{border-color:var(--gold);background:#f3ead6}
 .qz-end{text-align:center;padding:20px 0}.qz-score{display:block;font:400 64px/1 Georgia,serif;margin:6px 0 14px}.qz-end p{color:var(--muted);font:17px/1.6 Georgia,serif}.qz-end .qz-btn{margin:10px auto 0}
 @media(max-width:860px){.home-quiz{grid-template-columns:1fr;gap:22px}}
 @media(max-width:720px){.qz-card{padding:22px 20px;min-height:0}.qz-q{font-size:23px}.qz-head p{font-size:16px}.qz-btn{margin-left:0}}
+
+/* Home hero with photos: slideshow behind the title, Egyptian-styled section panel */
+.hero.hero-wow{position:relative;overflow:hidden;background:#2a2418;min-height:680px}
+.hero-slides{position:absolute;inset:0}
+.hw-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.6s ease;transform:scale(1.03)}
+.hw-slide.on{opacity:1;animation:hw-zoom 9s ease-out forwards}
+@keyframes hw-zoom{from{transform:scale(1.03)}to{transform:scale(1.12)}}
+@media(prefers-reduced-motion:reduce){.hw-slide.on{animation:none}.hw-slide{transition:none}}
+.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,24,18,.88) 0%,rgba(17,24,18,.66) 38%,rgba(17,24,18,.2) 66%,rgba(17,24,18,.42) 100%)}
+.hero-wow .hero-copy{position:relative;z-index:1;color:#fffdf8;align-self:center}
+.hero-wow .hero-copy .eyebrow{color:#e2c48f}.hero-wow h1{color:#fffdf8;text-shadow:0 2px 18px rgba(0,0,0,.35)}.hero-wow h1 em{color:#e9c88c}
+.hero-wow .intro{color:#ece6d8}.hero-wow .hero-meta{color:#d6cfbd}
+.hero-cap{margin-top:34px;font-size:10px;line-height:1.5;color:#d6cfbd;max-width:400px;min-height:30px}.hero-cap a{text-decoration:underline}.hero-cap span:first-child{color:#f1ece0}
+.hero-dots{display:flex;gap:7px;margin-top:12px}.hero-dots button{width:26px;height:4px;padding:0;border:0;background:rgba(255,255,255,.35)}.hero-dots button.on{background:#e2c48f}
+/* the panel: painted cornice frieze, gold hieroglyph-style icons */
+.hero-wow .hero-index{position:relative;z-index:1;align-self:center;justify-self:end;width:min(560px,88%);margin:40px 6% 40px 0;padding:0 28px 0;background:rgba(22,34,27,.84);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);border:1px solid rgba(226,196,143,.4);display:block}
+.eg-frieze{height:20px;margin:0 -28px 20px;border-bottom:3px solid #e2c48f;background:repeating-linear-gradient(90deg,#2f5d8a 0 9px,#e2c48f 9px 12px,#a0573b 12px 21px,#e2c48f 21px 24px,#3f7a5e 24px 33px,#e2c48f 33px 36px)}
+.eg-frieze-low{height:8px;margin:18px -28px 0;border-bottom:0;border-top:2px solid #e2c48f}
+.hero-wow .hero-index .eyebrow{color:#e2c48f;margin-bottom:10px}
+.hero-wow .hi-row{grid-template-columns:40px minmax(0,1fr) auto;column-gap:14px;padding:8px 0;border-bottom:1px solid rgba(226,196,143,.18)}
+.hero-wow .hero-index .eyebrow+.hi-row{border-top:1px solid rgba(226,196,143,.18)}
+.hi-ico{grid-row:1/3;width:34px;height:34px;align-self:center;fill:none;stroke:#e2c48f;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;transition:transform .25s}
+.hero-wow .hi-row b{font-size:21px}.hero-wow .hi-text{grid-column:2/4;font-size:11.5px}
+.hero-wow .hi-row:hover .hi-ico{transform:scale(1.12) rotate(-4deg)}
+/* photos on the area cards */
+.areas-photo .area{padding:0 0 22px;justify-content:flex-start;overflow:hidden}
+.areas-photo .area img{aspect-ratio:16/10;margin-bottom:16px;transition:transform .6s}
+.areas-photo .area:hover img{transform:scale(1.05)}
+.areas-photo .area span,.areas-photo .area h3{padding:0 22px}
+.home-credits{margin-top:14px}.home-credits a{text-decoration:underline}
+/* quiz photo */
+.qz-img{margin:-32px -34px 22px}.qz-img img{aspect-ratio:16/7;object-fit:cover}.qz-img .image-credit{margin:6px 34px 0}
+@media(max-width:1000px){.hero-wow .hero-index{width:auto;margin:30px 4% 30px 0;padding:0 20px}.eg-frieze{margin-left:-20px;margin-right:-20px}.hero-wow .hi-row b{font-size:19px}}
+@media(max-width:720px){
+.hero.hero-wow{display:flex;flex-direction:column;min-height:0}
+.hero-shade{background:linear-gradient(180deg,rgba(17,24,18,.72) 0%,rgba(17,24,18,.55) 45%,rgba(17,24,18,.85) 100%)}
+.hero-wow .hero-copy{padding:30px 7% 6px}.hero-cap{margin-top:16px;min-height:0;font-size:9px}.hero-cap span:first-child{display:none}
+.hero-wow .hero-index{width:auto;margin:16px 16px 22px;padding:0 14px 0;display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+.hero-wow .hero-index .eyebrow{grid-column:1/3;margin-bottom:6px}.eg-frieze{grid-column:1/3;margin:0 -14px 14px;height:14px}.eg-frieze-low{margin:12px -14px 0;height:6px}
+.hero-wow .hi-row{grid-template-columns:30px minmax(0,1fr);column-gap:8px;padding:9px 0;align-items:center}
+.hero-wow .hero-index .eyebrow+.hi-row,.hero-wow .hero-index .eyebrow+.hi-row+.hi-row{border-top:1px solid rgba(226,196,143,.18)}
+.hi-ico{grid-row:auto;width:27px;height:27px}.hero-wow .hi-row b{font-size:17px}.hero-wow .hi-go,.hero-wow .hi-text{display:none}
+.qz-img{margin:-22px -20px 18px}.qz-img .image-credit{margin:6px 20px 0}
+.areas-photo .area{min-height:0}.areas-photo .area span,.areas-photo .area h3{padding:0 14px}}
+@media(max-width:380px){.hero-wow .hi-row b{font-size:15.5px}.hi-ico{width:24px;height:24px}}
+
+/* Explore: area card lists the area's places */
+.sm-arealist{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+.sm-arealist .sm-item{width:100%}
+.sm-off{margin-top:8px}
+@media(max-width:860px){.sm-arealist{display:flex;flex-wrap:wrap;gap:2px 14px;margin-top:4px}.sm-arealist .sm-item{width:auto;font-size:13px}.sm-off{margin-top:2px}}

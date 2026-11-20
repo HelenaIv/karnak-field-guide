@@ -767,7 +767,11 @@
   "papyrus bundles": "papyrusbunter",
   "palm trunks": "palmestammer",
   "tent poles": "teltstenger",
-  "Their unusual shape imitates the poles of a tent.": "Den uvanlige formen etterligner teltstenger."
+  "Their unusual shape imitates the poles of a tent.": "Den uvanlige formen etterligner teltstenger.",
+  "Photos:": "Foto:",
+  "Photo: Helena Ivanova": "Foto: Helena Ivanova",
+  "Tap a number on the map, or choose a place:": "Trykk på et nummer på kartet, eller velg et sted:",
+  "Outside this map.": "Utenfor dette kartet."
  },
  "patterns": [
   [
