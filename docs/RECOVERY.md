@@ -1,6 +1,6 @@
 # Resume here after a lost chat
 
-Last updated: 2026-11-20. Repository: HelenaIv/karnak-field-guide, branch main.
+Last updated: 2026-11-21. Repository: HelenaIv/karnak-field-guide, branch main.
 
 ## Read first
 
@@ -16,7 +16,7 @@ Last updated: 2026-11-20. Repository: HelenaIv/karnak-field-guide, branch main.
 
 Research and editorial review website in English and Ukrainian, built from `content/` by `python scripts/build_review_site.py` into `dist/`. GitHub Pages publishes the review site for phone preview. WordPress/JetEngine remains the confirmed backend; not built yet.
 
-Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon, Third Pylon, temple core (one article covering the Fourth Pylon to the Middle Kingdom court), Hatshepsut’s obelisks, Akhmenu, contra-temple and eastern temple, Aten temples, southern pylons (Seventh–Tenth), Temple of Khonsu (with Opet and Bab el-Amara), Temple of Ptah, Sacred Lake, Open Air Museum, Osiris chapels and catacombs, Precinct of Mut; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). The Context pages (route `#basics`, formerly "The big picture"): growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
+Full place guides (with `guide` block in `content/places/*.json`): First Pylon, Great Court, Second Pylon, Third Pylon, temple core (one article covering the Fourth Pylon to the Middle Kingdom court), Hatshepsut’s obelisks, Akhmenu, contra-temple and eastern temple, Aten temples, southern pylons (Seventh–Tenth), Temple of Khonsu (with Opet and Bab el-Amara), Temple of Ptah, Sacred Lake, Open Air Museum, Osiris chapels and catacombs, Precinct of Mut; the Great Hypostyle Hall has its own 14-stop guide (`content/guides/`). The Context pages (route `#basics`, formerly "The big picture"): growth plan, timeline and kings, rituals and festivals, gods, construction, Thebes, life, afterlife. Home page (2026-11-21): first screen lists all eight sections beside the title (no Hall photo or Hall button), then a five-question quiz ("Test your eye", questions in `QUIZ` in `web/app.js`, each answer links to the entry it comes from). Read the walls section. Explore-places interactive map. Gallery includes the owner's own photos (`own-*`).
 
 Latest work and decisions are in `docs/logs/` (newest file last). `git log` is the authoritative list of finished work.
 
